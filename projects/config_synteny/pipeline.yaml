@@ -1,0 +1,29 @@
+# ==============================================================================
+# Pipeline Master Configuration (projects/config_synteny)
+# Dedicated Synteny & Operon Gene-Loss Validation Framework
+# ==============================================================================
+
+# 1. Data Configuration
+data:
+  samples: "./samples.yaml"
+
+# 2. Workflow Modules (Logical Steps & Toggles)
+# Standalone Synteny Validation run mode: Upstream raw read engines disabled.
+modules:
+  preprocess:
+    enable: False
+  assembly:
+    enable: False
+  binning:
+    enable: False
+  abundance:
+    enable: False
+  annotation:
+    enable: False
+  synteny_validation:
+    path: "./synteny_validation.yaml"
+    enable: True
+
+# 3. Global Paths & HPC Environment
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+conda_env_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/"

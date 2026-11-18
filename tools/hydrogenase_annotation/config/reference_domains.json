@@ -1,0 +1,19 @@
+{
+  "version": "round06-independent-HdrC-domain",
+  "domains": [
+    {
+      "reference_id": "NiFe_MvhHdr__HdrC",
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS09180",
+      "source_protein_accession": "WP_238523395.1",
+      "source_sequence_sha256": "800d421bbbb71462593d34db20c58b0448385b748dbbc7cce0eb9dded3f13562",
+      "protein_region_start": 133,
+      "protein_region_end": 317,
+      "region_sequence_sha256": "a5ce4e88e06492715876b3efec2de2fcae1b69f99779f80886dfb3d3d74d30fc",
+      "experimental_accession": "Q50754",
+      "evidence_url": "https://www.uniprot.org/uniprotkb/Q50754/entry",
+      "evidence_scope": "reviewed_185aa_HdrC_exactly_matches_genomic_CDS_C_terminal_region",
+      "review_note": "Retain complete 317-aa genomic translation and coordinates. Use only the independently reviewed HdrC region for module coverage; do not interpret uncovered acidic extension as missing core."
+    }
+  ]
+}

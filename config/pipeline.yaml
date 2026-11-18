@@ -1,0 +1,61 @@
+# ==============================================================================
+# 1. Platform & Runtime Architecture
+# ==============================================================================
+runtime:
+  platform: "config/platforms/slurm.yaml"
+
+# ==============================================================================
+# 2. Data Configuration (Input Samples & External Resources)
+# ==============================================================================
+data:
+  samples: "./samples.yaml"
+
+# ==============================================================================
+# 2. Workflow Modules (Logical Steps & Toggles)
+# ==============================================================================
+modules:
+  preprocess:
+    path: "./preprocess.yaml"
+    enable: True
+  assembly:
+    path: "./assembly.yaml"
+    enable: True
+  binning:
+    path: "./binning.yaml"
+    enable: False
+  annotation:
+    path: "./annotation.yaml"
+    enable: True
+  advanced_analysis:
+    path: "./advanced_analysis.yaml"
+    enable: True
+  hmm_build:
+    path: "./hmm_build.yaml"
+    enable: False
+  plasmid_analysis:
+    path: "./plasmid_analysis.yaml"
+    enable: False
+  abundance:
+    path: "./abundance.yaml"
+    enable: True
+  data_prep:
+    path: "./data_prep.yaml"
+    enable: True
+  phylogeny:
+    path: "./phylogeny.yaml"
+    enable: False
+  visualize:
+    path: "./visualize.yaml"
+    enable: False
+  protein_phylogeny:
+    path: "./protein_phylogeny.yaml"
+    enable: False
+
+
+
+
+# ==============================================================================
+# 3. Global Paths & Environment Setup
+# ==============================================================================
+project_root: ""
+conda_env_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/"

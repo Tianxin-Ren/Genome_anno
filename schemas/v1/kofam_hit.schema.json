@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KofamHitRecord",
+  "description": "Schema for individual strict KO annotation hit in protein_KO_all_strict.tsv.gz",
+  "type": "object",
+  "required": [
+    "protein_id",
+    "gene_id",
+    "genome_id",
+    "ko",
+    "ko_definition",
+    "bitscore",
+    "curated_threshold",
+    "score_type",
+    "evalue",
+    "ko_rank",
+    "score_margin",
+    "is_strict",
+    "pass_type"
+  ],
+  "properties": {
+    "protein_id": {
+      "type": "string",
+      "description": "Canonical protein identifier"
+    },
+    "gene_id": {
+      "type": "string",
+      "description": "Canonical gene identifier"
+    },
+    "genome_id": {
+      "type": "string",
+      "description": "Genome or MAG identifier"
+    },
+    "ko": {
+      "type": "string",
+      "pattern": "^K\\d{5}$",
+      "description": "KEGG Orthology identifier (e.g., K02111)"
+    },
+    "ko_definition": {
+      "type": "string",
+      "description": "Functional description of the KO"
+    },
+    "bitscore": {
+      "type": "number",
+      "minimum": 0.0,
+      "description": "HMMER bit score"
+    },
+    "curated_threshold": {
+      "type": "number",
+      "minimum": 0.0,
+      "description": "Adaptive predefined score threshold from KOfam"
+    },
+    "score_type": {
+      "type": "string",
+      "enum": ["full", "domain"],
+      "description": "KOfam threshold score type"
+    },
+    "evalue": {
+      "type": "number",
+      "minimum": 0.0,
+      "description": "HMMER E-value"
+    },
+    "ko_rank": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Rank of this KO hit among all passing hits for this protein (1 = best score)"
+    },
+    "score_margin": {
+      "type": "number",
+      "description": "Margin or ratio of bitscore over curated threshold (bitscore - curated_threshold)"
+    },
+    "is_strict": {
+      "type": "boolean",
+      "description": "Whether the hit meets 100% of curated threshold (bitscore >= curated_threshold)"
+    },
+    "pass_type": {
+      "type": "string",
+      "enum": ["score_pass", "evalue_fallback"],
+      "description": "Selection basis: score_pass (meets score threshold) or evalue_fallback (best E-value among sub-threshold candidates)"
+    }
+  },
+  "additionalProperties": false
+}

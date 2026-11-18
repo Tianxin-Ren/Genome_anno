@@ -1,0 +1,69 @@
+{
+  "version": "HyfG_coarse_role_homology_v1",
+  "reference_id": "unresolved__ecoli_MG1655_hyfG",
+  "role": "MbhL",
+  "reference_kind_retained": "unresolved",
+  "alias_sequence_sha256": "6cacfdf4a9285237d1f6128830933bd7549de2436bf8d43a7da62ec315d3c591",
+  "source_fasta": "references/raw/round91_Hyf_sources/HyfG_WP_373365828.1.faa",
+  "source_sequence_sha256": "94db413b8c2231c1b23a47c6df5178f9d3e3bf8f7623e849a4741ccd459c6641",
+  "source_genbank": "references/raw/round91_Hyf_sources/NC_004547.2_Pa_SCRI1043.gb",
+  "source_genome_accession": "NC_004547.2",
+  "source_locus": "ECA_RS06145",
+  "source_paper_locus": "ECA1241",
+  "source_accession": "WP_373365828.1",
+  "source_annotation_boundary": "Current 569-aa genomic translation; historical WP_011092831.1 has a nine-residue N-terminal offset and a terminal mismatch. Native gene causality, not a purified sequence-defined construct assay.",
+  "alignment_path": "experiments/round91/Hyf_core_alignment_v1/blast.tsv",
+  "alignment_ids": {
+    "query": "Ec_HyfG",
+    "subject": "Pa_HyfG"
+  },
+  "paired_identity": 80.28933092224231,
+  "paired_alias_coverage": 0.9963963963963964,
+  "paired_source_coverage": 0.9718804920913884,
+  "homologous_Cys_sites": [
+    {
+      "source_position": 241,
+      "alias_position": 243,
+      "source_residue": "C",
+      "alias_residue": "C"
+    },
+    {
+      "source_position": 244,
+      "alias_position": 246,
+      "source_residue": "C",
+      "alias_residue": "C"
+    },
+    {
+      "source_position": 531,
+      "alias_position": 517,
+      "source_residue": "C",
+      "alias_residue": "C"
+    },
+    {
+      "source_position": 534,
+      "alias_position": 520,
+      "source_residue": "C",
+      "alias_residue": "C"
+    }
+  ],
+  "source_files": {
+    "references/raw/round91_Hyf_sources/HyfG_WP_373365828.1.faa": "2412fc8023ba0abe63b80664b636ac7e616bfce30cb983b797f70b531eae0f34",
+    "references/raw/round91_Hyf_sources/NC_004547.2_Pa_SCRI1043.gb": "ddd43052d2454a7a2c6fb0bb7f362e5c5399df62fcaa8bdabeb986cc44af610a",
+    "experiments/round91/Hyf_core_alignment_v1/blast.tsv": "227e050554b3e05c84091213da8a6cb9f28310ccc4eecd938b20414462f5a349",
+    "references/raw/round91_Hyf_sources/PMC7384014_primary.xml": "6e34fe7c83ad2f510e7d51b31cb6f284fd367b47f16a86286a0d732047e3766b",
+    "references/raw/round91_Hyf_sources/PMC7654741_primary.xml": "882b72c01a7a806e18966062a0a545762800aa85e98ebe77e16427811709e50a"
+  },
+  "source_evidence_scope": "P. atrosepticum SCRI1043 native hyfG deletion loses H2 production; formate dependence and maturation-protease complementation support the Hyf catalytic role. No claim of purified HyfG or direct Fd binding.",
+  "allowed_claim": "Homologous Group4 NiFe catalytic-core role only, inside a separately complete and independently supported peripheral redox architecture.",
+  "not_transferred": [
+    "E. coli WT FHL2 activity (undetected in tested strains)",
+    "formate coupling",
+    "ferredoxin obligatoriness",
+    "direction",
+    "physical assembly",
+    "ion coupling",
+    "query activity",
+    "exact Mbh/Hyf lineage"
+  ],
+  "independent_accuracy_credit": 0
+}

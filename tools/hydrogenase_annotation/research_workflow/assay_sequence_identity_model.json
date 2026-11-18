@@ -1,0 +1,34 @@
+{
+  "rule_version": "assay_sequence_identity_v1",
+  "assay_records": [
+    {
+      "assay_id": "CpIII_WT_Cp_pasteurianum",
+      "assay_accession": "WP_003447632.1",
+      "assay_sequence_sha256": "4b2a460403e2e6faf64fcad31c8e76d6b768ed5acc352fc63794849f9ffe5826",
+      "assay_length": 450,
+      "family": "FeFe",
+      "protein_role": "directly_assayed_WT_CpIII_HydA_core",
+      "assay_binding": "experiments/round117_evidence_scope/CpIII_assay_binding.json",
+      "source_record": "references/raw/round117_CpII_sources/CpIII/WP_003447632.gb",
+      "source_record_sha256": "ff9c770d6f4504290c66942ee3aeca3a00c6a0d1ced76d9bcb66feded3570dc0",
+      "binding_sha256": "a5cf08b46af08f93affc4f65fdc35b50988f23047026feeac03f3e77ce5311e7",
+      "domain_accession": "PF02906",
+      "domain_model": "references/raw/reference_domain_review/PF02906.hmm",
+      "domain_model_sha256": "71bb31272b7833cea77c96dae3fc58dddce8e1d7a726f98f0354f8a189fba17e",
+      "domain_min_coverage": 0.8,
+      "domain_min_query_overlap": 0.7,
+      "component_accession": "PF02906.20",
+      "component_profile": "Fe_hyd_lg_C",
+      "component_model_length": 280,
+      "component_ga": 22.1,
+      "scope": "Exact assayed protein-core sequence identity; uncalibrated FeFe H-cluster redox-core potential only."
+    }
+  ],
+  "prototype_bank_sha256": "78fafd89e0d202d90d56d015355a1b5472612d0ba702d50ba6481bcef8ac97ae",
+  "reference_bank": "research_workflow/assay_sequence_identity_reference_bank.json",
+  "reference_bank_sha256": "d54dc40a03118c6ebff5a27701718296f5ced19b9c31351b45eeabf4b6699dec",
+  "threshold_policy": "config/catalytic_confirmation.json",
+  "threshold_policy_sha256": "28b1da390a676b3d90457f3796806eb13cae39c8e10fba2f6ca8941b9fd8fae5",
+  "thresholds": "config/catalytic_confirmation_thresholds.json",
+  "thresholds_sha256": "8518a72e57a805c8ee57689baa9fed2e5f261abe18040123c1ba878bd2b678cd"
+}

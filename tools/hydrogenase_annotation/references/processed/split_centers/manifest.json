@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "policy_sha256": "96f85f67f6a3c069bfa7597d67c82d9270847e019274f458aa2166999df348ae",
+  "center_id": "9SFI__VhuAU_center",
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_coverage": 0.8,
+    "min_window_identity": 25,
+    "site_context_flank": 15,
+    "competitive_bitscore_ratio": 0.9,
+    "max_intergenic_gap_bp": 2500,
+    "max_span_bp": 30000
+  },
+  "files": {
+    "components.faa": "1b4b523e29f7813e52dd517598e7d3b930db328023a8275322dd574334e751a7",
+    "models.json": "63ffbfa889fb140eb951fa6c4788ea32f3b05e271f5f4121870306bceb995a36",
+    "seed.pdb": "242603876194c0e4388b8325a870a1fe06b7a653626546138ed7eef6af0ccd79",
+    "seed.phr": "495bcce2247658f292e6cd549261faf8fde24225a26a6be421cebe3d8cff6a75",
+    "seed.pin": "94226bfbf1b88f2beb71fe87228cf5e2a745503df3b8bf5325b72326fa7d9177",
+    "seed.pjs": "030d81e595daad3abebae6fe94fd9c8c7ffae555b393c09ea1bc846423feb647",
+    "seed.pot": "7b0a91667ad8d58a00256b3e213b31e2ba8604b9db04b58e6fe5c8f1e693acfc",
+    "seed.psq": "1cfb5b5cd1d1440a889bec9732ea504c05970a0623b06a2bb4a7e9377f18eaf9",
+    "seed.ptf": "a4846cf83c6cd188b3fc3f9fa4f1f1d3c33692a85065b54dc1e42095af3e7552",
+    "seed.pto": "0db201e8371010e5cd3b719cf6c131cea86e18ef7c5bdd394e23b352b8e54f9e",
+    "structural_truth.json": "f0b8c19fecaa7c23cb47e08c62fa39c2b57cf2c6432fc8dd82d7ab0e9a005a4b"
+  },
+  "source_files": {
+    "references/raw/round16_split_centers/CP026606.1.gb": {
+      "sha256": "1441fa5bdf07b7bc499275a749e0ce1c182dad079be505782894675f95ade602",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=CP026606.1&rettype=gbwithparts&retmode=text"
+    },
+    "references/raw/round16_split_centers/X61204.1.gb": {
+      "sha256": "a9c3af91b35ca2e4567dd3bf35816763881661456610dac36a4e50d89a883f88",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=X61204.1&rettype=gbwithparts&retmode=text"
+    },
+    "references/raw/round16_split_centers/Mvoltae_vhu.json": {
+      "sha256": "9f87c5f216655ac1ef178cb06f712a468b5b5bd3132b925c2de59656ddc957d2",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene%3AvhuA+OR+gene%3AvhuU%29+AND+organism_name%3A%22Methanococcus+voltae%22&format=json&size=100"
+    },
+    "references/raw/round16_split_centers/A0A2L1CAX5.json": {
+      "sha256": "69771cae9a6591813a23d5f73435a2c5ebf89ff62873676778a551202f92163c",
+      "url": "https://rest.uniprot.org/uniprotkb/A0A2L1CAX5.json"
+    },
+    "references/raw/round16_split_centers/A0A2L1CB29.json": {
+      "sha256": "851b80d45a5dcf32bad3bc1b8df977c4dc091cdc65a35954abb347837ecad3e4",
+      "url": "https://rest.uniprot.org/uniprotkb/A0A2L1CB29.json"
+    },
+    "references/raw/round15_partner_sources/9SFI.cif": {
+      "sha256": "7c09fe443e829f9f1f9008cc6653d7c4575a33a14079a7d7cf206829577f23ec",
+      "url": "https://files.rcsb.org/download/9SFI.cif"
+    }
+  },
+  "scope": "Source-reviewed multi-polypeptide NiFe ligand mapping only. No automatic catalytic identity promotion, full complex completion, donor mechanism, occupancy or query activity proof."
+}

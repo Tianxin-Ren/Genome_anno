@@ -1,0 +1,83 @@
+{
+  "version": "NiFe-large-core-functional-equivalence-v1",
+  "rows": [
+    {
+      "reference_id": "NiFe_HyhNADPH__SHI_alpha",
+      "sequence_sha256": "8f131e568619ac36d1affb48d35f4404913b5af1305e08fe587b2f1cdc527e5d",
+      "structure_entity": "9NEZ__entity_4",
+      "source_sha256": "49d7598d787aad27740e9b36dceabb62de54f7db6fe5465090532f76d232d20b",
+      "direct_ligand_positions": [
+        65,
+        68,
+        418,
+        421
+      ],
+      "structural_correspondence": {
+        "reference_id": "NiFe_HyhNADPH__SHI_alpha",
+        "protein_accession": "WP_011012029.1",
+        "sequence_sha256": "8f131e568619ac36d1affb48d35f4404913b5af1305e08fe587b2f1cdc527e5d",
+        "status": "reviewed_exact_experimental_structure_sequence",
+        "structure_entity": "9NEZ__entity_4",
+        "structure_description": "Sulfhydrogenase 1 subunit alpha",
+        "source_url": "https://www.rcsb.org/structure/9NEZ",
+        "source_sha256": "49d7598d787aad27740e9b36dceabb62de54f7db6fe5465090532f76d232d20b",
+        "structure_sequence_sha256": "8f131e568619ac36d1affb48d35f4404913b5af1305e08fe587b2f1cdc527e5d",
+        "query_start": 1,
+        "query_end": 428,
+        "structure_start": 1,
+        "structure_end": 428,
+        "identity": 100.0,
+        "query_coverage": 1.0,
+        "structure_coverage": 1.0,
+        "review_note": "Exact sequence mapped to the deposited experimental complex chain; chain role and primary complex context agree. This supports the reference fold/subunit identity, not a query reaction, kinetic property or physiological role.",
+        "kind_policy": "Retain original kind catalytic; unresolved/background records never become enabled reaction references from structure matching alone.",
+        "citation_DOI": [
+          "10.1016/j.str.2025.05.017"
+        ],
+        "coverage_scope": "near_complete_sequence"
+      },
+      "allowed_role": "NiFe_catalytic_large_core_only",
+      "scope": "Same catalytic core role; no pyridine/F420 selectivity, electron partner, net direction or query activity transfer."
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhA",
+      "sequence_sha256": "6606903828006b9d27a94784c777429edc82a12e0ca657092810e8778f398775",
+      "structure_entity": "4CI0__entity_1",
+      "source_sha256": "4816d44c6c92b0e8344c4b27b82972e977ad2fe4375e711833596a5b06034ff4",
+      "direct_ligand_positions": [
+        63,
+        66,
+        380,
+        383
+      ],
+      "structural_correspondence": {
+        "reference_id": "NiFe_FrhABG__FrhA",
+        "protein_accession": "WP_013296467.1",
+        "sequence_sha256": "6606903828006b9d27a94784c777429edc82a12e0ca657092810e8778f398775",
+        "status": "reviewed_exact_experimental_structure_sequence",
+        "structure_entity": "4CI0__entity_1",
+        "structure_description": "F420-REDUCING HYDROGENASE, SUBUNIT ALPHA",
+        "source_url": "https://www.rcsb.org/structure/4CI0",
+        "source_sha256": "4816d44c6c92b0e8344c4b27b82972e977ad2fe4375e711833596a5b06034ff4",
+        "structure_sequence_sha256": "5ac38eb565aae91fef22d20f3d31c3281a2b70a9052a8f164fb1af0f5babebfb",
+        "query_start": 1,
+        "query_end": 386,
+        "structure_start": 1,
+        "structure_end": 386,
+        "identity": 100.0,
+        "query_coverage": 0.9530864197530864,
+        "structure_coverage": 1.0,
+        "review_note": "Exact sequence mapped to the deposited experimental complex chain; chain role and primary complex context agree. This supports the reference fold/subunit identity, not a query reaction, kinetic property or physiological role.",
+        "kind_policy": "Retain original kind catalytic; unresolved/background records never become enabled reaction references from structure matching alone.",
+        "citation_DOI": [
+          "10.7554/ELIFE.01963"
+        ],
+        "coverage_scope": "near_complete_sequence"
+      },
+      "allowed_role": "NiFe_catalytic_large_core_only",
+      "scope": "Same catalytic core role; no pyridine/F420 selectivity, electron partner, net direction or query activity transfer."
+    }
+  ],
+  "reference_metadata_sha256": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+  "role_scope": "Only same-role comparisons in an independently supported NiFe large/small core projection. Not a new catalytic identity classifier or reference-reaction rule."
+}

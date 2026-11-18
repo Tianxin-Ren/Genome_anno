@@ -1,0 +1,20 @@
+{
+  "rule_version": "FeFe-PF02906-profile-ligand-pattern-v1",
+  "family": "FeFe",
+  "profile": "PF02906",
+  "hmm_path": "references/processed/distilled_models/PF02906.hmm",
+  "hmm_sha256": "71bb31272b7833cea77c96dae3fc58dddce8e1d7a726f98f0354f8a189fba17e",
+  "reference_model_path": "references/processed/active_centers/models.json",
+  "reference_model_file_sha256": "60f2f3b8d2322315e65a9f675a8210405f6f9c742220aba8e73dcb8623b973fc",
+  "reference_id": "1FEH__entity_1",
+  "reference_model_sha256": "f3d7496007989185aac27ed99aca88f35414d63263e23a333a4c641a6a5b197c",
+  "reference_positions": [300, 355, 499, 503],
+  "expected_match_columns": [77, 130, 272, 276],
+  "expected_residues": ["C", "C", "C", "C"],
+  "official_sequence_ga": 22.1,
+  "official_domain_ga": 22.1,
+  "required_posterior": "*",
+  "min_domain_coverage": 0.8,
+  "min_query_core_overlap": 0.7,
+  "scope": "profile-aligned ligand-pattern evidence only; no activity, FeS occupancy, electron-transfer, or physiological claim"
+}

@@ -1,0 +1,55 @@
+{
+  "version": "round10-existing-seeds-and-four-frozen-development-identity-seeds",
+  "profiles": [
+    {
+      "name": "NiFe_Group4",
+      "family": "NiFe",
+      "alignment_occupancy": 0.6,
+      "reference_ids": [
+        "NiFe_FHL1_Hyc__HycE",
+        "NiFe_EchABCDEF__EchE",
+        "NiFe_Pf_Mbh__MbhL",
+        "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_catalytic",
+        "NiFe_Coo_CODH__CooH",
+        "unresolved__ecoli_MG1655_hyfG"
+      ],
+      "evidence": "https://www.nature.com/articles/srep34212",
+      "scope": "Branch core discovery model; does not distinguish active NiFe enzymes from Nuo/Mbx homologs. Hyf is a discovery seed without enabled function. T. kivui and future independent test sequences are excluded."
+    },
+    {
+      "name": "FeFe_diverse_core",
+      "family": "FeFe",
+      "alignment_occupancy": 0.6,
+      "reference_ids": [
+        "FeFe_CpI_monomer__CpI",
+        "discovery__seq_00555cc77b0972482453",
+        "discovery__seq_0ab62f02173baefb5ba4",
+        "discovery__seq_03869fdae62bcab1158a",
+        "discovery__seq_05bad5a4003ded7db7e9"
+      ],
+      "reference_core": {
+        "reference_id": "FeFe_CpI_monomer__CpI",
+        "sequence_sha256": "256e5d85a0e3cf8376fd1dc8a91c8809f4eebe00217ef1b458d5f6c3f729cc8b",
+        "start": 285,
+        "end": 518,
+        "required_positions": {
+          "300": "C",
+          "355": "C",
+          "499": "C",
+          "503": "C"
+        },
+        "source": "https://www.rcsb.org/structure/1FEH",
+        "source_site_id": "1FEH__C_581_SF4",
+        "source_sha256": "f3d7496007989185aac27ed99aca88f35414d63263e23a333a4c641a6a5b197c",
+        "scope": "H-cluster ligand span plus 15-residue flanks; discovery core, not complete H-domain or activity proof",
+        "source_file": "references/raw/structures/1FEH.cif"
+      },
+      "development_seed_manifest": {
+        "path": "references/discovery_training/round10_fefe_development.json",
+        "sha256": "07c5f503874cb10dbc452762b081086069f9087d00e2df47d3bdb4b061821eaf"
+      },
+      "evidence": "https://www.rcsb.org/structure/1FEH",
+      "scope": "Discovery core from one existing experimental CpI and four frozen development C1/C3 identity seeds. No sensory function, full H-domain integrity or activity inferred; calibration/final sequences excluded."
+    }
+  ]
+}

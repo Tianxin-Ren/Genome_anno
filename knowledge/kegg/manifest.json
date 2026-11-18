@@ -1,0 +1,9 @@
+{
+  "database": "KEGG MODULE Complete Knowledge Repository",
+  "version": "2026-09",
+  "source_release": "KEGG Release 115.0+ (Live API)",
+  "curation_focus": "Complete official KEGG Modules including all Carbohydrate, Energy, Amino acid, Lipid, Nucleotide, Cofactor/vitamin metabolism, and Signature complexes",
+  "catalog_file": "knowledge/kegg/all_kegg_modules.tsv",
+  "total_curated_modules": 574,
+  "last_updated": "2026-09-11"
+}

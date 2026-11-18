@@ -1,0 +1,81 @@
+[
+  {
+    "structure_id": "NiFe_Amobile_HydABCSL",
+    "sample": "CP003198",
+    "center": "NiFe",
+    "reference_clade": "NiFe HydABCSL experimental reference; subgroup not assigned",
+    "catalytic_role": "HydL",
+    "local": {
+      "HydL": "Anamo_1675",
+      "HydS": "Anamo_1676",
+      "HydA_ET_not_H_cluster": "Anamo_1677",
+      "HydB": "Anamo_1678",
+      "HydC": "Anamo_1681"
+    },
+    "remote": {},
+    "context": {},
+    "function_ids": [],
+    "reference_function_records": [],
+    "reference_contract_ids": [
+      "Ref_Amobile_HydABCSL_oxidation",
+      "Ref_Amobile_HydABCSL_evolution"
+    ],
+    "direct_partner": "NAD(H) and ferredoxin",
+    "mechanism": "Reference H2 oxidation coupled to NAD+ and ferredoxin reduction; reverse coupled donor reaction measured",
+    "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8880783/",
+    "reference_small_subunit_topology": "not_assigned_by_structure_extension; independent_FeS_mapping_required",
+    "reference_energy_coupling": "unresolved"
+  },
+  {
+    "structure_id": "FeFe_Sfructo_HndABCD",
+    "sample": "U07229",
+    "center": "FeFe",
+    "reference_clade": "FeFe HndABCD experimental reference; grouping remains separate",
+    "catalytic_role": "HndD",
+    "local": {
+      "HndA": "AAA87054.1",
+      "HndB": "AAA87055.1",
+      "HndC": "AAA87056.1",
+      "HndD": "AAA87057.1"
+    },
+    "remote": {},
+    "context": {},
+    "function_ids": [],
+    "reference_function_records": [],
+    "reference_contract_ids": [
+      "Ref_Sfructo_Hnd_oxidation"
+    ],
+    "direct_partner": "NAD(H) and ferredoxin",
+    "mechanism": "Reference purified H2-dependent simultaneous NAD+ and FdxB reduction",
+    "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820892/",
+    "reference_small_subunit_topology": "not_assigned_by_structure_extension; independent_FeS_mapping_required",
+    "reference_energy_coupling": "unresolved"
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "sample": "CP012369",
+    "center": "FeFe",
+    "reference_clade": "FeFe six-subunit HydABCDEF experimental reference; HydDB subgroup not inferred",
+    "catalytic_role": "HydA",
+    "local": {
+      "HydA": "MOTHE_c19180",
+      "HydD": "MOTHE_c19190",
+      "HydE": "MOTHE_c19200",
+      "HydC": "MOTHE_c19210",
+      "HydB": "MOTHE_c19220",
+      "HydF": "MOTHE_c19230"
+    },
+    "remote": {},
+    "context": {},
+    "function_ids": [],
+    "reference_function_records": [],
+    "reference_contract_ids": [
+      "Ref_Mthermo_HydABCDEF_NADP_oxidation"
+    ],
+    "direct_partner": "NADP+; ferredoxin not required in the reference assay",
+    "mechanism": "Reference H2-dependent NADP+ reduction; NAD and ferredoxin not reduced in the assayed conditions; no electron bifurcation observed",
+    "evidence_url": "https://doi.org/10.1111/febs.16989",
+    "reference_small_subunit_topology": "not_assigned_by_structure_extension; independent_FeS_mapping_required",
+    "reference_energy_coupling": "unresolved"
+  }
+]

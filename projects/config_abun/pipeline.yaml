@@ -1,0 +1,41 @@
+# ==============================================================================
+# Pipeline Configuration (Abundance Module Standalone Mode)
+# ==============================================================================
+
+# 1. Data Configuration (Input Samples & External Resources)
+data:
+  samples: "./samples_four_site.yaml"
+
+# 2. Workflow Modules (Logical Steps & Toggles)
+# Only abundance module is enabled, other upstream/downstream steps are bypassed.
+modules:
+  preprocess:
+    enable: False
+  assembly:
+    enable: False
+  binning:
+    enable: False
+  annotation:
+    path: "./annotation.yaml"
+    enable: False
+  advanced_analysis:
+    enable: False
+  hmm_build:
+    enable: False
+  plasmid_analysis:
+    enable: False
+  abundance:
+    path: "./abundance.yaml"
+    enable: True
+  data_prep:
+    enable: False
+  phylogeny:
+    enable: False
+  visualize:
+    enable: False
+  protein_phylogeny:
+    enable: False
+
+# 3. Global Paths & Environment Setup
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+conda_env_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/"

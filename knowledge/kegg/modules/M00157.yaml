@@ -1,0 +1,15 @@
+module_id: "M00157"
+name: "F-type ATP synthase, prokaryotes"
+category: "Energy metabolism"
+subcategory: "ATP synthesis"
+definition: "(K02111+K02112+K02113+K02114+K02115) (K02108+K02109+K02110)"
+key_kos:
+  - "K02111" # AtpA (alpha)
+  - "K02112" # AtpB (beta)
+  - "K02113" # AtpC (gamma)
+  - "K02114" # AtpD (delta)
+  - "K02115" # AtpE (epsilon)
+  - "K02108" # AtpF (a)
+  - "K02109" # AtpG (b)
+  - "K02110" # AtpH (c)
+description: "Classical F-type ATP synthase operating in bacteria and mitochondria."

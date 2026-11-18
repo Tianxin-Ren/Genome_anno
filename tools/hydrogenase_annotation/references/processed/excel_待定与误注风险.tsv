@@ -1,0 +1,19 @@
+对象	已知结构与邻域线索	尚未证实的步骤	推荐标注	推荐后续验证	证据URL
+NiFe 1e / Isp-type	HynSL + isp1/isp2等膜外电子转运；硫还原微生物	不同物种电子流与反应方向的可移植性	NiFe-1e/Isp-like；终端受体待核实	查Isp1/2及硫还原酶并进行体外电子供受体试验	https://www.hyddb.net/browser/class/nife-group-1e/
+NiFe 1f（氧保护候选）	1f大亚基和保守小亚基	原生生理电子受体及具体活性未定	NiFe-1f，功能未定	不要据分类分配ROS清除反应	https://www.hyddb.net/browser/class/nife-group-1f/
+NiFe 1g（高温/硫代谢候选）	1g催化系统及isp样邻域	不同体系是否专一支持硫还原	NiFe-1g-like，需物种验证	结合实测硫还原、蛋白共纯化	https://www.hyddb.net/browser/class/nife-group-1g/
+NiFe 1i/1j（谱系级）	大亚基可系统发育归类	电子供受体及是否有统一特定功能	保留HydDB分组，功能留空	做参考系统基因邻域及实验梳理	https://www.nature.com/articles/srep34212
+NiFe 2c/2d/2e	Group2其他相邻分支	与1/2a/2b的生理功能不能直接互推	仅标注大亚基分组	明确局部结构、受体和实测环境	https://www.nature.com/articles/srep34212
+NiFe 3a-like Thermococci	FrhA/G/B类似，但宿主缺F₄₂₀	实际电子受体可能不是F420	Group3a-like；F420功能未确认	确认F420合成基因及纯化电子受体	https://www.hyddb.net/browser/class/nife-group-3a/
+NiFe 4a / Hyf型FHL2	HyfG/I + HyfB/C + HyfD/E/F等额外膜模块	净离子泵送及活跃生理条件未普适确定	Hyf/FHL2候选（区别Hyc FHL1）	表达/敲除+离子流实验	https://www.hyddb.net/browser/class/nife-group-4a/
+NiFe 4f/4g能量转换型	Ech/MBH相近膜模块，Nuo-like	直接电子伙伴、能量耦联与活性缺少通用实证	NiFe-4f/4g putative	纯化膜复合体并检测H2/Fd与离子流	https://pmc.ncbi.nlm.nih.gov/articles/PMC11636919/
+NiFe 4h / Eha	EhaO+EhaN+EhaP/Q+~20膜亚基	Fd还原由遗传/代谢模型强支持，但纯化与离子计量不足	Eha-like；Fd还原/无机离子驱动为高可信模型	参考系统敲除/蛋白纯化/受体测定	https://www.hyddb.net/browser/class/nife-group-4h/
+NiFe 4i / Ehb	EhbN+EhbM+EhbK/L+~17亚基	合成代谢作用有遗传支持，直接反应/离子计量尚缺少纯化证据	Ehb-like；合成代谢Fd供应候选	查看缺失株+生物合成需求，追踪电子传递	https://www.hyddb.net/browser/class/nife-group-4i/
+FeFe A2	FeFe催化核心伴复杂融合区域	直接电子受体/功能缺乏充分实验确定	FeFe A2，功能未定	参考树、邻域和体外测定	https://www.hyddb.net/browser/class/fefe-group-a2/
+FeFe Group B	H-cluster同源催化蛋白	真实生化反应与生理功能多未确定	FeFe B-like（不要直接指定产氢）	关键氨基酸+成熟能力+实验	https://www.hyddb.net/browser/class/fefe-group-b/
+FeFe C1/C2/C3	一些成员有感应域、调节域	是否真实H₂信号蛋白及机制未全部建立	FeFe C putative sensory	检测感应结构域、转录反应、蛋白活性	https://www.nature.com/articles/srep34212
+HmdII及Hmd-like同源物	序列与Hmd相似但可缺活性关键残基	是否能进行methenyl-H4MPT氢化	Hmd-like，活性未证实	活性位点+FeGP结合+体外反应	https://pmc.ncbi.nlm.nih.gov/articles/PMC7460606/
+Nuo/Nqo/Ehr 等复杂体I同源物	NiFe Group4相关结构模块及FeS	缺乏NiFe活性中心时并非真正氢化酶	complex-I-like非氢化酶，不算H₂反应	检查金属催化配位残基，排除假阳性	https://pmc.ncbi.nlm.nih.gov/articles/PMC11636919/
+只检出hyp/hydE/F/G	NiFe/FeFe通用成熟因子	没有催化氢化酶可用性的证据	maturation-only，不能计数氢化酶	必需检测催化大亚基/H-cluster核心蛋白	https://www.nature.com/articles/srep34212/
+仅检出HydA/HydB/HydC三基因	亚基数量近似FeFe A3	可能是Fd共依赖电子汇合，也可能是NADH-only	FeFe multimeric，不直接标注bifurcation	核对HydB N端[2Fe2S]与C端[4Fe4S]，必要时实测	https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/
+KO K06281单独命中	KEGG hyaB/hybC 大亚基同KO	是否1c可逆Hyb或1d氧耐受Hya	NiFe large-subunit homolog only	用大亚基树+HybA/B vs HyaC及特殊FeS位点	https://www.kegg.jp/entry/K06281

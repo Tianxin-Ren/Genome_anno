@@ -1,0 +1,21 @@
+{
+  "snapshot_date": "2026-09-20",
+  "kegg_release": "KEGG Release 115.0+ (Live REST API)",
+  "provenance_url": "http://rest.kegg.jp",
+  "counts": {
+    "total_official_modules": 574,
+    "total_pathways": 587,
+    "total_pathway_kos": 14804,
+    "total_brite_records": 67690,
+    "total_unique_brite_kos": 28501,
+    "total_specialized_brite_kos": 2756,
+    "total_kos_in_09190": 3811,
+    "total_kegg_kos": 28301
+  },
+  "sha256": {
+    "all_kegg_modules.tsv": "bfa35d230a1d4a52d3f5614d47a26a431c7a516f50bdae2b2b0b95b0adacb11d",
+    "all_kegg_pathways.tsv": "27b22a4364c9ceaa02e856401bf700c20ed049efe44d53f190745b18e5853b69",
+    "pathway_ko_reaction.tsv": "8eb06a1ffc8ac3ea7fbd2035c4f013abee8773c7363791b4690c5f06b88bd626",
+    "ko_hierarchy_membership.tsv": "9f2cdcc06473b0ecbe0c8b25493ea88238334147f6974523648422bf4569aada"
+  }
+}

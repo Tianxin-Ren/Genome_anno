@@ -1,0 +1,119 @@
+# Data Preparation Module Configuration
+data_prep:
+  enable: True
+
+  # Maximum concurrent NCBI download connections (default: 5)
+  # Prevents NCBI API gateway 429/504 timeouts caused by aggressive parallel downloads.
+  ncbi_conn: 5
+
+  # Optional: NCBI API Key (leave commented/empty to use environment variable NCBI_API_KEY)
+  # ncbi_api_key: ""
+  
+  # Define data preparation tasks (task names will be used for output directories)
+  # Outputs will be saved to results/data_prep/<task_name>/genomes/
+  tasks:
+    # ------------------------------------------------------------------------
+    # 旧配置暂时保留，已注释；如需恢复，取消对应任务的注释即可。
+    # 1. 所有古菌：下载基因组序列并保留元数据
+    # "archaea_all":
+    #   gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+    #   filter_query: "gtdb_taxonomy.str.startswith('d__Archaea')"
+    #   download: True
+    #   chunk_size: 100
+
+    # 2. 仅高质量古菌 (CheckM 完整度 >= 90.0 且污染度 <= 5.0)
+    # "archaea_high_quality":
+    #   gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+    #   filter_query: "checkm_completeness >= 90.0 and checkm_contamination <= 5.0"
+    #   download: False
+    #   chunk_size: 100
+
+    # 3. 仅中质量古菌 (完整度 >= 50.0 且污染度 <= 10.0，并排除高质量)
+    # "archaea_medium_quality":
+    #   gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+    #   filter_query: "checkm_completeness >= 50.0 and checkm_contamination <= 10.0 and not (checkm_completeness >= 90.0 and checkm_contamination <= 5.0)"
+    #   download: False
+    #   chunk_size: 100
+
+    # 4. 仅 representative 古菌
+    # "archaea_representative":
+    #   gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+    #   filter_query: "gtdb_representative == 't'"
+    #   download: False
+    #   chunk_size: 100
+
+    # 5. 仅非 representative 古菌
+    # "archaea_non_representative":
+    #   gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+    #   filter_query: "gtdb_representative != 't'"
+    #   download: False
+    #   chunk_size: 100
+
+    
+
+    # ------------------------------------------------------------------------
+    # 当前配置：筛选细菌和古菌的培养来源基因组，仅生成 metadata 和 accession chunks。
+    # 排除 GTDB 标记为 metagenome、single cell 或 environmental 的记录，
+    # 并使用 CheckM2 完整度/污染度和 NCBI 组装级别进行质量筛选。
+    "bacteria_pure_culture_filter":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+      #filter_query: "gtdb_taxonomy.str.startswith('d__Bacteria') and ~ncbi_genome_category.str.contains('metagenome|single cell|environmental', case=False, na=False)"
+      filter_query: "gtdb_taxonomy.str.startswith('d__Bacteria') and ~ncbi_genome_category.str.contains('metagenome|single cell|environmental', case=False, na=False) and checkm2_completeness >= 85.0 and checkm2_contamination <= 10.0 and ncbi_assembly_level.str.lower().isin(['complete', 'complete genome', 'chromosome'])"
+      download: True
+      chunk_size: 100
+
+
+
+      
+
+    "archaea_pure_culture_filter":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+      #filter_query: "gtdb_taxonomy.str.startswith('d__Archaea') and ~ncbi_genome_category.str.contains('metagenome|single cell|environmental', case=False, na=False)"
+      filter_query: "gtdb_taxonomy.str.startswith('d__Archaea') and ~ncbi_genome_category.str.contains('metagenome|single cell|environmental', case=False, na=False) and checkm2_completeness >= 85.0 and checkm2_contamination <= 10.0 and ncbi_assembly_level.str.lower().isin(['complete', 'complete genome', 'chromosome'])"
+      download: False
+      chunk_size: 100
+
+    # Direct accession-list download. The accession file is deduplicated and
+    # matched against the GTDB metadata before the existing download rules run.
+    # "bacteria_selected":
+    #   gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+    #   accession_file: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/pure_culture_bac_arc/selected_strains/selected_genomes.tsv"
+    #   filter_query: ""
+    #   download: True
+    #   chunk_size: 100
+
+    # Target genera: CheckM2 completeness >85 and contamination <10.
+    "halorubrum_quality_download":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+      filter_query: "gtdb_taxonomy.str.contains('(?:^|;)g__Halorubrum(?:;|$)', regex=True) and checkm2_completeness > 85.0 and checkm2_contamination < 10.0"
+      download: True
+      chunk_size: 100
+
+    "pseudomonas_quality_download":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+      filter_query: "gtdb_taxonomy.str.contains('(?:^|;)g__Pseudomonas(?:;|$)', regex=True) and checkm2_completeness > 85.0 and checkm2_contamination < 10.0"
+      download: True
+      chunk_size: 100
+
+    "alteromonas_quality_download":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+      filter_query: "gtdb_taxonomy.str.contains('(?:^|;)g__Alteromonas(?:;|$)', regex=True) and checkm2_completeness > 85.0 and checkm2_contamination < 10.0"
+      download: True
+      chunk_size: 100
+
+    "caballeronia_quality_download":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+      filter_query: "gtdb_taxonomy.str.contains('(?:^|;)g__Caballeronia(?:;|$)', regex=True) and checkm2_completeness > 85.0 and checkm2_contamination < 10.0"
+      download: True
+      chunk_size: 100
+
+    "bacillus_a_quality_download":
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+      filter_query: "gtdb_taxonomy.str.contains('(?:^|;)g__Bacillus_A(?:;|$)', regex=True) and checkm2_completeness > 85.0 and checkm2_contamination < 10.0"
+      download: True
+      chunk_size: 100
+  
+  # Environments
+  conda_envs:
+    # Environment containing ncbi-datasets-cli and pandas
+    datasets_cli: "ncbi-datasets-cli_18.26.0"

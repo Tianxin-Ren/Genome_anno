@@ -1,0 +1,13 @@
+# Downstream integration for the large batch HMM annotation.
+postprocess:
+  tasks:
+    bathyarchaeia_gtdb_all:
+      # Consume the batch-level table produced by the annotation module.
+      annotation_batch: "bathyarchaeia_gtdb_all"
+
+      # KEGG map00190 gene-to-KO table used by the historical map_gene_counts.py
+      # integration. Relative paths are resolved below project_root.
+      gene_map: "results/data_prep/map00190_kos.tsv"
+
+      # Produce both the gene-copy matrix and the historical OXPHOS evaluation.
+      evaluate_oxphos: True

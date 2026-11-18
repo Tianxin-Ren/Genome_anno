@@ -1,0 +1,15 @@
+# Plasmid & Mobile Genetic Elements (MGE) Module Configuration (config_lr)
+plasmid_analysis:
+  enable: True
+  input_dir: "results/assembly"
+  pattern: "{sample}/long_read/myloasm/{sample}/{sample}.myloasm.fa"
+
+  genomad:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/genomad/genomad_db"
+    min_score: 0.7
+    threads: 8
+
+  conda_envs:
+    genomad: "genomad_1.12.0"
+    mob_suite: "/Users/rentianxin/Documents/Mac_FN/research/OSMA_9/data/merged_mag_qc_tax_simplified.ar_srg.tsv"
+    utils: "bio"

@@ -1,0 +1,15 @@
+module_id: "M00567"
+name: "Methanogenesis, CO2 -> methane"
+category: "Energy metabolism"
+subcategory: "Methane metabolism"
+definition: "(K00200+K00201+K00202+K00203+K00205,K00204) K00672 (K01499,K00320) (K00577+K00578+K00579+K00580+K00581) (K00399+K00401+K00402) (K03388+K03389+K03390)"
+key_kos:
+  - "K00200" # fwdA
+  - "K00672" # ftr
+  - "K01499" # mch
+  - "K00577" # mtd
+  - "K00399" # mcrA
+  - "K00401" # mcrB
+  - "K00402" # mcrG
+  - "K03388" # hdrA
+description: "Hydrogenotrophic methanogenesis converting CO2 and H2 into methane."

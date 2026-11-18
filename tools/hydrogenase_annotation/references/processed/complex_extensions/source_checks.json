@@ -1,0 +1,152 @@
+[
+  {
+    "structure_id": "NiFe_Amobile_HydABCSL",
+    "role": "HydL",
+    "locus": "Anamo_1675",
+    "protein": "AFM22269.1",
+    "uniprot": "I4BYB2",
+    "length": 475,
+    "sequence_sha256": "de2cd3eb15ecf347b3e2c5eef80b7836939aeaf9c8a7ab50c7807eda50f91495",
+    "source_verified": true
+  },
+  {
+    "structure_id": "NiFe_Amobile_HydABCSL",
+    "role": "HydS",
+    "locus": "Anamo_1676",
+    "protein": "AFM22270.1",
+    "uniprot": "I4BYB3",
+    "length": 179,
+    "sequence_sha256": "7dca0a19ccf3a8a0ed8fc82a2de829962efd51d7921a4b107bc7e79d5003eaef",
+    "source_verified": true
+  },
+  {
+    "structure_id": "NiFe_Amobile_HydABCSL",
+    "role": "HydA_ET_not_H_cluster",
+    "locus": "Anamo_1677",
+    "protein": "AFM22271.1",
+    "uniprot": "I4BYB4",
+    "length": 692,
+    "sequence_sha256": "54bed8bb130f7124ffb6f609058205dd29f88377d29576e1b95917cb12e6ba9d",
+    "source_verified": true
+  },
+  {
+    "structure_id": "NiFe_Amobile_HydABCSL",
+    "role": "HydB",
+    "locus": "Anamo_1678",
+    "protein": "AFM22272.1",
+    "uniprot": "I4BYB5",
+    "length": 597,
+    "sequence_sha256": "07beeceff153810310d1704f17f2671731343a22dd12d7e61913b43b5d06d063",
+    "source_verified": true
+  },
+  {
+    "structure_id": "NiFe_Amobile_HydABCSL",
+    "role": "HydC",
+    "locus": "Anamo_1681",
+    "protein": "AFM22275.1",
+    "uniprot": "I4BYB8",
+    "length": 156,
+    "sequence_sha256": "dc8ea4b8768c2c72664d77355d021f9134a7796430c1425c83058fcc9f1f4842",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Sfructo_HndABCD",
+    "role": "HndA",
+    "locus": "AAA87054.1",
+    "protein": "AAA87054.1",
+    "uniprot": "Q46505",
+    "length": 171,
+    "sequence_sha256": "643dada30026595ebbbddec6677fff66be79ba2d0f3d15e1827642657d120216",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Sfructo_HndABCD",
+    "role": "HndB",
+    "locus": "AAA87055.1",
+    "protein": "AAA87055.1",
+    "uniprot": "Q46506",
+    "length": 126,
+    "sequence_sha256": "1a6d6e3ab671e4b6505381a1d12fd13a844b3199d30c2126ebadc89e67662e9a",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Sfructo_HndABCD",
+    "role": "HndC",
+    "locus": "AAA87056.1",
+    "protein": "AAA87056.1",
+    "uniprot": "Q46507",
+    "length": 490,
+    "sequence_sha256": "75fad721893b840edf7ab52f24b00f231bdf9645624bd99f307b4b55c2d06963",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Sfructo_HndABCD",
+    "role": "HndD",
+    "locus": "AAA87057.1",
+    "protein": "AAA87057.1",
+    "uniprot": "Q46508",
+    "length": 585,
+    "sequence_sha256": "7461178159eaf8abb0fda87cf59418418609c2a5a18c94e1e06e3191505e80c8",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "role": "HydA",
+    "locus": "MOTHE_c19180",
+    "protein": "AKX94701.1",
+    "uniprot": "",
+    "length": 460,
+    "sequence_sha256": "2b93b0d6e62da88100fe4c37780bd4a91a07523907c76164af8745d1adabc30b",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "role": "HydD",
+    "locus": "MOTHE_c19190",
+    "protein": "AKX94702.1",
+    "uniprot": "",
+    "length": 176,
+    "sequence_sha256": "e451ed27421c8a346bf62333cccf868247cf391f0b9ccdd59a4ee806fff76696",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "role": "HydE",
+    "locus": "MOTHE_c19200",
+    "protein": "AKX94703.1",
+    "uniprot": "",
+    "length": 133,
+    "sequence_sha256": "4e8896fb47c072b85038218ab73242801424637ccc849eb18db4b16e3681baec",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "role": "HydC",
+    "locus": "MOTHE_c19210",
+    "protein": "AKX94704.1",
+    "uniprot": "",
+    "length": 150,
+    "sequence_sha256": "6226f9f7bdfd477a0ef448860d3917a70c4ba5aca174569cc199aec2347b0c18",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "role": "HydB",
+    "locus": "MOTHE_c19220",
+    "protein": "AKX94705.1",
+    "uniprot": "",
+    "length": 592,
+    "sequence_sha256": "29a7eb9f734c0557a358c343101364c0b7fc6fbd80c45fbca166a7d1ea015493",
+    "source_verified": true
+  },
+  {
+    "structure_id": "FeFe_Mthermo_HydABCDEF",
+    "role": "HydF",
+    "locus": "MOTHE_c19230",
+    "protein": "AKX94706.1",
+    "uniprot": "",
+    "length": 307,
+    "sequence_sha256": "288ca06b500f86b56f9bec9373d004d65d5aef6020ee1e8667df69bfc80abe6f",
+    "source_verified": true
+  }
+]

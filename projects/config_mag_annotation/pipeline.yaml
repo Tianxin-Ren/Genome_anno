@@ -1,0 +1,31 @@
+# ==============================================================================
+# Master Pipeline Configuration (config_mag_annotation)
+# ==============================================================================
+# Dedicated production workflow for GTDB r232 all Archaea (~22,343 genomes)
+# and large-scale MAG high-throughput functional annotation using PyKofamSearch.
+
+runtime:
+  platform: "config/platforms/slurm.yaml"
+
+data:
+  samples: "./samples.yaml"
+
+modules:
+  mag_annotation:
+    path: "./mag_annotation.yaml"
+    enable: true
+  pathway_reconstruction:
+    path: "./pathway_reconstruction.yaml"
+    enable: false
+  cog_annotation:
+    path: "./cog_annotation.yaml"
+    enable: false
+  hydrogenase_annotation:
+    path: "./hydrogenase_annotation.yaml"
+    enable: true
+
+paths:
+  project_root: ""
+  results: "results"
+  logs: "logs"
+  work: "work"

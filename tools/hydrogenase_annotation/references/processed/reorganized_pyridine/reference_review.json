@@ -1,0 +1,48 @@
+{
+  "version": "reorganized-pyridine-reference-review-v1",
+  "claim": "Optional coarse pyridine-redox module and local H2 coupling potential. Not an exact HoxEFUYH or demonstrated fusion/fission assignment.",
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7363133/",
+      "doi": "10.1074/jbc.RA120.013136",
+      "local_file": "references/raw/round66_split_sources/Artz2020.html",
+      "supports": "Purified HoxEFU has pyridine-redox activity independently of HoxYH. HoxU resembles the N-terminal FeS region of FeFe hydrogenases; subunit compositions vary.",
+      "not_supports": "Query physical assembly, universal HoxE requirement, exact NAD/NADP preference, reaction direction or Fd requirement."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647496/",
+      "local_file": "references/raw/round66_split_sources/HoxE2024_bioc.xml",
+      "supports": "Biophysical study of HoxE/F/U and explicit HoxE homology to TmHydC/NuoE. Supports reference component class, not exact query cofactor potential or partner selection."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+      "doi": "10.1128/JB.00678-13",
+      "pmid": "23893107",
+      "supports": "The purified Hyt complex includes HytB as an FMN/nucleotide component and HytC/D as FeS components. Only coarse relay compatibility is used for HoxU-versus-HytD competition.",
+      "retrieval": "Primary PMC/PubMed text read with web tool; failed local HTML response retained separately and is not a bound article or model input."
+    }
+  ],
+  "role_references": {
+    "NuoE_like": [
+      "FeFe_TmHydABC__HydC",
+      "FeFe_HytABCDE__HytC",
+      "FeFe_SwHyd1ABC__Hyd1C"
+    ],
+    "NuoF_like": [
+      "NiFe_HoxFUYH__HoxF reference 161-602; shared full NAD module alternatives retained"
+    ],
+    "HoxU": [
+      "NiFe_HoxFUYH__HoxU with complete query PF13510/PF10588/PF22117; compatible HytD rival only at coarse electron relay level"
+    ]
+  },
+  "required_guards": [
+    "identity supported independently",
+    "actual source sequence/alignment correspondence",
+    "paired module coverage and identity under original thresholds",
+    "complete role-specific GA domain organization",
+    "all raw qualified unknown function rivals block",
+    "local contig/strand/bin and resource ownership",
+    "no arbitrary choice among comparable partners"
+  ],
+  "scope": "Curated development rule; no independent accuracy added."
+}

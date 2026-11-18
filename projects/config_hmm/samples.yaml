@@ -1,0 +1,42 @@
+# ============================================================================
+# Samples for standalone protein/DNA HMM annotation.
+#
+# Each sample carries its own input genome and HMM database. This allows
+# different genome/HMM pairs to be processed in the same workflow.
+# ============================================================================
+
+external_genomes:
+  # bathyarchaeia_gtdb_all:
+  #   path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bathyarchaeia_gtdb_all/genomes"
+  #   type: "dna_dir"
+  #   hmm_db:
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/Database/KEGG/archive/2025-02-28/cluster/all_lab_ATP/all_lab_ATP.hmm"
+  #   ko_list: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/KEGG/archive/2025-02-28/ko_list"
+  #   hmm_split_chunks: 200
+  #   force_overwrite: True
+  #   output_ffn: True
+  #   hmm_tool: "hmmsearch"
+
+  # test:
+    # path: "/dssg/home/acct-schhui/gses0/rentianxin/data/test_mag"
+    # type: "dna_dir"
+    # hmm_db:
+    #   - "/dssg/home/acct-schhui/gses0/rentianxin/data/single_models"
+    # ko_list: "/dssg/home/acct-schhui/gses0/rentianxin/data/single_models/ko_list"
+    # hmm_split_chunks: 200
+    # force_overwrite: True
+    # output_ffn: True
+    # hmm_tool: "hmmsearch"
+    #
+
+  
+  gses_all_rawMAGs_fa_V0:
+    path: "/dssg/home/acct-schhui/gses0/rentianxin/data/gses_all_rawMAGs_fa_V0"
+    type: "dna_dir"
+    hmm_db:
+      - "/dssg/home/acct-schhui/gses0/rentianxin/data/single_models"
+    ko_list: "/dssg/home/acct-schhui/gses0/rentianxin/data/single_models/ko_list"
+    hmm_split_chunks: 200
+    force_overwrite: True
+    output_ffn: True
+    hmm_tool: "hmmsearch"

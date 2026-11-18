@@ -1,0 +1,74 @@
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+# ==============================================================================
+# 方式一：【仅注释模式 (无 reads，最推荐，单任务不分块) 】
+# 把你的 20+ 个组装文件作为 external_genomes 直接在此处配置路径，速度最快。
+# ==============================================================================
+external_genomes:
+  # # 示例 1 (全配置):
+  # Bathy_Ref_Example: 
+  #   path: "data/Bathy_ref/GCA_024650005.2_ASM2465000v2_genomic.fna" # 相对 project_root 路径，或绝对路径
+  #   complete: true
+  
+  # # 示例 2 (精简直接配置路径):
+  # Bathy_Genome_Example2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_020351305.1_ASM2035130v1_genomic.fna"
+
+# ==============================================================================
+# 方式二：【混合分箱/注释模式 (有 reads，高并发切块) 】
+# 如果使用已有组装，但希望用 reads 去做 binning 或丰度定量，则写在这里。
+# 如果不跑 binning/丰度，直接用上面的“方式一”更高效。
+# ==============================================================================
+samples:
+  # "ICDLI_1953_F13_1":
+  #   external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007968TR_L01_2095_filtered_1000.fa"
+  "ICDLI_1959_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007968TR_L01_2096_filtered_1000.fa"
+  "ICDLI_1945_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007969TR_L01_2082_filtered_1000.fa"
+  "ICDLI_1943_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007969TR_L01_2085_filtered_1000.fa"
+  "ICDLI_1947_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007969TR_L01_2086_filtered_1000.fa"
+  "ICDLI_1955_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007969TR_L01_2087_filtered_1000.fa"
+  "ICDLI_1949_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007969TR_L01_2089_filtered_1000.fa"
+  "ICDLI_1961_F13_1":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480007969TR_L01_2092_filtered_1000.fa"
+  "ICDLI_3785_SO_50_2_GC_20_25":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480010743BL_L01_62_filtered_1000.fa"
+  "ICDLI_2257_DS05_13":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480010745BL_L01_2082_filtered_1000.fa"
+  "ICDLI_3793_SO_50_2_GC_75_80":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480010747BL_L01_2184_filtered_1000.fa"
+  "ICDLI_3781_SO_50_2_GC_0_5":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480010748BL_L01_2172_filtered_1000.fa"
+  "ICDLI_2291_DS05_13":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480011049BL_L01_2089_filtered_1000.fa"
+  "ICDLI_3797_SO_50_2_GC_150":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480013346BL_L01_2190_filtered_1000.fa"
+  "ICDLI_3799_SO_50_2_GC_250":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480013349BL_L01_2148_filtered_1000.fa"
+  "ICDLI_3787_SO_50_2_GC_30_35":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480013400TL_L01_2187_filtered_1000.fa"
+  "ICDLI_3795_SO_50_2_GC_85_90":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/DP8480013400TL_L01_2188_filtered_1000.fa"
+  "ICDLI_813_SCS73_depth":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/E250095291_L01_UDB-191_filtered_1000.fa"
+  "ICDLI_821_SCS73_depth":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/E250095314_L01_UDB-56_filtered_1000.fa"
+  "ICDLI_823_SCS73_depth":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/E250095726_L01_UDB-81_filtered_1000.fa"
+  "ICDLI_2327_DS05_13":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/FP270007491_L01_140_filtered_1000.fa"
+  "ICDLI_2249_DS05_13":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/FP270007491_L01_154_filtered_1000.fa"
+  "ICDLI_3791_SO_50_2_GC_65_70":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/FP270008102_L01_57_filtered_1000.fa"
+  "ICDLI_3801_SO_50_2_GC_600":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/FP270008102_L01_59_filtered_1000.fa"
+  "ICDLI_3789_SO_50_2_GC_55_60":
+    external_assembly: "/dssg/home/acct-schhui/share/HyEn_assembly/FP270008105_L01_2168_filtered_1000.fa"

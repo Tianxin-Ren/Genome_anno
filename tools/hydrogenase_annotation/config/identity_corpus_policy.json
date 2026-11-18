@@ -1,0 +1,30 @@
+{
+  "version": "round09-before-first-external-corpus-prediction",
+  "purpose": "Catalytic identity discovery/confirmation development, calibration and reserved final validation; no complex or molecular-function truth inferred.",
+  "source_commits": {
+    "GreeningLab/HydDB": "2f7c9fee0d97c229a4580b40d38dc234d1421db2",
+    "GreeningLab/HydDB-webserver": "d3bae49769446e24e71c27e9e36aa8d142ca0bfc"
+  },
+  "uniprot_release": "2026_03",
+  "homolog_identity_percent": 70,
+  "homolog_shorter_sequence_coverage": 0.7,
+  "remote_group4_max_training_identity_percent": 60,
+  "remote_group4_both_sequence_coverage": 0.7,
+  "blast_evalue": 0.00001,
+  "blast_max_hsps": 1,
+  "genus_split_salt": "hydrogenase-identity-round09-frozen-before-prediction",
+  "genus_hash_percentiles": {"development": [0, 59], "calibration": [60, 79], "final_validation": [80, 99]},
+  "rules": [
+    "HydDB author-curated catalytic identity is a separate evidence tier from per-protein biochemical activity; predicted subgroup, donor, direction and physiology never become experimental truth.",
+    "Reviewed UniProt product/domain selection is recorded per accession; small/partner subunits, maturation proteins, uncharacterized products and spurious keyword matches are not positive catalytic truth.",
+    "Full proteins and cropped H-domains sharing an accession inherit the same split and never count as independent biological examples.",
+    "Exact normalized protein sequences are deduplicated, with every source accession, raw sequence hash and provenance retained. Cys/Sec are distinct in raw hashes; only leakage BLAST normalizes U to C.",
+    "Homolog components use undirected single-linkage BLAST identity >=70% over >=70% of the shorter sequence. One best local HSP is used; this operational definition cannot exclude every remote domain relationship.",
+    "All current reference proteins, complete source translations, previously examined PDB chains and all 14 Hadar pilot proteomes are exposure controls, never new independent test positives.",
+    "Current NCBI genus taxon IDs, including renamed taxa, determine deterministic development/calibration/final ownership. Unknown or conflicting taxonomy is quarantined.",
+    "A homolog component matching prior exposure or an exposed genus is quarantined as reference_overlap. Other components spanning different genus owners are quarantined as split_bridge. Quarantined sequences must not be used for new model selection while a related genus is reserved.",
+    "Source label conflicts, absent accession metadata and length discrepancies are retained for review and excluded from sealed final evaluation; they are not silently removed as prediction errors.",
+    "No candidate prediction or final-set performance may be inspected before split hashes are frozen. The final partition remains unused until model and thresholds are fixed using development and calibration alone.",
+    "Report sequence units, homolog components, genera and evidence tiers separately; sequences within one component are not independent biological replicates."
+  ]
+}

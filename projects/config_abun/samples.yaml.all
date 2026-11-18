@@ -1,0 +1,195 @@
+# ==============================================================================
+# Samples Configuration for Fully Automated Multi-Genome Abundance / Ratio Analysis
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+samples:
+  "C1_0-0.5":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A_0-0.5_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A_0-0.5_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-0_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-0_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C1_10-11":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A_10-11_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A_10-11_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-10_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-10_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C1_25-27":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A-25-27_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A-25-27_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-25_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-25_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C1_35-38":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A-35-38_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-1A-35-38_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-35_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C-1A-35_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C2_0-0.5":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2_0-0.5_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2_0-0.5_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-0_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-0_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C2_3-3.5":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2_3-3.5_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2_3-3.5_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-3_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-3_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C2_17-19":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2_17-19_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2_17-19_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-17_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-17_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C2_39-43":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-2-39-43_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C-2-39-43_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-39_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-39_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C2_83-86":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2-83-86_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/C2-83-86_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-83_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_C2-83_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "N30B_0-0.5":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B_0-0.5_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B_0-0.5_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-0_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-0_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "N30B_2.5-3":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B_2.5-3_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B_2.5-3_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-2.5_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-2.5_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "N30B_15-17":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B-15-17_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B-15-17_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-15_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-15_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "N30B_29-31":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B-29-31_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/N30B-29-31_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-29_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_N30B-29_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "W07_0-0.5":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07_0-0.5_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07_0-0.5_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-0_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-0_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "W07_9.5-10":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07_9.5-10_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07_9.5-10_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-9.5_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-9.5_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "W07_15-17":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07_15-17_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07_15-17_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-15_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-15_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "W07_39-41":
+    short_read:
+      external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07-39-41_trim.R1.fq.gz"
+      external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_metagenome_sr_clean/W07-39-41_trim.R2.fq.gz"
+    transcriptome:
+      mRNA_1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-39_trim_fwd.fq"
+      mRNA_2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2022_transcript_sr_clean/mRNA_W07-39_trim_rev.fq"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C1":
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/C1_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/C1_R2.fq.gz"
+    transcriptome:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/C1_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/C1_R2.fq.gz"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "C4":
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/C4_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/C4_R2.fq.gz"
+    transcriptome:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/C4_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/C4_R2.fq.gz"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "DC1":
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/DC1_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/DC1_R2.fq.gz"
+    transcriptome:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/DC1_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/DC1_R2.fq.gz"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+
+  "DC2":
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/DC2_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_metagenome_sr/DC2_R2.fq.gz"
+    transcriptome:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/DC2_R1.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/NS_2023_transcript_sr/DC2_R2.fq.gz"
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/ANMEandSRB_genomes"
+

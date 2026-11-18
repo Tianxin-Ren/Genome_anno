@@ -1,0 +1,445 @@
+# ==============================================================================
+# Synteny & Operon Gene-Loss Validation Configuration (synteny_validation.yaml)
+# ==============================================================================
+
+synteny_validation:
+  results_dir: "results/synteny_validation"
+  logs_dir: "logs/synteny_validation"
+
+  # ============================================================================
+  # 0. 全局生物域切换与模式选择 (Global Domain & Database Fallback Mode)
+  #    - "bacteria": 细菌按需下载与探针验证模式 (bac120 + 按需 NCBI Datasets/Diamond 验证)
+  #    - "archaea":  全量古菌本地库检索模式 (ar53 + archaea_all + KO 大表直接检索)
+  #    说明: 此处为全局回退默认值。每份样本均可在 projects/config_synteny/samples.yaml
+  #    中独立设置 domain: "archaea" 或 domain: "bacteria"，实现同批次混合分析。
+  #    支持命令行一键强制覆盖: snakemake --config domain=archaea ...
+  # ============================================================================
+  domain: "archaea"
+
+  # 生物域配置预设注册表 (各生物域独立维护其数据库、目录与模式参数)
+  domain_presets:
+    # --------------------------------------------------------------------------
+    # 模式 1: 细菌分层按需下载与验证模式 (Bacteria Mode)
+    # --------------------------------------------------------------------------
+    bacteria:
+      name: "Bacteria (On-demand tiered download & probe validation mode)"
+      default_preset: "sox_system"
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+      gtdb_genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bacteria_all/genomes"
+      gtdb_proteins_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bacteria_all/proteins"
+      gtdb_ko_table: ""
+      only_representative: true
+      target_genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/Mpf_2022/MOB_abundance/data/MAGs"
+      target_proteins_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/proteins/all"
+      target_genes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/genes"
+      target_classification: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/mag_classification"
+      target_genomes_list: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/mag_classification"
+      query_operon_faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/Reinekea_forsetii_sox_operon.faa"
+      max_positive_refs: 10
+      max_negative_refs: 1
+      auto_fetch: true
+
+    # --------------------------------------------------------------------------
+    # 模式 2: 古菌全量本地库检索模式 (Archaea Mode)
+    # --------------------------------------------------------------------------
+    archaea:
+      name: "Archaea (Pre-annotated local GTDB r232 database mode)"
+      default_preset: "atp_synthase"
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+      gtdb_genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/archaea_all/genomes"
+      gtdb_proteins_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/gtdb_r232_archaea_all/proteins/all"
+      gtdb_ko_table: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/gtdb_r232_archaea_all/merged/protein_KO_all_strict.tsv"
+      only_representative: false
+      target_genomes_dir: ""
+      target_proteins_dir: ""
+      target_genes_dir: ""
+      target_classification: ""
+      target_genomes_list: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/gtdb_r232_archaea_all/postprocess/genome_atp_synthase_modules.long.no_M00159.free_living.genome_id.tsv"
+      query_operon_faa: ""
+      max_positive_refs: 5
+      max_negative_refs: 2
+      auto_fetch: false
+
+  # ============================================================================
+  # 1. 操纵子系统激活开关与预设注册表 (支持不同 operon 系统无缝切换与复用)
+  # ============================================================================
+
+  # 全局回退操纵子配置预设列表 (支持同时激活多个系统，例如 ["M00159", "M00157"])
+  # 说明: 每份样本均可在 projects/config_synteny/samples.yaml 中独立设置 presets，
+  # 仅当样本未配置 presets 时，才回退至此处的全局默认设置。
+  active_presets:
+    - "sox_system"
+    # - "M00159"
+    # - "M00157"
+    # - "M00158"
+    # - "M00160"
+
+  # 向后兼容标量配置 (当未显式指定 active_presets 时生效)
+  active_preset: "sox_system"
+
+  # 操纵子预设库 (可在不同生物代谢体系之间无缝切换，所有系统完整保留，互不覆盖)
+  operon_presets:
+    # --------------------------------------------------------------------------
+    # 单模块独立预设 (Module-specific Presets: 直接使用 KEGG Module ID 作为 Preset 名)
+    # --------------------------------------------------------------------------
+    # 预设 1: 原核生物 V/A-型 ATP 合酶 (V/A-type ATPase, prokaryotes)
+    M00159:
+      name: "V/A-type ATPase, prokaryotes (M00159)"
+      enabled_modules:
+        - "M00159"
+      modules:
+        M00159:
+          name: "V/A-type ATPase, prokaryotes"
+          type: "V/A-type"
+          expected_locus_length: 15000
+          target_kos:
+            - "K02117"
+            - "K02118"
+            - "K02119"
+            - "K02120"
+            - "K02121"
+            - "K02122"
+            - "K02107"
+            - "K02123"
+            - "K02124"
+
+    # 预设 2: 原核及叶绿体 F-型 ATP 合酶 (F-type ATPase, prokaryotes and chloroplasts)
+    M00157:
+      name: "F-type ATPase, prokaryotes and chloroplasts (M00157)"
+      enabled_modules:
+        - "M00157"
+      modules:
+        M00157:
+          name: "F-type ATPase, prokaryotes and chloroplasts"
+          type: "F-like"
+          expected_locus_length: 12000
+          target_kos:
+            - "K02111"
+            - "K02112"
+            - "K02113"
+            - "K02114"
+            - "K02115"
+            - "K02108"
+            - "K02109"
+            - "K02110"
+
+    # 预设 3: 真核生物 F-型 ATP 合酶 (F-type ATPase, eukaryotes)
+    M00158:
+      name: "F-type ATPase, eukaryotes (M00158)"
+      enabled_modules:
+        - "M00158"
+      modules:
+        M00158:
+          name: "F-type ATPase, eukaryotes"
+          type: "Eukaryotic_F"
+          expected_locus_length: 20000
+          target_kos:
+            - "K02126"
+            - "K02127"
+            - "K02128"
+            - "K02129"
+            - "K02130"
+            - "K02131"
+            - "K02132"
+            - "K02133"
+            - "K02134"
+            - "K02135"
+            - "K02136"
+            - "K02137"
+            - "K02138"
+
+    # 预设 4: 真核生物 V-型 ATP 合酶 (V-type ATPase, eukaryotes)
+    M00160:
+      name: "V-type ATPase, eukaryotes (M00160)"
+      enabled_modules:
+        - "M00160"
+      modules:
+        M00160:
+          name: "V-type ATPase, eukaryotes"
+          type: "Eukaryotic_V"
+          expected_locus_length: 18000
+          target_kos:
+            - "K02145"
+            - "K02146"
+            - "K02147"
+            - "K02148"
+            - "K02149"
+            - "K02150"
+            - "K02151"
+            - "K02152"
+            - "K02153"
+            - "K02154"
+            - "K02155"
+
+    # 预设 5: 硫代硫酸盐氧化 SOX 复合体系统 (soxBAXZYCD / KEGG M00595)
+    M00595:
+      name: "Sulfur oxidation, SOX system (soxBAXZYCD), thiosulfate => sulfate"
+      enabled_modules:
+        - "M00595"
+      modules:
+        M00595:
+          name: "Sulfur oxidation, SOX system (soxBAXZYCD), thiosulfate => sulfate"
+          type: "SOX_system"
+          expected_locus_length: 10000
+          target_kos:
+            - "K17224" # soxB; S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20]
+            - "K17222" # soxA; L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+            - "K17223" # soxX; L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+            - "K17227" # soxZ; sulfur-oxidizing protein SoxZ
+            - "K17226" # soxY; sulfur-oxidizing protein SoxY
+            - "K17225" # soxC; sulfane dehydrogenase subunit SoxC
+            - "K22622" # soxD; S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6]
+          query_operon_faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/Reinekea_forsetii_sox_operon.faa"
+
+    # --------------------------------------------------------------------------
+    # 复合与向后兼容别名预设 (Compound & Backwards-Compatible Aliases)
+    # --------------------------------------------------------------------------
+    sox_system:
+      name: "Sulfur oxidation SOX system (soxBAXZYCD)"
+      enabled_modules:
+        - "M00595"
+      modules:
+        M00595:
+          name: "Sulfur oxidation, SOX system (soxBAXZYCD), thiosulfate => sulfate"
+          type: "SOX_system"
+          expected_locus_length: 10000
+          target_kos:
+            - "K17224"
+            - "K17222"
+            - "K17223"
+            - "K17227"
+            - "K17226"
+            - "K17225"
+            - "K22622"
+          query_operon_faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/Reinekea_forsetii_sox_operon.faa"
+
+    atp_synthase:
+      name: "ATP synthase (Prokaryotic & Eukaryotic multi-track)"
+      enabled_modules:
+        - "M00159"
+        - "M00157"
+        - "M00158"
+        - "M00160"
+      modules:
+        M00159:
+          name: "V/A-type ATPase, prokaryotes"
+          type: "V/A-type"
+          expected_locus_length: 15000
+          target_kos:
+            - "K02117"
+            - "K02118"
+            - "K02119"
+            - "K02120"
+            - "K02121"
+            - "K02122"
+            - "K02107"
+            - "K02123"
+            - "K02124"
+        M00157:
+          name: "F-type ATPase, prokaryotes and chloroplasts"
+          type: "F-like"
+          expected_locus_length: 12000
+          target_kos:
+            - "K02111"
+            - "K02112"
+            - "K02113"
+            - "K02114"
+            - "K02115"
+            - "K02108"
+            - "K02109"
+            - "K02110"
+        M00158:
+          name: "F-type ATPase, eukaryotes"
+          type: "Eukaryotic_F"
+          expected_locus_length: 20000
+          target_kos:
+            - "K02126"
+            - "K02127"
+            - "K02128"
+            - "K02129"
+            - "K02130"
+            - "K02131"
+            - "K02132"
+            - "K02133"
+            - "K02134"
+            - "K02135"
+            - "K02136"
+            - "K02137"
+            - "K02138"
+        M00160:
+          name: "V-type ATPase, eukaryotes"
+          type: "Eukaryotic_V"
+          expected_locus_length: 18000
+          target_kos:
+            - "K02145"
+            - "K02146"
+            - "K02147"
+            - "K02148"
+            - "K02149"
+            - "K02150"
+            - "K02151"
+            - "K02152"
+            - "K02153"
+            - "K02154"
+            - "K02155"
+
+  # ============================================================================
+  # 向后兼容性映射层 (若外部直接指定了 enabled_modules，则优先使用该列表覆盖)
+  # ============================================================================
+  enabled_modules: []
+  operon_modules: {}
+
+  # ============================================================================
+  # 待测目标细菌基因组与注释数据集配置 (NS_MOB 外部 MAG 模式)
+  # ============================================================================
+  # 待测 MAG 原始核酸 FASTA 所在目录 (*.fna / *.fa)
+  target_genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/Mpf_2022/MOB_abundance/data/MAGs"
+
+  # 待测 MAG 预测蛋白质 FAA 所在目录 (*.faa / *.faa.gz)
+  target_proteins_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/proteins/all"
+
+  # 待测 MAG 基因结构注释 GFF 所在目录 (*.gff / *.gff.gz)
+  target_genes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/genes"
+
+  # 待测 MAG 分类学信息表 (MAG_id \t taxonomy)
+  target_classification: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/mag_classification"
+
+  # 批量目标待测基因组列表文件 (直接支持 mag_classification 文件作为输入清单)
+  target_genomes_list: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/mag_classification"
+
+
+  # 【模式 B：蛋白 FASTA 驱动模式】(提供 Reinekea forsetii 模式菌 SOX 蛋白簇进行全流程探针比对)
+  # ----------------------------------------------------------------------------
+  query_operon_faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/Reinekea_forsetii_sox_operon.faa"
+
+
+  # ============================================================================
+  # 2. GTDB 细菌参考基因组数据库 (bac120 按需下载模式)
+  # ============================================================================
+  # GTDB r232 官方细菌元数据总表 (包含 40 余万株细菌 Accession 与 7 级 Taxonomy)
+  gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/bac120_metadata_r232.tsv"
+
+  # 本地 GTDB 细菌近缘参考基因组存放文件夹 (按需下载至该本地缓存目录，避免下载全量 40 万细菌库)
+  gtdb_genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bacteria_all/genomes"
+
+  # 本地 GTDB 细菌预测蛋白质文件夹 (按需提取或由 Prodigal 预测)
+  gtdb_proteins_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bacteria_all/proteins"
+
+  # 是否仅从 GTDB Representative 代表基因组中挑选近缘参考 (细菌库庞大，开启 representative 筛选)
+  only_representative: true
+
+
+  # ============================================================================
+  # 3. Stage 0: 近缘参考筛选与自验证参数
+  # ============================================================================
+  # Skani 最小双向对齐比例 (min(AF_ref, AF_query))，过滤仅局部极小片段匹配的低质量候选
+  min_af: 0.50
+
+  # 是否对 MAG 自适应放宽对齐门槛：开启后若目标完整度为 80%，门槛自适应调整为 0.5 * 0.8 = 0.40
+  adaptive_af_for_mags: true
+
+  # 最小 ANI 阈值 (低于此值优先回退到 GTDB Taxonomy 阶元距离)
+  min_ani: 80.0
+
+  # 最终挑选的经自验证阳性参考基因组数量上限 (扩展为 10 个，涵盖最近邻、姐妹分支与外群)
+  max_positive_refs: 10
+
+  # 最终挑选的经自验证阴性参考基因组数量上限 (优化为 1 个)
+  max_negative_refs: 1
+
+
+  # ============================================================================
+  # 4. Stage 1: 保守锚点与基因座提取参数
+  # ============================================================================
+  # 预期该基因簇在阳性株中的平均物理跨度 (bp)，根据您的目标基因簇实际大小设定
+  expected_locus_length: 15000
+
+  # 锚点距离 Contig 末端的安全底线 (bp)。
+  # 系统会自动计算动态安全余量: required_edge_margin = max(min_edge_bp, expected_locus_length * 1.5)
+  min_edge_bp: 10000
+
+  # 截取局部基因座时，左右两侧额外外延的侧翼窗口长度 (bp，用于 Clinker 出图和局部对齐)
+  flank_bp: 20000
+
+  # 截取局部基因座时，左右两侧抽取的保守侧翼基因数量 (默认 25 个基因，约 30-40 kb 宽广共线性窗口)
+  n_flank_genes: 25
+
+  # 基因座定位与显著性评估模式:
+  # 'empirical_max': (推荐默认) 经验最大统计量置换检验，全基因组最大 Contig 零分布背景
+  # 'fast_screen': 先验基因密度锚定度泊松二项分布快速初筛
+  # 'fixed_ratio': (历史兼容模式) 按收敛比例阈值 consensus_contig_threshold 截断
+  significance_mode: "empirical_max"
+
+  # 统计显著性 Alpha 阈值 (默认 P < 0.01 标定为 SIGNIFICANT)
+  significance_alpha: 0.01
+
+  # 经验最大统计量置换采样次数 (默认 1000 次，兼具速度与精确度)
+  n_permutations: 1000
+
+  # 阳性参考在目标 Contig 上的收敛共有性比例阈值 (仅在 fixed_ratio 模式下作为截断门槛)
+  consensus_contig_threshold: 0.75
+
+  # 局部基因座加权中点前后扩展截取窗口大小 (bp，默认 100000 即 ±100kb 窗口)
+  extended_window_bp: 100000
+
+  # 是否生成 Clinker 共线性可视化 HTML 对比图 (默认为 false 关闭；若需要生成可视化 HTML 可设为 true)
+  run_clinker: true
+
+  # Clinker 可视化对比中包含的共线性阳性参考数量上限：
+  # 优化为 10：按演化外群到近邻拓扑瀑布级联展示多轨对比（最多 10 株）
+  max_visualized_refs: 10
+
+  # Clinker 两两对比图生成策略:
+  # 'all': (推荐) 按 max_visualized_refs 筛选到的每个参考基因组均单独生成独立 HTML + 综合多轨图
+  # 'nearest_only': 仅生成综合多轨图 + 1 个与最近阳性参考的精细对比图
+  # 'none': 仅生成综合多轨全景图
+  clinker_pairwise_mode: "all"
+
+  # Clinker 专用窗口：目标锚点/参考模块核心左右各保留 25 个 CDS，
+  # 并尽量保持各轨道的基因数与序列长度接近。额外 bp 上下文设为 0，
+  # 避免固定 bp 窗口挤掉基于基因数选择的侧翼。Stage 2/3 不受影响。
+  clinker_flank_genes: 25
+  clinker_context_bp: 0
+
+  # 目标待测样本的功能注释文件配置 (支持 KofamScan *.kofam.tsv 格式)
+  # 流水线将解析每个基因的最佳 KO 与 Definition，将其完整打在 Clinker HTML 的基因 Label 上
+  target_annotation: "functional/{sample}.kofam.tsv"
+  target_annotation_dir: "functional"
+
+
+  # ============================================================================
+  # 5. Stage 2: 序列三级挽救与假基因化判定参数
+  # ============================================================================
+  blastp_identity: 25.0
+  blastp_coverage: 30.0
+  blastx_evalue: 1e-3
+  # 仅用于候选 operon 的相邻 CDS 间距判定；需按类群与已知 operon 校准。
+  max_operon_intergenic_bp: 300
+
+
+  # ============================================================================
+  # 6. Conda 运行环境映射 (支持集群通用 bio 环境或独立环境)
+  # ============================================================================
+  conda_envs:
+    diamond: "bio"
+    skani: "bio"
+    mapping: "bio"
+    clinker: "clinker_0.0.32"
+    tree: "iqtree_3.1.2"
+    biopython: "biopython_1.85"
+
+  # ============================================================================
+  # 7. Operon Fate Space (OFI) 操纵子演化命运分类器配置
+  # ============================================================================
+  operon_fate_classifier:
+    max_candidate_loci: 5              # Stage 1 Top-N 候选追踪数量上限
+    localizable_locator_min: 0.4       # 最小候选定位启发得分 (低于此值进入 UNRESOLVED)
+    bilateral_context_min: 0.5         # 双侧共线性门槛
+    target_retained_min: 0.6           # 靶标保留完整度门槛 (T_local)
+    known_replacement_min: 0.6        # 已知同工替代门槛 (R_known)
+    replacement_absence_max: 0.2      # 缺失推断允许的最大替代杂质 (R_known <= 0.2 允许缺失推断)
+    novel_insertion_min: 0.6          # 新插入外源基因岛门槛 (I_novel)
+    loss_confidence_min: 0.6          # 缺失综合置信度门槛 (K_loss)
+    clean_closure_min: 0.6            # 净缺失物理紧缩度门槛 (K_clean)
+    unilateral_locator_penalty: 0.6   # 单侧候选启发式衰减系数
+    split_contig_penalty: 0.5         # 分裂 Contig 启发式衰减系数

@@ -1,0 +1,14 @@
+参考文献 / 项目	适合核查的关键信息	可靠性与使用边界	URL
+HydDB 2016/2018分类数据库	三活性中心家族、NiFe/FeFe subgroup、亚基与常见FeS	旧网页个别命名有笔误，功能是参考并非基因组确定性	https://www.nature.com/articles/srep34212
+KEGG K06281	同一个KO包含hyaB和hybC大亚基	不能作为NiFe 1c/1d功能型主键	https://www.kegg.jp/entry/K06281
+Huc Nature 2023	HucL/HucS/HucM；3×[3Fe4S]；直接还原menaquinone	代表Mycobacterium smegmatis的Huc，并非所有NiFe 2a	https://www.nature.com/articles/s41586-023-05781-7
+Hyd-2 生理与方向实验 2014	HybO/C/A/B；MQ/DMQ与反向产氢；CCCP抑制	是E. coli Hyd-2的体内实验，不能自动推广到所有1c	https://pubmed.ncbi.nlm.nih.gov/25368299/
+Ech遗传+生化 2002	EchE/C/A/B/D/F；乙酸营养产H2 / 氢营养还原Fd	具体离子泵性质不可笼统赋值	https://pubmed.ncbi.nlm.nih.gov/11929975/
+T. onnurineus离子能量保存 2014	Fdh2–Mfh2–Mnh2；H+与Na+梯度及ATP	和E. coli Hyc型FHL不同	https://pubmed.ncbi.nlm.nih.gov/25049407/
+FeFe Hyd1ABC 2017	NADH-only；缺失特定HydB FeS位点；不依赖Fd	强反例：HydABC结构≠必然电子分叉	https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/
+FeFe分类与机制综述 2022	FeFe A1/A3/A4及电子伙伴、结构例外	部分组别只是预测，不强注	https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.853626/full
+Hyt NADP/Fd电子分叉 2015	C. autoethanogenum HytABCDE1/E2	注意同簇FDH带来的多功能性	https://pmc.ncbi.nlm.nih.gov/articles/PMC4542177/
+HDCR A. woodii复合体基因	FdhF1/2–HycB1/2/3–HydA2–FdhD	HDCR是复合体功能而非HydA一个蛋白的功能	https://pmc.ncbi.nlm.nih.gov/articles/PMC7498680/
+Hmd [Fe] 酶综述	FeGP催化氢负离子转移；无FeS小亚基	小心HmdII同源但无活性	https://pmc.ncbi.nlm.nih.gov/articles/PMC7460606/
+Cyanobacteria HupSL	固氮时H2回收，hupSL & nif生理背景	Hup无完全纯化酶时主要借助遗传生理	https://pmc.ncbi.nlm.nih.gov/articles/PMC3008169/
+NiFe Group4结构与能量保存综述	Eha/Ehb的强遗传支持与缺失生化证据	故作为候选而不混入已实验支持的直接反应	https://pmc.ncbi.nlm.nih.gov/articles/PMC11636919/

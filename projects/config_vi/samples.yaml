@@ -1,0 +1,88 @@
+# Specialized Samples and Input Configuration (config_vi)
+# ------------------------------------------------------------------------------
+# All genome inputs and visualization setups are configured in this file.
+
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+
+# ==============================================================================
+# Sample / Genome definitions for visualization
+# ==============================================================================
+# Define any samples or genomes here. If running standalone, the visualization
+# script will search for existing outputs of these samples in the results dir.
+# If none exist, it will beautifully demonstrate using mock data.
+samples:
+  "u999856":
+    gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gff3"
+    tpm: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/abundance/Bathy_enrichment_2025/rna_quant/V1/Bathy_enrichment_2025.final.tsv"
+    selected_genes:
+      - "mtgC": "u999856_00850"
+      - "mtgB": "u999856_01361"
+      - "BRAO_1": "u999856_01362"
+      - "BRAO_2": "u999856_01363"
+      - "BRAO_3": "u999856_01364"
+      - "BRAO_4": "u999856_01365"
+      - "BRAO_5": "u999856_01366"
+      - "BRAO_6": "u999856_01367"
+      - "BRAO_7": "u999856_01368"
+      - "BRAO_8": "u999856_01369"
+      - "BRAO_9": "u999856_01370"
+      - "BRAO_10": "u999856_01371"
+      - "BRAO_11": "u999856_01372"
+      - "mtgC": "u999856_01732"
+      - "mtgA": "u999856_01733"
+      - "mtgB": "u999856_01735"
+      - "mtgB": "u999856_01736"
+      - "mtgB": "u999856_01739"
+    
+  "u1287049":
+    gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.gff3"
+    tpm: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/abundance/Bathy_enrichment_2025/rna_quant/V1/Bathy_enrichment_2025.final.tsv"
+    selected_genes:
+      - "mtgA": "u1287049_00021"
+      - "mtgC": "u1287049_00022"
+      - "mtgB": "u1287049_00032"
+      - "mtgB": "u1287049_00034"
+      - "mtgC": "u1287049_02468"
+      - "ATPVGH": "u1287049_02469"
+      - "ATPVK": "u1287049_02470"
+      - "ATPVI": "u1287049_02471"
+      - "ATPVF": "u1287049_02472"
+      - "ATPVE": "u1287049_02473"
+      - "ATPVA": "u1287049_02474"
+      - "ATPVB": "u1287049_02475"
+      - "ATPVD": "u1287049_02476"
+      - "unknown": "u1287049_02477"
+      - "ATPVC": "u1287049_02478"
+      - "mtgB": "u1287049_02620"
+      - "mtgB": "u1287049_02724"
+      
+  
+  "u896703":
+    gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703.gff3"
+    tpm: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/abundance/Bathy_enrichment_2025/rna_quant/V1/Bathy_enrichment_2025.final.tsv"
+    selected_genes:
+      - "mtgB": "u896703_00317"
+      - "mtgB": "u896703_01640"
+      - "mtgB": "u896703_01734"
+      - "mtgB": "u896703_01737"
+      - "mtgC": "u896703_02236"
+      - "mtgA": "u896703_02237"
+      - "ATPVGH": "u896703_02468"
+      - "ATPVK": "u896703_02469"
+      - "ATPVC": "u896703_02470"
+      - "unknown": "u896703_02471"
+      - "ATPVD": "u896703_02472"
+      - "ATPVB": "u896703_02473"
+      - "ATPVA": "u896703_02474"
+      - "ATPVE": "u896703_02475"
+      - "ATPVF": "u896703_02476"
+      - "ATPVI": "u896703_02477"
+      - "unknown": "u896703_02478"
+  # "mock_circular_plasmid":
+  #   gff: "mock"
+  #   tpm: "mock"
+

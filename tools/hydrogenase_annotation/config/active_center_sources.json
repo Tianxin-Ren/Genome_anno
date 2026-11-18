@@ -1,0 +1,86 @@
+{
+  "version": "round12-Group3b-structural-template-before-query-prediction",
+  "scope": "Full direct protein ligand sets plus explicitly labelled reaction-related and variable neighboring residues. Source-withheld is not proof of genus/homolog independence; audit before any gate claim.",
+  "sources": [
+    {
+      "pdb_id": "3UQY",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/3UQY.cif"
+    },
+    {
+      "pdb_id": "4CI0",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/4CI0.cif"
+    },
+    {
+      "pdb_id": "7UTD",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/7UTD.cif"
+    },
+    {
+      "pdb_id": "7Z0S",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/7Z0S.cif"
+    },
+    {
+      "pdb_id": "1FEH",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/1FEH.cif"
+    },
+    {
+      "pdb_id": "3F47",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/3F47.cif"
+    },
+    {
+      "pdb_id": "1FRF",
+      "split": "source_withheld_evaluation",
+      "url": "https://files.rcsb.org/download/1FRF.cif"
+    },
+    {
+      "pdb_id": "1CC1",
+      "split": "source_withheld_evaluation",
+      "url": "https://files.rcsb.org/download/1CC1.cif"
+    },
+    {
+      "pdb_id": "1HFE",
+      "split": "source_withheld_evaluation",
+      "url": "https://files.rcsb.org/download/1HFE.cif"
+    },
+    {
+      "pdb_id": "6HAV",
+      "split": "source_withheld_evaluation",
+      "url": "https://files.rcsb.org/download/6HAV.cif"
+    },
+    {
+      "pdb_id": "6CFW",
+      "split": "development_control",
+      "url": "https://files.rcsb.org/download/6CFW.cif"
+    },
+    {
+      "pdb_id": "3F46",
+      "split": "development_control",
+      "url": "https://files.rcsb.org/download/3F46.cif"
+    },
+    {
+      "pdb_id": "4YT2",
+      "split": "development_control",
+      "url": "https://files.rcsb.org/download/4YT2.cif"
+    },
+    {
+      "pdb_id": "9E1J",
+      "split": "template",
+      "url": "https://files.rcsb.org/download/9E1J.cif",
+      "rationale": "2.6 A SHI-alpha/delta structure for missing NiFe Group3b scaffold; existing functional reference organism, not independent."
+    },
+    {
+      "pdb_id": "9NEZ",
+      "split": "development_control",
+      "url": "https://files.rcsb.org/download/9NEZ.cif",
+      "rationale": "Independent deposition of same SHI protein, structural consistency control only, never an independent biological replicate."
+    }
+  ],
+  "mapping_target": 0.98,
+  "confidence": "provisional_not_calibrated",
+  "discovery_policy": "Retain the round10 L1 stage fingerprint; new catalytic structural sources are downstream only."
+}

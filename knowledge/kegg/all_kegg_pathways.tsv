@@ -1,0 +1,588 @@
+pathway_id	canonical_id	name	category	is_metabolic	map_structure_type	is_prokaryote_relevant	microbial_relevance	reaction_metric_applicable	total_kos	total_reactions
+ko00010	00010	Glycolysis / Gluconeogenesis	Metabolism	True	regular	True	microbial_core	True	109	56
+ko00020	00020	Citrate cycle (TCA cycle)	Metabolism	True	regular	True	microbial_core	True	70	29
+ko00030	00030	Pentose phosphate pathway	Metabolism	True	regular	True	microbial_core	True	95	58
+ko00040	00040	Pentose and glucuronate interconversions	Metabolism	True	regular	True	microbial_core	True	97	82
+ko00051	00051	Fructose and mannose metabolism	Metabolism	True	regular	True	microbial_core	True	124	76
+ko00052	00052	Galactose metabolism	Metabolism	True	regular	True	microbial_core	True	85	56
+ko00053	00053	Ascorbate and aldarate metabolism	Metabolism	True	regular	True	microbial_core	True	63	57
+ko00061	00061	Fatty acid biosynthesis	Metabolism	True	regular	True	microbial_core	True	40	67
+ko00062	00062	Fatty acid elongation	Metabolism	True	regular	True	microbial_core	True	25	34
+ko00071	00071	Fatty acid degradation	Metabolism	True	regular	True	microbial_core	True	60	42
+ko00073	00073	Cutin, suberine and wax biosynthesis	Metabolism	True	regular	True	microbial_core	True	21	20
+ko00074	00074	Mycolic acid biosynthesis	Metabolism	True	regular	True	microbial_core	True	35	30
+ko00100	00100	Steroid biosynthesis	Metabolism	True	regular	True	microbial_core	True	34	59
+ko00120	00120	Primary bile acid biosynthesis	Metabolism	True	regular	True	microbial_core	True	18	51
+ko00121	00121	Secondary bile acid biosynthesis	Metabolism	True	regular	True	microbial_core	True	15	0
+ko00130	00130	Ubiquinone and other terpenoid-quinone biosynthesis	Metabolism	True	regular	True	microbial_core	True	64	66
+ko00140	00140	Steroid hormone biosynthesis	Metabolism	True	regular	True	microbial_core	True	48	134
+ko00190	00190	Oxidative phosphorylation	Metabolism	True	regular	True	microbial_core	True	224	0
+ko00195	00195	Photosynthesis	Metabolism	True	regular	True	microbial_core	True	63	0
+ko00196	00196	Photosynthesis - antenna proteins	Metabolism	True	regular	True	microbial_core	True	42	0
+ko00220	00220	Arginine biosynthesis	Metabolism	True	regular	True	microbial_core	True	67	33
+ko00230	00230	Purine metabolism	Metabolism	True	regular	True	microbial_core	True	230	141
+ko00232	00232	Caffeine metabolism	Metabolism	True	regular	True	microbial_core	True	16	31
+ko00240	00240	Pyrimidine metabolism	Metabolism	True	regular	True	microbial_core	True	115	100
+ko00250	00250	Alanine, aspartate and glutamate metabolism	Metabolism	True	regular	True	microbial_core	True	70	44
+ko00253	00253	Tetracycline biosynthesis	Metabolism	True	regular	True	microbial_core	True	17	19
+ko00254	00254	Aflatoxin biosynthesis	Metabolism	True	regular	True	microbial_core	True	20	27
+ko00260	00260	Glycine, serine and threonine metabolism	Metabolism	True	regular	True	microbial_core	True	115	74
+ko00261	00261	Monobactam biosynthesis	Metabolism	True	regular	True	microbial_core	True	28	21
+ko00270	00270	Cysteine and methionine metabolism	Metabolism	True	regular	True	microbial_core	True	128	91
+ko00280	00280	Valine, leucine and isoleucine degradation	Metabolism	True	regular	True	microbial_core	True	71	46
+ko00290	00290	Valine, leucine and isoleucine biosynthesis	Metabolism	True	regular	True	microbial_core	True	19	24
+ko00300	00300	Lysine biosynthesis	Metabolism	True	regular	True	microbial_core	True	48	37
+ko00310	00310	Lysine degradation	Metabolism	True	regular	True	microbial_core	True	99	57
+ko00311	00311	Penicillin and cephalosporin biosynthesis	Metabolism	True	regular	True	microbial_core	True	16	14
+ko00330	00330	Arginine and proline metabolism	Metabolism	True	regular	True	microbial_core	True	115	97
+ko00331	00331	Clavulanic acid biosynthesis	Metabolism	True	regular	True	microbial_core	True	5	7
+ko00332	00332	Carbapenem biosynthesis	Metabolism	True	regular	True	microbial_core	True	21	24
+ko00333	00333	Prodigiosin biosynthesis	Metabolism	True	regular	True	microbial_core	True	21	17
+ko00340	00340	Histidine metabolism	Metabolism	True	regular	True	microbial_core	True	50	37
+ko00350	00350	Tyrosine metabolism	Metabolism	True	regular	True	microbial_core	True	85	79
+ko00360	00360	Phenylalanine metabolism	Metabolism	True	regular	True	microbial_core	True	75	54
+ko00361	00361	Chlorocyclohexane and chlorobenzene degradation	Metabolism	True	regular	True	microbial_core	True	41	60
+ko00362	00362	Benzoate degradation	Metabolism	True	regular	True	microbial_core	True	117	85
+ko00363	00363	Bisphenol degradation	Metabolism	True	regular	True	microbial_core	True	2	2
+ko00364	00364	Fluorobenzoate degradation	Metabolism	True	regular	True	microbial_core	True	18	23
+ko00365	00365	Furfural degradation	Metabolism	True	regular	True	microbial_core	True	8	6
+ko00380	00380	Tryptophan metabolism	Metabolism	True	regular	True	microbial_core	True	83	68
+ko00400	00400	Phenylalanine, tyrosine and tryptophan biosynthesis	Metabolism	True	regular	True	microbial_core	True	74	48
+ko00401	00401	Novobiocin biosynthesis	Metabolism	True	regular	True	microbial_core	True	30	25
+ko00402	00402	Benzoxazinoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	8	8
+ko00403	00403	Indole diterpene alkaloid biosynthesis	Metabolism	True	regular	True	microbial_core	True	13	28
+ko00404	00404	Staurosporine biosynthesis	Metabolism	True	regular	True	microbial_core	True	40	47
+ko00405	00405	Phenazine biosynthesis	Metabolism	True	regular	True	microbial_core	True	20	26
+ko00410	00410	beta-Alanine metabolism	Metabolism	True	regular	True	microbial_core	True	46	29
+ko00430	00430	Taurine and hypotaurine metabolism	Metabolism	True	regular	True	microbial_core	True	29	22
+ko00440	00440	Phosphonate and phosphinate metabolism	Metabolism	True	regular	True	microbial_core	True	47	44
+ko00450	00450	Selenocompound metabolism	Metabolism	True	regular	True	microbial_core	True	36	20
+ko00460	00460	Cyanoamino acid metabolism	Metabolism	True	regular	True	microbial_core	True	37	49
+ko00470	00470	D-Amino acid metabolism	Metabolism	True	regular	True	microbial_core	True	56	59
+ko00480	00480	Glutathione metabolism	Metabolism	True	regular	True	microbial_core	True	59	47
+ko00500	00500	Starch and sucrose metabolism	Metabolism	True	regular	True	microbial_core	True	109	70
+ko00510	00510	N-Glycan biosynthesis	Metabolism	True	regular	True	microbial_core	True	50	37
+ko00511	00511	Other glycan degradation	Metabolism	True	regular	True	microbial_core	True	22	0
+ko00512	00512	Mucin type O-glycan biosynthesis	Metabolism	True	regular	True	microbial_core	True	15	12
+ko00513	00513	Various types of N-glycan biosynthesis	Metabolism	True	regular	True	microbial_core	True	56	27
+ko00514	00514	Other types of O-glycan biosynthesis	Metabolism	True	regular	True	microbial_core	True	33	20
+ko00515	00515	Mannose type O-glycan biosynthesis	Metabolism	True	regular	True	microbial_core	True	21	13
+ko00520	00520	Amino sugar and nucleotide sugar metabolism	Metabolism	True	regular	True	microbial_core	True	119	88
+ko00521	00521	Streptomycin biosynthesis	Metabolism	True	regular	True	microbial_core	True	21	15
+ko00522	00522	Biosynthesis of 12-, 14- and 16-membered macrolides	Metabolism	True	regular	True	microbial_core	True	59	75
+ko00523	00523	Polyketide sugar unit biosynthesis	Metabolism	True	regular	True	microbial_core	True	59	60
+ko00524	00524	Neomycin, kanamycin and gentamicin biosynthesis	Metabolism	True	regular	True	microbial_core	True	58	78
+ko00525	00525	Acarbose and validamycin biosynthesis	Metabolism	True	regular	True	microbial_core	True	27	29
+ko00531	00531	Glycosaminoglycan degradation	Metabolism	True	regular	True	microbial_core	True	15	21
+ko00532	00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	Metabolism	True	regular	True	microbial_core	True	18	8
+ko00533	00533	Glycosaminoglycan biosynthesis - keratan sulfate	Metabolism	True	regular	True	microbial_core	True	14	0
+ko00534	00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	Metabolism	True	regular	True	microbial_core	True	22	9
+ko00540	00540	Lipopolysaccharide biosynthesis	Metabolism	True	regular	True	microbial_core	True	50	36
+ko00541	00541	Biosynthesis of various nucleotide sugars	Metabolism	True	regular	True	microbial_core	True	135	126
+ko00542	00542	O-Antigen repeat unit biosynthesis	Metabolism	True	regular	True	microbial_core	True	35	0
+ko00543	00543	Exopolysaccharide biosynthesis	Metabolism	True	regular	True	microbial_core	True	73	0
+ko00550	00550	Peptidoglycan biosynthesis	Metabolism	True	regular	True	microbial_core	True	55	25
+ko00552	00552	Teichoic acid biosynthesis	Metabolism	True	regular	True	microbial_core	True	41	46
+ko00561	00561	Glycerolipid metabolism	Metabolism	True	regular	True	microbial_core	True	101	44
+ko00562	00562	Inositol phosphate metabolism	Metabolism	True	regular	True	microbial_core	True	79	64
+ko00563	00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	Metabolism	True	regular	True	microbial_core	True	35	23
+ko00564	00564	Glycerophospholipid metabolism	Metabolism	True	regular	True	microbial_core	True	120	85
+ko00565	00565	Ether lipid metabolism	Metabolism	True	regular	True	microbial_core	True	31	22
+ko00566	00566	Sulfoquinovose metabolism	Metabolism	True	regular	True	microbial_core	True	50	44
+ko00571	00571	Lipoarabinomannan (LAM) biosynthesis	Metabolism	True	regular	True	microbial_core	True	14	9
+ko00572	00572	Arabinogalactan biosynthesis - Mycobacterium	Metabolism	True	regular	True	microbial_core	True	13	6
+ko00590	00590	Arachidonic acid metabolism	Metabolism	True	regular	True	microbial_core	True	51	50
+ko00591	00591	Linoleic acid metabolism	Metabolism	True	regular	True	microbial_core	True	27	13
+ko00592	00592	alpha-Linolenic acid metabolism	Metabolism	True	regular	True	microbial_core	True	34	47
+ko00600	00600	Sphingolipid metabolism	Metabolism	True	regular	True	microbial_core	True	58	51
+ko00601	00601	Glycosphingolipid biosynthesis - lacto and neolacto series	Metabolism	True	regular	True	microbial_core	True	28	53
+ko00603	00603	Glycosphingolipid biosynthesis - globo and isoglobo series	Metabolism	True	regular	True	microbial_core	True	16	19
+ko00604	00604	Glycosphingolipid biosynthesis - ganglio series	Metabolism	True	regular	True	microbial_core	True	14	22
+ko00620	00620	Pyruvate metabolism	Metabolism	True	regular	True	microbial_core	True	141	73
+ko00621	00621	Dioxin degradation	Metabolism	True	regular	True	microbial_core	True	31	31
+ko00622	00622	Xylene degradation	Metabolism	True	regular	True	microbial_core	True	34	38
+ko00623	00623	Toluene degradation	Metabolism	True	regular	True	microbial_core	True	49	39
+ko00624	00624	Polycyclic aromatic hydrocarbon degradation	Metabolism	True	regular	True	microbial_core	True	43	37
+ko00625	00625	Chloroalkane and chloroalkene degradation	Metabolism	True	regular	True	microbial_core	True	42	29
+ko00626	00626	Naphthalene degradation	Metabolism	True	regular	True	microbial_core	True	28	26
+ko00627	00627	Aminobenzoate degradation	Metabolism	True	regular	True	microbial_core	True	97	71
+ko00630	00630	Glyoxylate and dicarboxylate metabolism	Metabolism	True	regular	True	microbial_core	True	120	71
+ko00633	00633	Nitrotoluene degradation	Metabolism	True	regular	True	microbial_core	True	23	9
+ko00640	00640	Propanoate metabolism	Metabolism	True	regular	True	microbial_core	True	104	57
+ko00642	00642	Ethylbenzene degradation	Metabolism	True	regular	True	microbial_core	True	16	12
+ko00643	00643	Styrene degradation	Metabolism	True	regular	True	microbial_core	True	25	21
+ko00650	00650	Butanoate metabolism	Metabolism	True	regular	True	microbial_core	True	115	62
+ko00660	00660	C5-Branched dibasic acid metabolism	Metabolism	True	regular	True	microbial_core	True	30	20
+ko00670	00670	One carbon pool by folate	Metabolism	True	regular	True	microbial_core	True	65	46
+ko00680	00680	Methane metabolism	Metabolism	True	regular	True	microbial_core	True	198	103
+ko00710	00710	Carbon fixation by Calvin cycle	Metabolism	True	regular	True	microbial_core	True	37	24
+ko00720	00720	Other carbon fixation pathways	Metabolism	True	regular	True	microbial_core	True	126	57
+ko00730	00730	Thiamine metabolism	Metabolism	True	regular	True	microbial_core	True	36	28
+ko00740	00740	Riboflavin metabolism	Metabolism	True	regular	True	microbial_core	True	58	27
+ko00750	00750	Vitamin B6 metabolism	Metabolism	True	regular	True	microbial_core	True	26	29
+ko00760	00760	Nicotinate and nicotinamide metabolism	Metabolism	True	regular	True	microbial_core	True	100	66
+ko00770	00770	Pantothenate and CoA biosynthesis	Metabolism	True	regular	True	microbial_core	True	47	29
+ko00780	00780	Biotin metabolism	Metabolism	True	regular	True	microbial_core	True	24	25
+ko00785	00785	Lipoic acid metabolism	Metabolism	True	regular	True	microbial_core	True	30	37
+ko00790	00790	Folate biosynthesis	Metabolism	True	regular	True	microbial_core	True	84	69
+ko00791	00791	Atrazine degradation	Metabolism	True	regular	True	microbial_core	True	20	19
+ko00830	00830	Retinol metabolism	Metabolism	True	regular	True	microbial_core	True	51	24
+ko00860	00860	Porphyrin metabolism	Metabolism	True	regular	True	microbial_core	True	142	144
+ko00900	00900	Terpenoid backbone biosynthesis	Metabolism	True	regular	True	microbial_core	True	64	53
+ko00901	00901	Indole alkaloid biosynthesis	Metabolism	True	regular	True	microbial_core	True	57	67
+ko00902	00902	Monoterpenoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	44	49
+ko00903	00903	Limonene degradation	Metabolism	True	regular	True	microbial_core	True	8	15
+ko00904	00904	Diterpenoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	76	102
+ko00905	00905	Brassinosteroid biosynthesis	Metabolism	True	regular	True	microbial_core	True	12	29
+ko00906	00906	Carotenoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	61	122
+ko00907	00907	Pinene, camphor and geraniol degradation	Metabolism	True	regular	True	microbial_core	True	26	28
+ko00908	00908	Zeatin biosynthesis	Metabolism	True	regular	True	microbial_core	True	10	13
+ko00909	00909	Sesquiterpenoid and triterpenoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	75	84
+ko00910	00910	Nitrogen metabolism	Metabolism	True	regular	True	microbial_core	True	72	41
+ko00920	00920	Sulfur metabolism	Metabolism	True	regular	True	microbial_core	True	132	62
+ko00930	00930	Caprolactam degradation	Metabolism	True	regular	True	microbial_core	True	22	15
+ko00940	00940	Phenylpropanoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	31	69
+ko00941	00941	Flavonoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	27	77
+ko00942	00942	Anthocyanin biosynthesis	Metabolism	True	regular	True	microbial_core	True	16	51
+ko00943	00943	Isoflavonoid biosynthesis	Metabolism	True	regular	True	microbial_core	True	18	45
+ko00944	00944	Flavone and flavonol biosynthesis	Metabolism	True	regular	True	microbial_core	True	15	24
+ko00945	00945	Stilbenoid, diarylheptanoid and gingerol biosynthesis	Metabolism	True	regular	True	microbial_core	True	13	21
+ko00946	00946	Degradation of flavonoids	Metabolism	True	regular	True	microbial_core	True	22	29
+ko00950	00950	Isoquinoline alkaloid biosynthesis	Metabolism	True	regular	True	microbial_core	True	69	89
+ko00960	00960	Tropane, piperidine and pyridine alkaloid biosynthesis	Metabolism	True	regular	True	microbial_core	True	40	33
+ko00965	00965	Betalain biosynthesis	Metabolism	True	regular	True	microbial_core	True	8	9
+ko00966	00966	Glucosinolate biosynthesis	Metabolism	True	regular	True	microbial_core	True	21	53
+ko00970	00970	Aminoacyl-tRNA biosynthesis	Metabolism	True	regular	True	microbial_core	True	66	32
+ko00975	00975	Biosynthesis of various siderophores	Metabolism	True	regular	True	microbial_core	True	49	67
+ko00980	00980	Metabolism of xenobiotics by cytochrome P450	Metabolism	True	regular	True	microbial_core	True	33	72
+ko00981	00981	Insect hormone biosynthesis	Metabolism	True	regular	True	microbial_core	True	18	25
+ko00982	00982	Drug metabolism - cytochrome P450	Metabolism	True	regular	True	microbial_core	True	24	48
+ko00983	00983	Drug metabolism - other enzymes	Metabolism	True	regular	True	microbial_core	True	33	42
+ko00984	00984	Steroid degradation	Metabolism	True	regular	True	microbial_core	True	43	42
+ko00996	00996	Biosynthesis of various alkaloids	Metabolism	True	regular	True	microbial_core	True	15	19
+ko00997	00997	Biosynthesis of various other secondary metabolites	Metabolism	True	regular	True	microbial_core	True	45	44
+ko00998	00998	Biosynthesis of various antibiotics	Metabolism	True	regular	True	microbial_core	True	76	81
+ko00999	00999	Biosynthesis of various plant secondary metabolites	Metabolism	True	regular	True	microbial_core	True	74	94
+ko01010	01010	Overview of biosynthetic pathways	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01040	01040	Biosynthesis of unsaturated fatty acids	Metabolism	True	regular	True	microbial_core	True	32	41
+ko01051	01051	Biosynthesis of ansamycins	Metabolism	True	regular	True	microbial_core	True	32	19
+ko01052	01052	Type I polyketide structures	Metabolism	True	regular	True	microbial_core	True	127	0
+ko01053	01053	Biosynthesis of siderophore group nonribosomal peptides	Metabolism	True	regular	True	microbial_core	True	31	5
+ko01054	01054	Nonribosomal peptide structures	Metabolism	True	regular	True	microbial_core	True	67	1
+ko01055	01055	Biosynthesis of vancomycin group antibiotics	Metabolism	True	regular	True	microbial_core	True	29	13
+ko01056	01056	Biosynthesis of type II polyketide backbone	Metabolism	True	regular	True	microbial_core	True	9	18
+ko01057	01057	Biosynthesis of type II polyketide products	Metabolism	True	regular	True	microbial_core	True	73	100
+ko01059	01059	Biosynthesis of enediyne antibiotics	Metabolism	True	regular	True	microbial_core	True	73	45
+ko01060	01060	Biosynthesis of plant secondary metabolites	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01061	01061	Biosynthesis of phenylpropanoids	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01062	01062	Biosynthesis of terpenoids and steroids	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01063	01063	Biosynthesis of alkaloids derived from shikimate pathway	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01064	01064	Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01065	01065	Biosynthesis of alkaloids derived from histidine and purine	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01066	01066	Biosynthesis of alkaloids derived from terpenoid and polyketide	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01070	01070	Biosynthesis of plant hormones	Metabolism	True	regular	True	microbial_core	True	0	0
+ko01100	01100	Metabolic pathways	Global and overview maps	True	global	True	global_overview	True	5044	4415
+ko01110	01110	Biosynthesis of secondary metabolites	Global and overview maps	True	global	True	global_overview	True	2336	2369
+ko01120	01120	Microbial metabolism in diverse environments	Global and overview maps	True	global	True	global_overview	True	1460	1187
+ko01200	01200	Carbon metabolism	Global and overview maps	True	overview	True	global_overview	True	387	210
+ko01210	01210	2-Oxocarboxylic acid metabolism	Global and overview maps	True	overview	True	global_overview	True	118	136
+ko01212	01212	Fatty acid metabolism	Global and overview maps	True	overview	True	global_overview	True	84	111
+ko01220	01220	Degradation of aromatic compounds	Global and overview maps	True	overview	True	global_overview	True	216	205
+ko01230	01230	Biosynthesis of amino acids	Global and overview maps	True	overview	True	global_overview	True	242	163
+ko01232	01232	Nucleotide metabolism	Global and overview maps	True	overview	True	global_overview	True	123	134
+ko01240	01240	Biosynthesis of cofactors	Global and overview maps	True	overview	True	global_overview	True	382	323
+ko01250	01250	Biosynthesis of nucleotide sugars	Global and overview maps	True	overview	True	global_overview	True	221	212
+ko01310	01310	Nitrogen cycle	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	39	20
+ko01320	01320	Sulfur cycle	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	52	23
+ko01501	01501	beta-Lactam resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	112	0
+ko01502	01502	Vancomycin resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	22	0
+ko01503	01503	Cationic antimicrobial peptide (CAMP) resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	54	0
+ko01521	01521	EGFR tyrosine kinase inhibitor resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	67	0
+ko01522	01522	Endocrine resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	77	0
+ko01523	01523	Antifolate resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	26	0
+ko01524	01524	Platinum drug resistance	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	46	0
+ko02010	02010	ABC transporters	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	515	0
+ko02020	02020	Two-component system	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	549	0
+ko02024	02024	Quorum sensing	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	283	0
+ko02025	02025	Biofilm formation - Pseudomonas aeruginosa	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	90	0
+ko02026	02026	Biofilm formation - Escherichia coli	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	61	0
+ko02030	02030	Bacterial chemotaxis	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	26	0
+ko02040	02040	Flagellar assembly	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	55	0
+ko02060	02060	Phosphotransferase system (PTS)	Environmental Information Processing	False	regular	True	prokaryote_relevant	False	72	0
+ko03008	03008	Ribosome biogenesis in eukaryotes	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	83	0
+ko03010	03010	Ribosome	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	208	0
+ko03013	03013	Nucleocytoplasmic transport	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	98	0
+ko03015	03015	mRNA surveillance pathway	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	63	0
+ko03018	03018	RNA degradation	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	79	0
+ko03020	03020	RNA polymerase	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	66	0
+ko03022	03022	Basal transcription factors	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	36	0
+ko03030	03030	DNA replication	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	60	0
+ko03040	03040	Spliceosome	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	135	0
+ko03050	03050	Proteasome	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	49	0
+ko03060	03060	Protein export	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	49	0
+ko03070	03070	Bacterial secretion system	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	74	0
+ko03082	03082	ATP-dependent chromatin remodeling	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	84	0
+ko03083	03083	Polycomb repressive complex	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	65	0
+ko03230	03230	Viral genome structure	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	119	0
+ko03240	03240	Viral replication	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	130	0
+ko03250	03250	Viral life cycle - HIV-1	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	61	0
+ko03258	03258	Virion - Bacteriophage lambda	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	21	0
+ko03259	03259	Virion - Bacteriophages T4 and T7	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	68	0
+ko03260	03260	Virion - Human immunodeficiency virus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	20	0
+ko03261	03261	Virion - Influenza virus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	12	0
+ko03262	03262	Virion - Coronavirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	28	0
+ko03263	03263	Virion - Enterovirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	13	0
+ko03264	03264	Virion - Flavivirus and Alphavirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	23	0
+ko03265	03265	Virion - Ebolavirus, Lyssavirus and Morbillivirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	37	0
+ko03266	03266	Virion - Herpesvirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	32	0
+ko03267	03267	Virion - Adenovirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	19	0
+ko03268	03268	Virion - Orthopoxvirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	46	0
+ko03271	03271	Virion - Rotavirus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	13	0
+ko03272	03272	Virion - Hepatitis viruses	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	40	0
+ko03273	03273	Virion - Lassa virus and SFTS virus	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	31	0
+ko03320	03320	PPAR signaling pathway	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	63	0
+ko03410	03410	Base excision repair	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	53	0
+ko03420	03420	Nucleotide excision repair	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	61	0
+ko03430	03430	Mismatch repair	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	44	0
+ko03440	03440	Homologous recombination	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	72	0
+ko03450	03450	Non-homologous end-joining	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	19	0
+ko03460	03460	Fanconi anemia pathway	Genetic Information Processing	False	regular	True	prokaryote_relevant	False	54	0
+ko04010	04010	MAPK signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	244	0
+ko04011	04011	MAPK signaling pathway - yeast	Cellular Processes	False	regular	True	cellular_processes	False	91	0
+ko04012	04012	ErbB signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	69	0
+ko04013	04013	MAPK signaling pathway - fly	Cellular Processes	False	regular	True	cellular_processes	False	85	0
+ko04014	04014	Ras signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	182	0
+ko04015	04015	Rap1 signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	162	0
+ko04016	04016	MAPK signaling pathway - plant	Cellular Processes	False	regular	True	cellular_processes	False	54	0
+ko04020	04020	Calcium signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	198	0
+ko04022	04022	cGMP-PKG signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	121	0
+ko04024	04024	cAMP signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	172	0
+ko04060	04060	Cytokine-cytokine receptor interaction	Cellular Processes	False	regular	True	cellular_processes	False	273	0
+ko04061	04061	Viral protein interaction with cytokine and cytokine receptor	Cellular Processes	False	regular	True	cellular_processes	False	119	0
+ko04062	04062	Chemokine signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	161	0
+ko04064	04064	NF-kappa B signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	98	0
+ko04066	04066	HIF-1 signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	77	0
+ko04068	04068	FoxO signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	103	0
+ko04070	04070	Phosphatidylinositol signaling system	Cellular Processes	False	regular	True	cellular_processes	False	55	0
+ko04071	04071	Sphingolipid signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	84	0
+ko04072	04072	Phospholipase D signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	108	0
+ko04075	04075	Plant hormone signal transduction	Cellular Processes	False	regular	True	cellular_processes	False	63	0
+ko04080	04080	Neuroactive ligand-receptor interaction	Cellular Processes	False	regular	True	cellular_processes	False	333	0
+ko04081	04081	Hormone signaling	Cellular Processes	False	regular	True	cellular_processes	False	198	0
+ko04082	04082	Neuroactive ligand signaling	Cellular Processes	False	regular	True	cellular_processes	False	164	0
+ko04110	04110	Cell cycle	Cellular Processes	False	regular	True	cellular_processes	False	133	0
+ko04111	04111	Cell cycle - yeast	Cellular Processes	False	regular	True	cellular_processes	False	126	0
+ko04112	04112	Cell cycle - Caulobacter	Cellular Processes	False	regular	True	microbial_core	False	31	0
+ko04113	04113	Meiosis - yeast	Cellular Processes	False	regular	True	cellular_processes	False	103	0
+ko04114	04114	Oocyte meiosis	Cellular Processes	False	regular	True	cellular_processes	False	80	0
+ko04115	04115	p53 signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	69	0
+ko04120	04120	Ubiquitin mediated proteolysis	Cellular Processes	False	regular	True	cellular_processes	False	132	0
+ko04122	04122	Sulfur relay system	Cellular Processes	False	regular	True	microbial_core	False	29	0
+ko04130	04130	SNARE interactions in vesicular transport	Cellular Processes	False	regular	True	cellular_processes	False	35	0
+ko04136	04136	Autophagy - other	Cellular Processes	False	regular	True	cellular_processes	False	23	0
+ko04137	04137	Mitophagy - animal	Cellular Processes	False	regular	True	cellular_processes	False	84	0
+ko04138	04138	Autophagy - yeast	Cellular Processes	False	regular	True	cellular_processes	False	82	0
+ko04139	04139	Mitophagy - yeast	Cellular Processes	False	regular	True	cellular_processes	False	34	0
+ko04140	04140	Autophagy - animal	Cellular Processes	False	regular	True	cellular_processes	False	131	0
+ko04141	04141	Protein processing in endoplasmic reticulum	Cellular Processes	False	regular	True	cellular_processes	False	146	0
+ko04142	04142	Lysosome biogenesis	Cellular Processes	False	regular	True	cellular_processes	False	204	0
+ko04144	04144	Endocytosis	Cellular Processes	False	regular	True	cellular_processes	False	169	0
+ko04145	04145	Phagocytosis	Cellular Processes	False	regular	True	cellular_processes	False	166	0
+ko04146	04146	Peroxisome	Cellular Processes	False	regular	True	cellular_processes	False	74	0
+ko04148	04148	Efferocytosis	Cellular Processes	False	regular	True	cellular_processes	False	131	0
+ko04149	04149	Peroxisome - yeast	Cellular Processes	False	regular	True	cellular_processes	False	75	0
+ko04150	04150	mTOR signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	117	0
+ko04151	04151	PI3K-Akt signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	268	0
+ko04152	04152	AMPK signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	85	0
+ko04156	04156	Integrated stress response (ISR) signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	45	0
+ko04210	04210	Apoptosis	Cellular Processes	False	regular	True	cellular_processes	False	112	0
+ko04211	04211	Longevity regulating pathway	Cellular Processes	False	regular	True	cellular_processes	False	68	0
+ko04212	04212	Longevity regulating pathway - worm	Cellular Processes	False	regular	True	cellular_processes	False	56	0
+ko04213	04213	Longevity regulating pathway - multiple species	Cellular Processes	False	regular	True	cellular_processes	False	58	0
+ko04214	04214	Apoptosis - fly	Cellular Processes	False	regular	True	cellular_processes	False	56	0
+ko04215	04215	Apoptosis - multiple species	Cellular Processes	False	regular	True	cellular_processes	False	40	0
+ko04216	04216	Ferroptosis	Cellular Processes	False	regular	True	cellular_processes	False	33	0
+ko04217	04217	Necroptosis	Cellular Processes	False	regular	True	cellular_processes	False	96	0
+ko04218	04218	Cellular senescence	Cellular Processes	False	regular	True	cellular_processes	False	117	0
+ko04260	04260	Cardiac muscle contraction	Cellular Processes	False	regular	True	cellular_processes	False	67	0
+ko04261	04261	Adrenergic signaling in cardiomyocytes	Cellular Processes	False	regular	True	cellular_processes	False	99	0
+ko04270	04270	Vascular smooth muscle contraction	Cellular Processes	False	regular	True	cellular_processes	False	96	0
+ko04310	04310	Wnt signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	130	0
+ko04320	04320	Dorso-ventral axis formation	Cellular Processes	False	regular	True	cellular_processes	False	28	0
+ko04330	04330	Notch signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	37	0
+ko04340	04340	Hedgehog signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	45	0
+ko04341	04341	Hedgehog signaling pathway - fly	Cellular Processes	False	regular	True	cellular_processes	False	26	0
+ko04350	04350	TGF-beta signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	98	0
+ko04360	04360	Axon guidance	Cellular Processes	False	regular	True	cellular_processes	False	128	0
+ko04361	04361	Axon regeneration	Cellular Processes	False	regular	True	cellular_processes	False	59	0
+ko04370	04370	VEGF signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	39	0
+ko04371	04371	Apelin signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	105	0
+ko04380	04380	Osteoclast differentiation	Cellular Processes	False	regular	True	cellular_processes	False	104	0
+ko04382	04382	Cornified envelope formation	Cellular Processes	False	regular	True	cellular_processes	False	88	0
+ko04390	04390	Hippo signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	115	0
+ko04391	04391	Hippo signaling pathway - fly	Cellular Processes	False	regular	True	cellular_processes	False	53	0
+ko04392	04392	Hippo signaling pathway - multiple species	Cellular Processes	False	regular	True	cellular_processes	False	25	0
+ko04510	04510	Focal adhesion	Cellular Processes	False	regular	True	cellular_processes	False	152	0
+ko04512	04512	ECM-receptor interaction	Cellular Processes	False	regular	True	cellular_processes	False	66	0
+ko04514	04514	Cell adhesion molecule (CAM) interaction	Cellular Processes	False	regular	True	cellular_processes	False	111	0
+ko04517	04517	IgSF CAM signaling	Cellular Processes	False	regular	True	cellular_processes	False	223	0
+ko04518	04518	Integrin signaling	Cellular Processes	False	regular	True	cellular_processes	False	118	0
+ko04519	04519	Cadherin signaling	Cellular Processes	False	regular	True	cellular_processes	False	210	0
+ko04520	04520	Adherens junction	Cellular Processes	False	regular	True	cellular_processes	False	83	0
+ko04530	04530	Tight junction	Cellular Processes	False	regular	True	cellular_processes	False	106	0
+ko04540	04540	Gap junction	Cellular Processes	False	regular	True	cellular_processes	False	60	0
+ko04550	04550	Signaling pathways regulating pluripotency of stem cells	Cellular Processes	False	regular	True	cellular_processes	False	114	0
+ko04610	04610	Complement and coagulation cascades	Cellular Processes	False	regular	True	cellular_processes	False	83	0
+ko04611	04611	Platelet activation	Cellular Processes	False	regular	True	cellular_processes	False	91	0
+ko04612	04612	Antigen processing and presentation	Cellular Processes	False	regular	True	cellular_processes	False	48	0
+ko04613	04613	Neutrophil extracellular trap formation	Cellular Processes	False	regular	True	cellular_processes	False	90	0
+ko04614	04614	Renin-angiotensin system	Cellular Processes	False	regular	True	cellular_processes	False	22	0
+ko04620	04620	Toll-like receptor signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	80	0
+ko04621	04621	NOD-like receptor signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	145	0
+ko04622	04622	RIG-I-like receptor signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	55	0
+ko04623	04623	Cytosolic DNA-sensing pathway	Cellular Processes	False	regular	True	cellular_processes	False	68	0
+ko04624	04624	Toll and Imd signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	57	0
+ko04625	04625	C-type lectin receptor signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	82	0
+ko04626	04626	Plant-pathogen interaction	Cellular Processes	False	regular	True	cellular_processes	False	87	0
+ko04630	04630	JAK-STAT signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	143	0
+ko04640	04640	Hematopoietic cell lineage	Cellular Processes	False	regular	True	cellular_processes	False	80	0
+ko04650	04650	Natural killer cell mediated cytotoxicity	Cellular Processes	False	regular	True	cellular_processes	False	84	0
+ko04657	04657	IL-17 signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	80	0
+ko04658	04658	Th1 and Th2 cell differentiation	Cellular Processes	False	regular	True	cellular_processes	False	67	0
+ko04659	04659	Th17 cell differentiation	Cellular Processes	False	regular	True	cellular_processes	False	87	0
+ko04660	04660	T cell receptor signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	92	0
+ko04662	04662	B cell receptor signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	60	0
+ko04664	04664	Fc epsilon RI signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	47	0
+ko04666	04666	Fc gamma R-mediated phagosome formation	Cellular Processes	False	regular	True	cellular_processes	False	64	0
+ko04668	04668	TNF signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	97	0
+ko04670	04670	Leukocyte transendothelial migration	Cellular Processes	False	regular	True	cellular_processes	False	75	0
+ko04672	04672	Intestinal immune network for IgA production	Cellular Processes	False	regular	True	cellular_processes	False	37	0
+ko04710	04710	Circadian rhythm	Cellular Processes	False	regular	True	cellular_processes	False	28	0
+ko04711	04711	Circadian rhythm - fly	Cellular Processes	False	regular	True	cellular_processes	False	13	0
+ko04712	04712	Circadian rhythm - plant	Cellular Processes	False	regular	True	cellular_processes	False	28	0
+ko04713	04713	Circadian entrainment	Cellular Processes	False	regular	True	cellular_processes	False	79	0
+ko04714	04714	Thermogenesis	Cellular Processes	False	regular	True	cellular_processes	False	188	0
+ko04720	04720	Long-term potentiation	Cellular Processes	False	regular	True	cellular_processes	False	43	0
+ko04721	04721	Synaptic vesicle cycle	Cellular Processes	False	regular	True	cellular_processes	False	55	0
+ko04722	04722	Neurotrophin signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	90	0
+ko04723	04723	Retrograde endocannabinoid signaling	Cellular Processes	False	regular	True	cellular_processes	False	119	0
+ko04724	04724	Glutamatergic synapse	Cellular Processes	False	regular	True	cellular_processes	False	90	0
+ko04725	04725	Cholinergic synapse	Cellular Processes	False	regular	True	cellular_processes	False	90	0
+ko04726	04726	Serotonergic synapse	Cellular Processes	False	regular	True	cellular_processes	False	85	0
+ko04727	04727	GABAergic synapse	Cellular Processes	False	regular	True	cellular_processes	False	69	0
+ko04728	04728	Dopaminergic synapse	Cellular Processes	False	regular	True	cellular_processes	False	84	0
+ko04730	04730	Long-term depression	Cellular Processes	False	regular	True	cellular_processes	False	45	0
+ko04740	04740	Olfactory transduction	Cellular Processes	False	regular	True	cellular_processes	False	25	0
+ko04742	04742	Taste transduction	Cellular Processes	False	regular	True	cellular_processes	False	41	0
+ko04744	04744	Phototransduction	Cellular Processes	False	regular	True	cellular_processes	False	18	0
+ko04745	04745	Phototransduction - fly	Cellular Processes	False	regular	True	cellular_processes	False	18	0
+ko04750	04750	Inflammatory mediator regulation of TRP channels	Cellular Processes	False	regular	True	cellular_processes	False	68	0
+ko04810	04810	Regulation of actin cytoskeleton	Cellular Processes	False	regular	True	cellular_processes	False	173	0
+ko04814	04814	Motor proteins	Cellular Processes	False	regular	True	cellular_processes	False	113	0
+ko04820	04820	Cytoskeleton in muscle cells	Cellular Processes	False	regular	True	cellular_processes	False	156	0
+ko04910	04910	Insulin signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	90	0
+ko04911	04911	Insulin secretion	Cellular Processes	False	regular	True	cellular_processes	False	68	0
+ko04912	04912	GnRH signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	64	0
+ko04913	04913	Ovarian steroidogenesis	Cellular Processes	False	regular	True	cellular_processes	False	40	0
+ko04914	04914	Progesterone-mediated oocyte maturation	Cellular Processes	False	regular	True	cellular_processes	False	65	0
+ko04915	04915	Estrogen signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	78	0
+ko04916	04916	Melanogenesis	Cellular Processes	False	regular	True	cellular_processes	False	67	0
+ko04917	04917	Prolactin signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	57	0
+ko04918	04918	Thyroid hormone synthesis	Cellular Processes	False	regular	True	cellular_processes	False	53	0
+ko04919	04919	Thyroid hormone signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	91	0
+ko04920	04920	Adipocytokine signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	54	0
+ko04921	04921	Oxytocin signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	112	0
+ko04922	04922	Glucagon signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	57	0
+ko04923	04923	Regulation of lipolysis in adipocytes	Cellular Processes	False	regular	True	cellular_processes	False	48	0
+ko04924	04924	Renin secretion	Cellular Processes	False	regular	True	cellular_processes	False	50	0
+ko04925	04925	Aldosterone synthesis and secretion	Cellular Processes	False	regular	True	cellular_processes	False	65	0
+ko04926	04926	Relaxin signaling pathway	Cellular Processes	False	regular	True	cellular_processes	False	96	0
+ko04927	04927	Cortisol synthesis and secretion	Cellular Processes	False	regular	True	cellular_processes	False	54	0
+ko04928	04928	Parathyroid hormone synthesis, secretion and action	Cellular Processes	False	regular	True	cellular_processes	False	89	0
+ko04929	04929	GnRH secretion	Cellular Processes	False	regular	True	cellular_processes	False	51	0
+ko04930	04930	Type II diabetes mellitus	Cellular Processes	False	regular	True	cellular_processes	False	37	0
+ko04931	04931	Insulin resistance	Cellular Processes	False	regular	True	cellular_processes	False	74	0
+ko04932	04932	Non-alcoholic fatty liver disease	Cellular Processes	False	regular	True	cellular_processes	False	127	0
+ko04933	04933	AGE-RAGE signaling pathway in diabetic complications	Cellular Processes	False	regular	True	cellular_processes	False	76	0
+ko04934	04934	Cushing syndrome	Cellular Processes	False	regular	True	cellular_processes	False	122	0
+ko04935	04935	Growth hormone synthesis, secretion and action	Cellular Processes	False	regular	True	cellular_processes	False	92	0
+ko04936	04936	Alcoholic liver disease	Cellular Processes	False	regular	True	cellular_processes	False	105	0
+ko04940	04940	Type I diabetes mellitus	Cellular Processes	False	regular	True	cellular_processes	False	25	0
+ko04950	04950	Maturity onset diabetes of the young	Cellular Processes	False	regular	True	cellular_processes	False	26	0
+ko04960	04960	Aldosterone-regulated sodium reabsorption	Cellular Processes	False	regular	True	cellular_processes	False	26	0
+ko04961	04961	Endocrine and other factor-regulated calcium reabsorption	Cellular Processes	False	regular	True	cellular_processes	False	33	0
+ko04962	04962	Vasopressin-regulated water reabsorption	Cellular Processes	False	regular	True	cellular_processes	False	33	0
+ko04964	04964	Proximal tubule bicarbonate reclamation	Cellular Processes	False	regular	True	cellular_processes	False	14	0
+ko04966	04966	Collecting duct acid secretion	Cellular Processes	False	regular	True	cellular_processes	False	17	0
+ko04970	04970	Salivary secretion	Cellular Processes	False	regular	True	cellular_processes	False	64	0
+ko04971	04971	Gastric acid secretion	Cellular Processes	False	regular	True	cellular_processes	False	50	0
+ko04972	04972	Pancreatic secretion	Cellular Processes	False	regular	True	cellular_processes	False	69	0
+ko04973	04973	Carbohydrate digestion and absorption	Cellular Processes	False	regular	True	cellular_processes	False	22	0
+ko04974	04974	Protein digestion and absorption	Cellular Processes	False	regular	True	cellular_processes	False	66	0
+ko04975	04975	Fat digestion and absorption	Cellular Processes	False	regular	True	cellular_processes	False	28	0
+ko04976	04976	Bile secretion	Cellular Processes	False	regular	True	cellular_processes	False	62	0
+ko04977	04977	Vitamin digestion and absorption	Cellular Processes	False	regular	True	cellular_processes	False	25	0
+ko04978	04978	Mineral absorption	Cellular Processes	False	regular	True	cellular_processes	False	36	0
+ko04979	04979	Cholesterol metabolism	Cellular Processes	False	regular	True	cellular_processes	False	51	0
+ko04980	04980	Cobalamin transport and metabolism	Cellular Processes	False	regular	True	cellular_processes	False	17	0
+ko04981	04981	Folate transport and metabolism	Cellular Processes	False	regular	True	cellular_processes	False	24	0
+ko05010	05010	Alzheimer disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	300	0
+ko05012	05012	Parkinson disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	208	0
+ko05014	05014	Amyotrophic lateral sclerosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	280	0
+ko05016	05016	Huntington disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	229	0
+ko05017	05017	Spinocerebellar ataxia	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	116	0
+ko05020	05020	Prion disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	209	0
+ko05022	05022	Pathways of neurodegeneration - multiple diseases	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	367	0
+ko05030	05030	Cocaine addiction	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	39	0
+ko05031	05031	Amphetamine addiction	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	46	0
+ko05032	05032	Morphine addiction	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	64	0
+ko05033	05033	Nicotine addiction	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	27	0
+ko05034	05034	Alcoholism	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	86	0
+ko05100	05100	Bacterial invasion of epithelial cells	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	76	0
+ko05110	05110	Vibrio cholerae infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	49	0
+ko05111	05111	Biofilm formation - Vibrio cholerae	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	106	0
+ko05120	05120	Epithelial cell signaling in Helicobacter pylori infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	91	0
+ko05130	05130	Pathogenic Escherichia coli infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	152	0
+ko05131	05131	Shigellosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	204	0
+ko05132	05132	Salmonella infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	217	0
+ko05133	05133	Pertussis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	79	0
+ko05134	05134	Legionellosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	69	0
+ko05135	05135	Yersinia infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	122	0
+ko05140	05140	Leishmaniasis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	59	0
+ko05142	05142	Chagas disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	85	0
+ko05143	05143	African trypanosomiasis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	41	0
+ko05144	05144	Malaria	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	67	0
+ko05145	05145	Toxoplasmosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	95	0
+ko05146	05146	Amoebiasis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	87	0
+ko05150	05150	Staphylococcus aureus infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	74	0
+ko05152	05152	Tuberculosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	131	0
+ko05160	05160	Hepatitis C	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	109	0
+ko05161	05161	Hepatitis B	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	132	0
+ko05162	05162	Measles	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	114	0
+ko05163	05163	Human cytomegalovirus infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	193	0
+ko05164	05164	Influenza A	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	128	0
+ko05165	05165	Human papillomavirus infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	231	0
+ko05166	05166	Human T-cell leukemia virus 1 infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	191	0
+ko05167	05167	Kaposi sarcoma-associated herpesvirus infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	168	0
+ko05168	05168	Herpes simplex virus 1 infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	147	0
+ko05169	05169	Epstein-Barr virus infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	173	0
+ko05170	05170	Human immunodeficiency virus 1 infection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	164	0
+ko05171	05171	Coronavirus disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	219	0
+ko05200	05200	Pathways in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	417	0
+ko05202	05202	Transcriptional misregulation in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	161	0
+ko05203	05203	Viral carcinogenesis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	174	0
+ko05204	05204	Chemical carcinogenesis - DNA adducts	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	29	0
+ko05205	05205	Proteoglycans in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	166	0
+ko05206	05206	MicroRNAs in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	221	0
+ko05207	05207	Chemical carcinogenesis - receptor activation	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	127	0
+ko05208	05208	Chemical carcinogenesis - reactive oxygen species	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	175	0
+ko05210	05210	Colorectal cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	72	0
+ko05211	05211	Renal cell carcinoma	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	56	0
+ko05212	05212	Pancreatic cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	63	0
+ko05213	05213	Endometrial cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	45	0
+ko05214	05214	Glioma	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	54	0
+ko05215	05215	Prostate cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	87	0
+ko05216	05216	Thyroid cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	34	0
+ko05217	05217	Basal cell carcinoma	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	48	0
+ko05218	05218	Melanoma	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	50	0
+ko05219	05219	Bladder cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	38	0
+ko05220	05220	Chronic myeloid leukemia	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	63	0
+ko05221	05221	Acute myeloid leukemia	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	57	0
+ko05222	05222	Small cell lung cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	74	0
+ko05223	05223	Non-small cell lung cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	60	0
+ko05224	05224	Breast cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	105	0
+ko05225	05225	Hepatocellular carcinoma	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	116	0
+ko05226	05226	Gastric cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	108	0
+ko05230	05230	Central carbon metabolism in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	49	0
+ko05231	05231	Choline metabolism in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	61	0
+ko05235	05235	PD-L1 expression and PD-1 checkpoint pathway in cancer	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	73	0
+ko05310	05310	Asthma	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	20	0
+ko05320	05320	Autoimmune thyroid disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	25	0
+ko05321	05321	Inflammatory bowel disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	54	0
+ko05322	05322	Systemic lupus erythematosus	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	45	0
+ko05323	05323	Rheumatoid arthritis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	67	0
+ko05330	05330	Allograft rejection	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	22	0
+ko05332	05332	Graft-versus-host disease	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	22	0
+ko05340	05340	Primary immunodeficiency	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	37	0
+ko05410	05410	Hypertrophic cardiomyopathy	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	87	0
+ko05412	05412	Arrhythmogenic right ventricular cardiomyopathy	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	76	0
+ko05414	05414	Dilated cardiomyopathy	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	95	0
+ko05415	05415	Diabetic cardiomyopathy	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	160	0
+ko05416	05416	Viral myocarditis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	47	0
+ko05417	05417	Lipid and atherosclerosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	160	0
+ko05418	05418	Fluid shear stress and atherosclerosis	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	99	0
+ko07011	07011	Penicillins	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07012	07012	Cephalosporins - parenteral agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07013	07013	Cephalosporins - oral agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07014	07014	Quinolones	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07015	07015	Local analgesics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07016	07016	Sulfonamide derivatives - sulfa drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07017	07017	Sulfonamide derivatives - diuretics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07018	07018	Sulfonamide derivatives - hypoglycemic agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07019	07019	Tetracyclines	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07020	07020	Macrolides and ketolides	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07021	07021	Aminoglycosides	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07023	07023	Rifamycins	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07024	07024	HMG-CoA reductase inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07025	07025	Quinolines	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07026	07026	Antifungal agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07027	07027	Antidepressants	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07028	07028	Antipsychotics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07029	07029	Antipsychotics - phenothiazines	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07030	07030	Anxiolytics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07031	07031	Antipsychotics - butyrophenones	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07032	07032	Hypnotics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07033	07033	Anticonvulsants	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07034	07034	Eicosanoids	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07035	07035	Prostaglandins	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07036	07036	Calcium channel blocking drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07037	07037	Antiarrhythmic drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07038	07038	Antiulcer drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07039	07039	Opioid analgesics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07040	07040	Antineoplastics - alkylating agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07041	07041	Antineoplastics - antimetabolic agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07042	07042	Antineoplastics - agents from natural products	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07043	07043	Antineoplastics - hormones	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07044	07044	Antiviral agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07045	07045	Antineoplastics - protein kinase inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07046	07046	Immunosuppressive agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07047	07047	Osteoporosis drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07048	07048	Antimigraines	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07049	07049	Antithrombosis agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07050	07050	Antirheumatics - DMARDs and biological agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07051	07051	Antidiabetics	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07052	07052	Antidyslipidemic agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07053	07053	Anti-HIV agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07054	07054	Antiglaucoma agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07055	07055	Sulfonamide derivatives - overview	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07056	07056	Agents for Alzheimer-type dementia	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07057	07057	Antiparkinsonian agents	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07110	07110	Benzoic acid family	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07112	07112	1,2-Diphenyl substitution family	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07114	07114	Naphthalene family	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07117	07117	Benzodiazepine family	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07211	07211	Serotonin receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07212	07212	Histamine H1 receptor antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07213	07213	Dopamine receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07214	07214	beta-Adrenergic receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07215	07215	alpha-Adrenergic receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07216	07216	Catecholamine transferase inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07217	07217	Renin-angiotensin system inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07218	07218	HIV protease inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07219	07219	Cyclooxygenase inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07220	07220	Cholinergic and anticholinergic drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07221	07221	Nicotinic cholinergic receptor antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07222	07222	Peroxisome proliferator-activated receptor (PPAR) agonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07223	07223	Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07224	07224	Opioid receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07225	07225	Glucocorticoid and mineralocorticoid receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07226	07226	Progesterone, androgen and estrogen receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07227	07227	Histamine H2/H3 receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07228	07228	Eicosanoid receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07229	07229	Angiotensin receptor and endothelin receptor antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07230	07230	GABA-A receptor agonists/antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07231	07231	Sodium channel blocking drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07232	07232	Potassium channel blocking and opening drugs	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07233	07233	Ion transporter inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07234	07234	Neurotransmitter transporter inhibitors	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0
+ko07235	07235	N-Methyl-D-aspartic acid (NMDA) receptor antagonists	Organismal Systems / Human Diseases	False	regular	False	nonmicrobial_context	False	0	0

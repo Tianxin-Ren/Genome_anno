@@ -1,0 +1,2395 @@
+[
+  {
+    "sid": "NiFe_Cnecator_RH",
+    "keys": [
+      "Cupriavidus necator H16 (Alcaligenes eutrophus)|HoxBC–HoxJ/HoxA"
+    ],
+    "label": "Cupriavidus necator H16 HoxBC–HoxJA",
+    "source": "cnecator_H16_pHG1.gb",
+    "members": [
+      [
+        "HoxB",
+        "PHG020",
+        "module"
+      ],
+      [
+        "HoxC",
+        "PHG021",
+        "catalytic"
+      ],
+      [
+        "HoxJ",
+        "PHG022",
+        "module"
+      ],
+      [
+        "HoxA",
+        "PHG019",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni10"
+    ],
+    "note": "HoxBC传感氢酶与HoxJ/HoxA独立列出；不把调控因子当作催化亚基。"
+  },
+  {
+    "sid": "NiFe_Rrubrum_Coo",
+    "keys": [
+      "Rrubrum_Coo"
+    ],
+    "label": "Rhodospirillum rubrum S1 Coo系统",
+    "source": "round71_group4_sources/Rrubrum_Coo/NC_007643.1.gb",
+    "members": [
+      [
+        "CooM",
+        "Rru_A1420",
+        "module"
+      ],
+      [
+        "CooK",
+        "Rru_A1421",
+        "module"
+      ],
+      [
+        "CooL",
+        "Rru_A1422",
+        "module"
+      ],
+      [
+        "CooX",
+        "Rru_A1423",
+        "module"
+      ],
+      [
+        "CooU",
+        "Rru_A1424",
+        "module"
+      ],
+      [
+        "CooH",
+        "Rru_A1425",
+        "catalytic"
+      ],
+      [
+        "CooF",
+        "Rru_A1426",
+        "module"
+      ],
+      [
+        "CooS",
+        "Rru_A1427",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni17"
+    ],
+    "note": "CooH是氢酶催化亚基，CooS是CO脱氢酶；遗传研究菌株由来源逐篇核对，不将CooS当氢酶。"
+  },
+  {
+    "sid": "FeFe_Mthermo_HydABC",
+    "keys": [
+      "Moorella_thermoacetica_HydABC"
+    ],
+    "label": "Moorella thermoacetica DSM521 HydABC",
+    "source": "round26_function_mechanism/CP012369.gb",
+    "members": [
+      [
+        "HydA",
+        "MOTHE_c17260",
+        "catalytic"
+      ],
+      [
+        "HydB",
+        "MOTHE_c17270",
+        "module"
+      ],
+      [
+        "HydC",
+        "MOTHE_c17280",
+        "module"
+      ]
+    ],
+    "center": "FeFe",
+    "fids": [
+      "Fe03",
+      "Fe04"
+    ],
+    "note": "本地参考HydABC核心；原GenBank写作hndD1/hndC1/hndA1，不据此赋予NADP特异性。"
+  },
+  {
+    "sid": "FeFe_Tteng_HydABCD",
+    "keys": [
+      "Caldanaerobacter_tengcongensis_HydABCD"
+    ],
+    "label": "Caldanaerobacter tengcongensis MB4 HydABCD",
+    "source": "round67_ech_sources/tengcongensis_NC_003869.1.gb",
+    "members": [
+      [
+        "HydA",
+        "TTE0894",
+        "catalytic"
+      ],
+      [
+        "HydB",
+        "TTE0893",
+        "module"
+      ],
+      [
+        "HydC",
+        "TTE0892",
+        "module"
+      ],
+      [
+        "HydD_candidate",
+        "TTE0891",
+        "module"
+      ]
+    ],
+    "center": "FeFe",
+    "fids": [
+      "Fe05"
+    ],
+    "note": "催化HydA及NuoF型HydB、FeS型HydC逐位点记录；TTE0891为邻近ATP结合蛋白，HydD角色单列候选，不声称已纯化验证四亚基组成。"
+  },
+  {
+    "sid": "NiFe_Mjannaschii_Frh",
+    "keys": [
+      "M_jannaschii_Frh"
+    ],
+    "label": "Methanocaldococcus jannaschii DSM2661 FrhABG",
+    "source": "round18_paralog_sources/mjannaschii_DSM2661.gb",
+    "members": [
+      [
+        "FrhA",
+        "MJ0029",
+        "catalytic"
+      ],
+      [
+        "FrhD",
+        "MJ0030",
+        "maturation"
+      ],
+      [
+        "FrhG",
+        "MJ0031",
+        "module"
+      ],
+      [
+        "FrhB",
+        "MJ0032",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni11"
+    ],
+    "note": "保留原研究部分纯化证据层级；现代参考基因位点对应标为同体系参考，不声称旧实验做了现代构建。"
+  },
+  {
+    "sid": "NiFe_Mbarkeri_Frh",
+    "keys": [
+      "M_barkeri_Fusaro_Frh"
+    ],
+    "label": "Methanosarcina barkeri Fusaro FrhABG",
+    "source": "mbarkeri_Fusaro.gb",
+    "members": [
+      [
+        "FrhA",
+        "Mbar_A0452",
+        "catalytic"
+      ],
+      [
+        "FrhD",
+        "Mbar_A0451",
+        "maturation"
+      ],
+      [
+        "FrhG",
+        "Mbar_A0450",
+        "module"
+      ],
+      [
+        "FrhB",
+        "Mbar_A0449",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni11"
+    ],
+    "note": "参考frhADGB基因簇；该基因组另有Frh同源簇Mbar_A2287等，不把同名蛋白自动并入本体系。"
+  },
+  {
+    "sid": "NiFe_Gsulfur_Hyb",
+    "keys": [
+      "Gsulfurreducens_HybSABL",
+      "Gsulfurreducens_Hyb"
+    ],
+    "label": "Geobacter sulfurreducens PCA HybSABLP",
+    "source": "evidence_six_20261112/NC_002939.gb",
+    "members": [
+      [
+        "HybS",
+        "GSU0782",
+        "module"
+      ],
+      [
+        "HybA",
+        "GSU0783",
+        "module"
+      ],
+      [
+        "HybB",
+        "GSU0784",
+        "module"
+      ],
+      [
+        "HybL",
+        "GSU0785",
+        "catalytic"
+      ],
+      [
+        "HybP",
+        "GSU0786",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni03"
+    ],
+    "note": "GSU0782–0786与原始研究位点一致；成熟蛋白单列，HybB膜模块及醌受体实验范围逐研究保留。"
+  },
+  {
+    "sid": "NiFe_MthermoDelta_Frh",
+    "keys": [
+      "M_thermautotrophicus_DeltaH_Frh"
+    ],
+    "label": "Methanothermobacter thermautotrophicus DeltaH FrhADGB",
+    "source": "evidence_six_20261112/NC_000916.1.gb",
+    "members": [
+      [
+        "FrhA",
+        "MTH1300",
+        "catalytic"
+      ],
+      [
+        "FrhD",
+        "MTH1299",
+        "maturation"
+      ],
+      [
+        "FrhG",
+        "MTH1298",
+        "module"
+      ],
+      [
+        "FrhB",
+        "MTH1297",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni11"
+    ],
+    "note": "DeltaH菌株独立保留，不并入M. marburgensis；旧研究测酶与现代CDS构建的差异另列。"
+  },
+  {
+    "sid": "FeFe_Cljung_Hyt",
+    "keys": [
+      "Clostridium_ljungdahlii_Hyt"
+    ],
+    "label": "Clostridium ljungdahlii DSM13528 HytCBDE1AE2",
+    "source": "evidence_six_20261112/NC_014328.1.gb",
+    "members": [
+      [
+        "HytC",
+        "CLJU_RS03460",
+        "module"
+      ],
+      [
+        "HytB",
+        "CLJU_RS03465",
+        "module"
+      ],
+      [
+        "HytD",
+        "CLJU_RS03470",
+        "module"
+      ],
+      [
+        "HytE1",
+        "CLJU_RS03475",
+        "module"
+      ],
+      [
+        "HytA",
+        "CLJU_RS03480",
+        "catalytic"
+      ],
+      [
+        "HytE2",
+        "CLJU_RS03485",
+        "module"
+      ]
+    ],
+    "center": "FeFe",
+    "fids": [
+      "Fe07"
+    ],
+    "note": "DSM13528与PETC为同一模式菌株保藏编号；保留遗传/蛋白质组证据等级，不把同源架构改为直接双受体测定。"
+  },
+  {
+    "sid": "Fe_Mkandleri_Hmd",
+    "keys": [
+      "M_kandleri_Hmd"
+    ],
+    "label": "Methanopyrus kandleri AV19 Hmd及FeGP辅助蛋白",
+    "source": "evidence_six_20261112/NC_003551.1.gb",
+    "members": [
+      [
+        "Hmd",
+        "MK0013",
+        "catalytic"
+      ],
+      [
+        "HcgF",
+        "MK0012",
+        "maturation"
+      ],
+      [
+        "HcgC",
+        "MK0014",
+        "maturation"
+      ],
+      [
+        "HmdB",
+        "MK0016",
+        "maturation"
+      ],
+      [
+        "HmdC",
+        "MK0017",
+        "maturation"
+      ]
+    ],
+    "center": "Fe",
+    "fids": [
+      "H01"
+    ],
+    "note": "只绑定hmd MK0013；不把另外两个Hmd相关同源物MK1122/MK1365直接赋予相同反应。FeGP基因角色按原注释标为辅助候选。"
+  },
+  {
+    "sid": "NiFe_Avariabilis_Hup",
+    "keys": [
+      "Anabaena variabilis ATCC 29413|HupSL"
+    ],
+    "label": "Anabaena variabilis ATCC29413 HupSL",
+    "source": "evidence_six_20261112/NC_007413.1.gb",
+    "members": [
+      [
+        "HupL",
+        "Ava_4595",
+        "catalytic"
+      ],
+      [
+        "HupS",
+        "Ava_4596",
+        "module"
+      ],
+      [
+        "HypF",
+        "Ava_4602",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "Ava_4603",
+        "maturation"
+      ],
+      [
+        "HypD",
+        "Ava_4604",
+        "maturation"
+      ],
+      [
+        "HypE",
+        "Ava_4606",
+        "maturation"
+      ],
+      [
+        "HypA",
+        "Ava_4607",
+        "maturation"
+      ],
+      [
+        "HypB",
+        "Ava_4608",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni08"
+    ],
+    "note": "完整染色体上的hupSL及附近Hyp成熟基因；位点新旧编号同一CDS。Hyp模块作为成熟支持，不单独决定摄氢生理用途。"
+  },
+  {
+    "sid": "Fe_Mjannaschii_Hmd",
+    "keys": [
+      "M_jannaschii_Hmd"
+    ],
+    "label": "Methanocaldococcus jannaschii DSM2661 Hmd",
+    "source": "round18_paralog_sources/mjannaschii_DSM2661.gb",
+    "members": [
+      [
+        "Hmd",
+        "MJ0784",
+        "catalytic"
+      ],
+      [
+        "HmdB",
+        "MJ0785",
+        "maturation"
+      ],
+      [
+        "HmdC",
+        "MJ0787",
+        "maturation"
+      ]
+    ],
+    "center": "Fe",
+    "fids": [
+      "H01"
+    ],
+    "note": "绑定有hmd注释的MJ0784；重组apo-Hmd与天然FeGP重构按原研究记录，不证明表达宿主可自行合成辅因子。"
+  },
+  {
+    "sid": "NiFe_EcoliMC4100_Hyf",
+    "keys": [
+      "Ecoli_FHL2"
+    ],
+    "label": "Escherichia coli MC4100 Hyf/FdhF FHL-2",
+    "source": "evidence_six_20261112/HG738867.1.gb",
+    "members": [
+      [
+        "HyfA",
+        "hyfA",
+        "module"
+      ],
+      [
+        "HyfB",
+        "hyfB",
+        "module"
+      ],
+      [
+        "HyfC",
+        "hyfC",
+        "module"
+      ],
+      [
+        "HyfD",
+        "hyfD",
+        "module"
+      ],
+      [
+        "HyfE",
+        "hyfE",
+        "module"
+      ],
+      [
+        "HyfF",
+        "hyfF",
+        "module"
+      ],
+      [
+        "HyfG",
+        "hyfG",
+        "catalytic"
+      ],
+      [
+        "HyfH",
+        "hyfH",
+        "module"
+      ],
+      [
+        "HyfI",
+        "hyfI",
+        "module"
+      ],
+      [
+        "FdhF",
+        "fdhF",
+        "module"
+      ],
+      [
+        "HypA",
+        "hypA",
+        "maturation"
+      ],
+      [
+        "HypB",
+        "hypB",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "hypC",
+        "maturation"
+      ],
+      [
+        "HypD",
+        "hypD",
+        "maturation"
+      ],
+      [
+        "HypE",
+        "hypE",
+        "maturation"
+      ],
+      [
+        "HypF",
+        "hypF",
+        "maturation"
+      ],
+      [
+        "HyfJ",
+        "hyfJ",
+        "maturation"
+      ],
+      [
+        "HyfR",
+        "hyfR",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni22"
+    ],
+    "note": "实验亲本MC4100完整基因组；hyf位点、辅助基因与分散fdhF分别列出，不把它们误称单一连续操纵子。"
+  },
+  {
+    "sid": "NiFe_EcoliMC4100_Hyb",
+    "keys": [],
+    "label": "Escherichia coli MC4100 HybOCAB",
+    "source": "evidence_six_20261112/HG738867.1.gb",
+    "members": [
+      [
+        "HybO",
+        "hybO",
+        "module"
+      ],
+      [
+        "HybA",
+        "hybA",
+        "module"
+      ],
+      [
+        "HybB",
+        "hybB",
+        "module"
+      ],
+      [
+        "HybC",
+        "hybC",
+        "catalytic"
+      ],
+      [
+        "HypA",
+        "hypA",
+        "maturation"
+      ],
+      [
+        "HypB",
+        "hypB",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "hypC",
+        "maturation"
+      ],
+      [
+        "HypD",
+        "hypD",
+        "maturation"
+      ],
+      [
+        "HypE",
+        "hypE",
+        "maturation"
+      ],
+      [
+        "HypF",
+        "hypF",
+        "maturation"
+      ],
+      [
+        "HybD",
+        "hybD",
+        "maturation"
+      ],
+      [
+        "HybG",
+        "hybG",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni03",
+      "Ni04"
+    ],
+    "note": "按文献确认的MC4100衍生亲本绑定；参考序列为野生型，论文中的点突变/标签须见构建说明。"
+  },
+  {
+    "sid": "NiFe_Cacet_HydA_external",
+    "keys": [
+      "C_acetobutylicum_HydA_CAC0764",
+      "Clostridium_acetobutylicum_HydA"
+    ],
+    "label": "Clostridium acetobutylicum ATCC824 HydA/Fd/CAC0764外部伙伴体系",
+    "source": "evidence_six_20261112/NC_003030.1.gb",
+    "center": "FeFe",
+    "fids": [
+      "Ni21",
+      "Fe01"
+    ],
+    "members": [
+      [
+        "HydA",
+        "CA_C0028",
+        "catalytic"
+      ],
+      [
+        "Fd_CAC0303",
+        "CA_C0303",
+        "module"
+      ],
+      [
+        "CAC0764",
+        "CA_C0764",
+        "module"
+      ]
+    ],
+    "note": "HydA与游离Fd、CAC0764为外部蛋白耦联，不是单一氢酶复合体；Nat Commun 2022方法明确以纯化C.acetobutylicum HydA作H2驱动Fd供电子。https://doi.org/10.1038/s41467-022-32269-1；Ni21跨FeFe架构，类别原NiFe名称不限制此反应。"
+  },
+  {
+    "sid": "NiFe_Nopaca_SH",
+    "keys": [
+      "N_opaca1b_SH"
+    ],
+    "label": "Rhodococcus opacus DSM43205 (=Nocardia opaca1b) SH",
+    "source": "round157_Nopaca_1b/GCA_048288345.1_ASM4828834v1_genomic.gbff",
+    "center": "NiFe",
+    "fids": [
+      "Ni14"
+    ],
+    "members": [
+      [
+        "HoxH",
+        "RMN54_36480",
+        "catalytic"
+      ],
+      [
+        "HoxY",
+        "RMN54_36485",
+        "module"
+      ],
+      [
+        "HoxU",
+        "RMN54_36490",
+        "module"
+      ],
+      [
+        "HoxF",
+        "RMN54_36495",
+        "module"
+      ],
+      [
+        "HoxW",
+        "RMN54_36475",
+        "maturation"
+      ]
+    ],
+    "note": "pHG201原生CDS。已测N端片段P22661/HoxH38aa、P22660/HoxY29aa、P22658/HoxF37aa分别与本基因组原位完整CDS精确匹配；不是用37aa片段替代完整604aa蛋白。HoxU的P22659 33aa未精确匹配，角色为簇位置和同源支持，尚非全长实验构建确认。"
+  },
+  {
+    "sid": "NiFe_Hthermo_genomic_Hox",
+    "keys": [
+      "H_thermoluteolus_SH"
+    ],
+    "label": "Hydrogenophilus thermoluteolus TH-1 Hox",
+    "source": "round124_HtSH/AP018558.1.gb",
+    "center": "NiFe",
+    "fids": [
+      "Ni14"
+    ],
+    "members": [
+      [
+        "HoxF",
+        "HPTL_1420",
+        "module"
+      ],
+      [
+        "HoxU",
+        "HPTL_1421",
+        "module"
+      ],
+      [
+        "HoxY",
+        "HPTL_1422",
+        "module"
+      ],
+      [
+        "HoxH",
+        "HPTL_1423",
+        "catalytic"
+      ],
+      [
+        "HoxW",
+        "HPTL_1424",
+        "maturation"
+      ]
+    ],
+    "note": "原MF153396四个Hox成员AST15075.1至AST15078.1与完整染色体HPTL_1420至1423逐条全长AA精确一致；现绑定AP018558.1。"
+  },
+  {
+    "sid": "NiFe_Styphimurium_Hyd5",
+    "keys": [
+      "Styphimurium_LT2_Hyd5"
+    ],
+    "label": "Salmonella enterica Typhimurium LT2 Hyd-5",
+    "source": "evidence_six_20261112/NC_003197.2.gb",
+    "center": "NiFe",
+    "fids": [
+      "Ni05"
+    ],
+    "members": [
+      [
+        "HydA",
+        "STM1539",
+        "module"
+      ],
+      [
+        "HydB",
+        "STM1538",
+        "catalytic"
+      ],
+      [
+        "HydC",
+        "STM1537",
+        "module"
+      ],
+      [
+        "HydD",
+        "STM1536",
+        "maturation"
+      ]
+    ],
+    "note": "Hyd-5 hydABCDEFGHI簇；LT2参考原生序列，论文纯化构建可能去除小亚基膜锚并带标签，不声称参考CDS等于实际构建。HydB为大亚基。https://doi.org/10.1042/BJ20131520"
+  },
+  {
+    "sid": "NiFe_Mthermolitho_MvhHdr",
+    "keys": [
+      "Methanothermococcus thermolithotrophicus|Hdr–Mvh"
+    ],
+    "label": "Methanothermococcus thermolithotrophicus DSM2095 HdrABC–MvhAGD",
+    "source": "evidence_six_20261112/NZ_OX296583.1.gb",
+    "center": "NiFe",
+    "fids": [
+      "Ni13"
+    ],
+    "members": [
+      [
+        "HdrA",
+        "OGY79_RS02830",
+        "module"
+      ],
+      [
+        "HdrB",
+        "OGY79_RS06420",
+        "module"
+      ],
+      [
+        "HdrC",
+        "OGY79_RS06415",
+        "module"
+      ],
+      [
+        "MvhD",
+        "OGY79_RS02850",
+        "module"
+      ],
+      [
+        "MvhG",
+        "OGY79_RS02845",
+        "module"
+      ],
+      [
+        "MvhA",
+        "OGY79_RS02840",
+        "catalytic"
+      ],
+      [
+        "hypA",
+        "OGY79_RS02710",
+        "maturation"
+      ],
+      [
+        "hypD",
+        "OGY79_RS02760",
+        "maturation"
+      ],
+      [
+        "hypE",
+        "OGY79_RS02875",
+        "maturation"
+      ],
+      [
+        "hypF",
+        "OGY79_RS04575",
+        "maturation"
+      ],
+      [
+        "hypB",
+        "OGY79_RS05495",
+        "maturation"
+      ]
+    ],
+    "binding": "S1 实验结构六成员全长AA与原生CDS精确对应",
+    "note": "5ODC六个polymer entity序列逐条与NZ_OX296583.1 CDS全长精确一致，含跨区域HdrBC。源数据与匹配逐条可复核；不将跨位点成员拼接为一个操纵子。"
+  },
+  {
+    "sid": "NiFe_Mmazei_Vho",
+    "keys": [
+      "Mmazei_Go1_Vho"
+    ],
+    "label": "Methanosarcina mazei Go1 VhoGAC",
+    "source": "round71_group4_sources/Mmazei_Ech/NC_003901.1.gb",
+    "center": "NiFe",
+    "fids": [
+      "Ni07"
+    ],
+    "members": [
+      [
+        "VhoG",
+        "MM_2314",
+        "module"
+      ],
+      [
+        "VhoA",
+        "MM_2313",
+        "catalytic"
+      ],
+      [
+        "VhoC",
+        "MM_2312",
+        "module"
+      ]
+    ],
+    "note": "按原生vho位点对应；与另一处vht相关氢酶区分。不把仅用未指明总膜氢酶的研究自动指定为Vho。1999EurJBiochem Vho研究 https://doi.org/10.1046/j.1432-1327.1999.00017.x"
+  },
+  {
+    "sid": "FeFe_CrHYDA1_genomic",
+    "keys": [
+      "Chlamydomonas_reinhardtii_HydA1"
+    ],
+    "label": "Chlamydomonas reinhardtii HYDA1原生核基因",
+    "source": "evidence_six_20261112/NC_057006.1.gb",
+    "center": "FeFe",
+    "fids": [
+      "Fe01",
+      "Fe02"
+    ],
+    "members": [
+      [
+        "HYDA1",
+        "CHLRE_03g199800v5",
+        "catalytic"
+      ],
+      [
+        "HydEF",
+        "CHLRE_06g296750v5",
+        "maturation",
+        "references/raw/evidence_six_20261112/NC_057009.1.gb"
+      ],
+      [
+        "HydG",
+        "CHLRE_06g296700v5",
+        "maturation",
+        "references/raw/evidence_six_20261112/NC_057009.1.gb"
+      ]
+    ],
+    "note": "HYDA1核基因含10外显子，原位完整CDS翻译与原AF289201完整497aa参考逐位一致。染色体6的HydEF/HydG分别与实验mRNA AY582739/AY582740逐位一致；HydEF为融合成熟因子。原生多外显子结构与体外人工构建分别保留；不同实验菌株/标签须看各记录限制。"
+  },
+  {
+    "sid": "NiFe_Tguam_Hyb",
+    "keys": [
+      "Tguamensis_Hyb"
+    ],
+    "label": "Trabulsiella guamensis ATCC49490 HybOABC",
+    "source": "round92_FHL_sources/GCF_000734965.1_Trabulsiella_guamensis_ATCC49490.gbff",
+    "center": "NiFe",
+    "fids": [
+      "Ni03",
+      "Ni04"
+    ],
+    "members": [
+      [
+        "HybO",
+        "GTGU_RS04800",
+        "module"
+      ],
+      [
+        "HybA",
+        "GTGU_RS04795",
+        "module"
+      ],
+      [
+        "HybB",
+        "GTGU_RS04790",
+        "module"
+      ],
+      [
+        "HybC",
+        "GTGU_RS04785",
+        "catalytic"
+      ],
+      [
+        "HybG",
+        "GTGU_RS04765",
+        "maturation"
+      ]
+    ],
+    "note": "2019研究中Hyb系统与Hyf/FHL2分别对应；原生hybOABC完整成员，不将两个氢酶合并。反向H2反应与醌的直接限定按论文实测范围保留。"
+  },
+  {
+    "sid": "NiFe_Mfum_SolV_Hhy",
+    "keys": [
+      "NiFe_Mfum_SolV_Hhy"
+    ],
+    "label": "M. fumariolicum SolV 高亲和[NiFe]氢酶 HhyLS",
+    "source": "evidence_six_20261112/NZ_LM997411.1.gb",
+    "center": "NiFe",
+    "fids": [
+      "Ni06"
+    ],
+    "clade": "Group 1h",
+    "binding": "S2 同体系参考序列",
+    "members": [
+      [
+        "HhyL",
+        "MFUMSOLV_RS08465",
+        "catalytic"
+      ],
+      [
+        "HhyS",
+        "MFUMSOLV_RS08470",
+        "module"
+      ],
+      [
+        "HhyE_protease",
+        "MFUMSOLV_RS08460",
+        "maturation"
+      ]
+    ],
+    "note": "对应Methylacidiphilum fumariolicum SolV RefSeq注释基因组NZ_LM997411.1；HhyL（MFUMSOLV_RS08465，604 aa）与HhyS（MFUMSOLV_RS08470，351 aa）及蛋白酶RS08460可支持痕量摄氢，“提高存活”仍属生理推断；原INSDC记录LM997411.1缺少CDS注释。"
+  },
+  {
+    "sid": "NiFe_Dbac_DSM4028_Hys",
+    "keys": [
+      "NiFe_Dbac_DSM4028_Hys"
+    ],
+    "label": "D. baculatum DSM 4028 [NiFeSe]氢酶 HysAB",
+    "source": "evidence_six_20261112/CP001629.1.gb",
+    "center": "NiFe",
+    "fids": [
+      "Ni01"
+    ],
+    "clade": "Group 1a",
+    "binding": "S2 同体系参考序列",
+    "members": [
+      [
+        "HysA",
+        "Dbac_1969",
+        "catalytic"
+      ],
+      [
+        "HysB",
+        "Dbac_1970",
+        "module"
+      ],
+      [
+        "Cyc_classIII",
+        "Dbac_0567",
+        "module"
+      ],
+      [
+        "Hys_protease",
+        "Dbac_1968",
+        "maturation"
+      ]
+    ],
+    "note": "DSM 4028原生基因组CP001629.1；大亚基Dbac_1969（ACU90057.1）C端加工位点前与PDB 4KO1_2完全一致，小亚基Dbac_1970与历史4KO1_1序列有6个残基差异，含I型III类细胞色素c参考伙伴。"
+  },
+  {
+    "sid": "FeFe_Ssphaeroides_KIAC_HydABC",
+    "keys": [
+      "FeFe_Ssphaeroides_KIAC_HydABC"
+    ],
+    "label": "S. sphaeroides KIAC NADP依赖[FeFe]氢酶 HydABC",
+    "source": "evidence_six_20261112/CP181154.1.gb",
+    "center": "FeFe",
+    "fids": [
+      "Fe08"
+    ],
+    "clade": "Group A3/A4",
+    "binding": "S2 同体系参考序列",
+    "members": [
+      [
+        "HydA",
+        "KIAC18_000074",
+        "catalytic"
+      ],
+      [
+        "HydB",
+        "KIAC18_000073",
+        "module"
+      ],
+      [
+        "HydC",
+        "KIAC18_000072",
+        "module"
+      ],
+      [
+        "hydE",
+        "KIAC18_004182",
+        "maturation"
+      ],
+      [
+        "hydF",
+        "KIAC18_003150",
+        "maturation"
+      ],
+      [
+        "hydG",
+        "KIAC18_001175",
+        "maturation"
+      ]
+    ],
+    "note": "Sporomusa sphaeroides KIAC原生染色体CP181154.1中的pJIR-NADP操纵子KIAC18_000072–000074及分散编码的HydEFG成熟因子；当前仅具异源遗传/生理支持，NADP特异性与Fd非依赖性尚未直接实测，不能作为这两个限定的确定正标签。"
+  },
+  {
+    "sid": "FeFe_CbA5H_BMR_external",
+    "keys": [
+      "FeFe_CbA5H_BMR_external",
+      "CbA5H_BMR_artificial"
+    ],
+    "label": "C. beijerinckii CbA5H + P450 BM3 BMR 人工外部偶联体系",
+    "source": "evidence_six_20261112/CP000721.1.gb",
+    "center": "FeFe",
+    "fids": [
+      "Ni21"
+    ],
+    "clade": "Group A1",
+    "binding": "S2 同体系参考序列",
+    "members": [
+      [
+        "CbA5H",
+        "Cbei_1773",
+        "catalytic"
+      ],
+      [
+        "BMR_CYP102A1",
+        "BG04_163",
+        "module",
+        "references/raw/evidence_six_20261112/CP009920.1.gb"
+      ]
+    ],
+    "note": "人工外部偶联体系（与CbA5H天然生物功能分开）：C. beijerinckii NCIMB 8052参考HydA（Cbei_1773）与实验SM10菌株CbA5H（AOZ57087.1）为643/644 aa相同（99.845%，第96位分别为L/I），不可写作完全一致；外部伙伴BG04_163（CP009920.1）为1049 aa完整CYP102A1母蛋白，论文实际使用分离的BMR还原酶结构域（对应UniProt P14779 aa 473–1049，不含N端血红素结构域aa 2–472），该577 aa/1731 nt构建片段已另行导出为construct_fragments.tsv与construct_fragments.faa中的FRAG_BG04_163_BMR_473_1049。"
+  },
+  {
+    "sid": "FeFe_CpI_external_FNR",
+    "keys": [
+      "FeFe_CpI_external_FNR"
+    ],
+    "label": "C. pasteurianum CpI + CpFd + Anabaena FNR 外部偶联体系",
+    "source": "cpasteurianum_DSM525.gb",
+    "center": "FeFe",
+    "fids": [
+      "Ni21"
+    ],
+    "clade": "Group A1",
+    "binding": "S2 同体系参考序列",
+    "members": [
+      [
+        "CpI",
+        "CLPA_c00280",
+        "catalytic"
+      ],
+      [
+        "CpFd",
+        "CLPA_c01220",
+        "module"
+      ],
+      [
+        "AnFNR_petH",
+        "BAB75820.1",
+        "module",
+        "references/raw/evidence_six_20261112/BA000019.2.gb"
+      ],
+      [
+        "hydE",
+        "CLPA_c17440",
+        "maturation"
+      ],
+      [
+        "hydF",
+        "CLPA_c21640",
+        "maturation"
+      ],
+      [
+        "hydG",
+        "CLPA_c11910",
+        "maturation"
+      ]
+    ],
+    "note": "体外重构H2→NADPH外部偶联体系（论文亦测CpII）：C. pasteurianum DSM 525原生CpI（CLPA_c00280）与CpFd（CLPA_c01220）可作为参考对应；AnFNR（Anabaena/Nostoc sp. PCC 7120 petH，BAB75820.1，BA000019.2）目前仅作属水平参考，尚不能称为实验蛋白的精确序列对应。"
+  },
+  {
+    "sid": "FeFe_CrHYDA1_PetF_FNR_external",
+    "keys": [
+      "FeFe_CrHYDA1_PetF_FNR_external"
+    ],
+    "label": "C. reinhardtii HYDA1 + CrPetF + CrFNR 外部偶联体系",
+    "source": "evidence_six_20261112/NC_057006.1.gb",
+    "center": "FeFe",
+    "fids": [
+      "Fe02"
+    ],
+    "clade": "Group A1",
+    "binding": "S2 同体系参考序列",
+    "members": [
+      [
+        "HYDA1",
+        "CHLRE_03g199800v5",
+        "catalytic"
+      ],
+      [
+        "CrPetF",
+        "CHLRE_14g626700v5",
+        "module",
+        "references/raw/evidence_six_20261112/NC_057017.1.gb"
+      ],
+      [
+        "CrFNR",
+        "CHLRE_11g476750v5",
+        "module",
+        "references/raw/evidence_six_20261112/NC_057014.1.gb"
+      ],
+      [
+        "HydEF",
+        "CHLRE_06g296750v5",
+        "maturation",
+        "references/raw/evidence_six_20261112/NC_057009.1.gb"
+      ],
+      [
+        "HydG",
+        "CHLRE_06g296700v5",
+        "maturation",
+        "references/raw/evidence_six_20261112/NC_057009.1.gb"
+      ]
+    ],
+    "note": "绿藻HYDA1（NC_057006.1）与各自独立染色体的游离铁氧还蛋白CrPetF（NC_057017.1）及外部NADP+氧化还原酶CrFNR（NC_057014.1）分开记录，配套HydEF/HydG（NC_057009.1）；该研究测定NaDT/光化学还原Fd驱动产H2及HydA1与FNR对还原型Fd的竞争分配，归类为Fe02（而非Ni21）。"
+  },
+  {
+    "sid": "NiFe_Dafricanus_DSM2603_Hys",
+    "keys": [
+      "Desulfovibrio africanus|HysAB"
+    ],
+    "label": "Desulfovibrio africanus DSM 2603 HysAB",
+    "source": "evidence_six_20261112/GCF_000422545.1_Dafricanus_DSM2603.gbff",
+    "members": [
+      [
+        "HysA",
+        "H585_RS0110820",
+        "catalytic"
+      ],
+      [
+        "HysB",
+        "H585_RS0110825",
+        "module"
+      ],
+      [
+        "HysD",
+        "H585_RS0110815",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni01"
+    ],
+    "note": "Desulfovibrio africanus DSM 2603 [NiFeSe]氢酶HysAB及成熟蛋白酶。"
+  },
+  {
+    "sid": "NiFe_Dnorvegicum_DSM1741_Hyn",
+    "keys": [
+      "Desulfomicrobium norvegicum|HynAB",
+      "Desulfovibrio desulfuricans Norway|HynAB"
+    ],
+    "label": "Desulfomicrobium norvegicum DSM 1741 HynAB",
+    "source": "evidence_six_20261112/GCF_900114595.1_Dnorvegicum_DSM1741.gbff",
+    "members": [
+      [
+        "HynL",
+        "BMZ24_RS18455",
+        "catalytic"
+      ],
+      [
+        "HynS",
+        "BMZ24_RS18450",
+        "module"
+      ],
+      [
+        "Protease",
+        "BMZ24_RS18460",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "BMZ24_RS18465",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni01"
+    ],
+    "note": "Desulfomicrobium norvegicum (原D. desulfuricans Norway) DSM 1741周质氢酶。"
+  },
+  {
+    "sid": "NiFe_Smultivorans_Hyd",
+    "keys": [
+      "Sulfurospirillum multivorans|HydABC"
+    ],
+    "label": "Sulfurospirillum multivorans DSM 12446 HydABC",
+    "source": "evidence_six_20261112/CP007201.1_Smultivorans_DSM12446.gb",
+    "members": [
+      [
+        "HydB",
+        "SMUL_1424",
+        "catalytic"
+      ],
+      [
+        "HydA",
+        "SMUL_1423",
+        "module"
+      ],
+      [
+        "HydC",
+        "SMUL_1425",
+        "module"
+      ],
+      [
+        "HydD",
+        "SMUL_1426",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni02"
+    ],
+    "note": "Sulfurospirillum multivorans DSM 12446膜结合NiFe氢酶HydABC及成熟因子。"
+  },
+  {
+    "sid": "NiFe_EcoliBW25113_Hyb",
+    "keys": [
+      "Escherichia coli BW25113|HybOABC"
+    ],
+    "label": "Escherichia coli BW25113 HybOABC",
+    "source": "evidence_six_20261112/CP009273.1_Ecoli_BW25113.gb",
+    "members": [
+      [
+        "HybC",
+        "BW25113_2994",
+        "catalytic"
+      ],
+      [
+        "HybO",
+        "BW25113_2997",
+        "module"
+      ],
+      [
+        "HybA",
+        "BW25113_2996",
+        "module"
+      ],
+      [
+        "HybB",
+        "BW25113_2995",
+        "module"
+      ],
+      [
+        "HybD",
+        "BW25113_2993",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni03",
+      "Ni04"
+    ],
+    "note": "E. coli BW25113氢酶2（Hyd-2）原生基因组CDS；含完整催化、电子传递与膜亚基。"
+  },
+  {
+    "sid": "NiFe_Styphimurium_Hyb",
+    "keys": [
+      "Salmonella enterica Typhimurium|HybOABC"
+    ],
+    "label": "Salmonella enterica SL1344 HybOABC",
+    "source": "evidence_six_20261112/FQ312003.1_Senterica_SL1344.gb",
+    "members": [
+      [
+        "HybC",
+        "SL1344_3121",
+        "catalytic"
+      ],
+      [
+        "HybO",
+        "SL1344_3124",
+        "module"
+      ],
+      [
+        "HybA",
+        "SL1344_3123",
+        "module"
+      ],
+      [
+        "HybB",
+        "SL1344_3122",
+        "module"
+      ],
+      [
+        "HybD",
+        "SL1344_3120",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni03"
+    ],
+    "note": "Salmonella enterica Typhimurium SL1344 Hyd-2（HybOABC）原生编码体系。"
+  },
+  {
+    "sid": "NiFe_Sfumaroxidans_Hyn",
+    "keys": [
+      "Syntrophobacter fumaroxidans MPOB|HynLS"
+    ],
+    "label": "Syntrophobacter fumaroxidans MPOB HynLS",
+    "source": "evidence_six_20261112/CP000478.1_Sfumaroxidans_MPOB.gb",
+    "members": [
+      [
+        "HynL",
+        "Sfum_2952",
+        "catalytic"
+      ],
+      [
+        "HynS",
+        "Sfum_2953",
+        "module"
+      ],
+      [
+        "HypC",
+        "Sfum_2950",
+        "maturation"
+      ],
+      [
+        "HypD",
+        "Sfum_2951",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni04"
+    ],
+    "note": "Syntrophobacter fumaroxidans MPOB膜结合[NiFe]氢酶与成熟辅助基因。"
+  },
+  {
+    "sid": "NiFe_Dalaskensis_G20_Hyn",
+    "keys": [
+      "Desulfovibrio alaskensis G20|HynAB"
+    ],
+    "label": "Desulfovibrio alaskensis G20 HynAB",
+    "source": "evidence_six_20261112/CP000112.1_Dalaskensis_G20.gb",
+    "members": [
+      [
+        "HynL",
+        "Dde_2137",
+        "catalytic"
+      ],
+      [
+        "HynS",
+        "Dde_2138",
+        "module"
+      ],
+      [
+        "HynC",
+        "Dde_2136",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni04"
+    ],
+    "note": "Desulfovibrio alaskensis G20膜结合[NiFe]氢酶。"
+  },
+  {
+    "sid": "NiFe_Pthermo_Hyd",
+    "keys": [
+      "Pelotomaculum thermopropionicum SI|Hyd"
+    ],
+    "label": "Pelotomaculum thermopropionicum SI Hyd",
+    "source": "evidence_six_20261112/AP009389.1_Pthermopropionicum_SI.gb",
+    "members": [
+      [
+        "HydL",
+        "PTH_0028",
+        "catalytic"
+      ],
+      [
+        "HydS",
+        "PTH_0027",
+        "module"
+      ],
+      [
+        "HydM",
+        "PTH_0026",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni04"
+    ],
+    "note": "Pelotomaculum thermopropionicum SI膜结合氢酶PTH_0026-0028。"
+  },
+  {
+    "sid": "NiFe_Aaeolicus_Mbh1",
+    "keys": [
+      "Aquifex aeolicus|Mbh1"
+    ],
+    "label": "Aquifex aeolicus VF5 Mbh1 (HoxZ–MbhS1L1)",
+    "source": "evidence_six_20261112/AE000657.1_Aquifex_aeolicus_VF5.gb",
+    "members": [
+      [
+        "MbhL1",
+        "aq_662",
+        "catalytic"
+      ],
+      [
+        "MbhS1",
+        "aq_660",
+        "module"
+      ],
+      [
+        "HoxZ",
+        "aq_665",
+        "module"
+      ],
+      [
+        "HupD",
+        "aq_667",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni05"
+    ],
+    "note": "Aquifex aeolicus VF5氧耐受膜结合呼吸型氢酶1（Mbh1），全染色体原位对应。"
+  },
+  {
+    "sid": "NiFe_Pmethyl_Hhy",
+    "keys": [
+      "Pyrinomonas methylaliphatogenes K22|HhyLS"
+    ],
+    "label": "Pyrinomonas methylaliphatogenes K22 HhyLS",
+    "source": "evidence_six_20261112/GCF_000820845.2_Pmethylaliphatogenes_K22.gbff",
+    "members": [
+      [
+        "HhyL",
+        "PYK22_RS15255",
+        "catalytic"
+      ],
+      [
+        "HhyS",
+        "PYK22_RS15250",
+        "module"
+      ],
+      [
+        "Protease",
+        "PYK22_RS15280",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni06"
+    ],
+    "note": "Pyrinomonas methylaliphatogenes K22高亲和力好氧呼吸Group 1h [NiFe]氢酶。"
+  },
+  {
+    "sid": "NiFe_Salaskensis_Huc",
+    "keys": [
+      "Sphingopyxis alaskensis RB2256|HucLS"
+    ],
+    "label": "Sphingopyxis alaskensis RB2256 plasmidF HucLS",
+    "source": "evidence_six_20261112/CP000357.1_Salaskensis_RB2256_plasmidF.gb",
+    "members": [
+      [
+        "HucL",
+        "Sala_3198",
+        "catalytic"
+      ],
+      [
+        "HucS",
+        "Sala_3197",
+        "module"
+      ],
+      [
+        "Protease",
+        "Sala_3201",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni09"
+    ],
+    "note": "Sphingopyxis alaskensis RB2256质粒编码大气痕量摄氢Group 1h [NiFe]氢酶HucLS。"
+  },
+  {
+    "sid": "NiFe_Maurea_Hhy",
+    "keys": [
+      "Methylocapsa aurea KYG|HhyLS"
+    ],
+    "label": "Methylocapsa aurea KYG HhyLS",
+    "source": "evidence_six_20261112/GCF_000746085.1_Maurea_KYG.gbff",
+    "members": [
+      [
+        "HhyL",
+        "DL86_RS13145",
+        "catalytic"
+      ],
+      [
+        "HhyS",
+        "DL86_RS13150",
+        "module"
+      ],
+      [
+        "Protease",
+        "DL86_RS13135",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni09"
+    ],
+    "note": "Methylocapsa aurea KYG大气痕量摄氢Group 1h [NiFe]氢酶。"
+  },
+  {
+    "sid": "NiFe_Nmoscoviensis_Hup",
+    "keys": [
+      "Nitrospira moscoviensis|HupSL"
+    ],
+    "label": "Nitrospira moscoviensis HupSL",
+    "source": "evidence_six_20261112/CP011801.1_Nmoscoviensis.gbff",
+    "members": [
+      [
+        "HupL",
+        "NITMOv2_1640",
+        "catalytic"
+      ],
+      [
+        "HupS",
+        "NITMOv2_1639",
+        "module"
+      ],
+      [
+        "Protease",
+        "NITMOv2_1643",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni09"
+    ],
+    "note": "Nitrospira moscoviensis大气痕量摄氢Group 1h [NiFe]氢酶。"
+  },
+  {
+    "sid": "NiFe_Gaurantiaca_Hhy",
+    "keys": [
+      "Gemmatimonas aurantiaca|HhyLS"
+    ],
+    "label": "Gemmatimonas aurantiaca T-27 HhyLS",
+    "source": "evidence_six_20261112/AP009153.1_Gaurantiaca.gbff",
+    "members": [
+      [
+        "HhyL",
+        "GAU_0412",
+        "catalytic"
+      ],
+      [
+        "HhyS",
+        "GAU_0413",
+        "module"
+      ],
+      [
+        "Protease",
+        "GAU_0411",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni09"
+    ],
+    "note": "Gemmatimonas aurantiaca T-27大气痕量摄氢Group 1h [NiFe]氢酶。"
+  },
+  {
+    "sid": "NiFe_Mthermophilum_Vho",
+    "keys": [
+      "Methanonatronarchaeum thermophilum AMET1|VhoAG"
+    ],
+    "label": "Methanonatronarchaeum thermophilum AMET1 VhoAG",
+    "source": "evidence_six_20261112/GCF_002153915.1_Mthermophilum_AMET1.gbff",
+    "members": [
+      [
+        "VhoA",
+        "AMET1_RS03000",
+        "catalytic"
+      ],
+      [
+        "VhoG",
+        "AMET1_RS03005",
+        "module"
+      ],
+      [
+        "Protease",
+        "AMET1_RS02990",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni06"
+    ],
+    "note": "Methanonatronarchaeum thermophilum AMET1还原methanophenazine的膜结合Vho氢酶。"
+  },
+  {
+    "sid": "NiFe_Macetivorans_Vht",
+    "keys": [
+      "Methanosarcina acetivorans C2A|Vht"
+    ],
+    "label": "Methanosarcina acetivorans C2A Vht/Ech",
+    "source": "evidence_six_20261112/AE010299.1_Macetivorans_C2A.gb",
+    "members": [
+      [
+        "VhtA",
+        "MA_4371",
+        "catalytic"
+      ],
+      [
+        "VhtB",
+        "MA_4369",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni06"
+    ],
+    "note": "Methanosarcina acetivorans C2A氢酶原生染色体编码。"
+  },
+  {
+    "sid": "NiFe_Nostoc7120_Hup",
+    "keys": [
+      "Nostoc sp. PCC 7120|HupSL",
+      "Anabaena sp. PCC 7120|HupSL"
+    ],
+    "label": "Nostoc sp. PCC 7120 HupSL",
+    "source": "evidence_six_20261112/BA000019.2.gb",
+    "members": [
+      [
+        "HupL",
+        "BAB72634.1",
+        "catalytic"
+      ],
+      [
+        "HupS",
+        "BAB72645.1",
+        "module"
+      ],
+      [
+        "HypF",
+        "BAB72651.1",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni07"
+    ],
+    "note": "Nostoc / Anabaena sp. PCC 7120固氮摄氢氢酶HupSL及成熟因子。"
+  },
+  {
+    "sid": "NiFe_Tbogorovii_Hup",
+    "keys": [
+      "Thiocapsa roseopersicina BBS|HupSL"
+    ],
+    "label": "Thiocapsa bogorovii BBS (T. roseopersicina BBS) HupSL",
+    "source": "round68_identity_sources/CP089309.1.gb",
+    "members": [
+      [
+        "HupL",
+        "LT988_RS02915",
+        "catalytic"
+      ],
+      [
+        "HupS",
+        "LT988_RS02910",
+        "module"
+      ],
+      [
+        "CybH",
+        "LT988_RS02920",
+        "module"
+      ],
+      [
+        "HybD",
+        "LT988_RS02925",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni04"
+    ],
+    "note": "Thiocapsa bogorovii BBS (原T. roseopersicina BBS)膜结合摄氢酶。"
+  },
+  {
+    "sid": "NiFe_Rpalustris_Hup",
+    "keys": [
+      "Rhodopseudomonas palustris CGA009|HupSL"
+    ],
+    "label": "Rhodopseudomonas palustris CGA009 HupSL",
+    "source": "evidence_six_20261112/CP116810.1_Rpalustris_CGA009.gb",
+    "members": [
+      [
+        "HupL",
+        "TX73_004960",
+        "catalytic"
+      ],
+      [
+        "HupS",
+        "TX73_004955",
+        "module"
+      ],
+      [
+        "CybH",
+        "TX73_004965",
+        "module"
+      ],
+      [
+        "HupD",
+        "TX73_004970",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni10"
+    ],
+    "note": "Rhodopseudomonas palustris CGA009膜结合摄氢酶HupSL及成熟因子。"
+  },
+  {
+    "sid": "NiFe_Mformicicum_Frh",
+    "keys": [
+      "Methanobacterium formicicum DSM 1535|Frh"
+    ],
+    "label": "Methanobacterium formicicum DSM 1535 Frh",
+    "source": "evidence_six_20261112/LN515531.1_Mformicicum_DSM1535.gb",
+    "members": [
+      [
+        "FrhA",
+        "DSM1535_0622",
+        "catalytic"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni11"
+    ],
+    "note": "Methanobacterium formicicum DSM 1535 F420还原型氢酶Frh。"
+  },
+  {
+    "sid": "NiFe_Mconradii_MvhHdr",
+    "keys": [
+      "Methanocella conradii HZ254|MvhHdr"
+    ],
+    "label": "Methanocella conradii HZ254 MvhAGD-HdrABC",
+    "source": "evidence_six_20261112/CP003243.1_Mconradii_HZ254.gb",
+    "members": [
+      [
+        "MvhA",
+        "Mtc_2479",
+        "catalytic"
+      ],
+      [
+        "MvhG",
+        "Mtc_2478",
+        "module"
+      ],
+      [
+        "HdrC",
+        "Mtc_2475",
+        "module"
+      ],
+      [
+        "HdrB",
+        "Mtc_2474",
+        "module"
+      ],
+      [
+        "HdrA",
+        "Mtc_2473",
+        "module"
+      ],
+      [
+        "MvhD",
+        "Mtc_2472",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni13"
+    ],
+    "note": "Methanocella conradii HZ254全套六亚基电子分叉Mvh-Hdr复合体。"
+  },
+  {
+    "sid": "NiFe_MmaripaludisJJ_MvhHdr",
+    "keys": [
+      "Methanococcus maripaludis JJ|VhcHdr"
+    ],
+    "label": "Methanococcus maripaludis JJ Vhc-Hdr",
+    "source": "round16_split_centers/CP026606.1.gb",
+    "members": [
+      [
+        "VhcA",
+        "MMJJ_01740",
+        "catalytic"
+      ],
+      [
+        "VhcG",
+        "MMJJ_01750",
+        "module"
+      ],
+      [
+        "VhcB",
+        "MMJJ_01730",
+        "module"
+      ],
+      [
+        "VhcD",
+        "MMJJ_01760",
+        "module"
+      ],
+      [
+        "HdrA",
+        "MMJJ_01720",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni13"
+    ],
+    "note": "Methanococcus maripaludis JJ电子分叉Mvh/Vhc-Hdr复合体。"
+  },
+  {
+    "sid": "NiFe_MmaripaludisS2_Vhu",
+    "keys": [
+      "Methanococcus maripaludis S2|Vhu"
+    ],
+    "label": "Methanococcus maripaludis S2 Vhu",
+    "source": "evidence_six_20261112/NC_005791.1.gb",
+    "members": [
+      [
+        "VhuA",
+        "MMP_RS08725",
+        "catalytic"
+      ],
+      [
+        "VhuG",
+        "MMP_RS08730",
+        "module"
+      ],
+      [
+        "VhuD",
+        "MMP_RS08735",
+        "module"
+      ],
+      [
+        "VhuB",
+        "MMP_RS08720",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni13",
+      "Ni19"
+    ],
+    "note": "Methanococcus maripaludis S2氢化酶VhuABGD。"
+  },
+  {
+    "sid": "NiFe_Tparalvinellae_ES1_FdhMfh",
+    "keys": [
+      "Thermococcus paralvinellae ES1|FdhMfh"
+    ],
+    "label": "Thermococcus paralvinellae ES1 Fdh-Mfh2-Mnh2",
+    "source": "evidence_six_20261112/CP006965.1_Tparalvinellae_ES1.gb",
+    "members": [
+      [
+        "MfhG",
+        "TES1_0101",
+        "catalytic"
+      ],
+      [
+        "MfhC",
+        "TES1_0100",
+        "module"
+      ],
+      [
+        "MfhB",
+        "TES1_0099",
+        "module"
+      ],
+      [
+        "MfhD",
+        "TES1_0098",
+        "module"
+      ],
+      [
+        "MfhI",
+        "TES1_0103",
+        "module"
+      ],
+      [
+        "FdhA",
+        "TES1_0096",
+        "module"
+      ],
+      [
+        "Fd",
+        "TES1_0097",
+        "module"
+      ],
+      [
+        "HypD",
+        "TES1_0093",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "TES1_0094",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni16"
+    ],
+    "note": "Thermococcus paralvinellae ES1甲酸氧化耦联产氢及离子梯度生成复合体。"
+  },
+  {
+    "sid": "NiFe_Tbarophilus_CH5_FdhMfh",
+    "keys": [
+      "Thermococcus barophilus CH5|FdhMbh"
+    ],
+    "label": "Thermococcus barophilus CH5 Fdh-Mbh",
+    "source": "evidence_six_20261112/CP013050.1_Tbarophilus_CH5.gb",
+    "members": [
+      [
+        "MbhKL",
+        "TBCH5v1_0654",
+        "catalytic"
+      ],
+      [
+        "MbhM",
+        "TBCH5v1_0655",
+        "module"
+      ],
+      [
+        "FeS",
+        "TBCH5v1_0658",
+        "module"
+      ],
+      [
+        "FdhA",
+        "TBCH5v1_0659",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni16"
+    ],
+    "note": "Thermococcus barophilus CH5甲酸氧化耦联产氢超分子复合体。"
+  },
+  {
+    "sid": "NiFe_Rgelatinosus_Coo",
+    "keys": [
+      "Rubrivivax gelatinosus CBS|Coo"
+    ],
+    "label": "Rubrivivax gelatinosus CBS Coo",
+    "source": "evidence_six_20261112/NZ_JADOUB010000001.1_Rgelatinosus_CBS_scaf1.gb",
+    "members": [
+      [
+        "CooL",
+        "IWX58_RS02675",
+        "catalytic"
+      ],
+      [
+        "CooS",
+        "IWX58_RS02670",
+        "module"
+      ],
+      [
+        "CybH",
+        "IWX58_RS02685",
+        "module"
+      ],
+      [
+        "Protease",
+        "IWX58_RS02695",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "IWX58_RS02700",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni17"
+    ],
+    "note": "Rubrivivax gelatinosus CBS一氧化碳水煤气变换氢酶Coo体系。"
+  },
+  {
+    "sid": "NiFe_Tkivui_Ech",
+    "keys": [
+      "Thermoanaerobacter kivui DSM2030|Ech"
+    ],
+    "label": "Thermoanaerobacter kivui DSM 2030 Ech",
+    "source": "round22_function_truth/genomes/CP009170.gb",
+    "members": [
+      [
+        "EchE",
+        "TKV_c01310",
+        "catalytic"
+      ],
+      [
+        "EchD",
+        "TKV_c01300",
+        "module"
+      ],
+      [
+        "EchF",
+        "TKV_c01260",
+        "module"
+      ],
+      [
+        "EchC",
+        "TKV_c01250",
+        "module"
+      ],
+      [
+        "EchB",
+        "TKV_c01240",
+        "module"
+      ],
+      [
+        "EchA",
+        "TKV_c01230",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni18"
+    ],
+    "note": "Thermoanaerobacter kivui DSM 2030质子/钠动力势Ech氢酶复合体。"
+  },
+  {
+    "sid": "NiFe_Mthermophila_Ech",
+    "keys": [
+      "Methanosarcina thermophila TM-1|Ech"
+    ],
+    "label": "Methanosarcina thermophila TM-1 EchABCDEF",
+    "source": "evidence_six_20261112/NZ_CP009501.1_Mthermophila_TM1.gb",
+    "members": [
+      [
+        "EchE",
+        "MSTHT_RS12225",
+        "catalytic"
+      ],
+      [
+        "EchF",
+        "MSTHT_RS12220",
+        "module"
+      ],
+      [
+        "EchD",
+        "MSTHT_RS12230",
+        "module"
+      ],
+      [
+        "EchC",
+        "MSTHT_RS12235",
+        "module"
+      ],
+      [
+        "EchB",
+        "MSTHT_RS12240",
+        "module"
+      ],
+      [
+        "EchA",
+        "MSTHT_RS12245",
+        "module"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni18",
+      "Ni19"
+    ],
+    "note": "Methanosarcina thermophila TM-1乙酸产甲烷膜结合Ech氢酶复合体。"
+  },
+  {
+    "sid": "FeFe_Tobliquus_HydA",
+    "keys": [
+      "Scenedesmus obliquus|HydA",
+      "Tetradesmus obliquus|HydA"
+    ],
+    "label": "Tetradesmus obliquus (Scenedesmus obliquus) HydA",
+    "source": "evidence_six_20261112/CP126215.1_Tobliquus_chr8b.gb",
+    "members": [
+      [
+        "HydA",
+        "OEZ85_013984",
+        "catalytic"
+      ]
+    ],
+    "center": "FeFe",
+    "fids": [
+      "Fe02"
+    ],
+    "note": "绿藻Scenedesmus obliquus染色体原位编码HydA氢酶。"
+  },
+  {
+    "sid": "FeFe_Sfructosivorans_JJ_Hnd",
+    "keys": [
+      "Solidesulfovibrio fructosivorans|HndABCD",
+      "Desulfovibrio fructosovorans|HndABCD"
+    ],
+    "label": "Solidesulfovibrio fructosivorans JJ HndABCD",
+    "source": "evidence_six_20261112/GCF_000179555.1_Sfructosivorans_JJ.gbff",
+    "members": [
+      [
+        "HndD",
+        "DESFRDRAFT_RS01970",
+        "catalytic"
+      ],
+      [
+        "HndA",
+        "DESFRDRAFT_RS01955",
+        "module"
+      ],
+      [
+        "HndB",
+        "DESFRDRAFT_RS01960",
+        "module"
+      ],
+      [
+        "HndC",
+        "DESFRDRAFT_RS01965",
+        "module"
+      ],
+      [
+        "HydE",
+        "DESFRDRAFT_RS01985",
+        "maturation"
+      ],
+      [
+        "HydF",
+        "DESFRDRAFT_RS01990",
+        "maturation"
+      ]
+    ],
+    "center": "FeFe",
+    "fids": [
+      "Fe03",
+      "Fe04",
+      "Fe08"
+    ],
+    "note": "Solidesulfovibrio fructosivorans JJ全基因组WGS原位编码HndABCD及下游HydE/F成熟基因。"
+  },
+  {
+    "sid": "FeFe_Ecallanderi_Hnd",
+    "keys": [
+      "Eubacterium callanderi|Hnd",
+      "Eubacterium limosum|Hnd"
+    ],
+    "label": "Eubacterium callanderi KIST612 Hnd/HDCR",
+    "source": "round30_Ecallanderi/CP002273.gb",
+    "members": [
+      [
+        "HydA",
+        "ELI_0847",
+        "catalytic"
+      ],
+      [
+        "HydB",
+        "ELI_0846",
+        "module"
+      ],
+      [
+        "HydC",
+        "ELI_0843",
+        "module"
+      ]
+    ],
+    "center": "FeFe",
+    "fids": [
+      "Fe04",
+      "Fe06"
+    ],
+    "note": "Eubacterium callanderi (原E. limosum) KIST612全基因组CP002273.1原位编码HndABC/HDCR氢酶。"
+  },
+  {
+    "sid": "Fe_Mthermolitho_Hmd",
+    "keys": [
+      "Methanothermococcus thermolithotrophicus|Hmd"
+    ],
+    "label": "Methanothermococcus thermolithotrophicus DSM 2095 Hmd",
+    "source": "evidence_six_20261112/NZ_OX296583.1_Mthermolithotrophicus_SN1.gb",
+    "members": [
+      [
+        "Hmd",
+        "OGY79_RS04510",
+        "catalytic"
+      ],
+      [
+        "HmdB",
+        "OGY79_RS04505",
+        "module"
+      ],
+      [
+        "HypF",
+        "OGY79_RS04575",
+        "maturation"
+      ]
+    ],
+    "center": "Fe",
+    "fids": [
+      "Fe07"
+    ],
+    "note": "Methanothermococcus thermolithotrophicus DSM 2095无铁硫簇单铁氢酶Hmd。"
+  },
+  {
+    "sid": "NiFe_Pruminis_Ech",
+    "keys": [
+      "Pseudobutyrivibrio ruminis DSM 9787|Ech"
+    ],
+    "label": "Pseudobutyrivibrio ruminis DSM 9787 Ech",
+    "source": "evidence_six_20261112/OBMR01_Pruminis_DSM9787.gbff",
+    "members": [
+      [
+        "EchE",
+        "SAMN02910411_1835",
+        "catalytic"
+      ],
+      [
+        "EchD",
+        "SAMN02910411_1836",
+        "module"
+      ],
+      [
+        "EchC",
+        "SAMN02910411_1837",
+        "module"
+      ],
+      [
+        "EchB",
+        "SAMN02910411_1838",
+        "module"
+      ],
+      [
+        "EchA",
+        "SAMN02910411_1839",
+        "module"
+      ],
+      [
+        "EchF",
+        "SAMN02910411_1834",
+        "module"
+      ],
+      [
+        "HypE",
+        "SAMN02910411_1830",
+        "maturation"
+      ],
+      [
+        "HypD",
+        "SAMN02910411_1831",
+        "maturation"
+      ],
+      [
+        "HypC",
+        "SAMN02910411_1832",
+        "maturation"
+      ],
+      [
+        "HypF",
+        "SAMN02910411_1833",
+        "maturation"
+      ]
+    ],
+    "center": "NiFe",
+    "fids": [
+      "Ni18"
+    ],
+    "note": "Pseudobutyrivibrio ruminis DSM 9787膜结合Ech氢酶操纵子。"
+  }
+]

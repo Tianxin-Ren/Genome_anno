@@ -1,0 +1,86 @@
+{
+  "version": "round18-Hmd-primary-identity-adjudication",
+  "scope": "Catalytic identity only; separate from subgroup, complete complex and molecular function. Public profile matches and ligands cannot individually prove H2 catalysis. No folding, metal occupancy or activity claim.",
+  "corpus": "references/validation/round09_identity_corpus",
+  "training_audit": "results/round10_core_split_audit",
+  "training_split": "development",
+  "training_selection": "Core-audited development and original references, with exact hash-pinned primary Hmd identity adjudications; immutable historical labels remain separately preserved. No calibration/final prototypes.",
+  "domain_profiles": [
+    "PF00374",
+    "PF00346",
+    "PF02906",
+    "PF02256",
+    "PF03201",
+    "PF22616"
+  ],
+  "architecture": {
+    "NiFe": [
+      [
+        "PF00374"
+      ],
+      [
+        "PF00346"
+      ]
+    ],
+    "FeFe": [
+      [
+        "PF02906",
+        "PF02256"
+      ]
+    ],
+    "Fe": [
+      [
+        "PF03201",
+        "PF22616"
+      ]
+    ]
+  },
+  "eligible_calibration_families": [
+    "NiFe",
+    "FeFe"
+  ],
+  "core_comparison_min_coverage": 0.7,
+  "comparison_max_evalue": 1e-10,
+  "domain_core_overlap_min": 0.7,
+  "parameter_grid": {
+    "min_domain_coverage": [
+      0.7,
+      0.8,
+      0.9
+    ],
+    "min_core_similarity": [
+      25,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80
+    ],
+    "min_competitor_margin": [
+      0,
+      5,
+      10,
+      20
+    ]
+  },
+  "calibration_selection": {
+    "min_precision": 0.99,
+    "min_recall": 0.2,
+    "min_true_positive_outputs_per_family": 5,
+    "ranking": "Highest true-positive count, then larger competitor margin, domain coverage and core similarity. Evaluate each family separately; no qualifying rule means no high-confidence rule for that family. Confidence intervals and component-representative counts must be reported.",
+    "interpretation": "Point estimates select an engineering rule; small/correlated calibration samples do not establish a population precision guarantee. Final source-separated testing remains required."
+  },
+  "rules": [
+    "Required single-polypeptide reviewed ligand set, local contexts and whole-template span must be supported. Split/fused-template and exact noncanonical exceptions remain outside new high-confidence calibration.",
+    "Partial CDS, unknown family, absent core, or ambiguous active-site map cannot enter high-confidence output.",
+    "Core similarity is matching residues divided by reviewed query-core positions within one significant local alignment, not full-protein bitscore or a combined P value.",
+    "A positive family prototype must exceed every comparable negative, indeterminate and other-family prototype by the selected margin. Exact ties never pass.",
+    "Development diagnostics exclude same homolog component or genus prototypes; original references remain exposure controls, not independent positives.",
+    "Train, calibration and final source hashes and own-library homology/taxonomy separation must be rechecked before final confirmation prediction. Candidate-discovery final results do not validate this new stage.",
+    "No gene names, organism physiology, KO or HydDB subgroup names become query mechanism evidence.",
+    "Original unresolved functional kind is unchanged. Only an exact sequence in a frozen reference_overlap positive identity unit can supply positive catalytic identity, under a separate accession/hash review; otherwise retain indeterminate identity. No functional reference is enabled."
+  ],
+  "reference_identity_review": "config/reference_catalytic_identity_review.json",
+  "identity_adjudications": "config/catalytic_identity_adjudications.json"
+}

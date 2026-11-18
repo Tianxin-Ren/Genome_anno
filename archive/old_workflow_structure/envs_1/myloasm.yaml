@@ -1,0 +1,6 @@
+name: myloasm
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - myloasm

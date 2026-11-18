@@ -1,0 +1,59 @@
+# Annotation Module Configuration
+annotation:
+  data_type: "long"
+  input_dir: "results/assembly"
+  
+  steps:
+    bakta: True
+    eggnog: True
+    kofamscan: False
+    dbcan: False
+    gtdbtk: True
+    checkm2: True
+    quast: False
+    isescan: False
+    advanced_hmm: True # 新增：工业级 HMM 仲裁流程开关
+    resolve_hmm: True  # 新增：是否进行最终 HMM 裁决与合并汇总。设为 False 则全局所有样本只跑 HMM 检索（生成 unified_all_raw.tbl）而不进行最终裁决与汇总
+    pfam: False        # 新增：是否对结构域进行 Pfam 搜索 (耗时，可关闭以仅注释 Unified HMM)
+    circular: True     # 是否开启环状重叠群精细化分析与注释
+    cdhit: True        # 新增：是否对合并后的 FAA 蛋白序列进行 CD-HIT 聚类得到代表性蛋白
+  
+  # --- Bakta Performance Settings ---
+  split_chunks: 20
+  ext_bakta_extra_flags: "--skip-sorf" # 跳过 sORF 预测以规避 DIAMOND v2.1.9 段错误崩溃。如需极速仅预测 CDS 可扩展为: "--skip-trna --skip-rrna --skip-tmrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-sorf --skip-pseudo --skip-gap --skip-ori"
+  hmm_split_chunks: 50
+  hmm_evalue_threshold: 1e-2
+  hmm_log_factor: 0.2
+  min_circular_size: 800000
+  cdhit_c: 0.95       # 新增：CD-HIT 聚类相似性阈值参数 (如 0.95, 0.90 等)，结果文件名会自动包含此参数并自动调整 word size
+  
+  # --- Batch HMM Annotation Settings ---
+  batch_hmm: True     # 是否启用外源基因组的批量 Prodigal+HMM 检索及裁决流程 (用于大规模 MAGs)
+  batch_size: 500     # 外源基因组合并进行 HMM 检索的批次大小 (例如 500 个 MAGs 合并为一组)
+  
+  # --- Databases ---
+  bakta_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db-light"
+  gtdbtk_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+  checkm2_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CheckM2_database/uniref100.KO.1.dmnd"
+  eggnog_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/eggnog"
+  kofam_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam"
+  dbcan_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/dbscan"
+  
+  # --- Advanced HMM Databases ---
+  unified_hmm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/KEGG/archive/2025-02-28/cluster/all_lab_ATP/all_lab_ATP.hmm"
+  pfam_hmm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Pfam/archive/37.4/Pfam-A.hmm"
+  ko_list: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/ko_list"
+  
+  # --- Environments ---
+  conda_envs:
+    bakta: "bakta_1.12.0"
+    checkm2: "checkm2_1.0.2"
+    gtdbtk: "gtdbtk_2.7.1"
+    eggnog: "eggnog-mapper"
+    kofamscan: "kofamscan"
+    dbcan: "dbcan"
+    quast: "quast_5.3.0"
+    isescan: "isescan"
+    biopython: "biopython_1.85"
+    seqkit: "seqkit"
+    cdhit: "cd-hit_4.8.1"

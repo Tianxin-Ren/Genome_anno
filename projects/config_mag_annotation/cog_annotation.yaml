@@ -1,0 +1,52 @@
+# ==============================================================================
+# COG High-Throughput Footprint-Aware Annotation Configuration
+# (COG2024-Compatible Engine for GTDB r232 ~22k Archaea Genomes)
+# ==============================================================================
+
+cog_annotation:
+  results_dir: "results/mag_annotation"
+  logs_dir: "logs/mag_annotation"
+
+  # Pipeline Step Toggles
+  steps:
+    audit_provenance: true    # Gate 0 database provenance and profile audit
+    sharding: true            # Complexity-aware residue-balanced sharding
+    rpsblast: true            # High-throughput RPS-BLAST and footprint assignment
+    merge_summary: true       # Master table expansion across all genomes
+    matrices: true            # Comparative genomics and category matrices
+    qc: true                  # 6-Gate scientific invariant validator
+    export_dense: false       # Optional dense genome x COG matrix export
+
+  # Sharding Parameters
+  sharding:
+    target_aa: 100000000       # 100M amino-acid residues (~128-256 shards across 40M proteins)
+    target_proteins: 400000   # Max 400k proteins per shard
+
+  # RPS-BLAST & Footprint Assignment Parameters
+  rpsblast:
+    threads_per_shard: 12     # 12 threads per shard
+    evalue: 1.0e-4            # Official COG2024 cutoff (1e-4)
+    min_aln_len: 40           # Minimum alignment length (40 aa)
+    min_prof_cov: 0.30        # Minimum profile coverage (0.30)
+    ambiguity_ratio_cutoff: 0.15 # Continuous relative score margin (R_delta < 0.15)
+    ambiguity_delta_cutoff: 20.0 # Score margin delta bitscore (< 20.0)
+
+  # HPC Node-Worker Bundling (1 SLURM job per 64-core node allocation)
+  node_worker:
+    enable: false             # Set true for dedicated node-bundle production jobs
+    workers_per_node: 8       # 8 workers x 8 threads = 64 cores
+    threads_per_worker: 8
+
+  # Database Paths (Inherited from platform configuration e.g. config/platforms/gses0.yaml)
+  # Leave empty here to inherit platform defaults, or specify non-empty string to override
+  databases:
+    cog_def: ""
+    cog_fun: ""
+    cddid: ""
+    cogle_db: ""
+    bitscore_specific: ""
+
+  # Conda Environments
+  conda_envs:
+    python: "biopython"
+    blast: "blast_2.17.0"

@@ -1,0 +1,13 @@
+{
+  "schema": "assay_sequence_identity_reference_bank_v1",
+  "records": [
+    {
+      "assay_accession": "WP_003447632.1",
+      "sequence_sha256": "4b2a460403e2e6faf64fcad31c8e76d6b768ed5acc352fc63794849f9ffe5826",
+      "family": "FeFe",
+      "protein_role": "directly_assayed_WT_CpIII_HydA_core",
+      "source_record": "references/raw/round117_CpII_sources/CpIII/WP_003447632.gb",
+      "source_sha256": "ff9c770d6f4504290c66942ee3aeca3a00c6a0d1ced76d9bcb66feded3570dc0"
+    }
+  ]
+}

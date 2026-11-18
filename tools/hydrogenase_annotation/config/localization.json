@@ -1,0 +1,18 @@
+{
+  "version": "round21-local-TMbed-auxiliary-layer",
+  "python": ".env-localization/bin/python",
+  "encoder_directory": "tools/TMbed_models/prot_t5",
+  "model_manifest": "references/processed/localization/manifest.json",
+  "threads": 2,
+  "batch_residues": 512,
+  "source": "https://github.com/BernhoferM/TMbed",
+  "paper": "https://doi.org/10.1186/s12859-022-04873-x",
+  "scope": "Auxiliary per-protein/per-module topology, not a cell-compartment or enzyme-function classifier; no upstream output mutation.",
+  "rules": [
+    "All protein owners retain source run/bin identity; identical sequences may share one local prediction.",
+    "Project membrane/SP residue evidence only onto the actual candidate module resources, including fused domains.",
+    "No TM/SP does not imply cytoplasmic location; catalytic partners may co-export without their own signal peptide.",
+    "Partial/unknown CDS prevents interpreting N-terminal signal absence; Tat vs Sec remains unresolved.",
+    "Current TMbed generic training exposure and hydrogenase-stage calibration remain separate; no calibrated high claim."
+  ]
+}

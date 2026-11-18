@@ -1,0 +1,9 @@
+# Preprocess Module Configuration (config_lr)
+# Dedicated quality control for third-generation long reads (ONT / PacBio)
+preprocess:
+  steps:
+    short_qc: False
+    long_qc: True
+  conda_envs:
+    bio: "bio"
+    nanoplot: "nanoplot_1.20.0"

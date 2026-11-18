@@ -1,0 +1,7 @@
+name: gtotree_1.8.12
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - gtotree=1.8.12

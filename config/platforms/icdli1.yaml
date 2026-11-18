@@ -1,0 +1,132 @@
+# Infrastructure paired with profiles/slurm.
+# Source: current config/, config_En/, and projects/config_* deployment paths.
+runtime:
+  name: slurm-dssg-64c512g
+  profile: profiles/slurm
+  account: "acct-clswfp"
+  slurm_account: "acct-clswfp"
+  partition: "64c512g"
+  slurm_partition: "64c512g"
+
+cluster:
+  account: "acct-clswfp"
+  slurm_account: "acct-clswfp"
+  partition: "64c512g"
+  slurm_partition: "64c512g"
+
+paths:
+  conda_envs: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs"
+
+databases:
+  root: "/dssg/home/acct-clswfp/clswfp-icdli1/Database"
+
+  # Core annotation databases
+  bakta: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db-light"
+  gtdbtk: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+  checkm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/checkm_data"
+  checkm2: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CheckM2_database/uniref100.KO.1.dmnd"
+  eggnog: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/eggnog"
+  kofam: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/2026_08_25"
+  kofam_profiles: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/2026_08_25/profiles"
+  ko_list: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/2026_08_25/ko_list"
+  database_pkl: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/2026_08_25/database.pkl"
+  kofam_database_pkl: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/2026_08_25/database.pkl"
+  database_sha256: ""
+  dbcan: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/dbscan"
+  pfam_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Pfam/archive/37.4/Pfam-A.hmm"
+  unified_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/KEGG/archive/2025-02-28/cluster/all_lab_ATP/all_lab_ATP.hmm"
+
+  # Other workflow modules
+  genomad: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/genomad_db"
+  sortmerna: "/dssg/home/acct-clswfp/clswfp-icdli1/software/sortmerna/database/smr_v4.3_default_db.fasta"
+
+  # Unified annotation evidence databases
+  rfam: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Rfam/archive/15.1/Rfam.cm"
+  swissprot: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/mmseqs2_db/swiss-prot"
+  nr: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/NR"
+  uniref90: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/mmseqs2_db/uniref90"
+  refseq_protein: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/RefSeq/protein/refseq_bacteria_archaea.mmseqs"
+  pfam: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Pfam"
+
+  cdd: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/COG_2024/CDD"
+  cogle_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/COG_2024/CDD/Cog"
+  cddid: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/COG_2024/CDD/cddid.tbl"
+  cog_def: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/COG_2024/cog-24.def.tab"
+  cog_fun: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/COG_2024/cog-24.fun.tab"
+  bitscore_specific: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/COG_2024/CDD/bitscore_specific.txt"
+  biob_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/hmm/biob_core_functions.hmm"
+  biob_reference_proteins: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/reference_proteins"
+  biob_bacteria_refs: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/references/bacteria"
+  biob_archaea_refs: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/references/archaea"
+
+environments:
+  bio: bio
+  fastp: bio
+  mapping: bio
+  subread: bio
+  python: biopython_1.85
+  biopython: biopython_1.85
+  utils: bio
+
+  nanoplot: nanoplot_1.20.0
+  megahit: megahit_1.2.9
+  myloasm: myloasm_0.5.0
+  flye: flye
+  unicycler: unicycler
+  hifiasm: hifiasm
+  porechop: porechop
+  filtlong: filtlong
+  metawrap: metawrap_1.3.2
+  semibin2: semibin2
+  drep: drep_4.0.3
+
+  bakta: bakta_1.12.0
+  gtdbtk: gtdbtk_2.7.1
+  checkm: checkm_1.2.4
+  checkm2: checkm2_1.0.2
+  eggnog: eggnog-mapper
+  kofamscan: kofamscan
+  pykofamsearch: pykofamsearch_26.7.21
+  dbcan: dbcan
+  camper: bio
+  grodon2: grodon2
+  genomespot: GenomeSPOT_1.0.1
+  quast: quast_5.3.0
+  isescan: isescan
+  seqkit: seqkit
+  cdhit: cd-hit_4.8.1
+  cd_hit: cd-hit_4.8.1
+
+  sortmerna: sortmerna_4.3.7
+  coverm: coverm_0.7.0
+  genomad: genomad
+  mob_suite: mob_suite
+  datasets_cli: ncbi-datasets-cli_18.26.0
+
+  blast: blast_2.17.0 # Dedicated BLAST+ 2.17.0 environment containing rpsblast
+  diamond: bio
+  pigz: bio
+  prodigal: pyrodigal_3.7.1
+  clinker: clinker_0.0.32
+  cblaster: cblaster_1.4.0
+  mafft: mafft_7.525
+  trimal: trimal
+  hmmer: hmmer_3.4
+  fasttree: fasttree
+  longread_audit: longread_audit
+  anvio: anvio_9
+
+  # Unified annotation environments
+  pyrodigal: pyrodigal_3.7.1
+  trnascan: trnascan-se_2.0.12
+  infernal: infernal_1.1.5
+  aragorn: aragorn_1.2.41
+  mmseqs2: mmseqs2_17.b804f
+  interproscan: interproscan_5.77-108.0
+  interproscan_java11: interproscan_java11
+  signalp6: signalp6_6.0h
+  deeptmhmm: deeptmhmm_1.0
+  iqtree: iqtree_3.1.2
+  foldseek: foldseek_5.53465f0
+  prokka: prokka
+  hydrogenase: hydrogenase_annotation

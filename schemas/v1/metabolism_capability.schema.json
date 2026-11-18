@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GenomeMetabolismCapabilities",
+  "description": "Schema for high-level microbial bioenergetics and metabolic capability profile in genome_metabolism_capabilities.json",
+  "type": "object",
+  "required": [
+    "genome_id",
+    "energy_modules"
+  ],
+  "properties": {
+    "genome_id": {
+      "type": "string",
+      "description": "Genome or MAG identifier"
+    },
+    "energy_modules": {
+      "type": "object",
+      "required": [
+        "ATP_synthesis",
+        "methanogenesis",
+        "nitrogen_metabolism",
+        "sulfur_metabolism",
+        "carbon_fixation"
+      ],
+      "properties": {
+        "ATP_synthesis": {
+          "type": "object",
+          "description": "ATP synthase types and respiratory complexes (V/A-type, F-type, Complex I, II, bc1, oxidases)"
+        },
+        "methanogenesis": {
+          "type": "object",
+          "description": "Methanogenesis pathways (CO2, methanol, methylamine, acetate), methanotrophy, and cofactor biosynthesis (CoM, F420, F430, methanofuran)"
+        },
+        "nitrogen_metabolism": {
+          "type": "object",
+          "description": "Nitrogen transformations (nitrogen fixation, nitrification/amo, comammox, DNRA, assimilatory nitrate reduction, denitrification, anammox)"
+        },
+        "sulfur_metabolism": {
+          "type": "object",
+          "description": "Sulfur oxidation and dissimilatory/assimilatory reduction pathways (DSR, Sox, sulfide oxidation, sulfur reduction, S4I)"
+        },
+        "carbon_fixation": {
+          "type": "object",
+          "description": "Autotrophic carbon fixation pathways (Wood-Ljungdahl, 3-HP/4-HB, DC/4-HB, rTCA, 3-HP bi-cycle, Calvin cycle, acetyl-CoA to acetate)"
+        },
+        "fermentation_and_central_carbon": {
+          "type": "object",
+          "description": "Fermentation, pyruvate oxidation, and archaeal modified central carbohydrate pathways (archaeal PPP, semi/non-phosphorylative ED, pentose bisphosphate)"
+        }
+      }
+    }
+  }
+}

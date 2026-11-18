@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "classes": 34,
+  "architectures": 93,
+  "reference_sequences": 596,
+  "counter_sequences": 3,
+  "donor_comparison_sequences": 2,
+  "policy_sha256": "2dd856ea4ec2454a51798d603fb2f998cb75b58f68d148177c87d2894ac3ced2",
+  "fasta_sha256": "f57a4febb4452d0c1bf2497a277b074f7aa0cde1fc7f94108378d657b09a6aab"
+}

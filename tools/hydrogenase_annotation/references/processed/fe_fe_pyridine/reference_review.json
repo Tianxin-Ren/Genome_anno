@@ -1,0 +1,268 @@
+{
+  "manifest": "R70 canonical FeFe module domains",
+  "source": "references/processed/reference_proteins.tsv -> reference_role_evidence.profile_evidence",
+  "gate_policy": {
+    "profile": "official Pfam GA pass as recorded in canonical reference evidence",
+    "organization": "all required positive domains for the role, non-overlapping and in listed order; query intervals must lie inside the selected role resource",
+    "identity": "full-role homology/coverage and raw qualified competition remain required separately",
+    "fes": "Fe-S coordinate resources corroborate architecture; do not require every ligand for the coarse module and do not infer occupancy"
+  },
+  "roles": {
+    "FeFe_TmHydABC__HydB": {
+      "reference_accession": "WP_004081675.1",
+      "protein_length": 626,
+      "role_class": "NuoF_flavin_FeS",
+      "domains_required": [
+        {
+          "accession": "PF01512",
+          "profile": "Complex1_51K",
+          "query_start": 189,
+          "query_end": 361,
+          "model_coverage": 1.0,
+          "independent_evalue": 8.6e-50
+        },
+        {
+          "accession": "PF10589",
+          "profile": "NADH_4Fe-4S",
+          "query_start": 471,
+          "query_end": 555,
+          "model_coverage": 1.0,
+          "independent_evalue": 6.8e-35
+        }
+      ],
+      "corroborating_domains": [
+        {
+          "accession": "PF00037",
+          "profile": "Fer4",
+          "query_start": 601,
+          "query_end": 624,
+          "model_coverage": 1.0,
+          "independent_evalue": 1.2e-10
+        },
+        {
+          "accession": "PF12838",
+          "profile": "Fer4_7",
+          "query_start": 578,
+          "query_end": 622,
+          "model_coverage": 0.980769,
+          "independent_evalue": 1.1e-11
+        },
+        {
+          "accession": "PF13187",
+          "profile": "Fer4_9",
+          "query_start": 578,
+          "query_end": 623,
+          "model_coverage": 0.980769,
+          "independent_evalue": 2.4e-09
+        },
+        {
+          "accession": "PF13237",
+          "profile": "Fer4_10",
+          "query_start": 571,
+          "query_end": 619,
+          "model_coverage": 0.981132,
+          "independent_evalue": 1.3e-10
+        },
+        {
+          "accession": "PF14697",
+          "profile": "Fer4_21",
+          "query_start": 572,
+          "query_end": 625,
+          "model_coverage": 0.983051,
+          "independent_evalue": 1.6e-11
+        }
+      ],
+      "explicit_negative": {
+        "accession": "PF01257",
+        "profile": "2Fe-2S_thioredx",
+        "query_start": 21,
+        "query_end": 111,
+        "model_coverage": 0.572414,
+        "passes": false
+      },
+      "ordering": "PF01512(q189-361) < PF10589(q471-555); Fer4 corroboration is C-terminal",
+      "fes_reference_resources": [
+        "FeFe_HydB_N_terminal_2Fe2S",
+        "FeFe_HydB_connector",
+        "FeFe_HydB_bridge_1",
+        "FeFe_HydB_bridge_2"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31823008/"
+    },
+    "FeFe_TmHydABC__HydC": {
+      "reference_accession": "WP_004081672.1",
+      "protein_length": 161,
+      "role_class": "NuoE_Fer2",
+      "domains_required": [
+        {
+          "accession": "PF01257",
+          "profile": "2Fe-2S_thioredx",
+          "query_start": 8,
+          "query_end": 152,
+          "model_coverage": 1.0,
+          "independent_evalue": 5.4e-58
+        }
+      ],
+      "ordering": "single near-complete PF01257 domain",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31823008/"
+    },
+    "FeFe_SwHyd1ABC__Hyd1B": {
+      "reference_accession": "WP_011640437.1",
+      "protein_length": 407,
+      "role_class": "NuoF_flavin_FeS",
+      "domains_required": [
+        {
+          "accession": "PF01512",
+          "profile": "Complex1_51K",
+          "query_start": 47,
+          "query_end": 210,
+          "model_coverage": 0.993333,
+          "independent_evalue": 6.1e-54
+        },
+        {
+          "accession": "PF10589",
+          "profile": "NADH_4Fe-4S",
+          "query_start": 321,
+          "query_end": 404,
+          "model_coverage": 0.988235,
+          "independent_evalue": 7.2e-33
+        }
+      ],
+      "ordering": "PF01512(q47-210) < PF10589(q321-404); shorter than Tm HydB and no Tm N-terminal PF00037 requirement",
+      "negative_scope": "Do not require the Tm HydB Fe-S signature for Sw Hyd1B; do not use its absence to call inactivity or NADH-only in an arbitrary query.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/"
+    },
+    "FeFe_SwHyd1ABC__Hyd1C": {
+      "reference_accession": "WP_011640438.1",
+      "protein_length": 148,
+      "role_class": "NuoE_Fer2",
+      "domains_required": [
+        {
+          "accession": "PF01257",
+          "profile": "2Fe-2S_thioredx",
+          "query_start": 5,
+          "query_end": 148,
+          "model_coverage": 0.993103,
+          "independent_evalue": 9.4e-49
+        }
+      ],
+      "ordering": "single near-complete PF01257 domain",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/"
+    },
+    "FeFe_TmHydABC__HydA": {
+      "reference_accession": "WP_004081677.1",
+      "role_class": "FeFe_catalytic_related_fold",
+      "domains_required_for_coupling": [
+        {
+          "accession": "PF13510",
+          "query_start": 2,
+          "query_end": 74,
+          "model_coverage": 0.9390243902439024
+        },
+        {
+          "accession": "PF10588",
+          "query_start": 81,
+          "query_end": 120,
+          "model_coverage": 1.0
+        },
+        {
+          "accession": "PF22117",
+          "query_start": 138,
+          "query_end": 201,
+          "model_coverage": 0.9104477611940298
+        },
+        {
+          "accession": "PF02906",
+          "query_start": 218,
+          "query_end": 490,
+          "model_coverage": 1.0
+        }
+      ],
+      "scope": "Internal electron-relay fold order only, before the confirmed catalytic region; not exact Fe-S ligation or activity."
+    },
+    "FeFe_SwHyd1ABC__Hyd1A": {
+      "reference_accession": "WP_011640436.1",
+      "role_class": "FeFe_catalytic_related_fold",
+      "domains_required_for_coupling": [
+        {
+          "accession": "PF13510",
+          "query_start": 1,
+          "query_end": 76,
+          "model_coverage": 0.9634146341463414
+        },
+        {
+          "accession": "PF10588",
+          "query_start": 83,
+          "query_end": 121,
+          "model_coverage": 0.975
+        },
+        {
+          "accession": "PF22117",
+          "query_start": 142,
+          "query_end": 204,
+          "model_coverage": 0.8955223880597015
+        },
+        {
+          "accession": "PF02906",
+          "query_start": 222,
+          "query_end": 506,
+          "model_coverage": 1.0
+        }
+      ],
+      "scope": "Internal electron-relay fold order only, before the confirmed catalytic region; not exact Fe-S ligation or activity."
+    }
+  },
+  "direct_experimental_sources": {
+    "R_albus": {
+      "raw_source": "references/raw/round22_function_truth/PMC4248817.fulltext.txt",
+      "raw_sha256": "888e4f2979bb880da8e5b89483c7dcb8db800e2c27a7b000534f88e90a1db3bc",
+      "genomes": [
+        {
+          "path": "references/raw/round22_function_truth/genomes/CP002403.gb",
+          "sha256": "af25946ff71f267ea86c30355255a67ba18bf012ea0a0ff98bc26d6b584c19a2"
+        },
+        {
+          "path": "references/raw/round22_function_truth/genomes/CP002404.gb",
+          "sha256": "789281cd92f00f74362c68f5dd3099315ba291c933f2cbc320113ab9f5da4116"
+        }
+      ],
+      "reported_assay_boundary": "Purified HydABC: H2 reduced NAD+ and Fd; NADP+ was not reduced; H2 evolution required NADH with regenerated Fd. Development truth only, not universal query specificity."
+    },
+    "T_maritima": {
+      "raw_genome": {
+        "path": "references/raw/tmaritima_MSB8.gb",
+        "sha256": "2fe86005409bef46d6577d683e9a59a4ff2835316fefb2c8676c3320993973aa"
+      },
+      "experimental_source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "boundary": "Purified HydABC reference; sequence does not transfer direction or bifurcation."
+    },
+    "S_wolfei": {
+      "raw_genome": {
+        "path": "references/raw/swolfei_Goettingen.gb",
+        "sha256": "f3750cd613442e0e85c466653585cf27c20bc2de6c4f9fbed14b232907eda9cd"
+      },
+      "experimental_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+      "boundary": "Purified Hyd1ABC is NADH-only in the reference assay and Fd is not required there; boundary/counterexample only."
+    }
+  },
+  "scope": "Canonical full three-role FeFe NAD(H)-linked potential only; no Fd requirement, bifurcation, NAD/NADP selection, direction, occupancy or physical assembly transfer.",
+  "intrinsic_catalytic_relay": {
+    "required_for": "coupling only; not standalone FeFe catalytic identity or H2 core",
+    "profiles_in_order": [
+      "PF13510",
+      "PF10588",
+      "PF22117",
+      "PF02906"
+    ],
+    "reference_basis": "Tm and Sw HydA/1A retain an N-terminal HoxU-like relay preceding the catalytic region. HytA/AwHydA2 lack this internal topology and need other components; do not promote their incomplete subsets."
+  },
+  "primary_pubmed": {
+    "path": "references/raw/round70_FeFe_primary/primary_pubmed.xml",
+    "sha256": "d637303b6c24b5251f5db540a8ca08be64c5b4fd954189f9104b70a95119e2e3",
+    "pmids": [
+      "19411328",
+      "31823008",
+      "28802265"
+    ]
+  }
+}

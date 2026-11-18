@@ -1,0 +1,131 @@
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000143945.1_ASM14394v1_genomic.fa	CP002077.1	Primary_Chr	Uncertain	Med	0	0.616	0.666	0.376	0.291	60.0	62.1	2.1	12.2	Max_AT	Arc_ORB	486831	487862	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000166095.1_ASM16609v1_genomic.fa	CP002278.1	Primary_Chr	Circular (Genomic)	Low	0	0.536	0.124	0.136	0.011	68.4	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000018925.1_ASM1892v1_genomic.fa	CP000915.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.560	0.208	0.215	0.007	67.7	69.6	1.8	41.3	Max_GC	Bac_DnaA	1080086	1080664	3 (--+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000145985.1_ASM14598v1_genomic.fa	CP002098.1	Primary_Chr	Linear	Med	0	0.500	0.561	0.001	0.560	64.3	67.3	2.9	23.7	Min_AT	Plasmid_Rep	1201720	1202566	3 (--+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000233775.1_ASM23377v1_genomic.fa	CP003096.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.539	0.261	0.144	0.117	52.9	70.0	17.0	304.3	Min_GC	Bac_Actino	1364	1597	4 (--++)
+GCA_000233775.1_ASM23377v1_genomic.fa	CP003097.1	Plasmid	Uncertain	Low	0	0.854	0.867	0.829	0.038	52.7	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000023405.1_ASM2340v1_genomic.fa	CP001643.1	Primary_Chr	Uncertain	Med	0	0.511	0.268	0.042	0.227	28.0	45.1	17.1	2386.7	Max_GC	Bac_DnaA	3605703	3605987	3 (+-+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000236455.2_ASM23645v2_genomic.fa	LN906634.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.480	0.104	0.082	0.022	61.0	69.7	8.6	303.0	Min_GC	Bac_DnaA	33560	33972	7 (-+-----)
+GCA_000236455.2_ASM23645v2_genomic.fa	LN906635.1	Plasmid	Uncertain	Low	0	0.444	0.044	0.253	0.209	64.2	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_000236455.2_ASM23645v2_genomic.fa	LN906636.1	Plasmid	Uncertain	Low	0	0.990	0.982	0.990	0.009	61.8	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000247545.1_ASM24754v1_genomic.fa	CP003316.1	Primary_Chr	Uncertain	Med	0	0.633	0.182	0.421	0.239	44.9	40.8	-4.1	73.7	Min_GC	Plasmid_Rep	21826	21995	3 (+-+)
+GCA_000247545.1_ASM24754v1_genomic.fa	CP003317.1	Plasmid	Uncertain	Low	0	0.907	0.914	0.898	0.016	49.4	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000237975.1_ASM23797v1_genomic.fa	CP003179.1	Primary_Chr	Circular (Genomic)	Med	0	0.515	0.022	0.059	0.038	43.2	44.9	1.7	16.3	Min_MK	Plasmid_Rep	1793186	1794025	3 (---)
+GCA_000237975.1_ASM23797v1_genomic.fa	CP003180.1	Plasmid	Uncertain	Low	0	0.762	0.984	0.689	0.296	43.7	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_001940665.2_ASM194066v2_genomic.fa	CP091871.1	Primary_Chr	Linear	Med	0	0.838	0.235	0.807	0.572	62.0	62.5	0.5	13.9	Max_GC	Arc_ORB	1253535	1254444	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000317655.1_ASM31765v1_genomic.fa	CP003940.1	Primary_Chr	Linear	Med	0	0.364	0.285	0.746	0.461	61.3	64.8	3.5	116.2	Max_GC	Arc_ORB	3158149	3158277	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000018565.1_ASM1856v1_genomic.fa	CP000875.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.413	0.328	0.422	0.094	49.3	53.2	3.9	42.4	Min_GC	Bac_Actino	6345456	6346534	3 (-++)
+GCA_000018565.1_ASM1856v1_genomic.fa	CP000876.1	Plasmid	Linear	Med	0	0.251	0.339	1.989	1.650	46.3	43.9	-2.4	20.0	Min_RY	Arc_ORB	269763	270209	3 (---)
+GCA_000018565.1_ASM1856v1_genomic.fa	CP000877.1	Plasmid	Uncertain	Low	0	0.992	0.991	0.992	0.002	46.9	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_001465115.1_ASM146511v1_genomic.fa	CP013614.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.506	0.033	0.022	0.011	63.6	70.4	6.8	114.6	Min_GC	Bac_DnaA	2957267	2957615	4 (+++-)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000940995.1_ASM94099v1_genomic.fa	CP005973.1	Secondary_Chr	Circular (Genomic)	HIGH	0	0.450	0.193	0.221	0.028	52.1	45.3	-6.9	31.4	Max_AT	Arc_ORB	72003	72372	3 (---)
+GCA_000940995.1_ASM94099v1_genomic.fa	CP005974.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.491	0.035	0.036	0.001	49.3	54.3	5.0	119.3	Min_GC	Bac_DnaA	325665	326494	3 (-++)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001769.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.531	0.030	0.117	0.087	49.8	58.8	9.0	133.3	Min_GC	Bac_DnaA	6722848	6723450	3 (-+-)
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001770.1	Plasmid	Circular (Genomic)	Med	0	0.591	0.402	0.309	0.094	50.8	41.4	-9.4	21.9	Min_GC	Arc_ORB	136124	136585	4 (--+-)
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001771.1	Plasmid	Uncertain	Med	0	0.838	0.729	0.807	0.078	48.7	52.9	4.2	13.9	Min_GC	Arc_ORB	142321	143187	5 (--+--)
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001772.1	Plasmid	Linear	Low	0	0.803	0.344	0.755	0.411	55.7	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001773.1	Plasmid	Uncertain	Low	0	0.735	0.482	0.639	0.157	52.2	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001774.1	Plasmid	Linear	Low	0	0.501	0.324	0.002	0.322	55.8	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001775.1	Plasmid	Circular (Genomic)	Low	0	0.485	0.207	0.060	0.147	52.7	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001776.1	Plasmid	Uncertain	Low	0	0.904	0.768	0.893	0.126	52.4	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_000024525.1_ASM2452v1_genomic.fa	CP001777.1	Plasmid	Circular (Genomic)	Low	0	0.565	0.083	0.230	0.147	51.6	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_002946735.1_ASM294673v1_genomic.fa	CP026731.1	Primary_Chr	Uncertain	Med	0	0.738	0.680	0.646	0.034	48.8	43.3	-5.5	51.0	Max_AT	Arc_ORB	938386	938550	3 (---)
+GCA_002946735.1_ASM294673v1_genomic.fa	CP026732.1	Plasmid	Linear	Med	0	0.294	0.217	1.406	1.189	52.5	43.4	-9.1	11.0	Max_AT	Arc_ORB	15406	16158	4 (----)
+GCA_002946735.1_ASM294673v1_genomic.fa	CP026733.1	Plasmid	Linear	Med	0	0.357	0.282	0.800	0.519	51.9	48.2	-3.8	19.9	Min_GC	Arc_ORB	38111	38661	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_006742785.1_ASM674278v1_genomic.fa	AP019755.1	Primary_Chr	Circular (Genomic)	Med	0	0.494	0.092	0.023	0.070	55.2	44.6	-10.6	16.1	Min_AT	Plasmid_Rep	2088649	2089250	4 (----)
+GCA_006742785.1_ASM674278v1_genomic.fa	AP019756.1	Plasmid	Linear	Med	0	0.546	0.667	0.169	0.498	53.7	56.9	3.2	10.6	Max_AT	Arc_ORB	15258	15952	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_003609755.1_ASM360975v1_genomic.fa	AP017991.1	Primary_Chr	Uncertain	Med	0	0.861	0.868	0.838	0.030	60.3	51.6	-8.7	16.0	Min_AT	Plasmid_Rep	4230103	4231060	3 (---)
+GCA_003609755.1_ASM360975v1_genomic.fa	AP017992.1	Plasmid	Linear	Med	0	0.397	0.164	0.518	0.354	62.0	62.4	0.4	19.0	Min_GC	Plasmid_Rep	97942	98796	4 (----)
+GCA_003609755.1_ASM360975v1_genomic.fa	AP017993.1	Plasmid	Uncertain	Low	0	0.396	0.311	0.526	0.214	61.2	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_003609755.1_ASM360975v1_genomic.fa	AP017994.1	Plasmid	Linear	Med	0	0.159	0.155	4.294	4.139	60.1	56.4	-3.7	14.5	Min_GC	Plasmid_Rep	13125	14030	3 (---)
+GCA_003609755.1_ASM360975v1_genomic.fa	AP017995.1	Plasmid	Linear	Med	0	0.215	0.203	2.661	2.459	60.7	56.0	-4.7	33.7	Min_GC	Bac_Actino	24698	25470	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_003609695.1_ASM360969v1_genomic.fa	AP018496.1	Primary_Chr	Circular (Genomic)	Med	0	0.489	0.043	0.046	0.004	34.3	37.7	3.4	21.6	Max_GC	Plasmid_Rep	3344457	3345155	4 (+-+-)
+GCA_003609695.1_ASM360969v1_genomic.fa	AP018497.1	Plasmid	Uncertain	Med	0	0.943	0.989	0.939	0.050	36.1	34.6	-1.5	17.7	Min_GC	Plasmid_Rep	44548	45201	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_003970805.2_ASM397080v2_genomic.fa	CP051152.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.498	0.089	0.006	0.083	48.8	67.7	18.9	112.7	Min_GC	Bac_DnaA	2687313	2688284	4 (++-+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_002355495.1_ASM235549v1_genomic.fa	AP017424.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.576	0.294	0.265	0.029	27.7	26.6	-1.1	35.9	Min_GC	Plasmid_Rep	3933	4587	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_006974205.1_ASM697420v1_genomic.fa	CP041233.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.558	0.189	0.207	0.019	40.2	49.2	9.0	197.9	Max_AT	Bac_DnaA	5079919	5080753	3 (+-+)
+GCA_006974205.1_ASM697420v1_genomic.fa	CP041234.1	Plasmid	Uncertain	Low	0	0.914	0.943	0.905	0.038	41.6	42.8	1.2	7.8	Min_GC	Arc_ORB	41166	42209	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_009797665.1_ASM979766v1_genomic.fa	CP047037.1	Primary_Chr	Linear	Med	0	0.375	0.126	0.669	0.543	31.0	32.1	1.1	17.6	Min_AT	Arc_ORB	1821828	1822595	4 (----)
+GCA_009797665.1_ASM979766v1_genomic.fa	CP047038.1	Secondary_Chr	Circular (Genomic)	Low	0	0.479	0.022	0.090	0.068	31.0	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_009797665.1_ASM979766v1_genomic.fa	CP047040.1	Plasmid	Linear	Med	0	0.781	0.013	0.719	0.706	29.9	32.4	2.5	12.8	Min_GC	Arc_ORB	49516	50327	4 (----)
+GCA_009797665.1_ASM979766v1_genomic.fa	CP047041.1	Plasmid	Uncertain	Low	0	0.670	0.668	0.507	0.161	36.2	0.0	0.0	-1.0	Min_GC	None	NA	NA	0
+GCA_009797665.1_ASM979766v1_genomic.fa	CP047042.1	Plasmid	Linear	Med	0	0.903	0.406	0.892	0.486	35.5	32.7	-2.8	17.0	Min_GC	Arc_ORB	8311	8901	3 (---)
+GCA_009797665.1_ASM979766v1_genomic.fa	CP047039.1	Plasmid	Uncertain	Med	0	0.680	0.284	0.530	0.246	30.4	36.0	5.6	16.3	Min_MK	Arc_ORB	112073	112606	3 (+--)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_014876755.1_ASM1487675v1_genomic.fa	CP062279.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.575	0.276	0.261	0.016	67.3	73.2	6.0	130.3	Min_GC	Bac_DnaA	2754647	19	5 (+----)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_013347225.1_ASM1334722v1_genomic.fa	CP054595.1	Primary_Chr	Uncertain	Med	0	0.377	0.356	0.651	0.295	34.0	34.7	0.7	16.2	Min_RY	Plasmid_Rep	1059648	1060472	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_018208355.1_ASM1820835v1_genomic.fa	CP062796.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.522	0.096	0.084	0.012	46.0	52.1	6.1	14.5	Max_GC	Plasmid_Rep	243633	244708	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_014268975.2_ASM1426897v2_genomic.fa	CP077096.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.544	0.079	0.163	0.084	36.8	53.1	16.3	674.1	Min_GC	Bac_DnaA	181201	181572	5 (+---+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_019262145.1_ASM1926214v1_genomic.fa	CP076745.1	Primary_Chr	Circular (Confirmed)	Med	58	0.536	0.189	0.133	0.056	56.3	50.3	-6.0	17.9	Max_GC	Arc_ORB	870299	871003	4 (----)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_015698285.1_ASM1569828v1_genomic.fa	CP048685.1	Primary_Chr	Circular (Genomic)	Med	0	0.540	0.070	0.148	0.078	52.8	52.3	-0.5	23.2	Max_MK	Plasmid_Rep	1344092	1344616	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_020544305.1_ASM2054430v1_genomic.fa	CP058667.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.583	0.099	0.286	0.186	66.9	72.9	6.0	89.1	Min_GC	Bac_DnaA	2517329	237	5 (----+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_016025055.1_ASM1602505v1_genomic.fa	CP065590.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.511	0.052	0.044	0.008	62.8	64.9	2.2	117.5	Min_GC	Bac_Actino	1636431	1636813	3 (+--)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_025340205.1_ASM2534020v1_genomic.fa	CP006868.1	Primary_Chr	Linear	Med	0	0.344	0.219	0.906	0.687	51.8	45.4	-6.5	36.6	Max_GC	Plasmid_Rep	232282	232670	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_019056595.1_ASM1905659v1_genomic.fa	CP036163.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.486	0.006	0.056	0.050	48.9	56.1	7.3	108.1	Min_GC	Bac_DnaA	2841650	2842473	3 (-+-)
+GCA_019056595.1_ASM1905659v1_genomic.fa	CP036162.1	Plasmid	Uncertain	Med	0	0.997	0.996	0.997	0.000	50.5	46.0	-4.5	14.8	Min_GC	Plasmid_Rep	16667	17221	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_022828425.1_ASM2282842v1_genomic.fa	CP094685.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.523	0.058	0.087	0.029	48.5	48.8	0.3	41.1	Min_GC	Arc_ORB	505563	505823	4 (---+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_029972135.1_ASM2997213v1_genomic.fa	CP124755.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.504	0.022	0.015	0.007	56.0	58.6	2.5	85.3	Min_GC	Bac_DnaA	7904	8978	8 (-++++-++)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_032834875.1_ASM3283487v1_genomic.fa	CP135238.1	Primary_Chr	Linear	Med	0	0.750	0.157	0.667	0.510	61.4	49.6	-11.8	14.4	Min_AT	Arc_ORB	1763627	1764667	3 (+++)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_023639215.1_ASM2363921v1_genomic.fa	CP097899.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.463	0.021	0.160	0.140	62.2	69.6	7.4	144.6	Min_GC	Bac_DnaA	1634597	1634959	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_021654635.1_ASM2165463v1_genomic.fa	AP025179.1	Primary_Chr	Uncertain	Med	0	0.393	0.252	0.542	0.290	32.9	24.8	-8.1	86.4	Min_AT	Arc_ORB	3721835	3721960	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_033127725.1_ASM3312772v1_genomic.fa	AP026798.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.492	0.020	0.031	0.011	42.3	53.5	11.1	662.1	Min_GC	Bac_DnaA	2280969	2281257	4 (+---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_029972225.1_ASM2997222v1_genomic.fa	CP124756.1	Primary_Chr	Circular (Genomic)	Med	0	0.565	0.082	0.230	0.149	49.2	44.7	-4.5	13.8	Min_AT	Arc_ORB	2476666	2477219	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_029202545.1_ASM2920254v1_genomic.fa	CP119311.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.500	0.085	0.002	0.084	49.1	55.8	6.8	154.7	Min_GC	Bac_Actino	1296355	1296817	3 (+++)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900234795.1_TK0001_PRJEB23178_v1_genomic.fa	LT962688.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.569	0.183	0.242	0.059	31.7	27.7	-4.0	30.3	Max_RY	Arc_ORB	1125007	1125415	4 (----)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900635025.1_31136_B01-2_genomic.fa	LR133904.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.507	0.067	0.027	0.040	48.8	52.7	3.9	89.5	Min_GC	Bac_DnaA	33127	33952	3 (-+-)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900637255.1_50377_B01_genomic.fa	LR134359.1	Primary_Chr	Uncertain	Med	0	0.417	0.197	0.399	0.202	69.3	57.9	-11.4	73.1	Min_AT	Arc_ORB	867906	868274	3 (---)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900478095.1_31289_D01_genomic.fa	LS483467.1	Primary_Chr	Circular (Genomic)	Med	0	0.489	0.060	0.044	0.016	58.0	58.7	0.7	26.9	Min_GC	Arc_ORB	41895	42510	4 (-+--)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900635425.1_28869_C01_genomic.fa	LR134118.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.510	0.085	0.038	0.047	48.3	59.2	10.8	352.7	Min_GC	Bac_DnaA	4930634	4930923	3 (--+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900635465.1_28869_F01_genomic.fa	LR134135.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.517	0.104	0.067	0.037	47.1	51.6	4.5	157.4	Min_GC	Bac_DnaA	4438801	4439764	4 (--+-)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900635495.1_29859_A01_genomic.fa	LR134136.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.468	0.020	0.139	0.118	45.9	52.5	6.6	197.4	Min_GC	Bac_DnaA	4525179	4526003	4 (+--+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_902809825.1_R50_genomic.fa	LR778114.1	Primary_Chr	Circular (Genomic)	Med	0	0.518	0.223	0.069	0.154	29.4	29.3	-0.1	16.8	Max_GC	Plasmid_Rep	1241303	1242248	3 (--+)
+File	ID	Class	Topology	Confidence	Phys_Over	Sym	Obs_Clo	Exp_Clo	Clo_Err	Gen_AT%	Ori_AT%	AT_Diff	Enrich	Anchor	Strategy	Start	End	Boxes_Strand
+GCA_900637645.1_52363_G01_genomic.fa	LR134392.1	Primary_Chr	Circular (Genomic)	HIGH	0	0.482	0.014	0.076	0.062	53.8	58.5	4.7	102.6	Min_GC	Bac_DnaA	4179356	4180396	5 (++--+)

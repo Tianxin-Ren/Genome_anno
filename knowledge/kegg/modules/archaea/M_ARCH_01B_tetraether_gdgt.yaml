@@ -1,0 +1,25 @@
+module_id: "M_ARCH_01B"
+name: "Archaeal tetraether lipid (GDGT) conversion via Tes"
+category: "Lipid metabolism"
+subcategory: "Archaeal ether lipids"
+evidence_type:
+  - "sequence_homology"
+  - "domain_architecture"
+  - "reaction_support"
+relationship_to_kegg: "not_in_kegg_module"
+target_enzyme:
+  name: "Tetraether lipid synthase (Tes / GDGT-MAS / radical SAM enzyme)"
+  ec_number: "1.21.98.5"
+  reactions:
+    - "R13130"
+    - "R13131"
+  pfam_domains:
+    - "PF04055" # Radical SAM superfamily
+pfam_threshold: 25.0
+evalue_cutoff: 1e-15
+precursor_requirement: "M_ARCH_01A"
+output_metrics:
+  - "tes_present"
+  - "tes_confidence"
+  - "archaeol_precursor_complete"
+  - "gdgt_biosynthesis_potential"

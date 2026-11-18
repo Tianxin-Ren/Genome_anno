@@ -1,0 +1,52 @@
+# ==============================================================================
+# 1. Data Configuration (Input Samples & External Resources)
+# ==============================================================================
+data:
+  samples: "./samples.yaml"
+
+# ==============================================================================
+# 2. Workflow Modules (Logical Steps & Toggles)
+# ==============================================================================
+modules:
+  preprocess:
+    path: "./preprocess.yaml"
+    enable: False
+  assembly:
+    path: "./assembly.yaml"
+    enable: False
+  binning:
+    path: "./binning.yaml"
+    enable: False
+  annotation:
+    path: "./annotation.yaml"
+    enable: False
+  advanced_analysis:
+    path: "./advanced_analysis.yaml"
+    enable: False
+  hmm_build:
+    path: "./hmm_build.yaml"
+    enable: False
+  plasmid_analysis:
+    path: "./plasmid_analysis.yaml"
+    enable: False
+  abundance:
+    path: "./abundance.yaml"
+    enable: False
+  data_prep:
+    path: "./data_prep.yaml"
+    enable: False
+  phylogeny:
+    path: "./phylogeny.yaml"
+    enable: False
+  visualize:
+    path: "./visualize.yaml"
+    enable: False
+  protein_phylogeny:
+    path: "./protein_phylogeny.yaml"
+    enable: True
+
+# ==============================================================================
+# 3. Global Paths & Environment Setup
+# ==============================================================================
+project_root: ""
+conda_env_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/"

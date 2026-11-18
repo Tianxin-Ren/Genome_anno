@@ -1,0 +1,42 @@
+{
+  "status": "reviewed_development_structure_extension_bank",
+  "scope": "Post-identity structure templates only. Three exposed development cases are reference replays; never independent tests. Legacy214-protein discovery/identity bank unchanged.",
+  "policy_sha256": "90cd8730aba078bf2120c3f1b7c2014bd060b3a0c02f9e2cb16e92e4c764d804",
+  "builder_sha256": "56b05d7709aff2395f99cfb44ca812b8a0fc2fb7614f04a6e52fa07333b64dc6",
+  "source_corpus_freeze_sha256": "f84b17554759ff32a5cd39ca842facaf7916998bb8e763ac88118125fad81512",
+  "source_files": {
+    "references/raw/round22_function_truth/genomes/CP003198.gb": "1477f76e6eb4e1b61afc271e7bf52ad169dbf41528787e84c1937f7ee7cac693",
+    "references/raw/round21_function_sources/PMC8880783.xml": "b5f6b1d3a9a7193180957ebe0e56cbf7bf68072ccfda8ce385e28675ace76881",
+    "references/raw/round22_function_truth/genomes/U07229.gb": "98c7f0dd199099ab0819462249a686b0ecaecc7d0b2322f89a5723d1fe25ee82",
+    "references/raw/round22_function_truth/PMC7820892.xml": "a5b746d81f580f3281e3acf3907fd4aefed9b7a48b3cdc92d2c84aa128d47c37",
+    "references/raw/round26_function_mechanism/CP012369.gb": "71067e483f23b446ffc1fd5091191f37915a1e666dccb5f1343571e9cffce9db",
+    "references/raw/round26_function_mechanism/Mthermo_HydABCDEF.web_source.json": "ea7194bbc71c8566780a0f34c06f1277a8e3bb76bf446f0ac078f43fe789b190",
+    "references/raw/round26_function_mechanism/Moorella_native_correspondence.json": "8f72b1af949cfe1cdab2bf209f62778c125bfd93733b38e41c8b76741916984e",
+    "config/round26_function_validation.json": "32d291d8609ccb374935800fbc613445704c1d1bf0d3a6936bea7858a8b6056a"
+  },
+  "reference_replay_cases": [
+    "Amobile_HydABCSL",
+    "Sfructo_HndABCD",
+    "Mthermo_HydABCDEF_NADP_nonBF"
+  ],
+  "structures": 3,
+  "proteins": 15,
+  "catalytic_templates": 3,
+  "legacy_identity_model_modified": false,
+  "artifacts": {
+    "graphs.json": "28bd89b56f38f5ad29e43b89bce3749035a58ceb5bcf635cb18cd9bc50f22ded",
+    "makeblastdb.log": "1dee6df1b3183dfcecbe944e8c526f572159c27be6b90f1f7216d8da41d1f1a5",
+    "references.faa": "3babb7126c5cf2fc3f37db4980aa549ab0edb35839107e05d0e2cd08ff722847",
+    "references.json": "c6d99f86f3795cdbfefb0261ef4a72832dc781da7be1a1744031cf71c14d5ceb",
+    "seed.pdb": "2b8f227dff0576677392806293c6db822097be4e8fd03c923695536978ed8484",
+    "seed.phr": "ea92f08bf05576a15b76d015ad7c27cdca053631f738b74c9381165ebe8bb3e4",
+    "seed.pin": "098910c25e5e392547a44b3dffcf8fd35c81eaac4c0398b7c987be1cab50e269",
+    "seed.pjs": "8085a627a4364d55dcf42406279f5b5faa82554e56aec9b563a0f98197df45ed",
+    "seed.pot": "9382312ecc9f7c04d189ab4fc6df1012def459a8d388360426c8371edce8178b",
+    "seed.psq": "f9e8000442aec6d719767bd1c35b98c9486d62a9ad9719d3f6b43e662ef8755f",
+    "seed.ptf": "a4846cf83c6cd188b3fc3f9fa4f1f1d3c33692a85065b54dc1e42095af3e7552",
+    "seed.pto": "7a6792dcf05c598165356cefadfcdaa24d4af110b0ee57b86a049c1c26096243",
+    "source_checks.json": "754da061f5f7578286986752d8da6acb3db64030c4f632902a9c027573638a43",
+    "systems.json": "514b7fca9a0e8cfdb1183293f425884258e3af7be26dce2f574426ea10e88e36"
+  }
+}

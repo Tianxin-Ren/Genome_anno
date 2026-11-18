@@ -1,0 +1,12 @@
+阶段	必须检查	通过条件/规则	可输出	不应做的推断
+0. 发现	HMM/蛋白长度及序列完整度	寻找NiFe/FeFe/Fe真正催化蛋白，排除仅有Hyp或HydE/F/G	catalytic_family	成熟基因=存在可运转的氢化酶
+1. 家族与大亚基分支	活性中心配位位点 + 大亚基参考系统树	先NiFe / FeFe / Fe，再记录NiFe HydDB subgroup 或 FeFe组；留树的支持度	large_subunit_clade	只看活性中心能区分NiFe内部电子伙伴
+2. 小亚基组织	NiFe小亚基proximal/medial/distal簇；FeFe融合/独立FeS模块	检查结合位点，而不仅按亚基数目	small_subunit_topology	三个FeS名字相同即电子流功能相同
+3. 实际功能模块	cytochrome b/c、NAD(P)/F420黄素模块、Fd、HdrABC、FDH、CODH、Mrp	追踪哪一个是真正电子输出或输入，不将下游末端呼吸链算进单一氢化酶	direct_partner_module	下游硫酸盐/硝酸盐还原就是氢化酶直接底物
+4. 复合体完整性	基因邻域±10–15基因；大片段如Eha可更宽，另查远距离伙伴	允许不同物种不同共线性；MAG contig截断标记missing	system_completeness	辅助基因不相邻=缺失；Eha/Hdr都一定共线
+5. 反应方向	纯化酶底物实测、单基因敲除、培养方向、能量热力学	如E. coli Hyb-2和Ech，一个结构ID允许对应两种功能ID	direction_and_evidence	基因结构唯一决定H2摄取还是释放
+6. 能量耦联	膜NuoL/Mrp-like、H+/Na+梯度、ATP生成的独立证据	区分膜嵌入/潜在离子通道与经过直接证实的实际离子泵	coupling_status	有跨膜亚基就能赋能泵化学计量
+7. 成熟因子	hypABCDEF、特异成熟蛋白酶、hydEFG、FeGP/hcg背景	作为“潜在可成熟”及酶活信任度证据；不可用于类型唯一性	maturation_support	这些共享基因能替代底物电子传递模块
+8. KO / Pathway交叉	KEGG KO与全蛋白域证据	保留KO为独立列，可能many-to-one（例K06281）	KO_annotation	用一个KO定义一个完整氢化酶复合体
+9. 证据等级	A:纯化/机制；B:遗传+生理；C:系统发育+基因组织；D:KO或单次命中	A/B可作为参考功能；C候选；D仅蛋白层注释	confidence	参考菌A的证明可无条件转移到所有相似MAG
+10. 同功能跨结构	Huc vs Hhy、FeFe单亚基 vs 多亚基	同一反应可由不同架构承担；功能ID与结构ID必须分开	function_ontology	一反应对应一个固定酶家族

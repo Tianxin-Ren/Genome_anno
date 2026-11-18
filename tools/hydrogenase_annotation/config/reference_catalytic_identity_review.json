@@ -1,0 +1,218 @@
+{
+  "version": "round17-exact-source-identity-versus-function-review",
+  "corpus_freeze_sha256": "e1a34e848a0c074a0d8e95120c1447b6188d076e3f55ef1160ed4a0a89a489b5",
+  "records": [
+    {
+      "reference_id": "unresolved__swolfei_Goettingen_Swol_1925",
+      "sequence_sha256": "5ca0481a913ba04653fdcb4e5b959814b5ddb8015e8561dcf7063e1301248925",
+      "protein_accession": "WP_011641315.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_5ca0481a913ba04653fd",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__swolfei_Goettingen_Swol_2436",
+      "sequence_sha256": "9ed715c542b9a3e44d191a99090da32ea6537ec73b5d1baa3900f2d8bd8d66a5",
+      "protein_accession": "WP_011641809.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_9ed715c542b9a3e44d19",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__mmarburgensis_Marburg_MTBMA_c07980",
+      "sequence_sha256": "e47c38554293d8ffdc464fd64d78a6e1502feebf9e7b224ca3acfd201900ecf7",
+      "protein_accession": "WP_013295617.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_e47c38554293d8ffdc46",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__mmarburgensis_Marburg_MTBMA_c16260",
+      "sequence_sha256": "09e173fc8f6e3eb2ce6897d479bb411440090fc227416f3280dcd42aa23ee208",
+      "protein_accession": "WP_013296415.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_09e173fc8f6e3eb2ce68",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__ecoli_MG1655_hyfG",
+      "sequence_sha256": "6cacfdf4a9285237d1f6128830933bd7549de2436bf8d43a7da62ec315d3c591",
+      "protein_accession": "NP_416982.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_6cacfdf4a9285237d1f6",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "reviewed_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__mbarkeri_Fusaro_Mbar_A1840",
+      "sequence_sha256": "a2a14ca513712007329f1a38824df402ac2a964c42905dacec9bc9421a628408",
+      "protein_accession": "WP_011306827.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_a2a14ca513712007329f",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__cnecator_H16_pHG1_PHG021",
+      "sequence_sha256": "ba7485eae64c1d82b4dd350b30445dc79254fff0cb8fa5ba7f7270fadf7bac2f",
+      "protein_accession": "WP_011153946.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_ba7485eae64c1d82b4dd",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__cnecator_H16_pHG1_PHG002",
+      "sequence_sha256": "b407067fd5aed0d48b2b5bff654a6a7ea4ec5a1e88daaa67cba030ca1cd495e5",
+      "protein_accession": "WP_011153927.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_b407067fd5aed0d48b2b",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity",
+        "reviewed_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__cnecator_H16_pHG1_PHG065",
+      "sequence_sha256": "482fdf249967cf01deedc48aa044232730f2a624d817bdfd0eeecb60f2dd6738",
+      "protein_accession": "WP_011153987.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_482fdf249967cf01deed",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__rcapsulatus_SB1003_RCAP_rcc00761",
+      "sequence_sha256": "e501e44250fe28275c7737bd357e67b4b194645e305a31a3dab0f8baff90e2ea",
+      "protein_accession": "WP_013066505.1",
+      "original_kind": "unresolved",
+      "identity_label": "indeterminate",
+      "source_unit_id": null,
+      "source_split": null,
+      "evidence_tiers": [],
+      "scope": "No exact frozen positive identity correspondence; keep identity indeterminate."
+    },
+    {
+      "reference_id": "unresolved__rcapsulatus_SB1003_RCAP_rcc00768",
+      "sequence_sha256": "aebff061cbedeac38e4afc2f7355dfeefd650a253472c96d2b36b4ccf2d37297",
+      "protein_accession": "WP_013066512.1",
+      "original_kind": "unresolved",
+      "identity_label": "indeterminate",
+      "source_unit_id": null,
+      "source_split": null,
+      "evidence_tiers": [],
+      "scope": "No exact frozen positive identity correspondence; keep identity indeterminate."
+    },
+    {
+      "reference_id": "unresolved__awoodii_DSM1030_Awo_c26970",
+      "sequence_sha256": "7c9c496f4a2b5c17e9435198022e2b6a209b6c75a72b882706b9dc5e45dd8359",
+      "protein_accession": "WP_014357048.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_7c9c496f4a2b5c17e943",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__cautoethanogenum_DSM10061_CAETHG_1576",
+      "sequence_sha256": "e1a8ac752da643f5d584566d93a132d92657552867c94c771938b106d5dc0b96",
+      "protein_accession": "WP_023162310.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_e1a8ac752da643f5d584",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__cautoethanogenum_DSM10061_CAETHG_3569",
+      "sequence_sha256": "093e2a397f0b7a99b7ba79eee9b4c6500bb2f79d05b1e01e2ca58ef00461bae5",
+      "protein_accession": "WP_023163243.1",
+      "original_kind": "unresolved",
+      "identity_label": "positive",
+      "source_unit_id": "seq_093e2a397f0b7a99b7ba",
+      "source_split": "reference_overlap",
+      "evidence_tiers": [
+        "author_curated_catalytic_identity"
+      ],
+      "scope": "Exact frozen source sequence supports bounded catalytic identity only; original functional kind remains unresolved, no reaction reference enabled."
+    },
+    {
+      "reference_id": "unresolved__cpasteurianum_DSM525_CLPA_c33960",
+      "sequence_sha256": "4b5f0b94012b0683ac9bc2fcacb32ff475c3ffbdb46eeaa85c35e1b366758ad3",
+      "protein_accession": "AJA53450.1",
+      "original_kind": "unresolved",
+      "identity_label": "indeterminate",
+      "source_unit_id": null,
+      "source_split": null,
+      "evidence_tiers": [],
+      "scope": "No exact frozen positive identity correspondence; keep identity indeterminate."
+    },
+    {
+      "reference_id": "unresolved__cpasteurianum_DSM525_CLPA_c37830",
+      "sequence_sha256": "4b2a460403e2e6faf64fcad31c8e76d6b768ed5acc352fc63794849f9ffe5826",
+      "protein_accession": "AJA53809.1",
+      "original_kind": "unresolved",
+      "identity_label": "indeterminate",
+      "source_unit_id": null,
+      "source_split": null,
+      "evidence_tiers": [],
+      "scope": "No exact frozen positive identity correspondence; keep identity indeterminate."
+    },
+    {
+      "reference_id": "unresolved__cpasteurianum_DSM525_CLPA_c07070",
+      "sequence_sha256": "34cacb7cf22414415b2f6f760e67f4f00527bce2247ac1c81a537cf04120734f",
+      "protein_accession": "AJA50795.1",
+      "original_kind": "unresolved",
+      "identity_label": "indeterminate",
+      "source_unit_id": null,
+      "source_split": null,
+      "evidence_tiers": [],
+      "scope": "No exact frozen positive identity correspondence; keep identity indeterminate."
+    }
+  ]
+}

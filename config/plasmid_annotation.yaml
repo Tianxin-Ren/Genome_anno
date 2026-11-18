@@ -1,0 +1,41 @@
+# Plasmid Analysis & Annotation Configuration (Standalone Mode)
+plasmid_analysis:
+  enable: True
+  
+  # Base project directory (all relative paths below will be relative to this)
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/"
+  
+  # ----------------------------------------------------------------------------
+  # INPUT: Where are your assembly files?
+  # ----------------------------------------------------------------------------
+  # Example: If your files are at /path/results/SampleA/myloasm/assembly_primary.fa
+  # Set input_dir: "/path/results"
+  # Set assembly_pattern: "{sample}/myloasm/assembly_primary.fa"
+  input_dir: "results" 
+  assembly_pattern: "{sample}/myloasm/assembly_primary.fa"
+  
+  # Optional: specify samples manually, or leave [] to auto-detect from input_dir
+  samples: [] 
+
+  # ----------------------------------------------------------------------------
+  # OUTPUT: Where should the results be saved?
+  # ----------------------------------------------------------------------------
+  # Results will be saved as: output_dir/{sample}/...
+  output_dir: "results/plasmid_analysis"
+  
+  # ----------------------------------------------------------------------------
+  # Tool Settings
+  # ----------------------------------------------------------------------------
+  genomad:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/genomad_db"
+    min_score: 0.7
+    min_hallmarks: 1
+    threads: 64
+    
+  mob_suite:
+    threads: 32
+    
+  conda_envs:
+    genomad: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/genomad"
+    mob_suite: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/mob_suite"
+    utils: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/biopython_1.85"

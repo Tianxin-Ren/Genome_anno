@@ -1,0 +1,56 @@
+{
+  "version": "round24-native-development-source-challenge-before-prediction",
+  "source_files": {
+    "references/raw/round23_function_followup/Ralbus_correspondence_review.json": "266b50de4353a51672ab0e652e632a9b189721823952d7bdfe11d7ea1f275ced",
+    "references/raw/round23_function_followup/Ralbus_Fig2.jpg": "6e3584bc1a68fd1dc31935a8623039b4d83778ac8f4ca200f54128b7ea1d7eb5",
+    "references/raw/round22_function_truth/PMC4248817.fulltext.txt": "888e4f2979bb880da8e5b89483c7dcb8db800e2c27a7b000534f88e90a1db3bc",
+    "references/raw/round22_function_truth/genomes/CP002403.gb": "af25946ff71f267ea86c30355255a67ba18bf012ea0a0ff98bc26d6b584c19a2",
+    "references/raw/round22_function_truth/genomes/CP002404.gb": "789281cd92f00f74362c68f5dd3099315ba291c933f2cbc320113ab9f5da4116",
+    "references/raw/round22_function_truth/Ralbus_article.html": "7a95c4167b68f84707bcf47fa37417eda53a24efcd88fb0f0f0167e80d99d098",
+    "references/raw/round22_function_truth/additional_source_manifest.json": "8ef0e35371cbb34c368931c70ef6fa1cfd8b46c25c221d71e70d5dc2ad8ccd04"
+  },
+  "correspondence": "references/raw/round23_function_followup/Ralbus_correspondence_review.json",
+  "genomes": [
+    "references/raw/round22_function_truth/genomes/CP002403.gb",
+    "references/raw/round22_function_truth/genomes/CP002404.gb"
+  ],
+  "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4248817/",
+  "scope": "One new exposed-development native strain context; chromosome and pRumal01 only, not all five replicons. No genus/homolog-independent final-test claim.",
+  "scored_complex": {
+    "id": "Ralbus_HydABC",
+    "anchor": "Rumal_2964",
+    "members": [
+      "Rumal_2964",
+      "Rumal_2965",
+      "Rumal_2966"
+    ],
+    "supported_reaction_keys": [
+      "H2_NAD_Fd_coupled_reduction",
+      "NADH_Fd_coupled_H2_evolution"
+    ],
+    "assayed_negative_reaction_keys": [
+      "H2_NADP_Fd_coupled_reduction",
+      "NADPH_dependent_H2_evolution"
+    ],
+    "evidence": "Purified HydABC three main subunits identified byMS; minor100kDa Aad band is identified as contaminant. H2 reducesNAD+andFd; NADP+wasnotreduced. CoupledH2evolution requiredNADH with regeneratedFd;NADPHcouldnotsubstitute.",
+    "truth_scope": "Core subunit types and reported purified-assay reactions; not oligomer copy number, universal substrate exclusions or query physiological flux."
+  },
+  "associated_protein": {
+    "locus": "Rumal_3407",
+    "role": "HydA2",
+    "evidence": "Fd-dependentH2activity coeluted with gene product identifiedbyMS. Full purificationfailedduetoinstability.",
+    "structure_truth": "not_established_as_a_purified_monomer",
+    "metric_scope": "Reportdetectiononly;exclude from pure-complex/reaction precision denominator."
+  },
+  "indeterminate_protein": {
+    "locus": "Rumal_3405",
+    "role": "HydS",
+    "evidence": "Expressedandputativesensoryprotein;no separateactivitypeak found. Lowactivity,instabilityorotherfunctionnotresolved.",
+    "metric_scope": "Not an absolute inactive negative or provedH2sensor. Query physiology remains unresolved."
+  },
+  "limits": [
+    "FigureFeS/Hclusterlabelsaresequencepredictions,notstructuralFeStruth.",
+    "Two supported reactiondirections belong to one biologicalcomplex; do not count themas independent organisms.",
+    "Other genomicanchors are ungradable, not negatives."
+  ]
+}

@@ -1,0 +1,16 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/processed/NiFe_Group4.core.faa
+# output HMM file:                  /Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/processed/NiFe_Group4.hmm
+# name (the single) HMM:            NiFe_Group4
+# input alignment is asserted as:   protein
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NiFe_Group4              6   393   393     0.80  0.591 
+
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06

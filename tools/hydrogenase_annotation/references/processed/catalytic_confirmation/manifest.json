@@ -1,0 +1,26 @@
+{
+  "status": "built_before_calibration",
+  "policy_sha256": "28b1da390a676b3d90457f3796806eb13cae39c8e10fba2f6ca8941b9fd8fae5",
+  "corpus_freeze_sha256": "e1a34e848a0c074a0d8e95120c1447b6188d076e3f55ef1160ed4a0a89a489b5",
+  "training_audit_sha256": "f54117ef89ca99a3b57d29783df8d7abf58f98e55bf2c73ce19ee6342ecb5155",
+  "reference_domain_policy_sha256": "509d494513fb70f3a0a65c771624e2def0f17a37ec0beb0956a09c33e67ebd37",
+  "reference_identity_review_sha256": "6dd98f8ad325f0fd872c5d48d38e045f346e05d0520f2f7f942b2e554b6b443b",
+  "identity_adjudications_sha256": "5a4dabb6e15c2f220b11847df08f497231872bd77c706cc3956b4dff129ff709",
+  "references_sha256": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+  "prototype_count": 888,
+  "source_scope": "Core-audited development and original references, with exact hash-pinned primary Hmd identity adjudications; immutable historical labels remain separately preserved. No calibration/final prototypes.",
+  "files": {
+    "domain_models.json": "72dcd4ac4af9b31b8c14edfacbf4da96f4d5f6c5c16650fce5439565fb20def7",
+    "domains.hmm": "4d408caf95edc3a0d453d4878561fe716b271000354101dac8d19a9ab39f0216",
+    "prototypes.faa": "f87911ae2e9cb6f5b5d9bfd1cd9cae69292f07673f4ae4f29ce0e87db848dc63",
+    "prototypes.json": "78fafd89e0d202d90d56d015355a1b5472612d0ba702d50ba6481bcef8ac97ae",
+    "seed.pdb": "5311af13990f286acd0fafcdf524ab742678d3fdfbeefe24970898c3cfce2df2",
+    "seed.phr": "0e8df5f0fc537f18b333ccb28f95e157b05cace054f6231dd9cc256270bb5378",
+    "seed.pin": "5ca7e3f95555b99ea6d67ce357cfaf2e2e6e978b0dc83ace2def7ac65055a56c",
+    "seed.pjs": "5daf04622f34db961903719b41fc5d8537ecbdce2d3ba51a99bdade6eabb6348",
+    "seed.pot": "6e4a17f3da9d86cfa6d06e66a12301a61c61f9a7c89e2c9f21e3eb90b5410964",
+    "seed.psq": "e215eb3f5ea2031f9e8103f49385d78ad06a58d9d91c5dd45b6663638b7a9270",
+    "seed.ptf": "a4846cf83c6cd188b3fc3f9fa4f1f1d3c33692a85065b54dc1e42095af3e7552",
+    "seed.pto": "5447d5724ce13e7df6313330959827cfbf30ae3c27e3565b5e78a6958b3c8032"
+  }
+}

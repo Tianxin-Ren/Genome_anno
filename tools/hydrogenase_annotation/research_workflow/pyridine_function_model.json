@@ -1,0 +1,429 @@
+{
+  "version": "pyridine-coupling-independent-modules-v18",
+  "status": "bounded development rule",
+  "sources": {
+    "references/raw/round59_pyridine_function/PMC3189943.xml": "720a526a5324f7b626f11eec73ad7a129eccdf6620df379f31c494bcc581e7ba",
+    "references/raw/round59_pyridine_function/PMC148058.html": "6f29e7396afd48050e12431369bb1fafe35838dff7caed9bc7d20464247198d3",
+    "references/raw/round59_pyridine_function/PMC1082810.html": "f5f7777f4f642fcbea237642b13f3f8ed073b7fc2464f14e9567e3a735606050",
+    "references/raw/catalytic_structures/9NEZ.cif": "49d7598d787aad27740e9b36dceabb62de54f7db6fe5465090532f76d232d20b",
+    "references/processed/references.json": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+    "references/processed/references.faa": "e7af49894dcaa8aae0afe445f8e3351e321f3badaa748d8e742c69d12c8e7f38",
+    "config/module_graph.json": "b3f1a908d5bcb140ced96243c4f376a753c697f2e2e4a0916635a698022a6a1a",
+    "config/systems.json": "25347ffcf6aa1b40a6cd34eeafdd758d1a7c0898d6f946882204598f07d0570f",
+    "config/thresholds.json": "339e3a7b2eea6ac326e95dac707336edae65358f169c99b323bd208abff974ff",
+    "scripts/module_graph.py": "2e6cbdc5b93f3ac4cc73287669eecd4d8db8a3da5749f5415ac578758d0f6195",
+    "references/raw/round65_prosite/officialprofile/PS51384.txt": "11eeb305a1851379b04d71e1e861b5b8ee3d4f2415efc65578e1b89b727e6180",
+    ".env/bin/pfsearch2.3": "adfe6be267c029e6bd5a0073250046c81afb186e809d93576182f5d4a6fec3f0",
+    "references/raw/round66_split_sources/Artz2020.html": "d6fddee0b335ebea310bced9ee7187ae74aa0f7dfaed5bb86b2cfde7b30ec121",
+    "references/raw/round66_split_sources/HoxE2024_bioc.xml": "34435b77b358d18208a1c983bf74fc7102ba53a4ae7d58abc5ebb98c79dc350b",
+    "references/processed/reorganized_pyridine/reference_review.json": "c6cbdbad0cfbecf509ba370beaffb52d7ee2661687dc6ffdff682711bcea5982",
+    "references/processed/fe_fe_pyridine/reference_review.json": "b08d5c75f77aa594f29421495c8ecb56dcba41f03bf8c775b362ebf75ca5346c",
+    "references/raw/round70_FeFe_primary/primary_pubmed.xml": "d637303b6c24b5251f5db540a8ca08be64c5b4fd954189f9104b70a95119e2e3",
+    "experiments/round97/Hnd_function_rule_review.json": "287a4253708a40071c300f068d9ce4e46d1eb6b2707494e31f7456fa05aab1d7",
+    "scripts/complex_extensions.py": "5e63f80e05bf6aef03285cc3d67851bf6f9600d4f6768787f4b09801c014ec49",
+    "scripts/build_complex_extensions.py": "56b05d7709aff2395f99cfb44ca812b8a0fc2fb7614f04a6e52fa07333b64dc6",
+    "config/complex_extension_sources.json": "90cd8730aba078bf2120c3f1b7c2014bd060b3a0c02f9e2cb16e92e4c764d804",
+    "references/processed/complex_extensions/manifest.json": "3f85235e72e21ce4beddb65c9e9c83710b1c5eccf811f8db437ced157f861c6f",
+    "references/processed/complex_extensions/references.json": "c6d99f86f3795cdbfefb0261ef4a72832dc781da7be1a1744031cf71c14d5ceb",
+    "references/processed/complex_extensions/systems.json": "514b7fca9a0e8cfdb1183293f425884258e3af7be26dce2f574426ea10e88e36",
+    "references/processed/complex_extensions/graphs.json": "28bd89b56f38f5ad29e43b89bce3749035a58ceb5bcf635cb18cd9bc50f22ded",
+    "references/raw/round22_function_truth/genomes/U07229.gb": "98c7f0dd199099ab0819462249a686b0ecaecc7d0b2322f89a5723d1fe25ee82",
+    "references/raw/round22_function_truth/PMC7820892.xml": "a5b746d81f580f3281e3acf3907fd4aefed9b7a48b3cdc92d2c84aa128d47c37",
+    "experiments/round98/distributed_relay_rule_review.json": "221e317d43581717b5026622c2bf78c980d4980c88a4602c7c99204b2199499c",
+    "experiments/round98/extension_source_scope/review.json": "a88378129b185c8191f27b26d60023f820baa74175d6af1745feb1fc0c5bba50",
+    "references/raw/round22_function_truth/genomes/CP003198.gb": "1477f76e6eb4e1b61afc271e7bf52ad169dbf41528787e84c1937f7ee7cac693",
+    "references/raw/round21_function_sources/PMC8880783.xml": "b5f6b1d3a9a7193180957ebe0e56cbf7bf68072ccfda8ce385e28675ace76881",
+    "references/raw/round26_function_mechanism/CP012369.gb": "71067e483f23b446ffc1fd5091191f37915a1e666dccb5f1343571e9cffce9db",
+    "references/raw/round26_function_mechanism/Mthermo_HydABCDEF.web_source.json": "ea7194bbc71c8566780a0f34c06f1277a8e3bb76bf446f0ac078f43fe789b190",
+    "experiments/round106_hadar12/relay_source_scope_sources/7T2R.cif": "a4d38d1a4145341979a4235cf4622542fd89e7b1ef2c4a97981a0ad9e2c8e227",
+    "experiments/round106_hadar12/relay_source_scope_sources/PMC2533800.xml": "0e7610a0fe9ffa760f443f1b3f658a42a25f03acb04b2a2e574aa96dbb675f58",
+    "experiments/round106_hadar12/role_composition_reference_review.json": "ca75f3aba24f4c7ff8042a151be098b50aa90d5a01aa7f650e1bc7b5d42dea6a",
+    "config/reference_domain_policy.json": "509d494513fb70f3a0a65c771624e2def0f17a37ec0beb0956a09c33e67ebd37",
+    "research_workflow/pyridine_role_composition.py": "28e4c6d3c3431491a27e4dc352bcbcfe479b37682c7730b9ebf74d5759650cc3",
+    "references/processed/distilled_models/role_composition_reference_review.json": "73c56367a2df9c32c2f85fb06755a0a83c28588c2f8f936b59d4dc0db2473c24",
+    "experiments/round124_independent_sources/HoxU_reference_window_review_v1.json": "898580f04a8b1c60bda00143a9bdcf58c4fe6b9c0d8a399f90a706ca1bbef4fe",
+    "experiments/round124_independent_sources/HoxU_reference_window/P22318.txt": "3436d59c7a94823cb8ecffcb48740dd52a7e3dc2bdee276c9eba7c9b6a419207",
+    "references/processed/distilled_models/SHI_beta_cofactor_review_v1.json": "b8ac9979c3796fc4c80c25152dca3d71724af692a55dcf54d6169379bf5e2037",
+    "research_workflow/ech_function_model.json": "f6fe9cc216d7149712b3e1a667530564cb14ba08874e84fdd44433bd057d6bbf",
+    "references/processed/distilled_models/primary_architecture_review_v1.json": "a92e1794c5ef914b51f5a06eed1e57f471062b44e04fa15931ffee88a52a4a84"
+  },
+  "min_identity": 30.0,
+  "min_coverage": 0.65,
+  "max_evalue": 1e-10,
+  "hoxu_reference_window": {
+    "reference_id": "NiFe_HoxFUYH__HoxU",
+    "reference_window_start": 138,
+    "reference_window_end": 202,
+    "conserved_cysteines": [
+      145,
+      148,
+      151,
+      198
+    ],
+    "reference_sequence_sha256": "7d88c967100ab7a50e5fa52d298d7c2697baa523321f0498e33a4ab19e03c9b3",
+    "review_status": "homologous_FeS_relay_window_without_direct_target_ligand_proof"
+  },
+  "linkage": {
+    "local_max_span_bp": 30000,
+    "local_max_intergenic_gap_bp": 2500
+  },
+  "claims": [
+    "hydrogen reaction core",
+    "pyridine nucleotide electron module",
+    "local coupling potential"
+  ],
+  "not_claimed": [
+    "NAD/NADP specificity",
+    "ferredoxin requirement",
+    "electron bifurcation",
+    "net reaction direction",
+    "physical assembly",
+    "in-vivo flux"
+  ],
+  "role_requirements": {
+    "NiFe_HyhNADPH": {
+      "core": [
+        "SHI_alpha",
+        "SHI_delta"
+      ],
+      "pyridine": [
+        "SHI_beta",
+        "SHI_gamma"
+      ]
+    },
+    "NiFe_HoxFUYH": {
+      "core": [
+        "HoxY",
+        "HoxH"
+      ],
+      "pyridine": [
+        "HoxF",
+        "HoxU"
+      ]
+    },
+    "NiFe_reorganized_pyridine_candidate": {
+      "core": [
+        "HoxY",
+        "HoxH"
+      ],
+      "pyridine": [
+        "NuoE_like",
+        "NuoF_like",
+        "HoxU"
+      ]
+    },
+    "FeFe_TmHydABC": {
+      "core": [
+        "HydA"
+      ],
+      "pyridine": [
+        "HydB",
+        "HydC"
+      ]
+    },
+    "FeFe_SwHyd1ABC": {
+      "core": [
+        "Hyd1A"
+      ],
+      "pyridine": [
+        "Hyd1B",
+        "Hyd1C"
+      ]
+    },
+    "FeFe_Sfructo_HndABCD": {
+      "core": [
+        "HndD"
+      ],
+      "pyridine": [
+        "HndA",
+        "HndC"
+      ],
+      "reference_context": [
+        "HndB"
+      ]
+    },
+    "NiFe_Amobile_HydABCSL": {
+      "core": [
+        "HydL",
+        "HydS"
+      ],
+      "pyridine": [
+        "HydB",
+        "HydC"
+      ],
+      "distributed_relay": [
+        "HydA_ET_not_H_cluster"
+      ],
+      "reference_context": []
+    },
+    "FeFe_Mthermo_HydABCDEF": {
+      "core": [
+        "HydA"
+      ],
+      "pyridine": [
+        "HydB",
+        "HydC"
+      ],
+      "distributed_relay": [
+        "HydF"
+      ],
+      "reference_context": [
+        "HydD",
+        "HydE"
+      ]
+    }
+  },
+  "evidence_sources": [
+    "complex_members.tsv",
+    "module_graph_nodes.tsv",
+    "genes.tsv",
+    "PMC3189943.xml",
+    "PMC148058.html",
+    "PMC1082810.html",
+    "9NEZ.cif",
+    "PROSITE PS51384 official LEVEL-0; local pfsearch 2.3"
+  ],
+  "competition_identity_ratio": 0.9,
+  "alternative_architecture_scope": "Existing module resolver with complete full-role references and complete independently detected domain organization. Does not change L4 split-domain assignments.",
+  "shared_function_groups": [
+    {
+      "claim": "pyridine_nucleotide_oxidoreductase_module",
+      "reviewed_role_class": "NuoF_flavin_FeS",
+      "reference_ids": [
+        "NiFe_HoxFUYH__HoxF",
+        "FeFe_SwHyd1ABC__Hyd1B",
+        "FeFe_TmHydABC__HydB",
+        "FeFe_HytABCDE__HytB",
+        "NiFe_Amobile_HydABCSL__HydB",
+        "FeFe_Sfructo_HndABCD__HndC",
+        "FeFe_Mthermo_HydABCDEF__HydB"
+      ],
+      "experimental_evidence": {
+        "NiFe_HoxFUYH__HoxF": "https://pubmed.ncbi.nlm.nih.gov/22016788/",
+        "FeFe_SwHyd1ABC__Hyd1B": "https://pubmed.ncbi.nlm.nih.gov/28802265/",
+        "FeFe_TmHydABC__HydB": "https://pubmed.ncbi.nlm.nih.gov/19411328/",
+        "FeFe_HytABCDE__HytB": "https://pubmed.ncbi.nlm.nih.gov/23893107/",
+        "NiFe_Amobile_HydABCSL__HydB": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8880783/",
+        "FeFe_Sfructo_HndABCD__HndC": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820892/",
+        "FeFe_Mthermo_HydABCDEF__HydB": "https://doi.org/10.1111/febs.16989"
+      },
+      "scope": "Agreement on pyridine nucleotide redox capability only. Reference lineage, exact assembly, nucleotide specificity, Fd dependence, bifurcation and direction are not equivalent. Requires independently complete query-domain organization and unique local pairing before H2 coupling. Source-pinned extension members share this coarse role only; full reference architecture is separately evaluated."
+    },
+    {
+      "claim": "NuoE_like_2Fe2S_relay_component",
+      "reviewed_role_class": "NuoE_Fer2",
+      "reference_ids": [
+        "FeFe_TmHydABC__HydC",
+        "FeFe_HytABCDE__HytC",
+        "FeFe_SwHyd1ABC__Hyd1C",
+        "NiFe_Amobile_HydABCSL__HydC",
+        "FeFe_Sfructo_HndABCD__HndA",
+        "FeFe_Mthermo_HydABCDEF__HydC"
+      ],
+      "experimental_evidence": {
+        "FeFe_TmHydABC__HydC": "https://elifesciences.org/articles/79361",
+        "FeFe_HytABCDE__HytC": "https://pubmed.ncbi.nlm.nih.gov/23893107/",
+        "FeFe_SwHyd1ABC__Hyd1C": "https://pubmed.ncbi.nlm.nih.gov/28802265/",
+        "NiFe_Amobile_HydABCSL__HydC": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8880783/",
+        "FeFe_Sfructo_HndABCD__HndA": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820892/",
+        "FeFe_Mthermo_HydABCDEF__HydC": "https://doi.org/10.1111/febs.16989"
+      },
+      "scope": "Reference-like NuoE relay fold only. Not an exact HoxE identity, Fd binding, electron bifurcation or independent H2 function. Source-pinned extension members share this coarse role only; full reference architecture is separately evaluated."
+    },
+    {
+      "claim": "FeS_relay_in_pyridine_redox_module",
+      "reference_ids": [
+        "NiFe_HoxFUYH__HoxU",
+        "FeFe_HytABCDE__HytD"
+      ],
+      "reviewed_role_classes": {
+        "NiFe_HoxFUYH__HoxU": "FeS_relay",
+        "FeFe_HytABCDE__HytD": "HytD_Fer2"
+      },
+      "experimental_evidence": {
+        "NiFe_HoxFUYH__HoxU": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7363133/",
+        "FeFe_HytABCDE__HytD": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/"
+      },
+      "scope": "Compatible coarse electron-transfer role only. Does not equate cluster topology, Hox identity, nucleotide selectivity, ferredoxin use, bifurcation or assembly. Requires complete query HoxU-like ordered domains and all other module roles."
+    }
+  ],
+  "prosite_fad": {
+    "profile": "references/processed/PS51384.txt",
+    "scanner": ".env/bin/pfsearch2.3",
+    "normalization_mode": 1,
+    "min_normalized_score": 8.5,
+    "min_raw_score": 1658,
+    "profile_data_update": "2017-05-10",
+    "profile_info_update": "2024-05-29",
+    "scope": "Alternative SHI_gamma FAD-domain evidence only; full-role homology, ordered GA PF00175/PF10418, beta/delta/alpha, competition and linkage remain required. PF00970 GA output is unchanged. No measured cofactor occupancy or nucleotide specificity.",
+    "profile_url": "https://prosite.expasy.org/PS51384",
+    "documentation_url": "https://prosite.expasy.org/PDOC51384",
+    "scanner_version": "pfsearch 2.3 revision 5.d"
+  },
+  "reorganized_module": {
+    "structure_id": "NiFe_reorganized_pyridine_candidate",
+    "reference_scope": "Existing reviewed full NuoE-like TmHydC and HoxF reference positions 161–602 plus full HoxU/HoxY/HoxH. An optional module hypothesis, not exact HoxEFUYH lineage or demonstrated fusion/fission.",
+    "competition_scope": "Full-role qualified raw-bank rivals are audited before target-only module assignment. Reviewed same coarse function remains compatible; a local Fer4 match to an incomplete alternative catalytic protein is not full-role competition. Unknown qualified rival blocks.",
+    "not_claimed": [
+      "exact Hox lineage",
+      "NAD/NADP specificity",
+      "Fd requirement",
+      "bifurcation",
+      "reaction direction",
+      "physical assembly"
+    ],
+    "primary_sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7363133/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647496/"
+    ]
+  },
+  "FeFe_scope": {
+    "structures": [
+      "FeFe_TmHydABC",
+      "FeFe_SwHyd1ABC"
+    ],
+    "intrinsic_relay_order": [
+      "PF13510",
+      "PF10588",
+      "PF22117",
+      "PF02906"
+    ],
+    "relay_required_for": "coupling only",
+    "full_role_homology": "unchanged 30% identity, 0.65 query/reference coverage, E<=1e-10",
+    "not_transferred": [
+      "Fd requirement",
+      "electron bifurcation",
+      "NAD/NADP specificity",
+      "net direction",
+      "exact Fe-S types",
+      "query activity"
+    ],
+    "supported_identity_scope": [
+      "calibrated_high",
+      "sequence_supported_uncalibrated_core",
+      "sequence_supported_uncalibrated_noncanonical"
+    ],
+    "center_boundary": "Previously established FeFe family support is accepted for coarse functional potential, including literature-pattern noncanonical identity. Canonical-center calibration, exact ligation and activity are not upgraded."
+  },
+  "Hnd_scope": {
+    "review": "experiments/round97/Hnd_function_rule_review.json",
+    "bank": "references/processed/complex_extensions/manifest.json",
+    "relay_required_for": "coupling only; no changed H2-core identity",
+    "not_transferred": [
+      "NAD versus NADP",
+      "ferredoxin requirement",
+      "electron bifurcation",
+      "net reaction direction",
+      "physical assembly",
+      "FeS occupancy",
+      "in vivo activity"
+    ]
+  },
+  "distributed_relay_scope": {
+    "review": "experiments/round98/distributed_relay_rule_review.json",
+    "systems": [
+      "NiFe_Amobile_HydABCSL",
+      "FeFe_Mthermo_HydABCDEF"
+    ],
+    "required_for": "coupling only; no change to catalytic identity",
+    "scope": "Source papers measured different NAD/NADP/Fd/bifurcation behaviors. Their common transferable assertion here is pyridine-coupling potential; source mechanism is never assigned from architecture alone. Missing relay/context withdraws this reference-architecture coupling, not independent core/module identity and not biochemical activity."
+  },
+  "role_composition": {
+    "version": "NiFe-role-composition-v5",
+    "reference_id": "NiFe_Amobile_HydABCSL__HydA_ET_not_H_cluster",
+    "reference_sequence_sha256": "54bed8bb130f7124ffb6f609058205dd29f88377d29576e1b95917cb12e6ba9d",
+    "review_path": "references/processed/distilled_models/role_composition_reference_review.json",
+    "units": {
+      "fusion": {
+        "start": 139,
+        "end": 208,
+        "profiles": [
+          "PF12838",
+          "PF22117"
+        ],
+        "ligands": [
+          148,
+          151,
+          154,
+          202
+        ]
+      },
+      "proximal": {
+        "start": 2,
+        "end": 124,
+        "profiles": [
+          "PF13510",
+          "PF10588"
+        ],
+        "ligands": [
+          36,
+          47,
+          50,
+          64
+        ],
+        "ligands_a3": [
+          100,
+          103,
+          109
+        ]
+      }
+    },
+    "A3_motifs": [
+      "H.C..C.....C",
+      "H...C..C.....C"
+    ],
+    "S1": {
+      "reference_id": "NiFe_Amobile_HydABCSL__HydS",
+      "reference_sequence_sha256": "7dca0a19ccf3a8a0ed8fc82a2de829962efd51d7921a4b107bc7e79d5003eaef",
+      "start": 1,
+      "end": 179,
+      "ligands": [
+        14,
+        17,
+        85,
+        149
+      ],
+      "source": "7T2R entity5 chainE SF4 201: four Cys donor coordinates; exact native AFM22270.1/Anamo_1676 sequence binding; role from native-operon/MS correspondence in PMC8880783",
+      "deposited_display_name": "Coenzyme F420-reducing hydrogenase, gamma subunit",
+      "display_name_scope": "Preserved annotation text is not electron-acceptor evidence. Role assignment here follows exact native CDS/chain sequence and experimental five-subunit correspondence, not the deposited display name."
+    },
+    "cooperative_parent_scope": {
+      "structure_id": "NiFe_HyhNADPH",
+      "allowed_core_blockers": [
+        "missing_or_low_coverage_SHI_delta"
+      ],
+      "weak_parent_roles": [
+        "SHI_delta",
+        "SHI_beta"
+      ],
+      "gamma_resource_extension": "validated_PROSITE_FAD_plus_ordered_GA_NAD_FeS",
+      "scope": "R162 local four-role composition only; strict role and raw threshold records remain unchanged.",
+      "weak_parent_support": "long reference homology, complete owned GA fold, independent catalytic identity and all local roles; no new identity floor"
+    },
+    "profile_role_complements": [
+      {
+        "structure_id": "NiFe_HyhNADPH",
+        "role": "SHI_beta",
+        "reference_id": "NiFe_HyhNADPH__SHI_beta",
+        "reference_sequence_sha256": "eaab13213411078ef08516217c1ae0958208959c440572bf9074ffc9032d01f3",
+        "profiles": [
+          "PF17179"
+        ],
+        "required_parent_roles": [
+          "SHI_alpha",
+          "SHI_delta",
+          "SHI_gamma"
+        ],
+        "cofactor_review": "references/processed/distilled_models/SHI_beta_cofactor_review_v1.json",
+        "min_complete_contact_groups": 1,
+        "scope": "Soft electron-relay role only, jointly supported by long homology, reviewed full GA fold and deposited contact-pattern compatibility. Full cluster count/occupancy and exact architecture are not inferred. The same reviewed contact mapping also audits high-identity SHI_beta assignments. Total observed loss of the reviewed Cys contacts blocks that reference-like relay role only; partial changes retain coarse potential with qualitative risk. No biochemical inactivity is inferred."
+      }
+    ],
+    "group4_core_module": {
+      "role_policy_path": "research_workflow/ech_function_model.json",
+      "scope": "Accepted Group4 catalytic core plus complete independent SHI beta/gamma and a local Group4 FeS relay; LOW coarse nucleotide potential only",
+      "primary_context_review": "references/processed/distilled_models/primary_architecture_review_v1.json",
+      "evidence_kind": "in_silico_architecture_analogy_not_query_activity"
+    }
+  }
+}

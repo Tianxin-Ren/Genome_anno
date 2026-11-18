@@ -1,0 +1,520 @@
+[
+  {
+    "function": "Ni03",
+    "citation": "10.1042/BCJ20180053",
+    "system": "NiFe_EcoliMC4100_Hyb",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5902676/",
+    "basis": "原文Methods/菌株表明确MC4100及衍生株；采用MC4100 HG738867.1原生CDS作同菌株参考，不声称标签构建序列完全相同。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1042/BCJ20180053",
+    "system": "NiFe_EcoliMC4100_Hyb",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5902676/",
+    "basis": "原文Methods/菌株表明确MC4100及衍生株；采用MC4100 HG738867.1原生CDS作同菌株参考，不声称标签构建序列完全相同。"
+  },
+  {
+    "function": "Ni03",
+    "citation": "10.1128/JB.02335-14",
+    "system": "NiFe_EcoliMC4100_Hyb",
+    "source": "https://journals.asm.org/doi/10.1128/jb.02335-14",
+    "basis": "原文Methods/菌株表明确MC4100及衍生株；采用MC4100 HG738867.1原生CDS作同菌株参考，不声称标签构建序列完全相同。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1128/JB.02335-14",
+    "system": "NiFe_EcoliMC4100_Hyb",
+    "source": "https://journals.asm.org/doi/10.1128/jb.02335-14",
+    "basis": "原文Methods/菌株表明确MC4100及衍生株；采用MC4100 HG738867.1原生CDS作同菌株参考，不声称标签构建序列完全相同。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1128/jb.181.13.4076-4080.1999",
+    "system": "NiFe_Mmazei_Vho",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC93899/",
+    "basis": "原文电子链图明确标VhoGAC及其成员，采用原生Go1参考；实测受体2-hydroxyphenazine，不能写作天然MP直接周转，膜体系未逐条确认所有旁系同源贡献。"
+  },
+  {
+    "function": "Ni06",
+    "citation": "10.1038/s41396-020-0609-3",
+    "system": "NiFe_Mfum_SolV_Hhy",
+    "source": "https://www.ncbi.nlm.nih.gov/nuccore/NZ_LM997411.1",
+    "basis": "Methylacidiphilum fumariolicum SolV纯化1h型[NiFe]氢酶大亚基HhyL（MFUMSOLV_RS08465，604 aa）与小亚基HhyS（MFUMSOLV_RS08470，351 aa）对应RefSeq基因组NZ_LM997411.1及蛋白酶RS08460；支持痕量摄氢，“提高存活”仍属生理推断。"
+  },
+  {
+    "function": "Ni01",
+    "citation": "10.1039/c3cc43619e",
+    "system": "NiFe_Dbac_DSM4028_Hys",
+    "source": "https://www.rcsb.org/structure/4KO1",
+    "basis": "PDB 4KO1/4KO2直接对应Desulfomicrobium baculatum DSM 4028（taxid 525897）染色体CP001629.1的大亚基Dbac_1969（ACU90057.1）与小亚基Dbac_1970（ACU90058.1）。"
+  },
+  {
+    "function": "Fe08",
+    "citation": "10.1128/msystems.00451-25",
+    "system": "FeFe_Ssphaeroides_KIAC_HydABC",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12456013/",
+    "basis": "论文全文明确记载异源质粒pJIR-NADP来自Sporomusa sphaeroides KIAC染色体CP181154.1位点KIAC18_000072–000074（HydCBA），附同基因组HydEFG成熟基因；属遗传/生理表型支持，NADP特异性与Fd非依赖性尚未直接实测。"
+  },
+  {
+    "function": "Ni21",
+    "citation": "10.1002/biot.202300567",
+    "system": "FeFe_CbA5H_BMR_external",
+    "source": "https://www.ncbi.nlm.nih.gov/nuccore/CP000721.1",
+    "basis": "实验CbA5H来自C. beijerinckii SM10（AOZ57087.1），与NCIMB 8052参考染色体CP000721.1位点Cbei_1773为643/644 aa相同（99.845%，第96位分别为I/L）；外部伙伴对应P. megaterium CP009920.1全长1049 aa CYP102A1母蛋白位点BG04_163，论文实际使用分离的BMR还原酶结构域（对应UniProt P14779 aa 473–1049，不含N端血红素结构域aa 2–472）。"
+  },
+  {
+    "function": "Ni01",
+    "citation": "10.1016/j.jmb.2005.09.036",
+    "system": "NiFe_Dafricanus_DSM2603_Hys",
+    "source": "https://doi.org/10.1016/j.jmb.2005.09.036",
+    "basis": "D. africanus DSM 2603晶体结构与生化测定，对应WGS装配GCF_000422545.1之HysAB（H585_RS0110820/RS0110825）及成熟蛋白酶。"
+  },
+  {
+    "function": "Ni01",
+    "citation": "10.1016/S0167-4838(99)00221-6",
+    "system": "NiFe_Dnorvegicum_DSM1741_Hyn",
+    "source": "https://doi.org/10.1016/S0167-4838(99)00221-6",
+    "basis": "Desulfomicrobium norvegicum DSM 1741（原D. desulfuricans Norway）周质氢酶，对应GCF_900114595.1之BMZ24_RS18450/RS18455。"
+  },
+  {
+    "function": "Ni01",
+    "citation": "10.1021/bi971656g",
+    "system": "NiFe_Dnorvegicum_DSM1741_Hyn",
+    "source": "https://doi.org/10.1021/bi971656g",
+    "basis": "Desulfomicrobium norvegicum DSM 1741周质氢酶，对应GCF_900114595.1之BMZ24_RS18450/RS18455。"
+  },
+  {
+    "function": "Ni02",
+    "citation": "10.3389/fmicb.2017.00444",
+    "system": "NiFe_Smultivorans_Hyd",
+    "source": "https://doi.org/10.3389/fmicb.2017.00444",
+    "basis": "Sulfurospirillum multivorans DSM 12446膜结合氢酶HydABC（SMUL_1423-1425）及成熟蛋白酶SMUL_1426，全染色体CP007201.1对应。"
+  },
+  {
+    "function": "Ni03",
+    "citation": "10.1074/jbc.M110.124305",
+    "system": "NiFe_periplasmic_Hys",
+    "source": "https://doi.org/10.1074/jbc.M110.124305",
+    "basis": "Desulfovibrio vulgaris Hildenborough周质氢酶与细胞色素c3/醌库电子传递，对应原生染色体DVU_RS09095/RS09090。"
+  },
+  {
+    "function": "Ni03",
+    "citation": "10.1002/1873-3468.13514",
+    "system": "NiFe_EcoliMC4100_Hyb",
+    "source": "https://doi.org/10.1002/1873-3468.13514",
+    "basis": "E. coli MC4100原生基因组HG738867.1 Hyd-2（HybOABC）对应。"
+  },
+  {
+    "function": "Ni03",
+    "citation": "10.1016/j.chom.2013.11.002",
+    "system": "NiFe_Styphimurium_Hyb",
+    "source": "https://doi.org/10.1016/j.chom.2013.11.002",
+    "basis": "Salmonella enterica Typhimurium SL1344原生染色体FQ312003.1 Hyd-2（SL1344_3121-3124）对应。"
+  },
+  {
+    "function": "Ni03",
+    "citation": "10.1016/S0360-3199(02)00112-X",
+    "system": "NiFe_Ecoli_Hyd2",
+    "source": "https://doi.org/10.1016/S0360-3199(02)00112-X",
+    "basis": "E. coli K-12标准参考基因组Hyd-2对应。"
+  },
+  {
+    "function": "Ni03",
+    "citation": "10.1128/mBio.00284-10",
+    "system": "NiFe_Styphimurium_Hyb",
+    "source": "https://doi.org/10.1128/mBio.00284-10",
+    "basis": "Salmonella enterica Typhimurium SL1344原生染色体FQ312003.1 Hyd-2（SL1344_3121-3124）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1023/A:1020539323190",
+    "system": "NiFe_Sfumaroxidans_Hyn",
+    "source": "https://doi.org/10.1023/A:1020539323190",
+    "basis": "Syntrophobacter fumaroxidans MPOB原生染色体CP000478.1膜结合NiFe氢酶HynLS（Sfum_2952/2953）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1038/s41467-018-07839-x",
+    "system": "NiFe_periplasmic_Hys",
+    "source": "https://doi.org/10.1038/s41467-018-07839-x",
+    "basis": "D. vulgaris Hildenborough周质氢酶原生染色体对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1039/C3EE43652G",
+    "system": "NiFe_Ecoli_Hyd2",
+    "source": "https://doi.org/10.1039/C3EE43652G",
+    "basis": "E. coli K-12标准参考基因组Hyd-2对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1007/s12013-012-9458-7",
+    "system": "NiFe_Ecoli_Hyd2",
+    "source": "https://doi.org/10.1007/s12013-012-9458-7",
+    "basis": "E. coli K-12标准参考基因组Hyd-2对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1002/1873-3468.13514",
+    "system": "NiFe_EcoliMC4100_Hyb",
+    "source": "https://doi.org/10.1002/1873-3468.13514",
+    "basis": "E. coli MC4100原生基因组HG738867.1 Hyd-2对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1016/j.bbabio.2014.07.021",
+    "system": "NiFe_Tbogorovii_Hup",
+    "source": "https://doi.org/10.1016/j.bbabio.2014.07.021",
+    "basis": "Thiocapsa bogorovii BBS (原T. roseopersicina BBS)全染色体CP089309.1膜结合摄氢酶HupSL（LT988_RS02910/RS02915）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1016/j.ijhydene.2013.01.031",
+    "system": "NiFe_EcoliBW25113_Hyb",
+    "source": "https://doi.org/10.1016/j.ijhydene.2013.01.031",
+    "basis": "E. coli BW25113全染色体CP009273.1 Hyd-2（BW25113_2994-2997）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1111/1751-7915.13938",
+    "system": "NiFe_EcoliBW25113_Hyb",
+    "source": "https://doi.org/10.1111/1751-7915.13938",
+    "basis": "E. coli BW25113全染色体CP009273.1 Hyd-2（BW25113_2994-2997）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1128/AEM.03358-14",
+    "system": "NiFe_Dalaskensis_G20_Hyn",
+    "source": "https://doi.org/10.1128/AEM.03358-14",
+    "basis": "Desulfovibrio alaskensis G20原生染色体CP000112.1膜结合氢酶（Dde_2136-2138）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1128/JB.01959-12",
+    "system": "NiFe_Dalaskensis_G20_Hyn",
+    "source": "https://doi.org/10.1128/JB.01959-12",
+    "basis": "Desulfovibrio alaskensis G20原生染色体CP000112.1膜结合氢酶（Dde_2136-2138）对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1111/1462-2920.14119",
+    "system": "NiFe_Sfumaroxidans_Hyn",
+    "source": "https://doi.org/10.1111/1462-2920.14119",
+    "basis": "Syntrophobacter fumaroxidans MPOB膜结合氢酶HynLS对应。"
+  },
+  {
+    "function": "Ni04",
+    "citation": "10.1264/jsme2.ME22111",
+    "system": "NiFe_Pthermo_Hyd",
+    "source": "https://doi.org/10.1264/jsme2.ME22111",
+    "basis": "Pelotomaculum thermopropionicum SI全染色体AP009389.1膜结合氢酶PTH_0026-0028对应。"
+  },
+  {
+    "function": "Ni05",
+    "citation": "10.1016/j.ijhydene.2010.02.054",
+    "system": "NiFe_Aaeolicus_Mbh1",
+    "source": "https://doi.org/10.1016/j.ijhydene.2010.02.054",
+    "basis": "Aquifex aeolicus VF5全染色体AE000657.1膜结合氧耐受氢酶Mbh1（aq_660/662/665）对应。"
+  },
+  {
+    "function": "Ni05",
+    "citation": "10.1021/ja910838d",
+    "system": "NiFe_Aaeolicus_Mbh1",
+    "source": "https://doi.org/10.1021/ja910838d",
+    "basis": "Aquifex aeolicus VF5全染色体AE000657.1膜结合氧耐受氢酶Mbh1对应。"
+  },
+  {
+    "function": "Ni05",
+    "citation": "10.1074/jbc.M109.067751",
+    "system": "NiFe_Ecoli_Hyd1",
+    "source": "https://doi.org/10.1074/jbc.M109.067751",
+    "basis": "E. coli K-12氧耐受膜结合氢酶1（Hyd-1，HyaABC）对应。"
+  },
+  {
+    "function": "Ni06",
+    "citation": "10.1073/pnas.1508385112",
+    "system": "NiFe_Pmethyl_Hhy",
+    "source": "https://doi.org/10.1073/pnas.1508385112",
+    "basis": "Pyrinomonas methylaliphatogenes K22 WGS装配GCF_000820845.2 Group 1h氢酶HhyLS（PYK22_RS15250/RS15255）对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1002/1521-3773(20000717)39:14<2470::AID-ANIE2470>3.0.CO;2-R",
+    "system": "NiFe_Mmazei_Vho",
+    "source": "https://doi.org/10.1002/1521-3773(20000717)39:14<2470::AID-ANIE2470>3.0.CO;2-R",
+    "basis": "M. mazei Gö1全染色体NC_003901.1 Vho氢酶对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1039/C5EE03085D",
+    "system": "NiFe_Mmazei_Vho",
+    "source": "https://doi.org/10.1039/C5EE03085D",
+    "basis": "M. mazei Gö1全染色体NC_003901.1 Vho氢酶对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1128/JB.180.8.2027-2032.1998",
+    "system": "NiFe_Mmazei_Vho",
+    "source": "https://doi.org/10.1128/JB.180.8.2027-2032.1998",
+    "basis": "M. mazei Gö1全染色体NC_003901.1 Vho氢酶对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1046/j.1432-1327.1999.00738.x",
+    "system": "NiFe_VhoABC",
+    "source": "https://doi.org/10.1046/j.1432-1327.1999.00738.x",
+    "basis": "M. barkeri Fusaro全染色体NC_007355.1 Vho/Vht氢酶对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1073/pnas.0905914106",
+    "system": "NiFe_VhoABC",
+    "source": "https://doi.org/10.1073/pnas.0905914106",
+    "basis": "M. barkeri Fusaro全染色体NC_007355.1 Vho/Vht氢酶对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1111/febs.16165",
+    "system": "NiFe_Mthermophilum_Vho",
+    "source": "https://doi.org/10.1111/febs.16165",
+    "basis": "M. thermophilum AMET1 WGS装配GCF_002153915.1 Vho氢酶（AMET1_RS03000/RS03005）对应。"
+  },
+  {
+    "function": "Ni07",
+    "citation": "10.1093/femsle/fnag061",
+    "system": "NiFe_Macetivorans_Vht",
+    "source": "https://doi.org/10.1093/femsle/fnag061",
+    "basis": "M. acetivorans C2A全染色体AE010299.1氢酶基因对应。"
+  },
+  {
+    "function": "Ni08",
+    "citation": "10.1007/s00253-002-0934-7",
+    "system": "NiFe_Nostoc7120_Hup",
+    "source": "https://doi.org/10.1007/s00253-002-0934-7",
+    "basis": "Nostoc sp. PCC 7120全染色体BA000019.2 HupSL（all0688/hupL）对应。"
+  },
+  {
+    "function": "Ni08",
+    "citation": "10.1128/aem.05957-11",
+    "system": "NiFe_Nostoc7120_Hup",
+    "source": "https://doi.org/10.1128/aem.05957-11",
+    "basis": "Nostoc sp. PCC 7120全染色体BA000019.2 HupSL对应。"
+  },
+  {
+    "function": "Ni08",
+    "citation": "10.1186/s12934-020-01320-5",
+    "system": "NiFe_Nostoc7120_Hup",
+    "source": "https://doi.org/10.1186/s12934-020-01320-5",
+    "basis": "Nostoc sp. PCC 7120全染色体BA000019.2 HupSL对应。"
+  },
+  {
+    "function": "Ni09",
+    "citation": "10.1038/s41396-022-01265-0",
+    "system": "NiFe_Nmoscoviensis_Hup",
+    "source": "https://doi.org/10.1038/s41396-022-01265-0",
+    "basis": "Nitrospira moscoviensis全染色体CP011801.1 Group 1h氢酶HupSL（NITMOv2_1639/1640）对应。"
+  },
+  {
+    "function": "Ni09",
+    "citation": "10.1038/s41396-020-0713-4",
+    "system": "NiFe_Gaurantiaca_Hhy",
+    "source": "https://doi.org/10.1038/s41396-020-0713-4",
+    "basis": "Gemmatimonas aurantiaca T-27全染色体AP009153.1 Group 1h氢酶HhyLS（GAU_0412/0413）对应。"
+  },
+  {
+    "function": "Ni09",
+    "citation": "10.1038/s41564-023-01322-0",
+    "system": "NiFe_Salaskensis_Huc",
+    "source": "https://doi.org/10.1038/s41564-023-01322-0",
+    "basis": "Sphingopyxis alaskensis RB2256质粒F CP000357.1 Group 1h氢酶HucLS（Sala_3197/3198）对应。"
+  },
+  {
+    "function": "Ni09",
+    "citation": "10.1111/1462-2920.70163",
+    "system": "NiFe_Maurea_Hhy",
+    "source": "https://doi.org/10.1111/1462-2920.70163",
+    "basis": "Methylocapsa aurea KYG WGS装配GCF_000746085.1 Group 1h氢酶HhyLS（DL86_RS13145/RS13150）对应。"
+  },
+  {
+    "function": "Ni10",
+    "citation": "10.1128/JB.00381-06",
+    "system": "NiFe_Rpalustris_Hup",
+    "source": "https://doi.org/10.1128/JB.00381-06",
+    "basis": "Rhodopseudomonas palustris CGA009全染色体CP116810.1氢酶操纵子HupSL（TX73_004955/004960）及成熟蛋白酶对应。"
+  },
+  {
+    "function": "Ni11",
+    "citation": "10.1128/JB.171.7.3846-3853.1989",
+    "system": "NiFe_Mformicicum_Frh",
+    "source": "https://doi.org/10.1128/JB.171.7.3846-3853.1989",
+    "basis": "Methanobacterium formicicum DSM 1535全染色体LN515531.1 F420还原型氢酶FrhA（DSM1535_0622）对应。"
+  },
+  {
+    "function": "Ni13",
+    "citation": "10.1021/acs.biochem.8b00662",
+    "system": "NiFe_MmaripaludisJJ_MvhHdr",
+    "source": "https://doi.org/10.1021/acs.biochem.8b00662",
+    "basis": "M. maripaludis JJ全染色体CP026606.1电子分叉Mvh/Vhc-Hdr复合体对应。"
+  },
+  {
+    "function": "Ni13",
+    "citation": "10.1038/s41586-026-10744-9",
+    "system": "NiFe_MmaripaludisJJ_MvhHdr",
+    "source": "https://doi.org/10.1038/s41586-026-10744-9",
+    "basis": "M. maripaludis JJ全染色体CP026606.1电子分叉Mvh/Vhc-Hdr复合体对应。"
+  },
+  {
+    "function": "Ni13",
+    "citation": "10.1128/jb.00895-13",
+    "system": "NiFe_MmaripaludisJJ_MvhHdr",
+    "source": "https://doi.org/10.1128/jb.00895-13",
+    "basis": "M. maripaludis JJ全染色体CP026606.1电子分叉Mvh/Vhc-Hdr复合体对应。"
+  },
+  {
+    "function": "Ni13",
+    "citation": "10.1038/s41586-025-09229-y",
+    "system": "NiFe_MvhHdr",
+    "source": "https://doi.org/10.1038/s41586-025-09229-y",
+    "basis": "M. marburgensis Marburg全染色体NC_014408.1电子分叉Mvh-Hdr复合体对应。"
+  },
+  {
+    "function": "Ni13",
+    "citation": "10.1128/AEM.01259-14",
+    "system": "NiFe_Mconradii_MvhHdr",
+    "source": "https://doi.org/10.1128/AEM.01259-14",
+    "basis": "Methanocella conradii HZ254全染色体CP003243.1电子分叉MvhAGD-HdrABC六亚基复合体（Mtc_2472-2479）对应。"
+  },
+  {
+    "function": "Ni13",
+    "citation": "10.3389/fmicb.2018.01551",
+    "system": "NiFe_Mconradii_MvhHdr",
+    "source": "https://doi.org/10.3389/fmicb.2018.01551",
+    "basis": "Methanocella conradii HZ254全染色体CP003243.1电子分叉MvhAGD-HdrABC复合体对应。"
+  },
+  {
+    "function": "Ni15",
+    "citation": "10.1111/j.1432-1033.1977.tb11234.x",
+    "system": "NiFe_FHL1_Hyc",
+    "source": "https://doi.org/10.1111/j.1432-1033.1977.tb11234.x",
+    "basis": "Salmonella Typhimurium LT2全染色体NC_003197.2甲酸氢裂解酶FHL1体系对应。"
+  },
+  {
+    "function": "Ni16",
+    "citation": "10.1111/1462-2920.14022",
+    "system": "NiFe_Tparalvinellae_ES1_FdhMfh",
+    "source": "https://doi.org/10.1111/1462-2920.14022",
+    "basis": "Thermococcus paralvinellae ES1全染色体CP006965.1 Fdh-Mfh2-Mnh2复合体（TES1_0096-0103）对应。"
+  },
+  {
+    "function": "Ni16",
+    "citation": "10.3389/fmicb.2025.1560780",
+    "system": "NiFe_Tparalvinellae_ES1_FdhMfh",
+    "source": "https://doi.org/10.3389/fmicb.2025.1560780",
+    "basis": "Thermococcus paralvinellae ES1全染色体CP006965.1 Fdh-Mfh2-Mnh2复合体对应。"
+  },
+  {
+    "function": "Ni16",
+    "citation": "PMID:28853770",
+    "system": "NiFe_Tbarophilus_CH5_FdhMfh",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/28853770/",
+    "basis": "Thermococcus barophilus CH5全染色体CP013050.1甲酸依赖产氢超分子复合体Fdh-Mbh（TBCH5v1_0654-0659）对应。"
+  },
+  {
+    "function": "Ni17",
+    "citation": "10.1128/AEM.02753-09",
+    "system": "NiFe_Rgelatinosus_Coo",
+    "source": "https://doi.org/10.1128/AEM.02753-09",
+    "basis": "Rubrivivax gelatinosus CBS WGS装配NZ_JADOUB010000001.1 CO水煤气变换氢酶Coo体系（IWX58_RS02670/RS02675/RS02685）对应。"
+  },
+  {
+    "function": "Ni18",
+    "citation": "10.1073/pnas.1818580116",
+    "system": "NiFe_Tkivui_Ech",
+    "source": "https://doi.org/10.1073/pnas.1818580116",
+    "basis": "Thermoanaerobacter kivui DSM 2030全染色体CP009170.1膜结合Ech氢酶复合体（TKV_c01230-01310）对应。"
+  },
+  {
+    "function": "Ni19",
+    "citation": "10.1016/S0021-9258(18)68892-1",
+    "system": "NiFe_Mthermophila_Ech",
+    "source": "https://doi.org/10.1016/S0021-9258(18)68892-1",
+    "basis": "Methanosarcina thermophila TM-1全染色体NZ_CP009501.1膜结合Ech氢酶复合体（MSTHT_RS12220-12245）对应。"
+  },
+  {
+    "function": "Ni20",
+    "citation": "PMC3458328",
+    "system": "NiFe_MmaripaludisS2_Vhu",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3458328/",
+    "basis": "Methanococcus maripaludis S2全染色体NC_005791.1 Vhu氢酶（MMP_RS08720-08735）对应。"
+  },
+  {
+    "function": "Fe02",
+    "citation": "10.1074/jbc.m008470200",
+    "system": "FeFe_Tobliquus_HydA",
+    "source": "https://doi.org/10.1074/jbc.m008470200",
+    "basis": "Tetradesmus obliquus (Scenedesmus obliquus)染色体8b CP126215.1原生核基因HydA（OEZ85_013984）对应。"
+  },
+  {
+    "function": "Fe03",
+    "citation": "10.3389/fmicb.2023.1139276",
+    "system": "FeFe_Sfructosivorans_JJ_Hnd",
+    "source": "https://doi.org/10.3389/fmicb.2023.1139276",
+    "basis": "Solidesulfovibrio fructosivorans JJ WGS装配GCF_000179555.1电子分叉HndABCD（DESFRDRAFT_RS01955-RS01970）及成熟因子HydE/F对应。"
+  },
+  {
+    "function": "Fe04",
+    "citation": "10.1016/j.bbabio.2018.09.364",
+    "system": "FeFe_Sfructosivorans_JJ_Hnd",
+    "source": "https://doi.org/10.1016/j.bbabio.2018.09.364",
+    "basis": "Solidesulfovibrio fructosivorans JJ WGS装配GCF_000179555.1电子分叉HndABCD及成熟因子HydE/F对应。"
+  },
+  {
+    "function": "Fe04",
+    "citation": "10.3389/fmicb.2023.1139276",
+    "system": "FeFe_Sfructosivorans_JJ_Hnd",
+    "source": "https://doi.org/10.3389/fmicb.2023.1139276",
+    "basis": "Solidesulfovibrio fructosivorans JJ WGS装配GCF_000179555.1电子分叉HndABCD及成熟因子HydE/F对应。"
+  },
+  {
+    "function": "Fe04",
+    "citation": "10.1111/1462-2920.15643",
+    "system": "FeFe_Ecallanderi_Hnd",
+    "source": "https://doi.org/10.1111/1462-2920.15643",
+    "basis": "Eubacterium callanderi KIST612全染色体CP002273.1 Hnd/HDCR氢酶（ELI_0843/0846/0847）对应。"
+  },
+  {
+    "function": "Fe06",
+    "citation": "10.1111/1462-2920.15643",
+    "system": "FeFe_Ecallanderi_Hnd",
+    "source": "https://doi.org/10.1111/1462-2920.15643",
+    "basis": "Eubacterium callanderi KIST612全染色体CP002273.1 Hnd/HDCR氢酶（ELI_0843/0846/0847）对应。"
+  },
+  {
+    "function": "H01",
+    "citation": "10.1007/BF01692860",
+    "system": "Fe_Mthermolitho_Hmd",
+    "source": "https://doi.org/10.1007/BF01692860",
+    "basis": "Methanothermococcus thermolithotrophicus DSM 2095全染色体NZ_OX296583.1单铁氢酶Hmd（OGY79_RS04510）对应。"
+  },
+  {
+    "function": "Fe08",
+    "citation": "10.1128/jb.177.10.2628-2636.1995",
+    "system": "FeFe_Sfructosivorans_JJ_Hnd",
+    "source": "https://doi.org/10.1128/jb.177.10.2628-2636.1995",
+    "basis": "Solidesulfovibrio fructosivorans JJ WGS装配GCF_000179555.1 HndABCD对应；反例/特异性对照。"
+  },
+  {
+    "function": "Fe08",
+    "citation": "10.1016/j.bbabio.2018.09.364",
+    "system": "FeFe_Sfructosivorans_JJ_Hnd",
+    "source": "https://doi.org/10.1016/j.bbabio.2018.09.364",
+    "basis": "Solidesulfovibrio fructosivorans JJ WGS装配GCF_000179555.1 HndABCD对应；反例/特异性对照。"
+  },
+  {
+    "function": "Ni23",
+    "citation": "10.1073/pnas.1914939117",
+    "system": "NiFe_Pruminis_Ech",
+    "source": "https://doi.org/10.1073/pnas.1914939117",
+    "basis": "Pseudobutyrivibrio ruminis DSM 9787 WGS装配OBMR01之Ech操纵子（SAMN02910411_1834-1839）及成熟因子对应。"
+  }
+]

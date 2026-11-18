@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KEGGModuleCompletenessRecord",
+  "description": "Schema for genome x KEGG module completeness record in genome_module_completeness.tsv.gz",
+  "type": "object",
+  "required": [
+    "genome_id",
+    "module_id",
+    "module_name",
+    "completeness",
+    "status",
+    "matched_kos",
+    "missing_kos"
+  ],
+  "properties": {
+    "genome_id": {
+      "type": "string",
+      "description": "Genome or MAG identifier"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^M\\d{5}$",
+      "description": "KEGG Module identifier (e.g. M00159)"
+    },
+    "module_name": {
+      "type": "string",
+      "description": "Human-readable name of the KEGG module"
+    },
+    "completeness": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Completeness score from 0.0 to 1.0"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["complete", "partial", "absent"],
+      "description": "Qualitative status (complete >= 0.90, partial >= 0.50, absent < 0.50)"
+    },
+    "matched_kos": {
+      "type": "string",
+      "description": "Comma-separated list of matched KO identifiers"
+    },
+    "missing_kos": {
+      "type": "string",
+      "description": "Comma-separated list of essential missing KO identifiers"
+    }
+  },
+  "additionalProperties": false
+}

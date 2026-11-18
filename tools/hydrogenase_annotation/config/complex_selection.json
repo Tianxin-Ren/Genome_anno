@@ -1,0 +1,74 @@
+{
+  "version": "round29-reviewed-noncanonical-fusion-composition-candidate",
+  "scope": "Post-identity L4 rescue of previously incomplete/unresolved cores. No identity recalibration, no new high structure or molecular reaction transfer.",
+  "eligible_families": [
+    "NiFe",
+    "FeFe"
+  ],
+  "eligible_input_modes": [
+    "genome",
+    "bin",
+    "assembly"
+  ],
+  "preserve_statuses": [
+    "complete_supported",
+    "core_complete_accessory_missing",
+    "composition_supported_reorganized"
+  ],
+  "required_active_center_status": "template_ligand_set_supported",
+  "required_active_span_status": "supported",
+  "minimum_rescue_polypeptides": 2,
+  "unresolved_competition": "Strictly outscore unresolved/decoy competitors, or use the separately pinned FeFe resource/independent-high-identity and exact identity-positive competitor review in module_architecture.json. Unreviewed,indeterminate or negative competitors cannot be reconciled; no function or high structure transfer.",
+  "competition": "Evaluate all accepted same-family catalytic references. Defer cross-system module competition until complete assignments are available; preserve within-system resource/ownership/ambiguity guards.",
+  "subset_rule": "A complete core on a strict subset of proteins does not distinguish a larger complete core. Equal or incomparable complete protein sets remain alternative hypotheses, including different mechanisms on the same set.",
+  "organization_rule": "New rescues require the original reference protein partition and no partial structural member; broader natural fission/fusion still uncalibrated.",
+  "function_rule": "Every newly selected core remains medium/provisional and function unassigned, regardless of similarity. Existing complete-core decisions are preserved.",
+  "development_requirements": [
+    "Recover native Hthermo HoxFUYH and Tkivui HDCR exact core sets",
+    "Do not select a Sw/Tm three-subunit set for four-subunit Hnd",
+    "No Wor/Nfn hydrogenase function or identity changes",
+    "Keep all pre-identity features and calibrated decisions unchanged",
+    "Recover Ralbus three-member native core only with independently high catalytic identity and both C-terminal ligand/context sets plus mapped N-terminal scaffold ligands.",
+    "Reject legacy-only HndC as a full TmHydB scaffold even though the two C-terminal ligand sets are shared; production Hnd still needs its four-member template."
+  ],
+  "fusion_composition": {
+    "structure_id": "FeFe_SwHyd1ABC",
+    "catalytic_role": "Hyd1A",
+    "fused_roles_in_query_order": [
+      "Hyd1C",
+      "Hyd1B"
+    ],
+    "minimum_role_reference_coverage": 0.8,
+    "minimum_fused_query_coverage": 0.8,
+    "sequence_guard": {
+      "min_domain_coverage": 0.8,
+      "min_core_similarity": 40,
+      "min_competitor_margin": 5
+    },
+    "reference_role_hashes": {
+      "Hyd1A": "483a848764a2c512e3e39e5fb95935be6e9cb960465095267c5103e467b792a7",
+      "Hyd1B": "857035ff310b8d74868cdd0138ae224b49642cee6675ae32bb9bf05a097e1bd4",
+      "Hyd1C": "a061f4fdf947e18c086fd3999bfa55ba85492cee4d313ca0f24c9d13183bbbf5"
+    },
+    "source_files": {
+      "references/raw/round26_function_mechanism/PMC7311640.xml": "2b5e8acfac46a535e9bc329d93979b2eb8cb3de5622566502816638be06a1781",
+      "config/noncanonical_center_evidence.json": "3071bd369cdf2cd795f1dd185134b8d4b612ecfd4e06b68973b5e5130485e269",
+      "config/module_graph.json": "b3f1a908d5bcb140ced96243c4f376a753c697f2e2e4a0916635a698022a6a1a"
+    },
+    "scope": "Provisional L4 composition only. Existing three separated Sw references may explain one complete catalytic protein plus a C-before-B fused partner on disjoint residues. Requires existing full-span literature-compatible noncanonical center pattern and all locked FeFe sequence conditions except the sole canonical-center eligibility failure. This is not calibrated high identity or function evidence; no source/query activity or cofactor occupancy transfer.",
+    "competitor_rule": "Every stronger unresolved competitor must have exact pinned positive catalytic identity review; any negative,decoy,indeterminate or unreviewed competitor blocks. Preserve all other graph,partial,bin,resource,FeS-extension and ambiguity guards.",
+    "preregistered_targets": {
+      "native_Sacid_member_set": [
+        "SYN_01370",
+        "SYN_01369"
+      ],
+      "native_core_composition": true,
+      "native_catalytic_identity_not_high": true,
+      "native_function_assignments": 0,
+      "missing_role_or_overlapping_fusion_rejected": true,
+      "no_new_reference_sequence": true,
+      "no_high_structure_or_function": true
+    },
+    "primary_source": "https://doi.org/10.3389/fmicb.2020.01109"
+  }
+}

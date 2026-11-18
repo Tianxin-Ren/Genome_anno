@@ -1,0 +1,87 @@
+{
+  "version": "round10-development-seeds-before-calibration",
+  "allowed_split": "development",
+  "source_corpus": "references/validation/round09_identity_corpus",
+  "source_freeze_sha256": "e1a34e848a0c074a0d8e95120c1447b6188d076e3f55ef1160ed4a0a89a489b5",
+  "source_units_sha256": "28c89a1003b5cd1ce693cdcbbed6a18da082b82612b788d88424b5ec5317cd7b",
+  "fasta_file": "references/discovery_training/round10_fefe_development.faa",
+  "fasta_sha256": "e28076d9c931a61154441a4392e2a998fb4d6af64dc00bfd1dc0427adf7bb0dd",
+  "selection": "first two lexicographic sequence IDs per C1/C3 with distinct full-protein homolog components and genera; development positives only, independent of per-case predictions",
+  "selection_record": "results/round10_sensory_core_design/training_before_prediction.json",
+  "selection_record_sha256": "c4ad498e16de7897987146630b1afcb9105a20757269faec3a647d01fd8e5a27",
+  "truth_scope": "author-curated catalytic identity; no molecular function assigned",
+  "records": [
+    {
+      "reference_id": "discovery__seq_00555cc77b0972482453",
+      "unit_id": "seq_00555cc77b0972482453",
+      "sequence_sha256": "00555cc77b0972482453a27a7804c506a24c2a8a81d3ad663d529788267a6cc6",
+      "categories": [
+        "[FeFe] Group C1"
+      ],
+      "genus_taxids": [
+        "35829"
+      ],
+      "genus_names": [
+        "Acetivibrio"
+      ],
+      "homolog_component": "seq_00555cc77b0972482453",
+      "source_accessions": [
+        "WP_003512576.1"
+      ]
+    },
+    {
+      "reference_id": "discovery__seq_0ab62f02173baefb5ba4",
+      "unit_id": "seq_0ab62f02173baefb5ba4",
+      "sequence_sha256": "0ab62f02173baefb5ba405a0dede170d39ccbcb26e74b55905de2c66f4bb186c",
+      "categories": [
+        "[FeFe] Group C1"
+      ],
+      "genus_taxids": [
+        "499228"
+      ],
+      "genus_names": [
+        "Tepidanaerobacter"
+      ],
+      "homolog_component": "seq_0ab62f02173baefb5ba4",
+      "source_accessions": [
+        "WP_013778946.1"
+      ]
+    },
+    {
+      "reference_id": "discovery__seq_03869fdae62bcab1158a",
+      "unit_id": "seq_03869fdae62bcab1158a",
+      "sequence_sha256": "03869fdae62bcab1158a635eeefe3311c4191a0d5428f63aa9c251e6a6f07c48",
+      "categories": [
+        "[FeFe] Group C3"
+      ],
+      "genus_taxids": [
+        "1454725"
+      ],
+      "genus_names": [
+        "Candidatus Caldatribacterium"
+      ],
+      "homolog_component": "seq_03869fdae62bcab1158a",
+      "source_accessions": [
+        "WP_017890116.1"
+      ]
+    },
+    {
+      "reference_id": "discovery__seq_05bad5a4003ded7db7e9",
+      "unit_id": "seq_05bad5a4003ded7db7e9",
+      "sequence_sha256": "05bad5a4003ded7db7e9b1ef6cc1cbfb4f71c05ea72f569d2278c068bbb65408",
+      "categories": [
+        "[FeFe] Group C3"
+      ],
+      "genus_taxids": [
+        "572511"
+      ],
+      "genus_names": [
+        "Blautia"
+      ],
+      "homolog_component": "seq_05bad5a4003ded7db7e9",
+      "source_accessions": [
+        "WP_026649803.1"
+      ]
+    }
+  ]
+}

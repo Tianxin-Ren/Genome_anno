@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProteinMetadataRecord",
+  "description": "Schema for individual protein metadata record in protein_metadata.tsv.gz",
+  "type": "object",
+  "required": [
+    "genome_id",
+    "contig_id",
+    "gene_id",
+    "protein_id",
+    "aa_length",
+    "start",
+    "end",
+    "strand",
+    "translation_table",
+    "gene_calling_tool",
+    "gene_calling_version",
+    "gene_calling_mode"
+  ],
+  "properties": {
+    "genome_id": {
+      "type": "string",
+      "description": "Identifier of the genome or MAG (e.g. GCA_000008085.1)"
+    },
+    "contig_id": {
+      "type": "string",
+      "description": "Contig or scaffold name within the genome"
+    },
+    "gene_id": {
+      "type": "string",
+      "pattern": "^.+___.+___gene\\d{5}$",
+      "description": "Unique deterministic gene ID formatted as {genome_id}___{contig_id}___gene{order:05d}"
+    },
+    "protein_id": {
+      "type": "string",
+      "pattern": "^.+___.+___prot\\d{5}$",
+      "description": "Unique deterministic protein ID formatted as {genome_id}___{contig_id}___prot{order:05d}"
+    },
+    "aa_length": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Length of predicted amino acid sequence"
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "1-based start coordinate on contig"
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "1-based end coordinate on contig"
+    },
+    "strand": {
+      "type": "string",
+      "enum": ["+", "-"],
+      "description": "Coding strand"
+    },
+    "translation_table": {
+      "type": "integer",
+      "description": "Genetic code translation table (e.g., 11 for Bacteria/Archaea)"
+    },
+    "gene_calling_tool": {
+      "type": "string",
+      "description": "Software used for gene calling (e.g., pyrodigal)"
+    },
+    "gene_calling_version": {
+      "type": "string",
+      "description": "Version string of gene calling software"
+    },
+    "gene_calling_mode": {
+      "type": "string",
+      "enum": ["meta", "single", "auto"],
+      "description": "Training or execution mode"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,126 @@
+# Infrastructure paired with profiles/slurm_pi.
+# Source: the PI Conda environment listing supplied for this deployment. Most
+# databases remain on the DSSG shared filesystem.
+runtime:
+  name: slurm-pi-cpu
+  profile: profiles/slurm_pi
+  account: "acct-schhui"
+  slurm_account: "acct-schhui"
+  partition: "cpu"
+  slurm_partition: "cpu"
+
+cluster:
+  account: "acct-schhui"
+  slurm_account: "acct-schhui"
+  partition: "cpu"
+  slurm_partition: "cpu"
+
+paths:
+  # Matches the installed environments listed on slurm_pi.
+  conda_envs: "/dssg/home/acct-schhui/gses0/Soft/Conda/envs"
+
+databases:
+  root: "/dssg/home/acct-clswfp/clswfp-icdli1/Database"
+
+  # Core annotation databases shared from DSSG
+  bakta: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db-light"
+  gtdbtk: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+  checkm2: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CheckM2_database/uniref100.KO.1.dmnd"
+  eggnog: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/eggnog"
+  kofam: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam"
+  kofam_profiles: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/profiles"
+  ko_list: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/ko_list"
+  dbcan: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/dbscan"
+  pfam_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Pfam/archive/37.4/Pfam-A.hmm"
+  unified_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/KEGG/archive/2025-02-28/cluster/all_lab_ATP/all_lab_ATP.hmm"
+
+  # config_pi used this Lustre-local CheckM database.
+  checkm: "/lustre/home/acct-clswfp/clswfp-icdli1/DataBase/checkm_data"
+
+  genomad: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/genomad_db"
+  sortmerna: "/dssg/home/acct-clswfp/clswfp-icdli1/software/sortmerna/database/smr_v4.3_default_db.fasta"
+
+  # Unified annotation evidence databases shared from DSSG
+  rfam: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Rfam/archive/15.1/Rfam.cm"
+  swissprot: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/mmseqs2_db/swiss-prot"
+  nr: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/NR"
+  uniref90: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/mmseqs2_db/uniref90"
+  refseq_protein: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/RefSeq/protein/refseq_bacteria_archaea.mmseqs"
+  pfam: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Pfam"
+  cdd: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CDD"
+  biob_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/hmm/biob_core_functions.hmm"
+  biob_reference_proteins: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/reference_proteins"
+  biob_bacteria_refs: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/references/bacteria"
+  biob_archaea_refs: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/BioB/references/archaea"
+  genomespot: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GenomeSPOT/models"
+
+environments:
+  bio: bio
+  fastp: bio
+  mapping: bio
+  subread: bio
+  python: biopython_1.86
+  biopython: biopython_1.86
+  utils: bio
+
+  nanoplot: nanoplot_1.20.0
+  megahit: megahit_1.2.9
+  myloasm: myloasm_0.5.0
+  flye: flye
+  unicycler: unicycler
+  hifiasm: hifiasm
+  porechop: porechop
+  filtlong: filtlong
+  metawrap: metawrap_1.3.2
+  semibin2: semibin2
+  drep: bio
+
+  bakta: bakta_1.12.0
+  gtdbtk: gtdbtk_2.7.1
+  checkm: checkm_1.2.4
+  checkm2: checkm2_1.0.2
+  eggnog: eggnog-mapper
+  kofamscan: kofamscan
+  dbcan: dbcan
+  camper: bio
+  grodon2: grodon2
+  genomespot: GenomeSPOT_1.0.1
+  quast: quast_5.3.0
+  isescan: isescan
+  seqkit: seqkit
+  cdhit: cd-hit_4.8.1
+  cd_hit: cd-hit_4.8.1
+
+  sortmerna: sortmerna_4.3.7
+  coverm: coverm_0.7.0
+  genomad: genomad
+  mob_suite: mob_suite
+  datasets_cli: ncbi-datasets-cli_18.26.0
+
+  blast: bio
+  diamond: bio
+  clinker: clinker_0.0.32
+  cblaster: cblaster_1.4.0
+  mafft: mafft_7.525
+  trimal: trimal
+  fasttree: fasttree
+  longread_audit: longread_audit
+  anvio: anvio_9
+  # PI has no standalone hmmer environment; Bakta's environment is the
+  # historical combined environment used by config_hmm for hmmsearch.
+  hmmer: bakta_1.12.0
+  pyrodigal: bakta_1.12.0
+  prodigal: bakta_1.12.0
+
+  # Unified annotation environments
+  trnascan: trnascan-se_2.0.12
+  infernal: infernal_1.1.5
+  aragorn: aragorn_1.2.41
+  mmseqs2: mmseqs2
+  interproscan: interproscan_5.77-108.0
+  interproscan_java11: interproscan_java11
+  signalp6: signalp6_6.0h
+  deeptmhmm: deeptmhmm_1.0
+  iqtree: iqtree_3.1.2
+  foldseek: foldseek_5.53465f0
+  prokka: prokka

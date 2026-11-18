@@ -1,0 +1,83 @@
+# ==============================================================================
+# Advanced Analysis Configuration (Standalone Mode & config_ad Specialization)
+# ==============================================================================
+
+# 1. Circular Genome Synteny Comparison (Standalone)
+synteny_comparison:
+  enable: True
+  # Key is the comparison name, followed by paths to the two tables.
+  pairs:
+    Bathy_u896703_vs_u1287049:
+      table1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703_functional_summary.tsv"
+      table2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049_functional_summary.tsv"
+    
+  anchor_ko: "K03040"
+
+# 2. Local Synteny Visualization (Clinker)
+clinker_synteny:
+  enable: False
+  conda_envs:
+    clinker: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/clinker_0.0.32"
+  pairs:
+    Bathy_Ref1_vs_u999856:
+      gbk1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/external_annotation/Bathy_Ref1/Bathy_Ref1.gbk"
+      gbk2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+
+# 3. Target BGC Synteny Discovery (cblaster + clinker)
+cblaster_search:
+  enable: True
+  conda_envs:
+    cblaster: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/cblaster_1.4.0"
+    clinker: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/clinker_0.0.32"
+  tasks:
+    ATPase_Region_Associated_operon:
+      query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/external_annotation/Bathy_Ref1/Bathy_Ref1.gbk"
+      region: "70000-200000"
+      targets:
+        # u999856: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+        # GCA_003141855.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/advanced_analysis/cblaster/db_prep/GCA_003141855.1.gbk"
+        # GCA_032598985.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_032598985.1_ASM3259898v1_genomic.gbk"
+        # u601479: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u601479/u601479.gbk"
+
+      params:
+        gap_size: 20000
+        min_identity: 0.1
+        min_hits: 7
+        intermediate_genes: True
+        intermediate_max_distance: 5000
+
+# ==============================================================================
+# 4. High-Sensitivity BLASTp Targeted Gene Discovery (External Genomes Only)
+# ==============================================================================
+# This workflow runs exclusively on Reference/External Genomes listed in samples.yaml,
+# searching their complete proteomes against target interest queries.
+# You can define multiple independent search tasks under "tasks".
+blastp:
+  enable: True
+  tasks:
+    BRAO_search:
+      query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Blastp_target/BRAO_ATPase.faa"        # Path to query proteins (FASTA)
+      blastp_tool: "blastp"                    # Alignment engine: "blastp" (NCBI) or "diamond"
+      blastp_evalue: 1e-3                      # Statistical significance evaluation E-value threshold
+      blastp_identity: 20.0                    # Minimum identity percentage (%)
+      blastp_coverage: 30.0                    # Minimum query sequence coverage percentage (%)
+    # You can add more search tasks here:
+    # secondary_search:
+    #   query: "config/other_target_genes.faa"
+    #   blastp_tool: "diamond"
+    #   blastp_evalue: 1e-6
+    #   blastp_identity: 45.0
+    #   blastp_coverage: 60.0
+
+# ==============================================================================
+# 5. External Dependency Configurations (Databases & Environments for Bakta)
+# ==============================================================================
+# These settings act as fallbacks if standard annotation.yaml is not present.
+bakta_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db-light"
+
+conda_envs:
+  bakta: "bakta_1.12.0"
+  biopython: "biopython_1.85"
+  # You can point 'blast' and 'diamond' to the unified "bio" environment since it contains both tools.
+  blast: "blast_2.17.0"
+  diamond: "diamond_2.2.0"

@@ -1,0 +1,128 @@
+{
+  "scope": "Reference sequence-pattern review for uncalibrated functional compatibility; not a new FeS template or validated first-shell assignment.",
+  "experiment": {
+    "PMID": "25476267",
+    "doi": "10.1093/protein/gzu051",
+    "supported": "Purified C-MBH comprises JKLN and accepts reduced ferredoxin for H2 evolution without A-I/M membrane subunits. This supports separating peripheral redox potential from full membrane/ion coupling."
+  },
+  "structure": {
+    "PDB": "6CFW",
+    "doi": "10.1016/j.cell.2018.03.071",
+    "resolution_A": 3.7
+  },
+  "reference_patterns": {
+    "MbhJ": [
+      35,
+      38,
+      102,
+      132
+    ],
+    "MbhN": [
+      46,
+      49,
+      52,
+      56,
+      77,
+      80,
+      83,
+      87
+    ]
+  },
+  "model_neighborhoods": [
+    {
+      "role": "MbhJ",
+      "structure_entity": "11",
+      "reference_position": 35,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.01
+    },
+    {
+      "role": "MbhJ",
+      "structure_entity": "11",
+      "reference_position": 38,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.024
+    },
+    {
+      "role": "MbhJ",
+      "structure_entity": "11",
+      "reference_position": 102,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.179
+    },
+    {
+      "role": "MbhJ",
+      "structure_entity": "11",
+      "reference_position": 132,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.032
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 46,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.181
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 49,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.227
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 52,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.147
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 56,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.045
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 77,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.017
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 80,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.07
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 83,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.576
+    },
+    {
+      "role": "MbhN",
+      "structure_entity": "14",
+      "reference_position": 87,
+      "residue": "C",
+      "nearest_modelled_cluster_Fe_distance_A": 3.114
+    }
+  ],
+  "geometry_limit": "Deposited cryoEM model SG-Fe distances exceed the separate strict 2.8 A extraction screen. These positions are retained ONLY as a reviewed sequence pattern at the three modelled FeS clusters; no first-shell/type/occupancy precision or existing FeS status is upgraded.",
+  "nonligand_reference_Cys_J18": {
+    "nearest_Fe_A": 31.996,
+    "not_required_in_pattern": true
+  },
+  "sources": {
+    "references/raw/round64_mbh_sources/C_MBH_PMC.html": "56e43430d4cf4dc5af201fa4d0ebe91c78602df53e2182ce19a66dbf6dd05cfa",
+    "references/raw/round64_mbh_sources/MBH_structure_bioc.json": "03f493648a07bb9edc127428394c8450da07704b2d4b6d66684bf255da5ec843",
+    "references/raw/catalytic_structures/6CFW.cif": "a8149269cda1dbdbd4d5cc97fff85a8b04e32c2bf0e9f9654e6a22f5730277b4",
+    "references/processed/references.json": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca"
+  }
+}

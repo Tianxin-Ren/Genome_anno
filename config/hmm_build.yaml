@@ -1,0 +1,53 @@
+# ==============================================================================
+# Advanced Analysis: HMM Construction Pipeline
+# ==============================================================================
+
+hmm_build:
+  # Directory paths
+  input_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ATPase_blastp"        # Directory containing your raw protein sequence files
+  input_suffix: ".faa"                                                                         # Suffix of the input files (e.g., .faa, .fasta, _combined.faa)
+  output_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ATPase_blastp/hmm_profiles"      # Output directory for the final .hmm models
+  
+  # Conda Environments
+  conda_envs:
+    seqkit: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/seqkit"
+    cd_hit: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/cdhit"
+    mafft: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/mafft_7.525"
+    hmmer: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/hmmer_3.4"
+    biopython: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/biopython_1.85"
+    trimal: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/trimal"
+  
+  # Step Parameters
+  params:
+    # 0. Homolog Sequence Search
+    search:
+      enable: True
+      database: "uniprotkb_swissprot"   # choices: uniprotkb, uniprotkb_swissprot, uniprotkb_reference_proteomes, ncbi
+      identity: 0.3                     # minimum identity threshold (0.0 to 1.0)
+      coverage: 0.5                     # minimum query coverage threshold (0.0 to 1.0)
+      max_seqs: 200                     # maximum sequences to retrieve
+
+    # 1. Header Cleaning
+    clean_header: True
+    
+    # 2. Length Filtering
+    length_filter:
+      enable: True
+      adaptive: True        # If True, sets range to ± margin of the first sequence's length
+      margin: 0.25          # Adaptive range margin (0.25 = ±25%)
+      min_len: 160          # Only used if adaptive is False
+      max_len: 240          # Only used if adaptive is False
+      
+    # 3. Sequence Clustering / Redundancy Removal
+    cd_hit:
+      enable: True
+      identity: 0.95
+      word_size: 5
+      memory_limit: 8000
+
+    # 4. Alignment Trimming (trimAl)
+    trimal:
+      enable: True
+      gt: 0.5              # Gap threshold (0.0 to 1.0)
+      st: 0.001            # Similarity threshold (0.0 to 1.0)
+      cons: 60             # Conservation threshold (0 to 100)

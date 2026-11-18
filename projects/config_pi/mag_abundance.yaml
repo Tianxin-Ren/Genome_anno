@@ -1,0 +1,19 @@
+# MAG Abundance Pipeline Configuration
+mag_abundance:
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/Mpf_2022/MOB_abundance"
+  data_dir: "data"
+  results_dir: "results"
+  output_dir: "mag_abundance"
+  dna_fq_dir: "dna_fq"
+  rna_fq_dir: "rna_fq"
+  mag_dir: "MAGs"
+  dna_samples: []
+  rna_samples: []
+  threads: 64
+  conda_envs:
+    mapping: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/bio"
+    bio: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/bio"
+  summarize:
+    target_genes: "Mpf_target.tsv"
+    mag_types: "type.tsv"
+    annotation_dir: "annotation"

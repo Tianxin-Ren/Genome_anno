@@ -1,0 +1,69 @@
+# ==============================================================================
+# Abundance Module Configuration (Genomics & Transcriptomics Quantification)
+# ==============================================================================
+abundance:
+  # Directory where abundance outputs will be stored (relative to project_root)
+  results_dir: "results/abundance/NS_2022"
+  logs_dir: "logs/abundance/NS_2022"
+  
+  # CoverM genomic abundance profiling toggle
+  run_coverm: true
+  
+  # Gene-level quantification toggle (Bowtie2 + HISAT2 + featureCounts + TPM)
+  run_gene_quant: true
+
+  # Master table aggregation toggle (Gene x Abundance & mag_annotation summary)
+  run_summarize_by_gene: true
+
+  # MAG file extension in abundance_ref directory (default: fa)
+  mag_extension: "fa"
+  
+  # Integration with mag_annotation
+  mag_annotation:
+    # Path to mag_annotation output table (e.g. protein_KO_all_strict.tsv, protein_KO_best.tsv,
+    # or protein_annotation_master.tsv). Can be absolute or relative to project_root.
+    annotation_tsv: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/merged/protein_KO_all_strict.tsv"
+    
+    # Required directory containing per-MAG {genome}.gff or {genome}.gff.gz from mag_annotation
+    # Crucial: gene predictions are strictly loaded from here without re-predicting
+    genes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/genes"
+    
+    # Optional target genes list TSV (knum, Symbol) for focused reporting
+    target_genes: ""
+    
+    # Optional MAG to lineage/clade type mapping TSV (MAG, type)
+    mag_types: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/mag_classification"
+
+  # SortMeRNA Database (Required for transcriptomics rRNA removal)
+  sortmerna_db: "/dssg/home/acct-clswfp/clswfp-icdli1/software/sortmerna/database/smr_v4.3_default_db.fasta"
+  
+  # Tool Parameters
+  params:
+    fastp: ""
+    sortmerna: "--paired_out --fastx --out2"
+    coverm: "--min-read-percent-identity 95 --min-read-aligned-percent 75"
+    bowtie2: ""
+    hisat2: "--no-spliced-alignment"
+    # featureCounts strategies for multi-mapping reads:
+    # 1. Strict (Default subread): Ignore multi-mapping reads entirely. "-p -t CDS -g ID"
+    # 2. Primary (Recommended): Count only primary alignment. "-p -t CDS -g ID -M --primary"
+    # 3. Fraction: Assign fractional counts. "-p -t CDS -g ID -M --fraction"
+    featureCounts: "-p -t CDS -g ID -M --primary"
+  
+  # Threads Configuration for rules
+  threads:
+    fastp: 16
+    sortmerna: 64
+    coverm: 32
+    mapping: 32
+    featureCounts: 16
+    combine_ref: 8
+  
+  # Conda Environments (relative to conda_env_dir, or absolute paths)
+  conda_envs:
+    fastp: "bio"
+    sortmerna: "sortmerna_4.3.7"
+    coverm: "coverm_0.7.0"
+    mapping: "bio"
+    subread: "bio"           # For featureCounts
+    python: "biopython_1.85"  # For TPM & summarization scripts

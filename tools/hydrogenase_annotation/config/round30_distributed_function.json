@@ -1,0 +1,29 @@
+{
+  "version": "round30-biochemical-source-before-first-native-prediction",
+  "case_id": "Ecallanderi_KIST612_distributed_FDH_Hyd",
+  "genome": "references/raw/round30_Ecallanderi/CP002273.gb",
+  "primary_source": "https://doi.org/10.1111/1462-2920.15643",
+  "source_files": {
+    "references/raw/round30_Ecallanderi/CP002273.embl": "ef3ea35713dcf0dabf3410888e6f8e4b64e97af1203bc2b93ca5f1ce2628d30b",
+    "references/raw/round30_Ecallanderi/CP002273.gb": "02ddef8bd8447a07e076b9c27eae8d2dee2ee6c5218c140a760b51a3a070422c",
+    "references/raw/round30_Ecallanderi/DOI15643.web_source.json": "c3a105e0200db1aab8fef01431fa7463697f6f611b1f1f92de8d6beb77c4119a"
+  },
+  "anchor": "ELI_0847",
+  "observed_members": {"HydA": "ELI_0847", "HydB": "ELI_0846", "HydC": "ELI_0843", "FdhA": "ELI_0994"},
+  "protein_accessions": {"ELI_0847": "ADO35861.1", "ELI_0846": "ADO35860.1", "ELI_0843": "ADO35857.1", "ELI_0994": "ADO35985.1"},
+  "uncertain_members": ["ELI_0845"],
+  "hydrogenase_loci": ["ELI_0847", "ELI_0846", "ELI_0843"],
+  "positive_reactions": ["H2_NAD_Fd_coupled_reduction", "formate_NAD_Fd_coupled_reduction", "formate_H2_evolution", "H2_dependent_CO2_formate_reduction"],
+  "negative_reactions": ["H2_NAD_reduction_without_added_Fd", "H2_Fd_reduction_without_added_NAD"],
+  "modes": ["genome", "bin", "assembly", "cross_bin"],
+  "homolog_identity_percent": 70,
+  "homolog_shorter_sequence_coverage": 0.7,
+  "limits": [
+    "A new biochemical source is not a new independent sequence. Audit every observed protein against actual HMM full/core training inputs, both L4 banks, identity prototypes and the frozen identity corpus before annotation.",
+    "MALDI-TOF identified four proteins. HydD was not detected, but its absolute membership is unresolved; do not score its possible presence as a proven false positive.",
+    "A complete inferred complex must not be graded correct merely because its protein set includes three observed Hyd proteins. Report observed-member coverage and extra inferred members separately.",
+    "H2/NAD/Fd reaction evidence needs the observed HydABC; formate-linked reactions additionally need the observed FdhA. Untested reaction directions and NADP specificity are ungraded.",
+    "Cross-bin routing is a synthetic ownership boundary with the FdhA assigned to a distinct bin/contig; it must not yield a formate-linked hydrogenase reaction.",
+    "All uncharacterized genome proteins are ungraded. No template, threshold, active-site or reaction assignment is trained on this case."
+  ]
+}

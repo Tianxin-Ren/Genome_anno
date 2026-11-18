@@ -1,0 +1,33 @@
+# ==============================================================================
+# Hydrogenase Functional Annotation Configuration (34-Class Mechanistic Engine)
+# ==============================================================================
+
+hydrogenase_annotation:
+  results_dir: "results/hydrogenase_annotation"
+  logs_dir: "logs/hydrogenase_annotation"
+
+  # Pipeline location (relative to WORKFLOW_ROOT)
+  pipeline_dir: "tools/hydrogenase_annotation"
+
+  # Batching & HPC Concurrency
+  # Each Snakemake batch job runs up to `batch_size` genomes concurrently using
+  # `threads_per_batch` workers (`threads_per_genome` threads per genome).
+  batch_size: 200
+  threads_per_batch: 40
+  threads_per_genome: 1
+
+  # Genome Annotation Parameters
+  mode: "genome"
+  topology: "auto"
+  translation_table: 11
+  resume: true
+
+  # Optional cross-link with mag_annotation KEGG KO outputs (if available)
+  integrate_mag_annotation: true
+  # Reuse Pyrodigal FAA/GFF from mag_annotation when mag_annotation is enabled (skips duplicate Prodigal)
+  reuse_mag_gene_calling: true
+
+  # Conda Environment (directory name under platforms.<platform>.paths.conda_envs,
+  # full path, or empty to use tools/hydrogenase_annotation/.env or PATH)
+  conda_envs:
+    hydrogenase: "hydrogenase_annotation"

@@ -1,0 +1,5 @@
+name: metawrap_env
+channels:
+  - ursky
+dependencies:
+  - metawrap-mg=1.3.2

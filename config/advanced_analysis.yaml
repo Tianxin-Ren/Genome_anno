@@ -1,0 +1,138 @@
+# ==============================================================================
+# Advanced Analysis Configuration (Standalone Mode)
+# ==============================================================================
+
+# 1. Circular Genome Synteny Comparison (Standalone)
+synteny_comparison:
+  enable: True
+  # Key is the comparison name, followed by paths to the two tables.
+  pairs:
+    Bathy_u896703_vs_u1287049:
+      table1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703_functional_summary.tsv"
+      table2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049_functional_summary.tsv"
+    
+    # You can easily add more pairs here:
+    # Another_Comparison:
+    #   table1: "/path/to/tableA.tsv"
+    #   table2: "/path/to/tableB.tsv"
+  
+  anchor_ko: "K03040"
+
+# 2. Local Synteny Visualization (Clinker)
+clinker_synteny:
+  enable: True
+  conda_envs:
+    clinker: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/clinker_0.0.32"
+  pairs:
+    Bathy_Ref1_vs_u999856:
+      gbk1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/external_annotation/Bathy_Ref1/Bathy_Ref1.gbk"
+      gbk2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+
+# 3. Target BGC Synteny Discovery (cblaster + clinker)
+cblaster_search:
+  enable: True
+  conda_envs:
+    cblaster: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/cblaster_1.4.0"
+    clinker: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/clinker_0.0.32"
+  tasks:
+    # Example task
+    # ATPase-like_region_finding:
+    #   query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/external_annotation/Bathy_Ref1/Bathy_Ref1.gbk"
+    #   targets:
+    #     u999856: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+    #     GCA_003141855.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_003141855.1_20120800_E1X_genomic.gbk"
+    #     GCA_032598985.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_032598985.1_ASM3259898v1_genomic.gbk"
+    #     GCA_038992015.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038992015.1_ASM3899201v1_genomic.gbk"
+    #     GCA_038873195.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038873195.1_ASM3887319v1_genomic.gbk"
+    #     u1287049: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.gbk"
+    #     u601479: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u601479/u601479.gbk"
+    #     u896703: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703.gbk"
+
+    #   params:
+    #     gap_size: 20000
+    #     min_identity: 0.3
+    #     min_hits: 5
+    #     intermediate_genes: True
+    #     intermediate_max_distance: 5000
+    
+    # ATPase-like_region_finding2:
+    #   query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/external_annotation/Bathy_Ref1/Bathy_Ref1.gbk"
+    #   targets:
+    #     u999856: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+    #     GCA_003141855.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_003141855.1_20120800_E1X_genomic.gbk"
+    #     GCA_032598985.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_032598985.1_ASM3259898v1_genomic.gbk"
+    #     GCA_038992015.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038992015.1_ASM3899201v1_genomic.gbk"
+    #     GCA_038873195.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038873195.1_ASM3887319v1_genomic.gbk"
+    #     u1287049: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.gbk"
+    #     u601479: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u601479/u601479.gbk"
+    #     u896703: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703.gbk"
+    
+    # ATPase-like_region_finding_reverse:
+    #   query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+    #   targets:
+    #     Bathy_Ref2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_001593935.1_ASM159393v1_genomic.gbk"
+    #     Bathy_Ref3: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_003141855.1_20120800_E1X_genomic.gbk"
+    #     Bathy_Ref4: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_026014545.1_ASM2601454v1_genomic.gbk"
+    #     GCA_032598985.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_032598985.1_ASM3259898v1_genomic.gbk"
+    #     GCA_038992015.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038992015.1_ASM3899201v1_genomic.gbk"
+    #     GCA_038873195.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038873195.1_ASM3887319v1_genomic.gbk"
+    #     u1287049: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.gbk"
+    #     u601479: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u601479/u601479.gbk"
+    #     u896703: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703.gbk"
+
+    #   params:
+    #     gap_size: 20000
+    #     min_identity: 0.3
+    #     min_hits: 5
+    #     intermediate_genes: True
+    #     intermediate_max_distance: 5000
+    
+    # ATPase-like_region_finding_reverse_hmm:
+    #   query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+    #   query_hmm: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ATPase_blastp/hmm_profiles"
+    #   targets:
+    #     u999856: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+    #     GCA_003141855.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_003141855.1_20120800_E1X_genomic.gbk"
+    #     GCA_032598985.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_032598985.1_ASM3259898v1_genomic.gbk"
+    #     GCA_038992015.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038992015.1_ASM3899201v1_genomic.gbk"
+    #     GCA_038873195.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038873195.1_ASM3887319v1_genomic.gbk"
+    #     u601479: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u601479/u601479.gbk"
+    #   params:
+    #     gap_size: 20000
+    #     min_identity: 0.2
+    #     min_hits: 3
+    #     intermediate_genes: True
+    #     intermediate_max_distance: 5000
+    #   params:
+    #     gap_size: 20000
+    #     min_identity: 0.2
+    #     min_hits: 3
+    #     intermediate_genes: True
+    #     intermediate_max_distance: 5000
+
+    ATPase_Region_Associated_operon:
+      query: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/external_annotation/Bathy_Ref1/Bathy_Ref1.gbk"
+      region: "70000-200000"
+      targets:
+        u999856: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gbk"
+        GCA_003141855.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/advanced_analysis/cblaster/db_prep/GCA_003141855.1.gbk"
+        GCA_032598985.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_032598985.1_ASM3259898v1_genomic.gbk"
+        # GCA_038992015.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038992015.1_ASM3899201v1_genomic.gbk"
+        # GCA_038873195.1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_038873195.1_ASM3887319v1_genomic.gbk"
+        # u1287049: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.gbk"
+        u601479: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u601479/u601479.gbk"
+        # u896703: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u896703/u896703.gbk"
+
+      params:
+        gap_size: 20000
+        min_identity: 0.1
+        min_hits: 7
+        intermediate_genes: True
+        intermediate_max_distance: 5000
+
+    # Example: Region-specific search
+    # BGC_Region_Task:
+    #   query_gbk: "/path/to/source.gbk"
+    #   region: "150000-200000"  # Extract this region before search
+    #   targets:
+    #     ...

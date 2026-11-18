@@ -1,0 +1,659 @@
+{
+  "version": "round19-source-selected-before-new-structural-predictions",
+  "scope": "New FeS/active-center structural challenge, selected from experimental RCSB metadata by biological organization and wild-type source; not a random population sample.",
+  "selection_reason": "NiFe conventional chain, NiFe multicomponent HydABCSL and FeFe accessory-domain diversity; remaining sources reserved before development prediction. Exact sequence/homolog and taxonomic overlap must be audited before any independent performance claim.",
+  "planned_development_target": {
+    "precision": 0.95,
+    "min_evaluable_site_recall": 0.5,
+    "required_truth": "Exact experimental cluster type and complete protein-ligand coordinates; no cofactor-occupancy claim"
+  },
+  "rules": [
+    "Do not add challenge/future sources to templates or identity prototypes.",
+    "Freeze source sequence and truth before predicting each development challenge.",
+    "All selected physical FeS sites must be accounted for, including missing deposited connections or incomplete ligands; no outcome-based source deletion.",
+    "Incomplete gold or unsupported multi-chain truth is separately reported; unknown predictions do not count as correct type assignments.",
+    "Reserved sources must not be predicted until stage calibration and source-independence audits are locked.",
+    "Huc structures of the same source sequence are technical repeats, not independent Huc validation; that gap remains explicit."
+  ],
+  "frozen_predictor_files": {
+    "scripts/fes_sites.py": "ea50f415d9b06db10afc4f34abd6ea9a853ad813139a4bf84a78d88ac750764b",
+    "config/fes_site_review.json": "25a427fbd16d52e8b8a8557e86aad311e039c1dd272b92ef689c42799180f1ba",
+    "references/processed/fes/manifest.json": "5e9b4011aba98d40e0c62e3ed1b029fef0f03a57fbc6f54439767d678acdc289",
+    "scripts/active_centers.py": "f4eb366024c6552a77b46e3e3ed3baa6be4ff77d2f53a5aef7adb62fc15f2545",
+    "config/active_center_review.json": "b3d7d1e14283ab1347487459fa0686842cb8b77fa0274ff3db996bef6de96301",
+    "references/processed/active_centers/manifest.json": "3289aaeeea3834aa2b7a917b6e3f823e2720c26f8ea199c093140f0858126ffa"
+  },
+  "metadata_manifest_sha256": "b7c250bc74e9960520d7a3638ff2648b23ea519fb1a711fe3fa236b70439d66c",
+  "records": [
+    {
+      "pdb_id": "7T30",
+      "split": "development_challenge",
+      "metadata": {
+        "rcsb_id": "7T30",
+        "struct": {
+          "title": "Structure of electron bifurcating Ni-Fe hydrogenase complex HydABCSL in FMN/NAD(H) bound state"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "2022-03-16T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 35213221,
+          "title": "Structure and electron transfer pathways of an electron-bifurcating NiFe-hydrogenase.",
+          "pdbx_database_id_DOI": "10.1126/sciadv.abm7546",
+          "year": 2022
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "7T30_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MKEITLTIDGKVCKGVQGDTILDVANKNDVYIPTLCYQKGLTPIGACRMCVVQLEGNPKMLPSCTTPAQDGMVVVTKNEKLKDYRRQILELLFAGRNHFCMYCSQSGDCELQRLAIEHEMDSVRFPYLYEDFEVDATDPNLMMDHNRCVLCQRCIRTCSEIVGAHTLDLERRGWQAKVIADLGKRLRESDTCVNCGACAQSCPTGTITIREFAYRGRRSECDAVVESVCPLCAVGCKIKTYVRTGSIVRVEGTGVEEPDGGQLCHMGRWWLPESTERERVTVPLIREGASYREATWEEALALASAEFKKAYDQEKAGAILSSLCTDEELTLFSALFRNALKMKHIDTFDGDIIRGFFKGFMPFREQGVRPFTAAHHILDSDLIITMFADPQKEAPVVASYIRVACLHRNAKLMNLSYGPSPFPGLVDLDIRLPEGQAVPKALSNLAEIIGKISLGPSDMASFGEFEAGAGKALSSYRESIEESARAMGLDPKIAEEVALMLISARRPIFIIGGRATKSHELVTAACNLAVASKAFFEDGLGVVPLLVSANSLGARNTVVSENPWLGRERRDFLYVFSTAMVPEEEEILAAISATRFVVVQTPFKVRPLVNLADILLPAPAWYERSGHFCTIEGERRKLNTIVPPKGEIKSLHYVMDEFAKKLGVKLERPEVSPCEEIFKSQLRASEARIVTL",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NiFe hydrogenase subunit A"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "I4BYB4"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 97477,
+                "ncbi_scientific_name": "Acetomicrobium mobile"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "7T30_2",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MAIYRAHVLVCRGTGCTASGAPGVMKAFKEELAKKGLDREVMLVETGCHGMCEMGPVVVVYPEGAFYCRVTPEDVPEIVEEHLYKGRIVQRLLYTVPEDMEKVPYYKDIPFYSKQHRIVLSNCGYIDPEKIEEYIARDGYMALGKALLEMTPEEVLEEVKKSGLRGRGGAGFPTGLKWEFAKKASGDKKYVICNADEGDPGAFMDRSTLEGDPHSVIEGMTIGAYVIGADEGYIYCRAEYPLAIKRLKIAIAQAEEMGLLGDHIMGTNFSFHLHLKEGAGAFVCGEETALMASIEGRRGMPRPRPPFPAQHGLWGKPTNINNVETWANVPRIILNGADWFASMGTEKSKGTKIFALTGKITNTGLIEVPMGITIREIIYELGGGILNGKEFKAVQIGGPSGGCLTKEHLDLPIDYESLTAAGAIMGSGGLVVMDEDTCMVDVAKFFLEFTQRESCGKCVPCREGTKQMLLMLQKICNGEGTMDDLSKLEELAHMVKETSLCGLGQTAPNPVITTIRYFRDEYVAHIKDKRCPAKICPALIKYVVDPEKCRKCGLCARNCPVKCISGDRQTPYLINQEKCIKCGTCMQVCPFGAIGKV",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NiFe hydrogenase subunit B"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "uniprot_ids": [
+                "I4BYB5"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 97477,
+                "ncbi_scientific_name": "Acetomicrobium mobile"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "7T30_3",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MALSTVDVVEKVKEIVAPWKGKQGGLIPILQEVQRELGYLPEEALLTISRELKMPKAEVYGVATFYAQFHLKPRGRHVIRVCRGTACHVRGSLQILEKVKQMLGIEENETTDDLRFTLEPVACLGACGLAPVMMVDEDTHGRMTPDKIQAILDKYQ",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NiFe hydrogenase subunit C"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "uniprot_ids": [
+                "I4BYB8"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 97477,
+                "ncbi_scientific_name": "Acetomicrobium mobile"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "7T30_4",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MTEVFKLEINPVTRIEGHGKITVMLDESGHVRETRFHVTQYRGFEVFTHGRDFREMPVITPRICGICPVSHHLASAKACDEILGVTITPAAHKLRELMHMGQIVQSHALSFFHLSSPDILWGFDAPVKIRNVAGLVDRYPELAKKGIMLRKFGQEIIKTLGGKKIHPWHSIPGGVNRSLTPQERDAIAAQLPEMKSIAMEAIKLIKDYLQEGGEELKEFATLDTAYMGLVRDGYLELYDGEVRIKAPRGRILDQFDPKDYLDHIGEHVEPWSYLKFPFYKALGFPHGSYRVGPLARLNAADAVSTPEASKEFALYKEMGEDGIVPYTLYYHYARLIEALYGLERIEQLLADPDITSSDLRVTSKEINPEGIGVIEAPRGTLIHHYQVNESGVITKVNLIVATGHNNFAMNKGVEMVAKKYITGTNVPEGVFNRLEHVIRAYDPCLSCSTHAVGKMPLKLELVGPTGEILKEVTRD",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NiFe hydrogenase large subunit"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "4",
+              "uniprot_ids": [
+                "I4BYB2"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 97477,
+                "ncbi_scientific_name": "Acetomicrobium mobile"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "7T30_5",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MAKAKVATFWLEACAGCHMSFLDLDERLIDLFQNVEILFSPIVDAKDIPNIDVGVLSGGLGNVEEVELAKKMRERCKYLVAWGDCAVFGGINCMRNFIPKDVVLREGYIETASTVNPQGIVPSEDIPELLPRALPIDYEVKVDVYVPGCPPDADTIYYVFKELLAGRVPKVPSEMMRYD",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NiFe hydrogenase small subunit"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "5",
+              "uniprot_ids": [
+                "I4BYB3"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 97477,
+                "ncbi_scientific_name": "Acetomicrobium mobile"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "38dfc7df7d6a8457ace801ee6747683b88d77b82fa94c67b33427771b4591d40"
+    },
+    {
+      "pdb_id": "1YRQ",
+      "split": "development_challenge",
+      "metadata": {
+        "rcsb_id": "1YRQ",
+        "struct": {
+          "title": "Structure of the ready oxidized form of [NiFe]-hydrogenase"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "2005-04-19T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 15803334,
+          "title": "Structural differences between the ready and unready oxidized states of [NiFe] hydrogenases.",
+          "pdbx_database_id_DOI": "10.1007/s00775-005-0632-x",
+          "year": 2005
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "1YRQ_2",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MAESKPTPQSTFTGPIVVDPITRIEGHLRIMVEVENGKVKDAWSSSQLFRGLEIILKGRDPRDAQHFTQRACGVCTYVHALASSRCVDDAVKVSIPANARMMRNLVMASQYLHDHLVHFYHLHALDWVDVTAALKADPNKAAKLAASIAPARPGNSAKALKAVQDKLKAFVESGQLGIFTNAYFLGGHKAYYLPPEVNLIATAHYLEALHMQVKAASAMAILGGKNPHTQFTVVGGCSNYQGLTKDPLANYLALSKEVCQFVNECYIPDLLAVAGFYKDWGGIGGTSNYLAFGEFATDDSSPSKHLATSQFPSGVITGRDLGKVDNVDLGAIYEDVKYSWYAPGGDGKHPYDGVTDPKYTKLDDKDHYSWMKAPRYKGKAMEVGPLARTFIAYAKGQPDFKKVVDMVLGKLSVPATALHSTLGRTAARGIETAIVCANMEKWIKEMADSGAKDNTLCAKWEMPEESKGVGLADAPRGALSHWIRIKGKKIDNFQLVVPSTWNLGPRGAQGDKSPVEEALIGTPIADPKRPVEILRTVHAFDPCIACGVH",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Periplasmic [NiFe] hydrogenase large subunit"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "uniprot_ids": [
+                "P18188"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 878,
+                "ncbi_scientific_name": "Solidesulfovibrio fructosivorans"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "1YRQ_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "LTAKHRPSVVWLHNAECTGCTEAAIRTIKPYIDALILDTISLDYQETIMAAAGEAAEAALHQALEGKDGYYLVVEGGLPTIDGGQWGMVAGHPMIETTKKAAAKAKGIICIGTCSAYGGVQKAKPNPSQAKGVSEALGVKTINIPGCPPNPINFVGAVVHVLTKGIPDLDSNGRPKLFYGELVHDNCPRLPHFEASEFAPSFDSEEAKKGFCLYELGCKGPVTYNNCPKVLFNQVNWPVQAGHPCLGCSEPDFWDTMTPFYEQG",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Periplasmic [NiFe] hydrogenase small subunit"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "P18187"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 878,
+                "ncbi_scientific_name": "Solidesulfovibrio fructosivorans"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "d2ae707497ddda7c205d963d8f3ef540f5c4454d436b63c3be0aaec7aaad1884"
+    },
+    {
+      "pdb_id": "8ZQD",
+      "split": "development_challenge",
+      "metadata": {
+        "rcsb_id": "8ZQD",
+        "struct": {
+          "title": "Anaerobically isolated active [FeFe]-hydrogenase CbA5H"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "2025-01-01T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 39805018,
+          "title": "Structural determinants of oxygen resistance and Zn 2+ -mediated stability of the [FeFe]-hydrogenase from Clostridium beijerinckii.",
+          "pdbx_database_id_DOI": "10.1073/pnas.2416233122",
+          "year": 2025
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "8ZQD_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MGDNKKSFIQSALGSVFSVFSEEELKELSNGRKIAICGKVNNPGIIEVPEGATLNEIIQLCGGLINKSNFKAAQIGLPFGGFLTEDSLDKEFDFGIFYENIARTIIVLSQEDCIIQFEKFYIEYLLAKIKDGSYKNYEVVKEDITEMFNILNRISKGVSNMREIYLLRNLAVTVKSKMNQKHNIMEEIIDKFYEEIEEHIEEKKCYTSQCNHLVKLTITKKCIGCGACKRACPVDCINGELKKKHEIDYNRCTHCGACVSACPVDAISAGDNTMLFLRDLATPNKVVITQMAPAVRVAIGEAFGFEPGENVEKKIAAGLRKLGVDYVFDTSWGADLTIMEEAAELQERLERHLAGDESVKLPILTSCCPSWIKFIEQNYGDMLDVPSSAKSPMEMFAIVAKEIWAKEKGLSRDEVTSVAIMPCIAKKYEASRAEFSVDMNYDVDYVITTRELIKIFENSGINLKEIEDEEIDTVMGEYTGAGIIFGRTGGVIEAATRTALEKMTGERFDNIEFEGLRGWDGFRVCELEAGDIKLRIGVAHGLREAAKMLDKIRSGEEFFHAIEIMACVGGCIGGGGQPKTKGNKQAALQKRAEGLNNIDRSKTLRRSNENPEVLAIYEKYLDHPLSNKAHELLHTVYFPRVKKDDIWSVGVKLFGGGSGGGSGGGSWSHPQFEK",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "[FeFe]-hydrogenase"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "A0A1I9RYV3"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 1520,
+                "ncbi_scientific_name": "Clostridium beijerinckii"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "2f15f7681d2a5769e444cac22a7015ba06144ccbd94dea03ac3357cbf3e85570"
+    },
+    {
+      "pdb_id": "5XVB",
+      "split": "reserved_future_validation",
+      "metadata": {
+        "rcsb_id": "5XVB",
+        "struct": {
+          "title": "[NiFe]-hydrogenase (Hyb-type) from Citrobacter sp. S-77 in an H2-reduced condition"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "2018-06-27T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 30328414,
+          "title": "Redox-dependent conformational changes of a proximal [4Fe-4S] cluster in Hyb-type [NiFe]-hydrogenase to protect the active site from O2.",
+          "pdbx_database_id_DOI": "10.1039/c8cc06261g",
+          "year": 2018
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "5XVB_2",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "EMAESVSRPQRPPVIWIGAQECTGCTESLLRATHPTVENLVLETISLEYHEVLSAAFGHQVEENKHNALEKYKGQYVLVVDGSIPLKDNGIYCMVAGEPIVDHIRRAAEGAAAIIAIGSCAAWGGVAAAGVNPTGAVGLQEVLPGKTIINIPGCPPNPHNFLATVAHIITYGKPPKLDAKNRPTFAYGRLIHEHCERRPHFDAGRFAKEFGDEGHREGWCLYHLGCKGPETYGNCSTLQFCDVGGVWPVAIGHPCYGCNEEGIGFHKGIHQLAHVENQTPRSEKPDVNIKEGGNISAGAVGLLGGVVGLVAGVSVMAVRELGRQQKKDNADSRGE",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "[NiFe]-hydrogenase 2 small subunit"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "uniprot_ids": [
+                "A0A3B6UEQ0"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 1080067,
+                "ncbi_scientific_name": "Citrobacter sp. S-77"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "5XVB_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MSQRITIDPVTRIEGHLRIDCEIENGVVSKAWASGTMWRGMEEIVKNRDPRDAWMIVQRICGVCTTTHAISSVRAAESALNIDVPVNAQYIRNIILAAHTTHDHIVHFYQLSALDWVDITSALKADPAKASAMLNGVSTWHLNSAEEFTKVQNKIKDLVASGQLGIFANGCWGHPAMQLPPEVNLIAVAHYLQALECQRDANRVVALLGGKTPHIQNLAVGGVANPINLDGLGVLNLERLMYIKSFIDKLSDFVEQVYKVDTAVIAAFYPEWLERGQGAVNYLSAPEFPTDGKNGSFLFPGGYITDADLSTYRPITSHSDEYLIKGIQESAKHAWYKDEAPQAPWEGTTVPDYTGWSDDGKYSWVKAPTFYGKTVEVGPLANMLCKLAAKRESTHAKLNEIVAIYTKLTGKTIEVAQLHSTLGRIIGRTVHCCELQNVLQDQYNALIVNIGKGDHTTFVKPDIPATGEFKGVGFLEAPRGMLSHWMVIKDGIISNYQAVVPSTWNSGPRNFNDEVGPYERSLVGTPIADPNKPLEVVRTIHSFDPCMSCAVHVVDVDGNEVVSVKVL",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "[NiFe]-hydrogenase 2 large subunit"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "A0ACD6BAX8"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 1080067,
+                "ncbi_scientific_name": "Citrobacter sp. S-77"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "ab7e5ed7baabc3e627453b56b5dde8502b6ea02fc25c66e130a236683dcef6e0"
+    },
+    {
+      "pdb_id": "9R51",
+      "split": "reserved_future_validation",
+      "metadata": {
+        "rcsb_id": "9R51",
+        "struct": {
+          "title": "Dimeric state of the F420-reducing hydrogenase from Methanothermococcus thermolithotrophicus in crystalline form 1"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "2025-10-22T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 41078086,
+          "title": "Structural and Spectroscopic Insights into Catalytic Intermediates of a [NiFe]-hydrogenase from Group 3.",
+          "pdbx_database_id_DOI": "10.1002/cbic.202500692",
+          "year": 2025
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "9R51_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MGKIVEIHPTTRHEGHTKLVLKVDDEGIVEKGAYLSVTPVRGFEKFLVGKPAEFAPIAVSRFCGICPVAHATSAVEAIEDACDITPPKDGLLLRELCGIGNKMHSHPLHQFLISPDYVPKDDSNEFIKRVQAMRRIGQYIVDAVGGEAIHSPNIKVGGMAKQITESTKAKMYYKCKEYEKLAKEQLEYLIPIFESRTLNDGTELPEKLGYHDFGYIATHPTYGDRTKIDQDKVVEYTPFDVYDKDVAIQSSTTVPTYNGRLMEVGPRARFSKFFDFKEKGAMALHIARAYEISVLVKRAMEILDELNVNGKTMSDEPIVGDGEKLGLGVHEAARGHNTHQAVIDKDGNIVYYNAIVATTWNIPVISKAVEGTHYKFAEHIVRAYDPCISCATHMIIKDYDDKIIGEKILK",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "F420-reducing [NiFe]-hydrogenase from Methanothermococcus thermolithotrophicus subunit alpha"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "Q60338"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 523845,
+                "ncbi_scientific_name": "Methanothermococcus thermolithotrophicus DSM 2095"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "9R51_2",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MDPFGKYKTVVSARAADKTILKKCQDGGIVSAAYIYGLENGLLDGVIVADKDDKLQTTPKVATTVDEVLEAAGTKYTVCPTISVIKSAVREYGCEKLGVVGTPCQIIATRKLMKYPIGFRHVPDKLALIVGIFCMENFPYNGMKTIIEEHCGIKMEDVAKTDIGKGKFWVYSKWGDVKSIKLKETHPYEQQSCHVCMDYTAELADISTGSVGSPDGWSTVFIRTAQGEEFFNKMVEAGALEVKPIEEVKPGLGLVEKLSLTKKEKNAKEIEHRKEIGLPVPY",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "F420-reducing [NiFe]-hydrogenase from Methanothermococcus thermolithotrophicus subunit beta"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "uniprot_ids": [
+                "Q60341"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 523845,
+                "ncbi_scientific_name": "Methanothermococcus thermolithotrophicus DSM 2095"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "9R51_3",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MVKIAHIHLCGCTGCLISLADTYEQLLDILNSVELVYALTLVDEKTEIRETDDKILIEREIPDDIDIALVEGSVCLEDEHSMKDVFDARRKSKIVVALGACAATGGITRFCRGGQMSKPVHSSFVPIGDLIKVDLALPGCPPSPEALVNLITAALNGDTEYLEIYAELAKKTEACGCDLLVNVINKSLCMGCGSCAASCPTRAIEMIDGKPNVLKELCIKCGACSLQCPRIRFPKLIEEIE",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "F420-reducing [NiFe]-hydrogenase from Methanothermococcus thermolithotrophicus subunit gamma"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "uniprot_ids": [
+                "Q60340"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 523845,
+                "ncbi_scientific_name": "Methanothermococcus thermolithotrophicus DSM 2095"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "c859a4b30ca8556ce13f1ae9c1dcd3c637fbc550dd29a5c603d3e4a41bc7cfa6"
+    },
+    {
+      "pdb_id": "1FRV",
+      "split": "reserved_future_validation",
+      "metadata": {
+        "rcsb_id": "1FRV",
+        "struct": {
+          "title": "CRYSTAL STRUCTURE OF THE OXIDIZED FORM OF NI-FE HYDROGENASE"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "1996-11-08T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 7854413,
+          "title": "Crystal structure of the nickel-iron hydrogenase from Desulfovibrio gigas.",
+          "pdbx_database_id_DOI": "10.1038/373580a0",
+          "year": 1995
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "1FRV_2",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MSEMQGNKIVVDPITRIEGHLRIEVEVEGGKIKNAWSMSTLFRGLEMILKGRDPRDAQHFTQRACGVCTYVHALASVRAVDNCVGVKIPENATLMRNLTMGAQYMHDHLVHFYHLHALDWVNVANALNADPAKAARLANDLSPRKTTTESLKAVQAKVKALVESGQLGIFTNAYFLGGHPAYVLPAEVDLIATAHYLEALRVQVKAARAMAIFGAKNPHTQFTVVGGCTNYDSLRPERIAEFRKLYKEVREFIEQVYITDLLAVAGFYKNWAGIGKTSNFLTCGEFPTDEYDLNSRYTPQGVIWGNDLSKVDDFNPDLIEEHVKYSWYEGADAHHPYKGVTKPKWTEFHGEDRYSWMKAPRYKGEAFEVGPLASVLVAYAKKHEPTVKAVDLVLKTLGVGPEALFSTLGRTAARGIQCLTAAQEVEVWLDKLEANVKAGKDDLYTDWQYPTESQGVGFVNAPRGMLSHWIVQRGGKIENFQHVVPSTWNLGPRCAERKLSAVEQALIGTPIADPKRPVEILRTVHSYDPCIACGVH",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "HYDROGENASE"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "uniprot_ids": [
+                "P12944"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 879,
+                "ncbi_scientific_name": "Megalodesulfovibrio gigas"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "1FRV_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "LTAKKRPSVVYLHNAECTGCSESLLRTVDPYVDELILDVISMDYHETLMAGAGHAVEEALHEAIKGDFVCVIEGGIPMGDGGYWGKVGRRNMYDICAEVAPKAKAVIAIGTCATYGGVQAAKPNPTGTVGVNEALGKLGVKAINIAGCPPNPMNFVGTVVHLLTKGMPELDKQGRPVMFFGETVHDNCPRLKHFEAGEFATSFGSPEAKKGYCLYELGCKGPDTYNNCPKQLFNQVNWPVQAGHPCIACSEPNFWDLYSPFYSA",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "HYDROGENASE"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "P12943"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 879,
+                "ncbi_scientific_name": "Megalodesulfovibrio gigas"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "bc54fa89e9215bad1c648b7f9a8fa443340481764e6573f757bc81185a15fcec"
+    },
+    {
+      "pdb_id": "1HFE",
+      "split": "reserved_future_validation",
+      "metadata": {
+        "rcsb_id": "1HFE",
+        "struct": {
+          "title": "1.6 A RESOLUTION STRUCTURE OF THE FE-ONLY HYDROGENASE FROM DESULFOVIBRIO DESULFURICANS"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "1999-04-20T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 10368269,
+          "title": "Desulfovibrio desulfuricans iron hydrogenase: the structure shows unusual coordination to an active site Fe binuclear center.",
+          "pdbx_database_id_DOI": "10.1016/S0969-2126(99)80005-7",
+          "year": 1999
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "1HFE_2",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "PROTEIN (FE-ONLY HYDROGENASE (E.C.1.18.99.1) (LARGER SUBUNIT))"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "uniprot_ids": [
+                "P07598"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 882,
+                "ncbi_scientific_name": "Nitratidesulfovibrio vulgaris str. Hildenborough"
+              }
+            ]
+          },
+          {
+            "rcsb_id": "1HFE_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MQIASITRRGFLKVACVTTGAALIGIRMTGKAVAAVKQIKDYMLDRINGVYGADAKFPVRASQDNTQVKALYKSYLEKPLGHKSHDLLHTHWFDKSKGVKELTTAGKLPNPRASEFEGPYPYE",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "PROTEIN (FE-ONLY HYDROGENASE (E.C.1.18.99.1) (SMALLER SUBUNIT))"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "P07603"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 882,
+                "ncbi_scientific_name": "Nitratidesulfovibrio vulgaris str. Hildenborough"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "91b532fd6ac18049c2d5172a3ab1e1900cffd7fee83555bbc0405c474870010c"
+    },
+    {
+      "pdb_id": "6YKA",
+      "split": "reserved_future_validation",
+      "metadata": {
+        "rcsb_id": "6YKA",
+        "struct": {
+          "title": "Asymmetric [Fe]-hydrogenase from Methanolacinia paynteri apo and in complex with FeGP at 2.1-A resolution"
+        },
+        "rcsb_accession_info": {
+          "initial_release_date": "2021-02-17T00:00:00Z"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_primary_citation": {
+          "pdbx_database_id_PubMed": 32061937,
+          "title": "The Hydride Transfer Process in NADP-dependent Methylene-tetrahydromethanopterin Dehydrogenase.",
+          "pdbx_database_id_DOI": "10.1016/j.jmb.2020.01.042",
+          "year": 2020
+        },
+        "polymer_entities": [
+          {
+            "rcsb_id": "6YKA_1",
+            "entity_poly": {
+              "pdbx_seq_one_letter_code_can": "MTIKKVAILGAGCYRTHSATGITNFARACEVAEMVGKPEIAMTHSTIAMAAELKYLAGIDNIVISDPSFAGEFTVVKDFDYNEVIKAHKENPETIMPKIREKVNELAKTVPKPPKGAIHFVHPEDLGLKVTTDDREAVRDADLIITWLPKGDMQKGIIEKFAGDIKQGAIITHACTIPTTLFYKIFEELGIADKVEVTSYHPGAVPEMKGQVYIAEGYASEEAINTIYELGKKARGHAFKLPAELIGPVCDMCAALTAITYAGLLVYRDAVMNILGAPAGFSQMMATESLEQITAYMKKVGIKNLEENLDPGVFLGTADSMNFGPIAEILPTVLKSLEKRAK",
+              "rcsb_mutation_count": 0,
+              "type": "polypeptide(L)"
+            },
+            "rcsb_polymer_entity": {
+              "pdbx_description": "5,10-methenyltetrahydromethanopterin hydrogenase"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "uniprot_ids": [
+                "A0A8I3B064"
+              ]
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_taxonomy_id": 694436,
+                "ncbi_scientific_name": "Methanolacinia paynteri G-2000"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata_sha256": "a289f619f83639e9a83fcd35721dafccba4289d8c82fe5464904dbeb69d45c20"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+project_root: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin"
+
+# ==============================================================================
+# Sample List (Paths are relative to project_root)
+# ==============================================================================
+samples:
+  # "BC02_1":
+  #   short_read:
+  #     r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/BC02_1_R1.fq.gz"
+  #     r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/BC02_1_R2.fq.gz"
+    # --- Abundance Pipeline Inputs ---
+    # transcriptome:
+    #   r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/tr/BC02_1_RNA_R1.fq.gz"
+    #   r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/tr/BC02_1_RNA_R2.fq.gz"
+    # abundance_ref: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/results/abundance/combined_ref/BC02_1" 
+    # external_assembly: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/Mariana_metagenomics/samples/6442/02_assembly/6442_megahit/6442.contigs.fa"
+  
+  "GT04B_1":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/GT04B_1_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/GT04B_1_R2.fq.gz"
+
+  "HFG20_4":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/HFG20_4_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/HFG20_4_R2.fq.gz"
+  
+  "MT03_163":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_163_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_163_R2.fq.gz"
+  
+  "MT03_180":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_180_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_180_R2.fq.gz"
+  
+  "MT03_222":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_222_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_222_R2.fq.gz"
+  
+  "MT03_240":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_240_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_240_R2.fq.gz"
+  
+  "MT03_286":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_286_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_286_R2.fq.gz"
+  
+  "MT03_45":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_45_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/MT03_45_R2.fq.gz"
+
+  "trench_1":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_1_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_1_R2.fq.gz"
+  
+  "trench_2":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_2_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_2_R2.fq.gz"
+  
+  "trench_3":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_3_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_3_R2.fq.gz"
+  
+  "trench_4":
+    short_read:
+      r1: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_4_R1.fq.gz"
+      r2: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/data/sr/trench_4_R2.fq.gz"
+
+
+# ------------------------------------------------------------------------------
+# 5. External Genomes (Standalone Reference/Isolates)
+# ------------------------------------------------------------------------------
+# Results: results/annotation/external/circular_refined/{name}/
+# external_genomes:
+#   # Example:
+#   Bathy_Ref1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_024650005.2_ASM2465000v2_genomic.fna"
+# ------------------------------------------------------------------------------
+# 6. Samples with External Assembly (Skip Assembly, go to Binning)
+# ------------------------------------------------------------------------------
+# Example of how to use a pre-existing assembly for binning:
+#
+ 

@@ -1,0 +1,203 @@
+{
+  "schema": "hdcr_reference_bank.v1",
+  "scope": "Research-only development reference expansion; 222 total records (existing 214 preserved byte-for-byte plus 8 native T. kivui/C. beijerinckii proteins). Zero independent-unit credit. Protected FeFe5 records never included.",
+  "variants": [
+    {
+      "structure_id": "FeFe_HDCR_Aw",
+      "catalytic_role": "HydA2",
+      "roles": {
+        "HydA2": {
+          "reference_id": "FeFe_HDCR_Aw__HydA2",
+          "length": 459,
+          "AA_sha256": "24e8fc35902ca6401b1635818875b8bed745f8555767fec88ada79e0187656b1",
+          "source_genbank": "NC_016894.1",
+          "locus_tag": "AWO_RS04180",
+          "protein_id": "WP_014355220.1",
+          "source_scope": "existing 214-record curated reference; primary experimental A. woodii HDCR mapping"
+        },
+        "FdhF2": {
+          "reference_id": "FeFe_HDCR_Aw__FdhF2",
+          "length": 722,
+          "AA_sha256": "aae13e79106dcc95bae1ffa05be4ff8171aef8841c35306d155bad7c1061a90f",
+          "source_genbank": "NC_016894.1",
+          "locus_tag": "AWO_RS04160",
+          "protein_id": "WP_014355216.1",
+          "source_scope": "existing 214-record curated reference; primary experimental A. woodii HDCR mapping"
+        },
+        "HycB2": {
+          "reference_id": "FeFe_HDCR_Aw__HycB2",
+          "length": 176,
+          "AA_sha256": "af6e81f93dfba9c168096deb6cb5af4e3b1cf9b10715b83c99749d9ca6088ad4",
+          "source_genbank": "NC_016894.1",
+          "locus_tag": "AWO_RS04165",
+          "protein_id": "WP_014355217.1",
+          "source_scope": "existing 214-record curated reference; primary experimental A. woodii HDCR mapping"
+        },
+        "HycB3": {
+          "reference_id": "FeFe_HDCR_Aw__HycB3",
+          "length": 186,
+          "AA_sha256": "5709fe2db62e7849df08ec98a6c5efd601e42dc1ee99b99e59d7526bbdd52ec3",
+          "source_genbank": "NC_016894.1",
+          "locus_tag": "AWO_RS04175",
+          "protein_id": "WP_014355219.1",
+          "source_scope": "existing 214-record curated reference; primary experimental A. woodii HDCR mapping"
+        }
+      }
+    },
+    {
+      "structure_id": "FeFe_HDCR_Tkv",
+      "catalytic_role": "HydA2",
+      "roles": {
+        "HydA2": {
+          "reference_id": "FeFe_HDCR_Tkv__HydA2",
+          "length": 461,
+          "AA_sha256": "5136fdf568ae5eac501437712e8326346dc2b32873b3286b9c6bffe275593fa5",
+          "source_genbank": "CP009170.1",
+          "locus_tag": "TKV_c19960",
+          "protein_id": "AIS53140.1",
+          "coordinate_1based_inclusive": [
+            1922419,
+            1923804
+          ],
+          "strand": "-",
+          "source_scope": "native experimental T. kivui HDCR source; role aliases are paper/ledger mappings, not interface-equivalence claims"
+        },
+        "HycB3": {
+          "reference_id": "FeFe_HDCR_Tkv__HycB3",
+          "length": 210,
+          "AA_sha256": "542c407bb4011b8309fbf3754ad630362aea2750660923197c0b1d5a7ec0ff8c",
+          "source_genbank": "CP009170.1",
+          "locus_tag": "TKV_c19970",
+          "protein_id": "AIS53141.1",
+          "coordinate_1based_inclusive": [
+            1923844,
+            1924476
+          ],
+          "strand": "-",
+          "source_scope": "native experimental T. kivui HDCR source; role aliases are paper/ledger mappings, not interface-equivalence claims"
+        },
+        "HycB2": {
+          "reference_id": "FeFe_HDCR_Tkv__HycB2",
+          "length": 184,
+          "AA_sha256": "cc3f838aa786923a6aeab8430e98667b5b4406f91fd95191ba186d9dc9537c4e",
+          "source_genbank": "CP009170.1",
+          "locus_tag": "TKV_c19980",
+          "protein_id": "AIS53142.1",
+          "coordinate_1based_inclusive": [
+            1924514,
+            1925068
+          ],
+          "strand": "-",
+          "source_scope": "native experimental T. kivui HDCR source; role aliases are paper/ledger mappings, not interface-equivalence claims"
+        },
+        "FdhF2": {
+          "reference_id": "FeFe_HDCR_Tkv__FdhF2",
+          "length": 743,
+          "AA_sha256": "0ee70cf040670c495e686da1c758e545ad951547cf8bccc9f24a5cb0c198279e",
+          "source_genbank": "CP009170.1",
+          "locus_tag": "TKV_c19990",
+          "protein_id": "AIS53143.1",
+          "coordinate_1based_inclusive": [
+            1925070,
+            1927301
+          ],
+          "strand": "-",
+          "source_scope": "native experimental T. kivui HDCR source; role aliases are paper/ledger mappings, not interface-equivalence claims"
+        }
+      }
+    },
+    {
+      "structure_id": "FeFe_HDCR_Cb",
+      "catalytic_role": "HydA2",
+      "roles": {
+        "HydA2": {
+          "reference_id": "FeFe_HDCR_Cb__HydA2",
+          "length": 461,
+          "AA_sha256": "226efda83b864389bd319347a4ab6f5d28d43b8daf77378fea0ba1fc65a36290",
+          "source_genbank": "CP000721.1",
+          "locus_tag": "Cbei_3796",
+          "protein_id": "ABR35913.1",
+          "coordinate_1based_inclusive": [
+            4359197,
+            4360582
+          ],
+          "strand": "-",
+          "source_scope": "native experimental C. beijerinckii Cb Fdh/Hyd source; four-subunit complex direct activity paper"
+        },
+        "HycB3": {
+          "reference_id": "FeFe_HDCR_Cb__HycB3",
+          "length": 184,
+          "AA_sha256": "8512c4fb8c9936fa857d3881729742d1ba4998886a8717f24c1d5df67d8303f1",
+          "source_genbank": "CP000721.1",
+          "locus_tag": "Cbei_3797",
+          "protein_id": "ABR35914.1",
+          "coordinate_1based_inclusive": [
+            4360601,
+            4361155
+          ],
+          "strand": "-",
+          "source_scope": "native experimental C. beijerinckii Cb Fdh/Hyd source; four-subunit complex direct activity paper"
+        },
+        "HycB2": {
+          "reference_id": "FeFe_HDCR_Cb__HycB2",
+          "length": 189,
+          "AA_sha256": "e6284f2090e5c9da9003ad20c02e4e25612f24dde10ec38fc6d2c9ea7bf6ae73",
+          "source_genbank": "CP000721.1",
+          "locus_tag": "Cbei_3795",
+          "protein_id": "ABR35912.1",
+          "coordinate_1based_inclusive": [
+            4358627,
+            4359196
+          ],
+          "strand": "-",
+          "source_scope": "native experimental C. beijerinckii Cb Fdh/Hyd source; four-subunit complex direct activity paper"
+        },
+        "FdhF2": {
+          "reference_id": "FeFe_HDCR_Cb__FdhF2",
+          "length": 713,
+          "AA_sha256": "10307a17ff8201ea35c482cdde1880f003d831c885db82d91bab34a8756f048f",
+          "source_genbank": "CP000721.1",
+          "locus_tag": "Cbei_3801",
+          "protein_id": "ABR35918.1",
+          "coordinate_1based_inclusive": [
+            4364248,
+            4366389
+          ],
+          "strand": "-",
+          "source_scope": "native experimental C. beijerinckii Cb Fdh/Hyd source; four-subunit complex direct activity paper"
+        }
+      }
+    }
+  ],
+  "bank_sha256": "d2f13276eb971c7520d1a22dc01c3b6389a95d1d933d56b070197e84afe8acf3",
+  "bank_record_count": 222,
+  "existing_bank_record_count": 214,
+  "new_record_count": 8,
+  "sources": {
+    "Tkv": {
+      "path": "references/raw/independent/tkivui_DSM2030.gb",
+      "accession": "CP009170.1",
+      "sha256": "f73a19c5061b35ed382b679232a6fac5374aa755c24715573d723c6f67bb16cc"
+    },
+    "Cb": {
+      "path": "references/raw/round87_FdhHyd_sources/CP000721.1_genbank.txt",
+      "accession": "CP000721.1",
+      "sha256": "c3be1f77f37846ef5738b6f696ced68f4f2787d5dafdfe785b3b8561b4eac311"
+    }
+  },
+  "integrity": {
+    "existing_faa_sha256": "e7af49894dcaa8aae0afe445f8e3351e321f3badaa748d8e742c69d12c8e7f38",
+    "protected_sequence_sha256_count": 10,
+    "protected_collisions": [],
+    "new_ids": [
+      "FeFe_HDCR_Tkv__HydA2",
+      "FeFe_HDCR_Tkv__HycB3",
+      "FeFe_HDCR_Tkv__HycB2",
+      "FeFe_HDCR_Tkv__FdhF2",
+      "FeFe_HDCR_Cb__HydA2",
+      "FeFe_HDCR_Cb__HycB3",
+      "FeFe_HDCR_Cb__HycB2",
+      "FeFe_HDCR_Cb__FdhF2"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+# Preprocess Module Configuration (config_sr)
+preprocess:
+  steps:
+    short_qc: True
+    long_qc: False
+  conda_envs:
+    bio: "bio"
+    nanoplot: "nanoplot_1.20.0"

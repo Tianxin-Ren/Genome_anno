@@ -1,0 +1,88 @@
+# Specialized Samples and Input Configuration (config_phy)
+# ------------------------------------------------------------------------------
+# All genome inputs and task setups are configured in this file.
+
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+# project_root: "/dssg/home/acct-schhui/gses0/rentianxin"
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+
+# ==============================================================================
+# Phylogeny Tasks Configuration
+# ==============================================================================
+# You can define multiple concurrent phylogeny tasks here.
+# Each task key (e.g., "MOB_ref_local") serves as the task name/sample name and output file prefix.
+# Under each task, you can specify its GToTree HMM profile and input genomes.
+phylogeny_tasks:
+  # "bathyarchaeia":
+  #   hmm_profile: "Archaea"     # HMM profile for GToTree (e.g., Bacteria, Archaea, Universal, etc.)
+    
+  #   # --- Input Genome Specifications (Paths can be absolute, or relative to project_root) ---
+  #   # Option 1: File containing absolute or relative genome paths (one per line)
+  #   # genome_path_tsv: "Mpf_2022/MOB_abundance/data/gtotree_genome_path.tsv"
+    
+  #   # Option 2: List of directories to automatically scan for genomes (scans fna, fasta, fa and their .gz files)
+  #   genomes_dirs:
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bathyarchaeia_gtdb_all/genomes"
+    
+  #   # Option 3: List of individual genome files (or glob patterns)
+  #   genome_files:
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/binning/Bathy_enrichment_2025/circular_contigs/u999856.fa"
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/binning/Bathy_enrichment_2025/circular_contigs/u601479.fa"
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/binning/Bathy_enrichment_2025/circular_contigs/u896703.fa"
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/binning/Bathy_enrichment_2025/circular_contigs/u1287049.fa"
+  #     - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_000008665.1_ASM866v1_genomic.fa"
+
+  "hadarchaeota":
+    hmm_profile: "Archaea"     # HMM profile for GToTree (e.g., Bacteria, Archaea, Universal, etc.)
+    
+    # --- Input Genome Specifications (Paths can be absolute, or relative to project_root) ---
+    # Option 1: File containing absolute or relative genome paths (one per line)
+    # genome_path_tsv: "Mpf_2022/MOB_abundance/data/gtotree_genome_path.tsv"
+    
+    # Option 2: List of directories to automatically scan for genomes (scans fna, fasta, fa and their .gz files)
+    genomes_dirs:
+      - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/hadarchaeota_gtdb_all/genomes"
+      - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Hadar_ref"
+    
+    # Option 3: List of individual genome files (or glob patterns)
+    # genome_files:
+    #   - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_bins_filtered/u834437.fa"
+    #   - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_bins_filtered/u1202559.fa"
+    #   - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_bins_filtered/u499975.fa"
+
+  # Example of an alternative concurrent task:
+  # "MOB_archaea_local":
+  #   hmm_profile: "Archaea"
+  #   genome_path_tsv: ""
+  #   genomes_dirs:
+  #     - "Mpf_2022/MOB_abundance/data/archaea_genomes"
+  #   genome_files: []
+
+# Placeholder empty samples dict to satisfy global config loaders
+samples: {}
+
+# ==============================================================================
+# GTDB-Tk Tasks Configuration
+# ==============================================================================
+# You can define multiple concurrent GTDB-Tk batch tasks here.
+# Each task key (e.g. "bathyarchaeia_mags") serves as the sample/dataset name.
+# gtdbtk_tasks:
+#   "gses_all_mags_V0":
+#     mag_dir: "/dssg/home/acct-schhui/gses0/rentianxin/data/gses_all_rawMAGs_fa_V0"
+#     extension: "fa"
+
+# ==============================================================================
+# Protein Subtyping Tasks Configuration
+# ==============================================================================
+# Define tasks to classify protein subtypes using phylogenetic placement.
+# subtyping_tasks:
+#   "gses_protein_subtyping":
+#     ref_fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/HyDdb/HydDB_all_hydrogenases_c0.7.faa"
+#     query_fasta: "/dssg/home/acct-schhui/share/HyEn_assembly/gses_all_rawMAGs_fa_V0_hd_count.faa"
+#     # Optional metadata file. If omitted, subtypes are parsed from ref headers.
+#     metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/HyDdb/HydDB_all_hydrogenases_c0.7_mapping.tsv"
+
+

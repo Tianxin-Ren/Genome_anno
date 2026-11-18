@@ -1,0 +1,25 @@
+{
+  "version": "canonical_Hmd_concordant_branch_v1",
+  "purpose": "Allow a tentative function hypothesis from whole-domain branch concordance plus FeGP/reaction contexts, without redefining 80% reference-transfer or calibrated_high.",
+  "canonical_reference_group": "experiments/round95/canonical_Hmd_reference_review.json",
+  "positive_source_groups": 2,
+  "comparators": "Every other searched prototype, including alternate-function HmdII and indeterminate Hmd-like proteins, irrespective of their catalytic identity label.",
+  "requirements": [
+    "Complete current prototype search bound to query and reference bank",
+    "Nonpartial single-chain Hmd-like domain and complete aligned canonical references, same .8 coverage rule",
+    "Every reviewed canonical prototype independently has complete paired coverage and core coverage",
+    "Weakest canonical exact-match-per-query-core score exceeds strongest significant alternative score; ties abstain",
+    "Existing positive-core and selected canonical winner checks",
+    "Independently remapped FeGP ligand/local context for core; His14-like context additionally for H4MPT potential"
+  ],
+  "not_claimed": [
+    "high-confidence calibration",
+    "query activity",
+    "FeGP occupancy",
+    "substrate exclusivity",
+    "in-vivo direction"
+  ],
+  "development_scope": "R111 direct-assay diagnostic was inspected before rule design; all panel results are development, no independent credit.",
+  "existing_80_percent_transfer_preserved": true,
+  "engineering_variants_are_not_biochemical_negatives": true
+}

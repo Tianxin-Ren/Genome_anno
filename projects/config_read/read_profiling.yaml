@@ -1,0 +1,74 @@
+# ==============================================================================
+# Read Profiling Module Configuration (Sylph) - config_read
+# ==============================================================================
+read_profiling:
+  # Output and log directories (relative to project_root, matching repo standard design)
+  results_dir: "results/MetaG-reads/sylph"
+  logs_dir: "logs/read_profiling"
+
+  # Profiling engine toggle
+  tool: "sylph"
+
+  # Reference Sylph Database (.syldb)
+  # database: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/gtdb-r226-c200-dbv1.syldb"
+  database: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/gtdb-r220-c200-dbv1.syldb"
+
+  # Compute resources (threads)
+  # 单个样本独立并行时：推荐 8 核（在 64c 节点上吞吐率最优，单节点可并发 8 个样本，耗时仅 ~2-3 分钟/样本）
+  sample_threads: 8
+  # 批次模式（全部样本合并传入单一命令）时：推荐 40 ~ 60 核
+  batch_threads: 60
+
+  # Optional parameters for sylph profile (e.g., -c 200, --min-number-kmers 50)
+  params: ""
+
+  # Conda environment
+  conda_envs:
+    sylph: "sylph"
+    qc: "trench"
+    trench: "trench"
+
+  # Fastp QC configuration (for samples with raw fastq needing QC)
+  qc_threads: 16
+  qc_length_required: 100
+  qc_adapter1: "AAGTCGGAGGCCAAGCGGTCTTAGGAAGACAA"
+  qc_adapter2: "AAGTCGGATCGTAGCCATGTCGTTCTGTGAGCCAAGGAGTTG"
+  qc_params: "--cut_front --cut_right --cut_window_size 4 --cut_mean_quality 20"
+
+  # Fastp QC 损坏 gz 容错与报告配置：
+  # 当样本原始 gz 文件损坏（意外截断、CRC校验失败、解压异常等）时，
+  # 不中断流水线调度，自动记录至报告 TSV 并生成洁净占位文件，保证其他样本继续分析并完成聚合。
+  corrupted_report_file: "logs/read_profiling/corrupted_samples.tsv"
+  qc_precheck_gzip: false
+
+  # 构建 DAG 时检查每个样本的 R1/R2；缺失任一文件的样本不进入调度。
+  # dry-run 也会写出逐样本检查结果，方便修复失效链接或 TSV 路径。
+  skip_missing_inputs: true
+  input_audit_file: "logs/read_profiling/input_status.tsv"
+
+  # TSV 同时含有 /dssg/home 与 /union/home：先使用实际存在的文件，
+  # 若原路径不存在，再尝试另一存储前缀；两边都不存在时保留 TSV 原路径报错。
+  path_prefix_replace:
+    "/dssg/home": "/union/home"
+
+  # Raw reads may be read from /union, but QC outputs must be written to the
+  # writable /dssg namespace on compute nodes.
+  write_path_prefix_replace:
+    "/union/home": "/dssg/home"
+
+  # ==============================================================================
+  # 后续物种分类学注释 (sylph-tax taxprof)
+  # ==============================================================================
+  # 设为 true 时，将在每个样本的 sylph profiling.tsv 基础上自动继续执行 sylph-tax taxprof
+  run_taxonomy: true
+
+  # GTDB taxonomy metadata 数据库文件路径 (支持 .tsv 或 .tsv.gz)
+  # taxonomy: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/taxonomy_file_folder/gtdb_r226_metadata.tsv.gz"
+  taxonomy: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/taxonomy_file_folder/gtdb_r220_metadata.tsv.gz"
+
+  # 分类学结果文件命名标签 (默认 gtdb_r226，生成 gtdb_r226_{sample}.sylphmpa)
+  taxonomy_prefix: "gtdb_r220"
+
+  # sylph-tax 单样本计算资源 (线程与额外参数)
+  taxprof_threads: 4
+  taxprof_params: ""

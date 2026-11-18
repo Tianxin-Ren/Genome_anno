@@ -1,0 +1,32 @@
+# ==============================================================================
+# 1. Data Configuration (Input Samples & External Resources)
+# ==============================================================================
+data:
+  samples: "./samples.yaml"
+
+# ==============================================================================
+# 2. Workflow Modules (Logical Steps & Toggles)
+# ==============================================================================
+# This configuration is optimized specifically for short-read (second-generation) metagenomic analysis.
+modules:
+  preprocess:
+    path: "./preprocess.yaml"
+    enable: True
+  assembly:
+    path: "./assembly.yaml"
+    enable: True
+  binning:
+    path: "./binning.yaml"
+    enable: True
+  abundance:
+    path: "./abundance.yaml"
+    enable: True
+  annotation:
+    path: "./annotation.yaml"
+    enable: False
+
+# ==============================================================================
+# 3. Global Paths & Environment Setup
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+conda_env_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/"

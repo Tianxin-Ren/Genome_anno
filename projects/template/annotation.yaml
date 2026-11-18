@@ -1,0 +1,15 @@
+annotation:
+  data_type: long
+  steps:
+    bakta: true
+    eggnog: false
+    kofamscan: false
+    dbcan: false
+    gtdbtk: false
+    checkm2: false
+    quast: false
+    isescan: false
+    advanced_hmm: false
+    circular: false
+    cdhit: false
+

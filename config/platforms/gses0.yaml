@@ -1,0 +1,73 @@
+# Platform configuration for the gses0 Conda installation.
+# Sample-specific genome/HMM/KO paths remain in projects/config_hmm/samples.yaml.
+
+runtime:
+  name: gses0
+  profile: profiles/slurm
+  account: "acct-schhui"
+  slurm_account: "acct-schhui"
+  partition: "64c512g"
+  slurm_partition: "64c512g"
+
+cluster:
+  account: "acct-schhui"
+  slurm_account: "acct-schhui"
+  partition: "64c512g"
+  slurm_partition: "64c512g"
+
+paths:
+  conda_envs: "/dssg/home/acct-schhui/gses0/Soft/Conda/envs"
+
+# These are fallback database locations only. For config_hmm, a sample-level
+# hmm_db and ko_list take precedence over these values.
+databases:
+  root: "/dssg/home/acct-schhui/gses0/Database"
+  unified_hmm: "/dssg/home/acct-schhui/gses0/Database/KEGG/archive/2025-02-28/cluster/all_lab_ATP/all_lab_ATP.hmm"
+  kofam: "/dssg/home/acct-schhui/gses0/Database/kofam/2026_08_25"
+  kofam_profiles: "/dssg/home/acct-schhui/gses0/Database/kofam/2026_08_25/profiles"
+  ko_list: "/dssg/home/acct-schhui/gses0/Database/kofam/2026_08_25/ko_list"
+  database_pkl: "/dssg/home/acct-schhui/gses0/Database/kofam/2026_08_25/database.pkl"
+  kofam_database_pkl: "/dssg/home/acct-schhui/gses0/Database/kofam/2026_08_25/database.pkl"
+  database_sha256: ""
+  dbcan: "/dssg/home/acct-schhui/gses0/Database/dbcan_5.2.9_DB_20260505"
+  camper: "/dssg/home/acct-schhui/gses0/Database/CAMPER"
+  checkm: "/dssg/home/acct-schhui/gses0/Database/checkm"
+  genomespot: "/dssg/home/acct-schhui/gses0/Database/GenomeSPOT/models"
+  cdd: "/dssg/home/acct-schhui/gses0/Database/COG_2024/CDD"
+  cogle_db: "/dssg/home/acct-schhui/gses0/Database/COG_2024/CDD/Cog"
+  cddid: "/dssg/home/acct-schhui/gses0/Database/COG_2024/CDD/cddid.tbl"
+  cog_def: "/dssg/home/acct-schhui/gses0/Database/COG_2024/cog-24.def.tab"
+  cog_fun: "/dssg/home/acct-schhui/gses0/Database/COG_2024/cog-24.fun.tab"
+  bitscore_specific: "/dssg/home/acct-schhui/gses0/Database/COG_2024/CDD/bitscore_specific.txt"
+
+environments:
+  # HMM workflow environments
+  python: biopython_1.86
+  biopython: biopython_1.86
+  seqkit: seqkit
+  mmseqs2: mmseqs2
+  prodigal: pyrodigal_3.7.1
+  pyrodigal: pyrodigal_3.7.1
+
+  # No standalone HMMER environment was listed; use the environment that
+  # the existing PI platform uses for hmmsearch.
+  hmmer: bakta_1.12.0
+  bakta: bakta_1.12.0
+  blast: bakta_1.12.0
+
+  # Common optional aliases available in this installation
+  cdhit: cdhit_4.6.1
+  cd_hit: cdhit_4.6.1
+  fasttree: fasttree_2.2.0
+  iqtree: iqtree3
+  prokka: prokka
+  pigz: pigz
+
+  dbcan: dbcan_5.2.9
+  camper: CAMPER
+  grodon2: gRodon2_2.7.2
+  drep: drep_v4
+  genomespot: GenomeSPOT_1.0.1
+  gtdbtk: gtdbtk_2.7.2
+  pykofamsearch: pykofamsearch_26.7.21
+

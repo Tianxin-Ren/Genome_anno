@@ -1,0 +1,20 @@
+# MAG Annotation Pipeline Configuration
+mag_annotation:
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/WCM/test"
+  data_dir: "data"
+  results_dir: "results"
+  input_dir: "mag_fasta"
+  output_dir: "mag_annotation"
+  hmm_db: "KEGG"
+  threads: 64
+  parameters:
+    checkm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/checkm_data"
+    checkm2_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CheckM2_database/CheckM2_database/uniref100.KO.1.dmnd"
+    gtdbtk_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDBTK_DB/release220"
+    genomespot_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GenomeSpot"
+  conda_envs:
+    bio: "/path/to/bio_env"
+    checkm: "/path/to/checkm_env"
+    checkm2: "/path/to/checkm2_env"
+    gtdbtk: "/path/to/gtdbtk_env"
+    genomespot: "/path/to/gs_env"

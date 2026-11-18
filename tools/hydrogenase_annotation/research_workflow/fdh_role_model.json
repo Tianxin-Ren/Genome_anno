@@ -1,0 +1,61 @@
+{
+  "version": "fdh-role-evidence-v2",
+  "role_class": "Fdh_molybdo",
+  "profiles": [
+    "PF13510",
+    "PF04879",
+    "PF00384",
+    "PF01568"
+  ],
+  "family_profiles": [
+    "PF04879",
+    "PF00384",
+    "PF01568"
+  ],
+  "source_positive": {
+    "reference_id": "FDH_source__ADO35985.1",
+    "protein_id": "ADO35985.1",
+    "source_genbank": "references/processed/distilled_models/CP002273.gb",
+    "sequence_sha256": "e4fbacef321d8e9645dc090d8aaaf8df376f28f98910b665c71175dfd2ab4699",
+    "status": "source_like_module_supported"
+  },
+  "source_counters": [
+    {
+      "reference_id": "R148_1DMS_entity1",
+      "fasta": "references/processed/distilled_models/1DMS_entity1.faa",
+      "sequence_sha256": "e94bd17bb0d9d414bdd8ffa799753e9fb0a5e86fd684841ee2c28e44db535798",
+      "role_class": "DMSO_reductase_counter"
+    },
+    {
+      "reference_id": "R148_2NAP_entity1",
+      "fasta": "references/processed/distilled_models/2NAP_entity1.faa",
+      "sequence_sha256": "865ab60e67259b59442e486bea56ff8d5264d2bbde2584541cceb6fb3e318f76",
+      "role_class": "nitrate_reductase_counter"
+    },
+    {
+      "reference_id": "R148_2VPW_entity1",
+      "fasta": "references/processed/distilled_models/2VPW_entity1.faa",
+      "sequence_sha256": "4ccfdef9e498e7cd6add673b7cc9434076a36754ba4d5a429128d1d2c754610c",
+      "role_class": "polysulfide_reductase_counter"
+    }
+  ],
+  "site_mapping": {
+    "source_cys": 351,
+    "source_his": 352,
+    "source_arg": 544,
+    "canonical_fdhf_site": 140,
+    "canonical_fdhf_his": 141,
+    "canonical_fdhf_arg": 333
+  },
+  "sources": {
+    "research_workflow/module_role_evidence.py": "7e6cc10a0af7c409a5479c5f4b0e5d859c453911c50d1307a4b1a21fa08eb8dc",
+    "references/processed/references.json": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+    "references/processed/distilled_models/CP002273.gb": "02ddef8bd8447a07e076b9c27eae8d2dee2ee6c5218c140a760b51a3a070422c",
+    "experiments/round148_fdh_roles/counter_source_review_v1.json": "05a603cb9b592ba81ff105160841e1aa30ca17bca804a0e0d47c7b39b566610d",
+    "experiments/round145_KIST612/source_assay_review_v1.json": "3f88f85ec60c9f9f1cbd19fe1b013e589f38261aed5fdb49eea1fd7545bfb83e",
+    "experiments/round148_fdh_roles/primary_site_facts_v1.json": "ff621224d3fe369e007d6aa455fba6bbf832a987cadbfff3a63aec360bc6f73a",
+    "references/processed/distilled_models/1DMS_entity1.faa": "5fc20cc6b981982a759b75e8ed1c46f0e52a331227079f2414b532d82690ba9d",
+    "references/processed/distilled_models/2NAP_entity1.faa": "0c59e74b1a1a6ec30cefb8075e2aa6c0ea7778020e2433a4f3692f3d802d7447",
+    "references/processed/distilled_models/2VPW_entity1.faa": "15d4c9d522a1160cc140b972d41544f7cf6190fee6068c0897186de9414da4b1"
+  }
+}

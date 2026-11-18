@@ -1,0 +1,26 @@
+# ==============================================================================
+# Read Profiling Module Default Configuration (Sylph)
+# ==============================================================================
+read_profiling:
+  results_dir: "results/MetaG-reads/sylph"
+  logs_dir: "logs/read_profiling"
+
+  tool: "sylph"
+  database: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/gtdb-r226-c200-dbv1.syldb"
+
+  threads: 60
+  params: ""
+
+  conda_envs:
+    sylph: "sylph"
+    python: "bio"
+
+  # Path prefix replacement for storage systems (e.g. {"/dssg/home": "/union/home"})
+  path_prefix_replace: {}
+
+  # Taxonomy profiling with sylph-tax
+  run_taxonomy: true
+  taxonomy: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/taxonomy_file_folder/gtdb_r226_metadata.tsv.gz"
+  taxonomy_prefix: "gtdb_r226"
+  taxprof_threads: 4
+  taxprof_params: ""

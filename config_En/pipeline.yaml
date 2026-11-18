@@ -1,0 +1,23 @@
+# Unified bacterial/archaeal annotation task.
+# Scientific settings live in this directory; machine deployment lives in the
+# selected platform. The default keeps the historical DSSG invocation working.
+
+runtime:
+  platform: "config/platforms/slurm.yaml"
+
+data:
+  samples: "./samples.yaml"
+
+modules:
+  unified_annotation:
+    path: "./unified_annotation.yaml"
+    enable: true
+
+# Task/output paths are intentionally project configuration, not platform
+# configuration. Override project_root/results on the command line when needed.
+paths:
+  project_root: ""
+  results: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results"
+  logs: "logs"
+  work: "work"
+

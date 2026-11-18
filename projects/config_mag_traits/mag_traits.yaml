@@ -1,0 +1,100 @@
+# ==============================================================================
+# MAG Traits & Metabolic Analysis Module Configuration (config_mag_traits)
+# ==============================================================================
+mag_traits:
+  results_dir: "results/mag_traits"
+  logs_dir: "logs/mag_traits"
+
+  # ----------------------------------------------------------------------------
+  # 分析流程步骤开关
+  # ----------------------------------------------------------------------------
+  steps:
+    drep: true         # [可选前置步骤] 是否对大批量 MAG 先执行 dRep 去冗余（仅对代表性 MAG 跑下游分析）
+    prodigal: true      # 针对 MAG 进行基因预测（生成 .faa, .ffn, .gff）
+    pool_genes: true    # 汇集各 Batch 基因预测结果 (FAA 汇入 proteins/all，FFN/GFF 汇入 genes)
+    dbcan: false         # 运行 dbCAN 进行碳水化合物活性酶 (CAZyme) 注释
+    camper: true        # 运行 CAMPER 进行多酚代谢转化酶系统注释
+    grodon2: true       # 运行 gRodon2 进行最大理论生长速率 (最大倍增时间) 预测
+    genomespot: true    # 运行 GenomeSPOT 进行原核微生物生长特征预测 (温度、盐度、pH、耐氧性)
+    summary: true       # 整合全部分析结果生成综合特征矩阵 (all_mag_traits_matrix.tsv)
+
+  # ----------------------------------------------------------------------------
+  # 0. dRep 前置去冗余设置 (可选：steps.drep 设为 true 时生效)
+  # ----------------------------------------------------------------------------
+  drep:
+    threads: 64
+    two_rounds: false          # 设为 false 启用门纲分类树直接去冗余 (0.95 ANI)，避免大池合并
+    block_size: 10000          # 分块大小 (按门/纲分块，超 10000 自动细分)
+    min_phylum_size: 500       # 稀有/小型门合并阈值 (小于该数量的门自动合并到 tax_minor_phyla，避免碎片化与小任务占用大量核)
+    round1_ani: 0.95           # 第一轮 ANI 相似度阈值 (0.95 提取物种级代表)
+    round2_ani: 0.95           # 第二轮 ANI 相似度阈值 (两轮模式备用)
+    min_completeness: 50.0     # 基因组完整度过滤阈值 (%)
+    max_contamination: 10.0    # 基因组污染度过滤阈值 (%)
+    genome_info: ""            # 质控信息表路径 (genome,completeness,contamination)，若为空优先读取 samples.yaml
+    extra_flags: ""            # 额外 dRep 参数；若未提供 genome_info，自动追加 --ignoreGenomeQuality
+
+  # ----------------------------------------------------------------------------
+  # 1. 下游分批并发调度设置 (Batching Configuration)
+  # ----------------------------------------------------------------------------
+  batching:
+    batch_size: 50             # 每个 Batch 包含的代表 MAG 数量 (强烈推荐 20-50 MAG / batch)
+
+  # ----------------------------------------------------------------------------
+  # 2. Prodigal 基因预测设置 (按批次生成 .faa 与 .ffn)
+  # ----------------------------------------------------------------------------
+  prodigal:
+    mode: "meta"               # MAG 推荐使用 "meta" 模式
+    threads: 2
+
+  # ----------------------------------------------------------------------------
+  # 3. dbCAN 碳水化合物活性酶注释设置 (合并 Batch 内 FAA，单次调用 4 CPU)
+  # ----------------------------------------------------------------------------
+  dbcan:
+    threads: 4                 # 每个 Batch 建议 4 CPU，高吞吐处理合并后的蛋白序列
+    concat_faa: true           # 合并该批 50 个 MAG 的 FAA (自动添加 >MAG___ 前缀)，PyHMMER/Diamond 一次搞定
+    tools:
+      - "diamond"
+      - "hmmer"
+      - "dbcan_sub"
+    # 数据库路径：默认由 platform (如 config/platforms/gses0.yaml) 中的 dbcan 注入
+    db: ""
+    extra_flags: ""
+
+  # ----------------------------------------------------------------------------
+  # 4. CAMPER 多酚代谢与转化酶注释设置 (Batch 并发 HMMER)
+  # ----------------------------------------------------------------------------
+  camper:
+    mode: "hmm"                # "hmm" (基于 HMMER 检索 CAMPER 官方 Profile)
+    hmm_db: ""                 # 默认由 platform 中的 camper 注入
+    evalue: 1e-5
+    threads: 4                 # 每个 Batch 建议 4 CPU 并发 HMMER
+
+  # ----------------------------------------------------------------------------
+  # 5. gRodon2 最大理论生长速率与倍增时间评估设置 (单 R 会话循环处理 Batch 内 FFN)
+  # ----------------------------------------------------------------------------
+  grodon2:
+    threads: 1                 # gRodon2 为单核算法，每个 Batch 1 CPU 常驻 R 会话循环处理全部 FFN
+    mode: "partial"            # 模式选择: "partial" (专为不完整/碎片化基因组如 MAG/SAG 量身定制)
+    temperature: 20.0          # 生长环境温度 (°C)
+    # 核糖体蛋白 HMM 库：默认由 platform (如 config/platforms/gses0.yaml) 中的 checkm 注入
+    ribo_db: ""
+
+  # ----------------------------------------------------------------------------
+  # 6. GenomeSPOT 微生物生长环境与理化表型预测 (温度, 盐度, pH, 氧气耐受性)
+  # ----------------------------------------------------------------------------
+  genomespot:
+    threads: 2                 # 每个 Batch 建议 2 CPU 并发特征提取与推断
+    models_dir: ""             # 预训练模型目录；留空将自动检索环境内置 models 或 platform databases.genomespot
+    save_features: false       # 是否保存中间特征 .features.json
+
+  # ----------------------------------------------------------------------------
+  # Conda 环境别名（默认由 platform YAML 注入，也可在当前工程独立覆盖）
+  # ----------------------------------------------------------------------------
+  conda_envs:
+    drep: "bio"
+    prodigal: "bio"
+    dbcan: "dbcan"
+    camper: "bio"
+    grodon2: "grodon2"
+    genomespot: "GenomeSPOT_1.0.1"
+    python: "biopython_1.85"

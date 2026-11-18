@@ -1,0 +1,10 @@
+name: bio
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastp
+  - seqkit
+  - pandas
+  - samtools
+  - bwa

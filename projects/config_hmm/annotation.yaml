@@ -1,0 +1,33 @@
+# ==============================================================================
+# HMM Annotation Module Settings (Minimalist for Protein Inputs)
+# ==============================================================================
+annotation:
+  data_type: "long"  # Note: Does not affect protein annotation flow
+  
+  steps:
+    advanced_hmm: True
+    resolve_hmm: True  # Set to True to generate final resolved tsv report
+    pfam: False        # Set to True if Pfam domain search is also required
+
+  # --- Performance and Threshold Settings ---
+  batch_hmm: True               # 是否启用外源基因组批量 Prodigal+HMM 检索及裁决流程
+  batch_size: 500               # 外源基因组合并检索的批次大小
+  ext_bakta_extra_flags: "--skip-trna --skip-rrna --skip-tmrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-sorf --skip-pseudo --skip-gap --skip-ori" # 自定义外源基因组 Bakta 额外参数，例如只预测 CDS 并极速运行可设置为: "--skip-trna --skip-rrna --skip-tmrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-sorf --skip-pseudo --skip-gap --skip-ori"
+  split_chunks: 50
+  hmm_split_chunks: 50
+  hmm_evalue_threshold: 1e-5
+  hmm_log_factor: 0.2
+  target_profiles: ""           # Optional: comma-separated string or YAML list of profile names to extract best E-value hit for
+  negative_map: "/dssg/home/acct-schhui/gses0/rentianxin/data/single_models/target_to_negative.tsv"
+  competition_fraction: 0.10    # provisional near-tie flag; calibrate against validation sets
+
+  # --- Large-scale protein redundancy reduction ---
+  # HMM target search runs on all exact-unique proteins. The 99% cluster is
+  # materialized for future general-purpose annotation, but is not used to
+  # decide rare target-HMM hits.
+  protein_dedup:
+    enabled: False
+    cluster_99: False
+    identity: 0.99
+    coverage: 0.95
+    coverage_mode: 0

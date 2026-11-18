@@ -1,0 +1,379 @@
+{
+  "schema": "pfsearch_runtime_bundle_v3",
+  "binary": {
+    "path": "tools/pfsearch_runtime/portable/pfsearch2.3",
+    "sha256": "adfe6be267c029e6bd5a0073250046c81afb186e809d93576182f5d4a6fec3f0",
+    "bytes": 180720,
+    "version_marker": "pftools pfsearch 2.3"
+  },
+  "sources": [
+    {
+      "path": "tools/pfsearch_runtime/README.round65.md",
+      "sha256": "1571277be5456716a7535b9c5a1d5de213254359a258bc94257dc92a81186bb3"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/2ft.f",
+      "sha256": "3685217e5bf7ed9adff579b3307c7f35e39b145060fbd57be706d4f416a6954d"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/6ft.f",
+      "sha256": "0f50dfcce7da02aa3948266a48e5f273ba21f9b1376a63a70dea63933e5967f0"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/CFAve.f",
+      "sha256": "9f106289393428ce60ef9fe41f655a4015bbfe13404dbae6147e4b3f36897007"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/CMakeLists.txt",
+      "sha256": "4717691221092f45046b29db522b835b06fac8b568191b198e7a3803648cbaf6"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/CPAve.f",
+      "sha256": "6c025e48195274dedf661dca7fd9d475896d1462bcbe67998c305cee9a44740c"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/NtoR.f",
+      "sha256": "69457055c0d3972f3a9d68ed14bec89871c067d429bd3c282a9fd06e58454143"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/RtoN.f",
+      "sha256": "86791253e120d11c9ed7ee9b005bb77f8295f00c75537a4a68b59ff39be88e49"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/Xblnk.f",
+      "sha256": "375df5a49f5e43e583784680cbc825eab12f0545c9f8ac412d8ee279bf0fa104"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/abini.f",
+      "sha256": "7c4bbba690bc71a0395c064cc6e6cb54c17d3adeea5a8d12bbf8f07a8efc6f35"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/ardim.f",
+      "sha256": "4523f385675344834180549c15b2f9ec1a6cdb0e28ae3518cb15a4f6ddf00ffa"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/avdat.f",
+      "sha256": "a4574a498d22be5b6b58fd3b14ce178fa7d0a732c225f50ba961b1a1b0ff79dd"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/codat.f",
+      "sha256": "64aba10c9c84185f54f9dc89e5b0010fa3d8a81129db4f5fee7003572a1bf7d0"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/cvini.f",
+      "sha256": "342eee1405798b2e2ae49ff6b4cf62304963a6e28fddac8d6508faffb64b7482"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/dfdat.f",
+      "sha256": "b847344bf97c69182e81d6af26e6fca11bf8dfe5fcaa09b9ddf5fd47328d6d51"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/dfnul.f",
+      "sha256": "c7c29276d8619c9137843c0637f923268f98e06820426bbed05bd7afa572cd99"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/djdat.f",
+      "sha256": "c03d104f36abe5993fbdfdbcac0885a5d80271b926af562cbee99a72b7f0cf0d"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/gsdat.f",
+      "sha256": "adefc58351915862bfb36efcdb0d775c8a80dceaf420046a305ab23ec2db4441"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/gtop.f",
+      "sha256": "ade9ef2c92fc1a1f23e129050f67966d81d54b314a7839ac899506ef6ac8c3b8"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/hmdat.f",
+      "sha256": "20e72d5d3bd6db7fab11b825fcb28dd1647c2d2fa2274cf0380e88d7724ac253"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/htop.f",
+      "sha256": "6e0f139dfba061dedffea91d8a6a45394430c44b838dfdc8b9374112eaeafd96"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/io.c",
+      "sha256": "ee10774444d12f9118e6c588268c308b9624ddefacf65f9555ee674144550423"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/jprsm.f",
+      "sha256": "b4f4c8ede1d97d7d6df4241c4d0fed0f2a01b9b22b193a7906a65c520fd20297"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/lblnk.f",
+      "sha256": "1db1a34910c33804db3e7f6912b0216a842222b0a0513bfb823c7f48dca7d7d6"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/nodat.f",
+      "sha256": "51f286313cd5f021b71c96794c84f31f85a240604c5d65581b63ffe52d787907"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfdat.f",
+      "sha256": "6de5270a4e6ea12bc4bf643dce98160c2cdd8f0275fcfca352f327c1e10bfc9e"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfind.f",
+      "sha256": "01f5115b4989bd57453f60c1249fe820dd6457e132daf86e1c8802c1de66db6a"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfmake.f",
+      "sha256": "a528f290160139d9761c2db9b2a6e77c15fb9c281ad9a8fd88562247a65fcf8c"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfscale.f",
+      "sha256": "4a7eecd806b4b37226edff7388d174cc63e95fe483f6bf060d35cd74956587a2"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfscan.f",
+      "sha256": "9a4fb629088544bf546f788b2e4501c7ea498fc8839befc2c118f37ad7cdd764"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfsearch.f",
+      "sha256": "991a60935be5599772cb8b228d530d8a72c9a29e7c2566ea690b07a444611e95"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfsearch.f.v2.3.5d",
+      "sha256": "0592bf369870d4d4764fd859b89ceb2401dd98e2259ca787f2eae3ca40a9ad08"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfsearchV2.f",
+      "sha256": "958331331c4a8b4e40b441eb56c2f7640bd6c3720b1f810086a74f88946529c6"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pfw.f",
+      "sha256": "91bb5ffe486000b561b41a2adcc8a741588b7225d572eb4c0e928e6743144912"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pmali.f",
+      "sha256": "e3fe7ce84d5a40114ca71b99b3fa457e6ee13aafea5905bdaeababc27af701ae"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/prali.f",
+      "sha256": "f9624f55ad9a94613f847e8790c5459bc46c32d0ab636d1d50e26a504cdaf2d9"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/prsp.f",
+      "sha256": "b56a49ffa294e19bc3c6b6bf2da88551284b1a88639e77d2f4f574fc1c89dafa"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/prxp.f",
+      "sha256": "980ee00bdd520d7d98c6a372c1f7f2d64b452c88a48c0a9c4a3139c4cf1d27b2"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/psa2msa.f",
+      "sha256": "c3e6b21f510c6aa764437c1d10363a6d46e5b260415630dfe428d2d33dfd07db"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/psdat.f",
+      "sha256": "8a86858780824190f7db753ba882eadc3eb9a6e1d569f51888c1758e6867cf19"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/ptof.f",
+      "sha256": "ce5bfbc4e579ff56ba4ee25e9e155420a20c37ec8e3010844b4312d3de476fd3"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/ptoh.f",
+      "sha256": "0810fe75cc0615292b8929045717bff9bd4c1233883c8a021a63014f13b800b9"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/pxdat.f",
+      "sha256": "98cd26762d02e8abeb1bdfa7257c05f037e6063713f682b33878be0999b92540"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/recmd.f",
+      "sha256": "f41dbd4c2a1930100ff70e153d0a11162db4ba77e252fff3518397d96186f896"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/regpr.f",
+      "sha256": "401ca40e66cbd58a62b3e5b33a4a4093d6c90909e00603973e7628a5de984306"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/remsa.f",
+      "sha256": "1c8f5c12f7572fd474a8bc8e1b27fba3babc05c3a74592d8caa6efd0bb478926"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/remsf.f",
+      "sha256": "92a767b7d009aafae6d69ee1f3c350cdc21ad8a20c1c6356fe877868d3a032a5"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/reprf.f",
+      "sha256": "61e1e986631921970cec4be986ab5c4396746644d974d1acf83175a5541f9a4c"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/reseq.f",
+      "sha256": "afdc4b098df4f328c990ca254b1ea16d94cc9609a5a484046df68c844938ff03"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/rfseq.f",
+      "sha256": "be11097eb8c91c1e92e632a4d61ddded46c6d12824cab7df450efabbe37b48ac"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/rhmmer.f",
+      "sha256": "781f18d4917c377c1afad0b60ff2356b3bac88facd2428312912af8e508b5e5f"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/rhmmer2.f",
+      "sha256": "aad21c090122d8103906e5d40061c8d8a11d3ef0c2de8adc8b67961eab0ba50a"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/rhnul.f",
+      "sha256": "a96d27dfff01e6f1cee4d20e2e13f274af00f7b046fa7638b8ca1564a11c0ce1"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/rq0.f",
+      "sha256": "65bccc8bdda46f733e4460ba17d72e3f44ffc009d3bedc813a63fda09b14e043"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/schmm.f",
+      "sha256": "0f679edd32f7531785c40816a7180166745f2be13388a6ce4cf8ffe6fc68891c"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/sterr.f",
+      "sha256": "0cd6ef9033ddb311b894d7598776073e4305e07b3a1d8646ab4ba96b2a6c0abb"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/wprsm.f",
+      "sha256": "3d8467b4a3810b1105a2014e9e36ae06fece4e42b17872af3a7d359190164bef"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/wrhmr.f",
+      "sha256": "32a890bf6164c91621150d1613a5ca0cc09e3db5e51f05e446c9dc8769a541d3"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/wrprf.f",
+      "sha256": "75d73c341b0d0ff7c862b2c19efa27f982a3734ca4f8d237a28105c1b788e819"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/wrsam.f",
+      "sha256": "10d0ceff9f9cad47b5259c489a9fe066253b83e4b2a6adb04df7f85fb5290695"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/xali1.f",
+      "sha256": "9824223c385df25c00025a03cdac226dcfaabcc2c3bffabb05e7ff213b1ec168"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/xalip.f",
+      "sha256": "6301af8bf099c4380a89c9033547cffd76fa9e2b41c214bf5cd1be9d9f6ce020"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/xalit.f",
+      "sha256": "1a5db875f6d76e29c56b46c15935556509aab64b76ae11367d3c2a8aac9f6b07"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/Fortran/xprsm.f",
+      "sha256": "2f10cb5d846084ee611caad4165f9885b5883391a1ea1cc584b40d876a0eac57"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "tools/pfsearch_runtime/source/README.pftools.v2.3.md",
+      "sha256": "5662c18397d6be9924cc52c4a7a46b2af7de68d1d672ddc370f9661f3e04bae0"
+    },
+    {
+      "path": "tools/pfsearch_runtime/portable/licenses/COPYING",
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "path": "tools/pfsearch_runtime/portable/licenses/COPYING.LIB",
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "path": "tools/pfsearch_runtime/portable/licenses/COPYING.RUNTIME",
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "path": "tools/pfsearch_runtime/portable/licenses/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    }
+  ],
+  "source_provenance": {
+    "origin": "references/raw/round65_prosite/programsource/pftools3",
+    "commit": "f9c706c9a9d9785e7750243f04c8f2cd388ff449",
+    "build_readme": "tools/pfsearch_runtime/README.round65.md",
+    "license": "tools/pfsearch_runtime/source/LICENSE"
+  },
+  "host_runtime": {
+    "platform": "Darwin arm64",
+    "gcc_source_version": "16.2.0",
+    "runtime_dependencies": "Bundled GCC libraries plus macOS system libraries; no Homebrew library lookup."
+  },
+  "bundled_libraries": [
+    {
+      "path": "tools/pfsearch_runtime/portable/libgfortran.5.dylib",
+      "sha256": "bbdb00bd850f8153802d3e5b2f4aaf2ab28ddaa190c124e3490b47174fe34dda"
+    },
+    {
+      "path": "tools/pfsearch_runtime/portable/libquadmath.0.dylib",
+      "sha256": "078fd0ceb7a2873b31ae40217804601d9bd959e801f9bd6d74932e935a7f7619"
+    },
+    {
+      "path": "tools/pfsearch_runtime/portable/libgcc_s.1.1.dylib",
+      "sha256": "ec7cbf9a7422959f016cc7ee3b4e90212c82478be06cb74bd79f833d7a0aa3fa"
+    }
+  ],
+  "source_host_library_provenance": [
+    {
+      "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libgfortran.5.dylib",
+      "resolved_path": "/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current/libgfortran.5.dylib",
+      "sha256": "477e522f1febeae4e2dd02bdb5a391159f9e60c6677893d1b0ebccd7be3ce991",
+      "bytes": 2181600,
+      "otool_L": [
+        {
+          "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libgfortran.5.dylib",
+          "version": "compatibility=6.0.0;current=6.0.0"
+        },
+        {
+          "path": "@rpath/libquadmath.0.dylib",
+          "version": "compatibility=1.0.0;current=1.0.0"
+        },
+        {
+          "path": "@rpath/libgcc_s.1.1.dylib",
+          "version": "compatibility=1.0.0;current=1.1.0"
+        },
+        {
+          "path": "/usr/lib/libSystem.B.dylib",
+          "version": "compatibility=1.0.0;current=1351.0.0"
+        }
+      ]
+    },
+    {
+      "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libquadmath.0.dylib",
+      "resolved_path": "/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current/libquadmath.0.dylib",
+      "sha256": "134cf30233e883d558e7480139b7817d9aed898a73fd51b0524ab9acea351cc6",
+      "bytes": 344768,
+      "otool_L": [
+        {
+          "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libquadmath.0.dylib",
+          "version": "compatibility=1.0.0;current=1.0.0"
+        },
+        {
+          "path": "/usr/lib/libSystem.B.dylib",
+          "version": "compatibility=1.0.0;current=1351.0.0"
+        }
+      ]
+    },
+    {
+      "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libgcc_s.1.1.dylib",
+      "resolved_path": "/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current/libgcc_s.1.1.dylib",
+      "sha256": "629003a13f4c7b42616cdd9cdea4124c3ff7d6914bff3cbef3f09204f2f071cf",
+      "bytes": 202688,
+      "otool_L": [
+        {
+          "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libgcc_s.1.1.dylib",
+          "version": "compatibility=1.0.0;current=1.1.0"
+        },
+        {
+          "path": "/usr/lib/libSystem.B.dylib",
+          "version": "compatibility=1.0.0;current=1351.0.0"
+        }
+      ]
+    }
+  ],
+  "host_libraries": [],
+  "native_equivalence": {
+    "path": "experiments/round192_native_bundle/native_equivalence_receipt_v1.json",
+    "sha256": "e55aad78348719518002f7adc41a4f6599cfd732fbe715b6264e59aa872f8c51"
+  }
+}

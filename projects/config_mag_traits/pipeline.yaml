@@ -1,0 +1,25 @@
+# ==============================================================================
+# Master Pipeline Configuration (config_mag_traits)
+# ==============================================================================
+# Dedicated workflow for large-scale MAG ecological trait & metabolic profiling:
+# - dbCAN (CAZyme & carbohydrate-active enzyme cluster annotation)
+# - CAMPER (Microbial polyphenol metabolism enzyme annotation)
+# - gRodon2 (Maximum growth rate / doubling time prediction via CUB)
+
+runtime:
+  platform: "config/platforms/gses0.yaml"
+
+data:
+  samples: "./samples.yaml"
+
+modules:
+  mag_traits:
+    path: "./mag_traits.yaml"
+    enable: true
+
+# Task/output roots. Override project_root or results on the command line if needed.
+paths:
+  project_root: ""
+  results: "results"
+  logs: "logs"
+  work: "work"

@@ -1,0 +1,12 @@
+module_id: "M00377"
+name: "Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)"
+category: "Carbon fixation"
+subcategory: "Autotrophic carbon fixation"
+definition: "(K00198+K00196+K00197,K00194+K00197) (K01938,K01939) K01491 (K00320,K01499) (K00581,K00577+K00578+K00579+K00580) (K00192+K00195)"
+key_kos:
+  - "K00198" # fdhA
+  - "K01938" # fhs
+  - "K01491" # folD
+  - "K00192" # cdhA / acsA
+  - "K00195" # cdhB / acsB
+description: "Ancient autotrophic CO2 fixation pathway operating in acetogens and methanogenic archaea."

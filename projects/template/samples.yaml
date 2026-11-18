@@ -1,0 +1,5 @@
+samples:
+  example_genome:
+    type: dna
+    external_assembly: "data/example_genome.fna"
+

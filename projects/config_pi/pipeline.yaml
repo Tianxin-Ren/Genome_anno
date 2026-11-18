@@ -1,0 +1,43 @@
+# ==============================================================================
+# 1. Data Configuration (Input Samples & External Resources)
+# ==============================================================================
+data:
+  samples: "./samples.yaml"
+
+# ==============================================================================
+# 2. Workflow Modules (Logical Steps & Toggles)
+# ==============================================================================
+modules:
+  preprocess:
+    path: "./preprocess.yaml"
+    enable: True
+  assembly:
+    path: "./assembly.yaml"
+    enable: True
+  binning:
+    path: "./binning.yaml"
+    enable: True
+  annotation:
+    path: "./annotation.yaml"
+    enable: False
+  advanced_analysis:
+    path: "./advanced_analysis.yaml"
+    enable: False
+  hmm_build:
+    path: "./hmm_build.yaml"
+    enable: False
+  plasmid_analysis:
+    path: "./plasmid_analysis.yaml"
+    enable: False
+  abundance:
+    path: "./abundance.yaml"
+    enable: False
+  data_prep:
+    path: "./data_prep.yaml"
+    enable: False
+
+# ==============================================================================
+# 3. Global Paths & Environment Setup
+# ==============================================================================
+project_root: ""
+conda_env_dir: "/lustre/home/acct-clswfp/clswfp-icdli1/Rentianxin/code/Genome_anno/.conda_envs/"

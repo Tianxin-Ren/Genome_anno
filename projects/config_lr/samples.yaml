@@ -1,0 +1,90 @@
+# ==============================================================================
+# Global Project Root (All relative paths below will be prefixed with this)
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+# ==============================================================================
+# Long-Read Sample List (ONT / HiFi)
+# ==============================================================================
+samples:
+  # ----------------------------------------------------------------------------
+  # Example 1: Enrichment / Isolate sample with ONT sequencing (Production Template)
+  # ----------------------------------------------------------------------------
+  "Bathy_enrichment_2025":
+    long_read:
+      lr: "data/lr/Bathy_enrichment_ont.hhn.2025.fq.gz"
+    short_read:
+      sampling_context: "same_enrichment_different_timepoint" # 用户确认：与ONT为同一富集体系、不同时间取样
+      r1: "data/sr/LD210323-0038_S20210406-0296_DYS-2_Bathy/LD210323-0038_S20210406-0296_DYS-2.R1.fq.gz"
+      r2: "data/sr/LD210323-0038_S20210406-0296_DYS-2_Bathy/LD210323-0038_S20210406-0296_DYS-2.R2.fq.gz"
+
+    # [Optional] Explicit Contig Overrides / Validation:
+    # If specified, contigs marked with `complete: true` will bypass size thresholds
+    # and be guaranteed inclusion in circular GTDB-Tk, CheckM2, and Bakta --complete pipelines.
+    selected_contigs:
+      u123275: { complete: true }
+      u1287049: { complete: true }
+      u1521472: { complete: true }
+      u1575901: { complete: true }
+      u1591634: { complete: true }
+      u1730824: { complete: true }
+      u1820074: { complete: true }
+      u195267: { complete: true }
+      u200050: { complete: true }
+      u234413: { complete: true }
+      u450018: { complete: true }
+      u504118: { complete: true }
+      u594485: { complete: true }
+      u601479: { complete: true }
+      u604016: { complete: true }
+      u743366: { complete: true }
+      u867221: { complete: true }
+      u896703: { complete: true }
+      u918717: { complete: true }
+      u999856: { complete: true }
+
+  "Hadar_Ytt":
+    long_read:
+      lr: "data/lr/Hada_enrichment_ont.ytt.2025.fq.gz"
+    short_read:
+      r1: "data/sr/Hadar/S2503312_R1.fq.gz"
+      r2: "data/sr/Hadar/S2503312_R2.fq.gz"
+
+    # [Optional] Explicit Contig Overrides / Validation:
+    # If specified, contigs marked with `complete: true` will bypass size thresholds
+    # and be guaranteed inclusion in circular GTDB-Tk, CheckM2, and Bakta --complete pipelines.
+    selected_contigs:
+      u834437: { complete: true }
+      u1202559: { complete: true }
+      u499975: { complete: true }
+      u667600: { complete: true }
+      u1859624: { complete: true }
+      u1605023: { complete: true }
+      u377048: { complete: true }
+      u1320898: { complete: true }
+      u147935: { complete: true }
+      u1686407: { complete: true }
+      u1371402: { complete: true }
+      u333097: { complete: true }
+      u1055931: { complete: true }
+      u1564395: { complete: true }
+
+    # [Optional] Paired Transcriptome Reads (RNA-seq) for gene expression quantification:
+    # transcriptome:
+    #   r1: "project/Bathy_LR/run/Bathy_enrichment1/transcript/02_trimmed_reads_1P.fq.gz"
+    #   r2: "project/Bathy_LR/run/Bathy_enrichment1/transcript/02_trimmed_reads_2P.fq.gz"
+    # abundance_ref: "results/annotation/Bathy_enrichment_2025/circular_bins_filtered"
+
+  # ----------------------------------------------------------------------------
+  # Example 2: Standard ONT Metagenomic Sample (Full Assembly + Auto Circular Extraction)
+  # ----------------------------------------------------------------------------
+  # "Marine_ONT_Sample01":
+  #   long_read:
+  #     lr: "data/raw_lr/Marine_ONT_Sample01.fq.gz"
+
+  # ----------------------------------------------------------------------------
+  # Example 3: PacBio HiFi Sample
+  # ----------------------------------------------------------------------------
+  # "HiFi_Isolate_01":
+  #   long_read:
+  #     lr: "data/raw_lr/HiFi_Isolate_01.fastq.gz"

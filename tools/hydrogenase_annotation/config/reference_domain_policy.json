@@ -1,0 +1,1430 @@
+{
+  "version": "round13-official-curated-reference-domain-policy",
+  "scope": "Reference-fold and subunit-role evidence only; not a new discovery/functional classifier. Official GA thresholds plus >=70 percent non-overlapping collinear model coverage. Shared domains cannot prove H2 catalysis, donor specificity, bifurcation or occupancy. No gene-name-only acceptance.",
+  "models": [
+    {
+      "accession": "PF00037",
+      "versioned_accession": "PF00037.33",
+      "profile": "Fer4",
+      "description": "4Fe-4S binding domain",
+      "sha256": "e5b4ecef022a548bef9bef8e7ed201e8da5d309e1513ce0ba3ba71625a8407ed",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00037/?annotation=hmm",
+      "gathering_threshold": "21.1 21.1;"
+    },
+    {
+      "accession": "PF00072",
+      "versioned_accession": "PF00072.31",
+      "profile": "Response_reg",
+      "description": "Response regulator receiver domain",
+      "sha256": "3396b9a3295ade54cddc4d2ca1bcffdbdda08803d7d31d9a4cae29713e202102",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00072/?annotation=hmm",
+      "gathering_threshold": "30.2 30.2;"
+    },
+    {
+      "accession": "PF00107",
+      "versioned_accession": "PF00107.33",
+      "profile": "ADH_zinc_N",
+      "description": "Zinc-binding dehydrogenase",
+      "sha256": "84e6cf8e34ac9b51acb69c664a68e0e0f3a9c620cd12864dc1fa6a8d58aece3a",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00107/?annotation=hmm",
+      "gathering_threshold": "31.8 31.8;"
+    },
+    {
+      "accession": "PF00111",
+      "versioned_accession": "PF00111.33",
+      "profile": "Fer2",
+      "description": "2Fe-2S iron-sulfur cluster binding domain",
+      "sha256": "c172d86430d6c8c233746fd34b90fcaa126d392aadf423135a13c29f090a2807",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00111/?annotation=hmm",
+      "gathering_threshold": "21 21;"
+    },
+    {
+      "accession": "PF00142",
+      "versioned_accession": "PF00142.25",
+      "profile": "Fer4_NifH",
+      "description": "4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family",
+      "sha256": "4a760bd6bab0bec263910e96242973c4f4d7804f51e668ff6a1e0d54e43c76e9",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00142/?annotation=hmm",
+      "gathering_threshold": "25 25;"
+    },
+    {
+      "accession": "PF00146",
+      "versioned_accession": "PF00146.27",
+      "profile": "NADHdh",
+      "description": "NADH dehydrogenase",
+      "sha256": "306c31ccc1b313573d9f4a34253461539e27f6d964c27e9b829f457b9ffddbaf",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00146/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF00148",
+      "versioned_accession": "PF00148.25",
+      "profile": "Oxidored_nitro",
+      "description": "Nitrogenase component 1 type Oxidoreductase",
+      "sha256": "c1c24a5a06133db9feaa3ef64fbd4c8abdc73d978833af1494bb2bed53855834",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00148/?annotation=hmm",
+      "gathering_threshold": "28.6 28.6;"
+    },
+    {
+      "accession": "PF00158",
+      "versioned_accession": "PF00158.33",
+      "profile": "Sigma54_activat",
+      "description": "Sigma-54 interaction domain",
+      "sha256": "f8c32371c2179388aa93fe56a0694251c7bb73b53829aa4383a32a7c2c966911",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00158/?annotation=hmm",
+      "gathering_threshold": "20.2 20.2;"
+    },
+    {
+      "accession": "PF00173",
+      "versioned_accession": "PF00173.34",
+      "profile": "Cyt-b5",
+      "description": "Cytochrome b5-like Heme/Steroid binding domain",
+      "sha256": "c230f88b808922e8f1ca0728c9a6e0bc678973cbed84190ef1581b97ba5d4d98",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00173/?annotation=hmm",
+      "gathering_threshold": "23.7 23.7;"
+    },
+    {
+      "accession": "PF00174",
+      "versioned_accession": "PF00174.26",
+      "profile": "Oxidored_molyb",
+      "description": "Oxidoreductase molybdopterin binding domain",
+      "sha256": "ec34f89ee054c6cad0195906e01ac2e0976069b0a631639b78e010da51ca867f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00174/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF00175",
+      "versioned_accession": "PF00175.27",
+      "profile": "NAD_binding_1",
+      "description": "Oxidoreductase NAD-binding domain",
+      "sha256": "d1180175296f52aff7310a5c1d710c0b46a8d871040ecd0b215b6dcfde57d766",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00175/?annotation=hmm",
+      "gathering_threshold": "22 22;"
+    },
+    {
+      "accession": "PF00266",
+      "versioned_accession": "PF00266.26",
+      "profile": "Aminotran_5",
+      "description": "Aminotransferase class-V",
+      "sha256": "c0234842972d7ed92753f70595076cbcd69428c6ade32bcd01742fc286381cd5",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00266/?annotation=hmm",
+      "gathering_threshold": "21.5 21.5;"
+    },
+    {
+      "accession": "PF00301",
+      "versioned_accession": "PF00301.26",
+      "profile": "Rubredoxin",
+      "description": "Rubredoxin",
+      "sha256": "31d27630ced1037e57406fc71a1d2a4914fe2336cd047457563ebeea84598131",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00301/?annotation=hmm",
+      "gathering_threshold": "23 23;"
+    },
+    {
+      "accession": "PF00329",
+      "versioned_accession": "PF00329.26",
+      "profile": "Complex1_30kDa",
+      "description": "Respiratory-chain NADH dehydrogenase, 30 Kd subunit",
+      "sha256": "934b7ce1bbdcb2eb3a898b8501be0bf5d4249ea96524267398a5a1d734110f23",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00329/?annotation=hmm",
+      "gathering_threshold": "22.5 22.5;"
+    },
+    {
+      "accession": "PF00346",
+      "versioned_accession": "PF00346.25",
+      "profile": "Complex1_49kDa",
+      "description": "Respiratory-chain NADH dehydrogenase, 49 Kd subunit",
+      "sha256": "c2fe7b71f6cd3a094caf4df6ee3e3a32eb790068b9f65068c09c256c6f606850",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00346/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF00361",
+      "versioned_accession": "PF00361.26",
+      "profile": "Proton_antipo_M",
+      "description": "NADH:quinone oxidoreductase/Mrp antiporter, TM",
+      "sha256": "3c9e18d9070f7a6a4c26e4aef1eff9c1f1038188b81202c8fe88de265c9ad125",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00361/?annotation=hmm",
+      "gathering_threshold": "21.5 21.5;"
+    },
+    {
+      "accession": "PF00374",
+      "versioned_accession": "PF00374.25",
+      "profile": "NiFeSe_Hases",
+      "description": "Nickel-dependent hydrogenase",
+      "sha256": "45339ad5e853b1102537913f80567406e78cb57902cea12536eed6648508fae6",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00374/?annotation=hmm",
+      "gathering_threshold": "25.8 25.8;"
+    },
+    {
+      "accession": "PF00378",
+      "versioned_accession": "PF00378.26",
+      "profile": "ECH_1",
+      "description": "Enoyl-CoA hydratase/isomerase",
+      "sha256": "51aa2353a11290658c2e8fcd77d1584ef3ba629a4038fd4c94974917bc325572",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00378/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF00384",
+      "versioned_accession": "PF00384.28",
+      "profile": "Molybdopterin",
+      "description": "Molybdopterin oxidoreductase",
+      "sha256": "41d5b0ed26fcc00851224551c3133cd1a8c8a022a82e539c8a20cfffd530b9e4",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00384/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF00389",
+      "versioned_accession": "PF00389.37",
+      "profile": "2-Hacid_dh",
+      "description": "D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain",
+      "sha256": "94779741bdee195fca33095ebc672f3c66bc0c7462c8e41f0fab1a8036e0757f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00389/?annotation=hmm",
+      "gathering_threshold": "24.6 24.6;"
+    },
+    {
+      "accession": "PF00420",
+      "versioned_accession": "PF00420.30",
+      "profile": "Oxidored_q2",
+      "description": "NADH-ubiquinone/plastoquinone oxidoreductase chain 4L",
+      "sha256": "5807f2d589632b1971163a76d23bdb79b1b014e41852b7365c6f56df113781e7",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00420/?annotation=hmm",
+      "gathering_threshold": "26.1 26.1;"
+    },
+    {
+      "accession": "PF00499",
+      "versioned_accession": "PF00499.26",
+      "profile": "Oxidored_q3",
+      "description": "NADH-ubiquinone/plastoquinone oxidoreductase chain 6",
+      "sha256": "30e6584db05bbaf01c7f3996ecda219522afefff554966aacca1b52c64d95b62",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00499/?annotation=hmm",
+      "gathering_threshold": "33.2 33.2;"
+    },
+    {
+      "accession": "PF00507",
+      "versioned_accession": "PF00507.25",
+      "profile": "Oxidored_q4",
+      "description": "NADH-ubiquinone/plastoquinone oxidoreductase, chain 3",
+      "sha256": "b601fa4da21a1c50453218514c74590dd38933b96327f60af60a549cc9841177",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00507/?annotation=hmm",
+      "gathering_threshold": "23.3 23.3;"
+    },
+    {
+      "accession": "PF00512",
+      "versioned_accession": "PF00512.32",
+      "profile": "HisKA",
+      "description": "His Kinase A (phospho-acceptor) domain",
+      "sha256": "22dbf75819b2e4e65e2b2ab482c4d33795dca4ab6f3a159e4207ee664631fbf5",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00512/?annotation=hmm",
+      "gathering_threshold": "26.9 26.9;"
+    },
+    {
+      "accession": "PF00551",
+      "versioned_accession": "PF00551.25",
+      "profile": "Formyl_trans_N",
+      "description": "Formyl transferase",
+      "sha256": "4a88792b1ee29978a0dd433a609be3d6a9251f48a722ac9d8622217df59ba3fd",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00551/?annotation=hmm",
+      "gathering_threshold": "26.1 26.1;"
+    },
+    {
+      "accession": "PF00586",
+      "versioned_accession": "PF00586.30",
+      "profile": "AIRS",
+      "description": "AIR synthase related protein, N-terminal domain",
+      "sha256": "0cba38e4860879ec6cf465173d9a243f5fdcec92b302154119ddf3236260d9aa",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00586/?annotation=hmm",
+      "gathering_threshold": "24 15;"
+    },
+    {
+      "accession": "PF00662",
+      "versioned_accession": "PF00662.27",
+      "profile": "Proton_antipo_N",
+      "description": "NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus",
+      "sha256": "714ac1767a79c78dfb1a6f3b75781f2b6a982c7e3b4f96d449bf72c8d070a0fe",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00662/?annotation=hmm",
+      "gathering_threshold": "24.5 24.5;"
+    },
+    {
+      "accession": "PF00708",
+      "versioned_accession": "PF00708.25",
+      "profile": "Acylphosphatase",
+      "description": "Acylphosphatase",
+      "sha256": "54cd09455f99391dafe40fae173a862ecdf3e223ca7f4b1c500428c35fea5f9f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00708/?annotation=hmm",
+      "gathering_threshold": "22.5 22.5;"
+    },
+    {
+      "accession": "PF00941",
+      "versioned_accession": "PF00941.28",
+      "profile": "FAD_binding_5",
+      "description": "FAD binding domain in molybdopterin dehydrogenase",
+      "sha256": "bf7f77644a17dfc2ec4b22d96032cbeaaeab191a3109f31f2957c794170e4f62",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00941/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF00970",
+      "versioned_accession": "PF00970.31",
+      "profile": "FAD_binding_6",
+      "description": "Oxidoreductase FAD-binding domain",
+      "sha256": "92960b31b0e156fefb9cede8fd77a418d4127d6a8228459b86863ac56c7967f0",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00970/?annotation=hmm",
+      "gathering_threshold": "21.1 21.1;"
+    },
+    {
+      "accession": "PF01058",
+      "versioned_accession": "PF01058.30",
+      "profile": "Oxidored_q6",
+      "description": "NADH ubiquinone oxidoreductase, 20 Kd subunit",
+      "sha256": "7b0468f20a982139577bf1fb3171a39905e6c7bf537e79010f06962601b3db68",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01058/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF01134",
+      "versioned_accession": "PF01134.29",
+      "profile": "GIDA",
+      "description": "Glucose inhibited division protein A",
+      "sha256": "bd747dd5f5dc767b054abc0daff2b90a89394c8582d9babe1c73a623d447ef05",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01134/?annotation=hmm",
+      "gathering_threshold": "22.1 19.1;"
+    },
+    {
+      "accession": "PF01155",
+      "versioned_accession": "PF01155.26",
+      "profile": "HypA",
+      "description": "Hydrogenase/urease nickel incorporation, metallochaperone, hypA",
+      "sha256": "42e2e799ffd8efb3884518fe2c0140ad382dca3714438abe2cf30c276b722ea0",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01155/?annotation=hmm",
+      "gathering_threshold": "28.9 28.9;"
+    },
+    {
+      "accession": "PF01257",
+      "versioned_accession": "PF01257.26",
+      "profile": "2Fe-2S_thioredx",
+      "description": "Thioredoxin-like [2Fe-2S] ferredoxin",
+      "sha256": "3a8ed9e6e1397f221f2b3df9e5b17973eb60dca9a05b51d09fdcd9af26e60f7f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01257/?annotation=hmm",
+      "gathering_threshold": "24.8 24.8;"
+    },
+    {
+      "accession": "PF01292",
+      "versioned_accession": "PF01292.27",
+      "profile": "Ni_hydr_CYTB",
+      "description": "Prokaryotic cytochrome b561",
+      "sha256": "a0b96669e73d0bd42edd79323d4eaefcb867924c9d3ba41f2f51a6e444ff655d",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01292/?annotation=hmm",
+      "gathering_threshold": "30.1 30.1;"
+    },
+    {
+      "accession": "PF01300",
+      "versioned_accession": "PF01300.25",
+      "profile": "Sua5_yciO_yrdC",
+      "description": "Telomere recombination",
+      "sha256": "f352707e36ebc512a824fe3f3cffcab682600da917e2dae722efe003a1b59fb1",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01300/?annotation=hmm",
+      "gathering_threshold": "25.1 25.1;"
+    },
+    {
+      "accession": "PF01315",
+      "versioned_accession": "PF01315.28",
+      "profile": "Ald_Xan_dh_C",
+      "description": "Aldehyde oxidase and xanthine dehydrogenase, a/b hammerhead domain",
+      "sha256": "3e2bf22f1cb1d6124038c84a90ac3d1a3b552c8a05e6d04cedc53547854140b3",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01315/?annotation=hmm",
+      "gathering_threshold": "31.3 31.3;"
+    },
+    {
+      "accession": "PF01455",
+      "versioned_accession": "PF01455.24",
+      "profile": "HupF_HypC",
+      "description": "HupF/HypC family",
+      "sha256": "82294df5c957b4d636e8f7a20381aeee9abcbf7c459e9e220d501b10c08914b4",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01455/?annotation=hmm",
+      "gathering_threshold": "28.5 28.5;"
+    },
+    {
+      "accession": "PF01512",
+      "versioned_accession": "PF01512.23",
+      "profile": "Complex1_51K",
+      "description": "Nuo51 FMN-binding domain",
+      "sha256": "deebe5996ea4e987860f0c432bc43d8924e1501cac9052ee57c64a74f176c5e1",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01512/?annotation=hmm",
+      "gathering_threshold": "31.2 31.2;"
+    },
+    {
+      "accession": "PF01568",
+      "versioned_accession": "PF01568.28",
+      "profile": "Molydop_binding",
+      "description": "Molydopterin dinucleotide binding domain",
+      "sha256": "c4cdb9a311a55b05df853697894515eb19c1657a5c93cae5f974ec840e9634e6",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01568/?annotation=hmm",
+      "gathering_threshold": "26.8 26.8;"
+    },
+    {
+      "accession": "PF01590",
+      "versioned_accession": "PF01590.33",
+      "profile": "GAF",
+      "description": "GAF domain",
+      "sha256": "922058385e65d8e7afb234441db53f27b52179b2b290378b2ea8b11065fbb62c",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01590/?annotation=hmm",
+      "gathering_threshold": "22.4 22.4;"
+    },
+    {
+      "accession": "PF01656",
+      "versioned_accession": "PF01656.30",
+      "profile": "CbiA",
+      "description": "CobQ/CobB/MinD/ParA nucleotide binding domain",
+      "sha256": "b037340857892e76bbc192e097af9f48a121bd1164a9e48e8a0de34d91faa3fa",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01656/?annotation=hmm",
+      "gathering_threshold": "25.4 25.4;"
+    },
+    {
+      "accession": "PF01750",
+      "versioned_accession": "PF01750.24",
+      "profile": "HycI",
+      "description": "Hydrogenase maturation protease",
+      "sha256": "e91d1b092a7fdbd436533f46405c7608c6ebd293692fa974a6eb57a406308fb4",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01750/?annotation=hmm",
+      "gathering_threshold": "23 23;"
+    },
+    {
+      "accession": "PF01799",
+      "versioned_accession": "PF01799.26",
+      "profile": "Fer2_2",
+      "description": "[2Fe-2S] binding domain",
+      "sha256": "b84427c0499ac6a51376a20d9423eaf796ca0e9d11b0e515dace454fb34f1eac",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01799/?annotation=hmm",
+      "gathering_threshold": "30.3 30.3;"
+    },
+    {
+      "accession": "PF01899",
+      "versioned_accession": "PF01899.22",
+      "profile": "MNHE",
+      "description": "Na+/H+ ion antiporter subunit",
+      "sha256": "96145d631cbb116c07cd9283c9307afc8e03e0885d27840cb034189ff5d4b0e0",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01899/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF01924",
+      "versioned_accession": "PF01924.22",
+      "profile": "HypD",
+      "description": "Hydrogenase formation hypA family",
+      "sha256": "b9ffb5c13817aaf6f1cad58f02733e905c11cd096c14e0115a799b24ed6a7b73",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01924/?annotation=hmm",
+      "gathering_threshold": "25 25;"
+    },
+    {
+      "accession": "PF02085",
+      "versioned_accession": "PF02085.22",
+      "profile": "Cytochrom_CIII",
+      "description": "Class III cytochrome C family",
+      "sha256": "b975814a44260e79e413eaa7d87f84c4ea2d926979ecff2f541c11aacc3c06fe",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02085/?annotation=hmm",
+      "gathering_threshold": "22.9 22.9;"
+    },
+    {
+      "accession": "PF02256",
+      "versioned_accession": "PF02256.23",
+      "profile": "Fe_hyd_SSU",
+      "description": "Iron hydrogenase small subunit",
+      "sha256": "63930395382cd75c56f1ab70792df06506e47b874b765ea6cbf30978d0a19aa3",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02256/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF02492",
+      "versioned_accession": "PF02492.26",
+      "profile": "cobW",
+      "description": "CobW/HypB/UreG, nucleotide-binding domain",
+      "sha256": "4da27a1351e5d095971dda8385dde4c63e5577da622e7bca274e09d562c400f8",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02492/?annotation=hmm",
+      "gathering_threshold": "20.7 20.7;"
+    },
+    {
+      "accession": "PF02518",
+      "versioned_accession": "PF02518.32",
+      "profile": "HATPase_c",
+      "description": "Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",
+      "sha256": "3179cf5cc2eb6504bf34f01a0728eb703418f57d8b7bb90e45baece7c22bd1d9",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02518/?annotation=hmm",
+      "gathering_threshold": "26.4 26.4;"
+    },
+    {
+      "accession": "PF02552",
+      "versioned_accession": "PF02552.23",
+      "profile": "CO_dh",
+      "description": "CO dehydrogenase beta subunit/acetyl-CoA synthase epsilon subunit",
+      "sha256": "105bd97295410f42ae51df61ee1befeb2bcb8c2c35b1cf75b4d01adb11d69908",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02552/?annotation=hmm",
+      "gathering_threshold": "21 21;"
+    },
+    {
+      "accession": "PF02579",
+      "versioned_accession": "PF02579.24",
+      "profile": "Nitro_FeMo-Co",
+      "description": "Dinitrogenase iron-molybdenum cofactor",
+      "sha256": "fc80408a3c629d4254c6ee85471e4afc9029c8d5de0113d12b7d143793a382ac",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02579/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF02662",
+      "versioned_accession": "PF02662.22",
+      "profile": "FlpD",
+      "description": "Methyl-viologen-reducing hydrogenase, delta subunit",
+      "sha256": "0f4ed476c1bd7911e11fa9b6be5a3a3fcee79fbf7ac53ef138e79f24657e4376",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02662/?annotation=hmm",
+      "gathering_threshold": "22.3 22.3;"
+    },
+    {
+      "accession": "PF02738",
+      "versioned_accession": "PF02738.24",
+      "profile": "MoCoBD_1",
+      "description": "Molybdopterin cofactor-binding domain",
+      "sha256": "0306b3b70dd86eb041c5901263bc58ef0e524332e6d0704fbce5de53b3be2154",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02738/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF02754",
+      "versioned_accession": "PF02754.22",
+      "profile": "CCG",
+      "description": "Cysteine-rich domain",
+      "sha256": "3dfb8f26126421880ee02ab0033df5b1ec8e5d2a5e95b22337dc7b91532f81ef",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02754/?annotation=hmm",
+      "gathering_threshold": "20.6 11.8;"
+    },
+    {
+      "accession": "PF02769",
+      "versioned_accession": "PF02769.28",
+      "profile": "AIRS_C",
+      "description": "AIR synthase related protein, C-terminal domain",
+      "sha256": "febd09ddd10ddf315bc44f9233557d8fc41a9477f5a5e3e7a3bfb03316e06bf8",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02769/?annotation=hmm",
+      "gathering_threshold": "23.1 23.1;"
+    },
+    {
+      "accession": "PF02826",
+      "versioned_accession": "PF02826.26",
+      "profile": "2-Hacid_dh_C",
+      "description": "D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain",
+      "sha256": "54cfc8899e3600cef91bc12cf9119d1aed5c3dba572e9d86b9ded056f5f99a3f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02826/?annotation=hmm",
+      "gathering_threshold": "25.1 25.1;"
+    },
+    {
+      "accession": "PF02906",
+      "versioned_accession": "PF02906.20",
+      "profile": "Fe_hyd_lg_C",
+      "description": "Iron only hydrogenase large subunit, C-terminal domain",
+      "sha256": "71bb31272b7833cea77c96dae3fc58dddce8e1d7a726f98f0354f8a189fba17e",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02906/?annotation=hmm",
+      "gathering_threshold": "22.1 22.1;"
+    },
+    {
+      "accession": "PF02911",
+      "versioned_accession": "PF02911.24",
+      "profile": "Formyl_trans_C",
+      "description": "Formyl transferase, C-terminal domain",
+      "sha256": "18ab8082e0b14e084bcf9fd3ceb91ad5015bce545d95eba336e37f79ebfb716a",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02911/?annotation=hmm",
+      "gathering_threshold": "21.1 21.1;"
+    },
+    {
+      "accession": "PF02954",
+      "versioned_accession": "PF02954.26",
+      "profile": "HTH_8",
+      "description": "Bacterial regulatory protein, Fis family",
+      "sha256": "b0193f258d901eba416ed16b8c9d8b435dadf3b9ddf7b8f39a6ea676f9b78679",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02954/?annotation=hmm",
+      "gathering_threshold": "22 22;"
+    },
+    {
+      "accession": "PF03063",
+      "versioned_accession": "PF03063.26",
+      "profile": "Prismane",
+      "description": "Prismane/CO dehydrogenase family",
+      "sha256": "1204c958f1618f859c98f5cdd148450f1c7dfdc165711d47c3a02b950ca5a05e",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03063/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF03109",
+      "versioned_accession": "PF03109.23",
+      "profile": "ABC1",
+      "description": "ABC1 atypical kinase-like domain",
+      "sha256": "d45a24a19a16c80e4d7309b02d527d328193416e868622090a67a80256383d34",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03109/?annotation=hmm",
+      "gathering_threshold": "22.9 22.9;"
+    },
+    {
+      "accession": "PF03139",
+      "versioned_accession": "PF03139.22",
+      "profile": "AnfG_VnfG",
+      "description": "Vanadium/alternative nitrogenase delta subunit",
+      "sha256": "1bef49ea563128e555fa49c272ed16ac30e9d235cb27e8aacc648840a0ac9332",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03139/?annotation=hmm",
+      "gathering_threshold": "32.4 32.4;"
+    },
+    {
+      "accession": "PF03201",
+      "versioned_accession": "PF03201.23",
+      "profile": "HMD",
+      "description": "H2-forming N5,N10-methylene-tetrahydromethanopterin dehydrogenase",
+      "sha256": "05006c6e2d182652599d457d859167052104560486cde93dfacf0c07442c366d",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03201/?annotation=hmm",
+      "gathering_threshold": "27.9 27.9;"
+    },
+    {
+      "accession": "PF03206",
+      "versioned_accession": "PF03206.20",
+      "profile": "NifW",
+      "description": "Nitrogen fixation protein NifW",
+      "sha256": "180c24bf26dc94e9ad8e3c3a932e3427dba9d085b4e0f1d8b1d1b02998778aa8",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03206/?annotation=hmm",
+      "gathering_threshold": "23 23;"
+    },
+    {
+      "accession": "PF03334",
+      "versioned_accession": "PF03334.20",
+      "profile": "PhaG_MnhG_YufB",
+      "description": "Na+/H+ antiporter subunit",
+      "sha256": "48f524efc618bede9aa74e1ff78f9f924cc60c95871b5aa213239e719f741489",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03334/?annotation=hmm",
+      "gathering_threshold": "23.4 23.4;"
+    },
+    {
+      "accession": "PF03404",
+      "versioned_accession": "PF03404.23",
+      "profile": "Mo-co_dimer",
+      "description": "Mo-co oxidoreductase dimerisation domain",
+      "sha256": "e92e5b05255883c7e4a761f47d167c521d58b0ef10d697ae090bc70909fcf651",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03404/?annotation=hmm",
+      "gathering_threshold": "22.7 22.7;"
+    },
+    {
+      "accession": "PF03450",
+      "versioned_accession": "PF03450.23",
+      "profile": "CO_deh_flav_C",
+      "description": "CO dehydrogenase flavoprotein C-terminal domain",
+      "sha256": "361ebc9ad78610ec11bea5deb43c4b07c1e5ca1bb94eb4c690a21de5e189c63f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03450/?annotation=hmm",
+      "gathering_threshold": "25.5 25.5;"
+    },
+    {
+      "accession": "PF03598",
+      "versioned_accession": "PF03598.21",
+      "profile": "CdhC",
+      "description": "CO dehydrogenase/acetyl-CoA synthase complex beta subunit",
+      "sha256": "56440cec88a375c3455c8e197919f0d0d0413397086c2e32c1df035214e70a80",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03598/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF03824",
+      "versioned_accession": "PF03824.23",
+      "profile": "NicO",
+      "description": "High-affinity nickel-transport protein",
+      "sha256": "6ca71ec4e42c8444a7e2bb48c885f76e57f9131756790a378a599b03f1312758",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03824/?annotation=hmm",
+      "gathering_threshold": "27.7 27.7;"
+    },
+    {
+      "accession": "PF03916",
+      "versioned_accession": "PF03916.20",
+      "profile": "NrfD",
+      "description": "Polysulphide reductase, NrfD",
+      "sha256": "b8e6fbf8afb94a7378b76e3c8f52a65a9fb0f08fdd46de629cabb7e19e4c515d",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03916/?annotation=hmm",
+      "gathering_threshold": "25.8 25.8;"
+    },
+    {
+      "accession": "PF04039",
+      "versioned_accession": "PF04039.19",
+      "profile": "MnhB",
+      "description": "Domain related to MnhB subunit of Na+/H+ antiporter",
+      "sha256": "3f33ecc2d4a83174bb42895cc1b6aa243926741889f133e4bdbdf9f5148db3fc",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04039/?annotation=hmm",
+      "gathering_threshold": "22.5 22.5;"
+    },
+    {
+      "accession": "PF04055",
+      "versioned_accession": "PF04055.28",
+      "profile": "Radical_SAM",
+      "description": "Radical SAM superfamily",
+      "sha256": "2fbff9425d2a9c26cae19e7f7ed7e2999b393cbb175bc453ea42b9d2993e0636",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04055/?annotation=hmm",
+      "gathering_threshold": "29.5 29.5;"
+    },
+    {
+      "accession": "PF04066",
+      "versioned_accession": "PF04066.19",
+      "profile": "MrpF_PhaF",
+      "description": "Multiple resistance and pH regulation protein F (MrpF / PhaF)",
+      "sha256": "220778c6ccbf7620ba130b271bf69c4a6961b5e9c49f5018e63fb4def12aeb37",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04066/?annotation=hmm",
+      "gathering_threshold": "23.3 23.3;"
+    },
+    {
+      "accession": "PF04324",
+      "versioned_accession": "PF04324.21",
+      "profile": "Fer2_BFD",
+      "description": "BFD-like [2Fe-2S] binding domain",
+      "sha256": "c0fbede1978afadea0f9bd6268ecbdc4815de7f6eafe8844c81eddcd2f574736",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04324/?annotation=hmm",
+      "gathering_threshold": "26 26;"
+    },
+    {
+      "accession": "PF04422",
+      "versioned_accession": "PF04422.19",
+      "profile": "FrhB_FdhB_N",
+      "description": "Coenzyme F420 hydrogenase/dehydrogenase, beta subunit N-term",
+      "sha256": "5cb5c30e025dd90228a1e14c032ad9046661a493b7a848de2a819bd4ad421d14",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04422/?annotation=hmm",
+      "gathering_threshold": "22 22;"
+    },
+    {
+      "accession": "PF04432",
+      "versioned_accession": "PF04432.19",
+      "profile": "FrhB_FdhB_C",
+      "description": "Coenzyme F420 hydrogenase/dehydrogenase, beta subunit C terminus",
+      "sha256": "adfb5056c2369cd1d31a574192b6eb0997d78fd70b61a54e10b956dc404eca09",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04432/?annotation=hmm",
+      "gathering_threshold": "23.3 23.3;"
+    },
+    {
+      "accession": "PF04809",
+      "versioned_accession": "PF04809.19",
+      "profile": "HupH_C",
+      "description": "HupH hydrogenase expression protein, C-terminal conserved region",
+      "sha256": "5dc3168b86c0f685d929b1a55a64c4b2ce15e2e8a0ee0575ae8bb6abbbbb76cb",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04809/?annotation=hmm",
+      "gathering_threshold": "23 23;"
+    },
+    {
+      "accession": "PF04879",
+      "versioned_accession": "PF04879.22",
+      "profile": "Molybdop_Fe4S4",
+      "description": "Molybdopterin oxidoreductase Fe4S4 domain",
+      "sha256": "adf3e3695a91e515b4efa924427c22990d528d97ff5c0a96166869b47526ff68",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04879/?annotation=hmm",
+      "gathering_threshold": "22.7 22.7;"
+    },
+    {
+      "accession": "PF07449",
+      "versioned_accession": "PF07449.18",
+      "profile": "HyaE",
+      "description": "Hydrogenase-1 expression protein HyaE",
+      "sha256": "b50b596a546f2b90861bcca87ca902bbf80ef2f933d8118c76838e335076f409",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07449/?annotation=hmm",
+      "gathering_threshold": "22 22;"
+    },
+    {
+      "accession": "PF07450",
+      "versioned_accession": "PF07450.17",
+      "profile": "HycH",
+      "description": "Formate hydrogenlyase maturation protein HycH",
+      "sha256": "b10ff69daf8fd384dddeedef064e9755a37495cc91fa893639c2abcb674c0fae",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07450/?annotation=hmm",
+      "gathering_threshold": "25 25;"
+    },
+    {
+      "accession": "PF07503",
+      "versioned_accession": "PF07503.18",
+      "profile": "zf-HYPF",
+      "description": "HypF finger",
+      "sha256": "093f4dce7e296b16c3c5014d22083c0ac43ada11e02123c8035f4ad99cc59323",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07503/?annotation=hmm",
+      "gathering_threshold": "23 23;"
+    },
+    {
+      "accession": "PF07568",
+      "versioned_accession": "PF07568.19",
+      "profile": "HisKA_2",
+      "description": "Histidine kinase",
+      "sha256": "21d09e3f6e31c2a5ad897ae1aba30f744fe67f494521cbf5fe57a2a869b971c0",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07568/?annotation=hmm",
+      "gathering_threshold": "22.3 22.3;"
+    },
+    {
+      "accession": "PF07730",
+      "versioned_accession": "PF07730.20",
+      "profile": "HisKA_3",
+      "description": "Histidine kinase",
+      "sha256": "ad3367d9da0afd3cdfd72cb36df0e9c192cb26d9d2953a80b774b649ffeeb22f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07730/?annotation=hmm",
+      "gathering_threshold": "24 24;"
+    },
+    {
+      "accession": "PF07849",
+      "versioned_accession": "PF07849.17",
+      "profile": "HMP",
+      "description": "Helical membrane plugin",
+      "sha256": "d90aa39be5b3e8242f16339e605559cd64ed82b527031cbeed1c3c1b3521c420",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07849/?annotation=hmm",
+      "gathering_threshold": "21 21;"
+    },
+    {
+      "accession": "PF07992",
+      "versioned_accession": "PF07992.21",
+      "profile": "Pyr_redox_2",
+      "description": "Pyridine nucleotide-disulphide oxidoreductase",
+      "sha256": "e768962754c5106662303465cc05dd57fc974aa0b1460017702b7643adc717a6",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07992/?annotation=hmm",
+      "gathering_threshold": "26.1 26.1;"
+    },
+    {
+      "accession": "PF09163",
+      "versioned_accession": "PF09163.17",
+      "profile": "Form-deh_trans",
+      "description": "Formate dehydrogenase N, transmembrane",
+      "sha256": "16056346bbee2517bd0f17f2dfc1480ae773d31ef800ff67bacc2e7d70fa1f0b",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF09163/?annotation=hmm",
+      "gathering_threshold": "22.1 22.1;"
+    },
+    {
+      "accession": "PF09877",
+      "versioned_accession": "PF09877.15",
+      "profile": "EhaL",
+      "description": "Energy-converting hydrogenase subunit EhaL",
+      "sha256": "af0f560d0fe68bf72250ded7deaedd5dc94bcd02cbf485a49a65c3661f0f1806",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF09877/?annotation=hmm",
+      "gathering_threshold": "23.8 23.8;"
+    },
+    {
+      "accession": "PF10418",
+      "versioned_accession": "PF10418.15",
+      "profile": "DHODB_Fe-S_bind",
+      "description": "Iron-sulfur cluster binding domain of dihydroorotate dehydrogenase B",
+      "sha256": "9213404bdd771e93c41f19c531d552949419919a5fbfc07ff409f44b9c2df412",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF10418/?annotation=hmm",
+      "gathering_threshold": "23.9 23.9;"
+    },
+    {
+      "accession": "PF10531",
+      "versioned_accession": "PF10531.16",
+      "profile": "SLBB",
+      "description": "SLBB domain",
+      "sha256": "b41b99e89c5e4c7502e565bd8efcb3e69af1f18e8037a69ddfab7c9a18c2d774",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF10531/?annotation=hmm",
+      "gathering_threshold": "27 15;"
+    },
+    {
+      "accession": "PF10588",
+      "versioned_accession": "PF10588.15",
+      "profile": "NADH-G_4Fe-4S_3",
+      "description": "NADH-ubiquinone oxidoreductase-G iron-sulfur binding region",
+      "sha256": "dfea5a5f815baff8fe065ee79e3ae87a4b8afe9e8faee4a87210817f63aaba36",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF10588/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF10589",
+      "versioned_accession": "PF10589.15",
+      "profile": "NADH_4Fe-4S",
+      "description": "NADH-ubiquinone oxidoreductase-F iron-sulfur binding region",
+      "sha256": "406a0e7da9a5f6c4c22d6fd4f9705c0125185775f1d020f9e728901dbfc501ba",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF10589/?annotation=hmm",
+      "gathering_threshold": "23.5 23.5;"
+    },
+    {
+      "accession": "PF10621",
+      "versioned_accession": "PF10621.15",
+      "profile": "FpoO",
+      "description": "F420H2 dehydrogenase subunit FpoO",
+      "sha256": "0b75d219a032679c0f8bfc7cc222b3f44bd169d4a83f92e69b959fe79bbf3173",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF10621/?annotation=hmm",
+      "gathering_threshold": "25.2 25.2;"
+    },
+    {
+      "accession": "PF11844",
+      "versioned_accession": "PF11844.14",
+      "profile": "DUF3364",
+      "description": "Domain of unknown function (DUF3364)",
+      "sha256": "44e553c78cf82380527eea49f557b7cd1795b49756d863d634aee1b76666ce93",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF11844/?annotation=hmm",
+      "gathering_threshold": "27.4 27.4;"
+    },
+    {
+      "accession": "PF11939",
+      "versioned_accession": "PF11939.14",
+      "profile": "NiFe-hyd_HybE",
+      "description": "[NiFe]-hydrogenase assembly, chaperone, HybE",
+      "sha256": "84c75122361339f5d205d6c7976e233555e8f7bec0b3fca36dc3915999b7febc",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF11939/?annotation=hmm",
+      "gathering_threshold": "25 25;"
+    },
+    {
+      "accession": "PF12797",
+      "versioned_accession": "PF12797.13",
+      "profile": "Fer4_2",
+      "description": "4Fe-4S binding domain",
+      "sha256": "6dea0a49dac2ef6e4f192655c54f3651078f952ce5185cbf537ded7092517120",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12797/?annotation=hmm",
+      "gathering_threshold": "24.5 24.5;"
+    },
+    {
+      "accession": "PF12800",
+      "versioned_accession": "PF12800.13",
+      "profile": "Fer4_4",
+      "description": "4Fe-4S binding domain",
+      "sha256": "14ae885945f5bcc822ab2deac9a8677de6693fe501249b29f58159d445157ff3",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12800/?annotation=hmm",
+      "gathering_threshold": "24 10;"
+    },
+    {
+      "accession": "PF12831",
+      "versioned_accession": "PF12831.14",
+      "profile": "FAD_oxidored",
+      "description": "FAD dependent oxidoreductase",
+      "sha256": "91736acc889f5b7984055ab7785917c73b53a663f7be68b18a307c951a19b4c9",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12831/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF12838",
+      "versioned_accession": "PF12838.13",
+      "profile": "Fer4_7",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "0835dd2b98d6151822937d1bed2b727ef9ee220a2182e720a2f0e2ecc055ef23",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12838/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF13183",
+      "versioned_accession": "PF13183.12",
+      "profile": "Fer4_8",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "ecbd0398088d7e66f07482de891d46979599d23726bc3159dd3cc88ff5f34328",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13183/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF13187",
+      "versioned_accession": "PF13187.12",
+      "profile": "Fer4_9",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "d2b133fd9547619578b25166a1880a84c094ad819040a04ccc575c5b1b25adca",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13187/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF13237",
+      "versioned_accession": "PF13237.12",
+      "profile": "Fer4_10",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "95e9b6fd5e61f77718d200d0528894e59113a5b7fb20e92f3f5d644defa726b5",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13237/?annotation=hmm",
+      "gathering_threshold": "25.5 24.6;"
+    },
+    {
+      "accession": "PF13244",
+      "versioned_accession": "PF13244.12",
+      "profile": "MbhD",
+      "description": "MBH, subunit D",
+      "sha256": "d4114301d7b98aa1968576044b1a2ffffa00fab2e1074724ed77ec408c4f9bf2",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13244/?annotation=hmm",
+      "gathering_threshold": "27.2 27.2;"
+    },
+    {
+      "accession": "PF13247",
+      "versioned_accession": "PF13247.12",
+      "profile": "Fer4_11",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "cf4498c81715c7512fd03c9d2cc2f6707290bd3049faee5b8c7ce33397cc40d0",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13247/?annotation=hmm",
+      "gathering_threshold": "26.2 26.2;"
+    },
+    {
+      "accession": "PF13450",
+      "versioned_accession": "PF13450.13",
+      "profile": "NAD_binding_8",
+      "description": "NAD(P)-binding Rossmann-like domain",
+      "sha256": "1b520f9396e539f1069387e436e6d433d20a40813df5406eae3b373a78a20c45",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13450/?annotation=hmm",
+      "gathering_threshold": "21.9 21.9;"
+    },
+    {
+      "accession": "PF13510",
+      "versioned_accession": "PF13510.12",
+      "profile": "Fer2_4",
+      "description": "2Fe-2S iron-sulfur cluster binding domain",
+      "sha256": "b4f78117a49a8edd4bd0d05bb1865497f947df6ec7526a5ae855f1ccadaebdd2",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13510/?annotation=hmm",
+      "gathering_threshold": "22.8 22.8;"
+    },
+    {
+      "accession": "PF14537",
+      "versioned_accession": "PF14537.12",
+      "profile": "Cytochrom_c3_2",
+      "description": "Cytochrome c3",
+      "sha256": "f6dde28ae86a0b5cbea80344c8ab28ca18ecb9fcfd59c6b74fe13e40556eb110",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14537/?annotation=hmm",
+      "gathering_threshold": "25 25;"
+    },
+    {
+      "accession": "PF14691",
+      "versioned_accession": "PF14691.12",
+      "profile": "Fer4_20",
+      "description": "Dihydroprymidine dehydrogenase domain II, 4Fe-4S cluster",
+      "sha256": "b24b93b23289c7a82b50375949b7cb71ee20a1ca3cc1f0d968f1bfaae50526d8",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14691/?annotation=hmm",
+      "gathering_threshold": "25.8 25.8;"
+    },
+    {
+      "accession": "PF14697",
+      "versioned_accession": "PF14697.12",
+      "profile": "Fer4_21",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "45af88b744fe6d4420935ca83ff87f8b30d2c751cd1f41a9b2d33ce517a65dfd",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14697/?annotation=hmm",
+      "gathering_threshold": "35 35;"
+    },
+    {
+      "accession": "PF14720",
+      "versioned_accession": "PF14720.12",
+      "profile": "NiFe_hyd_SSU_C",
+      "description": "NiFe/NiFeSe hydrogenase small subunit C-terminal",
+      "sha256": "bba07cbdb0609592229ddf403e586494f85efe3e99429ad0effadd6026df6fd3",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14720/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF16884",
+      "versioned_accession": "PF16884.11",
+      "profile": "ADH_N_2",
+      "description": "N-terminal domain of oxidoreductase",
+      "sha256": "7404c0ffcd1213a30d8c1e11970b779a38b0a732d86000c0353fb04ed725c501",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF16884/?annotation=hmm",
+      "gathering_threshold": "31 31;"
+    },
+    {
+      "accession": "PF17179",
+      "versioned_accession": "PF17179.10",
+      "profile": "Fer4_22",
+      "description": "4Fe-4S dicluster domain",
+      "sha256": "2d065df578b12a46ffc9649d49ed9de956cbd6283872741545016b45dcaa1a0d",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17179/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF17275",
+      "versioned_accession": "PF17275.8",
+      "profile": "DUF5340",
+      "description": "Family of unknown function (DUF5340)",
+      "sha256": "cbdb4a1366ab43b15926046d88b54eba08439eaa18d067609956162e0904b671",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17275/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF17367",
+      "versioned_accession": "PF17367.8",
+      "profile": "NiFe_hyd_3_EhaA",
+      "description": "NiFe-hydrogenase-type-3 Eha complex subunit A",
+      "sha256": "d51e41d370f397f3afeb73f8ac6fef85b9c508e717d087ca3e32e81554c1f40d",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17367/?annotation=hmm",
+      "gathering_threshold": "25.5 25.5;"
+    },
+    {
+      "accession": "PF17788",
+      "versioned_accession": "PF17788.8",
+      "profile": "HypF_C",
+      "description": "HypF Kae1-like domain",
+      "sha256": "b2e784a1e7a48daafdfcf2665c3375364cea02653e556c3109f540364a0f847e",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17788/?annotation=hmm",
+      "gathering_threshold": "23 23;"
+    },
+    {
+      "accession": "PF18537",
+      "versioned_accession": "PF18537.7",
+      "profile": "CODH_A_N",
+      "description": "Carbon monoxide dehydrogenase subunit alpha N-terminal domain",
+      "sha256": "b416d93811df33adf05133c818cb0741640f9ba05b5ec5a873fa64e94e62b897",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF18537/?annotation=hmm",
+      "gathering_threshold": "32.2 32.2;"
+    },
+    {
+      "accession": "PF19436",
+      "versioned_accession": "PF19436.5",
+      "profile": "ACS_CODH_B_C",
+      "description": "ACS/CODH beta subunit C-terminal",
+      "sha256": "9585b1c9883fc4d1afd2c7eb38dea451fa491356c1450b6a4de0b71abae58b28",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF19436/?annotation=hmm",
+      "gathering_threshold": "25 25;"
+    },
+    {
+      "accession": "PF20256",
+      "versioned_accession": "PF20256.4",
+      "profile": "MoCoBD_2",
+      "description": "Molybdopterin cofactor-binding domain",
+      "sha256": "44c7fbff1b0130d6367c343d661ede163a58ce4d2f49085dfc6d156feac4a031",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF20256/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF20501",
+      "versioned_accession": "PF20501.4",
+      "profile": "MbhE",
+      "description": "MBH, subunit E",
+      "sha256": "03db3440afdab0a797b23091d19ff5ab4b90e61efade9a9d4dd54cebd2d23750",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF20501/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF20543",
+      "versioned_accession": "PF20543.4",
+      "profile": "CowN",
+      "description": "N2-fixation sustaining protein CowN",
+      "sha256": "2738657f3314d10347d1ba2f0381e57ed6d47e9f6eec775aaa6d8e0e50bcbace",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF20543/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF22117",
+      "versioned_accession": "PF22117.3",
+      "profile": "Fer4_Nqo3",
+      "description": "NADH-quinone oxidoreductase subunit 3, ferredoxin-like domain",
+      "sha256": "f20e3e8167f6e792672ed9b0b37e1b0980167d906075b5b482587e7b59766a55",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF22117/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF22521",
+      "versioned_accession": "PF22521.3",
+      "profile": "HypF_C_2",
+      "description": "Carbamoyltransferase, Kae1-like Domain, second subdomain",
+      "sha256": "80243af699d013b91a1910517bb14a76ac24988c71db71586df59a8284b7aa6f",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF22521/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF22609",
+      "versioned_accession": "PF22609.2",
+      "profile": "Fe_hydrogense_Fe-S_bd",
+      "description": "Iron hydrogenase 1-like, iron-sulfur centre-binding domain",
+      "sha256": "174b1f04425b15110586c876ac4c32eb0119d9663d3c8d8f596971c110f56399",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF22609/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF22616",
+      "versioned_accession": "PF22616.3",
+      "profile": "HMD_N",
+      "description": "HMD N-terminal domain",
+      "sha256": "bc5f2b95e900cf1ef1f6f39d41378741cc431c07ad5f02f685c998d99fee0cd3",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF22616/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF25601",
+      "versioned_accession": "PF25601.2",
+      "profile": "AAA_lid_14",
+      "description": "AAA+ ATPase lid domain",
+      "sha256": "4674be6fbf7b13e7b719999f1695561c56c1794ec965873dcd07116229b49596",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF25601/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF27536",
+      "versioned_accession": "PF27536.1",
+      "profile": "UbiB_helical",
+      "description": "UbiB helical domain",
+      "sha256": "4c23b09221e620b49bf3d8df9a30c6321e5d53c5d590a4b2e688e7430235f9dd",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF27536/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF27537",
+      "versioned_accession": "PF27537.2",
+      "profile": "HoxH",
+      "description": "HoxL-like",
+      "sha256": "caf45584823bbf9aedf9bc73714af050248ec6964ed8e34ddeb9cf0f2c0dfbc7",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF27537/?annotation=hmm",
+      "gathering_threshold": "21.4 21.4;"
+    },
+    {
+      "accession": "PF30025",
+      "versioned_accession": "PF30025.1",
+      "profile": "HdrE",
+      "description": "Dihydromethanophenazine:CoB--CoM heterodisulfide reductase subunit E",
+      "sha256": "1dd96041e0bc2458963508b2be2dac63f75256a1cd02980b99fb4d674d49d1af",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF30025/?annotation=hmm",
+      "gathering_threshold": "63 63;"
+    },
+    {
+      "accession": "PF30371",
+      "versioned_accession": "PF30371.1",
+      "profile": "HyfI_C",
+      "description": "Hydrogenase-4 component I, C-terminal domain",
+      "sha256": "4f904f1e7f2aee5a872f8e5de46c9b71f553ea5fc92bc71acf5688d6d17fa10b",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF30371/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF30649",
+      "versioned_accession": "PF30649.1",
+      "profile": "ABC1_C",
+      "description": "ABC1/UbiB kinase-like C-terminal domain",
+      "sha256": "6a79e655b5a218f4ec11a9b1babcbcca07e8c2dab76a62ed658a4da918f4088d",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF30649/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    },
+    {
+      "accession": "PF31091",
+      "versioned_accession": "PF31091.1",
+      "profile": "HyfR_N",
+      "description": "HyfR-like sigma-54 activator N-terminal domain",
+      "sha256": "a5f1cfbd1be14ebbe72344505212dc7080da6fbd4c12a2fa83d6b269583c6c6b",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF31091/?annotation=hmm",
+      "gathering_threshold": "27 27;"
+    }
+  ],
+  "min_model_coverage": 0.7,
+  "chain_policy": {
+    "max_extra_query_gap_model_fraction": 1.0
+  },
+  "source_files": {
+    "references/raw/reference_domain_review/additional_model_download_manifest.json": "ed0231adb877d7ea5a3b24263834e9833d77f762276c13a014cf016492d2b772",
+    "references/raw/reference_domain_review/additional_source_plan.json": "cf8ed11ce6faedb451853c55b26f0f0ee2a5fed8b4307848e91a4c36ea007cd3",
+    "references/raw/reference_domain_review/download_manifest.json": "95a829238eb065074fb6c7b74ef0a73dff6fdf549d8cac1eebc38907e5a341d1",
+    "references/raw/reference_domain_review/histidine_kinase_download_manifest.json": "10b9bafc555642c2fa886455813713ea0e3830723d82b445253363926a7ea5c9",
+    "references/raw/reference_domain_review/histidine_kinase_source_plan.json": "6780501879b048bd92087edfe73fb47d92ea418eb38388e0d35f044df6da83b3",
+    "references/raw/reference_domain_review/regulatory_model_source_plan.json": "ade2311c20ae455af675ced0be233aa7cbb4649c9addecfd2c6e0c00562d6951",
+    "references/raw/reference_domain_review/reviewed_partner_sources_page1.json": "3d2265dc8b9327329a40212e124d32013b33e0ca8f6ea3281db80ad346cf77df",
+    "references/raw/reference_domain_review/reviewed_partner_sources_page2.json": "deb3790f8436b2b78bdc153218e7c61b937164c218189971c6414778dacc9aef",
+    "references/raw/reference_domain_review/reviewed_regulatory_cytochrome_sources.json": "42408ab64780259abd022b56d950a6ff71abfe399a4b94d08764c8c5900cb8f5",
+    "references/raw/reference_domain_review/source_plan.json": "d5ee81530dfb0b1a014d27f108818a689fa5f36d96f446961d46298d1f287676",
+    "references/raw/reference_domain_review/structure_model_download_manifest.json": "7798db4ec47639ab7fe2c65bc01cea04069d034880cb4cc8dfc955923f3c5386",
+    "references/raw/reference_domain_review/structure_model_source_plan.json": "9a8f8c427fba3a4bab4ac2e7fb60fb48a793bb8146ee24330fa6695e94826c0b",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATG3.json": "62469e80b09f4730852644c56614454e7c93cf631a2332680c2dc5d9ca775524",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATG4.json": "ff458e4cd70bde5614c16ab3d74ee1cc0eeb8b6f5796d9d60d13b02bdf1da8c3",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATI0.json": "9a8d1cdb9b940b3d98f6b438afcd107a37cb9b07fcbe8823fc105e1e41833a40",
+    "references/raw/reference_domain_review/structure_uniprot/A0QUM5.json": "e76137227ec6d1a56bd4ff9cda675290fbcad8b375dd6c3cdf8eab59e9970def",
+    "references/raw/reference_domain_review/structure_uniprot/A0QUM7.json": "8d5ddb3fdfffbbfcdafbf0c2cbcfbb7b43923c1b0b49933312e7bb6ff7dfb323",
+    "references/raw/reference_domain_review/structure_uniprot/A6UVT1.json": "c7f09f78ab0021b008f3aecd717510893adaa145e88a1f2bd21345b1fbc31db6",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF6.json": "8de779678904a836cb5585624c7f5d69a194fef45d42828c457f73a6d16b48e4",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF7.json": "7c2d9b3c55962b9eeb5c46c092d6c73a417f4242ec0174727a1852ccaf18d66f",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF9.json": "b3750e4daf97a26a19b4db50b95888dc7f1c702d77e4a2dcc1e1b0a07e9c9179",
+    "references/raw/reference_domain_review/structure_uniprot/E7FHU4.json": "64aba649fe55abbddca44718be7faf42cf70165b173ab0f02d46447f35cc6084",
+    "references/raw/reference_domain_review/structure_uniprot/E7FI44.json": "35b710ea87fc39139320a8212fdbb20df4b01dfc7bf7f1adee11c48d862f68e3",
+    "references/raw/reference_domain_review/structure_uniprot/F2Z6J5.json": "14b0db61adeabc74806a38df8606e247e5584077e967ffd1275339ff24d940e3",
+    "references/raw/reference_domain_review/structure_uniprot/F2Z6J6.json": "eae584b1400089756fc0b3452325de043086c90aef864822b66c97653aa90e45",
+    "references/raw/reference_domain_review/structure_uniprot/G4FFG0.json": "52bef3851f060bd64776d15661a818c2eba410de9e47d7f1d25a56e9442b68b8",
+    "references/raw/reference_domain_review/structure_uniprot/G4FFG1.json": "006e6f357ed2ca68a53a48bf177dffaeece405b0f4f19069c623b7cb99a2d66a",
+    "references/raw/reference_domain_review/structure_uniprot/H6LFG3.json": "3242516f5e3bdc52c2db3503434c8a79b9d8e9c25918d25eadf95f660c85a8dc",
+    "references/raw/reference_domain_review/structure_uniprot/H6LFG4.json": "3b6e97c1c65792de83954eb288587a8699e8da457c114275fe87d6ee4f377c91",
+    "references/raw/reference_domain_review/structure_uniprot/I6TXN1.json": "1a0411d48a6b8b686359f440ee05ce9c1c0e92a36e55355e1d0bc8c28fee8390",
+    "references/raw/reference_domain_review/structure_uniprot/I6TXN5.json": "910c620e906920bb0c5948ab73d7a4342465000aabfac7684a7b7eabdbc00051",
+    "references/raw/reference_domain_review/structure_uniprot/I6U847.json": "599a4d659f06e25128b693c57080d924c614e76762f9870f64d575044a7b22e0",
+    "references/raw/reference_domain_review/structure_uniprot/I6U851.json": "a3ca8820cde2e586d6b661c90e98300e7b298ad053290e761ccec7a0258398ac",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQL1.json": "17d73c7549bb53ee2484e6dea071c6138eda41dce27a921c4a2d43029d51e8bd",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQL5.json": "f0cd1351146b6db3fd4a8d4765681baf63d1da1796c19ffc9bcf5179fe1ddbca",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQM0.json": "62fef4fa4cace6945f48704ab350d597fdd825e62bcb624ad29191c3d2435fa0",
+    "references/raw/reference_domain_review/structure_uniprot/I6UZT7.json": "18d294d0133e3ee86b68ba214c5e5b5084a1ecdecbd899f748ce4010adf745ca",
+    "references/raw/reference_domain_review/structure_uniprot/I6UZU1.json": "1c1dad697c91ed5d59d7341c08c68d256ee2e389670022e15d9d6555ba8463d4",
+    "references/raw/reference_domain_review/structure_uniprot/I6V287.json": "e76d674894b8be9b1585213b563e5512d56f13609c5755f7367950faefb667c7",
+    "references/raw/reference_domain_review/structure_uniprot/I7G634.json": "32ef9e37f05e20d6ca7f51ad2f8f7643a09aed47a7d4aeb68087a8caaa2f2b41",
+    "references/raw/reference_domain_review/structure_uniprot/P07598.json": "b4ae797fe88bf0e82c49e4c82908920262b19921defa82d2aea2faac424bc5ee",
+    "references/raw/reference_domain_review/structure_uniprot/P07603.json": "338e8965a03ced481ff261025232c4456b6b4eca259b7e4b6b6aa71fbd900734",
+    "references/raw/reference_domain_review/structure_uniprot/P0AAK1.json": "2c19546f356522a314de34e97a0e2171ce2dae36ba2823e9e09ccf07a3eb3a10",
+    "references/raw/reference_domain_review/structure_uniprot/P0ACD8.json": "0dcae9afb097418eb378ef7d97babeada5b1bfa5d53b65b4c63483e6db913022",
+    "references/raw/reference_domain_review/structure_uniprot/P0ACE0.json": "44ceaca1369d240bbf9241794f581d895b188ef3db3f296cd2907d360ff49add",
+    "references/raw/reference_domain_review/structure_uniprot/P13063.json": "276db4b3a0a1eaeaaf3e8c35df593cd170ee303480acd1a00a0bc32c9e90e0f7",
+    "references/raw/reference_domain_review/structure_uniprot/P13065.json": "a0079ca9c8eb2a4b0920bda8267b892245a32e1b61324c510e34314fa2a8f09e",
+    "references/raw/reference_domain_review/structure_uniprot/P16429.json": "1c07c34d28631233bd51048ea706e2a20cbc7cc04f674af744b3f6ec274a04a7",
+    "references/raw/reference_domain_review/structure_uniprot/P16430.json": "f91c5823864ad3aef992d6f544ab3f9a5b00fb59b38971581cf0b8bc03eba89d",
+    "references/raw/reference_domain_review/structure_uniprot/P16431.json": "a86c6afd4c7f09d506bdd72bf1e7d1cfe4dc268b8419848777df6bfa201917ad",
+    "references/raw/reference_domain_review/structure_uniprot/P16432.json": "054b00cfa368f859083cbf7f68b1b48f5d18cfe970a1f4db8739f407136e5b87",
+    "references/raw/reference_domain_review/structure_uniprot/P16433.json": "c57f78aee77e4c710bd7e7ae65fa50ea0b4aec7ed9b5581562e72bbb1438a37d",
+    "references/raw/reference_domain_review/structure_uniprot/P18187.json": "ff9b70b10d53a18cbe9731abaf893e4534ff13ccc08a23634baae41fddc79927",
+    "references/raw/reference_domain_review/structure_uniprot/P18188.json": "9d7303352e30a20447f1fd6ab974d99f1b434cf846ea1fe15fef6e0198e7b573",
+    "references/raw/reference_domain_review/structure_uniprot/P29166.json": "24c82a8bf24c46f3494135dda89552eddc522c8d788da9701f7932774fe79c63",
+    "references/raw/reference_domain_review/structure_uniprot/P31891.json": "7a8007df10c5fe975e585d1573ae9eb7ca4cd479649e7ef9df38670f23d0a569",
+    "references/raw/reference_domain_review/structure_uniprot/P31892.json": "c21064e5284c4ddd13338661acb8d9ad5a359de2b4cf284f35e3a57daf7c99c5",
+    "references/raw/reference_domain_review/structure_uniprot/P69739.json": "dca5caf2fd9358baa599e414e13e5651ec262764f4bbd07fed0e9c933157ec79",
+    "references/raw/reference_domain_review/structure_uniprot/P69741.json": "4fc21a255ade8aaa183f1820c052dfa8ccae3ad919179aed3b62b78ce0afa94a",
+    "references/raw/reference_domain_review/structure_uniprot/Q58194.json": "92d02cfe0ab4364418050ce8b3a370139d88abe6d718efc138cfa89b9dceed11",
+    "references/raw/reference_domain_review/structure_uniprot/Q58734.json": "4db49010550f64029258a19838f78e5f07c4b82b87af5340bf936d5265ddc549",
+    "references/raw/reference_domain_review/structure_uniprot/Q7WXQ3.json": "33a8a74a1d8fed994155b2f9d725a3e5a61e5e5f1862b064853c03d4e81c463b",
+    "references/raw/reference_domain_review/structure_uniprot/Q7WXQ4.json": "15cc80563f2143862214409f039bc61f8183256aed12924da5b865f7c21ccc37",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z6.json": "e0695ab90bb85036123c0fe5bba2b37060a61cf1a4c0090f68cd72ee5e55f3d9",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z7.json": "b06005cd9a737d332ee4c985a42f4b408b6ea0a3146cb63c6a2bf306d969e2fd",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z8.json": "2b9b4e64b96f966f37d09e07317d997aae2b361cab478263465e6714bd0f4685",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U104.json": "32c019143aebea9792107d43b68d5ca1470fea66ab8e2db4409a856a4c0356ab",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U2E4.json": "330de5ffec47fd952cd33a3b600d87191286ab1ccf63a84fee2a4d8cb89dc214",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U2E5.json": "4a328c95cb57bed336ff9cc96ba80ef19b78cf95cbc77012cf8b0e95fa03f89c",
+    "references/raw/reference_domain_review/structure_uniprot/Q9S5X7.json": "e0a9d048672d0382e26bffb904751cc2809595cf67d175ac81dd0aea41050fe7",
+    "references/raw/reference_domain_review/structure_uniprot_manifest.json": "95ea3cf225e3a5eaf322e3e9c3aed5f71de37612b1ad9a55cfeceddd888954b0",
+    "references/raw/reference_domain_review/structure_uniprot_source_plan.json": "4a539e9382dc8cf6eec5f1d3274fc1f9b9c5df92a55b7dfd0f9b7c8027952890"
+  },
+  "structural_fasta": "references/curation/structural_entities.faa",
+  "structural_fasta_sha256": "32e41717a1c36906e9997c7bd12ed6d851acbda9be172abb9fa165b2bf4cf3c0",
+  "structural_sources": {
+    "1FEH": {
+      "path": "references/raw/structures/1FEH.cif",
+      "sha256": "f3d7496007989185aac27ed99aca88f35414d63263e23a333a4c641a6a5b197c"
+    },
+    "3AYX": {
+      "path": "references/raw/structures/3AYX.cif",
+      "sha256": "0a37c585c20452b6595536b0b1ef9c522667320740232d9597b48aef168cf0f8"
+    },
+    "3RGW": {
+      "path": "references/raw/structures/3RGW.cif",
+      "sha256": "adfa4593aff5c8e6eeb3d83a461c76631c44ecda5da0e8b13faa4885e7b106b3"
+    },
+    "3UQY": {
+      "path": "references/raw/structures/3UQY.cif",
+      "sha256": "15e0c2a36ef31041f7d37085d60ff88be62bdd7ca4f4bbea884415930a30b812"
+    },
+    "4CI0": {
+      "path": "references/raw/structures/4CI0.cif",
+      "sha256": "4816d44c6c92b0e8344c4b27b82972e977ad2fe4375e711833596a5b06034ff4"
+    },
+    "5AA5": {
+      "path": "references/raw/structures/5AA5.cif",
+      "sha256": "cd3954790e32adc248a3dc18f76411865b3e5d73c501f7d81e1c08be8b7b0d50"
+    },
+    "5ODC": {
+      "path": "references/raw/structures/5ODC.cif",
+      "sha256": "e81a13cf21d506ab2aaf9ea305ace31a199310e83fdc6379ab3014259961caf9"
+    },
+    "6EHQ": {
+      "path": "references/raw/structures/6EHQ.cif",
+      "sha256": "d2dba0b3d5cc6bb0a0c79437a4640fba4cf18c88e5942ea19a40aeaa95dbf52b"
+    },
+    "7P92": {
+      "path": "references/raw/structures/7P92.cif",
+      "sha256": "c8b676cc61f7158e6efa71e5b0e22373735fa867c1c46ef96fcc201784593a92"
+    },
+    "7Q4V": {
+      "path": "references/raw/structures/7Q4V.cif",
+      "sha256": "fcd3abb2df527478f99eaff03665fd22b24f02cd63f6a74e2621c09f6649f754"
+    },
+    "7UTD": {
+      "path": "references/raw/structures/7UTD.cif",
+      "sha256": "fd02a831f83ed129db1412c5a0508f96688e367a163ffa58e91a5aab4816baea"
+    },
+    "8BEW": {
+      "path": "references/raw/structures/8BEW.cif",
+      "sha256": "ea6bcf582ba0f2f046dc5ad4a9fc187e601fc5c5189bb099880e29314002fa61"
+    },
+    "1CC1": {
+      "path": "references/raw/catalytic_structures/1CC1.cif",
+      "sha256": "0f3f8203567eb8ef68f354c01ac825c5083f89eac509e9657c02e10430d23ca1"
+    },
+    "1FRF": {
+      "path": "references/raw/catalytic_structures/1FRF.cif",
+      "sha256": "5b417de4e9556b6a9bab3cdef8c7f30f1ca2a63b6c715e9654afc055c78955a8"
+    },
+    "1HFE": {
+      "path": "references/raw/catalytic_structures/1HFE.cif",
+      "sha256": "f47583fde3f3713f0964edbba195e7857937363303f70611cab3b2ad66c16251"
+    },
+    "3F46": {
+      "path": "references/raw/catalytic_structures/3F46.cif",
+      "sha256": "0c61f368353171423b03d6206adea1cb20dd01c6dc49a941b77a5d635ef553ca"
+    },
+    "3F47": {
+      "path": "references/raw/catalytic_structures/3F47.cif",
+      "sha256": "e728b2946886d7a2dcc2755d1c32d84df58ba4cf2e773c5090a9b008b7285e0f"
+    },
+    "4YT2": {
+      "path": "references/raw/catalytic_structures/4YT2.cif",
+      "sha256": "9766e80bd1550f10d5b6c361548fb04f1f0c2bde99eb71af920bad7cd237a6e5"
+    },
+    "6CFW": {
+      "path": "references/raw/catalytic_structures/6CFW.cif",
+      "sha256": "a8149269cda1dbdbd4d5cc97fff85a8b04e32c2bf0e9f9654e6a22f5730277b4"
+    },
+    "6HAV": {
+      "path": "references/raw/catalytic_structures/6HAV.cif",
+      "sha256": "3043fc61266cba273ef3f743f742b7c538f9713dec76fa92196f26214596e7e0"
+    },
+    "7Z0S": {
+      "path": "references/raw/catalytic_structures/7Z0S.cif",
+      "sha256": "5ae8ca54373bada3b2af12c4eeae399be68973d7dbff2ae888b032e78d7a0c9b"
+    },
+    "9E1J": {
+      "path": "references/raw/catalytic_structures/9E1J.cif",
+      "sha256": "e96f214ec3df67963159a07772cec07ca41d34a75af4b6e4482e535fe92e6f57"
+    },
+    "9NEZ": {
+      "path": "references/raw/catalytic_structures/9NEZ.cif",
+      "sha256": "49d7598d787aad27740e9b36dceabb62de54f7db6fe5465090532f76d232d20b"
+    }
+  },
+  "curated_fasta": "references/curation/source_proteins.faa",
+  "curated_fasta_sha256": "2dae01bd3543111002a530bf0db1992b4e9a1705e9a4dc24e840e7fc9f310dd6",
+  "curated_source_audit": "references/curation/curated_source_audit.json",
+  "curated_source_audit_sha256": "f4ed6b6b7ffc50c193c940eafb70808bb5ac54d6801de9ddcb82545f374e1e0e",
+  "curated_source_files": {
+    "references/raw/validation_corpus/reviewed_hydrogenase_page1.json": "bab8cc6c2fb5cb6f3661641cf87f557cf80c34d8e979496cb1e9cdddfee4167a",
+    "references/raw/validation_corpus/reviewed_catalytic_domains.json": "548ea705516fdf10adab23a2010de79817928c940efbe2d50dd506a18645d290",
+    "references/raw/validation_corpus/reviewed_complexI.json": "432c0f7d24a1bd3550f7b9b75b3a9649aa91cbf08ee763ad5bed7be4b108d15e",
+    "references/raw/validation_corpus/reviewed_non_catalytic_homologs.json": "6872eaa6cf877fa8f5374e3fc00d222a0c6a18cb63191bc90e6aa6e27b9cd87f",
+    "references/raw/reference_domain_review/reviewed_partner_sources_page1.json": "3d2265dc8b9327329a40212e124d32013b33e0ca8f6ea3281db80ad346cf77df",
+    "references/raw/reference_domain_review/reviewed_partner_sources_page2.json": "deb3790f8436b2b78bdc153218e7c61b937164c218189971c6414778dacc9aef",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATG3.json": "62469e80b09f4730852644c56614454e7c93cf631a2332680c2dc5d9ca775524",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATG4.json": "ff458e4cd70bde5614c16ab3d74ee1cc0eeb8b6f5796d9d60d13b02bdf1da8c3",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATI0.json": "9a8d1cdb9b940b3d98f6b438afcd107a37cb9b07fcbe8823fc105e1e41833a40",
+    "references/raw/reference_domain_review/structure_uniprot/A0QUM5.json": "e76137227ec6d1a56bd4ff9cda675290fbcad8b375dd6c3cdf8eab59e9970def",
+    "references/raw/reference_domain_review/structure_uniprot/A0QUM7.json": "8d5ddb3fdfffbbfcdafbf0c2cbcfbb7b43923c1b0b49933312e7bb6ff7dfb323",
+    "references/raw/reference_domain_review/structure_uniprot/A6UVT1.json": "c7f09f78ab0021b008f3aecd717510893adaa145e88a1f2bd21345b1fbc31db6",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF6.json": "8de779678904a836cb5585624c7f5d69a194fef45d42828c457f73a6d16b48e4",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF7.json": "7c2d9b3c55962b9eeb5c46c092d6c73a417f4242ec0174727a1852ccaf18d66f",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF9.json": "b3750e4daf97a26a19b4db50b95888dc7f1c702d77e4a2dcc1e1b0a07e9c9179",
+    "references/raw/reference_domain_review/structure_uniprot/E7FHU4.json": "64aba649fe55abbddca44718be7faf42cf70165b173ab0f02d46447f35cc6084",
+    "references/raw/reference_domain_review/structure_uniprot/E7FI44.json": "35b710ea87fc39139320a8212fdbb20df4b01dfc7bf7f1adee11c48d862f68e3",
+    "references/raw/reference_domain_review/structure_uniprot/F2Z6J5.json": "14b0db61adeabc74806a38df8606e247e5584077e967ffd1275339ff24d940e3",
+    "references/raw/reference_domain_review/structure_uniprot/F2Z6J6.json": "eae584b1400089756fc0b3452325de043086c90aef864822b66c97653aa90e45",
+    "references/raw/reference_domain_review/structure_uniprot/G4FFG0.json": "52bef3851f060bd64776d15661a818c2eba410de9e47d7f1d25a56e9442b68b8",
+    "references/raw/reference_domain_review/structure_uniprot/G4FFG1.json": "006e6f357ed2ca68a53a48bf177dffaeece405b0f4f19069c623b7cb99a2d66a",
+    "references/raw/reference_domain_review/structure_uniprot/H6LFG3.json": "3242516f5e3bdc52c2db3503434c8a79b9d8e9c25918d25eadf95f660c85a8dc",
+    "references/raw/reference_domain_review/structure_uniprot/H6LFG4.json": "3b6e97c1c65792de83954eb288587a8699e8da457c114275fe87d6ee4f377c91",
+    "references/raw/reference_domain_review/structure_uniprot/I6TXN1.json": "1a0411d48a6b8b686359f440ee05ce9c1c0e92a36e55355e1d0bc8c28fee8390",
+    "references/raw/reference_domain_review/structure_uniprot/I6TXN5.json": "910c620e906920bb0c5948ab73d7a4342465000aabfac7684a7b7eabdbc00051",
+    "references/raw/reference_domain_review/structure_uniprot/I6U847.json": "599a4d659f06e25128b693c57080d924c614e76762f9870f64d575044a7b22e0",
+    "references/raw/reference_domain_review/structure_uniprot/I6U851.json": "a3ca8820cde2e586d6b661c90e98300e7b298ad053290e761ccec7a0258398ac",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQL1.json": "17d73c7549bb53ee2484e6dea071c6138eda41dce27a921c4a2d43029d51e8bd",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQL5.json": "f0cd1351146b6db3fd4a8d4765681baf63d1da1796c19ffc9bcf5179fe1ddbca",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQM0.json": "62fef4fa4cace6945f48704ab350d597fdd825e62bcb624ad29191c3d2435fa0",
+    "references/raw/reference_domain_review/structure_uniprot/I6UZT7.json": "18d294d0133e3ee86b68ba214c5e5b5084a1ecdecbd899f748ce4010adf745ca",
+    "references/raw/reference_domain_review/structure_uniprot/I6UZU1.json": "1c1dad697c91ed5d59d7341c08c68d256ee2e389670022e15d9d6555ba8463d4",
+    "references/raw/reference_domain_review/structure_uniprot/I6V287.json": "e76d674894b8be9b1585213b563e5512d56f13609c5755f7367950faefb667c7",
+    "references/raw/reference_domain_review/structure_uniprot/I7G634.json": "32ef9e37f05e20d6ca7f51ad2f8f7643a09aed47a7d4aeb68087a8caaa2f2b41",
+    "references/raw/reference_domain_review/structure_uniprot/P07598.json": "b4ae797fe88bf0e82c49e4c82908920262b19921defa82d2aea2faac424bc5ee",
+    "references/raw/reference_domain_review/structure_uniprot/P07603.json": "338e8965a03ced481ff261025232c4456b6b4eca259b7e4b6b6aa71fbd900734",
+    "references/raw/reference_domain_review/structure_uniprot/P0AAK1.json": "2c19546f356522a314de34e97a0e2171ce2dae36ba2823e9e09ccf07a3eb3a10",
+    "references/raw/reference_domain_review/structure_uniprot/P0ACD8.json": "0dcae9afb097418eb378ef7d97babeada5b1bfa5d53b65b4c63483e6db913022",
+    "references/raw/reference_domain_review/structure_uniprot/P0ACE0.json": "44ceaca1369d240bbf9241794f581d895b188ef3db3f296cd2907d360ff49add",
+    "references/raw/reference_domain_review/structure_uniprot/P13063.json": "276db4b3a0a1eaeaaf3e8c35df593cd170ee303480acd1a00a0bc32c9e90e0f7",
+    "references/raw/reference_domain_review/structure_uniprot/P13065.json": "a0079ca9c8eb2a4b0920bda8267b892245a32e1b61324c510e34314fa2a8f09e",
+    "references/raw/reference_domain_review/structure_uniprot/P16429.json": "1c07c34d28631233bd51048ea706e2a20cbc7cc04f674af744b3f6ec274a04a7",
+    "references/raw/reference_domain_review/structure_uniprot/P16430.json": "f91c5823864ad3aef992d6f544ab3f9a5b00fb59b38971581cf0b8bc03eba89d",
+    "references/raw/reference_domain_review/structure_uniprot/P16431.json": "a86c6afd4c7f09d506bdd72bf1e7d1cfe4dc268b8419848777df6bfa201917ad",
+    "references/raw/reference_domain_review/structure_uniprot/P16432.json": "054b00cfa368f859083cbf7f68b1b48f5d18cfe970a1f4db8739f407136e5b87",
+    "references/raw/reference_domain_review/structure_uniprot/P16433.json": "c57f78aee77e4c710bd7e7ae65fa50ea0b4aec7ed9b5581562e72bbb1438a37d",
+    "references/raw/reference_domain_review/structure_uniprot/P18187.json": "ff9b70b10d53a18cbe9731abaf893e4534ff13ccc08a23634baae41fddc79927",
+    "references/raw/reference_domain_review/structure_uniprot/P18188.json": "9d7303352e30a20447f1fd6ab974d99f1b434cf846ea1fe15fef6e0198e7b573",
+    "references/raw/reference_domain_review/structure_uniprot/P29166.json": "24c82a8bf24c46f3494135dda89552eddc522c8d788da9701f7932774fe79c63",
+    "references/raw/reference_domain_review/structure_uniprot/P31891.json": "7a8007df10c5fe975e585d1573ae9eb7ca4cd479649e7ef9df38670f23d0a569",
+    "references/raw/reference_domain_review/structure_uniprot/P31892.json": "c21064e5284c4ddd13338661acb8d9ad5a359de2b4cf284f35e3a57daf7c99c5",
+    "references/raw/reference_domain_review/structure_uniprot/P69739.json": "dca5caf2fd9358baa599e414e13e5651ec262764f4bbd07fed0e9c933157ec79",
+    "references/raw/reference_domain_review/structure_uniprot/P69741.json": "4fc21a255ade8aaa183f1820c052dfa8ccae3ad919179aed3b62b78ce0afa94a",
+    "references/raw/reference_domain_review/structure_uniprot/Q58194.json": "92d02cfe0ab4364418050ce8b3a370139d88abe6d718efc138cfa89b9dceed11",
+    "references/raw/reference_domain_review/structure_uniprot/Q58734.json": "4db49010550f64029258a19838f78e5f07c4b82b87af5340bf936d5265ddc549",
+    "references/raw/reference_domain_review/structure_uniprot/Q7WXQ3.json": "33a8a74a1d8fed994155b2f9d725a3e5a61e5e5f1862b064853c03d4e81c463b",
+    "references/raw/reference_domain_review/structure_uniprot/Q7WXQ4.json": "15cc80563f2143862214409f039bc61f8183256aed12924da5b865f7c21ccc37",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z6.json": "e0695ab90bb85036123c0fe5bba2b37060a61cf1a4c0090f68cd72ee5e55f3d9",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z7.json": "b06005cd9a737d332ee4c985a42f4b408b6ea0a3146cb63c6a2bf306d969e2fd",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z8.json": "2b9b4e64b96f966f37d09e07317d997aae2b361cab478263465e6714bd0f4685",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U104.json": "32c019143aebea9792107d43b68d5ca1470fea66ab8e2db4409a856a4c0356ab",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U2E4.json": "330de5ffec47fd952cd33a3b600d87191286ab1ccf63a84fee2a4d8cb89dc214",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U2E5.json": "4a328c95cb57bed336ff9cc96ba80ef19b78cf95cbc77012cf8b0e95fa03f89c",
+    "references/raw/reference_domain_review/structure_uniprot/Q9S5X7.json": "e0a9d048672d0382e26bffb904751cc2809595cf67d175ac81dd0aea41050fe7",
+    "references/raw/reference_domain_review/reviewed_regulatory_cytochrome_sources.json": "42408ab64780259abd022b56d950a6ff71abfe399a4b94d08764c8c5900cb8f5"
+  }
+}

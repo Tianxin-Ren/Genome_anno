@@ -1,0 +1,122 @@
+{
+  "version": "round16-natural-split-NiFe-center",
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_coverage": 0.8,
+    "min_window_identity": 25,
+    "site_context_flank": 15,
+    "competitive_bitscore_ratio": 0.9,
+    "max_intergenic_gap_bp": 2500,
+    "max_span_bp": 30000
+  },
+  "scope": "Source-reviewed multi-polypeptide NiFe ligand mapping only. No automatic catalytic identity promotion, full complex completion, donor mechanism, occupancy or query activity proof.",
+  "source_files": {
+    "references/raw/round16_split_centers/CP026606.1.gb": {
+      "sha256": "1441fa5bdf07b7bc499275a749e0ce1c182dad079be505782894675f95ade602",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=CP026606.1&rettype=gbwithparts&retmode=text"
+    },
+    "references/raw/round16_split_centers/X61204.1.gb": {
+      "sha256": "a9c3af91b35ca2e4567dd3bf35816763881661456610dac36a4e50d89a883f88",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=X61204.1&rettype=gbwithparts&retmode=text"
+    },
+    "references/raw/round16_split_centers/Mvoltae_vhu.json": {
+      "sha256": "9f87c5f216655ac1ef178cb06f712a468b5b5bd3132b925c2de59656ddc957d2",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene%3AvhuA+OR+gene%3AvhuU%29+AND+organism_name%3A%22Methanococcus+voltae%22&format=json&size=100"
+    },
+    "references/raw/round16_split_centers/A0A2L1CAX5.json": {
+      "sha256": "69771cae9a6591813a23d5f73435a2c5ebf89ff62873676778a551202f92163c",
+      "url": "https://rest.uniprot.org/uniprotkb/A0A2L1CAX5.json"
+    },
+    "references/raw/round16_split_centers/A0A2L1CB29.json": {
+      "sha256": "851b80d45a5dcf32bad3bc1b8df977c4dc091cdc65a35954abb347837ecad3e4",
+      "url": "https://rest.uniprot.org/uniprotkb/A0A2L1CB29.json"
+    },
+    "references/raw/round15_partner_sources/9SFI.cif": {
+      "sha256": "7c09fe443e829f9f1f9008cc6653d7c4575a33a14079a7d7cf206829577f23ec",
+      "url": "https://files.rcsb.org/download/9SFI.cif"
+    }
+  },
+  "template": {
+    "center_id": "9SFI__VhuAU_center",
+    "pdb_id": "9SFI",
+    "path": "references/raw/round15_partner_sources/9SFI.cif",
+    "nickel_chain": "HF",
+    "nickel_author_position": "420",
+    "iron_chain": "GF",
+    "iron_author_position": "419",
+    "evidence_url": "https://www.nature.com/articles/s41586-026-10744-9",
+    "source_case": "Mmaripaludis_JJ",
+    "components": [
+      {
+        "component_id": "VhuA",
+        "entity_id": "14",
+        "chain": "NA",
+        "genome_path": "references/raw/round16_split_centers/CP026606.1.gb",
+        "locus_tag": "MMJJ_11350",
+        "protein_accession": "AVB76522.1",
+        "sequence_sha256": "ebb7c797c19816da90b3a8f7483eeba0e5ff953304fda52ef1eabcbea59b1728",
+        "window_start": 1,
+        "window_end": 418,
+        "expected_ligands": {
+          "61": "C",
+          "64": "C"
+        }
+      },
+      {
+        "component_id": "VhuU",
+        "entity_id": "6",
+        "chain": "K",
+        "genome_path": "references/raw/round16_split_centers/CP026606.1.gb",
+        "locus_tag": "MMJJ_11360",
+        "protein_accession": "AVB76523.1",
+        "sequence_sha256": "59393c3c52a72379dcfc95676beaa24935a0e86fdc17d2c591c4d133a27646b8",
+        "window_start": 1,
+        "window_end": 27,
+        "expected_ligands": {
+          "20": "U",
+          "23": "C"
+        },
+        "window_scope": "First27 residues are resolved in9SFI; full44-aa genomic precursor retained. Not a universal cleavage assignment for other species."
+      }
+    ]
+  },
+  "development_cases": [
+    {
+      "case_id": "Mmaripaludis_JJ",
+      "genome_path": "references/raw/round16_split_centers/CP026606.1.gb",
+      "genome_accession": "CP026606.1",
+      "anchor_id": "MMJJ_11350",
+      "partner_id": "MMJJ_11360",
+      "template_source": true,
+      "resolved_positions": {},
+      "evidence_url": "https://www.nature.com/articles/s41586-026-10744-9"
+    },
+    {
+      "case_id": "Mvoltae_PS",
+      "genome_path": "references/raw/round16_split_centers/X61204.1.gb",
+      "genome_accession": "X61204.1",
+      "anchor_id": "CAA43510.1",
+      "partner_id": "CAA43511.1",
+      "template_source": false,
+      "raw_partner_sequence_sha256": "49ad56d369f1a7fde6d3495ae99fd2f342abe63d428fa5072427c53284583d65",
+      "reviewed_partner_sequence_sha256": "f52e7c0df700347298f74798f63825d0761812e86379844df14f0340a2c0e37d",
+      "reviewed_accession": "Q00410",
+      "resolved_positions": {
+        "20": {
+          "raw": "X",
+          "reviewed": "U",
+          "genomic_codon": "TGA",
+          "reviewed_source": "Q00410",
+          "scope": "Exact historical CDS encodes the Sec codon; original OTHER/X record retained. Not a generic X-to-U correction rule."
+        }
+      },
+      "mature_source_positions": [
+        2,
+        26
+      ],
+      "mature_scope": "Reviewed Q00410 chain2-26, partial initiator-Met removal;27-44 propeptide. Source-specific to M.voltae.",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/8504827/"
+    }
+  ],
+  "exposure": "Both species were reviewed during development; same genus. Not a homolog/taxon-independent sealed final accuracy set."
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GenomeAnnotationRecord",
+  "description": "Schema for genome-level KO count long table in genome_KO_counts.long.tsv.gz",
+  "type": "object",
+  "required": [
+    "genome_id",
+    "ko",
+    "count"
+  ],
+  "properties": {
+    "genome_id": {
+      "type": "string",
+      "description": "Identifier of the genome or MAG"
+    },
+    "ko": {
+      "type": "string",
+      "pattern": "^K\\d{5}$",
+      "description": "KEGG Orthology identifier"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Copy number of genes annotated with this KO in the genome"
+    }
+  },
+  "additionalProperties": false
+}

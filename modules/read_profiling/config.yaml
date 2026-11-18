@@ -1,0 +1,29 @@
+# ==============================================================================
+# Read Profiling Module Default Configuration (Sylph)
+# ==============================================================================
+read_profiling:
+  # Output directory (relative to project_root, or absolute path)
+  results_dir: "results/MetaG-reads/sylph"
+  logs_dir: "logs/read_profiling"
+
+  # Tool selection (currently supports sylph)
+  tool: "sylph"
+
+  # Sylph Database (.syldb format)
+  # Example: GTDB r226 sketch database
+  database: "/dssg/home/acct-schhui/gses0/liliuyang/osma/software_from_nature/sylph/gtdb-r226-c200-dbv1.syldb"
+
+  # Execution resources
+  threads: 60
+
+  # Additional arguments for sylph profile (e.g. -c 200, --min-number-kmers 50)
+  params: ""
+
+  # Fastp QC corruption reporting
+  corrupted_report_file: "logs/read_profiling/corrupted_samples.tsv"
+  qc_precheck_gzip: false
+
+  # Conda environment name or absolute prefix path
+  conda_envs:
+    sylph: "sylph"
+    python: "bio"

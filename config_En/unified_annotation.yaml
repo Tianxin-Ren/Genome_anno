@@ -1,0 +1,49 @@
+# Scientific configuration for the runnable unified annotation workflow.
+# Conda environments and database locations are supplied by platform YAML.
+
+unified_annotation:
+  input:
+    fasta_key: fasta
+
+  # Every switch below is implemented. Protein evidence and consensus require
+  # cds_prediction. Disabled evidence channels produce explicit empty evidence
+  # files so candidate_integration can still run with the remaining channels.
+  steps:
+    genome_qc: false
+    taxonomy: false
+    cds_prediction: true
+    rna_prediction: true
+    protein_similarity: true
+    orthology: true
+    ko_profiles: true
+    protein_domains: true
+    localization_topology: false
+    signal_peptide_prediction: false
+    biob_hmm: false
+    candidate_integration: true
+
+  cds_prediction:
+    mode_by_assembly_type:
+      isolate: single
+      SAG: single
+      MAG: meta
+      metagenome_assembly: meta
+    # A sample-level genetic_code in samples.yaml takes precedence.
+    translation_table: auto
+
+  rna_prediction:
+    trna:
+      bacterial_mode: "-B"
+      archaeal_mode: "-A"
+
+  protein_function:
+    similarity:
+      min_identity: 0.30
+      min_query_coverage: 0.70
+      max_hits_per_protein: 25
+    orthology:
+      search_mode: diamond
+    domains:
+      applications:
+        - Pfam
+

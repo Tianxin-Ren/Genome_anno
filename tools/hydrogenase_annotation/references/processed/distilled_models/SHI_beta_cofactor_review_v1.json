@@ -1,0 +1,93 @@
+{
+  "round": "R150",
+  "status": "primary_structure_contact_reviewed",
+  "scope": "NiFe_HyhNADPH__SHI_beta cofactor compatibility only; no query cluster occupancy, NADPH specificity, expression, or activity inference.",
+  "primary_sources": {
+    "paper_doi": "10.1016/j.str.2025.05.017",
+    "paper_url": "https://doi.org/10.1016/j.str.2025.05.017",
+    "pdb_id": "9NEZ",
+    "rcsb_url": "https://www.rcsb.org/structure/9NEZ",
+    "coordinate_source": "references/raw/catalytic_structures/9NEZ.cif",
+    "coordinate_source_sha256": "49d7598d787aad27740e9b36dceabb62de54f7db6fe5465090532f76d232d20b",
+    "local_sequence_source": "references/raw/reference_domain_review/structure_uniprot/Q8U2E5.json",
+    "local_sequence_source_sha256": "4a328c95cb57bed336ff9cc96ba80ef19b78cf95cbc77012cf8b0e95fa03f89c",
+    "local_review_source": "config/reference_structure_review.json",
+    "local_review_source_sha256": "recorded in config/reference_domain_policy.json; exact-sequence structure mapping is retained there"
+  },
+  "reference_identity": {
+    "reference_id": "NiFe_HyhNADPH__SHI_beta",
+    "accessions": ["WP_011012026.1", "Q8U2E5"],
+    "structure_entity": "9NEZ entity 2, author chain B; symmetry mate chain F",
+    "sequence_length": 367,
+    "sequence_sha256": "eaab13213411078ef08516217c1ae0958208959c440572bf9074ffc9032d01f3",
+    "mapping": "The local reviewed UniProt sequence is 367 aa and exactly matches the deposited 9NEZ entity-2 sequence mapping (100% identity and full coverage in config/reference_structure_review.json)."
+  },
+  "coordinate_contact_audit": {
+    "method": "Read _struct_conn metalc records in the deposited CIF; accept only explicit SG-to-SF4 iron contacts and record deposited distances.",
+    "entity_2_author_chain_B": {
+      "sf4_403": {
+        "ligands": [
+          {"residue": "C96", "atom": "SG", "iron": "FE1", "distance_angstrom": 2.260},
+          {"residue": "C131", "atom": "SG", "iron": "FE4", "distance_angstrom": 2.268},
+          {"residue": "C137", "atom": "SG", "iron": "FE3", "distance_angstrom": 2.264},
+          {"residue": "C139", "atom": "SG", "iron": "FE2", "distance_angstrom": 2.284}
+        ],
+        "confidence": "high"
+      },
+      "sf4_401": {
+        "ligands": [
+          {"residue": "C233", "atom": "SG", "iron": "FE1", "distance_angstrom": 2.270},
+          {"residue": "C236", "atom": "SG", "iron": "FE4", "distance_angstrom": 2.263},
+          {"residue": "C239", "atom": "SG", "iron": "FE2", "distance_angstrom": 2.261},
+          {"residue": "C322", "atom": "SG", "iron": "FE3", "distance_angstrom": 2.262}
+        ],
+        "confidence": "high"
+      },
+      "sf4_402": {
+        "ligands": [
+          {"residue": "C243", "atom": "SG", "iron": "FE1", "distance_angstrom": 2.265},
+          {"residue": "C312", "atom": "SG", "iron": "FE2", "distance_angstrom": 2.259},
+          {"residue": "C315", "atom": "SG", "iron": "FE4", "distance_angstrom": 2.258},
+          {"residue": "C318", "atom": "SG", "iron": "FE3", "distance_angstrom": 2.260}
+        ],
+        "confidence": "high"
+      },
+      "sf4_404": {
+        "ligands": [
+          {"residue": "C246", "atom": "SG", "iron": "FE4", "distance_angstrom": 2.265},
+          {"residue": "C248", "atom": "SG", "iron": "FE1", "distance_angstrom": 2.256},
+          {"residue": "C271", "atom": "SG", "iron": "FE3", "distance_angstrom": 2.252},
+          {"residue": "C299", "atom": "SG", "iron": "FE2", "distance_angstrom": 2.269}
+        ],
+        "confidence": "high"
+      },
+      "additional_non_cysteine_contact": {
+        "residue": "H94",
+        "atom": "ND1",
+        "iron": "FE4 of SF4_403",
+        "distance_angstrom": 2.126,
+        "interpretation": "Explicit deposited metal contact; retain as a possible non-Cys/His relay-ligand feature, not as a reason to replace the four Cys ligands of that cluster."
+      }
+    },
+    "symmetry_check": "Chain F contains the corresponding duplicated entity-2 contacts with the same residue numbers; chain B is used for the primary report.",
+    "contact_quality": "All 16 Cys-SF4-Fe contacts are 2.252-2.284 A and explicitly deposited as metalc connections, so they are not borderline ~3.0 A proximity-only contacts. H94-ND1 is 2.126 A and also explicitly deposited."
+  },
+  "hypothesis_check": {
+    "proposed_12_ligand_set": ["C96", "C131", "C137", "C139", "C233", "C236", "C239", "C243", "C312", "C315", "C318", "C322"],
+    "result": "The proposed 12 are real deposited ligands, but they are incomplete for entity 2: CIF metalc records also assign C246, C248, C271, and C299 to SF4_404.",
+    "important_discrepancy": "The primary-paper abstract describes SHI-beta as containing three [4Fe-4S] clusters, whereas the deposited 9NEZ entity-2 chain-B CIF contains four SF4 groups with explicit chain-B Cys contacts. Preserve this as a source/structure discrepancy; do not silently delete the fourth coordinate-supported cluster or convert it into an activity claim.",
+    "safe_reviewed_set": "For coordinate compatibility, retain all 16 Cys contacts grouped into SF4_401/402/403/404, plus H94 as an explicitly deposited additional contact. A three-cluster functional interpretation remains a paper-level statement requiring reconciliation, not a sequence-only rule."
+  },
+  "hyd3_msmeg3931_comparison": {
+    "reported_comparison": "Hyd3 from Mycobacterium smegmatis MSMEG3931: 26.97% identity, E-value 7e-32, 17/18 reviewed Cys positions covered, 15 preserved; C191->T, C299->H, and C343 uncovered in the comparison supplied for this audit.",
+    "coordinate_compatible_positions": ["C96", "C131", "C137", "C139", "C233", "C236", "C239", "C243", "C246", "C248", "C271", "C312", "C315", "C318", "C322"],
+    "loss_or_uncertainty": ["C191 is not an SF4 metal ligand in the deposited SHI-beta chain; it forms a disulfide with C343 across the symmetry-related chain and is therefore not counted as an Fe-S ligand.", "C299 is a deposited SF4_404 ligand; a C299->H substitution is a direct loss of the canonical Cys-SF4 contact and should be reported as a cofactor-compatibility concern, not as proof of inactivity.", "C343 is a deposited inter-chain disulfide partner of C191, not an SF4 ligand; being uncovered does not by itself remove the Fe-S relay set."],
+    "interpretation": "The comparison supports a conservative relay-fold/cofactor-compatibility statement only. It does not justify accepting a sequence with C299H as fully equivalent, nor rejecting it as categorically inactive without a structure or biochemical test."
+  },
+  "minimal_role_compatibility": {
+    "supported": "A query retaining the aligned 16 deposited Cys-SF4 contact positions (with the H94 contextual contact treated separately) is compatible with the reviewed SHI-beta Fe-S relay architecture.",
+    "partial": "Loss or substitution of one documented Cys, especially C299, should yield partial/uncertain Fe-S relay compatibility with an explicit missing-ligand risk; do not block all hydrogenase identity solely from this module result.",
+    "not_inferred": ["cluster occupancy in a new query", "three-versus-four cluster biological interpretation", "NADPH versus NADH specificity", "hydrogen production or sulfur reduction activity", "expression, maturation, or assembly"],
+    "do_not_use": "Do not reduce the rule to a generic Cys count or require all 18 comparison Cys positions; C191 and C343 are not deposited SF4 ligands in entity 2."
+  }
+}

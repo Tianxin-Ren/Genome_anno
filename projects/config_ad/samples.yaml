@@ -1,0 +1,49 @@
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+# ==============================================================================
+# 1. Dynamic Genome Directory (For Auto-Discovery Mode)
+# ==============================================================================
+# 🚨 推荐方式：指定一个包含所有参考基因组/分离株的文件夹路径。
+# 流水线在运行时会自动扫描此文件夹下所有基因组序列文件，提取文件名作为样本名。
+# 支持的格式包括：*.fna, *.fasta, *.fa，以及它们的 gzip 压缩格式（.gz）。
+# genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bathyarchaeia_gtdb_all/genomes"
+
+# ==============================================================================
+# 2. Manual Genome Overrides & Customization (手动单独指定外源基因组与个性化参数)
+# ==============================================================================
+# 💡 如果您想单独指定某些基因组的输入路径，或者为其指定特定的 HMM 数据库、检索工具、过滤阈值等，
+# 可以取消下面的注释并按照示例进行配置。
+# 注：在此处手动配置的基因组会与 genomes_dir 自动扫描发现的基因组自动合并。
+#
+external_genomes:
+#   # 示例 1: 输入为蛋白 FAA 文件，指定自定义 HMM 文件夹/数据库
+#   Bathy_Protein_Sample:
+#     path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/my_proteins.faa"
+#     type: "protein"          # 声明输入直接是蛋白序列，直接做功能注释 (HMM/EggNOG/KofamScan) 而无需跑 Bakta
+#     hmm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ATPase_blastp/hmm_profiles" # 也可以是指向单个 .hmm 的路径或多个路径的 YAML 列表
+#     hmm_tool: "hmmsearch"    # 可选: "hmmsearch" 或 "hmmscan"
+#     target_profiles: "NiFe_G1,NiFe_G2" # 可选: 只提取这些特定 Profile 的最佳比对结果
+#     split_hmm: "True"        # 可选: 是否对蛋白切分进行多线程并行检索以极速运行 (默认为 True)
+#
+#   # 示例 2: 输入为 DNA 组装序列，指定自定义 HMM 数据库
+  # Bathy_DNA_Sample:
+  #   path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/bathyarchaeia_gtdb_all/genomes"
+  #   type: "dna"              # 声明输入是 DNA 组装，需要先跑 Bakta 基因预测再跑 HMM
+  #   complete: False          # False 表示是草图/Scaffold，True 表示为完整闭合环状染色体
+  #   hmm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/other_hmms/" # 该样本专属的 HMM 文件夹
+  #   hmm_tool: "hmmsearch"
+  #   split_bakta: "False"      # 可选: 是否切分基因组以加速跑 Bakta (默认为 True)
+  #   split_hmm: "False"        # 可选: 是否切分蛋白以加速跑 HMM (默认为 True)
+
+
+# ==============================================================================
+# 3. External Genomes Batch Subfolder Name (Optional / 批量基因组打包批次名)
+# ==============================================================================
+# 💡 推荐设置：如果你配置了此项，所有外源基因组（external_genomes）的注释和 blastp 比对结果
+# 都将统一归纳到 results/external_annotation/<external_genomes_batch>/ 下，而不再是全部平铺在 results/external_annotation/ 下。
+# 留空（或不配置）则保持原样，直接平铺在 results/external_annotation/ 下。
+# external_genomes_batch: "bathyarchaeia_gtdb_all"
+

@@ -1,0 +1,15 @@
+module_id: "M00159"
+name: "V/A-type ATP synthase, prokaryotes"
+category: "Energy metabolism"
+subcategory: "ATP synthesis"
+definition: "(K02117+K02118+K02119+K02120+K02121+K02122) (K02123,K02124)"
+key_kos:
+  - "K02117" # AtpA (catalytic subunit A)
+  - "K02118" # AtpB (catalytic subunit B)
+  - "K02119" # AtpC (central stalk subunit C)
+  - "K02120" # AtpD (central stalk subunit D)
+  - "K02121" # AtpE (proteolipid subunit c)
+  - "K02122" # AtpF (stator subunit I)
+  - "K02123" # AtpI
+  - "K02124" # AtpK
+description: "V-type and A-type ATP synthase characteristic of Archaea and certain specialized bacteria."

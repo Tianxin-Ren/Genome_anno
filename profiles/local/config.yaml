@@ -1,0 +1,9 @@
+executor: local
+cores: 8
+jobs: 8
+latency-wait: 5
+printshellcmds: true
+rerun-triggers:
+  - mtime
+keep-going: true
+

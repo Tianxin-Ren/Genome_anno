@@ -1,0 +1,12 @@
+module_id: "M00596"
+name: "Dissimilatory sulfate reduction, sulfate -> H2S"
+category: "Energy metabolism"
+subcategory: "Sulfur metabolism"
+definition: "(K00958,K00955+K00957,K00956) (K00394+K00395) (K11180+K11181)"
+key_kos:
+  - "K00958" # sat
+  - "K00394" # aprA
+  - "K00395" # aprB
+  - "K11180" # dsrA
+  - "K11181" # dsrB
+description: "Anaerobic respiration using sulfate as terminal electron acceptor."

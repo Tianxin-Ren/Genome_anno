@@ -1,0 +1,61 @@
+{
+  "version": "round22-development-before-prediction",
+  "scope": "Primary-source selected natural-context development cases; not an independent or sealed final test. Other uncharacterized genome anchors are ungradable, not negatives.",
+  "targets": {"core_precision": 0.95, "core_recall": 0.9, "reaction_precision": 0.95, "minimum_reaction_coverage": 0.9, "non_H2_complex_false_assignments": 0},
+  "complete_statuses": ["complete_supported", "core_complete_accessory_missing", "composition_supported_reorganized"],
+  "cases": [
+    {
+      "id": "Amobile_HydABCSL", "source": "CP003198", "mode": "genome", "organism": "Acetomicrobium mobile DSM 13181", "genus": "Acetomicrobium", "hydrogenase": true,
+      "anchor": "Anamo_1675", "members": {"HydL": ["Anamo_1675", "I4BYB2"], "HydS": ["Anamo_1676", "I4BYB3"], "HydA_ET_not_H_cluster": ["Anamo_1677", "I4BYB4"], "HydB": ["Anamo_1678", "I4BYB5"], "HydC": ["Anamo_1681", "I4BYB8"]},
+      "reaction": "H2_oxidation_coupled_NAD_and_ferredoxin_reduction", "compatible_function_ids": ["Fe04"],
+      "paper": "references/raw/round21_function_sources/PMC8880783.xml", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8880783/",
+      "evidence": "Native purified five-subunit complex, structural sequence correspondence and coupled H2/NAD/Fd assays. HydA lacks the catalytic H-cluster; HydL is the sole NiFe catalytic subunit.",
+      "limits": "Fe04 is used only as a normalized molecular reaction comparator, not a FeFe catalytic-center label or a claim that the five-subunit NiFe structure is already configured. Maturation/regulatory genes are excluded from the physical core. Previously exposed structural development source."
+    },
+    {
+      "id": "Tkivui_HDCR", "source": "CP009170", "mode": "genome", "organism": "Thermoanaerobacter kivui DSM 2030", "genus": "Thermoanaerobacter", "hydrogenase": true,
+      "anchor": "TKV_c19960", "members": {"HydA2": ["TKV_c19960", "A0A097ATH7"], "HycB4": ["TKV_c19970", "A0A097ATK6"], "HycB3": ["TKV_c19980", "A0A097ATJ9"], "FdhF": ["TKV_c19990", "A0A097ATK5"]},
+      "reaction": "H2_dependent_CO2_to_formate", "compatible_function_ids": ["Fe06"],
+      "paper": "references/raw/round22_function_truth/PMC7005907.xml", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7005907/",
+      "evidence": "Four-gene native deletion, loss and complementation of HDCR-associated activity; published purified four-subunit HDCR and 7QV7 canonical sequence correspondence.",
+      "limits": "FdhD TKV_c19950 is maturation, not a core subunit. Net physiological direction and membrane anchoring are not inferred for a new homolog. Genus already exposed in FeS structural development."
+    },
+    {
+      "id": "Hthermo_HoxFUYH", "source": "MF153396", "mode": "assembly", "organism": "Hydrogenophilus thermoluteolus TH-1", "genus": "Hydrogenophilus", "hydrogenase": true,
+      "anchor": "AST15078.1", "members": {"HoxF": ["AST15075.1", "A0A077L6X8"], "HoxU": ["AST15076.1", "A0A077L885"], "HoxY": ["AST15077.1", "A0A077L7R5"], "HoxH": ["AST15078.1", "A0A077LAI5"]},
+      "reaction": "H2_dependent_NAD_reduction_without_added_ferredoxin", "compatible_function_ids": ["Ni14"],
+      "paper": "references/raw/round22_function_truth/PMC7187929.xml", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7187929/",
+      "evidence": "Four structural genes recombinantly expressed with maturation machinery; purified complex reduces NAD+ with H2. Natural MF153396 locus and full precursor translations are retained.",
+      "limits": "HoxW is maturation and HoxI is not a required native core member. PDB HoxH is a processed substring of the precursor; DNA annotation is not silently trimmed. 5XFA coordinate truth remains unopened for its reserved FeS evaluation; this case is L4/L5 development only."
+    },
+    {
+      "id": "Sfructo_HndABCD", "source": "U07229", "mode": "assembly", "organism": "Solidesulfovibrio fructosivorans", "genus": "Solidesulfovibrio", "hydrogenase": true,
+      "anchor": "AAA87057.1", "members": {"HndA": ["AAA87054.1", "Q46505"], "HndB": ["AAA87055.1", "Q46506"], "HndC": ["AAA87056.1", "Q46507"], "HndD": ["AAA87057.1", "Q46508"]},
+      "reaction": "H2_oxidation_coupled_NAD_and_ferredoxin_reduction", "compatible_function_ids": ["Fe04"],
+      "paper": "references/raw/round22_function_truth/PMC7820892.xml", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820892/",
+      "evidence": "Purified native Hnd assays monitor NAD+ and FdxB reduction simultaneously under H2; reviewed Q46505..Q46508 correspond exactly to U07229 translations.",
+      "limits": "Historical NADP annotation is not the modern assay truth. Physiological reverse H2 production is not assigned from this assay. Genus exposed in structural development; natural locus is not a complete genome."
+    },
+    {
+      "id": "Amobile_WorABCSL", "source": "CP003198", "mode": "genome", "organism": "Acetomicrobium mobile DSM 13181", "genus": "Acetomicrobium", "hydrogenase": false,
+      "anchor": null, "members": {"WorC": ["Anamo_0073", "I4BTY8"], "WorB": ["Anamo_0074", "I4BTY9"], "WorA": ["Anamo_0075", "I4BTZ0"], "WorS": ["Anamo_0076", "I4BTZ1"], "WorL_W_center": ["Anamo_0077", "I4BTZ2"]},
+      "reaction": "W_aldehyde_oxidoreductase_with_Bfu_modules", "compatible_function_ids": [],
+      "paper": "references/raw/round22_function_truth/PMC12318220.xml", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318220/",
+      "evidence": "Native WorABCSL has a W-bispyranopterin catalytic center and Bfu-like electron-transfer modules; five subunit types form the observed nanowire.",
+      "limits": "A reaction-scoped non-H2-center contrast, not proof of absence of all possible H2 side chemistry. The same genome contains a genuine hydrogenase: only these five members are evaluated as the contrast."
+    },
+    {
+      "id": "Csac_NfnABC", "source": "CP000679", "mode": "genome", "organism": "Caldicellulosiruptor saccharolyticus DSM 8903", "genus": "Caldicellulosiruptor", "hydrogenase": false,
+      "anchor": null, "members": {"NfnC": ["Csac_0619", "A4XH58"], "NfnB": ["Csac_0620", "A4XH59"], "NfnA": ["Csac_0621", "A4XH60"]},
+      "reaction": "NADPH_NAD_ferredoxin_transhydrogenation", "compatible_function_ids": [],
+      "paper": "references/raw/round22_function_truth/PMC11829005.xml", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11829005/",
+      "evidence": "Purified native electron-bifurcating NfnABC transhydrogenase, structural three-subunit identity; FAD/FMN and no hydrogenase catalytic center.",
+      "limits": "Mechanistic contrast, not a claim that every genome protein or every member has been individually assayed against H2. Generic NADH-dehydrogenase/molybdopterin product names do not define function."
+    }
+  ],
+  "excluded_pending_source_correspondence": [
+    {"case": "Mthermolithotrophicus_9R51_Frh", "reason": "PDB crossrefs Q60338/Q60340/Q60341 are M. jannaschii and do not match the structural canonical sequences. Do not transfer the experimental operon to their genome."},
+    {"case": "Sovata_StnABC", "reason": "An4 contig retrieval and correspondence to assayed DSM2662 strain remain unresolved."},
+    {"case": "Ralbus_HydABC_HydA2_HydS", "reason": "Primary full text and CP002403/CP002404 obtained, but exact experimental role-to-CDS mapping still being reviewed. HydS is putative, not an experimentally established H2-sensing negative."}
+  ]
+}

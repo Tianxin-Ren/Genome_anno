@@ -1,0 +1,39 @@
+# Fill this file with genome FASTA inputs.
+# Every sample enters the same BioB annotation workflow.
+
+samples:
+  Bins.lr.0:
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/BioB_genome/Bins.lr.0.fa"
+    assembly_type: "MAG"        # isolate | MAG | SAG | metagenome_assembly
+    expected_domain: "Bacteria"     # auto | Bacteria | Archaea
+    genetic_code: "auto"        # auto unless known
+  
+  Bins.lr.1:
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/BioB_genome/Bins.lr.1.fa"
+    assembly_type: "MAG"        # isolate | MAG | SAG | metagenome_assembly
+    expected_domain: "Bacteria"     # auto | Bacteria | Archaea
+    genetic_code: "auto"        # auto unless known
+
+  Bins.lr.2:
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/BioB_genome/Bins.lr.2.fa"
+    assembly_type: "MAG"        # isolate | MAG | SAG | metagenome_assembly
+    expected_domain: "Bacteria"     # auto | Bacteria | Archaea
+    genetic_code: "auto"        # auto unless known
+  
+  u999856:
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/BioB_genome/u999856.fa"
+    assembly_type: "isolate"        # isolate | MAG | SAG | metagenome_assembly
+    expected_domain: "Archaea"     # auto | Bacteria | Archaea
+    genetic_code: "auto"        # auto unless known
+  
+  u1287049:
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/BioB_genome/u1287049.fa"
+    assembly_type: "isolate"        # isolate | MAG | SAG | metagenome_assembly
+    expected_domain: "Archaea"     # auto | Bacteria | Archaea
+    genetic_code: "auto"        # auto unless known
+  
+  u896703:
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/BioB_genome/u896703.fa"
+    assembly_type: "isolate"        # isolate | MAG | SAG | metagenome_assembly
+    expected_domain: "Archaea"     # auto | Bacteria | Archaea
+    genetic_code: "auto"        # auto unless known

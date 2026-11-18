@@ -1,0 +1,24 @@
+# Long-Read Assembly Pipeline Configuration (ONT/HiFi)
+longread_assembly:
+  enable: True
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/"
+  data_dir: "data"
+  results_dir: "results"
+  
+  # Input settings
+  input_dir: "test" # Directory containing your long-read fastq.gz files
+  # Filename pattern: {sample}_{platform}.{metadata}.fq.gz
+  # Supported platforms: ont, hifi
+  
+  # Analysis Steps
+  run_nanoplot: False
+  run_plasmid_analysis: True # Can be enabled here or run separately via plasmid_annotation.yaml
+  
+  # Tool Settings
+  myloasm:
+    params: "--min-length 1000 --min-read-qual 10"
+    threads: 64
+    
+  conda_envs:
+    nanoplot: "nanoplot_1.20.0"
+    myloasm: "myloasm"

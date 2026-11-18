@@ -1,0 +1,48 @@
+# ==============================================================================
+# Default Configuration for COG Annotation Module
+# (COG2024-Compatible Footprint-Aware Annotation Engine)
+# ==============================================================================
+
+cog_annotation:
+  results_dir: "results/mag_annotation"
+  logs_dir: "logs/mag_annotation"
+
+  conda_envs:
+    python: "biopython"
+    blast: "bio"
+
+  # Databases
+  databases:
+    cog_def: ""            # Mandatory: path to cog-24.def.tab
+    cog_fun: ""            # Mandatory: path to cog-24.fun.tab
+    cddid: ""              # Mandatory: path to cddid.tbl
+    cogle_db: ""           # Mandatory: path to Cog_LE prefix
+    bitscore_specific: ""  # Recommended: path to bitscore_specific.txt
+
+  # Sequence sharding (dynamic or residue-balanced)
+  sharding:
+    target_aa: 100000000       # 100M amino acids per shard
+    target_proteins: 400000   # Max 400k proteins per shard
+
+  # RPS-BLAST & Footprint Assignment Parameters
+  rpsblast:
+    evalue: 1.0e-4
+    min_aln_len: 40
+    min_prof_cov: 0.30
+    ambiguity_ratio_cutoff: 0.15
+    ambiguity_delta_cutoff: 20.0
+    threads_per_shard: 12
+
+  # HPC Node-Worker Bundling (1 SLURM job per node with local scratch staging)
+  node_worker:
+    enable: false              # Set true for full production node bundle on 64c512g nodes
+    workers_per_node: 8       # 8 workers x 8 threads = 64 cores
+    threads_per_worker: 8
+
+  # Output toggles
+  steps:
+    audit_provenance: true
+    merge_summary: true
+    matrices: true
+    qc: true
+    export_dense: false

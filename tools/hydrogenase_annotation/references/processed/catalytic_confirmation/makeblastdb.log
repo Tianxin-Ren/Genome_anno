@@ -1,0 +1,12 @@
+
+
+Building a new DB, current time: 10/27/2026 16:52:16
+New DB name:   /Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/processed/catalytic_confirmation/seed
+New DB title:  /Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/processed/catalytic_confirmation/prototypes.faa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/processed/catalytic_confirmation/seed
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 888 sequences in 0.010586 seconds.
+
+

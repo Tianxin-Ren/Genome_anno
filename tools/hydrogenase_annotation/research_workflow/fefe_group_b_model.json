@@ -1,0 +1,34 @@
+{
+  "version": "FeFe-assayed-lineage-concordant-ligands-v1",
+  "assayed_references": {
+    "WP_036203142.1": {
+      "accession": "WP_036203142.1",
+      "doi": "10.1021/acscatal.4c01352",
+      "sites": [
+        184,
+        231,
+        343,
+        347
+      ],
+      "assay": "recombinant MeII, direct protein-film electrochemistry"
+    },
+    "tr|D9RXZ6|D9RXZ6_THEOJ": {
+      "accession": "D9RXZ6",
+      "doi": "10.1021/jacs.4c18483",
+      "sites": [
+        213,
+        260,
+        371,
+        375
+      ],
+      "assay": "wild-type ToHydA, recombinant H2 evolution and active-site spectroscopy"
+    }
+  },
+  "sequence_bank": "references/processed/distilled_models/assayed_group_B.faa",
+  "source_alignment": "references/processed/distilled_models/PF02906_source_correspondence.sto",
+  "files_sha256": {
+    "references/processed/distilled_models/assayed_group_B.faa": "554c5238259894167d1cf0816c9241725fb4d6f5eaced7c244c2340061af4951",
+    "references/processed/distilled_models/PF02906_source_correspondence.sto": "9ecfdcd58329ef9d38b62ce43c7af60327334e82ef8676b2bdced4f4c1ead1f3"
+  },
+  "scope": "Agreeing ligand coordinates within a complete FeFe H-domain. Both assay references corroborate identity only; no transfer of substrate, rate, O2 resistance or native function."
+}

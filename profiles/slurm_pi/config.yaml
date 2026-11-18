@@ -1,0 +1,20 @@
+executor: slurm
+slurm-jobname-prefix: "GenomeAnno"
+jobs: 100
+latency-wait: 60
+printshellcmds: True
+scheduler: greedy
+use-conda: True
+rerun-triggers:
+  - mtime
+conda-prefix: ".conda"
+nolock: True
+default-resources:
+  slurm_partition: "cpu"
+  runtime: "7d"
+  mem_mb: "4000 * threads"
+  nodes: 1
+  ntasks: 1
+  max_threads: 40
+
+

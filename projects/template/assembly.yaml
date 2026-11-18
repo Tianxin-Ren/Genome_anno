@@ -1,0 +1,5 @@
+assembly:
+  steps:
+    megahit: false
+    myloasm: false
+

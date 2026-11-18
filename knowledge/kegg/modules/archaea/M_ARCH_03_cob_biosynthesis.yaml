@@ -1,0 +1,19 @@
+module_id: "M_ARCH_03"
+name: "Coenzyme B biosynthesis, 2-oxoglutarate => 7-mercaptoheptanoate => CoB"
+category: "Metabolism of cofactors and vitamins"
+subcategory: "Methanogenesis cofactors"
+evidence_type:
+  - "ko_logic"
+relationship_to_kegg: "complements_M00358"
+definition: "K10977 (K16792+K16793) K10978"
+description: "Methanogen 2-oxosuberate / 7-mercaptoheptanoate elongation cycle for Coenzyme B"
+steps:
+  - step: 1
+    description: "Methanogen homocitrate synthase (aksA)"
+    kos: ["K10977"]
+  - step: 2
+    description: "Methanogen homoaconitase complex (aksD + aksE)"
+    kos: ["K16792", "K16793"]
+  - step: 3
+    description: "Methanogen homoisocitrate dehydrogenase (aksF)"
+    kos: ["K10978"]

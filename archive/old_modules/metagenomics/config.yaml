@@ -1,0 +1,53 @@
+# Metagenomics Pipeline Configuration
+metagenomics:
+  enable: True
+  samples: ["6447","6494","6457"] # Leave empty to auto-detect
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/"
+  project_name: "Mariana_metagenomics"
+  data_dir: "data"
+  results_dir: "results"
+  raw_fq_dir: "Mariana_1"
+  r1_suffix: "_1.fq.gz"
+  r2_suffix: "_2.fq.gz"
+  completeness: 50
+  contamination: 10
+  ani_threshold: 0.95
+  run_drep: False
+  run_gtdbtk: True
+  run_coverm: True
+  env_name: "Mariana_batch1"
+  checkm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/checkm_data"
+  gtdbtk_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+  fastp:
+    quality_filter: True
+    length_required: 75
+  
+  conda_envs:
+    bio: "bio"
+    metawrap: "metawrap_1.3.2"
+    bbmap: "bbmap_39.81"
+    megahit: "megahit_1.2.9"
+    drep: "drep_3.5.0"
+    gtdbtk: "gtdbtk-2.4.0"
+    coverm: "coverm_0.7.0"
+
+# MAG Abundance Pipeline Configuration (Merged into Metagenomics Module)
+mag_abundance:
+  enable: True
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/Mpf_2022/MOB_abundance"
+  data_dir: "data"
+  results_dir: "results"
+  output_dir: "mag_abundance"
+  dna_fq_dir: "dna_fq"
+  rna_fq_dir: "rna_fq"
+  mag_dir: "MAGs"
+  dna_samples: []
+  rna_samples: []
+  threads: 64
+  summarize:
+    target_genes: "Mpf_target.tsv"
+    mag_types: "type.tsv"
+    annotation_dir: "annotation"
+  conda_envs:
+    mapping: "bio"
+    bio: "bio"

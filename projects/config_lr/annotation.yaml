@@ -1,0 +1,122 @@
+# Annotation Module Configuration (config_lr)
+# Comprehensive Structural & Functional Annotation for Third-Generation Data
+annotation:
+  data_type: "long"
+  input_dir: "results/assembly"
+
+  steps:
+    # ── 1. 全组装全局注释开关 (全部关闭以跳过全局注释) ──
+    bakta: False         # 关闭整套 assembly 的全量基因预测
+    cdhit: False         # 关闭全局蛋白去冗余聚类
+    eggnog: False        # 关闭全组装 EggNOG 功能注释
+    advanced_hmm: False  # 关闭全局 HMM 检索
+    resolve_hmm: False   # 关闭全局全景功能大表合成
+    # ── 2. 环状染色体 (Circular Contigs) 精细化注释 (保持开启) ──
+    circular: True       # 【核心】开启环状重叠群精细化注释主控 (每个环状 contig 独立跑 Bakta 结构与基因预测)
+    circular_audit: True # 【核心】开启 Trigodet et al. 2026 (Nat Biotechnol) 四门控原始读段物理环状与结构校验
+    kofamscan: True      # 【核心】开启 KEGG 注释：基于 Bakta 产出的蛋白 (.faa) 运行 KofamScan 官方 KO 注释！
+    gtdbtk: True         # 针对筛选出的环状染色体运行 GTDB-Tk 定种定属 (如不需要可设为 False)
+    checkm2: True        # 针对筛选出的环状染色体运行 CheckM2 测算完整度与污染度 (如不需要可设为 False)
+    # ── 3. 其他可选分析 ──
+    quast: False
+    isescan: False
+    dbcan: False
+    pfam: False
+
+  # --- Filtering & Performance Parameters ---
+  min_circular_size: 2500   # Minimum length (bp) for circular filtering (建议 >= 2500 过滤无意义微小短碎片与假成环，保留真实质粒与染色体)
+  split_chunks: 20          # Parallel chunks for large assembly Bakta annotation
+  hmm_split_chunks: 50      # Parallel chunks for HMM searches
+  hmm_evalue_threshold: 1e-2
+  hmm_log_factor: 0.2
+  cdhit_c: 0.95             # Sequence identity threshold for CD-HIT protein deduplication
+
+  # --- Circular Contig Audit Parameters (Trigodet-informed Four-Gate Framework v2.1) ---
+  circular_audit:
+    profile: "ont_provisional_v1"       # 项目预设 ONT 阈值配置方案 (非文献绝对通用阈值，支持针对高精度化学版本校准)
+    longread_mapping_preset: "map-ont"  # minimap2 比对预设 (标准 ONT 用 map-ont；Q20/R10.4.1 高精度读段可用 lr:hq)
+    config_terminal_flank_bp: 5000      # 构建合成切点参考序列的默认单侧翼展长度 (小质粒自动动态缩减为 L//2)
+    min_junction_flank_bp: 500          # 判定读段连续有效跨越切点的单侧最小延伸长度 (bp)
+    min_junction_spanning_unique_reads: 5 # 切点唯一跨越长读段分子数绝对阈值 (防止低深度 1/1 假通过)
+    min_junction_support_fraction: 0.50 # 切点唯一读段支持比例阈值 (spanning / informative unique reads)
+    max_junction_clip_fraction: 0.15    # 切点处允许的最大剪切读段比例 (>=0.15 提示断裂嫌疑)
+    clipping_ratio_threshold: 0.80      # anvi'o 官方标准：内部系统性剪切报告阈值 (clipping ratio > 0.80, 距端部 >100bp)
+    min_coverage_depth: 10              # 判定系统性剪切位点的最小覆盖深度
+    zero_cov_high_risk_threshold_bp: 500 # 零覆盖高危空洞阈值 (Trigodet 深度回溯调查尺度)
+    rescue_all_zero_cov_blocks: True    # 对所有 0x 区间执行原始读段回溯比对拯救
+    require_no_unresolved_zero_coverage: True # 最高置信度严格要求未解零覆盖为 0
+    repeat_identity: 0.80               # BLASTN 自比对重复序列相似度阈值 (Trigodet 标准)
+    repeat_min_len: 200                 # BLASTN 自比对重复序列最小长度阈值 (>200 bp)
+    enable_anvio_validation: True       # 启用独立的 anvi'o 9 一致性交叉验证引擎 (若环境未装则安全记录 NOT_RUN)
+    dump_plot_bundle: True              # 导出轻量级绘图特征包 (<100 KB JSON)，支持无需大 BAM 本地秒级绘制证据链图 (默认开启)
+
+  # 实测绘图数据目标；参考 DOI 10.1038/s41587-025-02971-8，短reads/接头阈值为项目补充。
+  circular_evidence:
+    targets:
+      Bathy_enrichment_2025: [u999856]
+      Hadar_Ytt: [u499975]
+
+  # --- Annotation Databases (HPC Shared Storage) ---
+  bakta_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db-light"
+  gtdbtk_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+  checkm2_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CheckM2_database/uniref100.KO.1.dmnd"
+  eggnog_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/eggnog"
+  kofam_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam"
+  dbcan_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/dbscan"
+
+  # --- Advanced HMM Databases ---
+  unified_hmm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/KEGG/archive/2025-02-28/cluster/all_lab_ATP/all_lab_ATP.hmm"
+  pfam_hmm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Pfam/archive/37.4/Pfam-A.hmm"
+  ko_list: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam/ko_list"
+
+  # --- Illumina Short-Read Abundance & Orthogonal QC Parameters ---
+  circular_illumina:
+    enabled: True
+    abundance:
+      min_covered_fraction: 0           # 必须为 0，关闭 10% 截断以保留真实低丰度
+    mapping:
+      mapper: "minimap2-sr"
+    standard:
+      min_identity: 95
+      min_aligned_percent: 75
+    strict:
+      min_identity: 98
+      min_aligned_percent: 90
+    coverm:
+      contig_end_exclusion: 75          # 保持 75bp 排除，屏蔽人为线性断点
+      trim_min: 5
+      trim_max: 95
+    junction:
+      rotation_fraction: 0.5            # 联合旋转位置 (L // 2)
+      narrow_window_bp: 100             # DJ100 窄窗口
+      flank_inner_bp: 1000              # 侧翼内边界 (bp)
+      flank_outer_bp: 5000              # 侧翼外边界 (bp)
+      min_spanning_anchor_bp: 30        # 接头跨越读段两侧最小锚定长度 (bp)
+      min_mapq: 20                      # 严格比对质量阈值
+    thresholds:
+      low_relative_abundance: 0.1       # 启发式相对丰度过低提示 (%)
+      low_depth: 5.0                    # 启发式覆盖深度不足阈值 (x)
+      low_breadth: 0.95                 # 启发式覆盖广度不足阈值
+      competitive_warning_ratio: 0.50   # 启发式竞争保留比预警阈值 C
+      identity_sensitive_ratio: 0.50    # 启发式比对严格度下降预警阈值 S
+      junction_warning_ratio: 0.70      # 启发式接头深度比警告阈值 R
+      junction_fail_ratio: 0.30         # 启发式接头深度比失败阈值 R
+
+  # --- Conda Environments ---
+  conda_envs:
+    bakta: "bakta_1.12.0"
+    checkm2: "checkm2_1.0.2"
+    gtdbtk: "gtdbtk_2.7.1"
+    eggnog: "eggnog-mapper"
+    kofamscan: "kofamscan"
+    dbcan: "dbcan"
+    quast: "quast_5.3.0"
+    isescan: "isescan"
+    biopython: "biopython_1.85"
+    seqkit: "seqkit"
+    cdhit: "cd-hit_4.8.1"
+    anvio: "anvio_9"
+    longread_audit: "longread_audit"
+    coverm: "coverm_0.7.0"
+    mapping: "longread_audit"
+    minimap2: "longread_audit"

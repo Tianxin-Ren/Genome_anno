@@ -1,0 +1,29 @@
+# Default Phylogeny Configuration
+# ------------------------------------------------------------------------------
+# In this phylogeny workflow, all task names, HMM profiles, and genome inputs are 
+# configured dynamically under phylogeny_tasks inside samples.yaml.
+# This file is reserved for global module runtime parameters.
+phylogeny:
+  enable: False
+  results_dir: "results/phylogeny"
+
+  # --- IQ-TREE 3.1.2 Performance Tuning ---
+  iqtree_executable: "iqtree3"   # Executable name: "iqtree3" (compatible with your 3.1.2 conda environment)
+  iqtree_bootstrap: "-B 1000"   # "-B 1000" (Ultrafast 3.x) or "-b 1000" (Standard non-parametric)
+  iqtree_alrt: "-alrt 1000"     # SH-aLRT likelihood ratio test
+  iqtree_model: "MFP"           # ModelFinder Plus selection
+  iqtree_extra: "--sampling GENESITE"
+
+  # --- Conda Environment Names/Paths ---
+  conda_envs:
+    gtotree: "gtotree_1.8.12"
+    iqtree: "iqtree_3.0.1"
+
+  # --- GTDB-Tk Global Run Parameters ---
+  gtdbtk:
+    enable: False                  # Global toggle for GTDB-Tk module
+    results_dir: "results/phylogeny/gtdbtk"
+    batch_size: 50                  # Default batch size (genomes per job)
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+    threads: 32                     # CPU cores per batch run
+

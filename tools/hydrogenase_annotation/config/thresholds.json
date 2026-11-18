@@ -1,0 +1,16 @@
+{
+  "blast_evalue": 1e-10,
+  "min_identity": 30,
+  "min_query_coverage": 0.65,
+  "min_reference_coverage": 0.65,
+  "competitive_score_ratio": 0.9,
+  "catalytic_winner_ratio": 1.1,
+  "high_structure_identity": 70,
+  "high_structure_coverage": 0.8,
+  "function_transfer_identity": 80,
+  "hmm_domain_evalue": 1e-5,
+  "hmm_coverage": 0.55,
+  "local_max_span_bp": 30000,
+  "local_max_intergenic_gap_bp": 2500,
+  "notes": "工程起始阈值，不是经跨物种标定的性能界限。远缘、缺失、分散模块只输出候选；结构和功能分别判定。"
+}

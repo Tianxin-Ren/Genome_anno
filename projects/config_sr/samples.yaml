@@ -1,0 +1,276 @@
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+# project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+# ==============================================================================
+# Sample List (Paths are relative to project_root)
+# ==============================================================================
+# default (previous samples; disabled):
+  # --- 之前已有的原始样本列表 ---
+  # "6442":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6442_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6442_2.fq.gz"
+  #   external_assembly: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/Mariana_metagenomics/samples/6442/02_assembly/6442_megahit/6442.contigs.fa"
+  
+  # "6447":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6447_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6447_2.fq.gz"
+  
+  # "6457":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6457_1.fq.gz"
+  # #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6457_2.fq.gz"
+  
+  # "6459":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6459_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6459_2.fq.gz"
+
+  # "6461":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6461_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6461_2.fq.gz"
+  
+  # "6494":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6494_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mariana_1/6494_2.fq.gz"
+
+  # --- 新增的 Mariana_2 迁移样本列表 ---
+  # "6498":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6500":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6502":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6506":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6508":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6510":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6512":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6517":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6518":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6520":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6522":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6959":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6961":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6962":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6963":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6964":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6965":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6966":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6967":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6968":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6969":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6970":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6971":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6972":
+  #   short_read:
+  #     r1: ""
+  #     r2: ""
+
+  # "6436":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6436_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6436_2.fq.gz"
+  
+  # "6438":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6438_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6438_2.fq.gz"
+  
+  # "6440":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6440_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6440_2.fq.gz"
+  
+  # "6452":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6452_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6452_2.fq.gz"
+  
+  # "6454":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6454_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6454_2.fq.gz"
+  
+  # "6455":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6455_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6455_2.fq.gz"
+  
+  # "6463":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6463_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6463_2.fq.gz"
+  
+  # "6465":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6465_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6465_2.fq.gz"
+  
+  # "6467":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6467_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6467_2.fq.gz"
+  
+  # "6469":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6469_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6469_2.fq.gz"
+  
+  # "6471":
+  #   short_read:
+  #     r1: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6471_1.fq.gz"
+  #     r2: "/dssg/home/acct-clswfp/clswfp-icdli1/xieruize/Mariana/6471_2.fq.gz"
+
+batch_name: Mpf_2026
+samples:
+  # Mpf enrichment 2026 short-read samples
+  Mpf_2026_C0:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909571-C0.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909571-C0.R2.raw.fastq.gz"
+  Mpf_2026_N0:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909572-N0.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909572-N0.R2.raw.fastq.gz"
+  Mpf_2026_CN0:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909573-CN0.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909573-CN0.R2.raw.fastq.gz"
+  Mpf_2026_L0:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909574-L0.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909574-L0.R2.raw.fastq.gz"
+  Mpf_2026_H0:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909575-H0.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909575-H0.R2.raw.fastq.gz"
+  Mpf_2026_N8:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909577-N8.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909577-N8.R2.raw.fastq.gz"
+  Mpf_2026_CN8:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909578-CN8.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909578-CN8.R2.raw.fastq.gz"
+  Mpf_2026_L8:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909579-L8.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909579-L8.R2.raw.fastq.gz"
+  Mpf_2026_H8:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909580-H8.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909580-H8.R2.raw.fastq.gz"
+  Mpf_2026_C1:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909581-C1.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909581-C1.R2.raw.fastq.gz"
+  Mpf_2026_N1:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909582-N1.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909582-N1.R2.raw.fastq.gz"
+  Mpf_2026_CN1:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909583-CN1.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909583-CN1.R2.raw.fastq.gz"
+  Mpf_2026_L1:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909584-L1.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909584-L1.R2.raw.fastq.gz"
+  Mpf_2026_H1:
+    short_read:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909585-H1.R1.raw.fastq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Mpf_enrichment_2026_sr/L1MLA0909585-H1.R2.raw.fastq.gz"

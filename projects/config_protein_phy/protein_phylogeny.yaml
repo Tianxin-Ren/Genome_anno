@@ -1,0 +1,22 @@
+# Protein Phylogeny Configuration (Testing Setup)
+# ------------------------------------------------------------------------------
+protein_phylogeny:
+  enable: True
+  results_dir: "results/protein_phylogeny"
+
+  # --- MAFFT Alignment Settings ---
+  mafft_executable: "mafft"
+  mafft_mode: "--auto"            # Options: "--auto", "--localpair --maxiterate 1000" (L-INS-i), etc.
+  mafft_extra: ""
+
+  # --- IQ-TREE 3.1.2 Performance Tuning ---
+  iqtree_executable: "iqtree3"
+  iqtree_bootstrap: "-B 1000"
+  iqtree_alrt: "-alrt 1000"
+  iqtree_model: "MFP"
+  iqtree_extra: ""
+
+  # --- Conda Environment Names/Paths ---
+  conda_envs:
+    mafft: "mafft_7.525"
+    iqtree: "iqtree_3.0.1"

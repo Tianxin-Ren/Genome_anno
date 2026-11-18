@@ -1,0 +1,29 @@
+{
+  "version": "round27-development-replay-boundaries-before-native-prediction",
+  "parent_challenge_protocol": "config/round26_function_validation.json",
+  "case_id": "Mthermo_HydABCDEF_NADP_nonBF",
+  "structure_id": "FeFe_Mthermo_HydABCDEF",
+  "contract_id": "Ref_Mthermo_HydABCDEF_NADP_oxidation",
+  "boundary_runs": [
+    "delete_HydA",
+    "delete_HydD",
+    "delete_HydE",
+    "delete_HydC",
+    "delete_HydB",
+    "delete_HydF",
+    "HydB_one_residue_variant"
+  ],
+  "targets": {
+    "native_exact_six_core": true,
+    "native_reference_reaction_potential": true,
+    "boundary_reference_reaction_assignments": 0,
+    "other_two_cases_no_new_reactions": true,
+    "identity_features_unchanged": true,
+    "registered_targets_unchanged": true
+  },
+  "limits": [
+    "All source cases already exposed. Native reference recovery and synthetic perturbations are regression controls, not independent biological accuracy.",
+    "Do not relax the Syntrophus Ser308 ligand mismatch or deploy failed nucleotide classifier.",
+    "NADP reaction scoped to full exact six native proteins; no DMSO respiration or physiological flux assignment."
+  ]
+}

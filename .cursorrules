@@ -1,0 +1,63 @@
+# Genome_anno Snakemake 框架开发规范
+
+这些规则定义了 AI 助手和人类开发者在交互与修改 Genome_anno Snakemake 仓库代码时必须遵循的标准规范。
+
+## 1. 全局 TARGETS 架构
+- **禁止**直接修改 `Snakefile` 中的 `rule all`。
+- 新增的最终输出文件路径必须在 `Snakefile` 中通过动态 `append` 或 `extend` 追加到全局 `TARGETS` 列表中（例如：`TARGETS.append(path)`）。
+
+## 2. 规则构建与 Conda 执行
+- **禁止**使用 Snakemake 原生的 `conda:` 指令。
+- 所有外部生物信息学工具必须通过配置中传递的 Conda 环境路径来执行：`conda run -p {params.env} <tool>`。
+- **防止静默失败**：对于多行 shell 代码块，必须在开头声明 `set -euo pipefail`，以确保中间任何命令失败时规则能够正确报错退出。
+- **Shell 块花括号与嵌入脚本防错**：
+  - **严禁在 `shell:` 块内直接嵌入带有未转义花括号 `{}` 的 Python 代码**（如 f-string `f'{var}'`、字典字面量 `{'a': 1}` 或集合推导式 `{x for ...}`）。Snakemake 模板引擎会在提交任务前对所有单花括号表达式求值，导致 `AttributeError` 或 `KeyError` 崩溃。嵌入脚本必须改用字符串拼接、`set(...)` 生成器或抽取为 `scripts/*.py` 独立脚本。
+  - Bash 变量 `${VAR}` 与 awk 代码中的花括号必须使用双花括号转义（例如：`${{VAR}}`、`awk '{{print $1}}'`）。
+- **禁止滥用 `unpack()`**：对含静态与动态依赖的规则，必须使用显式具名输入声明（如 `block_list = ...`）与独立输入函数，确保 `InputFiles` 属性完整。
+- 必须将标准输出和错误重定向并记录到日志文件中：`... 2>&1 | tee {log}`。
+
+## 3. 路径解析与绝对路径
+- 本流水线支持独立的外部 `project_dir` 路径。禁止硬编码从仓库根目录开始的相对路径。
+- 在 `Snakefile` 中使用 `norm_proj_path()` 或 `os.path.abspath()` 来根据配置动态解析和确保绝对路径的准确性。
+
+## 4. SLURM 资源控制
+- **线程控制**：所有多线程（`>1`）规则必须采用全局 Wrapper 包装：`threads: get_threads(N)`。
+- **运行时间**：所有规则在 `resources` 块中必须显式指定 `runtime = "7d"`。严禁设置低于 7d 的运行时间。
+- **内存申请**：所有规则在 `resources` 块中必须使用全局 Helper 函数动态计算内存：`mem_mb = lambda wildcards, threads: get_mem_mb(threads)`。严禁硬编码内存数值或使用裸乘子。
+
+## 5. 添加新工具与新规则步骤
+新增任何生物信息学分析软件时，需遵循以下步骤：
+1. 在相应的 YAML 配置文件中将环境的绝对路径添加到 `conda_envs`。
+2. 在 YAML 配置文件的 `steps` 下，添加该软件运行所需的具体参数（如数据库路径、线程数等）和启用开关（Boolean）。
+3. 在 `.smk` 文件中编写规则，确保使用 `conda run -p {params.env}` 并捕获日志到 `{log}`。
+4. 如果是最终产物，在满足开关条件时将其期望路径 append 到 `TARGETS`。如果是中间注释特征，需条件性更新合并脚本和规则输入（如 `get_annot_input()`）以支持新开关。
+
+## 6. 代码风格与一致性
+- **严格的属性顺序**：Snakemake 规则内部必须严格按照 `input`、`output`、`log`、`threads`、`resources`、`params` 顺序排列，最后是 `shell` 或 `run`。
+- **优美的 Shell 块**：多行 shell 块统一使用 `"""`。长命令可使用 `\` 折行。必须以 `set -euo pipefail` 开头，并以 `2>&1 | tee {log}` 结束。严禁包含未转义的花括号 `{}`。
+- **防御性配置读取**：为防止 `KeyError` 导致崩溃，禁止直接读取字典，必须使用安全的链式 `.get()`（例如：`config.get("module", {}).get("key", "default")`）。
+- **路径拼接**：文件与目录路径的构建必须使用 `os.path.join()`。
+
+## 7. 命名规范
+- **全局变量**：统一使用大写加下划线 `UPPERCASE_WITH_UNDERSCORES`，并以模块 ID 作为前缀（例如：`META_OUT`）。
+- **规则命名**：统一使用小写加下划线 `lowercase_with_underscores`（例如：`run_tool_name`）。
+- **通配符（Wildcards）**：读取文件统一使用 `{sample}`，Bin/MAG 统一使用 `{genome}`，质粒统一使用 `{plasmid}`。必须使用 `[^/]+` 进行正则约束。
+- **目录命名**：通配符目录下统一使用带步骤编号的输出文件夹（例如：`01_qc`、`02_bakta`、`03_functional`）。
+
+## 8. 文档与用户指南
+- **禁止在 SMK 文件中写大量注释**：不要在 `.smk` 文件的头部编写大篇幅的流水线执行指南或配置教程。
+- **统一放置在 Docs 目录**：所有的用户操作指南和参考文档必须以标准的 Markdown 文件形式保存在 `docs/` 文件夹下。
+- **交互式文档链接**：指南中应包含指向配置文件的 clickable 链接（如 `[config.yaml](file:///...)`），以及可供直接复制的 bash 运行指令。
+
+## 9. 目标模块化架构 (适用于重构助手)
+本仓库正在逐步向**功能模块化 (Feature-based Modular)** 架构过渡。如果您执行重构工作，请遵循：
+- **独立模块目录**：每个分析流水线应完全自包容在 `modules/<pipeline_name>/` 下（内含其专属 `.smk`、`config.yaml`、`scripts/` 脚本及 `README.md` 指南）。
+- **公共资源**：共享的脚本和集群 profiles 统一放入 `common/` 中。
+- **根目录路由**：根目录下的 `Snakefile` 应当仅保留全局 `TARGETS` 决策逻辑和对各模块的 `include: "modules/<name>/<name>.smk"` 导入语句。
+
+## 10. 项目配置与样本组织架构规范 (Project & Sample Standard)
+- **`data` 与 `project_root` 声明归属规范**：`pipeline.yaml` 必须保持纯净架构，**严禁在 `pipeline.yaml` 中保留 `data:` 配置块或 `project_root`**。所有数据层配置（包括 `data:`、`project_root` 以及 `samples:` 清单）必须统一收敛移动至各个项目的 `samples.yaml` 中进行定义，实现数据层（Data Layer）与流程拓扑及引擎调度（Topology & Engine）的完全解耦。
+- **显式样本名称声明规范**：`samples.yaml` 中必须显式提供每个样本的具体名称（以样本 ID 作为二级字典键，如 `samples: <sample_name>: ...`），严禁使用不透明、无法追踪的隐式数据流。外部表格数据（TSV/CSV 等）必须转换为具名显式的 YAML 结构后再挂载执行。
+- **结果与日志目录层级规范**：
+  - 模块配置文件中的 `results_dir` 和 `logs_dir` 必须采用相对于 `project_root` 的相对路径（例如 `results/<module>`、`logs/<module>`），并通过命名空间路径函数（如 `xx_full_path()`）动态解析为绝对物理路径。
+  - 单样本产物必须组织在以样本名为名的独立子目录下（例如 `{results_dir}/{sample}/{sample}.<ext>`），单样本运行日志必须组织在对应的工具/步骤子目录下（例如 `{logs_dir}/<tool>/{sample}.log`），汇总大表统一输出于 `{results_dir}` 顶层，严禁所有样本产物无序扁平堆叠。

@@ -1,0 +1,32 @@
+# Snakemake internal
+.snakemake/
+
+# Individual Conda environments
+workflow/envs/.conda/
+
+# Results and logs (usually handled by the project_dir, but good to have)
+results/
+logs/
+work/
+.conda_envs/
+drep_analysis/
+annotation_results/
+
+# Data
+data/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local backups & user temporary files
+*.old
+*副本.yaml
+*冲突副本*
+test_parse.py
+scratch/
+protein_KO_all_strict.tsv
+.DS_Store
+**/.DS_Store

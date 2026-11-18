@@ -1,0 +1,24 @@
+# Proxy/Root config_mag_annotation redirecting to projects/config_mag_annotation
+# Matches repository standard for projects directory.
+runtime:
+  platform: "config/platforms/slurm.yaml"
+
+data:
+  samples: "projects/config_mag_annotation/samples.yaml"
+
+modules:
+  mag_annotation:
+    path: "projects/config_mag_annotation/mag_annotation.yaml"
+    enable: true
+  pathway_reconstruction:
+    path: "projects/config_mag_annotation/pathway_reconstruction.yaml"
+    enable: false
+  hydrogenase_annotation:
+    path: "projects/config_mag_annotation/hydrogenase_annotation.yaml"
+    enable: true
+
+paths:
+  project_root: ""
+  results: "results"
+  logs: "logs"
+  work: "work"

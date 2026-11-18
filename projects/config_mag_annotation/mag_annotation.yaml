@@ -1,0 +1,102 @@
+# ==============================================================================
+# MAG High-Throughput Annotation Configuration (PyKofamSearch + Full KOfam)
+# ==============================================================================
+
+mag_annotation:
+  # Output folders (relative to project_root)
+  results_dir: "results/mag_annotation"
+  logs_dir: "logs/mag_annotation"
+
+  # Proteome context tag for provenance
+  proteome_context: "bacteria_pure_culture_filter"
+
+  # Pipeline Step Toggles
+  steps:
+    gene_calling: true        # stage=gene_calling runs this; stage=annotation uses protein_dir
+    deduplication: true       # 100% collision-checked exact sequence dedup
+    sharding: true            # Complexity-aware residue-balanced sharding
+    pykofamsearch: true       # Node-level multi-worker PyKofamSearch
+    merge_summary: true       # Primary asset and secondary matrix generation
+    validation: true          # Three-level scientific validation gate
+    export_dense: false       # Optional dense genome x KO matrix export
+    postprocess_atp: false     # Structural gating & metadata integration
+    analyze_atp_correlation: false # Whole-genome KO-ATP co-occurrence & correlation engine
+    combine_kegg_cog: false    # Integrated KEGG + COG single-cell master annotation
+    split_genome_annotations: true # Per-genome KEGG all-hit tables
+
+  # Post-Processing & ATP Synthase Structural Gating Settings
+  postprocess:
+    metadata_tsv: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/data_prep/archaea_all/01_filter/filtered_metadata.tsv"
+    operon_max_gene_gap: 3
+    weight_borderline: 0.5
+    weight_supported_borderline: 0.75
+    high_quality_genome_completeness: 90.0
+    high_quality_contamination_limit: 5.0
+    low_quality_genome_completeness: 70.0
+
+  # Whole-Genome KO & ATP Synthase Correlation Settings
+  correlation_analysis:
+    exclude_target_definition_kos: true
+    min_ko_prevalence_count: 5
+    fdr_alpha: 0.05
+    delta_prevalence_cutoff: 0.20
+    min_stratum_group_size: 3
+    sampling_mode_primary: "all"
+    run_genome_reduction_sensitivity: true
+
+
+  # Gene Calling Settings
+  gene_calling:
+    # "meta" keeps the historical conservative MAG behaviour.
+    # "single" uses genome-specific training for every input genome.
+    # "auto" uses "single" only when every retained FASTA contig header has
+    # an explicit circular/closed/complete marker; otherwise it falls back to
+    # the configured auto.fallback_mode. This is useful for mixed draft and
+    # complete-closed genome directories.
+    mode: "auto"
+    trans_table: 11           # 11 for Archaea and Bacteria
+    batch_size: 100           # Number of genomes handled by one stage-1 Snakemake job
+    auto:
+      complete_mode: "single"
+      fallback_mode: "meta"
+
+  # Sharding Parameters
+  sharding:
+    # Production GTDB r232 setting: ~120M amino-acid residues (~30-40 shards total across 16k Archaea)
+    target_aa: 120000000
+    target_proteins: 500000
+    #
+    # Test batch setting (100 MAGs): ~15M amino-acid residues (~4-8 shards)
+    # target_aa: 15000000
+    # target_proteins: 50000
+
+  # PyKofamSearch & KOfam Parameters
+  pykofam:
+    threads_per_shard: 12     # Threads per shard job on shared cluster nodes (1 shard = 1 Slurm job)
+    prefilter_evalue: 10.0    # Relaxed prefilter E-value to minimize heuristic loss
+    threshold_factor: 0.80    # Relative score threshold cutoff (1.0 = strict 100% threshold, 0.80 = 80% cutoff for divergent Archaea/MAGs)
+    evalue_fallback_cutoff: 1e-3 # Fallback E-value threshold when no hit passes score threshold
+
+  # Summary Aggregation Settings
+  merge_summary:
+    threads: 32               # Worker processes for parallel shard parsing and fast arbitration (32 cores)
+
+  # Database Paths (Inherited from platform configuration e.g. config/platforms/slurm.yaml)
+  # Leave empty here to inherit platform defaults, or specify non-empty string to override
+  database_pkl: ""
+  kofam_profiles: ""
+  ko_list: ""
+  database_sha256: ""
+
+  # HPC Cluster Scheduling Configuration
+  # Note: The cluster operates on a shared-resource pool (billing by requested CPU/mem).
+  # Snakemake schedules each shard as an independent 12-core Slurm job via profiles/slurm.
+  cluster:
+    local_scratch_dir: ""     # Optional scratch dir (leave empty to auto-detect $SLURM_TMPDIR -> $TMPDIR -> /tmp)
+
+
+  # Conda Environments
+  # conda_envs:
+  #   pykofamsearch: "pykofamsearch_26.7.21"
+  #   pyrodigal: "pyrodigal_3.7.1"
+  #   python: "biopython_1.85"

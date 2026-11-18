@@ -1,0 +1,14 @@
+module_id: "M00595"
+name: "Sulfur oxidation, SOX system, thiosulfate => sulfate"
+category: "Energy metabolism"
+subcategory: "Sulfur metabolism"
+definition: "K17224+K17222+K17223+K17227+K17226+K17225+K22622"
+key_kos:
+  - "K17224" # soxB; S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20]
+  - "K17222" # soxA; L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+  - "K17223" # soxX; L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+  - "K17227" # soxZ; sulfur-oxidizing protein SoxZ
+  - "K17226" # soxY; sulfur-oxidizing protein SoxY
+  - "K17225" # soxC; sulfane dehydrogenase subunit SoxC
+  - "K22622" # soxD; S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6]
+description: "Thiosulfate oxidation by the multi-enzyme Sox complex (SoxBAXZYCD system)."

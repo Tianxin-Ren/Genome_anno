@@ -1,0 +1,64 @@
+{
+  "schema": "R165_group4_nucleotide_primary_architecture_review_v1",
+  "checked_at": "2026-11-02",
+  "status": "architecture_review_only_no_new_validation",
+  "scope": "Primary-literature review of Group 4b/Fdh-like architecture and its SHI-gamma/beta context; no MAG measurement, no independent validation, no production-rule changes.",
+  "local_exposure_audit": {
+    "paper_doi_searched": "10.3389/fmicb.2026.1925269",
+    "exact_paper_or_doi_found_before_R165": false,
+    "related_SHI_beta_gamma_development_exposure": true,
+    "exposure_records": [
+      "experiments/round152_source_prior/inputs/preparation_manifest_v1.json",
+      "experiments/round158_HpSH_assays/regression_audit_v1.json",
+      "experiments/round164_partner_assignment/regression_final_runs_v2.json"
+    ],
+    "Hadar_status": "The paper itself was not previously located by DOI, but the Pyrococcus furiosus SHI-alpha/delta/beta/gamma architecture and SHI-beta/gamma reference pathway are already used in Hadar/R122-R164 development. Therefore this review is not independent validation and cannot be counted as a new source."
+  },
+  "primary_sources": [
+    {
+      "title": "In silico discovery of selenocysteine-containing variants of Group 4 [NiFe] hydrogenases",
+      "doi": "10.3389/fmicb.2026.1925269",
+      "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1925269/full",
+      "role": "Group 4b genomic-context and AlphaFold architecture inference; not biochemical validation"
+    },
+    {
+      "title": "Structural insights into the biotechnologically relevant reversible NADPH-oxidizing NiFe-hydrogenase from P. furiosus",
+      "doi": "10.1016/j.str.2025.05.017",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0969212625002151",
+      "pdb": ["9NEZ", "9NF0"],
+      "role": "Experimental Pf SHI reference for alpha/delta catalytic module and beta/gamma NADPH module"
+    }
+  ],
+  "generic_architecture_inference": {
+    "group4b": "The paper describes a typical Group 4b cluster containing catalytic large and small hydrogenase subunits, HyfE-like and HyfC-like electron-transfer subunits, proton antiporter subunits, multiple ferredoxins, and an Fdh-like subunit. The architecture is formate-hydrogenlyase-like and is inferred from gene context plus AlphaFold models, not direct complex purification.",
+    "core_small_subunit": "The catalytic small subunit carries the Fe-S relay of the minimal NiFe hydrogenase module and transfers electrons from the catalytic large-subunit NiFe center into the surrounding electron-transfer network. Its presence supports a hydrogenase core but does not by itself establish NAD(P) coupling.",
+    "branching_electron_network": "The reported model has three Fe-S-mediated branches terminating at the catalytic large subunit, an SHI-gamma-like branch, and the Fdh-like protein. This supports a possible coupling/bifurcation or confurcation architecture linking H2/protons, NADP+/NADPH, and an unidentified substrate, but the paper explicitly presents this as a structural/genomic suggestion.",
+    "SHI_gamma_beta_connection": "The Group 4b/Fdh-like clusters co-occur with homologs of SHI-gamma and SHI-beta from P. furiosus SHI. In the Pf experimental reference, SHI-gamma is the NADPH/FAD-facing component and SHI-beta contains three [4Fe-4S] clusters; together beta/gamma form the NADPH oxidoreductase module and relay electrons toward the alpha/delta hydrogenase module. This is a mechanistic template, not proof that every Group 4b cluster performs the same reaction.",
+    "Fdh_like_catalytic_caution": "About half of the Fdh-like sequences in the reported Group 4b contexts lack conserved Cys/Sec residues expected for Mo coordination. Such proteins may be electron-transfer or Fdh-like structural branches rather than active formate dehydrogenases; absence of Mo-binding residues should prevent assigning formate catalysis, but does not erase the hydrogenase-core evidence.",
+    "Sec_scope": "The paper's Sec survey concerns N-terminal CXXU/UXXC/UXXU motifs in Group 4 large subunits and genomic SECIS/Sel machinery. Sec detection is not evidence of nucleotide coupling or a measured reaction direction."
+  },
+  "what_can_be_transferred_to_annotation": {
+    "allowed": [
+      "Use Group 4b-like large/small catalytic core plus local HyfE/HyfC/antiporter/Fe-S context as a structural architecture hypothesis.",
+      "Treat SHI-beta/gamma-like hits as a candidate pyridine-electron module only when their own domain/role and association evidence are present.",
+      "Keep Fdh-like Mo-Cys absence as a constraint on formate-dehydrogenase assignment, not as a universal blocker of hydrogenase-core prediction.",
+      "Report possible nucleotide/electron-bifurcation coupling as a coarse preferred hypothesis with explicit low or medium confidence and alternatives."
+    ],
+    "not_allowed": [
+      "Do not call a MAG candidate experimentally NAD(P)-coupled based on this paper.",
+      "Do not infer NAD/NADP specificity, directionality, bifurcation, or formate turnover without candidate-specific evidence.",
+      "Do not use SHI-beta/gamma co-occurrence alone to convert a shared redox module into a hydrogenase."
+    ]
+  },
+  "validation_boundary": {
+    "new_independent_validation_credit": 0,
+    "MAG_u834437629": "not measured here; any relationship to this MAG remains a hypothesis requiring its own core, partner, association, and competing-interpretation evidence",
+    "Hadar_transfer": "Reference architecture may support a preferred coarse prediction if candidate-specific evidence is present, but this literature review does not alter existing code or thresholds."
+  },
+  "files_read_or_downloaded": {
+    "supplementary_material": "Article-linked supplementary material was inspected conceptually through the publisher record; no sequence or genome data were downloaded.",
+    "FeFe_protected_reserved_read": false,
+    "Salmonella_restricted_read": false,
+    "code_modified": false
+  }
+}

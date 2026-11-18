@@ -1,0 +1,189 @@
+{
+  "version": "round03-preregistered-before-domain-scan",
+  "source": "https://interpro-documentation.readthedocs.io/en/latest/api.html",
+  "models": [
+    {
+      "accession": "TIGR03955.1",
+      "profile": "rSAM_HydG",
+      "file": "HydG_TIGR03955.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/ncbifam/TIGR03955/?annotation=hmm",
+      "sha256": "5d9b8b3cab2b2be211d9e00b351df38e9ab61b39e4d408604bd2403240cf7019"
+    },
+    {
+      "accession": "TIGR03956.1",
+      "profile": "rSAM_HydE",
+      "file": "HydE_TIGR03956.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/ncbifam/TIGR03956/?annotation=hmm",
+      "sha256": "33ae1506986c91542648ad93dcc4d7bea10d14be71ffadb5d34800d0d07e8155"
+    },
+    {
+      "accession": "TIGR03918.1",
+      "profile": "GTP_HydF",
+      "file": "HydF_TIGR03918.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/ncbifam/TIGR03918/?annotation=hmm",
+      "sha256": "9ce366de446d53f4908404ff00c0a396d3a55d83c6efb87b41658c81ef8f26e7"
+    },
+    {
+      "accession": "PF01155.26",
+      "profile": "HypA",
+      "file": "PF01155.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01155/?annotation=hmm",
+      "sha256": "42e2e799ffd8efb3884518fe2c0140ad382dca3714438abe2cf30c276b722ea0"
+    },
+    {
+      "accession": "PF02492.26",
+      "profile": "cobW",
+      "file": "PF02492.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02492/?annotation=hmm",
+      "sha256": "4da27a1351e5d095971dda8385dde4c63e5577da622e7bca274e09d562c400f8"
+    },
+    {
+      "accession": "PF01455.24",
+      "profile": "HupF_HypC",
+      "file": "PF01455.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01455/?annotation=hmm",
+      "sha256": "82294df5c957b4d636e8f7a20381aeee9abcbf7c459e9e220d501b10c08914b4"
+    },
+    {
+      "accession": "PF01924.22",
+      "profile": "HypD",
+      "file": "PF01924.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01924/?annotation=hmm",
+      "sha256": "b9ffb5c13817aaf6f1cad58f02733e905c11cd096c14e0115a799b24ed6a7b73"
+    },
+    {
+      "accession": "PF07503.18",
+      "profile": "zf-HYPF",
+      "file": "PF07503.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07503/?annotation=hmm",
+      "sha256": "093f4dce7e296b16c3c5014d22083c0ac43ada11e02123c8035f4ad99cc59323"
+    },
+    {
+      "accession": "PF17788.8",
+      "profile": "HypF_C",
+      "file": "PF17788.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17788/?annotation=hmm",
+      "sha256": "b2e784a1e7a48daafdfcf2665c3375364cea02653e556c3109f540364a0f847e"
+    },
+    {
+      "accession": "PF18128.8",
+      "profile": "HydF_dimer",
+      "file": "PF18128.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF18128/?annotation=hmm",
+      "sha256": "e33cd683a0e5a9db2159907d9b360b920d83db887e28c9c50ce26f5c2fb85778"
+    },
+    {
+      "accession": "PF18133.8",
+      "profile": "HydF_tetramer",
+      "file": "PF18133.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF18133/?annotation=hmm",
+      "sha256": "2d769512156d782f97ca65879b8b713eda39d3acec325c24dba2cb6311ac556e"
+    },
+    {
+      "accession": "PF00586.30",
+      "profile": "AIRS",
+      "file": "PF00586.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00586/?annotation=hmm",
+      "sha256": "0cba38e4860879ec6cf465173d9a243f5fdcec92b302154119ddf3236260d9aa"
+    },
+    {
+      "accession": "PF02769.28",
+      "profile": "AIRS_C",
+      "file": "PF02769.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02769/?annotation=hmm",
+      "sha256": "febd09ddd10ddf315bc44f9233557d8fc41a9477f5a5e3e7a3bfb03316e06bf8"
+    },
+    {
+      "accession": "PF22521.3",
+      "profile": "HypF_C_2",
+      "file": "PF22521.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF22521/?annotation=hmm",
+      "sha256": "80243af699d013b91a1910517bb14a76ac24988c71db71586df59a8284b7aa6f"
+    },
+    {
+      "accession": "PF00970.31",
+      "profile": "FAD_binding_6",
+      "file": "PF00970.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00970/?annotation=hmm",
+      "sha256": "92960b31b0e156fefb9cede8fd77a418d4127d6a8228459b86863ac56c7967f0"
+    },
+    {
+      "accession": "PF00175.27",
+      "profile": "NAD_binding_1",
+      "file": "PF00175.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00175/?annotation=hmm",
+      "sha256": "d1180175296f52aff7310a5c1d710c0b46a8d871040ecd0b215b6dcfde57d766"
+    },
+    {
+      "accession": "PF10418.15",
+      "profile": "DHODB_Fe-S_bind",
+      "file": "PF10418.hmm",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF10418/?annotation=hmm",
+      "sha256": "9213404bdd771e93c41f19c531d552949419919a5fbfc07ff409f44b9c2df412"
+    }
+  ],
+  "rules": {
+    "hypA": {
+      "all_of": [
+        "PF01155"
+      ],
+      "scope": "shared_HypA_urease_hydrogenase_family"
+    },
+    "hypB": {
+      "all_of": [
+        "PF02492"
+      ],
+      "scope": "shared_CobW_HypB_UreG_NTPase_domain"
+    },
+    "hypC": {
+      "all_of": [
+        "PF01455"
+      ],
+      "scope": "shared_HypC_HybG_HupF_chaperone_family"
+    },
+    "hypD": {
+      "all_of": [
+        "PF01924"
+      ],
+      "scope": "HypD_family"
+    },
+    "hypE": {
+      "all_of": [
+        "PF00586",
+        "PF02769"
+      ],
+      "scope": "shared_AIRS_architecture_plus_reviewed_CDS_product"
+    },
+    "hypF": {
+      "all_of": [
+        "PF07503"
+      ],
+      "any_of": [
+        "PF17788",
+        "PF22521"
+      ],
+      "scope": "HypF_multidomain_architecture_plus_reviewed_CDS_product"
+    },
+    "hydE": {
+      "all_of": [
+        "TIGR03956"
+      ],
+      "scope": "HydE_specific_NCBIfam"
+    },
+    "hydF": {
+      "all_of": [
+        "TIGR03918"
+      ],
+      "scope": "HydF_specific_NCBIfam"
+    },
+    "hydG": {
+      "all_of": [
+        "TIGR03955"
+      ],
+      "scope": "HydG_specific_NCBIfam"
+    }
+  },
+  "min_model_coverage": 0.7,
+  "score_policy": "Each model must pass its own curated sequence and domain gathering thresholds (GA); do not substitute arbitrary global identity.",
+  "caveat": "Shared Pfam domains do not independently prove hydrogenase-specific maturation. Combine with accession-pinned product review; actual cofactor assembly remains unknown."
+}

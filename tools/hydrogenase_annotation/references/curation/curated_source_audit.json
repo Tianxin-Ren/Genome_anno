@@ -1,0 +1,1453 @@
+{
+  "status": "exact_curated_sequence_candidates_require_role_review",
+  "source_proteins": 1473,
+  "matched_references": 63,
+  "reviewed_matched_references": 46,
+  "inactive_records_not_used": [
+    {
+      "source_file": "references/raw/reference_domain_review/structure_uniprot/I7G634.json",
+      "accession": "I7G634",
+      "entry_type": "Inactive",
+      "inactive_reason": {
+        "inactiveReasonType": "DELETED",
+        "deletedReason": "Not part of a reference proteome"
+      }
+    }
+  ],
+  "accession_sequence_versions_preserved": {},
+  "source_files": {
+    "references/raw/validation_corpus/reviewed_hydrogenase_page1.json": "bab8cc6c2fb5cb6f3661641cf87f557cf80c34d8e979496cb1e9cdddfee4167a",
+    "references/raw/validation_corpus/reviewed_catalytic_domains.json": "548ea705516fdf10adab23a2010de79817928c940efbe2d50dd506a18645d290",
+    "references/raw/validation_corpus/reviewed_complexI.json": "432c0f7d24a1bd3550f7b9b75b3a9649aa91cbf08ee763ad5bed7be4b108d15e",
+    "references/raw/validation_corpus/reviewed_non_catalytic_homologs.json": "6872eaa6cf877fa8f5374e3fc00d222a0c6a18cb63191bc90e6aa6e27b9cd87f",
+    "references/raw/reference_domain_review/reviewed_partner_sources_page1.json": "3d2265dc8b9327329a40212e124d32013b33e0ca8f6ea3281db80ad346cf77df",
+    "references/raw/reference_domain_review/reviewed_partner_sources_page2.json": "deb3790f8436b2b78bdc153218e7c61b937164c218189971c6414778dacc9aef",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATG3.json": "62469e80b09f4730852644c56614454e7c93cf631a2332680c2dc5d9ca775524",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATG4.json": "ff458e4cd70bde5614c16ab3d74ee1cc0eeb8b6f5796d9d60d13b02bdf1da8c3",
+    "references/raw/reference_domain_review/structure_uniprot/A0A097ATI0.json": "9a8d1cdb9b940b3d98f6b438afcd107a37cb9b07fcbe8823fc105e1e41833a40",
+    "references/raw/reference_domain_review/structure_uniprot/A0QUM5.json": "e76137227ec6d1a56bd4ff9cda675290fbcad8b375dd6c3cdf8eab59e9970def",
+    "references/raw/reference_domain_review/structure_uniprot/A0QUM7.json": "8d5ddb3fdfffbbfcdafbf0c2cbcfbb7b43923c1b0b49933312e7bb6ff7dfb323",
+    "references/raw/reference_domain_review/structure_uniprot/A6UVT1.json": "c7f09f78ab0021b008f3aecd717510893adaa145e88a1f2bd21345b1fbc31db6",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF6.json": "8de779678904a836cb5585624c7f5d69a194fef45d42828c457f73a6d16b48e4",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF7.json": "7c2d9b3c55962b9eeb5c46c092d6c73a417f4242ec0174727a1852ccaf18d66f",
+    "references/raw/reference_domain_review/structure_uniprot/D9PYF9.json": "b3750e4daf97a26a19b4db50b95888dc7f1c702d77e4a2dcc1e1b0a07e9c9179",
+    "references/raw/reference_domain_review/structure_uniprot/E7FHU4.json": "64aba649fe55abbddca44718be7faf42cf70165b173ab0f02d46447f35cc6084",
+    "references/raw/reference_domain_review/structure_uniprot/E7FI44.json": "35b710ea87fc39139320a8212fdbb20df4b01dfc7bf7f1adee11c48d862f68e3",
+    "references/raw/reference_domain_review/structure_uniprot/F2Z6J5.json": "14b0db61adeabc74806a38df8606e247e5584077e967ffd1275339ff24d940e3",
+    "references/raw/reference_domain_review/structure_uniprot/F2Z6J6.json": "eae584b1400089756fc0b3452325de043086c90aef864822b66c97653aa90e45",
+    "references/raw/reference_domain_review/structure_uniprot/G4FFG0.json": "52bef3851f060bd64776d15661a818c2eba410de9e47d7f1d25a56e9442b68b8",
+    "references/raw/reference_domain_review/structure_uniprot/G4FFG1.json": "006e6f357ed2ca68a53a48bf177dffaeece405b0f4f19069c623b7cb99a2d66a",
+    "references/raw/reference_domain_review/structure_uniprot/H6LFG3.json": "3242516f5e3bdc52c2db3503434c8a79b9d8e9c25918d25eadf95f660c85a8dc",
+    "references/raw/reference_domain_review/structure_uniprot/H6LFG4.json": "3b6e97c1c65792de83954eb288587a8699e8da457c114275fe87d6ee4f377c91",
+    "references/raw/reference_domain_review/structure_uniprot/I6TXN1.json": "1a0411d48a6b8b686359f440ee05ce9c1c0e92a36e55355e1d0bc8c28fee8390",
+    "references/raw/reference_domain_review/structure_uniprot/I6TXN5.json": "910c620e906920bb0c5948ab73d7a4342465000aabfac7684a7b7eabdbc00051",
+    "references/raw/reference_domain_review/structure_uniprot/I6U847.json": "599a4d659f06e25128b693c57080d924c614e76762f9870f64d575044a7b22e0",
+    "references/raw/reference_domain_review/structure_uniprot/I6U851.json": "a3ca8820cde2e586d6b661c90e98300e7b298ad053290e761ccec7a0258398ac",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQL1.json": "17d73c7549bb53ee2484e6dea071c6138eda41dce27a921c4a2d43029d51e8bd",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQL5.json": "f0cd1351146b6db3fd4a8d4765681baf63d1da1796c19ffc9bcf5179fe1ddbca",
+    "references/raw/reference_domain_review/structure_uniprot/I6UQM0.json": "62fef4fa4cace6945f48704ab350d597fdd825e62bcb624ad29191c3d2435fa0",
+    "references/raw/reference_domain_review/structure_uniprot/I6UZT7.json": "18d294d0133e3ee86b68ba214c5e5b5084a1ecdecbd899f748ce4010adf745ca",
+    "references/raw/reference_domain_review/structure_uniprot/I6UZU1.json": "1c1dad697c91ed5d59d7341c08c68d256ee2e389670022e15d9d6555ba8463d4",
+    "references/raw/reference_domain_review/structure_uniprot/I6V287.json": "e76d674894b8be9b1585213b563e5512d56f13609c5755f7367950faefb667c7",
+    "references/raw/reference_domain_review/structure_uniprot/I7G634.json": "32ef9e37f05e20d6ca7f51ad2f8f7643a09aed47a7d4aeb68087a8caaa2f2b41",
+    "references/raw/reference_domain_review/structure_uniprot/P07598.json": "b4ae797fe88bf0e82c49e4c82908920262b19921defa82d2aea2faac424bc5ee",
+    "references/raw/reference_domain_review/structure_uniprot/P07603.json": "338e8965a03ced481ff261025232c4456b6b4eca259b7e4b6b6aa71fbd900734",
+    "references/raw/reference_domain_review/structure_uniprot/P0AAK1.json": "2c19546f356522a314de34e97a0e2171ce2dae36ba2823e9e09ccf07a3eb3a10",
+    "references/raw/reference_domain_review/structure_uniprot/P0ACD8.json": "0dcae9afb097418eb378ef7d97babeada5b1bfa5d53b65b4c63483e6db913022",
+    "references/raw/reference_domain_review/structure_uniprot/P0ACE0.json": "44ceaca1369d240bbf9241794f581d895b188ef3db3f296cd2907d360ff49add",
+    "references/raw/reference_domain_review/structure_uniprot/P13063.json": "276db4b3a0a1eaeaaf3e8c35df593cd170ee303480acd1a00a0bc32c9e90e0f7",
+    "references/raw/reference_domain_review/structure_uniprot/P13065.json": "a0079ca9c8eb2a4b0920bda8267b892245a32e1b61324c510e34314fa2a8f09e",
+    "references/raw/reference_domain_review/structure_uniprot/P16429.json": "1c07c34d28631233bd51048ea706e2a20cbc7cc04f674af744b3f6ec274a04a7",
+    "references/raw/reference_domain_review/structure_uniprot/P16430.json": "f91c5823864ad3aef992d6f544ab3f9a5b00fb59b38971581cf0b8bc03eba89d",
+    "references/raw/reference_domain_review/structure_uniprot/P16431.json": "a86c6afd4c7f09d506bdd72bf1e7d1cfe4dc268b8419848777df6bfa201917ad",
+    "references/raw/reference_domain_review/structure_uniprot/P16432.json": "054b00cfa368f859083cbf7f68b1b48f5d18cfe970a1f4db8739f407136e5b87",
+    "references/raw/reference_domain_review/structure_uniprot/P16433.json": "c57f78aee77e4c710bd7e7ae65fa50ea0b4aec7ed9b5581562e72bbb1438a37d",
+    "references/raw/reference_domain_review/structure_uniprot/P18187.json": "ff9b70b10d53a18cbe9731abaf893e4534ff13ccc08a23634baae41fddc79927",
+    "references/raw/reference_domain_review/structure_uniprot/P18188.json": "9d7303352e30a20447f1fd6ab974d99f1b434cf846ea1fe15fef6e0198e7b573",
+    "references/raw/reference_domain_review/structure_uniprot/P29166.json": "24c82a8bf24c46f3494135dda89552eddc522c8d788da9701f7932774fe79c63",
+    "references/raw/reference_domain_review/structure_uniprot/P31891.json": "7a8007df10c5fe975e585d1573ae9eb7ca4cd479649e7ef9df38670f23d0a569",
+    "references/raw/reference_domain_review/structure_uniprot/P31892.json": "c21064e5284c4ddd13338661acb8d9ad5a359de2b4cf284f35e3a57daf7c99c5",
+    "references/raw/reference_domain_review/structure_uniprot/P69739.json": "dca5caf2fd9358baa599e414e13e5651ec262764f4bbd07fed0e9c933157ec79",
+    "references/raw/reference_domain_review/structure_uniprot/P69741.json": "4fc21a255ade8aaa183f1820c052dfa8ccae3ad919179aed3b62b78ce0afa94a",
+    "references/raw/reference_domain_review/structure_uniprot/Q58194.json": "92d02cfe0ab4364418050ce8b3a370139d88abe6d718efc138cfa89b9dceed11",
+    "references/raw/reference_domain_review/structure_uniprot/Q58734.json": "4db49010550f64029258a19838f78e5f07c4b82b87af5340bf936d5265ddc549",
+    "references/raw/reference_domain_review/structure_uniprot/Q7WXQ3.json": "33a8a74a1d8fed994155b2f9d725a3e5a61e5e5f1862b064853c03d4e81c463b",
+    "references/raw/reference_domain_review/structure_uniprot/Q7WXQ4.json": "15cc80563f2143862214409f039bc61f8183256aed12924da5b865f7c21ccc37",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z6.json": "e0695ab90bb85036123c0fe5bba2b37060a61cf1a4c0090f68cd72ee5e55f3d9",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z7.json": "b06005cd9a737d332ee4c985a42f4b408b6ea0a3146cb63c6a2bf306d969e2fd",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U0Z8.json": "2b9b4e64b96f966f37d09e07317d997aae2b361cab478263465e6714bd0f4685",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U104.json": "32c019143aebea9792107d43b68d5ca1470fea66ab8e2db4409a856a4c0356ab",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U2E4.json": "330de5ffec47fd952cd33a3b600d87191286ab1ccf63a84fee2a4d8cb89dc214",
+    "references/raw/reference_domain_review/structure_uniprot/Q8U2E5.json": "4a328c95cb57bed336ff9cc96ba80ef19b78cf95cbc77012cf8b0e95fa03f89c",
+    "references/raw/reference_domain_review/structure_uniprot/Q9S5X7.json": "e0a9d048672d0382e26bffb904751cc2809595cf67d175ac81dd0aea41050fe7",
+    "references/raw/reference_domain_review/reviewed_regulatory_cytochrome_sources.json": "42408ab64780259abd022b56d950a6ff71abfe399a4b94d08764c8c5900cb8f5"
+  },
+  "matches": [
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaA",
+      "source_id": "UP_P69740__eaa30f44b29f",
+      "uniprot": "P69740",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-1 small chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF14720",
+        "PF01058"
+      ],
+      "sequence_sha256": "eaa30f44b29f180b59d9ec5c8b698c1dc84c3d10dafcbaf9598b502f79153198"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaA",
+      "source_id": "UP_P69739__eaa30f44b29f",
+      "uniprot": "P69739",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-1 small chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P69739.json"
+      ],
+      "pfam": [
+        "PF14720",
+        "PF01058"
+      ],
+      "sequence_sha256": "eaa30f44b29f180b59d9ec5c8b698c1dc84c3d10dafcbaf9598b502f79153198"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaB",
+      "source_id": "UP_P0ACD9__e654bce355d9",
+      "uniprot": "P0ACD9",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-1 large chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "e654bce355d9a2145c7ec7dc3725faf9ac44a443cbdd28a83f6f3ab7612da4d2"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaB",
+      "source_id": "UP_P0ACD8__e654bce355d9",
+      "uniprot": "P0ACD8",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-1 large chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/P0ACD8.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "e654bce355d9a2145c7ec7dc3725faf9ac44a443cbdd28a83f6f3ab7612da4d2"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaC",
+      "source_id": "UP_P0AAM2__aceebb2b3de7",
+      "uniprot": "P0AAM2",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Probable Ni/Fe-hydrogenase 1 B-type cytochrome subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF01292"
+      ],
+      "sequence_sha256": "aceebb2b3de7eea5b9f79759b31982dead3e0921d6a59a1ce42ffaf1366eb59f"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaC",
+      "source_id": "UP_P0AAM1__aceebb2b3de7",
+      "uniprot": "P0AAM1",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Probable Ni/Fe-hydrogenase 1 B-type cytochrome subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF01292"
+      ],
+      "sequence_sha256": "aceebb2b3de7eea5b9f79759b31982dead3e0921d6a59a1ce42ffaf1366eb59f"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybO",
+      "source_id": "UP_P69743__d33944a2933b",
+      "uniprot": "P69743",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 small chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF14720",
+        "PF01058"
+      ],
+      "sequence_sha256": "d33944a2933b9c117a31f95a0a1484f06fde4ab54e71a725c460b4c3d42e7195"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybO",
+      "source_id": "UP_P69742__d33944a2933b",
+      "uniprot": "P69742",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 small chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF14720",
+        "PF01058"
+      ],
+      "sequence_sha256": "d33944a2933b9c117a31f95a0a1484f06fde4ab54e71a725c460b4c3d42e7195"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybO",
+      "source_id": "UP_P69741__d33944a2933b",
+      "uniprot": "P69741",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 small chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P69741.json"
+      ],
+      "pfam": [
+        "PF14720",
+        "PF01058"
+      ],
+      "sequence_sha256": "d33944a2933b9c117a31f95a0a1484f06fde4ab54e71a725c460b4c3d42e7195"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybA",
+      "source_id": "UP_P0AAK0__c79e962d875a",
+      "uniprot": "P0AAK0",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 operon protein HybA",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF13247"
+      ],
+      "sequence_sha256": "c79e962d875aa158626d8f6ec049561f17fb2ad57937223c8d721fe07f2ed55d"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybA",
+      "source_id": "UP_P0AAJ9__c79e962d875a",
+      "uniprot": "P0AAJ9",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 operon protein HybA",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF13247"
+      ],
+      "sequence_sha256": "c79e962d875aa158626d8f6ec049561f17fb2ad57937223c8d721fe07f2ed55d"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybA",
+      "source_id": "UP_P0AAJ8__c79e962d875a",
+      "uniprot": "P0AAJ8",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 operon protein HybA",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF13247"
+      ],
+      "sequence_sha256": "c79e962d875aa158626d8f6ec049561f17fb2ad57937223c8d721fe07f2ed55d"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybB",
+      "source_id": "UP_P37180__8bb94593c0ee",
+      "uniprot": "P37180",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Probable Ni/Fe-hydrogenase 2 b-type cytochrome subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF03916"
+      ],
+      "sequence_sha256": "8bb94593c0ee5576402d16a3cd26d82864727bd4da19b4cb42814aa7be001653"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybC",
+      "source_id": "UP_P0ACE2__8df83bddd504",
+      "uniprot": "P0ACE2",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 large chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "8df83bddd504561938a5de86aaff24215118a1d83807310d22c45377d5929d0b"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybC",
+      "source_id": "UP_P0ACE1__8df83bddd504",
+      "uniprot": "P0ACE1",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 large chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "8df83bddd504561938a5de86aaff24215118a1d83807310d22c45377d5929d0b"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybC",
+      "source_id": "UP_P0ACE0__8df83bddd504",
+      "uniprot": "P0ACE0",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-2 large chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/P0ACE0.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "8df83bddd504561938a5de86aaff24215118a1d83807310d22c45377d5929d0b"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycB",
+      "source_id": "UP_P0AAK3__908b6f6a0b18",
+      "uniprot": "P0AAK3",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 2",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF13247"
+      ],
+      "sequence_sha256": "908b6f6a0b188281b2a1bc543c5211f7627a0d5cff65b89928b5b53864e29b3e"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycB",
+      "source_id": "UP_P0AAK2__908b6f6a0b18",
+      "uniprot": "P0AAK2",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 2",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF13247"
+      ],
+      "sequence_sha256": "908b6f6a0b188281b2a1bc543c5211f7627a0d5cff65b89928b5b53864e29b3e"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycB",
+      "source_id": "UP_P0AAK1__908b6f6a0b18",
+      "uniprot": "P0AAK1",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 2",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P0AAK1.json"
+      ],
+      "pfam": [
+        "PF13247"
+      ],
+      "sequence_sha256": "908b6f6a0b188281b2a1bc543c5211f7627a0d5cff65b89928b5b53864e29b3e"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycC",
+      "source_id": "UP_P16429__45cce297a4fa",
+      "uniprot": "P16429",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 3",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P16429.json"
+      ],
+      "pfam": [
+        "PF00361"
+      ],
+      "sequence_sha256": "45cce297a4fa947368953288bff3743af5a51a870fae788e0c90bcb7efcffa23"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycD",
+      "source_id": "UP_P16430__2bccdbdc0930",
+      "uniprot": "P16430",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 4",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P16430.json"
+      ],
+      "pfam": [
+        "PF00146"
+      ],
+      "sequence_sha256": "2bccdbdc0930166f0fb734ef6c00801e3686fda8caa3901f69bf2bc676dcc07e"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycE",
+      "source_id": "UP_P16431__b750e1345fc5",
+      "uniprot": "P16431",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 5",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/P16431.json"
+      ],
+      "pfam": [
+        "PF00329",
+        "PF00346",
+        "PF00374"
+      ],
+      "sequence_sha256": "b750e1345fc5cde27641aca3bc4841844cac90641aea9b1c60c4130fb10bb209"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycF",
+      "source_id": "UP_P16432__d42489a945e9",
+      "uniprot": "P16432",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 6",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P16432.json"
+      ],
+      "pfam": [
+        "PF12838"
+      ],
+      "sequence_sha256": "d42489a945e93307fdf8a9de641ea84d9c8377e6be94ede824241fc3b5618abe"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__HycG",
+      "source_id": "UP_P16433__6f78447316bf",
+      "uniprot": "P16433",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate hydrogenlyase subunit 7",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/P16433.json"
+      ],
+      "pfam": [
+        "PF30371",
+        "PF01058"
+      ],
+      "sequence_sha256": "6f78447316bfe55ea4c26dcfc6f70e718df3660e141c72d0d5384730091d6484"
+    },
+    {
+      "reference_id": "NiFe_FHL1_Hyc__FdhF",
+      "source_id": "UP_P07658__3090cc03d7d9",
+      "uniprot": "P07658",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Formate dehydrogenase H",
+      "source_files": [
+        "references/raw/reference_domain_review/reviewed_partner_sources_page1.json"
+      ],
+      "pfam": [
+        "PF04879",
+        "PF00384",
+        "PF01568"
+      ],
+      "sequence_sha256": "3090cc03d7d9a4015e6607c7008d258d99b15b4dfec5db660eadfea94b8fe9fa"
+    },
+    {
+      "reference_id": "NiFe_HucLMS__HucL",
+      "source_id": "UP_A0QUM7__41d47313edfc",
+      "uniprot": "A0QUM7",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/A0QUM7.json"
+      ],
+      "pfam": [
+        "PF00374"
+      ],
+      "sequence_sha256": "41d47313edfc4d71e98e50a6ffca876cd733f58a61511246d3ad6ee06df30e7a"
+    },
+    {
+      "reference_id": "NiFe_HucLMS__HucM",
+      "source_id": "UP_A0QUM5__7cfd80761204",
+      "uniprot": "A0QUM5",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "HMP domain-containing protein",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/A0QUM5.json"
+      ],
+      "pfam": [
+        "PF07849"
+      ],
+      "sequence_sha256": "7cfd807612044006b1ca0b51f9a8fe2b6a92f1f61a66561019f8ae0d8b2950b0"
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhA",
+      "source_id": "UP_D9PYF9__660690382800",
+      "uniprot": "D9PYF9",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Coenzyme F420 hydrogenase subunit alpha",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/D9PYF9.json"
+      ],
+      "pfam": [
+        "PF00374"
+      ],
+      "sequence_sha256": "6606903828006b9d27a94784c777429edc82a12e0ca657092810e8778f398775"
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhB",
+      "source_id": "UP_D9PYF6__d498f97f496c",
+      "uniprot": "D9PYF6",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Coenzyme F420 hydrogenase subunit beta",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/D9PYF6.json"
+      ],
+      "pfam": [
+        "PF04432",
+        "PF04422"
+      ],
+      "sequence_sha256": "d498f97f496c1ba147c7906d76b966bd95697396a62d6e8dadfba2fdfd136bdc"
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhG",
+      "source_id": "UP_D9PYF7__5dd2c22f0643",
+      "uniprot": "D9PYF7",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Coenzyme F420 hydrogenase subunit gamma",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/D9PYF7.json"
+      ],
+      "pfam": [
+        "PF12838",
+        "PF01058"
+      ],
+      "sequence_sha256": "5dd2c22f0643f3139487019f41fab770b4c6e6bde3e48df13e338a84b2308e2a"
+    },
+    {
+      "reference_id": "NiFe_MvhHdr__MvhA",
+      "source_id": "UP_P60227__bac7cef5121f",
+      "uniprot": "P60227",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "F420-non-reducing hydrogenase subunit A",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "bac7cef5121f179037b2f796294e1bb65dba868b028d3b054cec97011445593a"
+    },
+    {
+      "reference_id": "NiFe_MvhHdr__MvhG",
+      "source_id": "UP_P60239__4013a4da3f7f",
+      "uniprot": "P60239",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "F420-non-reducing hydrogenase subunit G",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF01058"
+      ],
+      "sequence_sha256": "4013a4da3f7ff0d44da27924f2ed37fdc5e6cc7fcb967106c71b01404a2c8e0f"
+    },
+    {
+      "reference_id": "NiFe_MvhHdr__MvhD",
+      "source_id": "UP_P60238__9aa41d8f85af",
+      "uniprot": "P60238",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "F420-non-reducing hydrogenase iron-sulfur subunit D",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF02662"
+      ],
+      "sequence_sha256": "9aa41d8f85af7372b5b2ef5285e49ed8b75816556230c07ae0425cbea0521c57"
+    },
+    {
+      "reference_id": "NiFe_MvhHdr__HdrA",
+      "source_id": "UP_Q50756__d4ee26c5505b",
+      "uniprot": "Q50756",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "H(2):CoB-CoM heterodisulfide,ferredoxin reductase subunit A",
+      "source_files": [
+        "references/raw/reference_domain_review/reviewed_partner_sources_page1.json"
+      ],
+      "pfam": [
+        "PF00037",
+        "PF13237",
+        "PF01134",
+        "PF07992"
+      ],
+      "sequence_sha256": "d4ee26c5505b473ae4c3b8f8fa36b080433e32bc229fa24b359982a667ce0e07"
+    },
+    {
+      "reference_id": "NiFe_MvhHdr__HdrB",
+      "source_id": "UP_Q50755__194a9e5d98a0",
+      "uniprot": "Q50755",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "H(2):CoB-CoM heterodisulfide,ferredoxin reductase subunit B",
+      "source_files": [
+        "references/raw/reference_domain_review/reviewed_partner_sources_page1.json"
+      ],
+      "pfam": [
+        "PF02754"
+      ],
+      "sequence_sha256": "194a9e5d98a0052de9f1e6500d450b58658f2bf58c9b07c080c99a2a89d039ec"
+    },
+    {
+      "reference_id": "NiFe_MvhHdr__HdrC",
+      "source_id": "UP_Q50754__a5ce4e88e064",
+      "uniprot": "Q50754",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "H(2):CoB-CoM heterodisulfide,ferredoxin reductase subunit C",
+      "source_files": [
+        "references/raw/reference_domain_review/reviewed_partner_sources_page1.json"
+      ],
+      "pfam": [
+        "PF13183"
+      ],
+      "sequence_sha256": "a5ce4e88e06492715876b3efec2de2fcae1b69f99779f80886dfb3d3d74d30fc"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhA",
+      "source_id": "UP_I6TXN1__cf55ff18cf79",
+      "uniprot": "I6TXN1",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6TXN1.json"
+      ],
+      "pfam": [
+        "PF01899"
+      ],
+      "sequence_sha256": "cf55ff18cf79ee179700989be2bd610577dd56475d89df03e4dd6298ff04133f"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhB",
+      "source_id": "UP_I6UZT7__de41c7e487d6",
+      "uniprot": "I6UZT7",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6UZT7.json"
+      ],
+      "pfam": [
+        "PF04066"
+      ],
+      "sequence_sha256": "de41c7e487d6715b573e72f77a6aeabc07c81776e1d4fe35507f34ad7e7eb5d5"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhC",
+      "source_id": "UP_I6UQL1__03b76882d428",
+      "uniprot": "I6UQL1",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6UQL1.json"
+      ],
+      "pfam": [
+        "PF03334"
+      ],
+      "sequence_sha256": "03b76882d42873e24aef932a90c0796f31f64052de58cb7b23fd5cb6e8f43ca4"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhE",
+      "source_id": "UP_I6V287__d0c07aeb52b7",
+      "uniprot": "I6V287",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "MrpA C-terminal/MbhE domain-containing protein",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6V287.json"
+      ],
+      "pfam": [
+        "PF20501"
+      ],
+      "sequence_sha256": "d0c07aeb52b758784fefadfcb40bb12bdfede31ef5d242defa3919eb1713430c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhF",
+      "source_id": "UP_I6TXN5__a30218c96ee2",
+      "uniprot": "I6TXN5",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6TXN5.json"
+      ],
+      "pfam": [
+        "PF04039"
+      ],
+      "sequence_sha256": "a30218c96ee2ef9278d86c7672c2679297f4ea7dbf622cbe15dfbd96f8f322f2"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhG",
+      "source_id": "UP_I6UZU1__14d183d65835",
+      "uniprot": "I6UZU1",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6UZU1.json"
+      ],
+      "pfam": [
+        "PF00420"
+      ],
+      "sequence_sha256": "14d183d65835d266dd6350e0f50de286f91187c482715b563bdfab4d89eafc5c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhH",
+      "source_id": "UP_I6UQL5__917342cdad90",
+      "uniprot": "I6UQL5",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6UQL5.json"
+      ],
+      "pfam": [
+        "PF00361",
+        "PF00662"
+      ],
+      "sequence_sha256": "917342cdad90b0432e61cb27580e7a2fdfe871610dbe22eb6154f398c319cf66"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhI",
+      "source_id": "UP_I6U847__86933b8f1075",
+      "uniprot": "I6U847",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6U847.json"
+      ],
+      "pfam": [],
+      "sequence_sha256": "86933b8f1075f1bf6297ea69662f56b8bac71b9c2795c63aeaee3cf78019ed1c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhJ",
+      "source_id": "UP_Q8U0Z8__0d1070c0e2ab",
+      "uniprot": "Q8U0Z8",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Probable membrane-bound hydrogenase subunit mbhJ",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/Q8U0Z8.json"
+      ],
+      "pfam": [
+        "PF01058"
+      ],
+      "sequence_sha256": "0d1070c0e2ab85dc8ed772b2ab2b78594cbe0dd370ad6d9035c6b6639b6f710c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhK",
+      "source_id": "UP_Q8U0Z7__7e19f38adde6",
+      "uniprot": "Q8U0Z7",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Membrane-bound hydrogenase subunit beta",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/Q8U0Z7.json"
+      ],
+      "pfam": [
+        "PF00329"
+      ],
+      "sequence_sha256": "7e19f38adde65c41dfe34181ea162e984f813d79484ee351a8157e7251aae58c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhL",
+      "source_id": "UP_Q8U0Z6__e20581968018",
+      "uniprot": "Q8U0Z6",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Membrane-bound hydrogenase subunit alpha",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/Q8U0Z6.json"
+      ],
+      "pfam": [
+        "PF00346",
+        "PF00374"
+      ],
+      "sequence_sha256": "e20581968018eaac9a5894042e94b105cabbd5b470d97a1a161647bd73e1f5c8"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhM",
+      "source_id": "UP_I6UQM0__8ccf30f9d316",
+      "uniprot": "I6UQM0",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6UQM0.json"
+      ],
+      "pfam": [
+        "PF00146"
+      ],
+      "sequence_sha256": "8ccf30f9d3165704527af70eb45073711113e7fd9d6ac5f62fedc293514d312c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhN",
+      "source_id": "UP_I6U851__3452e968c4a0",
+      "uniprot": "I6U851",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/I6U851.json"
+      ],
+      "pfam": [
+        "PF13187"
+      ],
+      "sequence_sha256": "3452e968c4a0f20d995667ff47be7725b65016d27a48f230c96ad8e1ebc27794"
+    },
+    {
+      "reference_id": "FeFe_TmHydABC__HydA",
+      "source_id": "UP_O52683__1acdce4de5dd",
+      "uniprot": "O52683",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Bifurcating [FeFe] hydrogenase alpha subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/G4FFG1.json"
+      ],
+      "pfam": [
+        "PF01257",
+        "PF02906",
+        "PF02256",
+        "PF13510",
+        "PF12838",
+        "PF10588"
+      ],
+      "sequence_sha256": "1acdce4de5dd98b9d62a361b81d266df74814fe796ee47390703a4f5c2c3c287"
+    },
+    {
+      "reference_id": "FeFe_TmHydABC__HydB",
+      "source_id": "UP_O52682__916566e2c5a3",
+      "uniprot": "O52682",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Bifurcating [FeFe] hydrogenase beta subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/G4FFG0.json"
+      ],
+      "pfam": [
+        "PF01257",
+        "PF01512",
+        "PF12838",
+        "PF10589"
+      ],
+      "sequence_sha256": "916566e2c5a368d6301c90398d8d4c0549e52a5a5b64d74a05efc9a9491f30df"
+    },
+    {
+      "reference_id": "FeFe_TmHydABC__HydC",
+      "source_id": "UP_O52681__99b03ecef38d",
+      "uniprot": "O52681",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Bifurcating [FeFe] hydrogenase gamma subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/Q9S5X7.json"
+      ],
+      "pfam": [
+        "PF01257"
+      ],
+      "sequence_sha256": "99b03ecef38d3979087a44c04f21895aa17f536570d783f0e1b3ea192e4fd093"
+    },
+    {
+      "reference_id": "Fe_Hmd__Hmd",
+      "source_id": "UP_P32440__55cceebc1e64",
+      "uniprot": "P32440",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "5,10-methenyltetrahydromethanopterin hydrogenase",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF03201",
+        "PF22616"
+      ],
+      "sequence_sha256": "55cceebc1e643ab632c43b427ea8825f87a76174db194d2273d7e3f439b087c1"
+    },
+    {
+      "reference_id": "NiFe_periplasmic_Hys__CycA",
+      "source_id": "UP_P00131__bda2f826db19",
+      "uniprot": "P00131",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Cytochrome c3",
+      "source_files": [
+        "references/raw/reference_domain_review/reviewed_partner_sources_page1.json"
+      ],
+      "pfam": [
+        "PF02085"
+      ],
+      "sequence_sha256": "bda2f826db19b937fa9040dbb57a46410266977cfc9623f1182c19bdb3a490a5"
+    },
+    {
+      "reference_id": "NiFe_HynABC__HydA",
+      "source_id": "UP_P31884__da0e1ef557fe",
+      "uniprot": "P31884",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 0.917098445595855,
+      "source_coverage": 1.0,
+      "source_name": "Quinone-reactive Ni/Fe-hydrogenase small chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF14720",
+        "PF01058"
+      ],
+      "sequence_sha256": "da0e1ef557febf03c25589c02da93dc353423c2604b02afaaeaeaea34b11e12e"
+    },
+    {
+      "reference_id": "NiFe_HynABC__HydB",
+      "source_id": "UP_P31883__9d28203b2b0d",
+      "uniprot": "P31883",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Quinone-reactive Ni/Fe-hydrogenase large chain",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "9d28203b2b0da76043a6a8058ab55c9094d7b2b22a994cd006337d5d16c4f172"
+    },
+    {
+      "reference_id": "NiFe_HynABC__HydC",
+      "source_id": "UP_P31875__fc8bb4395508",
+      "uniprot": "P31875",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Quinone-reactive Ni/Fe-hydrogenase B-type cytochrome subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF01292"
+      ],
+      "sequence_sha256": "fc8bb4395508bd92cde93246223ef93a6e66b60d305844770696e9da51226742"
+    },
+    {
+      "reference_id": "NiFe_H2_sensor_2b__HupR",
+      "source_id": "UP_P26408__0284ee3c6d97",
+      "uniprot": "P26408",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase transcriptional regulatory protein HupR1",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF25601",
+        "PF02954",
+        "PF00072",
+        "PF00158"
+      ],
+      "sequence_sha256": "0284ee3c6d973cd75620c8a03fe532a8bf4123f7f7086d049ba78d4e04e6126e"
+    },
+    {
+      "reference_id": "NiFe_HyhNADPH__SHI_beta",
+      "source_id": "UP_Q8U2E5__eaab13213411",
+      "uniprot": "Q8U2E5",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Sulfhydrogenase 1 subunit beta",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/Q8U2E5.json"
+      ],
+      "pfam": [
+        "PF17179"
+      ],
+      "sequence_sha256": "eaab13213411078ef08516217c1ae0958208959c440572bf9074ffc9032d01f3"
+    },
+    {
+      "reference_id": "NiFe_HyhNADPH__SHI_gamma",
+      "source_id": "UP_Q8U2E4__14761aa05961",
+      "uniprot": "Q8U2E4",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Sulfhydrogenase 1 subunit gamma",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/Q8U2E4.json"
+      ],
+      "pfam": [
+        "PF10418",
+        "PF00970",
+        "PF00175"
+      ],
+      "sequence_sha256": "14761aa05961f8d5e679f590530e904f75c4a9eb98a30c6e201fe2f2ef825fb6"
+    },
+    {
+      "reference_id": "NiFe_HyhNADPH__SHI_delta",
+      "source_id": "UP_E7FHU4__e43216efa5a2",
+      "uniprot": "E7FHU4",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Sulfhydrogenase 1 subunit delta",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/reference_domain_review/structure_uniprot/E7FHU4.json"
+      ],
+      "pfam": [
+        "PF01058"
+      ],
+      "sequence_sha256": "e43216efa5a2a6495b21520ae0d69aef2a6690383efa997e3059bb7549919929"
+    },
+    {
+      "reference_id": "NiFe_HyhNADPH__SHI_alpha",
+      "source_id": "UP_E7FI44__8f131e568619",
+      "uniprot": "E7FI44",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Sulfhydrogenase 1 subunit alpha",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/E7FI44.json"
+      ],
+      "pfam": [
+        "PF00374"
+      ],
+      "sequence_sha256": "8f131e568619ac36d1affb48d35f4404913b5af1305e08fe587b2f1cdc527e5d"
+    },
+    {
+      "reference_id": "NiFe_HoxFUYH__HoxF",
+      "source_id": "UP_P22317__e241713b3707",
+      "uniprot": "P22317",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "NAD-reducing hydrogenase HoxS subunit alpha",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF01257",
+        "PF01512",
+        "PF10589"
+      ],
+      "sequence_sha256": "e241713b37077e17b8793061c2fc8a0912a166a8cb166ea67e459944da37b041"
+    },
+    {
+      "reference_id": "NiFe_HoxFUYH__HoxU",
+      "source_id": "UP_P22318__7d88c967100a",
+      "uniprot": "P22318",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "NAD-reducing hydrogenase HoxS subunit gamma",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF13510",
+        "PF22117",
+        "PF10588"
+      ],
+      "sequence_sha256": "7d88c967100ab7a50e5fa52d298d7c2697baa523321f0498e33a4ab19e03c9b3"
+    },
+    {
+      "reference_id": "NiFe_HoxFUYH__HoxY",
+      "source_id": "UP_P22319__8e033cb25d2e",
+      "uniprot": "P22319",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "NAD-reducing hydrogenase HoxS subunit delta",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json"
+      ],
+      "pfam": [
+        "PF01058"
+      ],
+      "sequence_sha256": "8e033cb25d2e2e5021fabca99ef71f24010713ccea4e6b09a8d81a5c065ad632"
+    },
+    {
+      "reference_id": "NiFe_HoxFUYH__HoxH",
+      "source_id": "UP_P22320__061e58852532",
+      "uniprot": "P22320",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "NAD-reducing hydrogenase HoxS subunit beta",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "061e58852532f729c9eb1516ef88383e7cb5f85449b8743b757dbe98cd2d4a7e"
+    },
+    {
+      "reference_id": "NiFe_Coo_CODH__CooS",
+      "source_id": "UP_P59934__11a6693223d8",
+      "uniprot": "P59934",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Carbon monoxide dehydrogenase 1",
+      "source_files": [
+        "references/raw/reference_domain_review/reviewed_partner_sources_page1.json"
+      ],
+      "pfam": [
+        "PF03063"
+      ],
+      "sequence_sha256": "11a6693223d80c0383264651bb87b9c649146636b54c8e7da8be565bf86741c1"
+    },
+    {
+      "reference_id": "FeFe_CpI_monomer__CpI",
+      "source_id": "UP_P29166__256e5d85a0e3",
+      "uniprot": "P29166",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Iron hydrogenase 1",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/P29166.json"
+      ],
+      "pfam": [
+        "PF02906",
+        "PF02256",
+        "PF22609",
+        "PF13510",
+        "PF12838"
+      ],
+      "sequence_sha256": "256e5d85a0e3cf8376fd1dc8a91c8809f4eebe00217ef1b458d5f6c3f729cc8b"
+    },
+    {
+      "reference_id": "decoy__ecoli_MG1655_b2286",
+      "source_id": "UP_B1X8Z8__779807e74578",
+      "uniprot": "B1X8Z8",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 0.9933333333333333,
+      "source_name": "NADH-quinone oxidoreductase subunit C/D",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_complexI.json"
+      ],
+      "pfam": [
+        "PF00329",
+        "PF00346"
+      ],
+      "sequence_sha256": "779807e74578e12b36fbd4f6dc906ffa9f00dadf27c2db7c904122ab3ca355d9"
+    },
+    {
+      "reference_id": "decoy__ecoli_MG1655_b2286",
+      "source_id": "UP_P33599__316059d02c62",
+      "uniprot": "P33599",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "NADH-quinone oxidoreductase subunit C/D",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_complexI.json"
+      ],
+      "pfam": [
+        "PF00329",
+        "PF00346"
+      ],
+      "sequence_sha256": "316059d02c62d592f5b05f64b0aa45ab756d8051ff01d6f910424b543fe19c26"
+    },
+    {
+      "reference_id": "decoy__wsuccinogenes_DSM1740_WS0475",
+      "source_id": "UP_Q7MA48__8b02095f2cfd",
+      "uniprot": "Q7MA48",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "NADH-quinone oxidoreductase subunit D",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_complexI.json"
+      ],
+      "pfam": [
+        "PF00346"
+      ],
+      "sequence_sha256": "8b02095f2cfd5a85c167870c6824a5e19e17768ab7e2a09839ab52d645b7c497"
+    },
+    {
+      "reference_id": "unresolved__ecoli_MG1655_hyfG",
+      "source_id": "UP_P77329__6cacfdf4a928",
+      "uniprot": "P77329",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Hydrogenase-4 component G",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json"
+      ],
+      "pfam": [
+        "PF00329",
+        "PF00346",
+        "PF00374"
+      ],
+      "sequence_sha256": "6cacfdf4a9285237d1f6128830933bd7549de2436bf8d43a7da62ec315d3c591"
+    },
+    {
+      "reference_id": "unresolved__cnecator_H16_pHG1_PHG002",
+      "source_id": "UP_P31891__b407067fd5ae",
+      "uniprot": "P31891",
+      "entry_type": "UniProtKB reviewed (Swiss-Prot)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "Uptake hydrogenase large subunit",
+      "source_files": [
+        "references/raw/validation_corpus/reviewed_hydrogenase_page1.json",
+        "references/raw/validation_corpus/reviewed_catalytic_domains.json",
+        "references/raw/reference_domain_review/structure_uniprot/P31891.json"
+      ],
+      "pfam": [
+        "PF27537",
+        "PF00374"
+      ],
+      "sequence_sha256": "b407067fd5aed0d48b2b5bff654a6a7ea4ec5a1e88daaa67cba030ca1cd495e5"
+    },
+    {
+      "reference_id": "unresolved__cnecator_H16_pHG1_PHG065",
+      "source_id": "UP_Q7WXQ3__482fdf249967",
+      "uniprot": "Q7WXQ3",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/Q7WXQ3.json"
+      ],
+      "pfam": [
+        "PF00374"
+      ],
+      "sequence_sha256": "482fdf249967cf01deedc48aa044232730f2a624d817bdfd0eeecb60f2dd6738"
+    },
+    {
+      "reference_id": "unresolved__awoodii_DSM1030_Awo_c26970",
+      "source_id": "UP_H6LFG3__7c9c496f4a2b",
+      "uniprot": "H6LFG3",
+      "entry_type": "UniProtKB unreviewed (TrEMBL)",
+      "identity": 100.0,
+      "query_coverage": 1.0,
+      "source_coverage": 1.0,
+      "source_name": "",
+      "source_files": [
+        "references/raw/reference_domain_review/structure_uniprot/H6LFG3.json"
+      ],
+      "pfam": [
+        "PF02906",
+        "PF02256",
+        "PF13510",
+        "PF22117",
+        "PF10588"
+      ],
+      "sequence_sha256": "7c9c496f4a2b5c17e9435198022e2b6a209b6c75a72b882706b9dc5e45dd8359"
+    }
+  ]
+}

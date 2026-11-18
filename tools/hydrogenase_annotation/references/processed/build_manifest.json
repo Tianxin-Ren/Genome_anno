@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "workbook_name": "hydrogenase_function_reference.xlsx",
+  "workbook_sha256": "14aebf9132027cb795a2a8049eb4e1732aa4719fd80a74ad0b69c9ccfe5d8713",
+  "function_records": 28,
+  "reviewed_structures": 25,
+  "enabled_function_records": 28,
+  "references": 214,
+  "profile_scope": "small curated seed library; not HydDB/Pfam classifier",
+  "maturation_review_sha256": "56585aec0253fc6ff3ea7452685ca51df76a262212eaee1381ebdd7158db3280",
+  "reference_domains_sha256": "2971b28c795c03bc36ec8cbeeb425f6729bb32fdc9c23b3c80a23297e5d7c4da",
+  "reference_source_proteins_sha256": "23dd7d5c9ebcc39c2e360c28b4b55964319a0c11fead5e8eba8e27ef57a1bcca",
+  "maturation_domain_policy_sha256": "87b582326f22fcc0695b9db84831e40e425ac88872a48b733e3d07b06f8a4b1f",
+  "maturation_domain_audit_sha256": "039756c1a57f27673b67ec631d151c3f2872e0c85097ef3ff28e39b8c47541bb",
+  "excluded_maturation_homonyms": [
+    "PF_RS04490",
+    "TON_RS02775"
+  ],
+  "branch_profile_config_sha256": "7649c91413a155aaac909ff5284d11a385d06e5077a6cf5e98625e7dc7ce426c",
+  "profile_manifest_sha256": "05dc8c547528ea7993488fe9c10e8bfd5fef564ecf39f3f0d93e8683cf6c5e3e",
+  "fes_model_manifest_sha256": "5c0ce63fb82809a893eb682412509ec729e72d7b1c15960670b3f9025793c68f",
+  "fes_site_policy_sha256": "02c16759c49cf712c715af4de8d542917668018f3ee63ca5c93e25665a398834",
+  "combined_hmm_sha256": "b3a7952e22a1986573fa9f6ea14207ce0307bf5ca3aa69eb79bbacc079f2a6d7",
+  "alignment_mask": "Sec U -> X only in MSA/HMM/trees; sequence database and residue evidence preserve U",
+  "reference_domain_audit_sha256": "4545d7f53b059cd019e755b2611bb941e083235ecc046ef72e737b0c4495e99a",
+  "active_center_model_manifest_sha256": "3289aaeeea3834aa2b7a917b6e3f823e2720c26f8ea199c093140f0858126ffa",
+  "active_center_policy_sha256": "b3d7d1e14283ab1347487459fa0686842cb8b77fa0274ff3db996bef6de96301",
+  "split_center_model_manifest_sha256": "89091e84ebc1a9be8a3fe5deaf3d79e4115cbf36d42377b30bae6699f9911533",
+  "confirmation_model_manifest_sha256": "347d0666c69b7b107c7f538832b5d4de07acf53cbcda419fe987de998d552ddb"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "development_candidate_model",
+  "model_dir": "references/processed/fes_refinement",
+  "site_count": 36,
+  "core_site_count": 34,
+  "candidate_pdb": "6BTM",
+  "candidate_source_sha256": "44cda5a23de7af0799ef37eb7f62feb35694fa74eda54943dcb8d960007840b9",
+  "core_manifest_sha256": "5c0ce63fb82809a893eb682412509ec729e72d7b1c15960670b3f9025793c68f",
+  "fes_sites_script_sha256": "a99274e2be04343b9943f43e893d477e1beb4c191c2b618cfed47c7894711ff3",
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_identity": 30,
+    "min_window_coverage": 0.8,
+    "competitive_bitscore_ratio": 0.9,
+    "extra_cysteine_guard": true
+  },
+  "files": {
+    "6BTM_review.json": "d8b37b26b06940c312e0f73a7cd7c959f9554605c84f651400614863cde05178",
+    "site_window_index.json": "9ac690006a81e3b355860050cc778b292d06f336b1941ba423716251d6dd2ce5",
+    "site_windows.faa": "daec6edb5d0ef25fb12ee8e6ebe2cda4f173517a1d0130a097dbfca262055367",
+    "sites.json": "ac52a6c561af04bae5dbf182cb4c5fa156581b1d911bffda40a0ae4ea326d1de",
+    "templates.faa": "1171786045a55a381b9af5aff1c5d4df13febbb9f0e9e8d23dfd89cb9fc134b6"
+  },
+  "development_regression": {
+    "fixed24": {"TP": 15, "FP": 0, "FN": 9, "evaluable": 24},
+    "baseline": {"TP": 9, "FP": 0, "FN": 15, "evaluable": 24},
+    "independent_accuracy_claim": false
+  },
+  "functional_scope": "unlinked Fe-S structural homology; cofactor occupancy unknown; never upgrades hydrogenase identity or function"
+}

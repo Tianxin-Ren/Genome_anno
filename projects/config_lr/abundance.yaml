@@ -1,0 +1,35 @@
+# Abundance & Expression Quantification Module Configuration (config_lr)
+# Optional module for mapping short reads or RNA-seq back to long-read assemblies/MAGs
+abundance:
+  results_dir: "results/abundance"
+
+  # CoverM genomic coverage & abundance profiling toggle
+  run_coverm: false
+
+  # SortMeRNA Database (Required for transcriptomics)
+  sortmerna_db: "/dssg/home/acct-clswfp/clswfp-icdli1/software/sortmerna/database/smr_v4.3_default_db.fasta"
+
+  # Tool Parameters
+  params:
+    fastp: ""
+    sortmerna: "--paired_out --fastx --out2"
+    coverm: "--min-read-percent-identity 95 --min-read-aligned-percent 75"
+    bowtie2: ""
+    hisat2: "--no-spliced-alignment"
+    featureCounts: "-p -t CDS,tRNA,rRNA -g locus_tag -M --primary"
+
+  # Threads Configuration
+  threads:
+    fastp: 16
+    sortmerna: 64
+    coverm: 32
+    mapping: 32
+
+  # Conda Environments
+  conda_envs:
+    fastp: "bio"
+    sortmerna: "sortmerna_4.3.7"
+    coverm: "coverm_0.7.0"
+    mapping: "bio"
+    subread: "bio"
+    python: "biopython_1.85"

@@ -1,0 +1,41 @@
+{
+  "version": "Group4_functional_roles_v2",
+  "reference_groups": {
+    "MbhJ": [
+      "NiFe_Pf_Mbh__MbhJ",
+      "NiFe_EchABCDEF__EchC"
+    ],
+    "MbhL": [
+      "NiFe_Pf_Mbh__MbhL",
+      "NiFe_EchABCDEF__EchE",
+      "NiFe_Coo_CODH__CooH",
+      "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_catalytic",
+      "NiFe_FHL1_Hyc__HycE",
+      "unresolved__ecoli_MG1655_hyfG"
+    ],
+    "MbhN": [
+      "NiFe_Pf_Mbh__MbhN",
+      "NiFe_EchABCDEF__EchF"
+    ]
+  },
+  "primary_sources": [
+    "PMID25476267 DOI10.1093/protein/gzu051: purified MbhJKLN reduced-Fd-driven H2 evolution",
+    "PMID10491189: purified Ech reversible H2/Fd chemistry",
+    "PMID16156794: EchC proximal and EchF two FeS relay assignment",
+    "PMCID PMC7384014: native P. atrosepticum hyfG deletion/complementation establishes H2-generating catalytic role; formate evidence is not transferred",
+    "PMCID PMC7654741 DOI10.1099/mic.0.000963: P. atrosepticum HyfK maturation evidence; no E. coli FHL2 activity detected"
+  ],
+  "scope": "Coarse role equivalence only inside unique, locally ordered, nonpartial, residue-disjoint JKLN-like architecture with independent canonical NiFe identity and reviewed J/N Cys patterns. K requires its full official GA fold; exact lineages remain unresolved.",
+  "not_assigned": [
+    "Mbh/Ech-specific ancestry",
+    "mandatory ferredoxin",
+    "reaction direction",
+    "CO/formate coupling",
+    "membrane completeness",
+    "ion coupling",
+    "measured query activity"
+  ],
+  "homology_aliases": {
+    "unresolved__ecoli_MG1655_hyfG": "references/processed/mbh_function/HyfG_coarse_alias_review.json"
+  }
+}

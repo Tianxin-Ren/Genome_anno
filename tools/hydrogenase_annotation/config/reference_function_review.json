@@ -1,0 +1,400 @@
+{
+  "version": "round13-reference-function-source-scope",
+  "scope": "28 reference-system records with explicit molecular versus whole-cell, conditional and regulatory evidence. Not an independent function classifier validation or a claim of query physiological activity.",
+  "records": [
+    {
+      "function_id": "Ni05",
+      "structure_id": "NiFe_Ecoli_Hyd1",
+      "reference_record_sha256": "3f273dcf4b4b1244d7dda385c0e2fb4ca6293900488c78bfeb70dc7a9be396c5",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + Q → QH₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni03",
+      "structure_id": "NiFe_Ecoli_Hyd2",
+      "reference_record_sha256": "47e4e17bf81b882d61b73dd5ff2e9bc1c553a8ac96d0d0b99f9a2a1ed425163c",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25368299/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + Q → QH₂（经HybA/HybB）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni04",
+      "structure_id": "NiFe_Ecoli_Hyd2",
+      "reference_record_sha256": "73b66c8c8086c5ed8f56f4ae98058e78deedb065b1025816275f9efccb1e238f",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25368299/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "QH₂ → Q + H₂（方向性反转，需能量环境）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni15",
+      "structure_id": "NiFe_FHL1_Hyc",
+      "reference_record_sha256": "a05fa2fe2e393bd3cecd17d2d03cc93d3210805156ffb7f28583e1638f848d46",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "HCOO⁻ + H⁺ → CO₂ + H₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni09",
+      "structure_id": "NiFe_HucLMS",
+      "reference_record_sha256": "97529493535a5c1ed1f1781e3bb5482679070fd5a36806f353f0a5109ba94ecb",
+      "primary_source": "https://www.nature.com/articles/s41586-023-05781-7",
+      "supporting_sources": [
+        "https://www.nature.com/articles/s41586-023-05781-7"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "大气H₂ + MQ → MQH₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Reference biochemical assays used quinone analogues alongside structural quinone evidence; atmospheric affinity is not assigned to every homolog."
+    },
+    {
+      "function_id": "Ni11",
+      "structure_id": "NiFe_FrhABG",
+      "reference_record_sha256": "884ad264523819e90049a306f41936d6c9911b95cf76068e0261ae83eb800920",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + F₄₂₀ → F₄₂₀H₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni13",
+      "structure_id": "NiFe_MvhHdr",
+      "reference_record_sha256": "a600cad7e1c5797da186f353e954f1e4219496d09cd5be1fa77744d8637b79b0",
+      "primary_source": "https://doi.org/10.1073/pnas.1016761108",
+      "supporting_sources": [
+        "https://doi.org/10.1073/pnas.1016761108"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ → CoM-S-S-CoB还原 + Fdox还原（耦联；省略计量）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni19",
+      "structure_id": "NiFe_EchABCDEF",
+      "reference_record_sha256": "eb34e3687015e52f004bf9080ff81dbf29fe1793195484d8483efcf97fbaa8b8",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11929975/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "Fdred + H⁺ → Fdox + H₂（生理方向）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni20",
+      "structure_id": "NiFe_EchABCDEF",
+      "reference_record_sha256": "138d3a2e2cba5e5a25107c4075e94596ee9093885c2ed569157a002addf5584f",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11929975/"
+      ],
+      "reference_evidence_scope": "reference_conditional_physiological_genetic_direction",
+      "capability_scope": "conditional_reverse_reaction_potential",
+      "molecular_reaction": "H₂ + Fdox → Fdred；可能受离子动力势驱动",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Reverse direction/energy coupling is conditional; this row is not an unconditional purified-enzyme flux measurement."
+    },
+    {
+      "function_id": "Ni18",
+      "structure_id": "NiFe_Pf_Mbh",
+      "reference_record_sha256": "1b28d335fae001e5b8a33d3ec7cfcf1a543ff2c1f4027130cf8b371b82193f73",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry_and_energy_coupling",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "Fdred + H⁺ → Fdox + H₂；与Na⁺跨膜转运耦联",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Ion species/stoichiometry and pumping are reference properties, not universally inferred from antiporter-like domains."
+    },
+    {
+      "function_id": "Fe03",
+      "structure_id": "FeFe_TmHydABC",
+      "reference_record_sha256": "b3c53946536f4d39d09641f2d3970224ccc918cf2958dfa46ac3c7c669108f96",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31823008/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "NADH + Fdred + H⁺ → NAD⁺ + Fdox + H₂（示意非配平）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Fe04",
+      "structure_id": "FeFe_TmHydABC",
+      "reference_record_sha256": "c0d8b47c64c95ef76c397972ea66e3906c2f2ff3a79ce5278854151823fc4aab",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31823008/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ → NADH + Fdred（耦联电子分叉；非配平）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Fe05",
+      "structure_id": "FeFe_SwHyd1ABC",
+      "reference_record_sha256": "4331cdebcbcd490a27ffd686c17fd7f40039074c62cf64ce4d3afacfabcbe106",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "NADH + H⁺ → NAD⁺ + H₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "H01",
+      "structure_id": "Fe_Hmd",
+      "reference_record_sha256": "406b24ff3bc58613a53f6d7bd32ebbba7d1f3577b66f64b7349254f44aa292c7",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11081790/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11081790/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + methenyl-H₄MPT⁺ → methylene-H₄MPT + H⁺",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni01",
+      "structure_id": "NiFe_periplasmic_Hys",
+      "reference_record_sha256": "25e1bd15839f9cd859e90f118b6dcb46bd217d0b98f9757793a553734d846aa3",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11948878/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11948878/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ → 2H⁺ + 2e⁻（e⁻ → cytochrome c₃）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni02",
+      "structure_id": "NiFe_HynABC",
+      "reference_record_sha256": "8c9e7639189baf678fd9cc04b65eae8822429209c7a7c1c29b5605c9219da1af",
+      "primary_source": "https://doi.org/10.1074/jbc.M310610200",
+      "supporting_sources": [
+        "https://doi.org/10.1074/jbc.M310610200"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ → 2H⁺ + 2e⁻（e⁻ → HynC/膜电子链）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni06",
+      "structure_id": "NiFe_Hhy1h",
+      "reference_record_sha256": "8c7e58ae1d1556d32a8e5260ba3c422eb3a34af377fe1cfb3d2425cff7dcb8dc",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3964045/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3964045/"
+      ],
+      "reference_evidence_scope": "reference_whole_cell_genetic_evidence",
+      "capability_scope": "whole_cell_association_with_H2_oxidation_potential",
+      "molecular_reaction": "H2 oxidation; direct electron acceptor unresolved",
+      "reference_context": "Atmospheric H2 consumption associated with Hhy in the reference organism",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Does not establish purified-enzyme intrinsic affinity or a direct molecular electron acceptor."
+    },
+    {
+      "function_id": "Ni07",
+      "structure_id": "NiFe_VhoABC",
+      "reference_record_sha256": "07375a7db9733fc5242192f64ccf435b5c70eee4b44b788a83519b169081e36e",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030560/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030560/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + MPox → MPred + H⁺（示意）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. VhtC is an inferred operon-associated cytochrome component and was not co-purified in the referenced Vht study."
+    },
+    {
+      "function_id": "Ni08",
+      "structure_id": "NiFe_HupSL",
+      "reference_record_sha256": "26a1e096b657e6839a3883fd30e536eee9a82709f9ce49943eb03538c694c94e",
+      "primary_source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+      "supporting_sources": [
+        "https://doi.org/10.1016/S0360-3199(02)00121-0"
+      ],
+      "reference_evidence_scope": "reference_hupL_insertional_genetics",
+      "capability_scope": "H2_oxidation_potential_in_nitrogen_fixation_context",
+      "molecular_reaction": "H2 oxidation; direct electron acceptor unresolved",
+      "reference_context": "Nitrogenase-associated H2 recycling in the reference organism",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Nif genes supply context, not an enzyme subunit or measured query physiology."
+    },
+    {
+      "function_id": "Ni10",
+      "structure_id": "NiFe_H2_sensor_2b",
+      "reference_record_sha256": "767a88b521237281fe93fea422434cd5420d30207c1f3b6c86f8b295a77e00d1",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/"
+      ],
+      "reference_evidence_scope": "reference_regulatory_genetics_and_kinase_biochemistry",
+      "capability_scope": "regulatory_pathway_potential",
+      "molecular_reaction": "H2-responsive hydrogenase sensor coupled to a regulatory pathway; not a balanced redox reaction",
+      "reference_context": "HupUV/HupT/HupR regulation of hydrogenase expression",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Sequence/context does not establish that the query pathway is expressed or active."
+    },
+    {
+      "function_id": "Ni12",
+      "structure_id": "NiFe_HyhNADPH",
+      "reference_record_sha256": "313ea05e23302ae46a8260d2b41ba6db60a75f1e94f2cefa3488dc5bf4e6e0c8",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "NADPH + H⁺ → NADP⁺ + H₂（示意）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni14",
+      "structure_id": "NiFe_HoxFUYH",
+      "reference_record_sha256": "b22998f3fa4cf98eb99f3da223100554ba1c15eec319de2f0f6a339af886e508",
+      "primary_source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+      "supporting_sources": [
+        "https://doi.org/10.1128/JB.187.9.3122-3132.2005"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + NAD⁺ → NADH + H⁺",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Ni16",
+      "structure_id": "NiFe_Tonn_Fdh2Mfh2Mnh2",
+      "reference_record_sha256": "f2acc840e60ef0bca60c9ef70bd8ef11851fcebfb5c7f6a39ee29cf89f59e5b9",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25049407/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry_and_energy_coupling",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "formate → CO₂ + H₂；H⁺跨膜流 + Na⁺梯度形成",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Ion species/stoichiometry and pumping are reference properties, not universally inferred from antiporter-like domains."
+    },
+    {
+      "function_id": "Ni17",
+      "structure_id": "NiFe_Coo_CODH",
+      "reference_record_sha256": "cfc27b46110f1f3c7eb19e0041285844ec0ce0843c1888f404a7566e46ec6dda",
+      "primary_source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+      "supporting_sources": [
+        "https://doi.org/10.1046/j.1432-1033.2002.03282.x"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "CO + H₂O → CO₂ + H₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Fe01",
+      "structure_id": "FeFe_CpI_monomer",
+      "reference_record_sha256": "5ca63ba4dd5863d85cac27207c6063ea21b9f5deb79aa64fc509b795c877dd50",
+      "primary_source": "https://www.rcsb.org/structure/1FEH",
+      "supporting_sources": [
+        "https://www.rcsb.org/structure/1FEH",
+        "https://www.uniprot.org/uniprotkb/P29166/entry",
+        "https://www.sciencedirect.com/science/article/pii/0005274471900088"
+      ],
+      "reference_evidence_scope": "reviewed_reaction_and_experimental_structural_reference",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "Fdred + H⁺ → Fdox + H₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. The PDB alone is not a ferredoxin reaction assay; curated/classical biochemical evidence is recorded separately. Generic ferredoxin reaction notation does not identify the query ferredoxin cluster topology."
+    },
+    {
+      "function_id": "Fe02",
+      "structure_id": "FeFe_CrHydA1",
+      "reference_record_sha256": "c10d445800f0127b0fcae72a843f5d7f37f3325d87fc44348ca3f1c2b408c57b",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2794776/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2794776/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "Fdred + H⁺ → Fdox + H₂",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Fe06",
+      "structure_id": "FeFe_HDCR_Aw",
+      "reference_record_sha256": "160d8f99479f36cccaf183f749758b9865a8e848cc8426c6bc3c40d6d88cb881",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/24337298/",
+      "supporting_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24337298/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "H₂ + CO₂ → HCOOH（或HCOO⁻ + H⁺）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    },
+    {
+      "function_id": "Fe07",
+      "structure_id": "FeFe_HytABCDE",
+      "reference_record_sha256": "16c1935924d6a340c62601da5e050f7f53128e65ab6ce8e73411e887dd94c2f7",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+      "supporting_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/"
+      ],
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "molecular_reaction": "2H₂ + NADP⁺ + Fdox → NADPH + Fdred + H⁺（示意）",
+      "reference_context": "",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established."
+    }
+  ]
+}

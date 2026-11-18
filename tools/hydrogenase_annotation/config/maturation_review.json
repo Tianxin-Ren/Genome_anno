@@ -1,0 +1,1351 @@
+{
+  "review_version": "20261026-round01",
+  "records": [
+    {
+      "sample": "awoodii_DSM1030",
+      "locus_tag": "AWO_RS14460",
+      "role": "hydE",
+      "protein_accession": "WP_014357163.1",
+      "sequence_sha256": "6a6bcd861128941e32a75d93ab81272597dc27b01e8e0b15933f17c3b13f2fac",
+      "length": 346,
+      "source_accession": "NC_016894.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_014357163.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_014357163.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "awoodii_DSM1030",
+      "locus_tag": "AWO_RS02175",
+      "role": "hydF",
+      "protein_accession": "WP_207635894.1",
+      "sequence_sha256": "b6a31f50c5f4e7dd70f2ef3bbbb1eb117e6a2abbdca87ecc510c36ef31ea6a6c",
+      "length": 416,
+      "source_accession": "NC_016894.1",
+      "source_product": "[FeFe] hydrogenase H-cluster maturation GTPase HydF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_014354825.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_207635894.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "awoodii_DSM1030",
+      "locus_tag": "AWO_RS14455",
+      "role": "hydG",
+      "protein_accession": "WP_014357162.1",
+      "sequence_sha256": "756675893d8c68da41c0e1d57ee6af4e50b3c90208108eb3278022c77e38327a",
+      "length": 472,
+      "source_accession": "NC_016894.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydG",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_008428697.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_014357162.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cautoethanogenum_DSM10061",
+      "locus_tag": "CAETHG_RS01800",
+      "role": "hypD",
+      "protein_accession": "WP_023161799.1",
+      "sequence_sha256": "67179a8731a82e4697b6671228c8b43ef68ca75ff08286edaee0064f587cb362",
+      "length": 352,
+      "source_accession": "NC_022592.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_007059741.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_023161799.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cautoethanogenum_DSM10061",
+      "locus_tag": "CAETHG_RS01795",
+      "role": "hypE",
+      "protein_accession": "WP_023161798.1",
+      "sequence_sha256": "381ccfa47176442dd1d52059c796dff666480b3e33c6c0c0b64c439d7280757d",
+      "length": 334,
+      "source_accession": "NC_022592.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_007059742.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_023161798.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cautoethanogenum_DSM10061",
+      "locus_tag": "CAETHG_RS01810",
+      "role": "hypF",
+      "protein_accession": "WP_023161801.1",
+      "sequence_sha256": "0576bff914f82b6affd03fb8f7492ab4b3ba856a6ba7bc0bc89392130b2321c3",
+      "length": 799,
+      "source_accession": "NC_022592.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013238957.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_023161801.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cautoethanogenum_DSM10061",
+      "locus_tag": "CAETHG_RS08490",
+      "role": "hydE",
+      "protein_accession": "WP_023162413.1",
+      "sequence_sha256": "ebbcf6e56e3c0795f2e948e53de325d1a95b2002a050c25beddbfd0cc3f3feee",
+      "length": 346,
+      "source_accession": "NC_022592.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_017751495.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_023162413.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cautoethanogenum_DSM10061",
+      "locus_tag": "CAETHG_RS10435",
+      "role": "hydF",
+      "protein_accession": "WP_013240802.1",
+      "sequence_sha256": "7fd1db6fd7da9bf164fe0548f0c7c6e00a5fced58994313b5a6189f5118b3b22",
+      "length": 411,
+      "source_accession": "NC_022592.1",
+      "source_product": "[FeFe] hydrogenase H-cluster maturation GTPase HydF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013240802.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013240802.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS08515",
+      "role": "hypA",
+      "protein_accession": "WP_011344720.1",
+      "sequence_sha256": "64fe4b23a23dcccc0b36398875ab2c5e11b536367a69ba0e0df9fb3edca47574",
+      "length": 114,
+      "source_accession": "NC_007503.1",
+      "source_product": "hydrogenase maturation nickel metallochaperone HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011344720.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011344720.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS07200",
+      "role": "hypB",
+      "protein_accession": "WP_011344448.1",
+      "sequence_sha256": "9b0e444ab74b2daaae043d66202fac24153d7abbe956d9303ef58a3de34d96e4",
+      "length": 220,
+      "source_accession": "NC_007503.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011344448.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011344448.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS07185",
+      "role": "hypD",
+      "protein_accession": "WP_011344445.1",
+      "sequence_sha256": "ad515bac20d0387537529d0bcb22c3b2e55e9de8d8c73fdfd77520eb85ca6fbe",
+      "length": 358,
+      "source_accession": "NC_007503.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011344445.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011344445.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS07180",
+      "role": "hypE",
+      "protein_accession": "WP_226986690.1",
+      "sequence_sha256": "2fbe08321658c5146ba3ce8c4ac69eea67d7b12356541fda53e4926e08c6f534",
+      "length": 346,
+      "source_accession": "NC_007503.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011024640.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_226986690.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS07195",
+      "role": "hypF",
+      "protein_accession": "WP_011344447.1",
+      "sequence_sha256": "b24d69a2eb8d3eec59617ba93376885e8a7b1bc4622702464011f89b819627df",
+      "length": 754,
+      "source_accession": "NC_007503.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: protein motif:HMM:TIGR00143.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011344447.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS11370",
+      "role": "hydE",
+      "protein_accession": "WP_011345315.1",
+      "sequence_sha256": "bb6fe20234dd5db149d464d9be4df4012f5e70b0269b0f16cc2ed3193a6daaa1",
+      "length": 308,
+      "source_accession": "NC_007503.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011345315.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011345315.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS07235",
+      "role": "hydF",
+      "protein_accession": "WP_011344455.1",
+      "sequence_sha256": "d6bf124c9889298eee08ff7ae0ee98601283a44e9336d10046309442b1290d41",
+      "length": 397,
+      "source_accession": "NC_007503.1",
+      "source_product": "[FeFe] hydrogenase H-cluster maturation GTPase HydF",
+      "source_inference": [
+        "COORDINATES: protein motif:HMM:TIGR03918.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011344455.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "chydrogenoformans_Z2901",
+      "locus_tag": "CHY_RS07240",
+      "role": "hydG",
+      "protein_accession": "WP_011344456.1",
+      "sequence_sha256": "a553975427e389eb6c270161fe958a77105ef5651e6ce1a3120840651df8892c",
+      "length": 457,
+      "source_accession": "NC_007503.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydG",
+      "source_inference": [
+        "COORDINATES: protein motif:HMM:TIGR03955.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011344456.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cpasteurianum_DSM525",
+      "locus_tag": "CLPA_c07100",
+      "role": "hypB",
+      "protein_accession": "AJA50798.1",
+      "sequence_sha256": "d17e70be09bb6cd855d691345a4b75111341d43422394a1ad423fb2b4f53167d",
+      "length": 221,
+      "source_accession": "CP009268.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/AJA50798.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cpasteurianum_DSM525",
+      "locus_tag": "CLPA_c07170",
+      "role": "hypD",
+      "protein_accession": "AJA50805.1",
+      "sequence_sha256": "e85aab01ad9be3d2db09dd64ba783403820f8032bce75210b493d35ca5d658e7",
+      "length": 361,
+      "source_accession": "CP009268.1",
+      "source_product": "hydrogenase isoenzymes formation protein HypD",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/AJA50805.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cpasteurianum_DSM525",
+      "locus_tag": "CLPA_c07150",
+      "role": "hypE",
+      "protein_accession": "AJA50803.1",
+      "sequence_sha256": "0102705455981d5140530cfc3ab20c0506fb76c8fbefcd11659f5a64bc2e91c4",
+      "length": 335,
+      "source_accession": "CP009268.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/AJA50803.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cpasteurianum_DSM525",
+      "locus_tag": "CLPA_c07160",
+      "role": "hypF",
+      "protein_accession": "AJA50804.1",
+      "sequence_sha256": "811679f34c7f1d0e2f8175f477af380af13601e1a17a0e407c79c11398bb1237",
+      "length": 759,
+      "source_accession": "CP009268.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/AJA50804.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "cpasteurianum_DSM525",
+      "locus_tag": "CLPA_c21640",
+      "role": "hydF",
+      "protein_accession": "AJA52222.1",
+      "sequence_sha256": "afe627edc404af5ae4e6dde92a68da5241bb654916c7bccf2edafe489417d012",
+      "length": 411,
+      "source_accession": "CP009268.1",
+      "source_product": "iron-only hydrogenase maturation protein HydF",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/AJA52222.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS10765",
+      "role": "hypA",
+      "protein_accession": "WP_010939567.1",
+      "sequence_sha256": "95a6179b0280fec401de2c1261bf6e2133a8d19bf8829feab413f9a402c04f23",
+      "length": 120,
+      "source_accession": "NC_002937.3",
+      "source_product": "hydrogenase maturation nickel metallochaperone HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010939567.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_010939567.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS10925",
+      "role": "hypB",
+      "protein_accession": "WP_010939602.1",
+      "sequence_sha256": "0a0614bc245d30835d5d5967d3d9d9bc8eeb3f40aae60f1df129069fc83b8964",
+      "length": 224,
+      "source_accession": "NC_002937.3",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010939602.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_010939602.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS01605",
+      "role": "hypD",
+      "protein_accession": "WP_010937632.1",
+      "sequence_sha256": "41226ed081f29cde4a36ba51fcaa539044d09dde5a9d1e6e45718761749b1ebf",
+      "length": 365,
+      "source_accession": "NC_002937.3",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010937632.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_010937632.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS01610",
+      "role": "hypE",
+      "protein_accession": "WP_010937633.1",
+      "sequence_sha256": "30bfcb889780830fbcfd87744612e3b19875c91da765dbfb0c87a59c0796de3b",
+      "length": 341,
+      "source_accession": "NC_002937.3",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010937633.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_010937633.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS14420",
+      "role": "hypF",
+      "protein_accession": "WP_041722829.1",
+      "sequence_sha256": "dc530fd81ea102c69523f8701bbc63e544df7dde8fb59bf242f1bc08783277ad",
+      "length": 786,
+      "source_accession": "NC_002937.3",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011791529.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_041722829.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS08395",
+      "role": "hydE",
+      "protein_accession": "WP_014524386.1",
+      "sequence_sha256": "eee54738a8c41eace5911b35482292fdd82f922aad60dbd5ff637411bccc08e5",
+      "length": 319,
+      "source_accession": "NC_002937.3",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_014524386.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_014524386.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS08400",
+      "role": "hydF",
+      "protein_accession": "WP_010939056.1",
+      "sequence_sha256": "aab24c16831141c728fd9386c0a6508bef8835b97c0ed56b3ab62263e7400c73",
+      "length": 410,
+      "source_accession": "NC_002937.3",
+      "source_product": "[FeFe] hydrogenase H-cluster maturation GTPase HydF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010939056.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_010939056.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "dvulgaris_Hildenborough",
+      "locus_tag": "DVU_RS08385",
+      "role": "hydG",
+      "protein_accession": "WP_010939053.1",
+      "sequence_sha256": "bf893ce756e6d64d751f7a4735226ddef111b92844486aeaf2041365774f9213",
+      "length": 464,
+      "source_accession": "NC_002937.3",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydG",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010939053.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_010939053.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2726",
+      "role": "hypA",
+      "protein_accession": "NP_417206.1",
+      "sequence_sha256": "fd2fca34b203753cafc13997518215a5200747343bc5aa5dbb95af26e2aab9ea",
+      "length": 116,
+      "source_accession": "NC_000913.3",
+      "source_product": "hydrogenase 3 Ni(2(+)) incorporation protein HypA",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_417206.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2727",
+      "role": "hypB",
+      "protein_accession": "NP_417207.1",
+      "sequence_sha256": "16869cda9eac88387ba0c1105eb4fc37eb7cb5969284812fd42a6f9becc06bad",
+      "length": 290,
+      "source_accession": "NC_000913.3",
+      "source_product": "hydrogenase isoenzymes Ni(2(+)) incorporation protein HypB",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_417207.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2728",
+      "role": "hypC",
+      "protein_accession": "NP_417208.1",
+      "sequence_sha256": "6c012c70112408855c9e41f30ce6a74e1ea927d2e84f11477af3fef780a53b2e",
+      "length": 90,
+      "source_accession": "NC_000913.3",
+      "source_product": "hydrogenase maturation factor HypC",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_417208.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2729",
+      "role": "hypD",
+      "protein_accession": "NP_417209.1",
+      "sequence_sha256": "fa78bc0cf5361d1aed7890ee908708082921853393331c42e102aab6a1cc186f",
+      "length": 373,
+      "source_accession": "NC_000913.3",
+      "source_product": "Fe-(CN)2CO cofactor assembly scaffold protein HypD",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_417209.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2730",
+      "role": "hypE",
+      "protein_accession": "NP_417210.2",
+      "sequence_sha256": "e06941809dfce0b72060b959da5eeebba14defcbdcfe814eca10cdc605a6c4e3",
+      "length": 336,
+      "source_accession": "NC_000913.3",
+      "source_product": "carbamoyl dehydratase HypE",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_417210.2",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2712",
+      "role": "hypF",
+      "protein_accession": "NP_417192.1",
+      "sequence_sha256": "f1cfda83cf97e8a5ccfef867f886576c564764e39086d4cd37da439bce57afa0",
+      "length": 750,
+      "source_accession": "NC_000913.3",
+      "source_product": "carbamoyl--[HypE] ligase",
+      "source_inference": [],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/NP_417192.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mbarkeri_Fusaro",
+      "locus_tag": "MBAR_RS09830",
+      "role": "hypA",
+      "protein_accession": "WP_011306837.1",
+      "sequence_sha256": "02cf46c55b7cc7f6d52567e157597767a13887a14f6c2edcec3eb3a4a1601226",
+      "length": 133,
+      "source_accession": "NC_007355.1",
+      "source_product": "hydrogenase maturation nickel metallochaperone HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011034241.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011306837.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mbarkeri_Fusaro",
+      "locus_tag": "MBAR_RS09835",
+      "role": "hypB",
+      "protein_accession": "WP_048103280.1",
+      "sequence_sha256": "30445fbba0f4e904cd414feb7b5fe1779b9479751dfac0ec063346d1e0e65b1d",
+      "length": 220,
+      "source_accession": "NC_007355.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_015412347.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_048103280.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mbarkeri_Fusaro",
+      "locus_tag": "MBAR_RS09820",
+      "role": "hypC",
+      "protein_accession": "WP_011306835.1",
+      "sequence_sha256": "f6c42adf9ecc281c3d2c613cd7540d6d98756af7263240d7dce97feb1f89f2a1",
+      "length": 86,
+      "source_accession": "NC_007355.1",
+      "source_product": "HypC/HybG/HupF family hydrogenase formation chaperone",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011034095.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011306835.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mbarkeri_Fusaro",
+      "locus_tag": "MBAR_RS09825",
+      "role": "hypD",
+      "protein_accession": "WP_011306836.1",
+      "sequence_sha256": "d3658c7f4b45a1fd4be52d2ccc3ee096656243de2d5a758214a2249d4dc85dd1",
+      "length": 372,
+      "source_accession": "NC_007355.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011021163.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011306836.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mbarkeri_Fusaro",
+      "locus_tag": "MBAR_RS09840",
+      "role": "hypE",
+      "protein_accession": "WP_011306839.1",
+      "sequence_sha256": "9a051d1e6123025f5566725aff5aa561111e27b80514425d7809a1822a480fd3",
+      "length": 347,
+      "source_accession": "NC_007355.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011034243.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011306839.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mbarkeri_Fusaro",
+      "locus_tag": "MBAR_RS02070",
+      "role": "hypF",
+      "protein_accession": "WP_011305418.1",
+      "sequence_sha256": "7c42aeb2bac6f0be7ece62a7f3f20d0f9788c5dcdf111eef60e12c9d82d0ad2d",
+      "length": 767,
+      "source_accession": "NC_007355.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011032727.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011305418.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS05750",
+      "role": "hypA",
+      "protein_accession": "WP_013295993.1",
+      "sequence_sha256": "b024dc5fb2a6619d87cc325c96be79ccd6b536bf258591e27da10f3ee019b10f",
+      "length": 122,
+      "source_accession": "NC_014408.1",
+      "source_product": "hydrogenase maturation nickel metallochaperone HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013295993.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013295993.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS05745",
+      "role": "hypB",
+      "protein_accession": "WP_013295992.1",
+      "sequence_sha256": "0bb30dd986079339fa8b048f3a7a3d671ece856d1296d5e8725ee00fc0b4fbe6",
+      "length": 217,
+      "source_accession": "NC_014408.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010876419.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013295992.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS07130",
+      "role": "hypD",
+      "protein_accession": "WP_013296250.1",
+      "sequence_sha256": "f9765cbd6bf7620a8623aa74b2c2032e84ca7df7e7eaf76e4bdfc4edcc8942d5",
+      "length": 351,
+      "source_accession": "NC_014408.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013296250.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013296250.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS03225",
+      "role": "hypE",
+      "protein_accession": "WP_013295474.1",
+      "sequence_sha256": "c70e466c8518abe49dd8a794761877c9e96d0928fa29cc798c9fac0454c89003",
+      "length": 336,
+      "source_accession": "NC_014408.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_008516973.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013295474.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS08170",
+      "role": "hypF",
+      "protein_accession": "WP_013296455.1",
+      "sequence_sha256": "b784848bf74c26edb82a036bf7e65022b280f74762d43e3e216565acfb34d83c",
+      "length": 766,
+      "source_accession": "NC_014408.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013296455.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013296455.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "npunctiforme_ATCC29133",
+      "locus_tag": "NPUN_RS01830",
+      "role": "hypB",
+      "protein_accession": "WP_012407165.1",
+      "sequence_sha256": "822b8104802136a59a3329ad32c7a8f45b60c03ca1fdf2c1a0e32aede5506ee7",
+      "length": 275,
+      "source_accession": "NC_010628.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012407165.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_012407165.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "npunctiforme_ATCC29133",
+      "locus_tag": "NPUN_RS01845",
+      "role": "hypD",
+      "protein_accession": "WP_041565846.1",
+      "sequence_sha256": "d6665ae3618674d97fe4ff21cedac8c821da6c7d91375c215f62a75fdf616966",
+      "length": 392,
+      "source_accession": "NC_010628.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012407168.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_041565846.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "npunctiforme_ATCC29133",
+      "locus_tag": "NPUN_RS01840",
+      "role": "hypE",
+      "protein_accession": "WP_012407167.1",
+      "sequence_sha256": "7ee27b8d59fad384dc741571a7214478b2aa1f13c7920bd7f8ec718ee07314a7",
+      "length": 367,
+      "source_accession": "NC_010628.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012407167.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_012407167.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "npunctiforme_ATCC29133",
+      "locus_tag": "NPUN_RS01855",
+      "role": "hypF",
+      "protein_accession": "WP_012407170.1",
+      "sequence_sha256": "c09f2805547958ab8b5cd0bb678c846980830598baf461c5451c6bf8702d8b9b",
+      "length": 781,
+      "source_accession": "NC_010628.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012407170.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_012407170.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS03145",
+      "role": "hypA",
+      "protein_accession": "WP_011011735.1",
+      "sequence_sha256": "a11ec3a9fdd0a8d03eaa0e7a85e5c27fd59ce99ad1b28cf2bb8deb6ad396f51d",
+      "length": 139,
+      "source_accession": "NC_003413.1",
+      "source_product": "hydrogenase nickel incorporation protein HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011011735.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011011735.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS02825",
+      "role": "hypD",
+      "protein_accession": "WP_011011667.1",
+      "sequence_sha256": "1ae29c4acb428d05bb9a064f49dedbbf669c0ece7c31671275f6b686315d820d",
+      "length": 367,
+      "source_accession": "NC_003413.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011011667.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011011667.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS03085",
+      "role": "hypE",
+      "protein_accession": "WP_014835178.1",
+      "sequence_sha256": "1b02b21817b99048e937bbe1c07546c8283c0cfbd8ef7929dd4556638b7dac5c",
+      "length": 336,
+      "source_accession": "NC_003413.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010884835.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_014835178.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS02870",
+      "role": "hypF",
+      "protein_accession": "WP_014835167.1",
+      "sequence_sha256": "c9dd39d31dd016513ee8c42e63c537d7812923ebdcc2bf636d7e5051c955c99e",
+      "length": 773,
+      "source_accession": "NC_003413.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011250947.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_014835167.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS04490",
+      "role": "hydG",
+      "protein_accession": "WP_011012027.1",
+      "sequence_sha256": "14761aa05961f8d5e679f590530e904f75c4a9eb98a30c6e201fe2f2ef825fb6",
+      "length": 292,
+      "source_accession": "NC_003413.1",
+      "source_product": "NADPH-dependent hydrogenase/sulfhydrogenase 1 subunit gamma",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_014734003.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011012027.1",
+      "status": "exclude_non_maturase_homonym",
+      "review_note": "SHI-like NADPH/sulfhydrogenase gamma module, not radical-SAM HydG; excluded regardless of gene name.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": "https://www.uniprot.org/uniprotkb/Q8U2E4/entry"
+    },
+    {
+      "sample": "rcapsulatus_SB1003",
+      "locus_tag": "RCAP_RS03890",
+      "role": "hypA",
+      "protein_accession": "WP_013066520.1",
+      "sequence_sha256": "b7dbc4cf3a198044eaf7e7871efc8fe79cc786c9da27dfc01f7e9bb961d478fe",
+      "length": 113,
+      "source_accession": "NC_014034.1",
+      "source_product": "hydrogenase maturation nickel metallochaperone HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013066520.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013066520.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "rcapsulatus_SB1003",
+      "locus_tag": "RCAP_RS03895",
+      "role": "hypB",
+      "protein_accession": "WP_013066521.1",
+      "sequence_sha256": "f26348167abcfea1217e3c3c9986d9bce925de37d074637f40aa1304576275d8",
+      "length": 335,
+      "source_accession": "NC_014034.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013066521.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013066521.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "rcapsulatus_SB1003",
+      "locus_tag": "RCAP_RS03905",
+      "role": "hypC",
+      "protein_accession": "WP_013066523.1",
+      "sequence_sha256": "6aec16cd9f74b3b88c30350da48a0c3c5405605b0b995f5a9fdc6c950e1679d2",
+      "length": 96,
+      "source_accession": "NC_014034.1",
+      "source_product": "HypC/HybG/HupF family hydrogenase formation chaperone",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013066523.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013066523.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "rcapsulatus_SB1003",
+      "locus_tag": "RCAP_RS03910",
+      "role": "hypD",
+      "protein_accession": "WP_013066524.1",
+      "sequence_sha256": "37c89085fddbc578de1abf4f99e358d25bd449dc349fb20820532f5ed78637f6",
+      "length": 377,
+      "source_accession": "NC_014034.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013066524.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013066524.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "rcapsulatus_SB1003",
+      "locus_tag": "RCAP_RS03915",
+      "role": "hypE",
+      "protein_accession": "WP_013066525.1",
+      "sequence_sha256": "79112478c38e2d798f099eceb12132a70a6cd7e45ea88c779faf49e7ed31a440",
+      "length": 340,
+      "source_accession": "NC_014034.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_002720673.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013066525.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "rcapsulatus_SB1003",
+      "locus_tag": "RCAP_RS03840",
+      "role": "hypF",
+      "protein_accession": "WP_013066510.1",
+      "sequence_sha256": "8a06c547b3f817fa2e4558bc2ddbd874cb0880e8813e72f5252dbb4d582f48a8",
+      "length": 739,
+      "source_accession": "NC_014034.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_013066510.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_013066510.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "swolfei_Goettingen",
+      "locus_tag": "SWOL_RS05180",
+      "role": "hydE",
+      "protein_accession": "WP_041427405.1",
+      "sequence_sha256": "93f61ed95c9b74da083b9c20701b5b54d162850e55ce96350aba169dc5409300",
+      "length": 352,
+      "source_accession": "NC_008346.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydE",
+      "source_inference": [
+        "COORDINATES: protein motif:HMM:TIGR03956.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_041427405.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "swolfei_Goettingen",
+      "locus_tag": "SWOL_RS01625",
+      "role": "hydF",
+      "protein_accession": "WP_011639769.1",
+      "sequence_sha256": "30178e34c23cf18f044b39f182728426ffb2f45dd119ac3e2c7ca6f42702ca81",
+      "length": 402,
+      "source_accession": "NC_008346.1",
+      "source_product": "[FeFe] hydrogenase H-cluster maturation GTPase HydF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011639769.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011639769.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "swolfei_Goettingen",
+      "locus_tag": "SWOL_RS05190",
+      "role": "hydG",
+      "protein_accession": "WP_011640441.1",
+      "sequence_sha256": "605c5da7ad6c49289f5b6440b2afcf58b232f60202d90a1cd79d475025058668",
+      "length": 487,
+      "source_accession": "NC_008346.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydG",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011640441.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011640441.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tmaritima_MSB8",
+      "locus_tag": "TM_RS06445",
+      "role": "hydE",
+      "protein_accession": "WP_004079975.1",
+      "sequence_sha256": "df5244d9c07e1bb18ca9b015384bdc92f5c373b1c534b6ff6dd280ee8a8bf5cf",
+      "length": 348,
+      "source_accession": "NC_000853.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012896527.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_004079975.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tmaritima_MSB8",
+      "locus_tag": "TM_RS02255",
+      "role": "hydF",
+      "protein_accession": "WP_004081521.1",
+      "sequence_sha256": "6d192dfe4f4b5ef01b8934b589d561f7e1a49d5e31f40f0aacc91da537b28c4d",
+      "length": 404,
+      "source_accession": "NC_000853.1",
+      "source_product": "[FeFe] hydrogenase H-cluster maturation GTPase HydF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_004081521.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_004081521.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tmaritima_MSB8",
+      "locus_tag": "TM_RS06435",
+      "role": "hydG",
+      "protein_accession": "WP_004079985.1",
+      "sequence_sha256": "3255fcfa8396dda7be3ebffe0f591da1d68401623366a34c577aa63fe8714aac",
+      "length": 471,
+      "source_accession": "NC_000853.1",
+      "source_product": "[FeFe] hydrogenase H-cluster radical SAM maturase HydG",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012311186.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_004079985.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tonnurineus_NA1",
+      "locus_tag": "TON_RS01375",
+      "role": "hypA",
+      "protein_accession": "WP_012571219.1",
+      "sequence_sha256": "672cd5f6a39489668a4d592bfd6859028041a4862c3fa7fd439e77cc522466b5",
+      "length": 139,
+      "source_accession": "NC_011529.1",
+      "source_product": "hydrogenase nickel incorporation protein HypA",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012571219.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_012571219.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tonnurineus_NA1",
+      "locus_tag": "TON_RS01500",
+      "role": "hypE",
+      "protein_accession": "WP_012571245.1",
+      "sequence_sha256": "e86b977f582a12e12105ba9b4e0d9700716b8bb829b448ee59ed1f6888fae3f2",
+      "length": 336,
+      "source_accession": "NC_011529.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_010884835.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_012571245.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tonnurineus_NA1",
+      "locus_tag": "TON_RS01495",
+      "role": "hypF",
+      "protein_accession": "WP_048055020.1",
+      "sequence_sha256": "feca75872ab0867262ae86e710e6d9a49801c6de7f8df57ef1b2273f27527f5f",
+      "length": 770,
+      "source_accession": "NC_011529.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011250947.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_048055020.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "tonnurineus_NA1",
+      "locus_tag": "TON_RS02775",
+      "role": "hydG",
+      "protein_accession": "WP_012571495.1",
+      "sequence_sha256": "46529cb292411823aad643c91e2daf82ec370ab30e03a1a7ed3afd7efaa8f29f",
+      "length": 291,
+      "source_accession": "NC_011529.1",
+      "source_product": "NADPH-dependent hydrogenase/sulfhydrogenase 1 subunit gamma",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_012571495.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_012571495.1",
+      "status": "exclude_non_maturase_homonym",
+      "review_note": "SHI-like NADPH/sulfhydrogenase gamma module, not radical-SAM HydG; excluded regardless of gene name.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": "https://www.uniprot.org/uniprotkb/Q8U2E4/entry"
+    },
+    {
+      "sample": "wsuccinogenes_DSM1740",
+      "locus_tag": "WS_RS03820",
+      "role": "hypA",
+      "protein_accession": "WP_011138706.1",
+      "sequence_sha256": "fde8d8c05d6a0267391d5bf168d14a72bf03eb6db88850ecdf5090f0e4ad4263",
+      "length": 119,
+      "source_accession": "NC_005090.1",
+      "source_product": "hydrogenase/urease nickel incorporation protein HypA",
+      "source_inference": [
+        "COORDINATES: protein motif:HMM:NF001839.0"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011138706.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "wsuccinogenes_DSM1740",
+      "locus_tag": "WS_RS03795",
+      "role": "hypB",
+      "protein_accession": "WP_011138701.1",
+      "sequence_sha256": "fed47581622429b03775d6f53586778c3471d70fee73d3e0b4684c03ef0e0e47",
+      "length": 235,
+      "source_accession": "NC_005090.1",
+      "source_product": "hydrogenase nickel incorporation protein HypB",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011138701.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011138701.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "wsuccinogenes_DSM1740",
+      "locus_tag": "WS_RS03805",
+      "role": "hypD",
+      "protein_accession": "WP_011138703.1",
+      "sequence_sha256": "80e73b9453584a1a8285b351eedf69b37a4efb07cd2ab5fc63ac7506a0997651",
+      "length": 373,
+      "source_accession": "NC_005090.1",
+      "source_product": "hydrogenase formation protein HypD",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011138703.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011138703.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "wsuccinogenes_DSM1740",
+      "locus_tag": "WS_RS03815",
+      "role": "hypE",
+      "protein_accession": "WP_011138705.1",
+      "sequence_sha256": "6c4bec725a4c7aa278718a43b4b3ac8045ab1a7bf1fe0de407f8c6c31ae33f3f",
+      "length": 333,
+      "source_accession": "NC_005090.1",
+      "source_product": "hydrogenase expression/formation protein HypE",
+      "source_inference": [
+        "COORDINATES: similar to AA sequence:RefSeq:WP_011138705.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_011138705.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    },
+    {
+      "sample": "wsuccinogenes_DSM1740",
+      "locus_tag": "WS_RS03790",
+      "role": "hypF",
+      "protein_accession": "WP_041571734.1",
+      "sequence_sha256": "1740fc92a93e35d98c3e9b01cde9c6e365048b0c13b45faba452f69df852487b",
+      "length": 759,
+      "source_accession": "NC_005090.1",
+      "source_product": "carbamoyltransferase HypF",
+      "source_inference": [
+        "COORDINATES: protein motif:HMM:TIGR00143.1"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/protein/WP_041571734.1",
+      "status": "reviewed_database_maturation_family",
+      "review_note": "Explicit CDS/product/length review; database-level maturation-family evidence, not independent biochemical verification or full maturation capacity.",
+      "domain_validation": "pending_independent_profile_check",
+      "supporting_source": ""
+    }
+  ]
+}

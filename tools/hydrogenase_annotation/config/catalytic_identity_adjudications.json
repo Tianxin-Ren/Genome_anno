@@ -1,0 +1,322 @@
+{
+  "version": "round18-primary-reaction-scoped-Hmd-adjudication",
+  "corpus": "references/validation/round09_identity_corpus",
+  "corpus_freeze_sha256": "e1a34e848a0c074a0d8e95120c1447b6188d076e3f55ef1160ed4a0a89a489b5",
+  "scope": "Prospective identity truth adjudication; preserve frozen 2016 source labels and all historical reports. No new functional transfer rule.",
+  "records": [
+    {
+      "unit_id": "seq_24ad19885185a2f18fc6",
+      "sequence_sha256": "24ad19885185a2f18fc6d037b03a485fdfc57d5ee236e842dd6d260a9e099ac6",
+      "accessions": [
+        "WP_011019490.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_25078f2a9bc90f910753",
+      "sequence_sha256": "25078f2a9bc90f910753878f2faa309d92ee080942d6a262580b0eb5967567f1",
+      "accessions": [
+        "WP_012795031.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_3906cbdfbe0edf283152",
+      "sequence_sha256": "3906cbdfbe0edf28315211d93c72a825cd1fdd6eb841a9cb91645c6857ea33b0",
+      "accessions": [
+        "WP_011019733.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_407fd12510afe1effa6b",
+      "sequence_sha256": "407fd12510afe1effa6baf39d737c79fd3e064a4e4ab23aa8e17ced192c3168e",
+      "accessions": [
+        "WP_013866580.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_4326e3b89e52673b3d69",
+      "sequence_sha256": "4326e3b89e52673b3d69329c27e680a6f1141f76f0a99ee78a387e012528a159",
+      "accessions": [
+        "WP_012979828.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_45d546e490cb16748901",
+      "sequence_sha256": "45d546e490cb16748901c269b271746095b8acb9be89a9bab2413eaeb70edcb4",
+      "accessions": [
+        "WP_012065850.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_46bc264d7eb20e8f7d4b",
+      "sequence_sha256": "46bc264d7eb20e8f7d4b145f0bfab437112e58e6611677d5645db313f5a6ccb4",
+      "accessions": [
+        "WP_018154202.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_53d05a691ae770127594",
+      "sequence_sha256": "53d05a691ae7701275941e08d1b4f63edde0adbe398b94399fc6a434e1f7064a",
+      "accessions": [
+        "WP_013866783.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_55eee4b016d03baa043a",
+      "sequence_sha256": "55eee4b016d03baa043a9c867ac71d704bd2752bb68afa8d50e661779f6f73e1",
+      "accessions": [
+        "Q58734",
+        "WP_010870856.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/26094576/",
+      "scope": "Exact 4YT4 native construct: FeGP-bound but tested canonical Hmd turnover absent; other reactions not established."
+    },
+    {
+      "unit_id": "seq_595e161a8c9f9bb9e2b4",
+      "sequence_sha256": "595e161a8c9f9bb9e2b45d0da43082b709c7dad5b5feb09b6558ab6c528b2ad7",
+      "accessions": [
+        "WP_011973409.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_7382dc7357d5878d2470",
+      "sequence_sha256": "7382dc7357d5878d247043a108477671d92d29beb9906259649fe31920f2f402",
+      "accessions": [
+        "WP_015733787.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_944ef5a64dbc36fb5144",
+      "sequence_sha256": "944ef5a64dbc36fb5144f48db1db8b8e4d445663c35b2777a17bc8add4f7b901",
+      "accessions": [
+        "WP_013295714.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_b3e2b9391604f898ffd4",
+      "sequence_sha256": "b3e2b9391604f898ffd43da69b43d6d4008d2d581ed24a15ea9ea75f34d026fc",
+      "accessions": [
+        "WP_004030867.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_b8deb60b4bdee748a797",
+      "sequence_sha256": "b8deb60b4bdee748a7970a6de725c496e8b1774a08f775cbcabc8e1dbeac0c62",
+      "accessions": [
+        "WP_011869434.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_bd2495c6c1d36b1b3866",
+      "sequence_sha256": "bd2495c6c1d36b1b3866e9f8370b6bba6d87b11cff4a2860b573d1f87ad82eb8",
+      "accessions": [
+        "WP_013639078.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "positive",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "Exact 6HUZ native sequence: reconstituted FeGP-dependent H2 hydrogenation of THF derivatives; low measured activity, no canonical H4MPT or in-vivo function transfer."
+    },
+    {
+      "unit_id": "seq_c175d51bb86ae8f7b8b2",
+      "sequence_sha256": "c175d51bb86ae8f7b8b2da5a8905ec359df59b8912c8829604e0d525a74e0139",
+      "accessions": [
+        "WP_012981038.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_c555810c72d74656dd81",
+      "sequence_sha256": "c555810c72d74656dd81bc6808598dea1413cf708a3052d2f27099510a0a8706",
+      "accessions": [
+        "WP_013799142.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_c9722fcd5df52e001ee6",
+      "sequence_sha256": "c9722fcd5df52e001ee62ff4a2a323df0bfac6f324f6ab20d75200449b36893c",
+      "accessions": [
+        "WP_010877122.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_cdd9ffd71eb2df606b7c",
+      "sequence_sha256": "cdd9ffd71eb2df606b7cc99d9288b2a7a31885a58268194bdf11774feb7b4e6a",
+      "accessions": [
+        "WP_013413427.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_d2f08e23fdf6806b28a7",
+      "sequence_sha256": "d2f08e23fdf6806b28a7bb3c3ff6ac97df7dcb319315bc8ae8f339358780cfb4",
+      "accessions": [
+        "WP_012980542.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_d5f33fc2ef6d405350b3",
+      "sequence_sha256": "d5f33fc2ef6d405350b3ca0bd1659457a6d301e3e2db80b2fe5893743207fbde",
+      "accessions": [
+        "WP_015284885.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_d8440812ed3caad23341",
+      "sequence_sha256": "d8440812ed3caad233418374cbf5ba26fd24c9fd0f1f9549bef7fde434ce9990",
+      "accessions": [
+        "WP_004589905.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_da1cc07532d02e3861e0",
+      "sequence_sha256": "da1cc07532d02e3861e0400f97b5739e170c83d2bdee848a6bf44f3650b854ef",
+      "accessions": [
+        "Q58125",
+        "WP_010870221.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_e22ef1753d3c08fe4344",
+      "sequence_sha256": "e22ef1753d3c08fe434411bde15420cc450dde27284ef227c4efcde7380bfd19",
+      "accessions": [
+        "WP_013294936.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_e4922bc35e101fbb8340",
+      "sequence_sha256": "e4922bc35e101fbb8340e349e82d9a490a6d0e0d324d54adf26a81a8b5d3a152",
+      "accessions": [
+        "WP_022846848.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    },
+    {
+      "unit_id": "seq_f4e39666d6d8fbb903f1",
+      "sequence_sha256": "f4e39666d6d8fbb903f16a78c47b697b2cdccc858028660dc8525f90b927a044",
+      "accessions": [
+        "WP_013100494.1"
+      ],
+      "frozen_label": "negative",
+      "identity_label": "indeterminate",
+      "family": "Fe",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30600878/",
+      "scope": "HmdII/III-like annotation or homology is insufficient negative truth for all H2 chemistry; individual biochemical activity remains unestablished."
+    }
+  ]
+}

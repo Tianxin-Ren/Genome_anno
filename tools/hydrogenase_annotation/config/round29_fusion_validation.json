@@ -1,0 +1,31 @@
+{
+  "version": "round29-native-fusion-boundaries-before-modified-prediction",
+  "case_id": "Sacid_HydAB_NAD_nonBF_fusion",
+  "anchor": "SYN_01370",
+  "partner": "SYN_01369",
+  "source_files": {
+    "references/raw/round26_function_mechanism/CP000252.gb": "b10133d1a14e23d901ae5aa40a494bf362eef878d88e28ff8602584651c95259",
+    "references/raw/round26_function_mechanism/PMC7311640.xml": "2b5e8acfac46a535e9bc329d93979b2eb8cb3de5622566502816638be06a1781"
+  },
+  "boundary_runs": [
+    "delete_partner",
+    "delete_gamma_region",
+    "delete_beta_region",
+    "reverse_fused_order",
+    "partial_partner",
+    "cross_bin_partner",
+    "ambiguous_anchor_ligand"
+  ],
+  "targets": {
+    "native_exact_core": true,
+    "native_identity_promotion": false,
+    "native_reaction_assignments": 0,
+    "boundary_complete_core_assignments": 0,
+    "boundary_reaction_assignments": 0
+  },
+  "limits": [
+    "Exposed source development, not independent testing. No S.aciditrophicus protein enters reference bank, HMM, identity prototypes, site templates or exact function exemplars.",
+    "Whole native genome source plus explicitly synthetic protein/ownership perturbations.",
+    "Structure composition can be provisional with catalytic identity still candidate; never report measured query activity or high identity precision for this exception."
+  ]
+}

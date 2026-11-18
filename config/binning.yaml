@@ -1,0 +1,18 @@
+# Binning Module Configuration
+binning:
+  mode: "hybrid" 
+  steps:
+    extract_circular: True
+    metawrap: True
+    semibin2: False
+    refinement: True
+    drep: False
+  completeness: 50
+  contamination: 10
+  ani_threshold: 0.95
+  checkm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/checkm_data"
+  conda_envs:
+    metawrap: "metawrap_1.3.2"
+    semibin2: "semibin2"
+    mapping: "bio"
+    drep: "bio"

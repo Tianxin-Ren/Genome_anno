@@ -1,0 +1,33 @@
+# ==============================================================================
+# 1. Data Configuration (Input Samples & External Resources)
+# ==============================================================================
+data:
+  samples: "./samples.yaml"
+
+# ==============================================================================
+# 2. Workflow Modules (Logical Steps & Toggles)
+# ==============================================================================
+# Dynamic Advanced Analysis run mode. All unnecessary upstream modules are disabled.
+modules:
+  preprocess:
+    enable: False
+  assembly:
+    enable: False
+  binning:
+    enable: False
+  abundance:
+    enable: False
+  annotation:
+    enable: False
+  advanced_analysis:
+    path: "./advanced_analysis.yaml"
+    enable: False
+  data_prep:
+    path: "./data_prep.yaml"
+    enable: True
+
+# ==============================================================================
+# 3. Global Paths & Environment Setup
+# ==============================================================================
+project_root: ""
+conda_env_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/"

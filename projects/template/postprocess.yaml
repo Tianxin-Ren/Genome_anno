@@ -1,0 +1,6 @@
+# Optional downstream integration module.
+postprocess:
+  results_dir: "results/postprocess"
+  conda_envs:
+    python: "biopython_1.85"
+  tasks: {}

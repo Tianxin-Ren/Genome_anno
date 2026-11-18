@@ -1,0 +1,13 @@
+{
+  "version": "HdrBC-mapped-functional-regions-v1",
+  "primary_source": "references/raw/round57_mvh_hdr/PMC5296606.xml",
+  "doi": "10.1128/mBio.02285-16",
+  "figure": "S3B/C; S4",
+  "caption": "SDS-PAGE of purified recombinant proteins produced in  Escherichia coli  and CODH/ACS purified from  Methanosarcina acetivorans . The Bolt 4 to 12% gels (Invitrogen) were stained with Coomassie brilliant blue. The numbers at the sides of the gels refer to the molecular masses (in kilodaltons) of adjacent standards. Amounts loaded: HdrA2 and HdrB2 (10 μg); HdrB2C2 and CODH/ACS (25 μg). Download  FIG S2, DOCX file, 0.2 MB . Copyright © 2017 Yan et al. This content is distributed under the terms of the  Creative Commons Attribution 4.0 International license .",
+  "motifs": {
+    "HdrB": "C.{31,39}CC.{35,36}C..C",
+    "HdrC": "C..C..C...C"
+  },
+  "inference": "Full official domains and conservation of all ten HdrB and eight HdrC reference pattern sites may support remote role architecture despite low whole-reference identity or a shorter non-ligand tail. This does not assign cluster type/occupancy, terminal substrate or electron bifurcation.",
+  "local_coupling_scope": "A unique complete local MvhADG-HdrABC architecture with independent NiFe support and no competing complete module can support a coupling hypothesis while HdrA donor discrimination remains unresolved. Both HdrA references must be comparable; an alternative-favored HdrA or HdrA-FlpD fusion blocks this new route. The original 5-point donor margin is retained for donor discrimination; it is not a universal gate for this local hypothesis."
+}

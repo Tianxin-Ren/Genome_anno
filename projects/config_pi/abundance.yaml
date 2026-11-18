@@ -1,0 +1,38 @@
+# Abundance Module Configuration
+abundance:
+  results_dir: "results/abundance"
+  
+  # CoverM genomic abundance profiling toggle (defaults to false)
+  run_coverm: false
+  
+  # SortMeRNA Database (Required for transcriptomics)
+  sortmerna_db: "/dssg/home/acct-clswfp/clswfp-icdli1/software/sortmerna/database/smr_v4.3_default_db.fasta"
+  
+  # Tool Parameters
+  params:
+    fastp: ""
+    sortmerna: "--paired_out --fastx --out2"
+    coverm: "--min-read-percent-identity 95 --min-read-aligned-percent 75"
+    bowtie2: ""
+    hisat2: "--no-spliced-alignment"
+    # featureCounts strategies for multi-mapping reads:
+    # 1. Strict (Default subread): Ignore multi-mapping reads entirely. "-p -t CDS,tRNA,rRNA -g locus_tag"
+    # 2. Primary (Recommended): Count only primary alignment. "-p -t CDS,tRNA,rRNA -g locus_tag -M --primary"
+    # 3. Fraction: Assign fractional counts. "-p -t CDS,tRNA,rRNA -g locus_tag -M --fraction"
+    featureCounts: "-p -t CDS,tRNA,rRNA -g locus_tag -M --primary"
+  
+  # Threads Configuration
+  threads:
+    fastp: 16
+    sortmerna: 64
+    coverm: 32
+    mapping: 32
+  
+  # Conda Environments (Existing names in the system)
+  conda_envs:
+    fastp: "bio"
+    sortmerna: "sortmerna_4.3.7"
+    coverm: "coverm_0.7.0"
+    mapping: "bio"
+    subread: "bio" # For featureCounts
+    python: "biopython_1.85"  # For TPM script

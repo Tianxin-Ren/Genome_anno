@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "policy_sha256": "b3d7d1e14283ab1347487459fa0686842cb8b77fa0274ff3db996bef6de96301",
+  "source_plan_sha256": "15d8ded407ed6da8e6d979f7154e67f7fd6392a2e91102ef31d83a0d28f175b5",
+  "download_manifest_sha256": "72538c2ac3075cef718632f34955e43960f36a619c613fb8f70cd525fd9d5613",
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_coverage": 0.8,
+    "min_window_identity": 25.0,
+    "competitive_bitscore_ratio": 0.9,
+    "site_context_flank": 15
+  },
+  "template_proteins": 7,
+  "positions": 99,
+  "exact_active_reference_variants": [
+    {
+      "reference_id": "FeFe_SwHyd1ABC__Hyd1A",
+      "sequence_sha256": "483a848764a2c512e3e39e5fb95935be6e9cb960465095267c5103e467b792a7",
+      "source_fasta": "references/processed/references.faa",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+      "accession": "WP_011640436.1",
+      "review": "Purified active Hyd1ABC mapped to Swol_1017 (SWOL_RS05165). Exact protein sequence only: CpI C300 maps to Ser299, other three H-cluster Cys remain. Does not establish that Ser ligates the cluster; no general Cys->Ser acceptance rule.",
+      "template_id": "1FEH__entity_1",
+      "changed_reference_position": 300,
+      "query_position": 299,
+      "query_residue": "S"
+    }
+  ],
+  "files": {
+    "templates.faa": "3a07fa2aec2e527e6165271e2d1dce61c18c9aaef30589799882b563caa13cbe",
+    "models.json": "60f2f3b8d2322315e65a9f675a8210405f6f9c742220aba8e73dcb8623b973fc",
+    "structural_truth.json": "dcdad38285417081fbc174741da50ae039e26a37c9786939e28ab98738b58fae",
+    "seed.pdb": "7cb93de4838f95a437c87bf66003dc9c04865447b735b636d535c495a5e41370",
+    "seed.phr": "cdf45afd56ce42325d33021c1fcb56be33551ab0942c654fac5a9de3f27e371b",
+    "seed.pin": "bdfbf20d1ad7fba11d20bec43af086accd599b4a1ff831e63621c513ada5a086",
+    "seed.pjs": "0d5dfa363e7d00efb920618035f752a614d4e3c534998e019c28ef42a66efd20",
+    "seed.pot": "5f1313bc04a045da11f2832fbe68bb6c0d00fd8ce747c608072f407c385ce7de",
+    "seed.psq": "f0c7e417470bfcb84495d66398b6895f885c114b9c446aa2254f3eeef1faac17",
+    "seed.ptf": "a4846cf83c6cd188b3fc3f9fa4f1f1d3c33692a85065b54dc1e42095af3e7552",
+    "seed.pto": "6b3b6bc014a692f226080502e0ded60d67c84ebc03cc8cf43a550a89694ff5c0"
+  },
+  "scope": "Four protein ligands to NiFe; four protein ligands of FeFe H-cluster cubane including the bridge to 2Fe; single protein ligand to Hmd FeGP. Organic/non-protein ligands and query occupancy are not inferred. Sequence windows are reviewed active-center spans, not universal H-domain boundary predictions. Neighbor substitutions are reported individually, not blanket evidence of inactivity; Hmd His14 signature is canonical-mechanism evidence only. Cys/Sec variants in NiFe are accepted as sequence-compatible, including computational N-terminal Sec candidates, without claiming experimental validation. Required ligand/reaction-signature positions each require +/-15 reference residues (clipped to reviewed model boundaries) with >=0.8 observed coverage and >=25% identity. These are provisional alignment-quality settings, not biochemical functional boundaries. Full template span coverage is still reported; catalytic-domain integrity is not established by this site mapper."
+}

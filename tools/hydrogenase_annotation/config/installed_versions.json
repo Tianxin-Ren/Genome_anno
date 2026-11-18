@@ -1,0 +1,53 @@
+{
+  "platform": "macOS-15.3.2-arm64-arm-64bit-Mach-O",
+  "packages": [
+    {
+      "name": "biopython",
+      "version": "1.85",
+      "build": "py313hcdf3177_2",
+      "channel": "https://conda.anaconda.org/conda-forge/osx-arm64"
+    },
+    {
+      "name": "blast",
+      "version": "2.17.0",
+      "build": "h81fc81c_1",
+      "channel": "https://conda.anaconda.org/bioconda/osx-arm64"
+    },
+    {
+      "name": "hmmer",
+      "version": "3.4",
+      "build": "h455b5b4_5",
+      "channel": "https://conda.anaconda.org/bioconda/osx-arm64"
+    },
+    {
+      "name": "iqtree",
+      "version": "3.1.3",
+      "build": "h6cc7423_0",
+      "channel": "https://conda.anaconda.org/bioconda/osx-arm64"
+    },
+    {
+      "name": "mafft",
+      "version": "7.526",
+      "build": "h99b78c6_0",
+      "channel": "https://conda.anaconda.org/conda-forge/osx-arm64"
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "build": "py313hcf6c098_4",
+      "channel": "https://conda.anaconda.org/conda-forge/osx-arm64"
+    },
+    {
+      "name": "prodigal",
+      "version": "2.6.3",
+      "build": "hba9b596_11",
+      "channel": "https://conda.anaconda.org/bioconda/osx-arm64"
+    },
+    {
+      "name": "python",
+      "version": "3.13.17",
+      "build": "hb59dee6_100_cp313",
+      "channel": "https://conda.anaconda.org/conda-forge/osx-arm64"
+    }
+  ]
+}

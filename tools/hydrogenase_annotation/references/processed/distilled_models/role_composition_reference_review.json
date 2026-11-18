@@ -1,0 +1,97 @@
+{
+  "version": "NiFe-pyridine-main-relay-unit-review-v2",
+  "scope": "Coarse role-composed H2/pyridine coupling potential; not complete Amobile orthology, actual occupancy, Fd requirement, bifurcation, direction or activity.",
+  "reference_id": "NiFe_Amobile_HydABCSL__HydA_ET_not_H_cluster",
+  "reference_sequence_sha256": "54bed8bb130f7124ffb6f609058205dd29f88377d29576e1b95917cb12e6ba9d",
+  "sources": {
+    "experiments/round106_hadar12/relay_source_scope_sources/7T2R.cif": "a4d38d1a4145341979a4235cf4622542fd89e7b1ef2c4a97981a0ad9e2c8e227",
+    "references/raw/round21_function_sources/PMC8880783.xml": "b5f6b1d3a9a7193180957ebe0e56cbf7bf68072ccfda8ce385e28675ace76881",
+    "experiments/round106_hadar12/relay_source_scope_sources/PMC2533800.xml": "0e7610a0fe9ffa760f443f1b3f658a42a25f03acb04b2a2e574aa96dbb675f58"
+  },
+  "structure_correspondence": "7T2R entity1/chains A,F is exactly native HydA 692aa; main path B1-FES701-SF4702-SF4705-S1; side branch 702-703-704.",
+  "clusters": {
+    "A1": {
+      "structure": "A/FES701",
+      "ligands": [
+        36,
+        47,
+        50,
+        64
+      ]
+    },
+    "A2": {
+      "structure": "A/SF4702",
+      "ligands": [
+        148,
+        151,
+        154,
+        202
+      ]
+    },
+    "A3": {
+      "structure": "A/SF4705",
+      "source_ligands": [
+        "H98",
+        "C100",
+        "C103",
+        "C109"
+      ],
+      "alternative_pattern_evidence": "PMID18603533, DOI10.1074/jbc.M804015200: experimental His(Cys)3 motif HXXXCXXCXXXXXC. HoxU uses an alternate HX C spacing. Same ligand class, not exact cofactor potential or complex identity."
+    }
+  },
+  "units": {
+    "fusion": {
+      "start": 139,
+      "end": 208,
+      "profiles": [
+        "PF12838",
+        "PF22117"
+      ],
+      "ligands": [
+        148,
+        151,
+        154,
+        202
+      ]
+    },
+    "proximal": {
+      "start": 2,
+      "end": 124,
+      "profiles": [
+        "PF13510",
+        "PF10588"
+      ],
+      "ligands": [
+        36,
+        47,
+        50,
+        64
+      ],
+      "ligands_a3": [
+        100,
+        103,
+        109
+      ]
+    }
+  },
+  "A3_motifs": [
+    "H.C..C.....C",
+    "H...C..C.....C"
+  ],
+  "not_required": "A4/A5 side-branch ligand sets and the full 692aa source scaffold are not universal requirements for coarse functional role composition.",
+  "S1": {
+    "reference_id": "NiFe_Amobile_HydABCSL__HydS",
+    "reference_sequence_sha256": "7dca0a19ccf3a8a0ed8fc82a2de829962efd51d7921a4b107bc7e79d5003eaef",
+    "start": 1,
+    "end": 179,
+    "ligands": [
+      14,
+      17,
+      85,
+      149
+    ],
+    "source": "7T2R entity5 chainE SF4 201: four Cys donor coordinates; exact native AFM22270.1/Anamo_1676 sequence binding; role from native-operon/MS correspondence in PMC8880783",
+    "deposited_display_name": "Coenzyme F420-reducing hydrogenase, gamma subunit",
+    "display_name_scope": "Preserved annotation text is not electron-acceptor evidence. Role assignment here follows exact native CDS/chain sequence and experimental five-subunit correspondence, not the deposited display name."
+  }
+}

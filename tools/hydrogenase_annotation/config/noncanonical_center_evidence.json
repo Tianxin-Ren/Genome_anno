@@ -1,0 +1,83 @@
+{
+  "version": "round29-literature-evidence-with-separate-provisional-composition-consumer",
+  "model_id": "Aw_H_cubane_3C1Ser_literature",
+  "primary_source": "https://doi.org/10.1021/jacs.2c11683",
+  "source_files": {
+    "references/raw/structures/7Q4V.cif": "fcd3abb2df527478f99eaff03665fd22b24f02cd63f6a74e2621c09f6649f754",
+    "references/raw/round28_Sacid_mapping/7Q4W.cif": "280a40c9441359b3a733d773d86ec0612853e0b2a463a13411a95a4794dfabd1",
+    "references/raw/round28_Sacid_mapping/8A5E.cif": "770b790f9ac9d7b8582ce6adf1ffc00b6fc382774fd73f30dbf1fb3d7d82c919",
+    "references/raw/round25_module_architecture/PMC10021017.xml": "f5ecda2198d8aa7a337569177d7f96d46fe95418a81930971c939cc03168562a",
+    "references/raw/round26_function_mechanism/PMC7311640.xml": "2b5e8acfac46a535e9bc329d93979b2eb8cb3de5622566502816638be06a1781",
+    "references/raw/round28_Sacid_mapping/Frontiers_1109.html": "1eeceb54c8919c8a5c83114b340f0d2d94d2a7f4033f1e360724e7546d6f0c49",
+    "references/raw/round28_Sacid_mapping/literature_model.faa": "471f8384cd5d184b6ed3b9eefeb01147ff5d7236ce7cdd2ffae6ec442be44105",
+    "references/raw/round28_Sacid_mapping/exposed_alpha_sequences.faa": "fb86c8d2dd70ffd41a3c73ed8c44e0c2a6edf0907030461f7e1509e5da7cbd41",
+    "references/raw/round28_Sacid_mapping/exposed_alpha_mafft.faa": "65017485f8dc5ae96d4be4c14248490ed96b7e851200eb9ee7897b73189b4a7d"
+  },
+  "reference_fasta": "references/raw/round28_Sacid_mapping/literature_model.faa",
+  "reference_sequence_sha256": "7c9c496f4a2b5c17e9435198022e2b6a209b6c75a72b882706b9dc5e45dd8359",
+  "structure_sources": [
+    {
+      "pdb_id": "7Q4V",
+      "file": "references/raw/structures/7Q4V.cif",
+      "entity_id": "1",
+      "canonical_chain": "A",
+      "cluster_chain": "K",
+      "cluster_author_position": "605"
+    },
+    {
+      "pdb_id": "7Q4W",
+      "file": "references/raw/round28_Sacid_mapping/7Q4W.cif",
+      "entity_id": "1",
+      "canonical_chain": "A",
+      "cluster_chain": "G",
+      "cluster_author_position": "601"
+    },
+    {
+      "pdb_id": "8A5E",
+      "file": "references/raw/round28_Sacid_mapping/8A5E.cif",
+      "entity_id": "1",
+      "canonical_chain": "A",
+      "cluster_chain": "I",
+      "cluster_author_position": "605"
+    }
+  ],
+  "donor_atoms": {
+    "301": "OG",
+    "356": "SG",
+    "502": "SG",
+    "506": "SG"
+  },
+  "expected_ligands": {
+    "301": "S",
+    "356": "C",
+    "502": "C",
+    "506": "C"
+  },
+  "window_start": 221,
+  "window_end": 583,
+  "parameters_source": "config/active_center_review.json",
+  "parameters_source_sha256": "b3d7d1e14283ab1347487459fa0686842cb8b77fa0274ff3db996bef6de96301",
+  "geometry_script": "scripts/extract_structure_sites.py",
+  "geometry_script_sha256": "627f422352a7dd2b4b4feb27ad52a79f88f35a652169d8ea0cf9a065bd5825f3",
+  "scope": "Additional literature-supported noncanonical ligand hypothesis only. Not a discovery/identity, canonical active-center or confirmed FeS model. A separate reviewed L4 policy may use the literal pattern as one necessary condition for provisional fusion composition; the auxiliary stage itself never changes decisions. No high identity, metal occupancy, activity, structural assembly or reaction transfer. Geometry uses existing S/Se<=2.8A,N/O<=2.6A without cutoff changes or protomer selection.",
+  "primary_review": "The original paper explicitly describes Aw Ser301 replacing Tk Cys299 at H-cluster A1 and reports active complexes/IR features. Three deposited Aw models are the same biological source, not independent replicates. Their full canonical-chain donor sets do not pass the fixed first-shell screen. Native S.aciditrophicus Ser308 is aligned to this Ser301 but no query atomic ligation is measured.",
+  "preregistered_targets": {
+    "Sacid_literature_pattern": "SCCC",
+    "Sacid_positions": [
+      308,
+      363,
+      508,
+      512
+    ],
+    "all_three_sources_geometry_qualified": false,
+    "no_catalytic_identity_or_structure_or_function_changes": true,
+    "missing_or_ambiguous_ligand_not_supported": true,
+    "global_coordinate_thresholds_unchanged": true
+  },
+  "unmeasured": [
+    "query_activity",
+    "query_cofactor_occupancy",
+    "query_physiology",
+    "query_net_direction"
+  ]
+}

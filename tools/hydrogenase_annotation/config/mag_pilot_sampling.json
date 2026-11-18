@@ -1,0 +1,22 @@
+{
+  "version": "round30-metadata-only-before-original-MAG-prediction",
+  "sample_size": 1000,
+  "seed": "hydrogenase-original-MAG-pilot-round30-v1",
+  "population_file": "../gses_resolved_genome_summary.tsv",
+  "population_rows": 83158,
+  "completeness_boundaries_percent": [50, 90],
+  "n50_boundaries_bp": [10000, 50000],
+  "coverage_dimensions": ["domain", "phylum", "completeness_band", "n50_band", "potential_group", "old_subtypes", "joint_stratum"],
+  "method": "First reserve the lowest SHA256(seed:bin) record for every observed dimension level and joint stratum. Fill remaining slots by maximizing sqrt(population stratum size)/(selected stratum size+0.5), choosing the next hash-ranked unselected bin in that stratum. Break ties by sorted stratum key.",
+  "rules": [
+    "Use only original metadata and old hydrogenase labels, never new predictions, for selection.",
+    "Derive domain and phylum from ranked GTDB classification; the unranked lineage column mixes ranks and must not define domain strata.",
+    "Completeness and N50 are metadata strata, not independently verified assembly quality or full contig-length distributions.",
+    "Old target_total_count includes other metabolic markers; only explicitly bracketed hydrogenase labels define potential-type strata.",
+    "Keep original source quality category and contamination as separate metadata. Completeness bands are not MIMAG quality designations.",
+    "The resolved_file column refers to historical annotation TSVs, not FNA or FAA+GFF. Do not infer nonexistent sequence paths.",
+    "This diversity-enriched pilot is not a self-weighting random sample; unweighted pilot frequencies must not estimate population prevalence.",
+    "Freeze selected bins and source hashes before their new predictions. Missing sequence inputs do not trigger substitution with easier samples.",
+    "A sample manifest does not satisfy M4_MAG_PILOT; actual sequence/ownership checks, annotation, old/new review and resource records are required."
+  ]
+}

@@ -1,0 +1,42 @@
+# Specialized Phylogeny Configuration (config_phy)
+# ------------------------------------------------------------------------------
+# In this phylogeny workflow, all task names, HMM profiles, and genome inputs are 
+# configured dynamically under phylogeny_tasks inside samples.yaml.
+# This file is reserved for global module runtime parameters.
+phylogeny:
+  enable: True
+  results_dir: "results/phylogeny"
+
+  # --- IQ-TREE 3.1.2 Performance Tuning ---
+  iqtree_executable: "iqtree3"   # Executable name: "iqtree3" (compatible with your 3.1.2 conda environment)
+  
+  # For 1000+ genomes, we use Ultrafast Bootstrap 3.x flag "-B 1000" (capital B)
+  iqtree_bootstrap: "-B 1000"   # "-B 1000" (Ultrafast 3.x) or "-b 1000" (Standard non-parametric)
+  
+  iqtree_alrt: "-alrt 1000"     # SH-aLRT likelihood ratio test
+  iqtree_model: "MFP"           # ModelFinder Plus selection
+  
+  # Extra arguments (e.g. "--sampling GENESITE" to resample partitions and sites, reducing false positives)
+  iqtree_extra: "--sampling GENESITE --redo-tree"
+
+  # --- Conda Environment Names/Paths ---
+  conda_envs:
+    gtotree: "gtotree_1.8.12"
+    iqtree: "iqtree_3.1.2"
+    subtyping: "subtype"
+
+
+  # --- GTDB-Tk Global Run Parameters ---
+  gtdbtk:
+    enable: False
+    batch_size: 500
+    db: "/dssg/home/acct-schhui/gses0/Database/gtdb/gtdbtk/232/release232"
+    threads: 64
+
+  # --- Phylogenetic Placement Protein Subtyping ---
+  subtyping:
+    enable: False                 # Toggle to enable subtyping tasks
+    threads: 64                     # CPU threads for alignment and tree building
+    tree_method: "fasttree"           # Options: iqtree (precise) or fasttree (fast)
+
+

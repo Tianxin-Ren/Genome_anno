@@ -1,0 +1,2203 @@
+{
+  "version": "round15-cross-anchor-association-hypotheses",
+  "systems_sha256": "25347ffcf6aa1b40a6cd34eeafdd758d1a7c0898d6f946882204598f07d0570f",
+  "max_assignment_states": 10000,
+  "max_node_options": 16,
+  "min_fragment_residues": 15,
+  "split_policy": "Nonoverlapping collinear reference segments on separate same-strand local CDS; cannot infer natural fission versus assembly/gene-calling fragmentation. No function transfer from fragmented nodes.",
+  "fusion_policy": "Different nodes may occupy the same protein only on disjoint aligned query-residue resources; no automatic interaction or cofactor occupancy.",
+  "localization_status": "not_predicted; gene colocalization is not subcellular localization",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3189943/",
+    "https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cd03083",
+    "https://www.nature.com/articles/s41586-023-05781-7"
+  ],
+  "hoxf_segment_note": "Original 602-aa reference retained. Boundary160 partitions N-terminal PF01257 (6-149) and C-terminal PF01512/PF10589 (213-568); approximate sequence organization, not a precise experimental domain boundary or a FeS occupancy assignment.",
+  "systems": [
+    {
+      "structure_id": "NiFe_Ecoli_Hyd1",
+      "nodes": [
+        {
+          "node_id": "HyaA",
+          "role": "HyaA",
+          "reference_id": "NiFe_Ecoli_Hyd1__HyaA",
+          "reference_sequence_sha256": "eaa30f44b29f180b59d9ec5c8b698c1dc84c3d10dafcbaf9598b502f79153198",
+          "reference_start": 1,
+          "reference_end": 372,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni05"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HyaB",
+          "role": "HyaB",
+          "reference_id": "NiFe_Ecoli_Hyd1__HyaB",
+          "reference_sequence_sha256": "e654bce355d9a2145c7ec7dc3725faf9ac44a443cbdd28a83f6f3ab7612da4d2",
+          "reference_start": 1,
+          "reference_end": 597,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni05"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HyaC",
+          "role": "HyaC",
+          "reference_id": "NiFe_Ecoli_Hyd1__HyaC",
+          "reference_sequence_sha256": "aceebb2b3de7eea5b9f79759b31982dead3e0921d6a59a1ce42ffaf1366eb59f",
+          "reference_start": 1,
+          "reference_end": 235,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni05"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_Ecoli_Hyd2",
+      "nodes": [
+        {
+          "node_id": "HybO",
+          "role": "HybO",
+          "reference_id": "NiFe_Ecoli_Hyd2__HybO",
+          "reference_sequence_sha256": "d33944a2933b9c117a31f95a0a1484f06fde4ab54e71a725c460b4c3d42e7195",
+          "reference_start": 1,
+          "reference_end": 372,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni03",
+            "Ni04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HybA",
+          "role": "HybA",
+          "reference_id": "NiFe_Ecoli_Hyd2__HybA",
+          "reference_sequence_sha256": "c79e962d875aa158626d8f6ec049561f17fb2ad57937223c8d721fe07f2ed55d",
+          "reference_start": 1,
+          "reference_end": 328,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni03",
+            "Ni04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HybB",
+          "role": "HybB",
+          "reference_id": "NiFe_Ecoli_Hyd2__HybB",
+          "reference_sequence_sha256": "8bb94593c0ee5576402d16a3cd26d82864727bd4da19b4cb42814aa7be001653",
+          "reference_start": 1,
+          "reference_end": 392,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni03",
+            "Ni04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+          "source_scope": "NrfD-like membrane subunit. A probable cytochrome description in a source is not experimental heme evidence; do not infer heme or occupancy."
+        },
+        {
+          "node_id": "HybC",
+          "role": "HybC",
+          "reference_id": "NiFe_Ecoli_Hyd2__HybC",
+          "reference_sequence_sha256": "8df83bddd504561938a5de86aaff24215118a1d83807310d22c45377d5929d0b",
+          "reference_start": 1,
+          "reference_end": 567,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni03",
+            "Ni04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_FHL1_Hyc",
+      "nodes": [
+        {
+          "node_id": "HycB",
+          "role": "HycB",
+          "reference_id": "NiFe_FHL1_Hyc__HycB",
+          "reference_sequence_sha256": "908b6f6a0b188281b2a1bc543c5211f7627a0d5cff65b89928b5b53864e29b3e",
+          "reference_start": 1,
+          "reference_end": 203,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HycC",
+          "role": "HycC",
+          "reference_id": "NiFe_FHL1_Hyc__HycC",
+          "reference_sequence_sha256": "45cce297a4fa947368953288bff3743af5a51a870fae788e0c90bcb7efcffa23",
+          "reference_start": 1,
+          "reference_end": 608,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        },
+        {
+          "node_id": "HycD",
+          "role": "HycD",
+          "reference_id": "NiFe_FHL1_Hyc__HycD",
+          "reference_sequence_sha256": "2bccdbdc0930166f0fb734ef6c00801e3686fda8caa3901f69bf2bc676dcc07e",
+          "reference_start": 1,
+          "reference_end": 307,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "HycE",
+          "role": "HycE",
+          "reference_id": "NiFe_FHL1_Hyc__HycE",
+          "reference_sequence_sha256": "b750e1345fc5cde27641aca3bc4841844cac90641aea9b1c60c4130fb10bb209",
+          "reference_start": 1,
+          "reference_end": 569,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HycF",
+          "role": "HycF",
+          "reference_id": "NiFe_FHL1_Hyc__HycF",
+          "reference_sequence_sha256": "d42489a945e93307fdf8a9de641ea84d9c8377e6be94ede824241fc3b5618abe",
+          "reference_start": 1,
+          "reference_end": 180,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HycG",
+          "role": "HycG",
+          "reference_id": "NiFe_FHL1_Hyc__HycG",
+          "reference_sequence_sha256": "6f78447316bfe55ea4c26dcfc6f70e718df3660e141c72d0d5384730091d6484",
+          "reference_start": 1,
+          "reference_end": 255,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "FdhF",
+          "role": "FdhF",
+          "reference_id": "NiFe_FHL1_Hyc__FdhF",
+          "reference_sequence_sha256": "3090cc03d7d9a4015e6607c7008d258d99b15b4dfec5db660eadfea94b8fe9fa",
+          "reference_start": 1,
+          "reference_end": 715,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni15"
+          ],
+          "linkage": "remote",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+          "source_scope": "Shared molybdo/tungstoenzyme architecture; metal identity and substrate specificity need the reference context, not just domain matching."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_HucLMS",
+      "nodes": [
+        {
+          "node_id": "HucL",
+          "role": "HucL",
+          "reference_id": "NiFe_HucLMS__HucL",
+          "reference_sequence_sha256": "41d47313edfc4d71e98e50a6ffca876cd733f58a61511246d3ad6ee06df30e7a",
+          "reference_start": 1,
+          "reference_end": 535,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni09"
+          ],
+          "linkage": "local",
+          "source": "https://www.nature.com/articles/s41586-023-05781-7",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HucS",
+          "role": "HucS",
+          "reference_id": "NiFe_HucLMS__HucS",
+          "reference_sequence_sha256": "51ce141a17a097bbc8b9e4faf212aa226c78449a9e6b5ccac8ce35aecc26afa0",
+          "reference_start": 1,
+          "reference_end": 323,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni09"
+          ],
+          "linkage": "local",
+          "source": "https://www.nature.com/articles/s41586-023-05781-7",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HucM",
+          "role": "HucM",
+          "reference_id": "NiFe_HucLMS__HucM",
+          "reference_sequence_sha256": "7cfd807612044006b1ca0b51f9a8fe2b6a92f1f61a66561019f8ae0d8b2950b0",
+          "reference_start": 1,
+          "reference_end": 189,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "assembly_accessory",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni09"
+          ],
+          "linkage": "local",
+          "source": "https://www.nature.com/articles/s41586-023-05781-7",
+          "source_scope": "Helical membrane plugin; deposited HucM is only20-79 of189 residues. Primary co-purification/mass-spectrometry and gene-deletion evidence supports oligomer assembly, not catalytic necessity or a full resolved domain."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_FrhABG",
+      "nodes": [
+        {
+          "node_id": "FrhA",
+          "role": "FrhA",
+          "reference_id": "NiFe_FrhABG__FrhA",
+          "reference_sequence_sha256": "6606903828006b9d27a94784c777429edc82a12e0ca657092810e8778f398775",
+          "reference_start": 1,
+          "reference_end": 405,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni11"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "FrhB",
+          "role": "FrhB",
+          "reference_id": "NiFe_FrhABG__FrhB",
+          "reference_sequence_sha256": "d498f97f496c1ba147c7906d76b966bd95697396a62d6e8dadfba2fdfd136bdc",
+          "reference_start": 1,
+          "reference_end": 281,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni11"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "FrhG",
+          "role": "FrhG",
+          "reference_id": "NiFe_FrhABG__FrhG",
+          "reference_sequence_sha256": "5dd2c22f0643f3139487019f41fab770b4c6e6bde3e48df13e338a84b2308e2a",
+          "reference_start": 1,
+          "reference_end": 275,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni11"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_MvhHdr",
+      "nodes": [
+        {
+          "node_id": "MvhA",
+          "role": "MvhA",
+          "reference_id": "NiFe_MvhHdr__MvhA",
+          "reference_sequence_sha256": "bac7cef5121f179037b2f796294e1bb65dba868b028d3b054cec97011445593a",
+          "reference_start": 1,
+          "reference_end": 472,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni13"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1073/pnas.1016761108",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "MvhG",
+          "role": "MvhG",
+          "reference_id": "NiFe_MvhHdr__MvhG",
+          "reference_sequence_sha256": "4013a4da3f7ff0d44da27924f2ed37fdc5e6cc7fcb967106c71b01404a2c8e0f",
+          "reference_start": 1,
+          "reference_end": 308,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni13"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1073/pnas.1016761108",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "MvhD",
+          "role": "MvhD",
+          "reference_id": "NiFe_MvhHdr__MvhD",
+          "reference_sequence_sha256": "9aa41d8f85af7372b5b2ef5285e49ed8b75816556230c07ae0425cbea0521c57",
+          "reference_start": 1,
+          "reference_end": 141,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni13"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1073/pnas.1016761108",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "HdrA",
+          "role": "HdrA",
+          "reference_id": "NiFe_MvhHdr__HdrA",
+          "reference_sequence_sha256": "d4ee26c5505b473ae4c3b8f8fa36b080433e32bc229fa24b359982a667ce0e07",
+          "reference_start": 1,
+          "reference_end": 659,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni13"
+          ],
+          "linkage": "remote",
+          "source": "https://doi.org/10.1073/pnas.1016761108",
+          "source_scope": "HdrA flavin/FeS architecture plus exact reviewed protein correspondence; short profile evidence is not a complete-domain claim."
+        },
+        {
+          "node_id": "HdrB",
+          "role": "HdrB",
+          "reference_id": "NiFe_MvhHdr__HdrB",
+          "reference_sequence_sha256": "194a9e5d98a0052de9f1e6500d450b58658f2bf58c9b07c080c99a2a89d039ec",
+          "reference_start": 1,
+          "reference_end": 302,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni13"
+          ],
+          "linkage": "remote",
+          "source": "https://doi.org/10.1073/pnas.1016761108",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "HdrC",
+          "role": "HdrC",
+          "reference_id": "NiFe_MvhHdr__HdrC",
+          "reference_sequence_sha256": "a5ce4e88e06492715876b3efec2de2fcae1b69f99779f80886dfb3d3d74d30fc",
+          "reference_start": 1,
+          "reference_end": 185,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni13"
+          ],
+          "linkage": "remote",
+          "source": "https://doi.org/10.1073/pnas.1016761108",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_EchABCDEF",
+      "nodes": [
+        {
+          "node_id": "EchA",
+          "role": "EchA",
+          "reference_id": "NiFe_EchABCDEF__EchA",
+          "reference_sequence_sha256": "63ace536fe56659d401a40c5c7aadf9ef4b41d3ebb81b7e0ca539c949bfee356",
+          "reference_start": 1,
+          "reference_end": 639,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni19",
+            "Ni20"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        },
+        {
+          "node_id": "EchB",
+          "role": "EchB",
+          "reference_id": "NiFe_EchABCDEF__EchB",
+          "reference_sequence_sha256": "6dd612d17e3941f0af151148eba2ebf864a93ee1c28ec513eafcf4ac6548e4ce",
+          "reference_start": 1,
+          "reference_end": 287,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni19",
+            "Ni20"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "EchC",
+          "role": "EchC",
+          "reference_id": "NiFe_EchABCDEF__EchC",
+          "reference_sequence_sha256": "0d34ac4608f6657dfcd393af8ddcae1f2121f9bf54d20feca6dad6fc6eb1f821",
+          "reference_start": 1,
+          "reference_end": 156,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni19",
+            "Ni20"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "EchD",
+          "role": "EchD",
+          "reference_id": "NiFe_EchABCDEF__EchD",
+          "reference_sequence_sha256": "26ebaaa01de70eff1aa4bf0872a04ad2201aad8b02e932580d3bca2dd3a55f00",
+          "reference_start": 1,
+          "reference_end": 113,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni19",
+            "Ni20"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+          "source_scope": "NuoC-related fold only; an NuoC fusion in a catalytic protein cannot replace evidence for its catalytic core."
+        },
+        {
+          "node_id": "EchE",
+          "role": "EchE",
+          "reference_id": "NiFe_EchABCDEF__EchE",
+          "reference_sequence_sha256": "16ab022166381c55ef4ad753af7c71bf179511647027eae41325fc5b6ff93c85",
+          "reference_start": 1,
+          "reference_end": 358,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni19",
+            "Ni20"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "EchF",
+          "role": "EchF",
+          "reference_id": "NiFe_EchABCDEF__EchF",
+          "reference_sequence_sha256": "11be44c034bb2d21286a54da45bbff40233e2fda5c7f1cc62bdc91cc510a9739",
+          "reference_start": 1,
+          "reference_end": 122,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni19",
+            "Ni20"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_Pf_Mbh",
+      "nodes": [
+        {
+          "node_id": "MbhA",
+          "role": "MbhA",
+          "reference_id": "NiFe_Pf_Mbh__MbhA",
+          "reference_sequence_sha256": "cf55ff18cf79ee179700989be2bd610577dd56475d89df03e4dd6298ff04133f",
+          "reference_start": 1,
+          "reference_end": 167,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhB",
+          "role": "MbhB",
+          "reference_id": "NiFe_Pf_Mbh__MbhB",
+          "reference_sequence_sha256": "de41c7e487d6715b573e72f77a6aeabc07c81776e1d4fe35507f34ad7e7eb5d5",
+          "reference_start": 1,
+          "reference_end": 84,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhC",
+          "role": "MbhC",
+          "reference_id": "NiFe_Pf_Mbh__MbhC",
+          "reference_sequence_sha256": "03b76882d42873e24aef932a90c0796f31f64052de58cb7b23fd5cb6e8f43ca4",
+          "reference_start": 1,
+          "reference_end": 124,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhD",
+          "role": "MbhD",
+          "reference_id": "NiFe_Pf_Mbh__MbhD",
+          "reference_sequence_sha256": "d8cf2079338502c5e6c77b8622056f35dde797d3a88a0bae72b812cce94103c0",
+          "reference_start": 1,
+          "reference_end": 85,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhE",
+          "role": "MbhE",
+          "reference_id": "NiFe_Pf_Mbh__MbhE",
+          "reference_sequence_sha256": "d0c07aeb52b758784fefadfcb40bb12bdfede31ef5d242defa3919eb1713430c",
+          "reference_start": 1,
+          "reference_end": 99,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhF",
+          "role": "MbhF",
+          "reference_id": "NiFe_Pf_Mbh__MbhF",
+          "reference_sequence_sha256": "a30218c96ee2ef9278d86c7672c2679297f4ea7dbf622cbe15dfbd96f8f322f2",
+          "reference_start": 1,
+          "reference_end": 148,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhG",
+          "role": "MbhG",
+          "reference_id": "NiFe_Pf_Mbh__MbhG",
+          "reference_sequence_sha256": "14d183d65835d266dd6350e0f50de286f91187c482715b563bdfab4d89eafc5c",
+          "reference_start": 1,
+          "reference_end": 117,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhH",
+          "role": "MbhH",
+          "reference_id": "NiFe_Pf_Mbh__MbhH",
+          "reference_sequence_sha256": "917342cdad90b0432e61cb27580e7a2fdfe871610dbe22eb6154f398c319cf66",
+          "reference_start": 1,
+          "reference_end": 510,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        },
+        {
+          "node_id": "MbhI",
+          "role": "MbhI",
+          "reference_id": "NiFe_Pf_Mbh__MbhI",
+          "reference_sequence_sha256": "86933b8f1075f1bf6297ea69662f56b8bac71b9c2795c63aeaee3cf78019ed1c",
+          "reference_start": 1,
+          "reference_end": 115,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "No informative Pfam model in this collection. Exact experimentally resolved complex chain supports the reference role; no vacuous-domain acceptance."
+        },
+        {
+          "node_id": "MbhJ",
+          "role": "MbhJ",
+          "reference_id": "NiFe_Pf_Mbh__MbhJ",
+          "reference_sequence_sha256": "0d1070c0e2ab85dc8ed772b2ab2b78594cbe0dd370ad6d9035c6b6639b6f710c",
+          "reference_start": 1,
+          "reference_end": 167,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "MbhK",
+          "role": "MbhK",
+          "reference_id": "NiFe_Pf_Mbh__MbhK",
+          "reference_sequence_sha256": "7e19f38adde65c41dfe34181ea162e984f813d79484ee351a8157e7251aae58c",
+          "reference_start": 1,
+          "reference_end": 173,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "NuoC-related fold only; an NuoC fusion in a catalytic protein cannot replace evidence for its catalytic core."
+        },
+        {
+          "node_id": "MbhL",
+          "role": "MbhL",
+          "reference_id": "NiFe_Pf_Mbh__MbhL",
+          "reference_sequence_sha256": "e20581968018eaac9a5894042e94b105cabbd5b470d97a1a161647bd73e1f5c8",
+          "reference_start": 1,
+          "reference_end": 427,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "MbhM",
+          "role": "MbhM",
+          "reference_id": "NiFe_Pf_Mbh__MbhM",
+          "reference_sequence_sha256": "8ccf30f9d3165704527af70eb45073711113e7fd9d6ac5f62fedc293514d312c",
+          "reference_start": 1,
+          "reference_end": 321,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "MbhN",
+          "role": "MbhN",
+          "reference_id": "NiFe_Pf_Mbh__MbhN",
+          "reference_sequence_sha256": "3452e968c4a0f20d995667ff47be7725b65016d27a48f230c96ad8e1ebc27794",
+          "reference_start": 1,
+          "reference_end": 139,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni18"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        }
+      ]
+    },
+    {
+      "structure_id": "FeFe_TmHydABC",
+      "nodes": [
+        {
+          "node_id": "HydA",
+          "role": "HydA",
+          "reference_id": "FeFe_TmHydABC__HydA",
+          "reference_sequence_sha256": "1acdce4de5dd98b9d62a361b81d266df74814fe796ee47390703a4f5c2c3c287",
+          "reference_start": 1,
+          "reference_end": 645,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe03",
+            "Fe04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HydB",
+          "role": "HydB",
+          "reference_id": "FeFe_TmHydABC__HydB",
+          "reference_sequence_sha256": "916566e2c5a368d6301c90398d8d4c0549e52a5a5b64d74a05efc9a9491f30df",
+          "reference_start": 1,
+          "reference_end": 626,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe03",
+            "Fe04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+          "source_scope": "Flavin/nucleotide/FeS module; NADH versus NADPH and bifurcation cannot be resolved from these shared domains."
+        },
+        {
+          "node_id": "HydC",
+          "role": "HydC",
+          "reference_id": "FeFe_TmHydABC__HydC",
+          "reference_sequence_sha256": "99b03ecef38d3979087a44c04f21895aa17f536570d783f0e1b3ea192e4fd093",
+          "reference_start": 1,
+          "reference_end": 161,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe03",
+            "Fe04"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        }
+      ]
+    },
+    {
+      "structure_id": "FeFe_SwHyd1ABC",
+      "nodes": [
+        {
+          "node_id": "Hyd1A",
+          "role": "Hyd1A",
+          "reference_id": "FeFe_SwHyd1ABC__Hyd1A",
+          "reference_sequence_sha256": "483a848764a2c512e3e39e5fb95935be6e9cb960465095267c5103e467b792a7",
+          "reference_start": 1,
+          "reference_end": 574,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe05"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "Hyd1B",
+          "role": "Hyd1B",
+          "reference_id": "FeFe_SwHyd1ABC__Hyd1B",
+          "reference_sequence_sha256": "857035ff310b8d74868cdd0138ae224b49642cee6675ae32bb9bf05a097e1bd4",
+          "reference_start": 1,
+          "reference_end": 407,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe05"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+          "source_scope": "Flavin/nucleotide/FeS module; NADH versus NADPH and bifurcation cannot be resolved from these shared domains."
+        },
+        {
+          "node_id": "Hyd1C",
+          "role": "Hyd1C",
+          "reference_id": "FeFe_SwHyd1ABC__Hyd1C",
+          "reference_sequence_sha256": "a061f4fdf947e18c086fd3999bfa55ba85492cee4d313ca0f24c9d13183bbbf5",
+          "reference_start": 1,
+          "reference_end": 148,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe05"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        }
+      ]
+    },
+    {
+      "structure_id": "Fe_Hmd",
+      "nodes": [
+        {
+          "node_id": "Hmd",
+          "role": "Hmd",
+          "reference_id": "Fe_Hmd__Hmd",
+          "reference_sequence_sha256": "55cceebc1e643ab632c43b427ea8825f87a76174db194d2273d7e3f439b087c1",
+          "reference_start": 1,
+          "reference_end": 344,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "H01"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11081790/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_periplasmic_Hys",
+      "nodes": [
+        {
+          "node_id": "HysA",
+          "role": "HysA",
+          "reference_id": "NiFe_periplasmic_Hys__HysA",
+          "reference_sequence_sha256": "160aa4a04076455f09f8bb37d90bb3c5263f20c78f3c7622d973ae4f189b38e7",
+          "reference_start": 1,
+          "reference_end": 510,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni01"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11948878/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HysB",
+          "role": "HysB",
+          "reference_id": "NiFe_periplasmic_Hys__HysB",
+          "reference_sequence_sha256": "0f028aefc263b1cf5d9efe775cb2d3f24473124d65eae98c58eef8210d8f56e3",
+          "reference_start": 1,
+          "reference_end": 317,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni01"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11948878/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "CycA",
+          "role": "CycA",
+          "reference_id": "NiFe_periplasmic_Hys__CycA",
+          "reference_sequence_sha256": "bda2f826db19b937fa9040dbb57a46410266977cfc9623f1182c19bdb3a490a5",
+          "reference_start": 1,
+          "reference_end": 129,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "diffusible_electron_partner",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni01"
+          ],
+          "linkage": "remote",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/11948878/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_HynABC",
+      "nodes": [
+        {
+          "node_id": "HydA",
+          "role": "HydA",
+          "reference_id": "NiFe_HynABC__HydA",
+          "reference_sequence_sha256": "b27aa2369e88d1e19e669788ecf20ada019e9d8bc06bbd4ae7f2a8c5c145e69d",
+          "reference_start": 1,
+          "reference_end": 386,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni02"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1074/jbc.M310610200",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HydB",
+          "role": "HydB",
+          "reference_id": "NiFe_HynABC__HydB",
+          "reference_sequence_sha256": "9d28203b2b0da76043a6a8058ab55c9094d7b2b22a994cd006337d5d16c4f172",
+          "reference_start": 1,
+          "reference_end": 576,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni02"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1074/jbc.M310610200",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HydC",
+          "role": "HydC",
+          "reference_id": "NiFe_HynABC__HydC",
+          "reference_sequence_sha256": "fc8bb4395508bd92cde93246223ef93a6e66b60d305844770696e9da51226742",
+          "reference_start": 1,
+          "reference_end": 230,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni02"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1074/jbc.M310610200",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_Hhy1h",
+      "nodes": [
+        {
+          "node_id": "HhyL",
+          "role": "HhyL",
+          "reference_id": "NiFe_Hhy1h__HhyL",
+          "reference_sequence_sha256": "438905c91251c232e4432d1605a0b2401e6b02e4900f2828f52b8587f4da778f",
+          "reference_start": 1,
+          "reference_end": 598,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni06"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3964045/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HhyS",
+          "role": "HhyS",
+          "reference_id": "NiFe_Hhy1h__HhyS",
+          "reference_sequence_sha256": "8c13ddec44c625024b53655d2c98af7ff2d0ab5a281d9f28fec1ca6ff7923c1e",
+          "reference_start": 1,
+          "reference_end": 351,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni06"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3964045/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_VhoABC",
+      "nodes": [
+        {
+          "node_id": "VhtA",
+          "role": "VhtA",
+          "reference_id": "NiFe_VhoABC__VhtA",
+          "reference_sequence_sha256": "43365f33fcc95ef4a27cd80aaa9e82c0b27c90ebdba7c06ee5dc9fb040cc52c5",
+          "reference_start": 1,
+          "reference_end": 591,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030560/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "VhtG",
+          "role": "VhtG",
+          "reference_id": "NiFe_VhoABC__VhtG",
+          "reference_sequence_sha256": "a6ef33e9bbc9105a170496a72fd047d561cedf10fa3815002cfb7eada0858ec4",
+          "reference_start": 1,
+          "reference_end": 383,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030560/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "VhtC",
+          "role": "VhtC",
+          "reference_id": "NiFe_VhoABC__VhtC",
+          "reference_sequence_sha256": "dbad8f00a1acf00aa86236003dbb99fd8c308e7b152a646551f172acbf24006d",
+          "reference_start": 1,
+          "reference_end": 257,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030560/",
+          "source_scope": "No informative Pfam match. Curated cytochrome homologs and native vht operon support the inferred membrane-cytochrome component; VhtC does not co-purify in the referenced study. Not direct purified-subunit reaction proof."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_HupSL",
+      "nodes": [
+        {
+          "node_id": "HupS",
+          "role": "HupS",
+          "reference_id": "NiFe_HupSL__HupS",
+          "reference_sequence_sha256": "e8b263b49deabf63c63a5c11e499b6cf1bd832b9dafb3680a6888548f016b940",
+          "reference_start": 1,
+          "reference_end": 320,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni08"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HupL",
+          "role": "HupL",
+          "reference_id": "NiFe_HupSL__HupL",
+          "reference_sequence_sha256": "7866bcfb5c18462e68d6e3a401be1330e32450b086913d675f5189125aeb74f4",
+          "reference_start": 1,
+          "reference_end": 531,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni08"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "NifH",
+          "role": "NifH",
+          "reference_id": "NiFe_HupSL__NifH",
+          "reference_sequence_sha256": "9582396ff049de9b2968fd1cf59da767dc13d94c732a497573f11265be74e829",
+          "reference_start": 1,
+          "reference_end": 297,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "physiological_context",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni08"
+          ],
+          "linkage": "context",
+          "source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+          "source_scope": "Nitrogenase context, never an enzyme member or direct proof of hydrogenase physiology."
+        },
+        {
+          "node_id": "NifD",
+          "role": "NifD",
+          "reference_id": "NiFe_HupSL__NifD",
+          "reference_sequence_sha256": "57cdaffb41a9c72cc557991910304edf60dc161cf9058d6d0591b9a079cd9454",
+          "reference_start": 1,
+          "reference_end": 480,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "physiological_context",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni08"
+          ],
+          "linkage": "context",
+          "source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+          "source_scope": "Nitrogenase context, never an enzyme member or direct proof of hydrogenase physiology."
+        },
+        {
+          "node_id": "NifK",
+          "role": "NifK",
+          "reference_id": "NiFe_HupSL__NifK",
+          "reference_sequence_sha256": "0a3041b343356ad04916a02cd100eb119e761fb16e278f1ac6113d5c5067e962",
+          "reference_start": 1,
+          "reference_end": 511,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "physiological_context",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni08"
+          ],
+          "linkage": "context",
+          "source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+          "source_scope": "Nitrogenase context, never an enzyme member or direct proof of hydrogenase physiology."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_H2_sensor_2b",
+      "nodes": [
+        {
+          "node_id": "HupT",
+          "role": "HupT",
+          "reference_id": "NiFe_H2_sensor_2b__HupT",
+          "reference_sequence_sha256": "9b840a13088f43f54c09cc3dabf27a298c344a5466271afbe40896c22b5e0ef7",
+          "reference_start": 1,
+          "reference_end": 456,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "regulatory_partner",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni10"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/",
+          "source_scope": "Kinase architecture supported by the R.capsulatus H217 autophosphorylation study. HupT-named PF11939 assembly proteins are not this role."
+        },
+        {
+          "node_id": "HupU",
+          "role": "HupU",
+          "reference_id": "NiFe_H2_sensor_2b__HupU",
+          "reference_sequence_sha256": "e6cb18f499a8449e0ce22dcfc0f8e642741730bfd69644c332244fb14db20a20",
+          "reference_start": 1,
+          "reference_end": 332,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni10"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HupV",
+          "role": "HupV",
+          "reference_id": "NiFe_H2_sensor_2b__HupV",
+          "reference_sequence_sha256": "9bba98960c0637b58a1e537ac8513aca8a5dde938ef2c7a9d9529db4467106e4",
+          "reference_start": 1,
+          "reference_end": 476,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni10"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HupR",
+          "role": "HupR",
+          "reference_id": "NiFe_H2_sensor_2b__HupR",
+          "reference_sequence_sha256": "0284ee3c6d973cd75620c8a03fe532a8bf4123f7f7086d049ba78d4e04e6126e",
+          "reference_start": 1,
+          "reference_end": 492,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "regulatory_partner",
+          "required_for_structure": false,
+          "required_for_function": [
+            "Ni10"
+          ],
+          "linkage": "remote",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_HyhNADPH",
+      "nodes": [
+        {
+          "node_id": "SHI_beta",
+          "role": "SHI_beta",
+          "reference_id": "NiFe_HyhNADPH__SHI_beta",
+          "reference_sequence_sha256": "eaab13213411078ef08516217c1ae0958208959c440572bf9074ffc9032d01f3",
+          "reference_start": 1,
+          "reference_end": 367,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni12"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "SHI_gamma",
+          "role": "SHI_gamma",
+          "reference_id": "NiFe_HyhNADPH__SHI_gamma",
+          "reference_sequence_sha256": "14761aa05961f8d5e679f590530e904f75c4a9eb98a30c6e201fe2f2ef825fb6",
+          "reference_start": 1,
+          "reference_end": 292,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni12"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/",
+          "source_scope": "SHI gamma FAD/NAD-binding module, not HydG maturase; exact structure supports the reference. No automatic query cofactor occupancy inference."
+        },
+        {
+          "node_id": "SHI_delta",
+          "role": "SHI_delta",
+          "reference_id": "NiFe_HyhNADPH__SHI_delta",
+          "reference_sequence_sha256": "e43216efa5a2a6495b21520ae0d69aef2a6690383efa997e3059bb7549919929",
+          "reference_start": 1,
+          "reference_end": 261,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni12"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "SHI_alpha",
+          "role": "SHI_alpha",
+          "reference_id": "NiFe_HyhNADPH__SHI_alpha",
+          "reference_sequence_sha256": "8f131e568619ac36d1affb48d35f4404913b5af1305e08fe587b2f1cdc527e5d",
+          "reference_start": 1,
+          "reference_end": 428,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni12"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_HoxFUYH",
+      "nodes": [
+        {
+          "node_id": "HoxF_NuoE_like",
+          "role": "HoxF",
+          "reference_id": "NiFe_HoxFUYH__HoxF",
+          "reference_sequence_sha256": "e241713b37077e17b8793061c2fc8a0912a166a8cb166ea67e459944da37b041",
+          "reference_start": 1,
+          "reference_end": 160,
+          "segment_scope": "approximate_reference_segment_with_PF01257_support",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni14"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+          "source_scope": "Flavin/nucleotide/FeS module; NADH versus NADPH and bifurcation cannot be resolved from these shared domains."
+        },
+        {
+          "node_id": "HoxF_NuoF_like",
+          "role": "HoxF",
+          "reference_id": "NiFe_HoxFUYH__HoxF",
+          "reference_sequence_sha256": "e241713b37077e17b8793061c2fc8a0912a166a8cb166ea67e459944da37b041",
+          "reference_start": 161,
+          "reference_end": 602,
+          "segment_scope": "approximate_reference_segment_with_PF01512_and_PF10589_support",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni14"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+          "source_scope": "Flavin/nucleotide/FeS module; NADH versus NADPH and bifurcation cannot be resolved from these shared domains."
+        },
+        {
+          "node_id": "HoxU",
+          "role": "HoxU",
+          "reference_id": "NiFe_HoxFUYH__HoxU",
+          "reference_sequence_sha256": "7d88c967100ab7a50e5fa52d298d7c2697baa523321f0498e33a4ab19e03c9b3",
+          "reference_start": 1,
+          "reference_end": 234,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni14"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HoxY",
+          "role": "HoxY",
+          "reference_id": "NiFe_HoxFUYH__HoxY",
+          "reference_sequence_sha256": "8e033cb25d2e2e5021fabca99ef71f24010713ccea4e6b09a8d81a5c065ad632",
+          "reference_start": 1,
+          "reference_end": 209,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni14"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "HoxH",
+          "role": "HoxH",
+          "reference_id": "NiFe_HoxFUYH__HoxH",
+          "reference_sequence_sha256": "061e58852532f729c9eb1516ef88383e7cb5f85449b8743b757dbe98cd2d4a7e",
+          "reference_start": 1,
+          "reference_end": 488,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni14"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_Tonn_Fdh2Mfh2Mnh2",
+      "nodes": [
+        {
+          "node_id": "Fdh2_A",
+          "role": "Fdh2_A",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Fdh2_A",
+          "reference_sequence_sha256": "e9d46ebb2f00540422e0e167cb14936b29edd12021c08aa5aaa4de9856492f5f",
+          "reference_start": 1,
+          "reference_end": 711,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Shared molybdo/tungstoenzyme architecture; metal identity and substrate specificity need the reference context, not just domain matching."
+        },
+        {
+          "node_id": "Fdh2_B",
+          "role": "Fdh2_B",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Fdh2_B",
+          "reference_sequence_sha256": "ef7375f3ed714d8520e7f5ffc1515d9fc7c919f33078f0de04d91b4825dcddee",
+          "reference_start": 1,
+          "reference_end": 166,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "Mfh2_catalytic",
+          "role": "Mfh2_catalytic",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_catalytic",
+          "reference_sequence_sha256": "404f7109d0269501a6985730d81fe0f951913195ea6dbcdea08db19f2897d25f",
+          "reference_start": 1,
+          "reference_end": 584,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "Mfh2_TON1565",
+          "role": "Mfh2_TON1565",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1565",
+          "reference_sequence_sha256": "c5cb25f9c5792477fafafe8be28889cac93f8800d841959fbeca01148216e511",
+          "reference_start": 1,
+          "reference_end": 480,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        },
+        {
+          "node_id": "Mfh2_TON1566",
+          "role": "Mfh2_TON1566",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1566",
+          "reference_sequence_sha256": "1407fcb0a31b11d11c90ed251acbe85b3c8f00f5b67084db21750a7d20262e52",
+          "reference_start": 1,
+          "reference_end": 404,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        },
+        {
+          "node_id": "Mfh2_TON1567",
+          "role": "Mfh2_TON1567",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1567",
+          "reference_sequence_sha256": "a969efb5ac6ead32daa2b79a7eefe6415a766f127c0c75485044352ff6a1dd2a",
+          "reference_start": 1,
+          "reference_end": 690,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        },
+        {
+          "node_id": "Mfh2_TON1568",
+          "role": "Mfh2_TON1568",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1568",
+          "reference_sequence_sha256": "ea039a0622ca6c2d61971a5ed28e2a828b485cc855e02b70ad6d2e8580c4c43e",
+          "reference_start": 1,
+          "reference_end": 307,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mfh2_TON1570",
+          "role": "Mfh2_TON1570",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1570",
+          "reference_sequence_sha256": "16c6506b2f1dd37ef4941fe0645cd86b7414c16d977b360e711c4dc260193284",
+          "reference_start": 1,
+          "reference_end": 165,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "Mfh2_TON1571",
+          "role": "Mfh2_TON1571",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1571",
+          "reference_sequence_sha256": "75693d3aa80fec08be99e2dc6645634f30eb603e46446fce3d7cae25520ef02b",
+          "reference_start": 1,
+          "reference_end": 273,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "Mnh2_TON1574",
+          "role": "Mnh2_TON1574",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1574",
+          "reference_sequence_sha256": "adcb884a74a351b8d318a06bd6ca01d218ccb80b0eaa04b2a832a9f3890122a8",
+          "reference_start": 1,
+          "reference_end": 93,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mnh2_TON1575",
+          "role": "Mnh2_TON1575",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1575",
+          "reference_sequence_sha256": "5357d7b7a3da29b511c5f958f9f74f9ff16f86ae0272bdefebcceb03668d30cb",
+          "reference_start": 1,
+          "reference_end": 119,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mnh2_TON1576",
+          "role": "Mnh2_TON1576",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1576",
+          "reference_sequence_sha256": "3748e3f06056bf1eeee7cd883937da1499c55bf1b8d144b78f37cfbb0d97535a",
+          "reference_start": 1,
+          "reference_end": 84,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mnh2_TON1577",
+          "role": "Mnh2_TON1577",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1577",
+          "reference_sequence_sha256": "a4eb1e0136d938db81f743a1db0631dadc0455af00c42bff1d1619c4aab4e6c6",
+          "reference_start": 1,
+          "reference_end": 251,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mnh2_TON1578",
+          "role": "Mnh2_TON1578",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1578",
+          "reference_sequence_sha256": "37d853ab7d8a8636b3ba9ad19026ff1fd20bb924b23b06264f75668dec7f8049",
+          "reference_start": 1,
+          "reference_end": 134,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mnh2_TON1579",
+          "role": "Mnh2_TON1579",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1579",
+          "reference_sequence_sha256": "f5a81472104fa56ed8766576ea3e297a5b4e2c554c9512f2933d2b53a96b4c41",
+          "reference_start": 1,
+          "reference_end": 161,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "Mnh2_TON1580",
+          "role": "Mnh2_TON1580",
+          "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mnh2_TON1580",
+          "reference_sequence_sha256": "cdb4c89b966854b6b36c6e794050a54443c2db5503350f8c9741afa717d25296",
+          "reference_start": 1,
+          "reference_end": 522,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni16"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        }
+      ]
+    },
+    {
+      "structure_id": "NiFe_Coo_CODH",
+      "nodes": [
+        {
+          "node_id": "CooS",
+          "role": "CooS",
+          "reference_id": "NiFe_Coo_CODH__CooS",
+          "reference_sequence_sha256": "11a6693223d80c0383264651bb87b9c649146636b54c8e7da8be565bf86741c1",
+          "reference_start": 1,
+          "reference_end": 636,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "CooF",
+          "role": "CooF",
+          "reference_id": "NiFe_Coo_CODH__CooF",
+          "reference_sequence_sha256": "6a189593d45d487a915012ed0eefc70885ea4cc639aafbb59b971a6d9f16717b",
+          "reference_start": 1,
+          "reference_end": 187,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "CooH",
+          "role": "CooH",
+          "reference_id": "NiFe_Coo_CODH__CooH",
+          "reference_sequence_sha256": "437b47277e98d801114a391097d835a4f13fbf0cee70567801e026699e7413f3",
+          "reference_start": 1,
+          "reference_end": 360,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "CooU",
+          "role": "CooU",
+          "reference_id": "NiFe_Coo_CODH__CooU",
+          "reference_sequence_sha256": "df5a22b6b77ddfe8a44d8092e461400db0905e67f25e814a2f3cb2fb219295b8",
+          "reference_start": 1,
+          "reference_end": 180,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "NuoC-related fold only; an NuoC fusion in a catalytic protein cannot replace evidence for its catalytic core."
+        },
+        {
+          "node_id": "CooX",
+          "role": "CooX",
+          "reference_id": "NiFe_Coo_CODH__CooX",
+          "reference_sequence_sha256": "a51b78ea26bc6f1d86d5719f7f74a3cbf3e756016d025b451b09f663b46ada60",
+          "reference_start": 1,
+          "reference_end": 165,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "CooL",
+          "role": "CooL",
+          "reference_id": "NiFe_Coo_CODH__CooL",
+          "reference_sequence_sha256": "875611c9c755e57ab4ea792f0ea8cc3045500d0260761fd91ad5cd3fb389a597",
+          "reference_start": 1,
+          "reference_end": 143,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Shared electron-transfer small-subunit/NuoB fold; cluster count/type is independently evaluated, not inherited from domain name."
+        },
+        {
+          "node_id": "CooK",
+          "role": "CooK",
+          "reference_id": "NiFe_Coo_CODH__CooK",
+          "reference_sequence_sha256": "1749e13d5d384581f8327a5b6390cf55ede31df82849b744e7f4ae7da8617377",
+          "reference_start": 1,
+          "reference_end": 321,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "CooM",
+          "role": "CooM",
+          "reference_id": "NiFe_Coo_CODH__CooM",
+          "reference_sequence_sha256": "090491226d41dd915b6d8ef5ca85927b75533317c05555ed39717dfb19319442",
+          "reference_start": 1,
+          "reference_end": 1274,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "membrane_module",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Ni17"
+          ],
+          "linkage": "local",
+          "source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+          "source_scope": "Shared antiporter-like membrane fold; repeated domain intervals remain separate. Does not prove ion pumping, stoichiometry or a mechanism."
+        }
+      ]
+    },
+    {
+      "structure_id": "FeFe_CpI_monomer",
+      "nodes": [
+        {
+          "node_id": "CpI",
+          "role": "CpI",
+          "reference_id": "FeFe_CpI_monomer__CpI",
+          "reference_sequence_sha256": "256e5d85a0e3cf8376fd1dc8a91c8809f4eebe00217ef1b458d5f6c3f729cc8b",
+          "reference_start": 1,
+          "reference_end": 574,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe01"
+          ],
+          "linkage": "local",
+          "source": "https://www.rcsb.org/structure/1FEH",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "FeFe_CrHydA1",
+      "nodes": [
+        {
+          "node_id": "HydA1",
+          "role": "HydA1",
+          "reference_id": "FeFe_CrHydA1__HydA1",
+          "reference_sequence_sha256": "f148b959d7679453edb27dae74e46d927368d3a7399b38dce89a98aa7913a427",
+          "reference_start": 1,
+          "reference_end": 497,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe02"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2794776/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "FeFe_HDCR_Aw",
+      "nodes": [
+        {
+          "node_id": "FdhF2",
+          "role": "FdhF2",
+          "reference_id": "FeFe_HDCR_Aw__FdhF2",
+          "reference_sequence_sha256": "aae13e79106dcc95bae1ffa05be4ff8171aef8841c35306d155bad7c1061a90f",
+          "reference_start": 1,
+          "reference_end": 722,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe06"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/24337298/",
+          "source_scope": "Shared molybdo/tungstoenzyme architecture; metal identity and substrate specificity need the reference context, not just domain matching."
+        },
+        {
+          "node_id": "HycB2",
+          "role": "HycB2",
+          "reference_id": "FeFe_HDCR_Aw__HycB2",
+          "reference_sequence_sha256": "af6e81f93dfba9c168096deb6cb5af4e3b1cf9b10715b83c99749d9ca6088ad4",
+          "reference_start": 1,
+          "reference_end": 176,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe06"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/24337298/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HycB3",
+          "role": "HycB3",
+          "reference_id": "FeFe_HDCR_Aw__HycB3",
+          "reference_sequence_sha256": "5709fe2db62e7849df08ec98a6c5efd601e42dc1ee99b99e59d7526bbdd52ec3",
+          "reference_start": 1,
+          "reference_end": 186,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe06"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/24337298/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HydA2",
+          "role": "HydA2",
+          "reference_id": "FeFe_HDCR_Aw__HydA2",
+          "reference_sequence_sha256": "24e8fc35902ca6401b1635818875b8bed745f8555767fec88ada79e0187656b1",
+          "reference_start": 1,
+          "reference_end": 459,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe06"
+          ],
+          "linkage": "local",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/24337298/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        }
+      ]
+    },
+    {
+      "structure_id": "FeFe_HytABCDE",
+      "nodes": [
+        {
+          "node_id": "HytA",
+          "role": "HytA",
+          "reference_id": "FeFe_HytABCDE__HytA",
+          "reference_sequence_sha256": "f85e53c3912b89e209188f0a1a716f1e27efa8654c0c5298c8839949fef7d0c7",
+          "reference_start": 1,
+          "reference_end": 462,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "catalytic_core",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Accession-pinned reference identity plus shared catalytic-related fold. NiFe/complexI and Hmd/Hmd-like domains alone do not prove H2 catalysis; unresolved kind is never promoted."
+        },
+        {
+          "node_id": "HytB",
+          "role": "HytB",
+          "reference_id": "FeFe_HytABCDE__HytB",
+          "reference_sequence_sha256": "b1a5e45c06ca2f6ee5788aaef167a62f626b7200e0b5fac34c013bab43f384b2",
+          "reference_start": 1,
+          "reference_end": 599,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Flavin/nucleotide/FeS module; NADH versus NADPH and bifurcation cannot be resolved from these shared domains."
+        },
+        {
+          "node_id": "HytC",
+          "role": "HytC",
+          "reference_id": "FeFe_HytABCDE__HytC",
+          "reference_sequence_sha256": "c859f164e59da11f023a21b92b74119cbfcebab36a50b32d8fc3a34ecfb687bd",
+          "reference_start": 1,
+          "reference_end": 161,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "HytD",
+          "role": "HytD",
+          "reference_id": "FeFe_HytABCDE__HytD",
+          "reference_sequence_sha256": "b3d9fa9458bd80b48a2b6c150d444054bc7760136dc8982ae32116342ef1b1ea",
+          "reference_start": 1,
+          "reference_end": 251,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Family/fold evidence only; not query activity, donor specificity or cofactor occupancy"
+        },
+        {
+          "node_id": "HytE1",
+          "role": "HytE1",
+          "reference_id": "FeFe_HytABCDE__HytE1",
+          "reference_sequence_sha256": "947cbc2ea4aabafab978caad284052e4defcd0f4d9cba05396eec4eccbe036c8",
+          "reference_start": 1,
+          "reference_end": 184,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "HytE2",
+          "role": "HytE2",
+          "reference_id": "FeFe_HytABCDE__HytE2",
+          "reference_sequence_sha256": "9f8c1e3f2724a2403ab726b5ca2fd4957d227c604da46bb818c2f7c3660aedf8",
+          "reference_start": 1,
+          "reference_end": 188,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "electron_transfer_or_accessory",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "local",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Generic electron-transfer fold only; does not identify a unique physical partner, cluster occupancy or bifurcation mechanism."
+        },
+        {
+          "node_id": "FdhA",
+          "role": "FdhA",
+          "reference_id": "FeFe_HytABCDE__FdhA",
+          "reference_sequence_sha256": "d81c7542bb41cc527f55505a1606bb77ab5313f4cb15e92e0477e8d37b6920d4",
+          "reference_start": 1,
+          "reference_end": 709,
+          "segment_scope": "reference_protein_or_reviewed_domain",
+          "module_category": "substrate_coupling",
+          "required_for_structure": true,
+          "required_for_function": [
+            "Fe07"
+          ],
+          "linkage": "remote",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+          "source_scope": "Shared molybdo/tungstoenzyme architecture; metal identity and substrate specificity need the reference context, not just domain matching."
+        }
+      ]
+    }
+  ],
+  "ambiguity_policy": "Compare only changed non-context modules between feasible best-coverage assignments. Shared cores do not dilute partner differences. Physiological context coexists and is not a uniquely paired enzyme subunit.",
+  "node_identity_definition": "Identical observed residue pairs / observed aligned residue pairs; gaps are separately reflected in reference coverage. Distinct from full-HSP BLAST pident, retained in legacy modules.identity.",
+  "node_score_definition": "100 * identical observed reference/query pairs / configured reference-segment length. Engineering ranking only, not a calibrated probability.",
+  "cross_anchor_sharing": {
+    "category_modes": {
+      "assembly_accessory": "fixed_component_candidate",
+      "catalytic_core": "fixed_component_candidate",
+      "diffusible_electron_partner": "diffusible_pool_candidate",
+      "electron_transfer_or_accessory": "fixed_component_candidate",
+      "membrane_module": "fixed_component_candidate",
+      "physiological_context": "cooccurrence_only",
+      "regulatory_partner": "fixed_component_candidate",
+      "substrate_coupling": "fixed_component_candidate"
+    },
+    "credible_core": "catalytic_status supported; active_center_span_status supported; local_cluster_complete true; graph search complete",
+    "blocking_policy": "Overlapping fixed-member claims from two credible local catalytic cores make their specific member pairing unresolved. Compare all jointly feasible competitive realizations, including unselected alternatives. Do not impose one gene/one complex copy-number stoichiometry.",
+    "provisional_policy": "A partial/provisional competing core is reported, without invalidating a supported core solely from that exploratory overlap. Neither state proves a physical interaction.",
+    "nonunique_policy": "Physiological context has no physical allocation constraint; two diffusible-pool claims are nonexclusive candidates.",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3811579/",
+      "https://pubs.acs.org/doi/10.1021/acs.biochem.8b00662",
+      "https://www.nature.com/articles/s41586-026-10744-9"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "version": "round26-source-scoped-development-before-native-prediction",
+  "source_files": {
+    "references/raw/round26_function_mechanism/CP000252.embl": "6b7fdd988e919faec892ca27b958139b69756f4e8816911929d3a5aa6e367ac4",
+    "references/raw/round26_function_mechanism/competition_alignments.tsv": "1ed1ae0c8bd7695285cda1f4844586f96e3be580d2f61b03fd027a68a6b2a088",
+    "references/raw/round26_function_mechanism/competition_modules.faa": "d640c7224779ac5c99761cc7b24300dcdc14cc9b6e35b0a6c7341b6b259b5dda",
+    "references/raw/round26_function_mechanism/8A6T.cif": "457b234e0bf3652511c14388e94a6f0af05c06d7a67c470562ef867c0fb61473",
+    "references/raw/round26_function_mechanism/Moorella_six_members.faa": "d2ae1e3b9970bea7fea2d13afd115238aad42207e9ac43af25cbaca73d13a5db",
+    "references/raw/round26_function_mechanism/Moorella_native_correspondence.json": "8f72b1af949cfe1cdab2bf209f62778c125bfd93733b38e41c8b76741916984e",
+    "references/raw/round26_function_mechanism/Moorella_binding_alignments.tsv": "342afe3dca967feeff8b4ae320c45eef21a14a424b5af29ae102301e09a4a25e",
+    "references/raw/round26_function_mechanism/CP012369.gb": "71067e483f23b446ffc1fd5091191f37915a1e666dccb5f1343571e9cffce9db",
+    "references/raw/round26_function_mechanism/PMC7311640.body.txt": "51c6d902ec477725bc33553bdfffb31f38261cf9227c12344ded6253209f316d",
+    "references/raw/round26_function_mechanism/Mthermo_HydABCDEF.web_source.json": "ea7194bbc71c8566780a0f34c06f1277a8e3bb76bf446f0ac078f43fe789b190",
+    "references/raw/round26_function_mechanism/assayed_modules.json": "16fbc995f0f0305c5309582733776876161c6324f087e2b73466779af52cf264",
+    "references/raw/round26_function_mechanism/competition_modules.json": "cd0eb29c451e532941cf946ff4887e1cca4da9a6a8e4247d6b31a561d1c23b9f",
+    "references/raw/round26_function_mechanism/binding_alignments.tsv": "d3d02fa1fa06e43840347bd9efd999c5d2a31f89cbb247cd431c7d8f5ac5ea58",
+    "references/raw/round26_function_mechanism/PMC8578170.body.txt": "b0e83f9dc257f0728e34054ae3520b05f338d439f17a7b51e9e8370ca817ccf3",
+    "references/raw/round26_function_mechanism/binding_templates.faa": "044442baac7ddf4d5606c8a30276319b3f12ed6bdb221b375206f6d804eb6727",
+    "references/raw/round26_function_mechanism/CP012369.embl": "2088855442a2faef27bf5e8b4c246c5eb18bb2f7a4aac7a1426ddb7314eb18b4",
+    "references/raw/round26_function_mechanism/DOI16989.metadata.json": "953b907ed4c5ec285f7dec349ec0672c6e323bb02c958e2bea0de74b721e667f",
+    "references/raw/round26_function_mechanism/PMC7311640.xml": "2b5e8acfac46a535e9bc329d93979b2eb8cb3de5622566502816638be06a1781",
+    "references/raw/round26_function_mechanism/PMC8578170.xml": "f54efbb882f690a7d59df3eb4ee65c0cd8648f3852bf150a1d7f62b44db38fbf",
+    "references/raw/round26_function_mechanism/assayed_modules.faa": "1372e6941e6ca676705f7093fb15ae3774384f7c896d7971b266ecc2e1aed041",
+    "references/raw/round26_function_mechanism/CP000252.gb": "b10133d1a14e23d901ae5aa40a494bf362eef878d88e28ff8602584651c95259",
+    "references/raw/round22_function_truth/genomes/CP009170.gb": "a0769c30bc655bdd50a57a90feb8922363670ebd2a01847df17c1b76c5f3da1d",
+    "references/raw/round25_module_architecture/PMC10021017.xml": "f5ecda2198d8aa7a337569177d7f96d46fe95418a81930971c939cc03168562a",
+    "references/model_snapshots/round26_binding_rule_before_new_source/nucleotide_specificity.json": "affe931448e7cf15a92d355388b43e49cb09a0e691c74ef0b87aba0f9bde74d0",
+    "reports/round26_nucleotide_contacts.json": "fef36950dbc6f472dc222f190643f109f206debc17d32522f70dc2ad104de918"
+  },
+  "cases": [
+    {
+      "id": "Tkivui_HydABC_NADP",
+      "genome": "references/raw/round22_function_truth/genomes/CP009170.gb",
+      "anchor": "TKV_c19580",
+      "members": [
+        "TKV_c19580",
+        "TKV_c19590",
+        "TKV_c19600"
+      ],
+      "positive": [
+        "H2_NADP_Fd_coupled_reduction",
+        "NADPH_Fd_coupled_H2_evolution"
+      ],
+      "negative": [
+        "H2_NAD_Fd_coupled_reduction",
+        "NADH_Fd_coupled_H2_evolution"
+      ],
+      "nucleotide": "NADP",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8578170/",
+      "evidence": "Purified homologousHis-HydABC; positivecoupledNADP/Fd reduction20.8U/mg,NAD replacement<.005U/mg; reverseNADPH+Fd reaction9.3U/mg;His tag is experimental,not silently added to native translations."
+    },
+    {
+      "id": "Mthermo_HydABCDEF_NADP_nonBF",
+      "genome": "references/raw/round26_function_mechanism/CP012369.gb",
+      "anchor": "MOTHE_c19180",
+      "members": [
+        "MOTHE_c19180",
+        "MOTHE_c19190",
+        "MOTHE_c19200",
+        "MOTHE_c19210",
+        "MOTHE_c19220",
+        "MOTHE_c19230"
+      ],
+      "positive": [
+        "H2_NADP_reduction_without_required_Fd"
+      ],
+      "negative": [
+        "H2_NADP_Fd_coupled_reduction",
+        "H2_NAD_Fd_coupled_reduction",
+        "H2_NAD_reduction_without_required_Fd"
+      ],
+      "nucleotide": "NADP",
+      "primary_source": "https://doi.org/10.1111/febs.16989",
+      "evidence": "PurifiednativeDSM521 complexwithsixMSsubunittypes;NADP reduction8.5U/mg,neitherNAD norFd reduced;Fd didnotstimulate,NAD(P)/Fd bifurcationnotobserved. Sequence-predictedFeS typesarenotstructuraltruth;DMSOphysiologyisnotassignedtoqueries."
+    },
+    {
+      "id": "Sacid_HydAB_NAD_nonBF_fusion",
+      "genome": "references/raw/round26_function_mechanism/CP000252.gb",
+      "anchor": "SYN_01370",
+      "members": [
+        "SYN_01369",
+        "SYN_01370"
+      ],
+      "positive": [
+        "NADH_H2_evolution_without_required_Fd",
+        "H2_NAD_reduction_without_required_Fd"
+      ],
+      "negative": [
+        "H2_NADP_Fd_coupled_reduction",
+        "H2_NADP_reduction_without_required_Fd",
+        "H2_NAD_Fd_coupled_reduction",
+        "NADH_Fd_coupled_H2_evolution"
+      ],
+      "nucleotide": "NAD",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7311640/",
+      "evidence": "Purifiedrecombinantalpha/beta fromtwoCP000252 genes;betaSYN01369 is607aa andcontainsHyd1C-like+Hyd1B-like fusion;taggedalphaSYN01370 is605aa. Native protein/tag handledseparately;NADP andFd reductionnotobserved,andFd didnotenhanceNADH-dependentH2production."
+    }
+  ],
+  "targets": {
+    "core_precision": 0.95,
+    "core_recall": 0.9,
+    "reaction_precision": 0.95,
+    "reaction_coverage": 0.9,
+    "assayed_negative_false_reactions": 0,
+    "nucleotide_precision": 0.95,
+    "nucleotide_coverage": 0.9,
+    "new_source_nucleotide_correct": true
+  },
+  "limits": [
+    "Experimental binding classifier already failed the newMoorella source; no rule refit from its outcome or newfinaltest claim.",
+    "All sourcesexposeddevelopment;genus/homologindependencenotclaimed.",
+    "Twoassaydirectionsfromonecomplexarenotindependentorganisms.",
+    "Othergenomeanchorsungradable,notnegatives.",
+    "R25productionpredictorunchanged;experimentalclassifiernotimportedbyproduction."
+  ]
+}

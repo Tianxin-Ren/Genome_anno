@@ -1,0 +1,762 @@
+{
+  "version": "round12-context-quality-with-reviewed-mature-HycE-boundary",
+  "scope": "Four protein ligands to NiFe; four protein ligands of FeFe H-cluster cubane including the bridge to 2Fe; single protein ligand to Hmd FeGP. Organic/non-protein ligands and query occupancy are not inferred. Sequence windows are reviewed active-center spans, not universal H-domain boundary predictions. Neighbor substitutions are reported individually, not blanket evidence of inactivity; Hmd His14 signature is canonical-mechanism evidence only. Cys/Sec variants in NiFe are accepted as sequence-compatible, including computational N-terminal Sec candidates, without claiming experimental validation. Required ligand/reaction-signature positions each require +/-15 reference residues (clipped to reviewed model boundaries) with >=0.8 observed coverage and >=25% identity. These are provisional alignment-quality settings, not biochemical functional boundaries. Full template span coverage is still reported; catalytic-domain integrity is not established by this site mapper.",
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_coverage": 0.8,
+    "min_window_identity": 25.0,
+    "competitive_bitscore_ratio": 0.9,
+    "site_context_flank": 15
+  },
+  "proteins": [
+    {
+      "pdb_id": "3UQY",
+      "entity_id": "2",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 582,
+      "expected_structural_ligands": {
+        "76": "C",
+        "79": "C",
+        "576": "C",
+        "579": "C"
+      },
+      "neighbors": [
+        {
+          "position": 74,
+          "reference_residue": "R",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 75,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 77,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 78,
+          "reference_residue": "V",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 80,
+          "reference_residue": "T",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 81,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 574,
+          "reference_residue": "D",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 575,
+          "reference_residue": "P",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 577,
+          "reference_residue": "L",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 578,
+          "reference_residue": "A",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 580,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        },
+        {
+          "position": 581,
+          "reference_residue": "T",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/3UQY"
+        }
+      ],
+      "evidence_url": "https://www.rcsb.org/structure/3UQY"
+    },
+    {
+      "pdb_id": "4CI0",
+      "entity_id": "1",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 386,
+      "expected_structural_ligands": {
+        "63": "C",
+        "66": "C",
+        "380": "C",
+        "383": "C"
+      },
+      "neighbors": [
+        {
+          "position": 61,
+          "reference_residue": "R",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 62,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 64,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 65,
+          "reference_residue": "V",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 67,
+          "reference_residue": "P",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 68,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 378,
+          "reference_residue": "D",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 379,
+          "reference_residue": "P",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 381,
+          "reference_residue": "L",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 382,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 384,
+          "reference_residue": "A",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        },
+        {
+          "position": 385,
+          "reference_residue": "T",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/4CI0"
+        }
+      ],
+      "evidence_url": "https://www.rcsb.org/structure/4CI0"
+    },
+    {
+      "pdb_id": "7UTD",
+      "entity_id": "1",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 513,
+      "expected_structural_ligands": {
+        "59": "C",
+        "62": "C",
+        "507": "C",
+        "510": "C"
+      },
+      "neighbors": [
+        {
+          "position": 57,
+          "reference_residue": "R",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 58,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 60,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 61,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 63,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 64,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 505,
+          "reference_residue": "D",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 506,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 508,
+          "reference_residue": "L",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 509,
+          "reference_residue": "V",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 511,
+          "reference_residue": "T",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        },
+        {
+          "position": 512,
+          "reference_residue": "V",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7UTD"
+        }
+      ],
+      "evidence_url": "https://www.rcsb.org/structure/7UTD"
+    },
+    {
+      "pdb_id": "7Z0S",
+      "entity_id": "2",
+      "family": "NiFe",
+      "window_start": 194,
+      "window_end": 549,
+      "expected_structural_ligands": {
+        "253": "C",
+        "256": "C",
+        "543": "C",
+        "546": "C"
+      },
+      "neighbors": [
+        {
+          "position": 251,
+          "reference_residue": "R",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 252,
+          "reference_residue": "V",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 254,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 255,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 257,
+          "reference_residue": "G",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 258,
+          "reference_residue": "F",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 541,
+          "reference_residue": "D",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 542,
+          "reference_residue": "P",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 544,
+          "reference_residue": "Y",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 545,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 547,
+          "reference_residue": "T",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 548,
+          "reference_residue": "D",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://www.rcsb.org/structure/7Z0S"
+        },
+        {
+          "position": 205,
+          "reference_residue": "E",
+          "role": "Group4_HycE_proposed_proton_transfer_residue",
+          "requirement": "context_only_not_universal_NiFe_rule",
+          "evidence_url": "https://doi.org/10.1038/s41467-022-32831-x"
+        }
+      ],
+      "evidence_url": "https://www.rcsb.org/structure/7Z0S",
+      "boundary_review": "Mature HycE ends at author residue 537 (polymer label position 549, due to 12-residue construct offset). Polymer positions 550-581 include the uncleaved precursor tail and are not in the resolved mature catalytic chain. Exclude these from catalytic-site context. All four ligands and the Glu193-equivalent remain inside.",
+      "boundary_source": "https://doi.org/10.1038/s41467-022-32831-x"
+    },
+    {
+      "pdb_id": "1FEH",
+      "entity_id": "1",
+      "family": "FeFe",
+      "window_start": 220,
+      "window_end": 574,
+      "expected_structural_ligands": {
+        "300": "C",
+        "355": "C",
+        "499": "C",
+        "503": "C"
+      },
+      "neighbors": [
+        {
+          "position": 232,
+          "reference_residue": "S",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 299,
+          "reference_residue": "C",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 323,
+          "reference_residue": "S",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 353,
+          "reference_residue": "M",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 358,
+          "reference_residue": "K",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 361,
+          "reference_residue": "E",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 417,
+          "reference_residue": "F",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        },
+        {
+          "position": 497,
+          "reference_residue": "M",
+          "role": "H_cluster_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1039/D2SC06432D"
+        }
+      ],
+      "evidence_url": "https://www.rcsb.org/structure/1FEH"
+    },
+    {
+      "pdb_id": "3F47",
+      "entity_id": "1",
+      "family": "Fe",
+      "window_start": 1,
+      "window_end": 358,
+      "expected_structural_ligands": {
+        "176": "C"
+      },
+      "neighbors": [
+        {
+          "position": 14,
+          "reference_residue": "H",
+          "role": "Hmd_reaction_related_neighbor",
+          "requirement": "canonical_reaction_signature",
+          "evidence_url": "https://doi.org/10.1111/febs.13351"
+        },
+        {
+          "position": 148,
+          "reference_residue": "W",
+          "role": "Hmd_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1111/febs.13351"
+        },
+        {
+          "position": 151,
+          "reference_residue": "K",
+          "role": "Hmd_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1111/febs.13351"
+        },
+        {
+          "position": 201,
+          "reference_residue": "H",
+          "role": "Hmd_reaction_related_neighbor",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1038/s41929-019-0289-4"
+        }
+      ],
+      "evidence_url": "https://www.rcsb.org/structure/3F47"
+    },
+    {
+      "pdb_id": "1FRF",
+      "entity_id": "2",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 564,
+      "expected_structural_ligands": {
+        "72": "C",
+        "75": "C",
+        "543": "C",
+        "546": "C"
+      },
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/1FRF"
+    },
+    {
+      "pdb_id": "1CC1",
+      "entity_id": "2",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 498,
+      "expected_structural_ligands": {
+        "70": "C",
+        "73": "C",
+        "492": "U",
+        "495": "C"
+      },
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/1CC1"
+    },
+    {
+      "pdb_id": "1HFE",
+      "entity_id": "2",
+      "family": "FeFe",
+      "window_start": 1,
+      "window_end": 421,
+      "expected_structural_ligands": {
+        "179": "C",
+        "234": "C",
+        "378": "C",
+        "382": "C"
+      },
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/1HFE"
+    },
+    {
+      "pdb_id": "6HAV",
+      "entity_id": "1",
+      "family": "Fe",
+      "window_start": 1,
+      "window_end": 342,
+      "expected_structural_ligands": {
+        "176": "C"
+      },
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/6HAV"
+    },
+    {
+      "pdb_id": "6CFW",
+      "entity_id": "13",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 380,
+      "expected_structural_ligands": {
+        "68": "C",
+        "71": "C",
+        "374": "C",
+        "377": "C"
+      },
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/6CFW",
+      "geometry_review_note": "C71 ligates the FCO iron paired to nickel; reader now includes paired carbonyl-dicyano Fe without changing the2.8-A protein-donor cutoff. Development control only, not an independent new sample."
+    },
+    {
+      "pdb_id": "3F46",
+      "entity_id": "1",
+      "family": "Fe",
+      "window_start": 1,
+      "window_end": 358,
+      "expected_structural_ligands": {},
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/3F46"
+    },
+    {
+      "pdb_id": "4YT2",
+      "entity_id": "1",
+      "family": "Fe",
+      "window_start": 1,
+      "window_end": 346,
+      "expected_structural_ligands": {},
+      "neighbors": [],
+      "evidence_url": "https://www.rcsb.org/structure/4YT2"
+    },
+    {
+      "pdb_id": "9E1J",
+      "entity_id": "2",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 419,
+      "expected_structural_ligands": {
+        "60": "C",
+        "63": "C",
+        "413": "C",
+        "416": "C"
+      },
+      "neighbors": [
+        {
+          "position": 58,
+          "reference_residue": "R",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 59,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 61,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 62,
+          "reference_residue": "F",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 64,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 65,
+          "reference_residue": "A",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 411,
+          "reference_residue": "D",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 412,
+          "reference_residue": "P",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 414,
+          "reference_residue": "I",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 415,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 417,
+          "reference_residue": "S",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 418,
+          "reference_residue": "V",
+          "role": "L1_L2_sequence_context",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+        },
+        {
+          "position": 350,
+          "reference_residue": "R",
+          "role": "SHI_secondary_sphere_Arg355",
+          "requirement": "context_only_variable_between_lineages",
+          "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163435/"
+        }
+      ],
+      "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+    },
+    {
+      "pdb_id": "9NEZ",
+      "entity_id": "4",
+      "family": "NiFe",
+      "window_start": 1,
+      "window_end": 428,
+      "expected_structural_ligands": {
+        "418": "C",
+        "421": "C"
+      },
+      "neighbors": [],
+      "evidence_url": "https://doi.org/10.1016/j.str.2025.05.017"
+    }
+  ],
+  "exact_active_reference_variants": [
+    {
+      "reference_id": "FeFe_SwHyd1ABC__Hyd1A",
+      "sequence_sha256": "483a848764a2c512e3e39e5fb95935be6e9cb960465095267c5103e467b792a7",
+      "source_fasta": "references/processed/references.faa",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+      "accession": "WP_011640436.1",
+      "review": "Purified active Hyd1ABC mapped to Swol_1017 (SWOL_RS05165). Exact protein sequence only: CpI C300 maps to Ser299, other three H-cluster Cys remain. Does not establish that Ser ligates the cluster; no general Cys->Ser acceptance rule.",
+      "template_id": "1FEH__entity_1",
+      "changed_reference_position": 300,
+      "query_position": 299,
+      "query_residue": "S"
+    }
+  ]
+}

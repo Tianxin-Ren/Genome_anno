@@ -1,0 +1,13 @@
+# Plasmid Analysis Module Configuration
+plasmid_analysis:
+  enable: False
+  input_dir: "results/assembly" 
+  pattern: "{sample}/long_read/myloasm/{sample}/{sample}.myloasm.fa"
+  conda_envs:
+    genomad: "genomad"
+    mob_suite: "mob_suite"
+    utils: "bio"
+  genomad:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/genomad_db"
+    min_score: 0.7
+    threads: 8

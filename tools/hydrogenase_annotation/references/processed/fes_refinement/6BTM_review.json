@@ -1,0 +1,179 @@
+{
+  "status": "reviewed_primary_ligand_set",
+  "pdb_id": "6BTM",
+  "organism": "Flavobacterium johnsoniae UW101",
+  "source": "https://www.rcsb.org/structure/6BTM",
+  "primary_doi": "10.1038/s41586-018-0061-y",
+  "method": [
+    "ELECTRON MICROSCOPY"
+  ],
+  "source_sha256": "44cda5a23de7af0799ef37eb7f62feb35694fa74eda54943dcb8d960007840b9",
+  "independence_note": "different organism and primary paper from fixed 6F0K/6LOD/8K9E panel; candidate-only development, not an independent accuracy sample",
+  "sites": [
+    {
+      "site_id": "6BTM__L_1101_F3S",
+      "pdb_id": "6BTM",
+      "component_id": "F3S",
+      "cluster_type": "[3Fe-4S]",
+      "chemical_name": "FE3-S4 CLUSTER",
+      "chemical_formula": "Fe3 S4",
+      "ligand_residues": [
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 790,
+          "residue": "C"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 810,
+          "residue": "C"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 816,
+          "residue": "C"
+        }
+      ],
+      "contacts": [
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 790,
+          "author_position": "791",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE3",
+          "distance_angstrom": 2.25,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 810,
+          "author_position": "811",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE1",
+          "distance_angstrom": 2.374,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 816,
+          "author_position": "817",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE4",
+          "distance_angstrom": 2.339,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        }
+      ],
+      "polypeptide_chains": [
+        "B"
+      ],
+      "source_evidence": "deposited_connections_supplemented_by_experimental_ASU_first_shell_coordinates",
+      "first_shell_screen": "S/Se <=2.8 A; N/O <=2.6 A; identity symmetry only; all deposited contacts retained",
+      "coordination_review": "requires_template_review_before_prediction",
+      "query_cofactor_occupancy": "unknown"
+    },
+    {
+      "site_id": "6BTM__M_1102_SF4",
+      "pdb_id": "6BTM",
+      "component_id": "SF4",
+      "cluster_type": "[4Fe-4S]",
+      "chemical_name": "IRON/SULFUR CLUSTER",
+      "chemical_formula": "Fe4 S4",
+      "ligand_residues": [
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 778,
+          "residue": "C"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 781,
+          "residue": "C"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 786,
+          "residue": "C"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 820,
+          "residue": "C"
+        }
+      ],
+      "contacts": [
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 778,
+          "author_position": "779",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE3",
+          "distance_angstrom": 2.132,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 781,
+          "author_position": "782",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE4",
+          "distance_angstrom": 2.309,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 786,
+          "author_position": "787",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE1",
+          "distance_angstrom": 2.057,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        },
+        {
+          "chain": "B",
+          "entity_id": "2",
+          "position": 820,
+          "author_position": "821",
+          "residue": "C",
+          "atom": "SG",
+          "metal_atom": "FE2",
+          "distance_angstrom": 2.245,
+          "symmetry": "1_555",
+          "metal_symmetry": "1_555"
+        }
+      ],
+      "polypeptide_chains": [
+        "B"
+      ],
+      "source_evidence": "deposited_connections_supplemented_by_experimental_ASU_first_shell_coordinates",
+      "first_shell_screen": "S/Se <=2.8 A; N/O <=2.6 A; identity symmetry only; all deposited contacts retained",
+      "coordination_review": "requires_template_review_before_prediction",
+      "query_cofactor_occupancy": "unknown"
+    }
+  ],
+  "warnings_preserved": true
+}

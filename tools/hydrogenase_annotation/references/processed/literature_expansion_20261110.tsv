@@ -1,0 +1,9 @@
+system_id	organism	active_center	catalytic_subunit	complex_and_modules	direct_partners	function	experiment	primary_source	remaining_checks	sequence_binding_status	assessment_status
+Awoodii_HydABCD	Acetobacterium woodii	[FeFe]	HydA	HydABCD	NAD+、ferredoxin	H2驱动NAD+与Fd耦联还原；逆反应	纯化多亚基酶	https://pubmed.ncbi.nlm.nih.gov/22810230/	成员序列、加工形式与成熟基因需核对；与同菌HDCR区分	not_yet_bound	literature_candidate
+Mthermo_HydABC	Moorella thermoacetica	[FeFe]	HydA	HydABC	NAD+、ferredoxin	H2驱动NAD+与Fd耦联还原；逆反应	纯化异源三聚体和双向反应	https://pubmed.ncbi.nlm.nih.gov/23316038/	与同菌NADP型HydABCDEF区分	not_yet_bound	literature_candidate
+Ralbus_HydABC	Ruminococcus albus 7	[FeFe]	HydA	HydABC	NAD+、ferredoxin	NADH和还原型Fd耦联产氢	纯化和质谱	https://pmc.ncbi.nlm.nih.gov/articles/PMC4248817/	同菌HydA2与候选传感HydS另记	not_yet_bound	literature_candidate
+Ralbus_HydA2	Ruminococcus albus 7	[FeFe]	HydA2	HydA2；无其他亚基在本条确认	ferredoxin	Fd相关H2转化	组分分离与质谱；活性不稳定	https://pmc.ncbi.nlm.nih.gov/articles/PMC4248817/	独立酶成员与完整催化体系待核对	not_yet_bound	literature_candidate
+Mthermo_HydABCDEF	Moorella thermoacetica	[FeFe]	HydA	HydABCDEF	NADP+	H2驱动NADP+还原；测试条件未观察电子分叉	纯化六亚基与酶学	https://doi.org/10.1111/febs.16989	DMSO生理连接是研究假说，非直接反应	not_yet_bound	literature_candidate
+Dfruct_HndABCD	Desulfovibrio fructosovorans	[FeFe]	HndD	HndABCD；含黄素和Fe-S电子传递模块	NAD+、ferredoxin FdxB；2018实验未测到NADP+还原	H2氧化，电子分叉还原NAD+与FdxB	重组纯化和酶学	https://pubmed.ncbi.nlm.nih.gov/30463674/	旧研究报道NADP特异性，与2018实验相冲突；完整成员序列和原生位点待绑定	not_yet_bound	literature_candidate
+Tkivui_HDCR	Thermoanaerobacter kivui	[FeFe]	HydA2 TKV_c19960	HydA2、FdhF TKV_c19990与两个电子传递亚基	H2、CO2/甲酸	H2驱动CO2还原为甲酸	纯化复合体；遗传检测	https://pubmed.ncbi.nlm.nih.gov/30186365/	其余电子传递成员ID和原生基因间距需核实	not_yet_bound	literature_candidate
+Tkivui_Ech	Thermoanaerobacter kivui	[NiFe]	Ech催化大亚基；命名待核对	八亚基Ech膜复合体	ferredoxin、H+	H2/Fd双向反应与H+跨膜转运	纯化完整复合体和脂质体质子转运	https://pmc.ncbi.nlm.nih.gov/articles/PMC9356269/	具体8个成员与基因ID需要核实；不得与其他Ech结构直接等同	not_yet_bound	literature_candidate

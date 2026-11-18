@@ -1,0 +1,22 @@
+# ==============================================================================
+# Protein Phylogeny Tasks Configuration
+# ==============================================================================
+# You can define multiple independent protein alignment and tree construction tasks below.
+# Each key represents a task (and will correspond to output wildcards in {sample}).
+# 
+# For each task, you can specify:
+#   - fasta_files: A list of absolute paths to protein FASTA files (or glob patterns).
+#   - fasta_dirs: A list of directories containing protein FASTA files (scanned for .fa, .fasta, .faa, and .gz versions).
+#
+# All discovered sequences for a task will be merged, sanitized (special characters removed,
+# spaces stripped, duplicate sequence headers resolved), and passed to MAFFT and IQ-TREE.
+
+protein_phylogeny_tasks:
+  pmoA:
+    fasta_files:
+      - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/raw_data/pmoA_family.fasta"
+    fasta_dirs: []
+  mcrA:
+    fasta_files: []
+    fasta_dirs:
+      - "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/raw_data/mcrA_sequences"

@@ -1,0 +1,47 @@
+# Data Preparation Module Configuration
+data_prep:
+  enable: True
+
+  # Maximum concurrent NCBI download connections (default: 5)
+  ncbi_conn: 5
+  
+  # Define data preparation tasks (task names will be used for output directories)
+  # Outputs will be saved to results/data_prep/<task_name>/genomes/
+  tasks:
+    "bathyarchaeia_gtdb_all":
+      # Path to the GTDB metadata TSV file
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+      
+      # Filter query to select all genomes belonging to c__Bathyarchaeia
+      # Uses pandas .str.contains() method.
+      filter_query: "gtdb_taxonomy.str.contains('c__Bathyarchaeia')"
+      
+      # Chunk size to split accessions list for parallel downloads.
+      # For example, if there are 200 genomes, chunk_size: 50 will submit 4 parallel download jobs.
+      chunk_size: 100
+
+    # Example: Custom Gene Collection Task
+    # Queries UniProt for high-confidence sequences (Swiss-Prot first, with fallback to TrEMBL)
+    "collect_custom_genes":
+      # List of genes to collect. Organism is optional.
+      genes:
+        - name: "mcrA"
+          organism: "Archaea"
+        - name: "dsrA"
+          organism: "Bacteria"
+        - name: "amoA"
+      # Minimum number of sequences to collect per gene (default: 3)
+      min_sequences: 3
+
+    # Oxidative Phosphorylation (map00190) core marker genes
+    "collect_oxphos_genes":
+      # You can specify a TSV file of KEGG annotated KOs (containing 'KO' and 'gene_name' columns)
+      kegg_tsv: "results/data_prep/map00190_kos.tsv"
+      # Range count control: at least min_sequences, at most max_sequences
+      min_sequences: 5
+      max_sequences: 7
+  
+  # Environments
+  conda_envs:
+    # Environment containing ncbi-datasets-cli and pandas
+    datasets_cli: "ncbi-datasets-cli_18.26.0"

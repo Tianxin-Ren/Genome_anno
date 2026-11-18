@@ -1,0 +1,24 @@
+{
+  "scope": "Nonredox K scaffold in a jointly supported JKLN redox module; not a family-specific assignment from PF00329 alone.",
+  "primary_experiment": {
+    "PMID": "25476267",
+    "doi": "10.1093/protein/gzu051",
+    "source": "references/raw/round64_mbh_sources/C_MBH_PMC.html",
+    "finding": "Engineered and purified P.furiosus JKLN cytoplasmic subcomplex retains reduced-Fd-driven H2 evolution. J has one FeS cluster and N two; K is part of the large-subunit architecture, not a FeS carrier."
+  },
+  "structural_source": {
+    "PDB": "6CFW",
+    "doi": "10.1016/j.cell.2018.03.071"
+  },
+  "inference": "In a complete locally ordered J-K-L-N candidate, full official PF00329 GA evidence can support the K structural scaffold even when one reference pairwise alignment does not span it. NiFe catalysis and FeS relay evidence are required independently. J/EchC lineage competition can remain unresolved because their reviewed proximal relay roles are compatible at this claim level. L lineage competition remains displayed; independently supported canonical NiFe identity supplies only the coarse catalytic premise. N must retain its full homologous relay and no qualified alternate-role rival.",
+  "not_proven": [
+    "exact MbhK sequence ancestry",
+    "exact Mbh subtype",
+    "physical assembly",
+    "obligatory Fd",
+    "reaction direction",
+    "ion coupling",
+    "query activity"
+  ],
+  "development_scope": "A reviewed, falsifiable uncalibrated function-transfer inference. No query AA added to the sequence bank."
+}

@@ -1,0 +1,55 @@
+{
+  "version": "FeFe-active-backbone-homology-pattern-v2",
+  "positive_reference": "TamHydS",
+  "positive_accession": "WP_418365830.1",
+  "positive_source_fasta": "references/raw/round86_HydS_sources/TamHydS_WP_418365830.1.faa",
+  "positive_sequence_sha256": "6659412521ebc249eb9bec903a4b0e914f25bdc4d14c2356fdd5c94e9efcc96e",
+  "negative_reference": "NARF_Q6DHP6",
+  "negative_prototype": "prototype_4b399324296cb75ff6af",
+  "negative_sequence_sha256": "4b399324296cb75ff6afb9c4705f8cdf441f3f5b1cbf4df0eb7583b72e63142a",
+  "bank_path": "research_workflow/fefe_experimental_backbone_bank.faa",
+  "reference_mapping_path": "research_workflow/fefe_experimental_backbone_reference.sto",
+  "reference_positions": [
+    138,
+    193,
+    293,
+    297
+  ],
+  "template_positions": [
+    300,
+    355,
+    499,
+    503
+  ],
+  "profile_match_columns": [
+    77,
+    130,
+    272,
+    276
+  ],
+  "excluded_accessory_positions": [
+    20,
+    379
+  ],
+  "max_evalue": 1e-10,
+  "min_query_core_coverage": 0.7,
+  "source_sha256": {
+    "references/raw/round86_HydS_sources/TamHydS_WP_418365830.1.faa": "044de49fba09ff7375c7090f4cafee92c4bf40ac7693e321eadef922a7e2df4b",
+    "references/raw/reference_domain_review/PF02906.hmm": "71bb31272b7833cea77c96dae3fc58dddce8e1d7a726f98f0354f8a189fba17e",
+    "references/processed/active_centers/models.json": "60f2f3b8d2322315e65a9f675a8210405f6f9c742220aba8e73dcb8623b973fc",
+    "references/processed/catalytic_confirmation/prototypes.json": "78fafd89e0d202d90d56d015355a1b5472612d0ba702d50ba6481bcef8ac97ae",
+    "research_workflow/fefe_experimental_backbone_bank.faa": "cefb750cdc7d6ad80606da653b3576039736b7e2b984a5921eb5491c5bcdfc14",
+    "research_workflow/fefe_experimental_backbone_reference.sto": "accc05556a180b24b635d4e3aadde4d461c0c258ea0341acdf321e2727570898",
+    "config/active_center_review.json": "b3d7d1e14283ab1347487459fa0686842cb8b77fa0274ff3db996bef6de96301",
+    "config/catalytic_confirmation.json": "28b1da390a676b3d90457f3796806eb13cae39c8e10fba2f6ca8941b9fd8fae5",
+    "config/catalytic_confirmation_thresholds.json": "8518a72e57a805c8ee57689baa9fed2e5f261abe18040123c1ba878bd2b678cd",
+    "references/raw/round86_HydS_sources/PMC13104023_fullTextXML.xml": "aa7753a49ae5784190ea4e8cb7469d53c8883f847e08dfbfc6baba904915274b",
+    "experiments/round86/HydS_sources/R86_HydS_binding_manifest.json": "a120902955b8e6ba75804cb259e012f178ba4d1067d2181eea1c42995e559f7d"
+  },
+  "source_mapping_scope": "Official profile homologous Cys pattern anchored in atomic 1FEH; TamHydS itself has measured H-cluster/H2 activity but no atomic ligand coordinates. C20/C379 accessory and C299 proton relay excluded.",
+  "scope": "Uncalibrated family/core potential from a complete active reference backbone and conserved homology contexts; can recover uncovered patterns or corroborate already-present patterns. Never overrides substituted/ambiguous sites; no atomic coordination, occupancy, maturation, sensory physiology or reaction-partner claim.",
+  "accepted_prior_ligand_states": [
+    "not_covered",
+    "present"
+  ]
+}

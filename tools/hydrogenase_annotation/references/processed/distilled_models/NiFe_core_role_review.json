@@ -1,0 +1,156 @@
+{
+  "version": "NiFe-role-class-core-projection-v1",
+  "roles": {
+    "large": [
+      {
+        "reference_id": "NiFe_Ecoli_Hyd1__HyaB",
+        "sequence_sha256": "e654bce355d9a2145c7ec7dc3725faf9ac44a443cbdd28a83f6f3ab7612da4d2"
+      },
+      {
+        "reference_id": "NiFe_Ecoli_Hyd2__HybC",
+        "sequence_sha256": "8df83bddd504561938a5de86aaff24215118a1d83807310d22c45377d5929d0b"
+      },
+      {
+        "reference_id": "NiFe_FHL1_Hyc__HycE",
+        "sequence_sha256": "b750e1345fc5cde27641aca3bc4841844cac90641aea9b1c60c4130fb10bb209"
+      },
+      {
+        "reference_id": "NiFe_HucLMS__HucL",
+        "sequence_sha256": "41d47313edfc4d71e98e50a6ffca876cd733f58a61511246d3ad6ee06df30e7a"
+      },
+      {
+        "reference_id": "NiFe_MvhHdr__MvhA",
+        "sequence_sha256": "bac7cef5121f179037b2f796294e1bb65dba868b028d3b054cec97011445593a"
+      },
+      {
+        "reference_id": "NiFe_EchABCDEF__EchE",
+        "sequence_sha256": "16ab022166381c55ef4ad753af7c71bf179511647027eae41325fc5b6ff93c85"
+      },
+      {
+        "reference_id": "NiFe_Pf_Mbh__MbhL",
+        "sequence_sha256": "e20581968018eaac9a5894042e94b105cabbd5b470d97a1a161647bd73e1f5c8"
+      },
+      {
+        "reference_id": "NiFe_periplasmic_Hys__HysA",
+        "sequence_sha256": "160aa4a04076455f09f8bb37d90bb3c5263f20c78f3c7622d973ae4f189b38e7"
+      },
+      {
+        "reference_id": "NiFe_HynABC__HydB",
+        "sequence_sha256": "9d28203b2b0da76043a6a8058ab55c9094d7b2b22a994cd006337d5d16c4f172"
+      },
+      {
+        "reference_id": "NiFe_Hhy1h__HhyL",
+        "sequence_sha256": "438905c91251c232e4432d1605a0b2401e6b02e4900f2828f52b8587f4da778f"
+      },
+      {
+        "reference_id": "NiFe_VhoABC__VhtA",
+        "sequence_sha256": "43365f33fcc95ef4a27cd80aaa9e82c0b27c90ebdba7c06ee5dc9fb040cc52c5"
+      },
+      {
+        "reference_id": "NiFe_H2_sensor_2b__HupV",
+        "sequence_sha256": "9bba98960c0637b58a1e537ac8513aca8a5dde938ef2c7a9d9529db4467106e4"
+      },
+      {
+        "reference_id": "NiFe_HoxFUYH__HoxH",
+        "sequence_sha256": "061e58852532f729c9eb1516ef88383e7cb5f85449b8743b757dbe98cd2d4a7e"
+      },
+      {
+        "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_catalytic",
+        "sequence_sha256": "404f7109d0269501a6985730d81fe0f951913195ea6dbcdea08db19f2897d25f"
+      },
+      {
+        "reference_id": "NiFe_Coo_CODH__CooH",
+        "sequence_sha256": "437b47277e98d801114a391097d835a4f13fbf0cee70567801e026699e7413f3"
+      }
+    ],
+    "small": [
+      {
+        "reference_id": "NiFe_Ecoli_Hyd1__HyaA",
+        "sequence_sha256": "eaa30f44b29f180b59d9ec5c8b698c1dc84c3d10dafcbaf9598b502f79153198"
+      },
+      {
+        "reference_id": "NiFe_Ecoli_Hyd2__HybO",
+        "sequence_sha256": "d33944a2933b9c117a31f95a0a1484f06fde4ab54e71a725c460b4c3d42e7195"
+      },
+      {
+        "reference_id": "NiFe_FHL1_Hyc__HycG",
+        "sequence_sha256": "6f78447316bfe55ea4c26dcfc6f70e718df3660e141c72d0d5384730091d6484"
+      },
+      {
+        "reference_id": "NiFe_HucLMS__HucS",
+        "sequence_sha256": "51ce141a17a097bbc8b9e4faf212aa226c78449a9e6b5ccac8ce35aecc26afa0"
+      },
+      {
+        "reference_id": "NiFe_FrhABG__FrhG",
+        "sequence_sha256": "5dd2c22f0643f3139487019f41fab770b4c6e6bde3e48df13e338a84b2308e2a"
+      },
+      {
+        "reference_id": "NiFe_MvhHdr__MvhG",
+        "sequence_sha256": "4013a4da3f7ff0d44da27924f2ed37fdc5e6cc7fcb967106c71b01404a2c8e0f"
+      },
+      {
+        "reference_id": "NiFe_EchABCDEF__EchC",
+        "sequence_sha256": "0d34ac4608f6657dfcd393af8ddcae1f2121f9bf54d20feca6dad6fc6eb1f821"
+      },
+      {
+        "reference_id": "NiFe_Pf_Mbh__MbhJ",
+        "sequence_sha256": "0d1070c0e2ab85dc8ed772b2ab2b78594cbe0dd370ad6d9035c6b6639b6f710c"
+      },
+      {
+        "reference_id": "NiFe_periplasmic_Hys__HysB",
+        "sequence_sha256": "0f028aefc263b1cf5d9efe775cb2d3f24473124d65eae98c58eef8210d8f56e3"
+      },
+      {
+        "reference_id": "NiFe_HynABC__HydA",
+        "sequence_sha256": "b27aa2369e88d1e19e669788ecf20ada019e9d8bc06bbd4ae7f2a8c5c145e69d"
+      },
+      {
+        "reference_id": "NiFe_Hhy1h__HhyS",
+        "sequence_sha256": "8c13ddec44c625024b53655d2c98af7ff2d0ab5a281d9f28fec1ca6ff7923c1e"
+      },
+      {
+        "reference_id": "NiFe_VhoABC__VhtG",
+        "sequence_sha256": "a6ef33e9bbc9105a170496a72fd047d561cedf10fa3815002cfb7eada0858ec4"
+      },
+      {
+        "reference_id": "NiFe_HupSL__HupS",
+        "sequence_sha256": "e8b263b49deabf63c63a5c11e499b6cf1bd832b9dafb3680a6888548f016b940"
+      },
+      {
+        "reference_id": "NiFe_H2_sensor_2b__HupU",
+        "sequence_sha256": "e6cb18f499a8449e0ce22dcfc0f8e642741730bfd69644c332244fb14db20a20"
+      },
+      {
+        "reference_id": "NiFe_HyhNADPH__SHI_delta",
+        "sequence_sha256": "e43216efa5a2a6495b21520ae0d69aef2a6690383efa997e3059bb7549919929"
+      },
+      {
+        "reference_id": "NiFe_HoxFUYH__HoxY",
+        "sequence_sha256": "8e033cb25d2e2e5021fabca99ef71f24010713ccea4e6b09a8d81a5c065ad632"
+      },
+      {
+        "reference_id": "NiFe_Tonn_Fdh2Mfh2Mnh2__Mfh2_TON1571",
+        "sequence_sha256": "75693d3aa80fec08be99e2dc6645634f30eb603e46446fce3d7cae25520ef02b"
+      },
+      {
+        "reference_id": "NiFe_Coo_CODH__CooL",
+        "sequence_sha256": "875611c9c755e57ab4ea792f0ea8cc3045500d0260761fd91ad5cd3fb389a597"
+      }
+    ]
+  },
+  "counters": [
+    {
+      "reference_id": "counter_Ec_NuoB",
+      "sequence_sha256": "16c60f9d64f5c4b21c37ff9b730009d65692624de160eae5144ccc8ec78bae9c",
+      "source_sequence": "experiments/round96/NuoB_counter_source/Ecoli_MG1655_NuoB.faa",
+      "source_binding": "experiments/round96/NuoB_counter_source/binding.json"
+    },
+    {
+      "reference_id": "counter_Mmazei_FpoB",
+      "sequence_sha256": "4c08edf891d2a20d67d04974d14359ae2f0fc67a51a1dbd90e72d2767cdd6983",
+      "source_sequence": "experiments/round96/FpoB_counter_source/fpoB_WP_011034408.1.faa",
+      "source_binding": "experiments/round96/FpoB_counter_source/manifest.json"
+    }
+  ],
+  "scope": "Large and small catalytic-core role classes use their own reviewed reference coordinates. Different references do not prove exact orthology or a physical interface. Candidate local core only; no external electron partner, activity or FeS occupancy."
+}

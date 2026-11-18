@@ -1,0 +1,247 @@
+{
+  "version": "round49-reviewed-NiFeSe-small-subunit-reference-expansion",
+  "sources": [
+    {
+      "pdb_id": "3UQY",
+      "split": "template",
+      "structure_id": "NiFe_Ecoli_Hyd1",
+      "source": "https://www.rcsb.org/structure/3UQY",
+      "sha256": "15e0c2a36ef31041f7d37085d60ff88be62bdd7ca4f4bbea884415930a30b812",
+      "download_url": "https://files.rcsb.org/download/3UQY.cif",
+      "revision_dates": [
+        "2012-03-28",
+        "2012-04-18",
+        "2024-02-28",
+        "2024-04-03",
+        "2026-08-12"
+      ]
+    },
+    {
+      "pdb_id": "6EHQ",
+      "split": "template",
+      "structure_id": "NiFe_Ecoli_Hyd2",
+      "source": "https://www.rcsb.org/structure/6EHQ",
+      "sha256": "d2dba0b3d5cc6bb0a0c79437a4640fba4cf18c88e5942ea19a40aeaa95dbf52b",
+      "download_url": "https://files.rcsb.org/download/6EHQ.cif",
+      "revision_dates": [
+        "2018-04-18",
+        "2018-04-25",
+        "2018-07-11",
+        "2024-01-17",
+        "2024-11-06",
+        "2026-08-26"
+      ]
+    },
+    {
+      "pdb_id": "7UTD",
+      "split": "template",
+      "structure_id": "NiFe_HucLMS",
+      "source": "https://www.rcsb.org/structure/7UTD",
+      "sha256": "fd02a831f83ed129db1412c5a0508f96688e367a163ffa58e91a5aab4816baea",
+      "download_url": "https://files.rcsb.org/download/7UTD.cif",
+      "revision_dates": [
+        "2023-01-04",
+        "2023-01-04",
+        "2023-01-25",
+        "2023-03-08",
+        "2023-03-22",
+        "2023-03-29",
+        "2023-04-05",
+        "2024-11-06",
+        "2026-08-12",
+        "2026-08-12"
+      ]
+    },
+    {
+      "pdb_id": "7P92",
+      "split": "template",
+      "structure_id": "FeFe_TmHydABC",
+      "source": "https://www.rcsb.org/structure/7P92",
+      "sha256": "c8b676cc61f7158e6efa71e5b0e22373735fa867c1c46ef96fcc201784593a92",
+      "download_url": "https://files.rcsb.org/download/7P92.cif",
+      "revision_dates": [
+        "2022-09-14",
+        "2022-09-14",
+        "2024-07-17",
+        "2026-09-16",
+        "2026-09-16"
+      ]
+    },
+    {
+      "pdb_id": "1FEH",
+      "split": "template",
+      "structure_id": "FeFe_CpI_monomer",
+      "source": "https://www.rcsb.org/structure/1FEH",
+      "sha256": "f3d7496007989185aac27ed99aca88f35414d63263e23a333a4c641a6a5b197c",
+      "download_url": "https://files.rcsb.org/download/1FEH.cif",
+      "revision_dates": [
+        "1999-01-13",
+        "2008-04-27",
+        "2011-07-13",
+        "2024-02-07",
+        "2026-08-12"
+      ]
+    },
+    {
+      "pdb_id": "4CI0",
+      "split": "template",
+      "structure_id": "NiFe_FrhABG",
+      "source": "https://www.rcsb.org/structure/4CI0",
+      "sha256": "4816d44c6c92b0e8344c4b27b82972e977ad2fe4375e711833596a5b06034ff4",
+      "download_url": "https://files.rcsb.org/download/4CI0.cif",
+      "revision_dates": [
+        "2014-02-26",
+        "2014-03-05",
+        "2017-08-02",
+        "2019-11-20",
+        "2024-11-06",
+        "2026-09-02"
+      ]
+    },
+    {
+      "pdb_id": "3RGW",
+      "split": "reserved_structural_validation",
+      "scope": "C. necator oxygen-tolerant Fe-S chain",
+      "source": "https://www.rcsb.org/structure/3RGW",
+      "sha256": "adfa4593aff5c8e6eeb3d83a461c76631c44ecda5da0e8b13faa4885e7b106b3",
+      "download_url": "https://files.rcsb.org/download/3RGW.cif",
+      "revision_dates": [
+        "2011-10-26",
+        "2011-11-16",
+        "2011-11-23",
+        "2023-09-13",
+        "2026-08-12"
+      ]
+    },
+    {
+      "pdb_id": "3AYX",
+      "split": "reserved_structural_validation",
+      "scope": "H. marinus oxygen-tolerant Fe-S chain",
+      "source": "https://www.rcsb.org/structure/3AYX",
+      "sha256": "0a37c585c20452b6595536b0b1ef9c522667320740232d9597b48aef168cf0f8",
+      "download_url": "https://files.rcsb.org/download/3AYX.cif",
+      "revision_dates": [
+        "2011-10-12",
+        "2011-11-23",
+        "2023-11-01",
+        "2024-10-30",
+        "2026-08-12"
+      ]
+    },
+    {
+      "pdb_id": "8BEW",
+      "split": "reserved_structural_validation",
+      "scope": "T. kivui HydABC independent species and accessory-domain organization",
+      "source": "https://www.rcsb.org/structure/8BEW",
+      "sha256": "ea6bcf582ba0f2f046dc5ad4a9fc187e601fc5c5189bb099880e29314002fa61",
+      "download_url": "https://files.rcsb.org/download/8BEW.cif",
+      "revision_dates": [
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-03-08",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-03-29",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2023-02-15",
+        "2025-07-09",
+        "2025-07-09",
+        "2025-10-01",
+        "2025-10-01",
+        "2025-12-17",
+        "2025-12-17",
+        "2026-09-16",
+        "2026-09-16"
+      ]
+    },
+    {
+      "pdb_id": "7Q4V",
+      "split": "reserved_structural_validation",
+      "scope": "A. woodii HydABC independent species and accessory-domain organization",
+      "source": "https://www.rcsb.org/structure/7Q4V",
+      "sha256": "fcd3abb2df527478f99eaff03665fd22b24f02cd63f6a74e2621c09f6649f754",
+      "download_url": "https://files.rcsb.org/download/7Q4V.cif",
+      "revision_dates": [
+        "2023-02-22",
+        "2023-02-22",
+        "2023-02-22",
+        "2023-02-22",
+        "2023-03-08",
+        "2023-02-22",
+        "2023-02-22",
+        "2023-03-29",
+        "2023-02-22",
+        "2023-02-22",
+        "2025-10-01",
+        "2025-10-01",
+        "2026-09-16",
+        "2026-09-16"
+      ]
+    },
+    {
+      "pdb_id": "5AA5",
+      "split": "reserved_ambiguity_control",
+      "scope": "Non-Cys proximal Asp ligand; must not force conventional all-Cys cluster transfer",
+      "source": "https://www.rcsb.org/structure/5AA5",
+      "sha256": "cd3954790e32adc248a3dc18f76411865b3e5d73c501f7d81e1c08be8b7b0d50",
+      "download_url": "https://files.rcsb.org/download/5AA5.cif",
+      "revision_dates": [
+        "2016-01-20",
+        "2016-03-02",
+        "2024-01-10",
+        "2024-11-20",
+        "2026-09-16"
+      ]
+    },
+    {
+      "pdb_id": "9E1J",
+      "split": "template",
+      "structure_id": "NiFe_HyhNADPH",
+      "source": "https://www.rcsb.org/structure/9E1J",
+      "sha256": "e96f214ec3df67963159a07772cec07ca41d34a75af4b6e4482e535fe92e6f57",
+      "download_url": "https://files.rcsb.org/download/9E1J.cif",
+      "revision_dates": [
+        "2025-07-16",
+        "2025-09-17",
+        "2026-08-12"
+      ],
+      "exposure_scope": "Existing active-center/reference source; newly curated for FeS Group3b small-subunit representation, not an independent challenge sample"
+    },
+    {
+      "pdb_id": "1CC1",
+      "split": "template",
+      "structure_id": "NiFeSe_Dbaculatum_small_subunit",
+      "source": "https://www.rcsb.org/structure/1CC1",
+      "sha256": "0f3f8203567eb8ef68f354c01ac825c5083f89eac509e9657c02e10430d23ca1",
+      "download_url": "https://files.rcsb.org/download/1CC1.cif",
+      "revision_dates": [
+        "1999-06-01",
+        "2007-10-16",
+        "2011-07-13",
+        "2014-02-19",
+        "2014-08-06",
+        "2018-04-04",
+        "2018-04-11",
+        "2019-11-20",
+        "2023-08-09",
+        "2026-08-12"
+      ],
+      "evidence_scope": "Experimental small-subunitFeS coordination only; no catalytic/L2/fullcomplex/function system added.",
+      "validation_reuse": "ConsumedR48source nowreference; exactreference replay is not independent accuracy."
+    }
+  ],
+  "rules": [
+    "Holdout structures and sequences cannot enter template construction.",
+    "Chemical occupancy in a reference structure never proves occupancy in a query.",
+    "Multiple chains or redox states of the same protein are not independent biological test samples.",
+    "Geometry-derived contacts require checks against mmCIF structural connections and primary reported ligands."
+  ]
+}

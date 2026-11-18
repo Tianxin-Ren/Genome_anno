@@ -1,0 +1,69 @@
+{
+  "version": "round33-L4-module-resources-separate-from-exact-ligation",
+  "scope": "Post-identity L4 coordinate-resource explanation only. No reaction,high structure,query activity or general bifurcation classifier. Absence of a mapped signature remains unknown.",
+  "source_files": {
+    "references/raw/round25_module_architecture/PMC10021017.body.txt": "43e231e4384f9a084665b25d94d3a8eda15c5ccf9874017d45f63b0883704b17",
+    "references/raw/round25_module_architecture/PMC10021017.xml": "f5ecda2198d8aa7a337569177d7f96d46fe95418a81930971c939cc03168562a",
+    "references/raw/round25_module_architecture/PMC9499530.body.txt": "8135cba97dbfd0acabe71fc6c51319cb95eb9f2608f339fd3f28902ef5828d90",
+    "references/raw/round25_module_architecture/PMC9499530.xml": "6833d220155610a3a99369cd7392ba1a5dac3f711bf0e05d7184a35d79a41120",
+    "references/raw/round25_module_architecture/PMID36811855.metadata.json": "462f923ab23832a2937d978f565665805236f8a4735a715a6d1515caeba86878",
+    "reports/round31_failure_diagnosis.json": "d6f1a92ec254fe74d4ad5f0950ca11027e1dedc9ffcf39592a49feb756cb95e2",
+    "reports/round32_complete_failure_diagnosis.json": "4931e5f5f18e78a1fea2340b5a7975a89b6a460c3b531079680f4dda2394e16d"
+  },
+  "identity_review_sha256": "6dd98f8ad325f0fd872c5d48d38e045f346e05d0520f2f7f942b2e554b6b443b",
+  "reference_role_review_sha256": "f749a53f860a0ac03643c0cb756732f9f85f37d9d075d0e6761c02a358c74c28",
+  "reference_fasta_sha256": "e7af49894dcaa8aae0afe445f8e3351e321f3badaa748d8e742c69d12c8e7f38",
+  "fes_sites_sha256": "0bd9c17454e71ea7283383d345d73259f929186aaf5636052030316bda8625b1",
+  "fes_parameters_sha256": "02c16759c49cf712c715af4de8d542917668018f3ee63ca5c93e25665a398834",
+  "signature": {
+    "id": "Tm_HydB_two_C_terminal_FeS_ligand_sets",
+    "reference_id": "FeFe_TmHydABC__HydB",
+    "reference_sequence_sha256": "916566e2c5a368d6301c90398d8d4c0549e52a5a5b64d74a05efc9a9491f30df",
+    "site_ids": [
+      "7P92__I_700_SF4",
+      "7P92__J_701_SF4"
+    ],
+    "site_scope": "Eight mapped reference-Cys coordinate resources and the unchanged local windows support provisional protein-module organization only. Exact ligand sets/types remain given by the unmodified per-site evidence, including potential-donor ambiguity; neither window defines a complete fold or proves occupancy/mechanism.",
+    "comparison_roles": {
+      "FeFe_TmHydABC": "HydB",
+      "FeFe_SwHyd1ABC": "Hyd1B"
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9499530/",
+    "scaffold_site_id": "7P92__M_704_FES",
+    "scaffold_scope": "Require four N-terminal reviewed HydB ligand positions to map as present for Tm-like architecture. Context/cluster status remains exactly as returned by the unchanged FeS mapper; mapped residues do not establish this cluster or occupancy."
+  },
+  "requirements": [
+    "Both reviewed contexts retain the unchanged coverage/identity gates and8 distinct present reference-Cys coordinate resources on one complete protein. For L4 only, accept raw template support or an ambiguous site whose sole reason is possible_alternative_ligand. Missing/unknown/substituted main positions, uncovered alternatives, incomplete sources or other ambiguity remain rejected; original coordination states are never upgraded.",
+    "A candidate can explain a signature only using the aligned resources of its actually selected matching role; another domain or unselected paralog cannot supply it.",
+    "A structurally supported extension outside those resources makes reference architecture incomplete, not the protein inactive.",
+    "Equal/incomparable remaining complete cores stay ambiguous; no arbitrary bitscore winner.",
+    "Only independently calibrated_high identity plus a uniquely explained eligible core can reconcile a stronger source-reviewed compatible identity-positive reference.",
+    "Every stronger unresolved competitor must have an exact positive catalytic-identity review; negative,indeterminate,unreviewed or decoy competitors block. The review cannot assign a reaction or prove a matching source complex.",
+    "Keep all original Vhx/Vht and mechanism/ownership regression controls. No function or high confidence is enabled."
+  ],
+  "development_targets": {
+    "native_Ralbus_exact_core": true,
+    "native_Ralbus_function_assignments": 0,
+    "Vhx_structure_unresolved": true,
+    "legacy61_regression": true,
+    "identity_features_unchanged": true,
+    "registered21_targets_unchanged": true
+  },
+  "processed_references_sha256": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+  "fes_script_sha256": "a99274e2be04343b9943f43e893d477e1beb4c191c2b618cfed47c7894711ff3",
+  "physical_core_examples": [
+    {
+      "reference_id": "unresolved__awoodii_DSM1030_Awo_c26970",
+      "sequence_sha256": "7c9c496f4a2b5c17e9435198022e2b6a209b6c75a72b882706b9dc5e45dd8359",
+      "compatible_structure_id": "FeFe_TmHydABC",
+      "structure_entity": "7Q4V__entity_1",
+      "structure_source_sha256": "fcd3abb2df527478f99eaff03665fd22b24f02cd63f6a74e2621c09f6649f754",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10021017/",
+      "scope": "Exact experimentally structured A.woodii HydA in a three-subunit HydABC core. Catalytic identity positive; original functional kind stays unresolved. Allows only medium homologous core interpretation when independently high identity and uniquely explained partner resources agree; no molecular substrate or reaction transfer."
+    }
+  ],
+  "reconciled_structure_ids": [
+    "FeFe_TmHydABC"
+  ],
+  "competition_scope": "For L4-only medium core interpretation, every stronger unresolved reference must have exact pinned positive catalytic-identity review. That review supplies no mechanism, substrate, physical assembly or query function; actual query modules and signature resources must independently support a unique complete core. Decoy/indeterminate/unreviewed competitors still block."
+}

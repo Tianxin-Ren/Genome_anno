@@ -1,0 +1,77 @@
+# Integrated Prokaryotic Genome Annotation Pipeline Configuration
+genome_annotation:
+  # 1. Project Root (Absolute path)
+  project_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+  
+  # 2. Input Paths (Relative to project_dir)
+  # For Standard mode: where your genomes are
+  input_dir: "data/genomes"      
+  
+  # For Hybrid mode: where your bins and full assembly are
+  bins_dir: "results/Bathy_enrichment/myloasm/circular_contigs/" 
+  assembly_fasta: "results/Bathy_enrichment/myloasm/assembly_primary.fa"
+  
+  # For Plasmid mode: where your standalone plasmids are
+  plasmids_dir: "results/plasmid_analysis/Bathy_enrichment/extracted_plasmids/"
+  
+  # 3. Output Paths (Relative to project_dir)
+  output_dir: "results/Bathy_enrichment_annotation"
+  
+  # ----------------------------------------------------------------------------
+  # Analysis Mode: set to "hybrid" to use assembly-level annotation + bin-level QC
+  # ----------------------------------------------------------------------------
+  mode: "hybrid" 
+  split_chunks: 0    # Set to >0 to split into fixed N chunks
+  mb_per_chunk: 20  # Set to >0 to split by size (e.g. 200MB per chunk)
+
+  steps:
+    checkm2: True
+    quast: True
+    gtdbtk: True
+    bakta: True 
+    eggnog: True
+    kofamscan: True
+    dbcan: True
+    metabolic: False
+    genomespot: True
+
+  # ----------------------------------------------------------------------------
+  # Tool Settings & Databases
+  # ----------------------------------------------------------------------------
+  checkm2:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/CheckM2_database/uniref100.KO.1.dmnd"
+  quast:
+    params: ""
+  gtdbtk:
+    db: "" # Leave empty if GTDBTK_DATA_PATH is set in env
+  bakta:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db"
+    threads: 64
+  eggnog:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/eggnog"
+    threads: 64
+  kofamscan:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/kofam"
+    threads: 64
+  dbcan:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/dbscan"
+    threads: 8
+  genomespot:
+    db: "/dssg/home/acct-clswfp/clswfp-icdli1/download/genomespot/GenomeSPOT-main/models"
+    threads: 1
+
+  # ----------------------------------------------------------------------------
+  # Conda Environments
+  # ----------------------------------------------------------------------------
+  conda_envs:
+    checkm2: "checkm2_1.0.2"
+    quast: "quast_5.3.0"
+    gtdbtk: "gtdbtk-2.4.0"
+    bakta: "bakta_1.12.0"
+    eggnog: "eggnog-mapper"
+    kofamscan: "kofamscan"
+    dbcan: "dbcan"
+    multiqc: "multiqc_1.33"
+    utils: "biopython_1.85"
+    genomespot: "genomespot_1.0.1"
+    

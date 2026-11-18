@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModuleEvidenceRecord",
+  "description": "Schema for individual module evidence record in module_evidence.tsv.gz providing complete lineage traceability",
+  "type": "object",
+  "required": [
+    "genome_id",
+    "module_id",
+    "module_name",
+    "ko",
+    "protein_id",
+    "gene_id",
+    "contig_id",
+    "start",
+    "end",
+    "strand",
+    "bitscore"
+  ],
+  "properties": {
+    "genome_id": {
+      "type": "string",
+      "description": "Genome or MAG identifier"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^M\\d{5}$",
+      "description": "KEGG Module identifier"
+    },
+    "module_name": {
+      "type": "string",
+      "description": "Name of the KEGG module"
+    },
+    "ko": {
+      "type": "string",
+      "pattern": "^K\\d{5}$",
+      "description": "Matched KO identifier"
+    },
+    "protein_id": {
+      "type": "string",
+      "description": "Target protein identifier"
+    },
+    "gene_id": {
+      "type": "string",
+      "description": "Gene identifier"
+    },
+    "contig_id": {
+      "type": "string",
+      "description": "Contig name"
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Start position on contig"
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "End position on contig"
+    },
+    "strand": {
+      "type": "string",
+      "enum": ["+", "-"],
+      "description": "Coding strand"
+    },
+    "bitscore": {
+      "type": "number",
+      "minimum": 0.0,
+      "description": "HMMER bit score"
+    }
+  },
+  "additionalProperties": false
+}

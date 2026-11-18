@@ -1,0 +1,120 @@
+{
+  "version": "round27-source-reviewed-six-subunit-extension",
+  "source_corpus": "references/validation/round22_natural_complex_development",
+  "scope": "Post-identity structure templates only. Three exposed development cases are reference replays; never independent tests. Legacy214-protein discovery/identity bank unchanged.",
+  "systems": [
+    {
+      "case_id": "Amobile_HydABCSL",
+      "structure_id": "NiFe_Amobile_HydABCSL",
+      "catalytic_role": "HydL",
+      "center": "NiFe",
+      "reference_clade": "NiFe HydABCSL experimental reference; subgroup not assigned",
+      "direct_partner": "NAD(H) and ferredoxin",
+      "mechanism": "Reference H2 oxidation coupled to NAD+ and ferredoxin reduction; reverse coupled donor reaction measured",
+      "contract_ids": [
+        "Ref_Amobile_HydABCSL_oxidation",
+        "Ref_Amobile_HydABCSL_evolution"
+      ],
+      "role_categories": {
+        "HydL": "catalytic_core",
+        "HydS": "electron_transfer_or_accessory",
+        "HydA_ET_not_H_cluster": "electron_transfer_or_accessory",
+        "HydB": "substrate_coupling",
+        "HydC": "electron_transfer_or_accessory"
+      },
+      "review": "Five purified native subunit types and exact CDS/UniProt correspondence. HydA lacks the catalytic H-cluster; only HydL is a catalytic template. HydD/HydP/HisK are excluded from the five-member core. No additional FeS ligand/topology template or occupancy claim."
+    },
+    {
+      "case_id": "Sfructo_HndABCD",
+      "structure_id": "FeFe_Sfructo_HndABCD",
+      "catalytic_role": "HndD",
+      "center": "FeFe",
+      "reference_clade": "FeFe HndABCD experimental reference; grouping remains separate",
+      "direct_partner": "NAD(H) and ferredoxin",
+      "mechanism": "Reference purified H2-dependent simultaneous NAD+ and FdxB reduction",
+      "contract_ids": [
+        "Ref_Sfructo_Hnd_oxidation"
+      ],
+      "role_categories": {
+        "HndD": "catalytic_core",
+        "HndA": "electron_transfer_or_accessory",
+        "HndB": "electron_transfer_or_accessory",
+        "HndC": "substrate_coupling"
+      },
+      "review": "Four purified native subunits, including the126aa HndB, correspond exactly to U07229 translations and reviewed Q46505..Q46508. Historical NADP product names do not define substrate specificity. Reverse physiological H2 production and all possible NADP side reactions are not inferred from the forward assay."
+    },
+    {
+      "case_id": "Mthermo_HydABCDEF_NADP_nonBF",
+      "structure_id": "FeFe_Mthermo_HydABCDEF",
+      "catalytic_role": "HydA",
+      "center": "FeFe",
+      "reference_clade": "FeFe six-subunit HydABCDEF experimental reference; HydDB subgroup not inferred",
+      "direct_partner": "NADP+; ferredoxin not required in the reference assay",
+      "mechanism": "Reference H2-dependent NADP+ reduction; NAD and ferredoxin not reduced in the assayed conditions; no electron bifurcation observed",
+      "contract_ids": [
+        "Ref_Mthermo_HydABCDEF_NADP_oxidation"
+      ],
+      "role_categories": {
+        "HydA": "catalytic_core",
+        "HydD": "electron_transfer_or_accessory",
+        "HydE": "electron_transfer_or_accessory",
+        "HydC": "electron_transfer_or_accessory",
+        "HydB": "substrate_coupling",
+        "HydF": "electron_transfer_or_accessory"
+      },
+      "review": "Six purified native subunit types identified by MS, corresponding to MOTHE_c19180..MOTHE_c19230 in DSM521 CP012369. HydD/E/F are physical electron-transfer/accessory subunits, not HydEFG maturation enzymes by name; HydF lacks the H-cluster and is not catalytic. Sequence-predicted FeS cluster counts are not atomic truth. No DMSO respiration or structural explanation of specificity is assigned.",
+      "native_case": {
+        "id": "Mthermo_HydABCDEF_NADP_nonBF",
+        "source": "CP012369",
+        "input_file": "references/raw/round26_function_mechanism/CP012369.gb",
+        "paper": "references/raw/round26_function_mechanism/Mthermo_HydABCDEF.web_source.json",
+        "url": "https://doi.org/10.1111/febs.16989",
+        "members": [
+          {
+            "role": "HydA",
+            "source_locus": "MOTHE_c19180",
+            "sequence_sha256": "2b93b0d6e62da88100fe4c37780bd4a91a07523907c76164af8745d1adabc30b",
+            "protein_accession": "AKX94701.1"
+          },
+          {
+            "role": "HydD",
+            "source_locus": "MOTHE_c19190",
+            "sequence_sha256": "e451ed27421c8a346bf62333cccf868247cf391f0b9ccdd59a4ee806fff76696",
+            "protein_accession": "AKX94702.1"
+          },
+          {
+            "role": "HydE",
+            "source_locus": "MOTHE_c19200",
+            "sequence_sha256": "4e8896fb47c072b85038218ab73242801424637ccc849eb18db4b16e3681baec",
+            "protein_accession": "AKX94703.1"
+          },
+          {
+            "role": "HydC",
+            "source_locus": "MOTHE_c19210",
+            "sequence_sha256": "6226f9f7bdfd477a0ef448860d3917a70c4ba5aca174569cc199aec2347b0c18",
+            "protein_accession": "AKX94704.1"
+          },
+          {
+            "role": "HydB",
+            "source_locus": "MOTHE_c19220",
+            "sequence_sha256": "29a7eb9f734c0557a358c343101364c0b7fc6fbd80c45fbca166a7d1ea015493",
+            "protein_accession": "AKX94705.1"
+          },
+          {
+            "role": "HydF",
+            "source_locus": "MOTHE_c19230",
+            "sequence_sha256": "288ca06b500f86b56f9bec9373d004d65d5aef6020ee1e8667df69bfc80abe6f",
+            "protein_accession": "AKX94706.1"
+          }
+        ],
+        "source_files": {
+          "references/raw/round26_function_mechanism/CP012369.gb": "71067e483f23b446ffc1fd5091191f37915a1e666dccb5f1343571e9cffce9db",
+          "references/raw/round26_function_mechanism/Mthermo_HydABCDEF.web_source.json": "ea7194bbc71c8566780a0f34c06f1277a8e3bb76bf446f0ac078f43fe789b190",
+          "references/raw/round26_function_mechanism/Moorella_native_correspondence.json": "8f72b1af949cfe1cdab2bf209f62778c125bfd93733b38e41c8b76741916984e",
+          "config/round26_function_validation.json": "32d291d8609ccb374935800fbc613445704c1d1bf0d3a6936bea7858a8b6056a"
+        },
+        "scope": "Exposed R26 source and challenge now become a development reference replay, never independent validation. Native DSM521 CP012369 only; no ATCC39073 strain substitution."
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "version": "reference-assay-potential-v9",
+  "admitted_systems": {
+    "NiFe_Amobile_HydABCSL": [
+      "Ref_Amobile_HydABCSL_oxidation",
+      "Ref_Amobile_HydABCSL_evolution"
+    ],
+    "FeFe_Mthermo_HydABCDEF": [
+      "Ref_Mthermo_HydABCDEF_NADP_oxidation"
+    ],
+    "NiFe_Tlitoralis_HydBGDA": [
+      "Ref_NiFe_Tlitoralis_HydBGDA_oxidation",
+      "Ref_NiFe_Tlitoralis_HydBGDA_evolution"
+    ],
+    "NiFe_Tkodakarensis_HyhBGSL": [
+      "Ref_NiFe_Tkodakarensis_HyhBGSL_NADP_oxidation",
+      "Ref_NiFe_Tkodakarensis_HyhBGSL_NADPH_evolution",
+      "Ref_NiFe_Tkodakarensis_HyhBGSL_NAD_oxidation"
+    ],
+    "FeFe_Saciditrophicus_HydAB": [
+      "Ref_FeFe_Saciditrophicus_HydAB_NAD_oxidation",
+      "Ref_FeFe_Saciditrophicus_HydAB_NADH_evolution"
+    ],
+    "NiFe_Pfuriosus_HII_BGDA": [
+      "Ref_NiFe_Pfuriosus_HII_BGDA_NADP_oxidation",
+      "Ref_NiFe_Pfuriosus_HII_BGDA_NADPH_evolution",
+      "Ref_NiFe_Pfuriosus_HII_BGDA_NAD_oxidation",
+      "Ref_NiFe_Pfuriosus_HII_BGDA_NADH_evolution"
+    ],
+    "NiFe_Tbogorovii_BBS_Hox2_FUYH": [
+      "Ref_NiFe_Tbogorovii_BBS_Hox2_FUYH_NADH_evolution"
+    ],
+    "FeFe_Ralbus7_HydABC": [
+      "Ref_FeFe_Ralbus7_HydABC_oxidation",
+      "Ref_FeFe_Ralbus7_HydABC_evolution"
+    ],
+    "FeFe_KIST612_FDH_HydABC": [
+      "Ref_FeFe_KIST612_FDH_HydABC_oxidation",
+      "Ref_FeFe_KIST612_FDH_HydABC_formate_NAD_Fd",
+      "Ref_FeFe_KIST612_FDH_HydABC_formate_H2",
+      "Ref_FeFe_KIST612_FDH_HydABC_H2_CO2_formate"
+    ],
+    "FeFe_Cpasteurianum_CpIII": [
+      "Ref_FeFe_Cpasteurianum_CpIII_MV_H2_evolution"
+    ],
+    "NiFe_Tonnurineus_FrhAGB_Fdh3B": [
+      "Ref_NiFe_Tonnurineus_FrhAGB_Fdh3B_NADP_reduction"
+    ],
+    "NiFe_Hpseudoflava_HoxFUYH": [
+      "Ref_NiFe_Hpseudoflava_HoxFUYH_NAD_oxidation",
+      "Ref_NiFe_Hpseudoflava_HoxFUYH_NADP_oxidation",
+      "Ref_NiFe_Hpseudoflava_HoxFUYH_FMN_oxidation",
+      "Ref_NiFe_Hpseudoflava_HoxFUYH_FAD_oxidation",
+      "Ref_NiFe_Hpseudoflava_HoxFUYH_NADH_evolution_XDH_coupled"
+    ]
+  },
+  "scope": "Registered source assays support gene-associated reaction potential through exact called-protein tuples or independently bound complete-reference CDS encodings at 5-prime boundary differences in a catalytic core or required module. Every encoded member must translate to its complete registered protein under the bound current model; raw query proteins, coordinates, partial flags and independent catalytic identity remain unchanged. Legal initiator normalization and synonymous DNA changes are distinct from amino-acid variants. All local linkage, unique-role and resource-ownership gates remain. No general homolog-function transfer, expression, mature-construct equivalence, physical assembly, cofactor occupancy, query activity, exclusive specificity or in-vivo net direction is asserted. The source-assay bank stays separate from discovery and identity search banks. The coding-locus route requires bound genomic DNA and its calling proof in genome/assembly/bin input contexts, under their existing association rules; a mode label alone supplies no DNA evidence and does not establish whole-genome validation credit. The BBS Hox2 NADH-to-H2 contract is explicitly limited to a mutant-resolved soluble total-protein preparation with added FMN/DTT; it is not a purified-complex electron-transfer or NADPH-exclusion claim. The evidence scope is retained per capability. Source-declared local member groups are permitted only for a registered assay set with a bound source/review. Every exact or independently encoded member remains required; each group retains local linkage and all groups retain the input ownership and unique-resource checks. Without an explicit source declaration the original whole-tuple local linkage applies. A documented dispersed preparation does not establish arbitrary homolog pairing, HydABC-only sufficiency or query physical assembly. A single ambiguous noncatalytic singleton group may be resolved among complete source-equivalent tuples by genomic context and a deterministic ID tie-break; all valid equivalent loci remain explicit alternatives and preferred confidence is medium. Literal query-member assay attribution remains not tested. Multiple-role ambiguity, source identity, ownership and resource conflict gates remain unchanged. When strict source attribution fails, complete source-equivalent chemical components may support a separate sequence-function hypothesis. Only linkage/locality or locus assignment uncertainty may remain after complete tuple proof; catalytic identity, full source sequence/coding proof, coordinates, input ownership and resources remain hard gates. These component reactions have a separate inference scope, never populate exact-source capability fields, and use medium qualitative preferred confidence with explicit pairing and assembly risks. A separately audited FDH role homolog may support coarse formate coupling when every other source backbone member is independently source-equivalent and input/resource ownership holds. It never inherits exact source sequence equality or the measured source reaction details; metal, specificity, joint NAD/Fd mechanism, physical assembly and query activity remain unasserted. A single independently supported noncatalytic module homolog may supply a separate coarse source-function prior in a complete otherwise source-equivalent local tuple. The complete current module/coupling proof and all original tuple gates except that one exact-sequence equality remain required. Global source-sequence comparison has no E-value and does not transfer source assay contracts, reaction details, numerical rates or measured query activity. Source function can outrank a generic template when its query-normalized exact-match support is no weaker than that selected module template; the full role coverage gates still apply independently. Coverage denominators from different references are not a hard preference gate. Otherwise the source function is a low-confidence alternative. A nonexact module source prior inherits low confidence and structural contact risks from its current role proof; sequence similarity ranking cannot erase role uncertainty.",
+  "sources": {
+    "research_workflow/reference_reactions.py": "36a63fe9c7c1a2b8e34e3b06915d1c0d4b3344a1c3272b41dbf9ef73d8d21f14",
+    "experiments/round99/reference_protein_set_review.json": "020074ead6470c0cfcff1402203966da31d32ac6b90f886622b7a7c08a2e276c",
+    "scripts/complex_extensions.py": "5e63f80e05bf6aef03285cc3d67851bf6f9600d4f6768787f4b09801c014ec49",
+    "scripts/build_complex_extensions.py": "56b05d7709aff2395f99cfb44ca812b8a0fc2fb7614f04a6e52fa07333b64dc6",
+    "config/reaction_contracts.json": "2c8626d21a7fa87d0f6cca25815b75c90f4c407ea3adbd0df2dd7be1624cc95b",
+    "config/reference_function_review.json": "d93b6fdd838deff6efceaad5fbdc5c4c7bd442059bd47d109ec28cd6219009f1",
+    "config/complex_extension_sources.json": "90cd8730aba078bf2120c3f1b7c2014bd060b3a0c02f9e2cb16e92e4c764d804",
+    "references/processed/complex_extensions/manifest.json": "3f85235e72e21ce4beddb65c9e9c83710b1c5eccf811f8db437ced157f861c6f",
+    "references/processed/complex_extensions/references.json": "c6d99f86f3795cdbfefb0261ef4a72832dc781da7be1a1744031cf71c14d5ceb",
+    "references/processed/complex_extensions/systems.json": "514b7fca9a0e8cfdb1183293f425884258e3af7be26dce2f574426ea10e88e36",
+    "references/processed/complex_extensions/graphs.json": "28bd89b56f38f5ad29e43b89bce3749035a58ceb5bcf635cb18cd9bc50f22ded",
+    "references/raw/round22_function_truth/genomes/CP003198.gb": "1477f76e6eb4e1b61afc271e7bf52ad169dbf41528787e84c1937f7ee7cac693",
+    "references/raw/round21_function_sources/PMC8880783.xml": "b5f6b1d3a9a7193180957ebe0e56cbf7bf68072ccfda8ce385e28675ace76881",
+    "references/raw/round26_function_mechanism/CP012369.gb": "71067e483f23b446ffc1fd5091191f37915a1e666dccb5f1343571e9cffce9db",
+    "references/raw/round26_function_mechanism/Mthermo_HydABCDEF.web_source.json": "ea7194bbc71c8566780a0f34c06f1277a8e3bb76bf446f0ac078f43fe789b190",
+    "research_workflow/pyridine_function.py": "07d5c80381b67396240689a0ba87696fd7c4c6c10b8324658d2ca8ee5fa5ebee",
+    "research_workflow/pyridine_function_model.json": "0e3d2a24343b53f5405d7b12b0a9b25731a65c48cc093ffec651d2d7ba9c81ff",
+    "research_workflow/reference_assay_sets.json": "3768e904c937e4521a948e405d105b35bfe785884c1275355c2bcc290d513f91",
+    "references/raw/round118_Thermococcus_hyh/AF039208.gb": "190606267adbb8228f932bcc13206c440b5b03264a6947bdeb6c3b0b59f1e106",
+    "experiments/round118_reference_function/Tlitoralis_HydBGDA_source_review.json": "13289ec911a980f11dd5138dd259ae0bdd1f2ecd8619cce5ce9207f98c05fa2c",
+    "research_workflow/coding_completeness.py": "fa0221e96f485d30872322508d28ba741820b9b7e2d9f38e24ca78eabb4ea30a",
+    "references/raw/round60_function_validation/tkodakarensis/AB075598.gb": "9e7998e3cc29fcf5e13275a63ce741441b999af90b00520f72218734bf7921e0",
+    "experiments/round122_reference_capabilities/Tk_Hyh_source_review_v2.json": "40c8fdab40385a72c4dbc172bd0861571b4dfee0eeddb8a6686c1e43e869788d",
+    "references/raw/round59_pyridine_function/PMC148058.html": "6f29e7396afd48050e12431369bb1fafe35838dff7caed9bc7d20464247198d3",
+    "experiments/round132_function_followup/Syntrophus_HydAB_source_review_v3.json": "17458efb85cf9f486d42230f29c7ea3a2957db3ae1f9b33841cb368f1c812c7a",
+    "references/raw/round132_Syntrophus_HydAB/PMC7311640.xml": "2b5e8acfac46a535e9bc329d93979b2eb8cb3de5622566502816638be06a1781",
+    "references/raw/round117_independent_function_sources/Syntrophus_aciditrophicus_SB_CP000252.1.gb": "9b331bf8c4f58832bfd9e0c806ba6626b9105f53c815e28eb64e7d490fff467a",
+    "references/raw/round117_independent_function_sources/Syntrophus_HydAB_truthmap_v3.json": "2c8326c21b2f56575ca35ee307b9f8e220b9f2cc48e22cc00f89158180b1191f",
+    "references/raw/round117_independent_function_sources/SYN_01370.faa": "f21fe56a8f4a6e51e34dba393cdc47059344a00dc3f4648a26ce3f8c87d73a05",
+    "references/raw/round117_independent_function_sources/SYN_01369.faa": "d1eea8792fce3f62c8c8e1877997717d08fd7fa9c9289957cc89ad1902b892ae",
+    "references/raw/round117_independent_function_sources/SYN_01370_paper_His_construct_metadata.json": "e562156f9860f2dc9ff3b8354591f83340cae36a3788749a63186d4fe41a6dfb",
+    "references/raw/round116_function_sources/positives_other/AF176650.gb": "60001b6ad22fd509439966f343de15c509ecdc4ad7576cfb9a0c8626a749c925",
+    "references/raw/round134_Pfur_HII/primary_web_facts_v1.json": "8a16105ca398417e3e343c0c5320f30c01f0665fea936e833be858244bd5dce8",
+    "references/raw/pfuriosus_DSM3638.gb": "6b875c6c042ce79ad42b72dbc856634dbaba3198b2b4eb7f31e28d5ca5b42cfe",
+    "experiments/round134_source_truth/PfurHII_source_review_v4.json": "35e3e2d6863a452498b2603d8bb8e387ef48ac5150875324376f33744993c3b0",
+    "experiments/round135_BBS_Hox2_truth/GU560006.1.gb": "b61f5536659bcfc7d1410a876d32ff85a3b8e55fd9cfa7ad47c814d17ffdd6c1",
+    "experiments/round135_BBS_Hox2_truth/source_assay_review_v1.json": "856f4f71f76816a5aa493659822893bc9c7ee033116e60a015d14046b0aaca17",
+    "experiments/round135_BBS_Hox2_truth/PMC2916503.html": "c69289073ead5e3e14f58c15b297a3c7ce656eb445562476af9ec36dd7ea3740",
+    "experiments/round135_BBS_Hox2_truth/CP089309.1.gb": "4884de30c323000b90ad07491509bd219250120186a2c322b92afbac2c394c7f",
+    "experiments/round135_BBS_Hox2_truth/old_review_correction_v2.json": "51fc1477a00be0249326c6efb8ec58f2d3b1667d2b898f170a27ed6efce9af45",
+    "references/raw/round22_function_truth/genomes/CP002403.gb": "af25946ff71f267ea86c30355255a67ba18bf012ea0a0ff98bc26d6b584c19a2",
+    "experiments/round144_Ralbus/source_assay_review_v1.json": "a090465c26eacfa68ff7170c663bbcac8589b466f64ecb60c8d17312f9670b06",
+    "references/raw/round23_function_followup/Ralbus_correspondence_review.json": "266b50de4353a51672ab0e652e632a9b189721823952d7bdfe11d7ea1f275ced",
+    "references/raw/round23_function_followup/Ralbus_Fig2.jpg": "6e3584bc1a68fd1dc31935a8623039b4d83778ac8f4ca200f54128b7ea1d7eb5",
+    "references/raw/round22_function_truth/PMC4248817.fulltext.txt": "888e4f2979bb880da8e5b89483c7dcb8db800e2c27a7b000534f88e90a1db3bc",
+    "references/raw/round22_function_truth/genomes/CP002404.gb": "789281cd92f00f74362c68f5dd3099315ba291c933f2cbc320113ab9f5da4116",
+    "references/raw/round22_function_truth/Ralbus_article.html": "7a95c4167b68f84707bcf47fa37417eda53a24efcd88fb0f0f0167e80d99d098",
+    "references/raw/round22_function_truth/additional_source_manifest.json": "8ef0e35371cbb34c368931c70ef6fa1cfd8b46c25c221d71e70d5dc2ad8ccd04",
+    "references/raw/round30_Ecallanderi/CP002273.gb": "02ddef8bd8447a07e076b9c27eae8d2dee2ee6c5218c140a760b51a3a070422c",
+    "experiments/round145_KIST612/source_assay_review_v1.json": "3f88f85ec60c9f9f1cbd19fe1b013e589f38261aed5fdb49eea1fd7545bfb83e",
+    "references/raw/round30_Ecallanderi/DOI15643.web_source.json": "c3a105e0200db1aab8fef01431fa7463697f6f611b1f1f92de8d6beb77c4119a",
+    "config/round30_distributed_function.json": "be2816c71780d4ae28860ef5ef665f663528271c8bd43223c06c850b2d843303",
+    "experiments/round143_KIST612/source_scope_review_v1.json": "0fb07ec5600e076cc64f02436aeb05e24589fcbb3c57d415263ffe6794539fb1",
+    "research_workflow/module_role_evidence.py": "7e6cc10a0af7c409a5479c5f4b0e5d859c453911c50d1307a4b1a21fa08eb8dc",
+    "research_workflow/fdh_role_model.json": "6f38374865b701328a487e6b346e8322a3c19b97b8d2ebb7630023b319cfd805",
+    "references/raw/cpasteurianum_DSM525.gb": "33ad8e005e5fbf740b830306406f506b933f48c84a4a42ea25388cf06f7a085e",
+    "experiments/round151_CpIII_assay/source_review_v1.json": "b0f5396d50880405b2a08d6f5aa7fc21e68e67af2ca05991a927d5c23914504b",
+    "references/raw/round117_CpII_sources/CpIII/WP_003447632.gb": "ff9c770d6f4504290c66942ee3aeca3a00c6a0d1ced76d9bcb66feded3570dc0",
+    "references/raw/round117_CpII_sources/CpIII/PMC12138974.xml": "039523088318d49c3a3b52cc13a7f92452c3db1fe4331805ce016484205f256d",
+    "references/raw/tonnurineus_NA1.gb": "e1301f1fb94c3f93787684e5d7b0ec9fab356a77fb541acd0d333b3e799d2e49",
+    "experiments/round154_frh_nucleotide/FrhAGB_Fdh3B_source_review_v1.json": "c70d6c6421cd01c57bf4dd1537d61561f5e8d839fb9884cc595e381838386e15",
+    "references/raw/round56_frh_function/PMC10734459.html": "815cdae7de1ed2044c62ed4c78d0463a8c83e53fbeed40d1a6b5c639383b8be1",
+    "references/raw/round34_function_sources/HpSH_CP037867.1.gb": "6a9b903cf26523779cda6591b6bfab4c7046b8c35e259086efdd58fa3030ee34",
+    "experiments/round158_independent_sources/HpSH_assay_contract_review_v1.json": "44fbc7325c982bfc94cfd23097f3aacd6460cd7bfaf170a13133ef3d8875833b",
+    "references/raw/round34_function_sources/PMC12809855.xml": "7784adf69a7388fc25f702de6706ffd990b5a36d06295effbfaf29f92794ccc7",
+    "references/raw/round34_function_sources/ao5c09877_si_001.txt": "891d8572a3aa96603edcca9c5e265bab56b8932cdd49f97d00717c1c2f42c571"
+  },
+  "assay_bank": "research_workflow/reference_assay_sets.json"
+}

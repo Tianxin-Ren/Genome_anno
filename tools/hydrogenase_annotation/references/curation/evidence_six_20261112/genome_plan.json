@@ -1,0 +1,105 @@
+[
+  {
+    "accession": "NC_007413.1",
+    "organism_check": "Anabaena variabilis",
+    "purpose": "Ni08 HupSL，ATCC29413"
+  },
+  {
+    "accession": "NC_002939",
+    "organism_check": "Geobacter sulfurreducens",
+    "purpose": "Ni03 HybSABLP，PCA"
+  },
+  {
+    "accession": "NC_000916.1",
+    "organism_check": "Methanothermobacter thermautotrophicus",
+    "purpose": "Ni11 Frh，DeltaH"
+  },
+  {
+    "accession": "NC_014328.1",
+    "organism_check": "Clostridium ljungdahlii",
+    "purpose": "Fe07 Hyt，DSM13528"
+  },
+  {
+    "accession": "NC_003551.1",
+    "organism_check": "Methanopyrus kandleri",
+    "purpose": "H01 Hmd，AV19"
+  },
+  {
+    "accession": "HG738867.1",
+    "organism_check": "MC4100",
+    "purpose": "Ni03/Ni04/Ni22，MC4100实验亲本完整基因组，避免借用MG1655"
+  },
+  {
+    "accession": "NC_003030.1",
+    "organism_check": "Clostridium acetobutylicum"
+  },
+  {
+    "accession": "NC_003197.2",
+    "organism_check": "Salmonella enterica"
+  },
+  {
+    "accession": "OX296583.1",
+    "organism_check": "Methanothermococcus thermolithotrophicus"
+  },
+  {
+    "accession": "NZ_OX296583.1",
+    "organism_check": "Methanothermococcus thermolithotrophicus"
+  },
+  {
+    "accession": "NC_057006.1",
+    "organism_check": "Chlamydomonas reinhardtii"
+  },
+  {
+    "accession": "NC_057009.1",
+    "organism_check": "Chlamydomonas reinhardtii"
+  },
+  {
+    "accession": "NC_005791.1",
+    "organism_check": "Methanococcus maripaludis"
+  },
+  {
+    "accession": "LM997411.1",
+    "organism_check": "Methylacidiphilum fumariolicum",
+    "purpose": "Ni06 M. fumariolicum SolV HhySL (GenBank)"
+  },
+  {
+    "accession": "NZ_LM997411.1",
+    "organism_check": "Methylacidiphilum fumariolicum",
+    "purpose": "Ni06 M. fumariolicum SolV HhySL (RefSeq annotated MFUMSOLV_RS)"
+  },
+  {
+    "accession": "CP001629.1",
+    "organism_check": "Desulfomicrobium baculatum",
+    "purpose": "Ni01 D. baculatum DSM 4028 [NiFeSe] (4KO1/4KO2)"
+  },
+  {
+    "accession": "CP181154.1",
+    "organism_check": "Sporomusa sphaeroides",
+    "purpose": "Fe08 S. sphaeroides KIAC HydABC (pJIR-NADP)"
+  },
+  {
+    "accession": "CP000721.1",
+    "organism_check": "Clostridium beijerinckii",
+    "purpose": "Ni21 C. beijerinckii NCIMB 8052 Cbei_1773 (100% match to SM10 CbA5H AOZ57087.1)"
+  },
+  {
+    "accession": "CP009920.1",
+    "organism_check": "Bacillus megaterium",
+    "purpose": "Ni21 P. megaterium ATCC 14581 CYP102A1 BMR"
+  },
+  {
+    "accession": "BA000019.2",
+    "organism_check": "Nostoc sp. PCC 7120",
+    "purpose": "Ni21 Anabaena/Nostoc PCC 7120 FNR reference"
+  },
+  {
+    "accession": "NC_057014.1",
+    "organism_check": "Chlamydomonas reinhardtii",
+    "purpose": "Ni21 C. reinhardtii chr11 CrFNR (CHLRE_11g476750v5)"
+  },
+  {
+    "accession": "NC_057017.1",
+    "organism_check": "Chlamydomonas reinhardtii",
+    "purpose": "Ni21 C. reinhardtii chr14 CrPetF (CHLRE_14g626700v5)"
+  }
+]

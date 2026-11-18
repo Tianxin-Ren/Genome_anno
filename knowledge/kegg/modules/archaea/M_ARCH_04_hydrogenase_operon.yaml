@@ -1,0 +1,35 @@
+module_id: "M_ARCH_04"
+name: "Archaeal multi-subunit hydrogenase complex operons"
+category: "Energy metabolism"
+subcategory: "Hydrogen metabolism"
+evidence_type:
+  - "sequence_classifier"
+  - "catalytic_subunit_domain"
+  - "accessory_subunits"
+  - "gene_neighborhood"
+  - "ko_logic"
+relationship_to_kegg: "not_in_kegg_module"
+description: "Archaeal [NiFe] / F420-dependent hydrogenase operons with gene neighborhood and domain support"
+
+operon_rules:
+  same_contig_required: true
+  max_intervening_genes: 5
+  strand_consistency: "recorded_not_required"
+  record_operon_span_bp: true
+
+subtypes:
+  - name: "F420_reducing_hydrogenase_Frh"
+    group: "HydDB_Group_3a"
+    catalytic_ko: "K00440" # frhA
+    accessory_kos: ["K00441", "K00442"] # frhB, frhD
+    pfam_domains: ["PF00374", "PF02906"]
+  - name: "Ech_hydrogenase"
+    group: "HydDB_Group_4"
+    catalytic_ko: "K14086" # echA
+    accessory_kos: ["K14087", "K14088"] # echB, echC
+    pfam_domains: ["PF00374", "PF00146"]
+  - name: "F420_non_reducing_hydrogenase_Mvh"
+    group: "HydDB_Group_3c"
+    catalytic_ko: "K14126" # mvhA
+    accessory_kos: ["K14127", "K14128"] # mvhD, mvhG
+    pfam_domains: ["PF00374", "PF00037"]

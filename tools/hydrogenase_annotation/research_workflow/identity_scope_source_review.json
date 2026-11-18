@@ -1,0 +1,101 @@
+{
+  "version": "group4f-source-scope-review-20261028",
+  "stage": "posthoc_development_source_review_after_two_Ehr_errors",
+  "source_url": "https://www.hyddb.net/browser/class/nife-group-4f/",
+  "source_path": "references/raw/round55_identity_scope/HydDB_Group4f.html",
+  "source_sha256": "3e46535bfad0181412d7e07555e7cb5ee5eb9cb7ef3ec9a380a1e8a1aa80203f",
+  "prototype_path": "references/processed/catalytic_confirmation/prototypes.json",
+  "prototype_sha256": "78fafd89e0d202d90d56d015355a1b5472612d0ba702d50ba6481bcef8ac97ae",
+  "uncertain_positive_prototypes": [
+    {
+      "prototype_id": "prototype_05b2474743d2c5af250b",
+      "source_units": [
+        "seq_05b2474743d2c5af250b"
+      ],
+      "source_accessions": [
+        [
+          "WP_015945149.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_2307d36cd80a1d9ecad6",
+      "source_units": [
+        "seq_2307d36cd80a1d9ecad6"
+      ],
+      "source_accessions": [
+        [
+          "WP_021718870.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_2e90d0d37d2ab977a835",
+      "source_units": [
+        "seq_2e90d0d37d2ab977a835"
+      ],
+      "source_accessions": [
+        [
+          "WP_014795396.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_814e7526e694d34f41fd",
+      "source_units": [
+        "seq_814e7526e694d34f41fd"
+      ],
+      "source_accessions": [
+        [
+          "WP_019553945.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_a7fa5dfa8de874441833",
+      "source_units": [
+        "seq_a7fa5dfa8de874441833"
+      ],
+      "source_accessions": [
+        [
+          "WP_009619272.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_c19c908a9fe10e7816f8",
+      "source_units": [
+        "seq_c19c908a9fe10e7816f8"
+      ],
+      "source_accessions": [
+        [
+          "WP_014902103.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_d60870f23c8543fa4c51",
+      "source_units": [
+        "seq_d60870f23c8543fa4c51"
+      ],
+      "source_accessions": [
+        [
+          "WP_019851221.1"
+        ]
+      ]
+    },
+    {
+      "prototype_id": "prototype_fe90cddad9fb2c5cbab4",
+      "source_units": [
+        "seq_fe90cddad9fb2c5cbab4"
+      ],
+      "source_accessions": [
+        [
+          "WP_013843216.1"
+        ]
+      ]
+    }
+  ],
+  "policy": "A best positive from this prediction-only reference lineage may support a hydrogenase-like lineage hypothesis, but cannot alone support the new catalytic-family identity transfer branch. Do not relabel the frozen truth or replace it with a negative.",
+  "limits": "This is an identified uncertainty, not proof that all other lineage labels are experimentally established. The review is not a new blind test."
+}

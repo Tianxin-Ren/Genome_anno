@@ -1,0 +1,86 @@
+# ==============================================================================
+# Global Project Root (All relative paths will be prefixed with this)
+# ==============================================================================
+project_root: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin"
+
+# ==============================================================================
+# Sample List (Paths are relative to project_root)
+# ==============================================================================
+samples:
+  "Bathy_enrichment_2025":
+    long_read:
+      lr: "data/lr/Bathy_enrichment_ont.hhn.2025.fq.gz"
+    # short_read:
+    #   r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/project/Bathy_LR/run/Bathy_enrichment1/sr_QC/Bathy_enrichment1_1.fq.gz"
+    #   r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/project/Bathy_LR/run/Bathy_enrichment1/sr_QC/Bathy_enrichment1_2.fq.gz"
+    transcriptome:
+      r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/project/Bathy_LR/run/Bathy_enrichment1/transcript/02_trimmed_reads_1P.fq.gz"
+      r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/project/Bathy_LR/run/Bathy_enrichment1/transcript/02_trimmed_reads_2P.fq.gz"
+    selected_contigs:
+      u1287049: { complete: true }
+      u601479: { complete: true }
+      u896703: { complete: true }
+      u999856: { complete: true }
+    abundance_ref: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_bins_filtered"
+
+  # "6442":
+  #   short_read:
+  #     external_clean_r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/Mariana_metagenomics/samples/6442/01_qc/6442_R1.clean.fastq.gz"
+  #     external_clean_r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/Mariana_metagenomics/samples/6442/01_qc/6442_R2.clean.fastq.gz"
+  #   external_assembly: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/Mariana_metagenomics/samples/6442/02_assembly/6442_megahit/6442.contigs.fa"
+
+
+# ------------------------------------------------------------------------------
+# 5. External Genomes (Standalone Reference/Isolates)
+# ------------------------------------------------------------------------------
+# Results: results/annotation/external/circular_refined/{name}/
+external_genomes:
+  # Example:
+  Bathy_Ref1: 
+    path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_024650005.2_ASM2465000v2_genomic.fna"
+    complete: true
+  Bathy_A0C1_1: 
+    path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_020351305.1_ASM2035130v1_genomic.fna"
+    complete: true
+  Bathy_A0C1_2: 
+    path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/Bathy_ref/GCA_020354575.1_ASM2035457v1_genomic.fna"
+    complete: true
+# ------------------------------------------------------------------------------
+# 6. Samples with External Assembly (Skip Assembly, go to Binning & Annotation)
+# ------------------------------------------------------------------------------
+# 示例一：【仅注释模式 (最推荐)】如果你有 20+ 个组装好的 FASTA，只想跑 Bakta + Unified HMM，
+# 建议直接在上面的 `external_genomes` 下添加，无需提供测序 read，速度极快：
+#
+# external_genomes:
+#   Bathy_Assembly_1:
+#     path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/my_assemblies/assembly1.fa"
+#     complete: false
+#   Bathy_Assembly_2:
+#     path: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/my_assemblies/assembly2.fa"
+#     complete: false
+#
+# ------------------------------------------------------------------------------
+# 示例二：【混合分析模式】如果你想使用已有的组装文件，同时还需要用 reads 跑 binning/丰度定量：
+#
+# samples:
+#   "My_Sample_01":
+#     short_read:
+#       r1: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/reads/sr_R1.fq.gz"
+#       r2: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/reads/sr_R2.fq.gz"
+#     external_assembly: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/data/my_assemblies/assembly1.fa"
+#
+
+# ==============================================================================
+# 7. External Genomes Batch Subfolder Name (Optional / 批量基因组打包批次名)
+# ==============================================================================
+# 💡 推荐设置：如果你配置了此项，所有外源基因组（external_genomes）的注释和 blastp 比对结果
+# 都将统一归纳到 results/external_annotation/<external_genomes_batch>/ 下，而不再是全部平铺在 results/external_annotation/ 下。
+# 留空（或不配置）则保持原样，直接平铺在 results/external_annotation/ 下。
+#
+# external_genomes_batch: "bathyarchaeia_gtdb"
+
+#
+# ==============================================================================
+# 8. GTDB-Tk Tasks Configuration (GTDB-Tk 批量分类任务)
+# ==============================================================================
+gtdbtk_tasks: {}

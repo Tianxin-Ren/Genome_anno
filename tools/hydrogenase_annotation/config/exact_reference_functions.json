@@ -1,0 +1,28 @@
+{
+  "version": "round27-development-exact-six-subunit-reference-transfer",
+  "scope": "Deterministic source-backed reference sequence replay only. Not a similarity cutoff calibration or a generalizing function classifier.",
+  "eligible_structure_ids": [
+    "NiFe_Amobile_HydABCSL",
+    "FeFe_Sfructo_HndABCD",
+    "FeFe_Mthermo_HydABCDEF"
+  ],
+  "eligible_input_modes": [
+    "genome",
+    "bin",
+    "assembly"
+  ],
+  "eligible_structure_statuses": [
+    "complete_supported",
+    "core_complete_accessory_missing"
+  ],
+  "active_center_status": "template_ligand_set_supported",
+  "active_span_status": "supported",
+  "required_reference_scope": "reviewed_purified_reference_member_exact_native_CDS_correspondence",
+  "forbidden_pairing_statuses": [
+    "overlapping_fixed_member_pairing_unresolved",
+    "provisional_member_overlap_unresolved"
+  ],
+  "sequence_rule": "All required structural roles map one-to-one to complete, unambiguous, full native protein sequences exactly equal to their experimentally characterized reference components; same local ownership and compatible coordinates. No fragments, fusion or variant inference.",
+  "output_scope": "Molecular reaction potential under the reference assay context. Query folding, metal occupancy, activity, expression, physiological use, rates and net direction remain unknown. Catalytic identity calibration and structural confidence are not promoted.",
+  "catalytic_status": "supported"
+}

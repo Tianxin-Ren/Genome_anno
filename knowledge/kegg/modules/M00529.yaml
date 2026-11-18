@@ -1,0 +1,14 @@
+module_id: "M00529"
+name: "Denitrification, nitrate -> nitrogen"
+category: "Energy metabolism"
+subcategory: "Nitrogen metabolism"
+definition: "(K00370+K00371,K02567+K02568) (K00368,K15864) (K04561+K02305) K00376"
+key_kos:
+  - "K00370" # narG
+  - "K00371" # narH
+  - "K02567" # napA
+  - "K00368" # nirK
+  - "K15864" # nirS
+  - "K04561" # norB
+  - "K00376" # nosZ
+description: "Dissimilatory nitrate reduction cascade yielding molecular dinitrogen."

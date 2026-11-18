@@ -1,0 +1,21 @@
+# ==============================================================================
+# Master Configuration for Standalone Protein HMM Annotation
+# ==============================================================================
+data:
+  samples: "./samples.yaml"
+
+modules:
+  annotation:
+    path: "./annotation.yaml"
+    enable: True
+  postprocess:
+    path: "./postprocess.yaml"
+    enable: False
+
+# ==============================================================================
+# Project and output roots. Conda and database paths come from the selected
+# platform configuration.
+# ==============================================================================
+paths:
+  project_root: "/dssg/home/acct-schhui/gses0/rentianxin"
+  results: "results"

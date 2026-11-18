@@ -1,0 +1,48 @@
+# ==============================================================================
+# Visualize Module Configuration (Default Settings)
+# ==============================================================================
+visualize:
+  # Enable the visualization module
+  enable: false
+  
+  # Base directory for all visualization outputs (relative to project_root)
+  results_dir: "results/visualize"
+  
+  # Conda environment settings. Can be a named env or a path to a conda environment prefix.
+  conda_envs:
+    python: "python"
+    
+  # Specific plots and reports that can be toggled
+  plots:
+    # Abundance heatmaps based on coverm or featureCounts results
+    abundance_heatmap:
+      enable: true
+      input_type: "coverm"   # Options: "coverm", "featureCounts"
+      format: "pdf"          # Options: "pdf", "png", "svg"
+      palette: "viridis"     # Options: "viridis", "plasma", "inferno", "coolwarm"
+      
+    # Quality assessment plots (CheckM completeness vs contamination)
+    quality_assessment:
+      enable: true
+      input_type: "checkm"   # Options: "checkm"
+      format: "png"
+      
+    # Taxonomic profiling charts (GTDB-Tk results)
+    taxonomic_profile:
+      enable: true
+      input_type: "gtdbtk"   # Options: "gtdbtk"
+      format: "html"         # Options: "html", "png"
+      
+  # Circular genome maps configuration
+  circular_genome:
+    # Abundance metric column name to extract from the TPM TSV file.
+    # Set to "auto" for automatic priority detection (localgene + tpm_mapped).
+    # Or specify the exact column name (case-insensitive, e.g. "TPM_Mapped", "TPM_Lib", "Counts").
+    abundance_metric: "auto"
+
+  # Global report settings
+  report:
+    title: "Genome_anno Metagenomic Analysis Report"
+    theme: "dark"            # Options: "dark", "light"
+    interactive: true
+

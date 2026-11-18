@@ -1,0 +1,26 @@
+# Copy this directory to projects/<task_name> for a new independent task.
+runtime:
+  platform: "config/platforms/local.yaml"
+
+paths:
+  project_root: "${GENOME_ANNO_PROJECT_ROOT}"
+  results: results
+  logs: logs
+  work: work
+
+data:
+  samples: "./samples.yaml"
+
+modules:
+  preprocess:
+    path: "./preprocess.yaml"
+    enable: false
+  assembly:
+    path: "./assembly.yaml"
+    enable: false
+  annotation:
+    path: "./annotation.yaml"
+    enable: true
+  postprocess:
+    path: "./postprocess.yaml"
+    enable: false

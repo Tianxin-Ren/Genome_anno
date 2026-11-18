@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "curated",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/curation/source_proteins.faa",
+  "number-of-letters": 527678,
+  "number-of-sequences": 1473,
+  "last-updated": "2026-10-27T12:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 884437,
+  "bytes-to-cache": 541168,
+  "files": [
+    "curated.pdb",
+    "curated.phr",
+    "curated.pin",
+    "curated.pot",
+    "curated.psq",
+    "curated.ptf",
+    "curated.pto"
+  ]
+}

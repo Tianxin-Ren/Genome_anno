@@ -1,0 +1,33 @@
+# ==============================================================================
+# Samples Configuration (config_read)
+# ==============================================================================
+
+# 1. Global Project Root
+# All relative output and log directories will be resolved relative to this root.
+project_root: "/dssg/home/acct-schhui/gses0/rentianxin"
+
+# 2. Data Configuration (Migrated from pipeline.yaml to samples.yaml)
+data:
+  samples: "/dssg/home/acct-schhui/gses0/rentianxin/data/osma_progress/sylph_batch2.tsv"
+
+# 3. Optional Explicit Sample Overrides (Named by Sample/RUN_id)
+# Samples are normally imported from the TSV above. Entries here override
+# paths for matching RUN_id values when the TSV points to moved files.
+# Snakemake executes individual jobs (recommended: 8 cores per sample) and produces:
+#   Raw Profiling: {project_root}/results/MetaG-reads/sylph/{sample}/{sample}.sylph.tsv
+#   Taxonomy MPA:  {project_root}/results/MetaG-reads/sylph/{sample}/gtdb_r226_{sample}.sylphmpa
+#   Log:           {project_root}/logs/read_profiling/sylph/{sample}.log
+# Followed by automatic aggregation into:
+#   Merged Profiling: {project_root}/results/MetaG-reads/sylph/merged_sylph_profiling.tsv
+#   Merged Rel Abun:  {project_root}/results/MetaG-reads/sylph/merged_gtdb_r226_relative_abundance.tsv
+#   Merged Seq Abun:  {project_root}/results/MetaG-reads/sylph/merged_gtdb_r226_sequence_abundance.tsv
+samples:
+  # "DP8480005241BL_L01_102":
+  #   short_read:
+  #     r1: "/union/home/acct-schhui/gses0/output_all/DP8480005241BL_L01_102/00.QC/DP8480005241BL_L01_102.clean.1.fq.gz"
+  #     r2: "/union/home/acct-schhui/gses0/output_all/DP8480005241BL_L01_102/00.QC/DP8480005241BL_L01_102.clean.2.fq.gz"
+
+  # "DP8480005241BL_L01_60":
+  #   short_read:
+  #     r1: "/union/home/acct-schhui/gses0/output_all/DP8480005241BL_L01_60/00.QC/DP8480005241BL_L01_60.clean.1.fq.gz"
+  #     r2: "/union/home/acct-schhui/gses0/output_all/DP8480005241BL_L01_60/00.QC/DP8480005241BL_L01_60.clean.2.fq.gz"

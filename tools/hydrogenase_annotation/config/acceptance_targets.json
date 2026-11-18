@@ -1,0 +1,38 @@
+{
+  "version": "2.0-preregistered-20261026",
+  "objective": "原核 genome、单 MAG/bin 与未分箱 assembly 的分层氢酶注释：可靠发现、逐位点可解释结构、有实验参考边界的分子反应能力。",
+  "review_source": "/Users/rentianxin/.codex/attachments/b4157b7f-adcd-4a68-afe4-c0ab5d3e99dc/pasted-text-1.txt",
+  "rules": [
+    "本文件先于独立测试结果固定；变更必须保留旧版本和理由，不能为了通过降低目标。",
+    "既有 25 个系统、28 条功能与 61 项检查属于回归，不代替独立性能评估。",
+    "缺数据、缺独立性、缺真值或缺运行证据均为未达到；不得用零个可评价输出取得精确率通过。",
+    "性能报告必须提供逐例预测、TP/FP/FN、适用时 TN、分母、覆盖率和 95% 置信区间。",
+    "性能同时按家族、Group 4 分支、输入模式与完整度分层，不能用总体平均掩盖关键分支失败。",
+    "功能只有一个实验代表的稀少亚型允许逐例报告，但不得声称该亚型达到统计分类准确率。",
+    "所有查询的真实辅因子占据、实际活性、体内净方向和生理通量保持 unknown/unresolved。",
+    "生产发布必须满足全部必需项；任何局部回合通过不等于整个目标完成。"
+  ],
+  "requirements": [
+    {"id":"M0_REFERENCE", "required":true, "target":"清除 PF0892 及其他同名误归；全部蛋白、25 系统、28 功能具有精确 accession、序列哈希、来源、证据等级；成熟类按结构域/生化身份复核，不再从 gene name 自动启用。", "proof":"逐条审核表、结构域证据、建库校验与禁止误归回归测试"},
+    {"id":"M0_REGRESSION", "required":true, "target":"保留全部原有回归案例；标签变化逐例解释；无未解释回归。", "proof":"版本化的完整回归结果与前后差异"},
+    {"id":"M1_DISCOVERY", "required":true, "target":"分支催化核心模型发现与催化真伪确认分开；常见覆盖类型独立 recall >=0.95。", "minimum":"不少于 100 条独立实证/高可靠催化阳性，覆盖 NiFe/FeFe；Fe/Hmd 稀少类型另报逐例证据", "proof":"固定测试清单、序列/分类留出审计、HMM-only 发现结果、混淆计数及 Wilson 95% CI"},
+    {"id":"M1_GROUP4", "required":true, "target":"远缘 NiFe Group 4 HMM-only recall >=0.90，不能靠 BLAST 原参考回收。", "minimum":">=20 条测试阳性、>=4 个分支、>=3 个属；与训练序列最大 identity <=60%，且覆盖比较 >=70%；近缘测试另列", "proof":"真实来源、独立划分、全训练比对泄漏审计、分支计数和逐例 HMM 证据"},
+    {"id":"M1_PRECISION", "required":true, "target":"高置信催化身份 precision >=0.99；候选召回与高置信 precision 分开报告。", "proof":"真实阳性与困难阴性混合独立集、非零可评价阳性输出和 95% CI"},
+    {"id":"M1_NEGATIVES", "required":true, "target":"NuoCD、Mbx/Mbs、Ehr、NARF、HmdII/III 等真实困难负例错误高置信功能=0。", "proof":"排除家族的精确序列、原始功能来源、逐例负例预测；不能把未注释蛋白全当真阴性"},
+    {"id":"M2_CATALYTIC_SITES", "required":true, "target":"NiFe L1/L2 四配位及邻近位点、完整 FeFe H-domain 关键配位、Hmd FeGP 位点逐位置映射；状态 present/substituted/not_covered/ambiguous 正确率 >=0.98。", "proof":"独立结构真值与手工坐标、截短/缺口/未知残基/Cys-Sec 边界对照；报告模型覆盖边界"},
+    {"id":"M2_SEC_INPUT", "required":true, "target":"不把未覆盖位点标为替换；支持 CXXU/UXXC/UXXU 的候选边界测试，明确计算候选与实证区别；UGA/Sec 截短与 partial 有专项输出。", "proof":"残基四状态、真实 FdhF 输入差异和构造边界测试"},
+    {"id":"M2_FES", "required":true, "target":"有结构真值的 Fe-S site 独立高置信簇类型/配位组合一致率 >=0.95；不能以全参考 Cys 一致替代。", "minimum":"至少 NiFe 特殊近端簇、常规 Fe-S 链、Huc、FeFe 融合与 HydB/C 模块；模板与独立查询分开", "proof":"PDB/mmCIF 配位真值、模板/查询残基坐标、替代配位/缺失/unknown 对照、逐簇统计；occupancy 始终 unknown"},
+    {"id":"M2_MODULE_GRAPH", "required":true, "target":"必需/可替代/可选/背景模块分开；支持有证据的融合与拆分；同一结构域不能重复使用；定位和拓扑有独立证据。", "proof":"结构域坐标、模块关系与候选配对表、真实融合/拆分样本和组装扰动"},
+    {"id":"M2_COMPLEX", "required":true, "target":"独立完整复合体 precision >=0.95 且 recall >=0.90。", "proof":"按实验复合体而非功能行计数；完整/不完整/重排/跨 contig 分层真值与 95% CI"},
+    {"id":"P0_INPUT_SCOPE", "required":true, "target":"明确 genome/bin/assembly/transcript；assembly 跨 contig 不关联远距伙伴，bin 只能在同可信 bin 中关联；不支持的真核 DNA 入口清楚拒绝/界定。", "proof":"跨 bin、未分箱、错误映射、无坐标转录本、同一 genome 远距伙伴的真实运行对照"},
+    {"id":"P0_CROSS_BIN", "required":true, "target":"跨 bin 模拟错误拼装完整氢酶=0；不把缺伙伴等同氢酶不存在。", "proof":"跨 bin FdhF/Hdr 等互补模拟及逐成员关联范围"},
+    {"id":"M3_CALIBRATION", "required":true, "target":"发现、催化真伪、结构和功能分别标定；不再用统一 70%/80% identity 当作生化功能边界。", "proof":"训练/校准/最终测试固定分离，校准记录、参数理由、79.837% 边界与困难机制对照"},
+    {"id":"M3_FUNCTION", "required":true, "target":"实证可评价功能 precision >=0.95，同时报告自动赋值覆盖率和各功能样本量；不能靠全部拒答通过。", "proof":"独立功能真值、Hyb/Ech 多反应、Tm/Sw、Huc/Hhy、Vht/Vhx、Hox 调控差异对照，95% CI"},
+    {"id":"M3_SPLIT", "required":true, "target":"先固定同源簇与分类单元划分，再校准与测试；独立样本不得进入 HMM、参考库、阈值训练或模板选择。", "proof":"冻结清单与哈希、跨集最大 identity/覆盖、属/科留出审计；发现泄漏则作废相应性能结论"},
+    {"id":"OUTPUT_LAYERS", "required":true, "target":"L1-L6 可分别解释；catalytic_status/structure_status/function_status 独立；所需九种证据输出与参考来源齐备，保留旧表兼容字段。", "artifacts":["catalytic_anchors.tsv","catalytic_sites.tsv","fes_sites.tsv","complexes.tsv","complex_members.tsv","reaction_capabilities.tsv","maturation.tsv","annotation_evidence.tsv","run_manifest.json"]},
+    {"id":"REPRODUCIBILITY", "required":true, "target":"固定输入、模型和配置重复运行标签一致率=1.00。", "proof":"两次实际运行比较规范化标签，完整输入/代码/模型/参数/软件哈希；不能只比较状态文件"},
+    {"id":"M4_MAG_PILOT", "required":true, "target":"从真实 83,158 个 MAG/基因组中分层约 1,000 个试运行，核对分类、完整度、contig 长度、潜在氢酶类型、新旧差异、失败与资源开销。", "proof":"真实序列与坐标、抽样清单、运行结果、分层差异审核及实际资源记录；仅汇总标签不能替代输入"},
+    {"id":"M4_FALSE_POSITIVE_BOUND", "required":true, "target":"最终高置信非氢酶误报率单侧 95% 上限 <=1e-6/可信非氢酶蛋白；达不到只报现有上限，不宣称生产达标。", "proof":"足量独立可靠阴性；零误报约需 300 万，报告 Clopper-Pearson 上限与独立性限制"},
+    {"id":"M4_RELEASE", "required":true, "target":"上述全部必需项证据通过后形成固定版本，保留原始数据、旧版本和失败追踪；再开展全库最终重注释。", "proof":"逐项完成审计、冻结发布清单和测试报告；不能仅凭测试脚本返回零判定"}
+  ]
+}

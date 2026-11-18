@@ -1,0 +1,45 @@
+{
+  "version": "canonical_Hmd_FeGP_H4MPT_potential_v4",
+  "min_identity": 80,
+  "min_coverage": 0.8,
+  "max_evalue": 1e-10,
+  "context_min_coverage": 0.8,
+  "context_min_identity": 25,
+  "template": "3F47__entity_1",
+  "canonical_reference": "Fe_Hmd__Hmd",
+  "ligand_position": 176,
+  "signature_position": 14,
+  "sources": {
+    "research_workflow/coding_completeness.py": "fa0221e96f485d30872322508d28ba741820b9b7e2d9f38e24ca78eabb4ea30a",
+    "references/raw/catalytic_structures/3F47.cif": "e728b2946886d7a2dcc2755d1c32d84df58ba4cf2e773c5090a9b008b7285e0f",
+    "references/raw/reference_domain_review/structure_uniprot/Q58194.json": "92d02cfe0ab4364418050ce8b3a370139d88abe6d718efc138cfa89b9dceed11",
+    "references/raw/round18_paralog_sources/mjannaschii_DSM2661.gb": "f72cf340788474c7da0de3466ce3f0f2c6c7ecb4252c75a55e57e99245164806",
+    "references/raw/uniprot_P32440.json": "2c52d9edf61c94352f7c940054498a82eb6361411bb562a3d08b6ace02c6682e",
+    "references/processed/references.json": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+    "references/processed/active_centers/models.json": "60f2f3b8d2322315e65a9f675a8210405f6f9c742220aba8e73dcb8623b973fc",
+    "experiments/round76/canonical_Hmd_sources/review.json": "d88e5a1a5699027c765362acf6f8c9e64bdefb9a711e666d9b19e2b2f17073eb",
+    "references/raw/round76_canonical_Hmd/source_manifest.json": "0088562eaf5aac50dc4e8cb4a64d8fbf726404d153803111dcb3c62dc119363e",
+    "references/processed/catalytic_confirmation/prototypes.json": "78fafd89e0d202d90d56d015355a1b5472612d0ba702d50ba6481bcef8ac97ae",
+    "references/processed/references.faa": "e7af49894dcaa8aae0afe445f8e3351e321f3badaa748d8e742c69d12c8e7f38",
+    "config/active_center_review.json": "b3d7d1e14283ab1347487459fa0686842cb8b77fa0274ff3db996bef6de96301",
+    "scripts/active_centers.py": "5d5fd57e5bfff85dc98e7be5348c4f88ad2bcd2e60f99cbc5825f7cc3d42cf40",
+    "experiments/round95/canonical_Hmd_reference_review.json": "d34f02fe3ee7f381bf785857646033043017e3278644e1034f6fb80a92d3c21d",
+    "experiments/round95/hmd_science_review_sources/X60719.1.embl": "2cfc86a43c5e3d932b0472c37e1c2948be281221575d600f0962b256b9df576d",
+    "experiments/round95/hmd_science_review_sources/NC_003551.1.gbff": "3816f88dbaebd9b8fe8024d5fa0d04625ba15018b338842b6bc433bb11c4bb6a",
+    "experiments/round95/hmd_science_review_sources/Q02394.uniprot.txt": "136e8e6c7c47fb1c60a149d0f2add38c5b6097dd6fdef57f2fcb5e5bac881f49",
+    "experiments/round95/hmd_science_review_sources/PMID1521540.xml": "f77ebf9464d70ea2717dcf26da288d526a503708ec5fb3e467d774e5cf5f26b0",
+    "experiments/round95/hmd_science_review_sources/manifest.json": "fd499603943749f434f3f05d8e26c3c82a741b7656153bded78a1e139726987b",
+    "experiments/round111_function_validation/canonical_branch_rule_review.json": "6b61dadeda0a11037c8b40aef74072be64a47b08b258f505d91b474c5b9a149e"
+  },
+  "scope": "Two separate uncalibrated claims: original 80% reference reaction transfer unchanged; concordant complete canonical branch versus every searched alternative plus FeGP/H14 contexts can support tentative H4MPT reaction potential. No activity, occupancy, exclusivity or physiological direction.",
+  "primary_sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/16887798/",
+    "https://pubmed.ncbi.nlm.nih.gov/11081790/"
+  ],
+  "canonical_prototypes": [
+    "prototype_55cceebc1e643ab632c4",
+    "prototype_e94f14b526651b1c783a"
+  ],
+  "canonical_prototype_review": "references/processed/canonical_hmd_review.json",
+  "branch_rule": "canonical_Hmd_concordant_branch_v1"
+}

@@ -1,0 +1,774 @@
+{
+  "version": "round27-typed-six-subunit-reference-contract",
+  "scope": "Reference molecular capabilities, conditional physiology and regulation remain distinct. Metadata enables explicit comparisons; it is not a calibrated query function classifier.",
+  "legacy_review_sha256": "d93b6fdd838deff6efceaad5fbdc5c4c7bd442059bd47d109ec28cd6219009f1",
+  "contracts": [
+    {
+      "contract_id": "Ni05",
+      "structure_id": "NiFe_Ecoli_Hyd1",
+      "legacy_function_id": "Ni05",
+      "reaction_key": "H2_quinone_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "quinone_pool"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+      "molecular_reaction": "H\u2082 + Q \u2192 QH\u2082",
+      "reviewed_record_sha256": "10ee6bba3e7aaa2157b1da62fcaf4e6965ed5ba96b9100c305d11a35d062a188",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni03",
+      "structure_id": "NiFe_Ecoli_Hyd2",
+      "legacy_function_id": "Ni03",
+      "reaction_key": "H2_quinone_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "quinone_pool"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "molecular_reaction": "H\u2082 + Q \u2192 QH\u2082\uff08\u7ecfHybA/HybB\uff09",
+      "reviewed_record_sha256": "8195b25296f6d90faae93e54e977d3dab45526de5b0557baffae6f189dd7347c",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni04",
+      "structure_id": "NiFe_Ecoli_Hyd2",
+      "legacy_function_id": "Ni04",
+      "reaction_key": "quinol_H2_evolution",
+      "electron_donors": [
+        "quinol_pool"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "conditional_energy_environment_in_reference",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "molecular_reaction": "QH\u2082 \u2192 Q + H\u2082\uff08\u65b9\u5411\u6027\u53cd\u8f6c\uff0c\u9700\u80fd\u91cf\u73af\u5883\uff09",
+      "reviewed_record_sha256": "7653fb78531158f3e10f092f970da87eb361ece8238c899bfc4b1c495480566d",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni15",
+      "structure_id": "NiFe_FHL1_Hyc",
+      "legacy_function_id": "Ni15",
+      "reaction_key": "formate_H2_evolution",
+      "electron_donors": [
+        "formate"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9474812/",
+      "molecular_reaction": "HCOO\u207b + H\u207a \u2192 CO\u2082 + H\u2082",
+      "reviewed_record_sha256": "f3e16191227398724e839d2d74c9c037b689decbba94759c85323b50804f633d",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni09",
+      "structure_id": "NiFe_HucLMS",
+      "legacy_function_id": "Ni09",
+      "reaction_key": "H2_menaquinone_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "menaquinone"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://www.nature.com/articles/s41586-023-05781-7",
+      "molecular_reaction": "\u5927\u6c14H\u2082 + MQ \u2192 MQH\u2082",
+      "reviewed_record_sha256": "8d51eaf24121f14b449ba76e7bbb77e57c4fe3bf359e809822a25cb174d741e4",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Reference biochemical assays used quinone analogues alongside structural quinone evidence; atmospheric affinity is not assigned to every homolog. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni11",
+      "structure_id": "NiFe_FrhABG",
+      "legacy_function_id": "Ni11",
+      "reaction_key": "H2_F420_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "F420"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+      "molecular_reaction": "H\u2082 + F\u2084\u2082\u2080 \u2192 F\u2084\u2082\u2080H\u2082",
+      "reviewed_record_sha256": "896aa508dc52e32d1166e006cd37480aea84760bce5f112d4a43e57b865a939e",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni13",
+      "structure_id": "NiFe_MvhHdr",
+      "legacy_function_id": "Ni13",
+      "reaction_key": "H2_heterodisulfide_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "CoM-S-S-CoB",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://doi.org/10.1073/pnas.1016761108",
+      "molecular_reaction": "H\u2082 \u2192 CoM-S-S-CoB\u8fd8\u539f + Fdox\u8fd8\u539f\uff08\u8026\u8054\uff1b\u7701\u7565\u8ba1\u91cf\uff09",
+      "reviewed_record_sha256": "a7c8975b29e34419df6161cf9a2f621976a755ed0de783d88ee583be969da718",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni19",
+      "structure_id": "NiFe_EchABCDEF",
+      "legacy_function_id": "Ni19",
+      "reaction_key": "Fd_dependent_H2_evolution",
+      "electron_donors": [
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "direct_electron_partner",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+      "molecular_reaction": "Fdred + H\u207a \u2192 Fdox + H\u2082\uff08\u751f\u7406\u65b9\u5411\uff09",
+      "reviewed_record_sha256": "5637989baaeb8f82fc8a9e53e66be568c41ad5607105755678993456124f1e66",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni20",
+      "structure_id": "NiFe_EchABCDEF",
+      "legacy_function_id": "Ni20",
+      "reaction_key": "H2_Fd_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "direct_electron_partner",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "conditional_reverse_direction_reference_physiology_not_unconditional_pure_assay",
+      "reference_evidence_scope": "reference_conditional_physiological_genetic_direction",
+      "capability_scope": "conditional_reverse_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11929975/",
+      "molecular_reaction": "H\u2082 + Fdox \u2192 Fdred\uff1b\u53ef\u80fd\u53d7\u79bb\u5b50\u52a8\u529b\u52bf\u9a71\u52a8",
+      "reviewed_record_sha256": "a71a7d03631e75eacf14b03b93fe8b1991af7eaf1882166d5610cceb2b1a09c3",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Reverse direction/energy coupling is conditional; this row is not an unconditional purified-enzyme flux measurement. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni18",
+      "structure_id": "NiFe_Pf_Mbh",
+      "legacy_function_id": "Ni18",
+      "reaction_key": "Fd_dependent_H2_evolution",
+      "electron_donors": [
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "direct_electron_partner",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "reference_ion_coupling_no_query_flux_or_stoichiometry",
+      "reference_evidence_scope": "reference_complex_biochemistry_and_energy_coupling",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+      "molecular_reaction": "Fdred + H\u207a \u2192 Fdox + H\u2082\uff1b\u4e0eNa\u207a\u8de8\u819c\u8f6c\u8fd0\u8026\u8054",
+      "reviewed_record_sha256": "c5a60aa160987bb684830018584a35c8f2d05efc26bc87696cd5423e4f5d3278",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Ion species/stoichiometry and pumping are reference properties, not universally inferred from antiporter-like domains. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe03",
+      "structure_id": "FeFe_TmHydABC",
+      "legacy_function_id": "Fe03",
+      "reaction_key": "NADH_Fd_coupled_H2_evolution",
+      "electron_donors": [
+        "NADH",
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_confurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "molecular_reaction": "NADH + Fdred + H\u207a \u2192 NAD\u207a + Fdox + H\u2082\uff08\u793a\u610f\u975e\u914d\u5e73\uff09",
+      "reviewed_record_sha256": "4d3f5e36f04969d140cfea17b510c6751222332a1a514c0613b50d39d22aa342",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe04",
+      "structure_id": "FeFe_TmHydABC",
+      "legacy_function_id": "Fe04",
+      "reaction_key": "H2_NAD_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "molecular_reaction": "H\u2082 \u2192 NADH + Fdred\uff08\u8026\u8054\u7535\u5b50\u5206\u53c9\uff1b\u975e\u914d\u5e73\uff09",
+      "reviewed_record_sha256": "8773b30024454945d2a1e38e7b3e6ddff57208f41cb5a18260cf331206808b8d",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe05",
+      "structure_id": "FeFe_SwHyd1ABC",
+      "legacy_function_id": "Fe05",
+      "reaction_key": "NADH_H2_evolution_without_required_Fd",
+      "electron_donors": [
+        "NADH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_required_in_reference_assay",
+      "electron_coupling": "reference_nonbifurcating_NADH_reaction",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626996/",
+      "molecular_reaction": "NADH + H\u207a \u2192 NAD\u207a + H\u2082",
+      "reviewed_record_sha256": "e148796433c1a6677501b184698bc6c650d4799f356e8e7194e6ff0917e0d6a8",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "H01",
+      "structure_id": "Fe_Hmd",
+      "legacy_function_id": "H01",
+      "reaction_key": "H2_methenyl_H4MPT_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "methenyl_H4MPT+"
+      ],
+      "hydrogen_role": "hydride_transfer",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11081790/",
+      "molecular_reaction": "H\u2082 + methenyl-H\u2084MPT\u207a \u2192 methylene-H\u2084MPT + H\u207a",
+      "reviewed_record_sha256": "1c06ad4a3bfcf2b0b2d81ae1d08fb8f31c5cad7ee266a081da988cd5c49b6c4c",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni01",
+      "structure_id": "NiFe_periplasmic_Hys",
+      "legacy_function_id": "Ni01",
+      "reaction_key": "H2_cytochrome_c3_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "tetraheme_cytochrome_c3"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11948878/",
+      "molecular_reaction": "H\u2082 \u2192 2H\u207a + 2e\u207b\uff08e\u207b \u2192 cytochrome c\u2083\uff09",
+      "reviewed_record_sha256": "8957f144c34fe29bd7ff046b2389f27d6d1c13dc540dafb865045d897fd1e915",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni02",
+      "structure_id": "NiFe_HynABC",
+      "legacy_function_id": "Ni02",
+      "reaction_key": "H2_menaquinone_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "menaquinone"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://doi.org/10.1074/jbc.M310610200",
+      "molecular_reaction": "H\u2082 \u2192 2H\u207a + 2e\u207b\uff08e\u207b \u2192 HynC/\u819c\u7535\u5b50\u94fe\uff09",
+      "reviewed_record_sha256": "fdfa75132b451787f28f730ac90e4711e69b0639614f94f43f318208febca104",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni06",
+      "structure_id": "NiFe_Hhy1h",
+      "legacy_function_id": "Ni06",
+      "reaction_key": "H2_scavenging_direct_acceptor_unresolved",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_established_by_reference_whole_cell_context",
+      "electron_coupling": "not_established_by_reference_context",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_whole_cell_genetic_evidence",
+      "capability_scope": "whole_cell_association_with_H2_oxidation_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3964045/",
+      "molecular_reaction": "H2 oxidation; direct electron acceptor unresolved",
+      "reviewed_record_sha256": "25d566c462fbe55be096be07f711ca81b40e0a30d541eaa3e7bfe33ef29eba5f",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Does not establish purified-enzyme intrinsic affinity or a direct molecular electron acceptor. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "unresolved"
+    },
+    {
+      "contract_id": "Ni07",
+      "structure_id": "NiFe_VhoABC",
+      "legacy_function_id": "Ni07",
+      "reaction_key": "H2_methanophenazine_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "methanophenazine"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030560/",
+      "molecular_reaction": "H\u2082 + MPox \u2192 MPred + H\u207a\uff08\u793a\u610f\uff09",
+      "reviewed_record_sha256": "d791b16360163f59d3f1379b232fe94cd2803f597948e41351d18c2e77c3339e",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. VhtC is an inferred operon-associated cytochrome component and was not co-purified in the referenced Vht study. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni08",
+      "structure_id": "NiFe_HupSL",
+      "legacy_function_id": "Ni08",
+      "reaction_key": "H2_recycling_in_nitrogen_fixation_context",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_established_by_reference_whole_cell_context",
+      "electron_coupling": "not_established_by_reference_context",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_hupL_insertional_genetics",
+      "capability_scope": "H2_oxidation_potential_in_nitrogen_fixation_context",
+      "primary_source": "https://doi.org/10.1016/S0360-3199(02)00121-0",
+      "molecular_reaction": "H2 oxidation; direct electron acceptor unresolved",
+      "reviewed_record_sha256": "f72242e586d647afe065378ea45dd1b4a791cfa8b531dffa70262e95ed0807da",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Nif genes supply context, not an enzyme subunit or measured query physiology. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "unresolved"
+    },
+    {
+      "contract_id": "Ni10",
+      "structure_id": "NiFe_H2_sensor_2b",
+      "legacy_function_id": "Ni10",
+      "reaction_key": "H2_regulatory_signal",
+      "electron_donors": [],
+      "electron_acceptors": [],
+      "hydrogen_role": "sensing_not_bulk_redox_assignment",
+      "ferredoxin_requirement": "not_applicable_to_bulk_redox",
+      "electron_coupling": "regulatory_signal_not_redox_coupling",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_regulatory_genetics_and_kinase_biochemistry",
+      "capability_scope": "regulatory_pathway_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC296252/",
+      "molecular_reaction": "H2-responsive hydrogenase sensor coupled to a regulatory pathway; not a balanced redox reaction",
+      "reviewed_record_sha256": "a4e3a1483d6d039e064e55383b49fd5b1cf65a72762b486fca59f8b0cbe5bf37",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Sequence/context does not establish that the query pathway is expressed or active. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "not_applicable_to_bulk_redox"
+    },
+    {
+      "contract_id": "Ni12",
+      "structure_id": "NiFe_HyhNADPH",
+      "legacy_function_id": "Ni12",
+      "reaction_key": "NADPH_dependent_H2_evolution",
+      "electron_donors": [
+        "NADPH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3270980/",
+      "molecular_reaction": "NADPH + H\u207a \u2192 NADP\u207a + H\u2082\uff08\u793a\u610f\uff09",
+      "reviewed_record_sha256": "97c2067b5bcd286478fe4da61ba5854eac0e1cd5130aff16810026416d4dfceb",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni14",
+      "structure_id": "NiFe_HoxFUYH",
+      "legacy_function_id": "Ni14",
+      "reaction_key": "H2_NAD_reduction_without_added_Fd",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD+"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_added_in_reference_NAD_assay",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://doi.org/10.1128/JB.187.9.3122-3132.2005",
+      "molecular_reaction": "H\u2082 + NAD\u207a \u2192 NADH + H\u207a",
+      "reviewed_record_sha256": "f8d047d5180349e97bb70046e42a32799a348b3c5ff1e00e1472566f02319a42",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni16",
+      "structure_id": "NiFe_Tonn_Fdh2Mfh2Mnh2",
+      "legacy_function_id": "Ni16",
+      "reaction_key": "formate_H2_evolution",
+      "electron_donors": [
+        "formate"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "reference_ion_linked_energy_conservation_not_direct_ATP_stoichiometry",
+      "reference_evidence_scope": "reference_complex_biochemistry_and_energy_coupling",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/25049407/",
+      "molecular_reaction": "formate \u2192 CO\u2082 + H\u2082\uff1bH\u207a\u8de8\u819c\u6d41 + Na\u207a\u68af\u5ea6\u5f62\u6210",
+      "reviewed_record_sha256": "cf1d83b58315201760b816575d2d8e7d67dc46842d46064fa94d39f908dac007",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Ion species/stoichiometry and pumping are reference properties, not universally inferred from antiporter-like domains. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ni17",
+      "structure_id": "NiFe_Coo_CODH",
+      "legacy_function_id": "Ni17",
+      "reaction_key": "CO_oxidation_coupled_H2_evolution",
+      "electron_donors": [
+        "CO"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://doi.org/10.1046/j.1432-1033.2002.03282.x",
+      "molecular_reaction": "CO + H\u2082O \u2192 CO\u2082 + H\u2082",
+      "reviewed_record_sha256": "f27823002f7a285b187ef77f024215f2cfc4b012d7ee825c341c89d0162bd64b",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe01",
+      "structure_id": "FeFe_CpI_monomer",
+      "legacy_function_id": "Fe01",
+      "reaction_key": "Fd_dependent_H2_evolution",
+      "electron_donors": [
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "direct_electron_partner",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reviewed_reaction_and_experimental_structural_reference",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://www.rcsb.org/structure/1FEH",
+      "molecular_reaction": "Fdred + H\u207a \u2192 Fdox + H\u2082",
+      "reviewed_record_sha256": "3a59c560cb4db10b578d336b972bda605dba867e547b039f33f731830824cb7e",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. The PDB alone is not a ferredoxin reaction assay; curated/classical biochemical evidence is recorded separately. Generic ferredoxin reaction notation does not identify the query ferredoxin cluster topology. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe02",
+      "structure_id": "FeFe_CrHydA1",
+      "legacy_function_id": "Fe02",
+      "reaction_key": "Fd_dependent_H2_evolution",
+      "electron_donors": [
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "direct_electron_partner",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2794776/",
+      "molecular_reaction": "Fdred + H\u207a \u2192 Fdox + H\u2082",
+      "reviewed_record_sha256": "d15bde5c90f5c38d8c7804685a0239323597721852d6eaea0bdc0534af43fe67",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe06",
+      "structure_id": "FeFe_HDCR_Aw",
+      "legacy_function_id": "Fe06",
+      "reaction_key": "H2_dependent_CO2_formate_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "CO2"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_in_assayed_reaction",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/24337298/",
+      "molecular_reaction": "H\u2082 + CO\u2082 \u2192 HCOOH\uff08\u6216HCOO\u207b + H\u207a\uff09",
+      "reviewed_record_sha256": "46808231b9cebe720fbf0e5e836723702094c3ba55650d102139357d336953f9",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Fe07",
+      "structure_id": "FeFe_HytABCDE",
+      "legacy_function_id": "Fe07",
+      "reaction_key": "H2_NADP_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NADP+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "reference_complex_biochemistry",
+      "capability_scope": "molecular_reaction_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807470/",
+      "molecular_reaction": "2H\u2082 + NADP\u207a + Fdox \u2192 NADPH + Fdred + H\u207a\uff08\u793a\u610f\uff09",
+      "reviewed_record_sha256": "92680c94bcfeca3668997720a40390c528a2e24ac7fc2a80021e3591c2e93516",
+      "limitations": "Representative-system evidence only; no query activity, kinetics, physiological flux, cofactor occupancy or net direction established. Typed participants describe the supported reference reaction, not exhaustive substrate exclusions. No query direction, physiological terminal acceptor, activity, cofactor occupancy or ion stoichiometry is assigned.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ref_Amobile_HydABCSL_oxidation",
+      "structure_id": "NiFe_Amobile_HydABCSL",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NAD_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_reference_coupled_assay",
+      "capability_scope": "reference_molecular_reaction_only",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8880783/",
+      "molecular_reaction": "H2 coupled to NAD+ and ferredoxin reduction in the purified native five-subunit NiFe system",
+      "reviewed_record_sha256": "",
+      "limitations": "Development reference contract only. HydDB/KO and gene names do not define the reaction. Other unassayed activities, query physiology/flux, cofactor occupancy and natural net direction remain unresolved; the registry alone does not assign query functions; exact-reference potential is separately guarded and does not establish query activity.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ref_Amobile_HydABCSL_evolution",
+      "structure_id": "NiFe_Amobile_HydABCSL",
+      "legacy_function_id": "",
+      "reaction_key": "NADH_Fd_coupled_H2_evolution",
+      "electron_donors": [
+        "NADH",
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_confurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_reference_coupled_assay",
+      "capability_scope": "reference_molecular_reaction_only",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8880783/",
+      "molecular_reaction": "NADH and reduced ferredoxin coupled H2 evolution in the purified native five-subunit NiFe system",
+      "reviewed_record_sha256": "",
+      "limitations": "Development reference contract only. HydDB/KO and gene names do not define the reaction. Other unassayed activities, query physiology/flux, cofactor occupancy and natural net direction remain unresolved; the registry alone does not assign query functions; exact-reference potential is separately guarded and does not establish query activity.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ref_Sfructo_Hnd_oxidation",
+      "structure_id": "FeFe_Sfructo_HndABCD",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NAD_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_reference_coupled_assay",
+      "capability_scope": "reference_molecular_reaction_only",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820892/",
+      "molecular_reaction": "Simultaneously monitored NAD+ and FdxB reduction with H2 by purified native four-subunit Hnd",
+      "reviewed_record_sha256": "",
+      "limitations": "Development reference contract only. HydDB/KO and gene names do not define the reaction. Other unassayed activities, query physiology/flux, cofactor occupancy and natural net direction remain unresolved; the registry alone does not assign query functions; exact-reference potential is separately guarded and does not establish query activity.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    },
+    {
+      "contract_id": "Ref_Mthermo_HydABCDEF_NADP_oxidation",
+      "structure_id": "FeFe_Mthermo_HydABCDEF",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NADP_reduction_without_required_Fd",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NADP+"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_required_in_reference_assay",
+      "electron_coupling": "no_electron_bifurcation_observed_in_reference_assay",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_reference_coupled_assay",
+      "capability_scope": "reference_molecular_reaction_only",
+      "primary_source": "https://doi.org/10.1111/febs.16989",
+      "molecular_reaction": "H2 + NADP+ -> NADPH + H+ in the purified six-subunit DSM521 HydABCDEF complex",
+      "reviewed_record_sha256": "",
+      "limitations": "Purified native six-subunit assay: 8.5U/mg NADP+ reduction; tested NAD+ and ferredoxin reduction absent, ferredoxin did not stimulate. This is a condition-scoped assay, not proof of all possible exclusions. Query activity, metal occupancy, physiological DMSO use, expression, kinetics and net flux remain unmeasured; whole-core exact-reference potential only.",
+      "participant_scope": "supported_reference_reaction_not_exhaustive_substrate_exclusions",
+      "direct_acceptor_status": "reference_reported"
+    }
+  ]
+}

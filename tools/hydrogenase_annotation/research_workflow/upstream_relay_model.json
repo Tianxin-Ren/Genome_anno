@@ -1,0 +1,63 @@
+{
+  "version": "R204_bounded_upstream_relay_v1",
+  "reference_id": "9SFI__VhuD_relay",
+  "reference_accession": "AVB76520.1",
+  "component_id": "VhuD_like_electron_relay",
+  "sequence": "MAEPVIMAFVCYQUGYGAADLAGTSRMQYPASVRAIRVPCTGKFDITYALRAFQKGADAVFVAGUKPNECAFETGNFKAEERVKFGKQILDELGIGGERLEMFFMSGADAGKFTEAVKEMTDRVKKLGPNPIKA",
+  "sequence_sha256": "428d904456e4dd48964e2f54fdc319993093696eaff28f65226330b2036cf361",
+  "window_start": 1,
+  "window_end": 134,
+  "sites": [
+    {
+      "reference_position": 11,
+      "reference_residue": "C",
+      "evidence": "9SFI_9T1S_FES_struct_conn"
+    },
+    {
+      "reference_position": 14,
+      "reference_residue": "U",
+      "evidence": "native_GenBank_translation_exception"
+    },
+    {
+      "reference_position": 40,
+      "reference_residue": "C",
+      "evidence": "9SFI_9T1S_FES_struct_conn"
+    },
+    {
+      "reference_position": 65,
+      "reference_residue": "U",
+      "evidence": "native_GenBank_translation_exception"
+    },
+    {
+      "reference_position": 70,
+      "reference_residue": "C",
+      "evidence": "9SFI_9T1S_FES_struct_conn"
+    }
+  ],
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_coverage": 0.9,
+    "min_window_identity": 45,
+    "max_intergenic_gap_bp": 2500,
+    "max_span_bp": 30000,
+    "site_context_flank": 15
+  },
+  "source_sha256": {
+    "references/raw/round16_split_centers/CP026606.1.gb": "1441fa5bdf07b7bc499275a749e0ce1c182dad079be505782894675f95ade602",
+    "references/raw/round15_partner_sources/9SFI.cif": "7c09fe443e829f9f1f9008cc6653d7c4575a33a14079a7d7cf206829577f23ec",
+    "references/raw/round15_partner_sources/9T1S.cif": "68bd5653dcb2b754bbb278a0d7f1e54ae1383d932ef7266aacf51f6d1179a04b"
+  },
+  "structure_entities": {
+    "9SFI": {
+      "entity_id": 5,
+      "author_chain": "K"
+    },
+    "9T1S": {
+      "entity_id": 6,
+      "author_chain": "I"
+    }
+  },
+  "structure_source": "https://www.nature.com/articles/s41586-026-10744-9",
+  "sec_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9622424/",
+  "scope": "Local evidence-only translation model. Two U sites are genomic recoding landmarks; three C sites are annotated FES contacts. No assigned Sec, query FeS ligation or occupancy, physical membership, catalytic identity or activity."
+}

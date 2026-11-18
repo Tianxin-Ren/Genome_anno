@@ -1,0 +1,13 @@
+name: subtyping
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - mafft=7.520
+  - iqtree=2.2.6
+  - fasttree=2.1.11
+  - hmmer=3.4
+  - epa-ng=0.3.8
+  - gappa=0.8.0

@@ -1,0 +1,35 @@
+{
+  "version": "research-reporting-1-20261028",
+  "scope": "Five research/deployment tracks supplement the immutable original21 protocol. These tracks do not redefine or pass its unmet requirements.",
+  "original_protocol": "config/acceptance_targets.json",
+  "historical_original_assessment": "reports/round53_acceptance.json",
+  "tracks": {
+    "engineering": {
+      "requirement": "Preserve input, coordinate/resource ownership and bin restrictions. Additive explanations leave original predictions byte-identical and do not create reactions.",
+      "evidence": ["research_workflow/test_explain_candidates.py", "results/research_annotation_adjusted/**/manifest.json"]
+    },
+    "discovery_and_identity": {
+      "requirement": "Trace every saved127identityFN and33real candidates. Report first and joint reasons, precision/recall/abstention with scope; distinguish uncalibrated family sequence support from canonical calibrated_high.",
+      "new_branch_status": "Uncalibrated developmental sequence support only. No inherited precision from the original rule."
+    },
+    "sites_and_modules": {
+      "requirement": "Report center compatibility, exact FeS uncertainty, module profiles and candidate composition independently. A missing architecture rule is not an absent query subunit.",
+      "profile_scope": "Passing reviewed NAD/NuoF/flavin profiles within assigned module coordinates supports a fold/profile annotation; it does not establish cofactor selectivity or turnover. A profile on an unselected candidate partner is reported separately."
+    },
+    "function_prediction": {
+      "requirement": "Output each property at its supported resolution with explicit dependencies. Evaluate per-property precision, recall and abstention only where truth is available. Do not turn unsupported or untested properties into negatives.",
+      "current_limited_delivery": "Associated electron-transfer modules and nucleotide/flavin domain profiles. Specific new NAD/NADP selectivity and obligatory Fd coupling rules are not validated.",
+      "remaining_target": "Freeze and validate non-exact-reference functional transfer in a bounded experimentally represented family; report coverage and error tradeoff."
+    },
+    "deployment": {
+      "MAG_pilot": "Deferred by the human user; not a method output gate or a passed original requirement.",
+      "population_FPR": "No 1e-6 population claim without representative independent negative evidence.",
+      "formal_release": "Not achieved. Research outputs with explicit evidence bounds may be delivered."
+    }
+  },
+  "data_usage": {
+    "955_development": "Exposed development comparison and ablation only; genotype/label evidence tiers retained.",
+    "historical127_FN": "Existing saved errors now used for development attribution; no new sequence prediction. Not a new final test for any revised rule.",
+    "new_final_test": "Must be fixed after rule freeze and exclude development/exposure sources and homolog/taxonomic leakage. Not yet claimed complete."
+  }
+}

@@ -1,0 +1,20 @@
+# Miscellaneous Analysis Configuration
+misc:
+  homolog_search:
+    query_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/ATPase/sepcies_MIMAG_rep-or-type_genome/data/protein_query"
+    query_ext: ".faa"
+    mag_faa_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/ATPase/sepcies_MIMAG_rep-or-type_genome/data/Bathy_MAGs_protein" 
+    output_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/ATPase/sepcies_MIMAG_rep-or-type_genome/results/Bathy_homolog_search"
+    conda_env: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/bio" 
+    evalue: 1e-2
+    threads: 8
+
+  plasmid_analysis:
+    input_dir: "results/metagenomics/megahit"
+    input_ext: ".fasta"
+    output_dir: "results/plasmid_analysis"
+    genomad_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/genomad/genomad_db"
+    threads: 8
+    conda_envs:
+      genomad: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/genomad_1.12.0"
+      mob_suite: "/dssg/home/acct-clswfp/clswfp-icdli1/.conda/envs/mob_suite_3.1.9"

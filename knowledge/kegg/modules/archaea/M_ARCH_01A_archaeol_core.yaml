@@ -1,0 +1,28 @@
+module_id: "M_ARCH_01A"
+name: "Archaeal diether lipid (archaeol) core biosynthesis"
+category: "Lipid metabolism"
+subcategory: "Archaeal ether lipids"
+evidence_type:
+  - "ko_logic"
+relationship_to_kegg: "not_in_kegg_module"
+definition: "K00096 K17104 K17105 K19664 -(K17830,K19665)"
+steps:
+  - step: 1
+    description: "Glycerol-1-phosphate (G1P) formation (egbA / G1PDH)"
+    kos: ["K00096"]
+  - step: 2
+    description: "Phosphoglycerol geranylgeranyltransferase (GGGPS)"
+    kos: ["K17104"]
+  - step: 3
+    description: "Geranylgeranylglycerol-phosphate geranylgeranyltransferase (DGGGPS)"
+    kos: ["K17105"]
+  - step: 4
+    description: "CDP-2,3-bis-(O-geranylgeranyl)-sn-glycerol synthase (CarS / CDP-archaeol synthase)"
+    kos: ["K19664"]
+optional_branches:
+  - step: "saturation"
+    description: "Geranylgeranyl reductase (GGR)"
+    kos: ["K17830"]
+  - step: "headgroup"
+    description: "Archaetidylserine synthase"
+    kos: ["K19665"]

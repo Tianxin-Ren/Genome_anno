@@ -1,0 +1,21 @@
+# Binning Module Configuration (config_sr)
+binning:
+  mode: "standard" 
+  steps:
+    extract_circular: False
+    metawrap: True
+    semibin2: False
+    refinement: True
+    drep: True
+    gtdbtk: True
+  completeness: 50
+  contamination: 10
+  ani_threshold: 0.95
+  # checkm_db: "/lustre/home/acct-clswfp/clswfp-icdli1/DataBase/checkm_data"
+  checkm_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/checkm_data"
+  gtdbtk_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/gtdb-tk/release232"
+  conda_envs:
+    metawrap: "metawrap_1.3.2"
+    semibin2: "semibin2"
+    mapping: "bio"
+    gtdbtk: "gtdbtk_2.7.1"

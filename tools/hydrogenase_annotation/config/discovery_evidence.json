@@ -1,0 +1,15 @@
+{
+  "version": "round10-candidate-segment-evidence-before-calibration",
+  "max_extra_query_gap_model_fraction": 1.0,
+  "evalue_reference_sequences": 10000,
+  "rules": [
+    "Single-domain discovery retains the existing domain E-value and model-coverage thresholds.",
+    "HMMER -Z is fixed at 10000 reference target sequences so the independent E-value threshold has the same scope in small validation batches and genome/assembly runs. This standardized candidate score is not a full-assembly false-positive guarantee.",
+    "When no single domain passes coverage, each chained component must independently pass the same E-value threshold.",
+    "Chained model intervals and query intervals must both be strictly increasing and nonoverlapping; repeated copies of the same model region cannot be summed.",
+    "An inter-component query gap may exceed the corresponding model gap by at most one model length. This is an uncalibrated candidate-stage boundary, not an insertion-tolerance or activity claim.",
+    "Coverage is the sum of nonoverlapping component model intervals, never the span across uncovered model gaps.",
+    "For chains, independent_evalue stores the maximum component domain E-value, not a combined significance; domain_bitscore stores the sum of component scores. Their scopes and all component coordinates are explicit.",
+    "Discovery changes do not establish catalytic identity, full H-domain integrity, active cofactor assembly or molecular function."
+  ]
+}

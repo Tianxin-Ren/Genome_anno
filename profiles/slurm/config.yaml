@@ -1,0 +1,25 @@
+executor: slurm
+slurm-jobname-prefix: "GenomeAnno"
+# Default workflow directory for the clswfp/icdli1 SLURM environment.
+directory: "/dssg/home/acct-clswfp/clswfp-icdli1"
+# Keep at most 30 annotation jobs active/submitted at once.  MAG KOfam
+# shards request 12 threads each, so this caps concurrent annotation at 360
+# cores and prevents the full shard list from being submitted in one burst.
+jobs: 30
+latency-wait: 120
+printshellcmds: True
+scheduler: greedy
+use-conda: True
+rerun-triggers:
+  - mtime
+conda-prefix: ".conda"
+nolock: True
+default-resources:
+  slurm_partition: "64c512g"
+  runtime: "7d"
+  mem_mb: "8000 * threads"
+  nodes: 1
+  ntasks: 1
+  max_threads: 64
+
+

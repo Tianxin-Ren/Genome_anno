@@ -1,0 +1,74 @@
+{
+  "status": "calibration_locked_before_final_confirmation",
+  "policy_sha256": "28b1da390a676b3d90457f3796806eb13cae39c8e10fba2f6ca8941b9fd8fae5",
+  "model_manifest_sha256": "347d0666c69b7b107c7f538832b5d4de07acf53cbcda419fe987de998d552ddb",
+  "feature_stage_fingerprint": {
+    "files": {
+      "scripts/catalytic_confirmation.py": "983f9a7e4329367b2fe07c385696774200bba392044bdb22c63ade9e7e102e77",
+      "scripts/identity_truth.py": "e8c43e132ae8fb891917fa0f3a495443d5e2a4084ae6d460c1b815cf890f4b4d",
+      "config/catalytic_identity_adjudications.json": "5a4dabb6e15c2f220b11847df08f497231872bd77c706cc3956b4dff129ff709",
+      "scripts/annotate.py": "3b3d9b9e92680bec044530e832b6d04fb1074b1f52ae519cb38a04b0f645e2a2",
+      "scripts/active_centers.py": "5d5fd57e5bfff85dc98e7be5348c4f88ad2bcd2e60f99cbc5825f7cc3d42cf40",
+      "scripts/split_centers.py": "5c99c33cba2cdb1b9ea797fd855df66a2c36e9e9590398f73b2e61ad3f9d38f9",
+      "scripts/module_graph.py": "07538e5bb17c4cf64e026ab2f857eb991fc114323425d46625770a260d096d36",
+      "scripts/complex_selection.py": "b2d03e8c571ac53757dc108e1a7c415cc8c32592e624f8d4ef7bc156c139fc05",
+      "config/complex_selection.json": "c2effb0d153f1c7fe761a018c557614faee8a73a94cb55d512870b0891bbbd67",
+      "scripts/module_architecture.py": "527fa924f22fef98526a7facf756fe0dce6c7b59ca2ac67802f671c62cc03b36",
+      "config/module_architecture.json": "7a0ec10a91dc2369dda9a08250e0a60bf2a4c01d5f66433cfe465074d629bb03",
+      "scripts/audit_reference_domains.py": "d866e17a2b120e465c836b9eeb137088441077a0e64721420defa6988768a599",
+      "scripts/audit_maturation_domains.py": "27b60915fefc920c74c9a647af72a80cf5f47d048fd58d137e07ee5f8d251e47",
+      "scripts/noncanonical_center_evidence.py": "6a25c9168162ca1a885bc39d78130bd6b3514423bff4ef7772e6171c53652ad5",
+      "config/noncanonical_center_evidence.json": "3071bd369cdf2cd795f1dd185134b8d4b612ecfd4e06b68973b5e5130485e269",
+      "scripts/complex_extensions.py": "8664171ddef3208124ab98dcf7734fa3c1e74dfd5b06ea3b919b5dac24878fbe",
+      "scripts/build_complex_extensions.py": "56b05d7709aff2395f99cfb44ca812b8a0fc2fb7614f04a6e52fa07333b64dc6",
+      "config/complex_extension_sources.json": "90cd8730aba078bf2120c3f1b7c2014bd060b3a0c02f9e2cb16e92e4c764d804",
+      "config/reaction_contracts.json": "37d43631351e86d64d6e20ad2e7ced59240b41c1df7d3538d1f0087dab6e1cfb",
+      "config/exact_reference_functions.json": "b6fada6d8b52eaa25782a9cc65b347b24efd1f741b9a486abd7f66008a0381eb",
+      "references/processed/complex_extensions/manifest.json": "3f85235e72e21ce4beddb65c9e9c83710b1c5eccf811f8db437ced157f861c6f",
+      "config/catalytic_confirmation.json": "28b1da390a676b3d90457f3796806eb13cae39c8e10fba2f6ca8941b9fd8fae5",
+      "config/reference_catalytic_identity_review.json": "6dd98f8ad325f0fd872c5d48d38e045f346e05d0520f2f7f942b2e554b6b443b",
+      "config/reference_domain_policy.json": "509d494513fb70f3a0a65c771624e2def0f17a37ec0beb0956a09c33e67ebd37",
+      "config/thresholds.json": "339e3a7b2eea6ac326e95dac707336edae65358f169c99b323bd208abff974ff",
+      "config/systems.json": "6da15a7178fd3c256b20005967d3693a83bec468b1d32ea5d1d0523b35879672",
+      "references/processed/references.json": "96c39d4f5fa13f1a6ed325333255348efd69a84e082c040a4c2fb36a01f1f2ca",
+      "references/processed/references.faa": "e7af49894dcaa8aae0afe445f8e3351e321f3badaa748d8e742c69d12c8e7f38",
+      "references/processed/catalytic_confirmation/manifest.json": "347d0666c69b7b107c7f538832b5d4de07acf53cbcda419fe987de998d552ddb",
+      "references/processed/active_centers/manifest.json": "3289aaeeea3834aa2b7a917b6e3f823e2720c26f8ea199c093140f0858126ffa",
+      "references/processed/split_centers/manifest.json": "89091e84ebc1a9be8a3fe5deaf3d79e4115cbf36d42377b30bae6699f9911533"
+    },
+    "discovery": {
+      "files": {
+        "scripts/discovery_evidence.py": "47dcd517a218458a8fc37de1170cbc7890235fa273add168c3844f28edd3235b",
+        "config/discovery_profiles.json": "7649c91413a155aaac909ff5284d11a385d06e5077a6cf5e98625e7dc7ce426c",
+        "config/discovery_evidence.json": "70913cf1663577d32869f91b271d383040199b7277a66d62add3f9e72782e12a",
+        "references/processed/catalytic_families.hmm": "b3a7952e22a1986573fa9f6ea14207ce0307bf5ca3aa69eb79bbacc079f2a6d7",
+        "references/processed/profile_manifest.json": "05dc8c547528ea7993488fe9c10e8bfd5fef564ecf39f3f0d93e8683cf6c5e3e"
+      },
+      "thresholds": {
+        "hmm_domain_evalue": 1e-05,
+        "hmm_coverage": 0.55
+      },
+      "hmmsearch_binary_sha256": "7bee066eff4eae3a75cee208974703729dc6a40c749e94ec6b4167cffa3b6959"
+    }
+  },
+  "families": {
+    "NiFe": {
+      "min_domain_coverage": 0.8,
+      "min_core_similarity": 30,
+      "min_competitor_margin": 0
+    },
+    "FeFe": {
+      "min_domain_coverage": 0.8,
+      "min_core_similarity": 40,
+      "min_competitor_margin": 5
+    }
+  },
+  "calibration_summary": "/Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/results/round49_confirmation_calibration_complete/summary.json",
+  "calibration_summary_sha256": "6d656acb231bca0491bd2d259dd3ef3940b33c4fefd2a116f16e19530d759466",
+  "source_audit_sha256": "25d8b8d96f78c68d81169129ee3f8b3c9e5090309c908364590e0eda6807197e",
+  "scope": "Catalytic identity only; separate from subgroup, complete complex and molecular function. Public profile matches and ligands cannot individually prove H2 catalysis. No folding, metal occupancy or activity claim.",
+  "identity_validation_transition": "references/validation_locks/round49_fes_bank_transition.json",
+  "input_translation_transition": "references/validation_locks/round84_input_translation_transition.json",
+  "reporting_transition": "references/validation_locks/round112_reporting_transition.json",
+  "topology_transition": "experiments/successor_20261113/topology_transition_v2.json"
+}

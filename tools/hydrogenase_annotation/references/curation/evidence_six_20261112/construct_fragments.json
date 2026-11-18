@@ -1,0 +1,17 @@
+[
+  {
+    "fragment_id": "FRAG_BG04_163_BMR_473_1049",
+    "system_id": "FeFe_CbA5H_BMR_external",
+    "function_id": "Ni21",
+    "citation": "10.1002/biot.202300567",
+    "parent_accession": "CP009920.1",
+    "parent_locus_tag": "BG04_163",
+    "parent_protein_accession": "AJI21949.1",
+    "uniprot_reference": "P14779.2",
+    "role": "BMR_reductase_domain",
+    "aa_start_1based": 473,
+    "aa_end_1based": 1049,
+    "boundary_source": "UniProt P14779.2 NADPH--P450 reductase region (aa 473-1049; excludes N-terminal cytochrome P450 heme domain aa 2-472); literature cleavage junction aa 472/473",
+    "notes": "Isolated BMR flavoprotein reductase domain used experimentally in 10.1002/biot.202300567; derived programmatically from parent 1049 aa CYP102A1 CDS BG04_163 (CP009920.1)."
+  }
+]

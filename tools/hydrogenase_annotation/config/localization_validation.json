@@ -1,0 +1,162 @@
+{
+  "status": "declared_before_TMbed_predictions",
+  "scope": "Qualitative known-reference localization controls only; not independent population accuracy or exact segment-boundary truth.",
+  "cases": [
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaA",
+      "protein_accession": "NP_415491.1",
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b0972",
+      "expected_TM": null,
+      "expected_SP": true,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+      "sequence_sha256": "eaa30f44b29f180b59d9ec5c8b698c1dc84c3d10dafcbaf9598b502f79153198"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaB",
+      "protein_accession": "NP_415492.1",
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b0973",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+      "sequence_sha256": "e654bce355d9a2145c7ec7dc3725faf9ac44a443cbdd28a83f6f3ab7612da4d2"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd1__HyaC",
+      "protein_accession": "NP_415493.1",
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b0974",
+      "expected_TM": true,
+      "expected_SP": null,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823535/",
+      "sequence_sha256": "aceebb2b3de7eea5b9f79759b31982dead3e0921d6a59a1ce42ffaf1366eb59f"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybO",
+      "protein_accession": "NP_417471.1",
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2997",
+      "expected_TM": null,
+      "expected_SP": true,
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "sequence_sha256": "d33944a2933b9c117a31f95a0a1484f06fde4ab54e71a725c460b4c3d42e7195"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybB",
+      "protein_accession": "NP_417469.1",
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2995",
+      "expected_TM": true,
+      "expected_SP": null,
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "sequence_sha256": "8bb94593c0ee5576402d16a3cd26d82864727bd4da19b4cb42814aa7be001653"
+    },
+    {
+      "reference_id": "NiFe_Ecoli_Hyd2__HybC",
+      "protein_accession": "NP_417468.1",
+      "sample": "ecoli_MG1655",
+      "locus_tag": "b2994",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/25368299/",
+      "sequence_sha256": "8df83bddd504561938a5de86aaff24215118a1d83807310d22c45377d5929d0b"
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhA",
+      "protein_accession": "WP_013296467.1",
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS08235",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+      "sequence_sha256": "6606903828006b9d27a94784c777429edc82a12e0ca657092810e8778f398775"
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhG",
+      "protein_accession": "WP_013296465.1",
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS08225",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+      "sequence_sha256": "5dd2c22f0643f3139487019f41fab770b4c6e6bde3e48df13e338a84b2308e2a"
+    },
+    {
+      "reference_id": "NiFe_FrhABG__FrhB",
+      "protein_accession": "WP_013296464.1",
+      "sample": "mmarburgensis_Marburg",
+      "locus_tag": "MTBMA_RS08220",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591093/",
+      "sequence_sha256": "d498f97f496c1ba147c7906d76b966bd95697396a62d6e8dadfba2fdfd136bdc"
+    },
+    {
+      "reference_id": "FeFe_TmHydABC__HydA",
+      "protein_accession": "WP_004081677.1",
+      "sample": "tmaritima_MSB8",
+      "locus_tag": "TM_RS07230",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "sequence_sha256": "1acdce4de5dd98b9d62a361b81d266df74814fe796ee47390703a4f5c2c3c287"
+    },
+    {
+      "reference_id": "FeFe_TmHydABC__HydB",
+      "protein_accession": "WP_004081675.1",
+      "sample": "tmaritima_MSB8",
+      "locus_tag": "TM_RS07225",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "sequence_sha256": "916566e2c5a368d6301c90398d8d4c0549e52a5a5b64d74a05efc9a9491f30df"
+    },
+    {
+      "reference_id": "FeFe_TmHydABC__HydC",
+      "protein_accession": "WP_004081672.1",
+      "sample": "tmaritima_MSB8",
+      "locus_tag": "TM_RS07220",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31823008/",
+      "sequence_sha256": "99b03ecef38d3979087a44c04f21895aa17f536570d783f0e1b3ea192e4fd093"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhH",
+      "protein_accession": "WP_011012577.1",
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS07165",
+      "expected_TM": true,
+      "expected_SP": null,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+      "sequence_sha256": "917342cdad90b0432e61cb27580e7a2fdfe871610dbe22eb6154f398c319cf66"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhM",
+      "protein_accession": "WP_011012582.1",
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS07190",
+      "expected_TM": true,
+      "expected_SP": null,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+      "sequence_sha256": "8ccf30f9d3165704527af70eb45073711113e7fd9d6ac5f62fedc293514d312c"
+    },
+    {
+      "reference_id": "NiFe_Pf_Mbh__MbhL",
+      "protein_accession": "WP_011012581.1",
+      "sample": "pfuriosus_DSM3638",
+      "locus_tag": "PF_RS07185",
+      "expected_TM": false,
+      "expected_SP": false,
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003862/",
+      "sequence_sha256": "e20581968018eaac9a5894042e94b105cabbd5b470d97a1a161647bd73e1f5c8"
+    }
+  ],
+  "rules": [
+    "Model weights and parameters are fixed; failures remain reported, no reference label chosen from TMbed output.",
+    "True/false evaluate only declared properties; null properties are not scored.",
+    "No absence-of-SP result can assign cytoplasmic location to a co-exported catalytic partner.",
+    "Reference/control overlap with TMbed supervised data must be reported; no claim of independent localized validation."
+  ]
+}

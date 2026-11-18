@@ -1,0 +1,26 @@
+# Data Preparation Module Configuration
+data_prep:
+  enable: True
+
+  # Maximum concurrent NCBI download connections (default: 5)
+  ncbi_conn: 5
+  
+  # Define data preparation tasks (task names will be used for output directories)
+  # Outputs will be saved to results/data_prep/<task_name>/genomes/
+  tasks:
+    "bathyarchaeia_gtdb_all":
+      # Path to the GTDB metadata TSV file
+      gtdb_metadata: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/GTDB/archive/metadata/232.0/ar53_metadata_r232.tsv"
+      
+      # Filter query to select all genomes belonging to c__Bathyarchaeia
+      # Uses pandas .str.contains() method.
+      filter_query: "gtdb_taxonomy.str.contains('c__Bathyarchaeia')"
+      
+      # Chunk size to split accessions list for parallel downloads.
+      # For example, if there are 200 genomes, chunk_size: 50 will submit 4 parallel download jobs.
+      chunk_size: 100
+  
+  # Environments
+  conda_envs:
+    # Environment containing ncbi-datasets-cli and pandas
+    datasets_cli: "ncbi-datasets-cli_18.26.0"

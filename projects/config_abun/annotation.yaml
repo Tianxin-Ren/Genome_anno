@@ -1,0 +1,40 @@
+# ==============================================================================
+# Annotation Module Configuration (Minimalist for Abundance Analysis)
+# ==============================================================================
+# This configuration only runs Bakta gene prediction to generate the GFF3 file
+# required by featureCounts. All other functional annotation steps are disabled.
+annotation:
+  data_type: "long"
+  input_dir: "results/abundance"
+  
+  steps:
+    bakta: True          # Enable Bakta to predict genes (outputs GFF3)
+    eggnog: False        # Disable for speed
+    kofamscan: False     # Disable for speed
+    dbcan: False         # Disable for speed
+    gtdbtk: False        # Disable for speed
+    checkm2: False       # Disable for speed
+    advanced_hmm: False  # Disable for speed
+    resolve_hmm: False   # Disable for speed
+    circular: False      # Disable for speed
+    cdhit: False         # Disable for speed
+
+  # Bakta Performance Settings
+  split_chunks: 10
+  ext_bakta_extra_flags: "--skip-sorf"
+
+  # Databases
+  bakta_db: "/dssg/home/acct-clswfp/clswfp-icdli1/Database/Bakta/db-light"
+
+  # Conda Environments
+  conda_envs:
+    bakta: "bakta_1.12.0"
+    checkm2: "checkm2_1.0.2"
+    eggnog: "eggnog-mapper"
+    kofamscan: "kofamscan"
+    dbcan: "dbcan"
+    quast: "quast_5.3.0"
+    isescan: "isescan"
+    biopython: "biopython_1.85"
+    seqkit: "seqkit"
+    cdhit: "cd-hit_4.8.1"

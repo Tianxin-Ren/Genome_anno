@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "sources_sha256": "b58437511fb870f91d838cb9f0ee603198f94d70894d838392222b169b611861",
+  "policy_sha256": "02c16759c49cf712c715af4de8d542917668018f3ee63ca5c93e25665a398834",
+  "review_source_files": {
+    "reports/round31_failure_diagnosis.json": "d6f1a92ec254fe74d4ad5f0950ca11027e1dedc9ffcf39592a49feb756cb95e2",
+    "references/raw/round31_structural_final/8OH5.cif": "4d31e7c099e19737d6f990899a99864b90546440f5c0d379cd1987dd23e31db2",
+    "references/raw/round22_function_truth/PMC10482914.xml": "fadfab0d7b628d5d60edd6ce648b5bfdd80ab0f9d556e75500025bd6edf7344d",
+    "references/validation/round32_donor_gain_guard/cases.json": "68ac67371147c3e841570541d6e1523c7e8b0bfaceb12806ff634e7e1f1fc79c",
+    "references/validation/round32_donor_gain_guard/proteins.faa": "93e8cd239d8ca9ea99a9dc2a112089fa2fbc0acd859b5bb6a7116a3ed7b1a36c",
+    "references/validation/round32_donor_gain_guard/freeze.json": "b3267b4883e3d77edaf553f49a910f84230a8cca49ef50318507b11f3cb03d86"
+  },
+  "prediction_script_sha256": "a99274e2be04343b9943f43e893d477e1beb4c191c2b618cfed47c7894711ff3",
+  "files": {
+    "templates.faa": "add90c8c54ee36a09c0ffa1ecdb284463800d7a55dd8ffa1276fdd5c32fa6f4a",
+    "sites.json": "0bd9c17454e71ea7283383d345d73259f929186aaf5636052030316bda8625b1",
+    "site_windows.faa": "76f9c1dc0168713a99bf9fe74c05c1f95c2847e09184d58d007944f7b3caced1",
+    "site_window_index.json": "616d49316208751d86003f174f9d209217ee4005b5752dc78c35e12a20b40173",
+    "seed.pdb": "4f2b362ef0749faa9814d4595c94bd909e12baf787f9d1679e14d6cd850bef03",
+    "seed.phr": "2d6f45cf12ca2fd86fb18b29e0ab3c201933a12ed419c975136806fc1e4208e7",
+    "seed.pin": "646b7c4a7197541437768a88cc97945ba7f72891a973cbab76e252eb1ea5c85a",
+    "seed.pjs": "e2cc91c86847af849ed704e1a9b78aa11db38b47ceb6ecedf6493f054ee81f33",
+    "seed.pot": "2b286585cdc77ee9eee86015eafeadbb6c6d499f2f8dfd962ef5fc686c62391a",
+    "seed.psq": "b74489df04ca40bebbf0647c7bc79fcca41b6b909458664ed0ec89c449d655b7",
+    "seed.ptf": "a4846cf83c6cd188b3fc3f9fa4f1f1d3c33692a85065b54dc1e42095af3e7552",
+    "seed.pto": "6ce3c020c9a45aea9bb50ad3974ff92d82c83d3875bd768e2a4b640230b41b25",
+    "site_seed.pdb": "749b46f71e860b7b979a72bc0ff59800f3bd35a52fdeeb40be0842c10040004f",
+    "site_seed.phr": "ed69bd30dd6138215687a77f8e1fa6c994afb55e68e3d9b5d452834752a9691b",
+    "site_seed.pin": "ac4cf9590e78a85e8dbdaede132147c9606d5e8b00518b88add10f4379025594",
+    "site_seed.pjs": "6337fa731e4086888efd01ab76ece7976f527317d918b967cb0477adbcd2ba5e",
+    "site_seed.pot": "194d615bf783fd2d08c5db7685863ce224197cd608f11be9b669d4c849c0ff1b",
+    "site_seed.psq": "f4a576334ea9b184a446994caa4a5107b54ba2e2b1e1cc27398fc0bd8bb4f626",
+    "site_seed.ptf": "a4846cf83c6cd188b3fc3f9fa4f1f1d3c33692a85065b54dc1e42095af3e7552",
+    "site_seed.pto": "f38ad8a0856574a23140e064e303715dfd25fdad6edfdad3073e4d56d3d2abd5"
+  },
+  "template_entities": 11,
+  "sites": 34,
+  "reviewed_sites": 34,
+  "parameters": {
+    "max_evalue": 1e-05,
+    "min_window_identity": 30,
+    "min_window_coverage": 0.8,
+    "competitive_bitscore_ratio": 0.9,
+    "extra_cysteine_guard": true
+  },
+  "scope": "Per-site structural homology prediction; not cofactor occupancy or function proof"
+}

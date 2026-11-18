@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "site_seed",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/rentianxin/Documents/Mac_FN/research/Hydrogen_Enzyme/Data/Gses/Hydrogenase/hydrogenase_annotation/references/processed/fes/site_windows.faa",
+  "number-of-letters": 3116,
+  "number-of-sequences": 34,
+  "last-updated": "2026-10-28T15:10:00",
+  "number-of-volumes": 1,
+  "bytes-total": 154829,
+  "bytes-to-cache": 3655,
+  "files": [
+    "site_seed.pdb",
+    "site_seed.phr",
+    "site_seed.pin",
+    "site_seed.pot",
+    "site_seed.psq",
+    "site_seed.ptf",
+    "site_seed.pto"
+  ]
+}

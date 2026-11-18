@@ -1,0 +1,44 @@
+# ==============================================================================
+# Master Pipeline Configuration (config_read)
+# ==============================================================================
+# Standalone execution configuration for Metagenomic Reads Taxonomic Profiling (Sylph).
+# Specifically configured for SJTU Siyuan-1 / Pi cluster (gses0 / acct-schhui).
+# Note: Data layer settings (data, project_root, samples) are decoupled and hosted in samples.yaml.
+
+runtime:
+  platform: "config/platforms/gses0.yaml"
+
+modules:
+  read_profiling:
+    path: "./read_profiling.yaml"
+    enable: true
+  preprocess:
+    enable: false
+  assembly:
+    enable: false
+  binning:
+    enable: false
+  abundance:
+    enable: false
+  annotation:
+    enable: false
+  mag_annotation:
+    enable: false
+  mag_traits:
+    enable: false
+  cog_annotation:
+    enable: false
+  pathway_reconstruction:
+    enable: false
+  synteny_validation:
+    enable: false
+  phylogeny:
+    enable: false
+  protein_phylogeny:
+    enable: false
+  plasmid_analysis:
+    enable: false
+  advanced_analysis:
+    enable: false
+  visualize:
+    enable: false

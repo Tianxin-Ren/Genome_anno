@@ -1,0 +1,67 @@
+# Copy this file for each cluster/site and change only infrastructure paths.
+runtime:
+  name: slurm-example
+  account: "your_slurm_account"
+  slurm_account: "your_slurm_account"
+  partition: "cpu"
+  slurm_partition: "cpu"
+
+cluster:
+  account: "your_slurm_account"
+  slurm_account: "your_slurm_account"
+  partition: "cpu"
+  slurm_partition: "cpu"
+
+paths:
+  conda_envs: "/cluster/shared/conda/envs"
+
+databases:
+  root: "/cluster/shared/databases"
+  bakta: "/cluster/shared/databases/bakta/db-light"
+  gtdbtk: "/cluster/shared/databases/gtdbtk/release232"
+  checkm: "/cluster/shared/databases/checkm"
+  checkm2: "/cluster/shared/databases/checkm2/uniref100.KO.1.dmnd"
+  eggnog: "/cluster/shared/databases/eggnog"
+  kofam: "/cluster/shared/databases/kofam"
+  dbcan: "/cluster/shared/databases/dbcan"
+  genomad: "/cluster/shared/databases/genomad"
+  sortmerna: "/cluster/shared/databases/sortmerna/smr_v4.3_default_db.fasta"
+  unified_hmm: "/cluster/shared/databases/hmm/unified.hmm"
+  pfam_hmm: "/cluster/shared/databases/pfam/Pfam-A.hmm"
+  ko_list: "/cluster/shared/databases/kofam/ko_list"
+
+environments:
+  bio: bio
+  fastp: bio
+  mapping: bio
+  subread: bio
+  python: biopython_1.85
+  biopython: biopython_1.85
+  bakta: bakta_1.12.0
+  gtdbtk: gtdbtk_2.7.1
+  checkm2: checkm2_1.0.2
+  eggnog: eggnog-mapper
+  kofamscan: kofamscan
+  dbcan: dbcan
+  quast: quast_5.3.0
+  isescan: isescan
+  nanoplot: nanoplot_1.20.0
+  megahit: megahit_1.2.9
+  myloasm: myloasm_0.5.0
+  metawrap: metawrap_1.3.2
+  semibin2: semibin2
+  drep: drep
+  genomad: genomad
+  mob_suite: mob_suite
+  sortmerna: sortmerna_4.3.7
+  coverm: coverm_0.7.0
+  blast: bio
+  diamond: bio
+  clinker: clinker_0.0.32
+  cblaster: cblaster_1.4.0
+  seqkit: seqkit
+  cdhit: cd-hit_4.8.1
+  cd_hit: cd-hit_4.8.1
+  mafft: mafft_7.525
+  trimal: trimal
+  hmmer: hmmer_3.4

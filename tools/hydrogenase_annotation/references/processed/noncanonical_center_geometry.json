@@ -1,0 +1,158 @@
+[
+  {
+    "pdb_id": "7Q4V",
+    "file": "references/raw/structures/7Q4V.cif",
+    "entity_id": "1",
+    "canonical_chain": "A",
+    "cluster_chain": "K",
+    "cluster_author_position": "605",
+    "source_sha256": "fcd3abb2df527478f99eaff03665fd22b24f02cd63f6a74e2621c09f6649f754",
+    "contacts": [
+      {
+        "position": 301,
+        "residue": "S",
+        "atom": "OG",
+        "metal_atom": "FE4",
+        "distance_angstrom": 2.6779023507215443,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": false
+      },
+      {
+        "position": 356,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE2",
+        "distance_angstrom": 2.245085521756355,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      },
+      {
+        "position": 502,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE1",
+        "distance_angstrom": 2.2520133214525964,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      },
+      {
+        "position": 506,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE3",
+        "distance_angstrom": 3.1189390824445344,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": false
+      }
+    ],
+    "complete_primary_ligand_set": false
+  },
+  {
+    "pdb_id": "7Q4W",
+    "file": "references/raw/round28_Sacid_mapping/7Q4W.cif",
+    "entity_id": "1",
+    "canonical_chain": "A",
+    "cluster_chain": "G",
+    "cluster_author_position": "601",
+    "source_sha256": "280a40c9441359b3a733d773d86ec0612853e0b2a463a13411a95a4794dfabd1",
+    "contacts": [
+      {
+        "position": 301,
+        "residue": "S",
+        "atom": "OG",
+        "metal_atom": "FE1",
+        "distance_angstrom": 2.807942663232274,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": false
+      },
+      {
+        "position": 356,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE1",
+        "distance_angstrom": 2.2514024518064413,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      },
+      {
+        "position": 502,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE4",
+        "distance_angstrom": 2.2607136041524667,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      },
+      {
+        "position": 506,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE3",
+        "distance_angstrom": 2.2473620091120248,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      }
+    ],
+    "complete_primary_ligand_set": false
+  },
+  {
+    "pdb_id": "8A5E",
+    "file": "references/raw/round28_Sacid_mapping/8A5E.cif",
+    "entity_id": "1",
+    "canonical_chain": "A",
+    "cluster_chain": "I",
+    "cluster_author_position": "605",
+    "source_sha256": "770b790f9ac9d7b8582ce6adf1ffc00b6fc382774fd73f30dbf1fb3d7d82c919",
+    "contacts": [
+      {
+        "position": 301,
+        "residue": "S",
+        "atom": "OG",
+        "metal_atom": "FE4",
+        "distance_angstrom": 3.5900018105845195,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": false
+      },
+      {
+        "position": 356,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE2",
+        "distance_angstrom": 2.2487496525847464,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      },
+      {
+        "position": 502,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE1",
+        "distance_angstrom": 2.2641678383017454,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      },
+      {
+        "position": 506,
+        "residue": "C",
+        "atom": "SG",
+        "metal_atom": "FE3",
+        "distance_angstrom": 2.2745307208301186,
+        "symmetry": "1_555",
+        "metal_symmetry": "1_555",
+        "passes_existing_screen": true
+      }
+    ],
+    "complete_primary_ligand_set": false
+  }
+]

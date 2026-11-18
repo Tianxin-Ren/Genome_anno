@@ -1,0 +1,94 @@
+{
+  "version": "round26-development-nucleotide-reference-like-pattern",
+  "created_utc": "2026-10-27T17:13:56.228250+00:00",
+  "scope": "Post-identity module-level binding-region sequence hypothesis. Not measured affinity,absolute substrate exclusivity,electron bifurcation,catalytic identity,physical assembly or a complete reaction classifier.",
+  "source_files": {
+    "references/raw/round26_function_mechanism/8A6T.cif": "457b234e0bf3652511c14388e94a6f0af05c06d7a67c470562ef867c0fb61473",
+    "references/raw/round26_function_mechanism/CP000252.embl": "6b7fdd988e919faec892ca27b958139b69756f4e8816911929d3a5aa6e367ac4",
+    "references/raw/round26_function_mechanism/PMC7311640.body.txt": "51c6d902ec477725bc33553bdfffb31f38261cf9227c12344ded6253209f316d",
+    "references/raw/round26_function_mechanism/PMC7311640.xml": "2b5e8acfac46a535e9bc329d93979b2eb8cb3de5622566502816638be06a1781",
+    "references/raw/round26_function_mechanism/PMC8578170.body.txt": "b0e83f9dc257f0728e34054ae3520b05f338d439f17a7b51e9e8370ca817ccf3",
+    "references/raw/round26_function_mechanism/PMC8578170.xml": "f54efbb882f690a7d59df3eb4ee65c0cd8648f3852bf150a1d7f62b44db38fbf",
+    "references/raw/round26_function_mechanism/assayed_modules.faa": "1372e6941e6ca676705f7093fb15ae3774384f7c896d7971b266ecc2e1aed041",
+    "references/raw/round26_function_mechanism/assayed_modules.json": "16fbc995f0f0305c5309582733776876161c6324f087e2b73466779af52cf264",
+    "references/raw/round26_function_mechanism/binding_alignments.tsv": "d3d02fa1fa06e43840347bd9efd999c5d2a31f89cbb247cd431c7d8f5ac5ea58",
+    "references/raw/round26_function_mechanism/binding_templates.faa": "044442baac7ddf4d5606c8a30276319b3f12ed6bdb221b375206f6d804eb6727"
+  },
+  "contact_audit": "reports/round26_nucleotide_contacts.json",
+  "contact_audit_sha256": "fef36950dbc6f472dc222f190643f109f206debc17d32522f70dc2ad104de918",
+  "templates": [
+    {
+      "reference_id": "Aw_HydB",
+      "pdb_id": "7Q4V",
+      "entity_id": "2",
+      "sequence_sha256": "b42c56eceb0df3bb84f33aa3b4bb1148ba0ab7b5935cc46262d2d608bb111dc3",
+      "positions": [
+        289,
+        309,
+        310
+      ],
+      "reference_class": "NAD_reference_like",
+      "source": "https://www.rcsb.org/structure/7Q4V"
+    },
+    {
+      "reference_id": "Tk_HydB",
+      "pdb_id": "8A6T",
+      "entity_id": "2",
+      "sequence_sha256": "df06cc6cfa4a8f9d8461bccd7a448f922259f7614b53acddd7eab3d295ae9092",
+      "positions": [
+        320,
+        340,
+        341
+      ],
+      "reference_class": "NADP_reference_like",
+      "source": "https://www.rcsb.org/structure/8A6T"
+    }
+  ],
+  "patterns": {
+    "NAD_reference_like": [
+      "E",
+      "FY",
+      "P"
+    ],
+    "NADP_reference_like": [
+      "S",
+      "RH",
+      "T"
+    ]
+  },
+  "min_context_coverage": 0.8,
+  "min_context_identity": 25,
+  "min_alignment_evalue": 1e-05,
+  "context_flank": 15,
+  "require_complete_and_concordant_positions": true,
+  "require_concordant_reference_templates": true,
+  "unknown_rule": "Missing,ambiguous,partial,low-context or mixed patterns remain unknown/ambiguous. A supporting pattern never establishes that the alternative nucleotide is impossible.",
+  "discovery_identity_active_center_Fes_models_modified": false,
+  "canonical_function_transfer_enabled": false,
+  "development_exposure": "Patterns selected after inspecting nine exposed assayed module correspondences and two structural references. No independent performance claim; original consumed final sets never used.",
+  "new_source_challenge": {
+    "organism": "Moorella thermoacetica DSM521",
+    "genome": "CP012369",
+    "six_member_loci": [
+      "MOTHE_c19180",
+      "MOTHE_c19190",
+      "MOTHE_c19200",
+      "MOTHE_c19210",
+      "MOTHE_c19220",
+      "MOTHE_c19230"
+    ],
+    "beta_locus": "MOTHE_c19220",
+    "expected_beta_length": 592,
+    "expected_nucleotide": "NADP_reference_like",
+    "coupling_truth": "Fd_not_reduced_or_stimulating_in_reported_assay",
+    "primary_source": "https://doi.org/10.1111/febs.16989",
+    "scope": "Binding-pattern rule frozen before inspecting new source protein sequence; source-held-out exposed-development challenge, not a homolog/genus-independent final test."
+  },
+  "acceptance": {
+    "assayed_module_precision": 0.95,
+    "assayed_module_coverage": 0.9,
+    "source_challenge_correct": true,
+    "canonical_reaction_added_without_coupling_evidence": 0,
+    "original21_targets_unchanged": true
+  }
+}

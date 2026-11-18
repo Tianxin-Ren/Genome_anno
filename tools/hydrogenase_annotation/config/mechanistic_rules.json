@@ -1,0 +1,100 @@
+{
+  "version": "mechanistic_rules_v1",
+  "scope": "Unified mechanistic constraint rules replacing organism-specific function templates. All thresholds, domain role mappings, priority order, and residue gates are configurable here.",
+  "locus_linkage": {
+    "max_distance_bp": 5000,
+    "require_same_strand": true,
+    "allow_circular": true,
+    "fusion_priority": true,
+    "eligible_input_modes": ["genome", "assembly", "bin"],
+    "allow_genome_unlinked_soluble_acceptors": true
+  },
+  "gates": {
+    "require_catalytic_core_confirmation": true,
+    "confirmed_identity_statuses": [
+      "calibrated_high",
+      "sequence_supported_uncalibrated_core",
+      "sequence_supported_uncalibrated_noncanonical",
+      "NiFe_catalytic_core_region_supported",
+      "split_NiFe_catalytic_core_supported"
+    ],
+    "fdhf_catalytic_site_gate": true,
+    "hmd_his14_gate": true
+  },
+  "domain_roles": {
+    "CATALYTIC_CORE": [
+      "PF00374", "PF27537", "PF02906", "PF03201", "PF22616"
+    ],
+    "PROXIMAL_FES": [
+      "PF01058", "PF14720", "PF02256", "PF22609"
+    ],
+    "FES_RELAY": [
+      "PF00037", "PF00111", "PF01799", "PF04324",
+      "PF10588", "PF10589", "PF12797", "PF12800",
+      "PF12838", "PF13183", "PF13187", "PF13237",
+      "PF13247", "PF13510", "PF14691", "PF14697",
+      "PF17179", "PF22117"
+    ],
+    "MEMBRANE_QUINONE_CYT": [
+      "PF01292", "PF03916", "PF00173", "PF07849"
+    ],
+    "MEMBRANE_PROTON_PUMP": [
+      "PF00361", "PF00662", "PF00420", "PF00499", "PF00507",
+      "PF01899", "PF03334", "PF04039", "PF04066", "PF13244",
+      "PF20501", "PF09877", "PF17367", "PF00378", "PF10621"
+    ],
+    "GROUP4_COMPLEX1_CORE": [
+      "PF00146", "PF00329"
+    ],
+    "PYRIDINE_FLAVIN_DIAPHORASE": [
+      "PF00175", "PF01512", "PF13450", "PF00970", "PF00941",
+      "PF07992", "PF12831", "PF10418", "PS51384"
+    ],
+    "METABOLIC_PARTNER": {
+      "Fdh": [
+        "PF00384", "PF01568", "PF04879", "PF09163",
+        "PF00174", "PF01315", "PF02738", "PF03404", "PF20256"
+      ],
+      "CODH": [
+        "PF03063", "PF03598", "PF18537", "PF19436", "PF03450"
+      ],
+      "Hdr": [
+        "PF02754", "PF30025"
+      ],
+      "F420": [
+        "PF04422", "PF04432"
+      ]
+    },
+    "CYTOCHROME_C3": [
+      "PF02085", "PF14537"
+    ],
+    "REGULATORY_SENSOR": [
+      "PF00512", "PF07568", "PF07730", "PF02518", "PF01590", "PF00072"
+    ],
+    "MATURATION": [
+      "PF01155", "PF01455", "PF01924", "PF01750", "PF07503",
+      "PF17788", "PF22521", "PF02492", "PF03824", "PF04809",
+      "PF07449", "PF07450", "PF11939"
+    ]
+  },
+  "arbitration": {
+    "priority_order": [
+      "METABOLIC_COMPOSITE_FHL",
+      "METABOLIC_PARTNER",
+      "MEMBRANE_PROTON_PUMP",
+      "MEMBRANE_QUINONE_CYT",
+      "CYTOCHROME_C3",
+      "PYRIDINE_FLAVIN_DIAPHORASE",
+      "REGULATORY_SENSOR",
+      "FE_ONLY_HMD"
+    ],
+    "allow_composite_fhl": true,
+    "fefe_ferredoxin_default": true,
+    "record_secondary_modules": true
+  },
+  "selectivity_and_bifurcation": {
+    "nad_nadp_selectivity_default": "unresolved",
+    "bifurcation_default": "unknown",
+    "enable_domain_selectivity_inference": false
+  }
+}

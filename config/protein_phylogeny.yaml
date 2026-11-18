@@ -1,0 +1,25 @@
+# Default Protein Phylogeny Configuration
+# ------------------------------------------------------------------------------
+# In this protein phylogeny workflow, all task names and fasta inputs are 
+# configured dynamically under protein_phylogeny_tasks inside samples.yaml.
+# This file is reserved for global module runtime parameters.
+protein_phylogeny:
+  enable: False
+  results_dir: "results/protein_phylogeny"
+
+  # --- MAFFT Alignment Settings ---
+  mafft_executable: "mafft"
+  mafft_mode: "--auto"            # Options: "--auto", "--localpair --maxiterate 1000" (L-INS-i), etc.
+  mafft_extra: ""                 # Custom extra flags for MAFFT
+
+  # --- IQ-TREE 3.1.2 Performance Tuning ---
+  iqtree_executable: "iqtree3"    # Executable name: "iqtree3" (compatible with your 3.1.2 conda environment)
+  iqtree_bootstrap: "-B 1000"    # "-B 1000" (Ultrafast 3.x) or "-b 1000" (Standard non-parametric)
+  iqtree_alrt: "-alrt 1000"      # SH-aLRT likelihood ratio test
+  iqtree_model: "MFP"            # ModelFinder Plus selection
+  iqtree_extra: ""               # Custom extra flags for IQ-TREE (e.g. additional constraints)
+
+  # --- Conda Environment Names/Paths ---
+  conda_envs:
+    mafft: "mafft_7.525"
+    iqtree: "iqtree_3.0.1"

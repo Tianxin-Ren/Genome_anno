@@ -1,0 +1,48 @@
+# ==============================================================================
+# Four-Tier Functional Evidence & Metabolic Capability Architecture
+# ==============================================================================
+
+pathway_reconstruction:
+  # Results and logs directories (relative to project_root)
+  results_dir: "results/pathway_reconstruction"
+  logs_dir: "logs/pathway_reconstruction"
+
+  # Path to KEGG Knowledge Assets Directory
+  knowledge_dir: "knowledge/kegg"
+
+  # Path to Module Catalog (Default: knowledge/kegg/all_kegg_modules.tsv)
+  # Can point to a catalog TSV or a directory with YAML modules (knowledge/kegg/modules)
+  modules_catalog: "knowledge/kegg/all_kegg_modules.tsv"
+
+  # Optional custom input KO strict table (default: results/mag_annotation/{sample}/merged/protein_KO_all_strict.tsv)
+  ko_strict_tsv: ""
+
+  # Strategy for proteins with multiple qualifying hits passing KOfam curated threshold:
+  # - 'all_strict' (default, recommended): Every strict hit can provide evidence for its relevant module.
+  # - 'best_hit': Only the single top-scoring hit (Rank 1) per protein is passed to module evaluation.
+  ko_evidence_strategy: "all_strict"
+
+  # Tier 1 Scientific Module Evaluation Thresholds:
+  # - 'complete' is strictly achieved when definition_satisfied == true (100% required blocks)
+  # - 'near_complete' is achieved when missing_required_blocks <= near_complete_max_missing_blocks
+  # - 'partial' is achieved when completeness_score >= partial_score_threshold
+  partial_score_threshold: 0.50
+  near_complete_max_missing_blocks: 1
+  completion_threshold: 0.75   # Backward-compatibility alias for partial_score_threshold
+  max_missing_steps: 1         # Backward-compatibility alias for near_complete_max_missing_blocks
+
+  # Multi-Tier Functional Engine Toggles
+  enable_pathway_footprint: true      # Tier 2: 587 KEGG Pathway map footprints & reaction fractions
+  enable_brite_profiling: true        # Tier 3: BRITE multi-label systems & normalized abundances
+  enable_coverage_audit: true         # Global Audit: protein->KO & KO->hierarchy coverage separation
+  enable_custom_archaeal_modules: true # Tier 4: Custom archaeal ether lipid, CoB, and hydrogenase systems
+
+  # Tier 2 Scope Filter for Wide Matrix: 'prokaryote_relevant' or 'all'
+  pathway_scope_filter: "prokaryote_relevant"
+
+  # CPU Resources
+  threads: 4
+
+  # Conda Environment
+  conda_envs:
+    python: ""

@@ -1,0 +1,112 @@
+# ==============================================================================
+# 目标待测样本与数据集配置文件 (projects/config_synteny/samples.yaml)
+# 支持针对每份样本独立配置生物域 (domain) 与操纵子分析预设 (presets)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. 样本全局默认配置 (若单个样本未显式指定 domain 或 presets 时生效)
+# ------------------------------------------------------------------------------
+# 默认生物域 ("archaea" 或 "bacteria")
+default_domain: "archaea"
+
+# 默认激活的分析预设列表 (例如 ["M00159", "M00157"] 或 ["M00595"])
+default_presets:
+  - "M00159"
+  - "M00157"
+
+# ------------------------------------------------------------------------------
+# 2. 批量待测样本库与自动化索引检索目录 (可选，用于自动扫描补充未在此声明的 MAG)
+# ------------------------------------------------------------------------------
+target_genomes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/Mpf_2022/MOB_abundance/data/MAGs"
+target_proteins_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/proteins/all"
+target_genes_dir: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/genes"
+target_classification: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/mag_classification"
+target_genomes_list: ""
+
+# 目标样本功能注释文件通用模板与目录 (支持 {sample} 通配符解析)
+target_annotation: "functional/{sample}.kofam.tsv"
+target_annotation_dir: "functional"
+
+# ------------------------------------------------------------------------------
+# 3. 待测样本明细定义 (synteny_samples)
+# ------------------------------------------------------------------------------
+synteny_samples:
+  # ----------------------------------------------------------------------------
+  # 样本 1：古菌高质量完整基因组 (多合酶预设独立配置)
+  # ----------------------------------------------------------------------------
+  Bathy_u999856:
+    # [独立域] "archaea" 或 "bacteria" (缺省时自动基于 taxonomy 判定，或继承 default_domain)
+    domain: "archaea"
+
+    # [独立预设] 支持列表格式指定多个 Presets (如 M00159 与 M00157)
+    presets:
+      - "M00159"
+      - "M00157"
+
+    # [必选] 基因组核酸组装序列 (FASTA 格式)
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.fna"
+    
+    # [必选] 目标样本的 GTDB 7级分类字符串 (用于第一层近缘参考挑选)
+    taxonomy: "d__Archaea;p__Thermoproteota;c__Bathyarchaeia;o__Bathyarchaeales;f__Bathyarchaeaceae;g__Bathyarchaeum;s__Bathyarchaeum sp026014565"
+    
+    # [推荐] 预测蛋白质序列 (FAA 格式，若已有 Bakta/Prodigal 结果可直接提供)
+    faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.faa"
+    
+    # [推荐] 基因坐标文件 (GFF3 格式，用于提取各基因在 Contig 上的准确坐标)
+    gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/u999856.gff3"
+
+    # [可选] KofamScan 功能注释结果文件 (支持 *.kofam.tsv)
+    annotation: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u999856/functional/u999856.kofam.tsv"
+    
+    # [推荐] 组装质控指标 (CheckM/CheckM2 得出的完整度与污染度百分比)
+    completeness: 98.5
+    contamination: 0.8
+    
+    # [可选] 原始 Reads 比对回该组装的排序 BAM 文件
+    # reads_bam: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/abundance/Bathy_enrichment_2025/u896703.sorted.bam"
+    # [可选] 独立基因组标记构建的物种树；没有树时演化丢失保持 UNRESOLVED_PHYLOGENY。
+    # species_tree_nwk: "/path/to/rooted_species_tree.nwk"
+    # 若 Newick 未标记已定根，提供序列或分类依据选定的外群叶名。
+    # species_tree_outgroup: "GCA_XXXXXXXXX.X"
+
+  Bathy_u1287049:
+    domain: "archaea"
+    presets:
+      - "M00159"
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.fna"
+    taxonomy: "d__Archaea;p__Thermoproteota;c__Bathyarchaeia;o__Bathyarchaeales;f__Bathycorpusculaceae;g__Bathycorpusculum;s__"
+    faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.faa"
+    gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/u1287049.gff3"
+    annotation: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Bathy_enrichment_2025/circular_refined/u1287049/functional/u1287049.kofam.tsv"
+    completeness: 94.2
+    contamination: 1.5
+
+  # ----------------------------------------------------------------------------
+  # 样本 2：古菌 MAG (单合酶预设独立配置)
+  # ----------------------------------------------------------------------------
+  Hadar_u499975:
+    domain: "archaea"
+    presets:
+      - "M00159"
+    fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_refined/u499975/u499975.fna"
+    taxonomy: "d__Archaea;p__Hadarchaeota;c__Hadarchaeia;o__Hadarchaeales;f__WYZ-LMO6;g__WYZ-LMO6;s__"
+    faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_refined/u499975/u499975.faa"
+    gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_refined/u499975/u499975.gff3"
+    annotation: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/annotation/Hadar_Ytt/circular_refined/u499975/functional/u499975.kofam.tsv"
+    completeness: 94.2
+    contamination: 1.5
+
+  # ----------------------------------------------------------------------------
+  # 样本 3 (示例)：细菌待测样本 (独立配置 domain: "bacteria" 与 presets: ["M00595"])
+  # ----------------------------------------------------------------------------
+  # MOB_sample_example:
+  #   domain: "bacteria"
+  #   presets:
+  #     - "M00595"
+  #   fasta: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/Mpf_2022/MOB_abundance/data/MAGs/sample1.fna"
+  #   taxonomy: "d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Oceanospirillales;f__Saccharospirillaceae;g__Reinekea;s__"
+  #   faa: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/proteins/all/sample1.faa"
+  #   gff: "/dssg/home/acct-clswfp/clswfp-icdli1/RenTianxin/results/mag_annotation/NS_MOB/genes/sample1.gff"
+  #   annotation: "functional/sample1.kofam.tsv"
+  #   completeness: 96.0
+  #   contamination: 1.2

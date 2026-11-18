@@ -1,0 +1,68 @@
+{
+  "Complex1_49kDa": {
+    "accession": "PF00346.25",
+    "versioned_accession": "PF00346.25",
+    "profile": "Complex1_49kDa",
+    "description": "Respiratory-chain NADH dehydrogenase, 49 Kd subunit",
+    "sha256": "c2fe7b71f6cd3a094caf4df6ee3e3a32eb790068b9f65068c09c256c6f606850",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00346/?annotation=hmm",
+    "gathering_threshold": "24 24;",
+    "sequence_ga": 24.0,
+    "domain_ga": 24.0
+  },
+  "NiFeSe_Hases": {
+    "accession": "PF00374.25",
+    "versioned_accession": "PF00374.25",
+    "profile": "NiFeSe_Hases",
+    "description": "Nickel-dependent hydrogenase",
+    "sha256": "45339ad5e853b1102537913f80567406e78cb57902cea12536eed6648508fae6",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00374/?annotation=hmm",
+    "gathering_threshold": "25.8 25.8;",
+    "sequence_ga": 25.8,
+    "domain_ga": 25.8
+  },
+  "Fe_hyd_SSU": {
+    "accession": "PF02256.23",
+    "versioned_accession": "PF02256.23",
+    "profile": "Fe_hyd_SSU",
+    "description": "Iron hydrogenase small subunit",
+    "sha256": "63930395382cd75c56f1ab70792df06506e47b874b765ea6cbf30978d0a19aa3",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02256/?annotation=hmm",
+    "gathering_threshold": "24 24;",
+    "sequence_ga": 24.0,
+    "domain_ga": 24.0
+  },
+  "Fe_hyd_lg_C": {
+    "accession": "PF02906.20",
+    "versioned_accession": "PF02906.20",
+    "profile": "Fe_hyd_lg_C",
+    "description": "Iron only hydrogenase large subunit, C-terminal domain",
+    "sha256": "71bb31272b7833cea77c96dae3fc58dddce8e1d7a726f98f0354f8a189fba17e",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02906/?annotation=hmm",
+    "gathering_threshold": "22.1 22.1;",
+    "sequence_ga": 22.1,
+    "domain_ga": 22.1
+  },
+  "HMD": {
+    "accession": "PF03201.23",
+    "versioned_accession": "PF03201.23",
+    "profile": "HMD",
+    "description": "H2-forming N5,N10-methylene-tetrahydromethanopterin dehydrogenase",
+    "sha256": "05006c6e2d182652599d457d859167052104560486cde93dfacf0c07442c366d",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03201/?annotation=hmm",
+    "gathering_threshold": "27.9 27.9;",
+    "sequence_ga": 27.9,
+    "domain_ga": 27.9
+  },
+  "HMD_N": {
+    "accession": "PF22616.3",
+    "versioned_accession": "PF22616.3",
+    "profile": "HMD_N",
+    "description": "HMD N-terminal domain",
+    "sha256": "bc5f2b95e900cf1ef1f6f39d41378741cc431c07ad5f02f685c998d99fee0cd3",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF22616/?annotation=hmm",
+    "gathering_threshold": "27 27;",
+    "sequence_ga": 27.0,
+    "domain_ga": 27.0
+  }
+}

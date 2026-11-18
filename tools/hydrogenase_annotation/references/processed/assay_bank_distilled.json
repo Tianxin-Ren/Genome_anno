@@ -1,0 +1,957 @@
+{
+  "refs": [
+    {
+      "role": "HydA",
+      "kind": "catalytic",
+      "protein_accession": "AAB94936.1",
+      "sequence_sha256": "bb36909ea7b5366234d4b2555aee4c7c5ed4a4d5e78a13d8596b9ff90a8675da",
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "reference_id": "NiFe_Tlitoralis_HydBGDA__HydA",
+      "sequence": "MYIPITVDHIARVEGKGGIEIVTSDEGVKEVKLNIIEGPRFFEAITIGKKLEEALAIYPRVCSFCSASHKLTALEAAEKAIGFTPRPEIQDLRELLYMGDTIESHALHLYLLVLPDYLGYSNPLAMVDKYKKEIEYAMALKNVGSKIMDYLGSRAIHQENVVLGGFGKLPTKAQFEELRRELKEALPLAEYTVELFSKLEQYEEVTDDEMVHMAVKPRNDVYGIYGDYIKVSDGFEFPVEDYKKHIVEKVVEHSFAKHSFYKGKPFMVGAISRIVNNADLLYGKAKELYTQYKDLLRYNNCFANNFAQAIELVYFIEKSIDIIDDTLAKWPVKERDEVELKDGFGVSITEAPRGLLVYALEVKDGRVNYADIITPTAMNLAIMERHVRMMAENHWQDDPERLKLLAEMTVRAYDPCISCSVHVVRL"
+    },
+    {
+      "role": "HydD",
+      "kind": "module",
+      "protein_accession": "AAB94935.1",
+      "sequence_sha256": "9821d7ea8015638d684945aadb3815533f57c4aef680a345802d77d238def51e",
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "reference_id": "NiFe_Tlitoralis_HydBGDA__HydD",
+      "sequence": "MENEKVRIGFYALTSCYGCQLQFAMMDEILHLLDKAEIECWFMVERDSDEDREVDIAFIEGSVSTQEEVELVKKIREKAKIVVAVGACATQGGVQSWGKDKELSELWKTVYGDAHVKFEPKMAEPVEKYIKVDYKLYGCPPEKKDFLYALGTFLVGSWPEDIDYPVCVECRLRGNPCILIEKGEPCLGPVTVAGCDARCPGFNVACIGCRGAVGYDVAWFDSLALEFKKKGLTKEEILERMKIFNAHNPKLEEMVNKIFEEGE"
+    },
+    {
+      "role": "HydG",
+      "kind": "module",
+      "protein_accession": "AAB94934.1",
+      "sequence_sha256": "aef036faefcba54890bbce8bf5fc26127c9bc28bbba15540edf296afd53d2d0a",
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "reference_id": "NiFe_Tlitoralis_HydBGDA__HydG",
+      "sequence": "MTVPRPVPRTNTFADDNPYALERVRVLRVYQLTELEKLFLFRFEDPTIAENWTFKPGQFVQLTIPGIGEVPISVCSSPMRQGFFELCIRKAGRVTTVVHKLKPGDTVLVRGPYGNGFPVDEWEGMDLLLIAAGLGTAPLRSVFLYAMDNRWKYGNITFINTARYGKDLLFYKELEAMKDIAEAENVKIIQSVTRDPDWPGLKGRPQNFIVEANTNPKNTAVAICGPPRMYKDVFESLINYGYRPENIYVTLERMMKCGIGKCGHCNVGTSTSWKYVCKDGPVFTYFDIVSTPGMLD"
+    },
+    {
+      "role": "HydB",
+      "kind": "module",
+      "protein_accession": "AAB94933.1",
+      "sequence_sha256": "a86206a7453376d0ee1f6ca23c4232367b67b62ebc2527793bfdaeaf2461f374",
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "reference_id": "NiFe_Tlitoralis_HydBGDA__HydB",
+      "sequence": "MELRYVKLPKENTYEFLERLKEWGTLYAPVKISEKFYDFREVEDMSQIEFKYNRTIMPPKKFFFLPREKMFEFSISKAEYKEVIENVEPFVVFGVHACDIFGLKIMDTIYLDELPDKYYKVRREKGIIIGISCVPDEYCFCNLRETDFADDGFDLFLHELPDGWLVRVGTPTGHRIVDKNIKLFEEVTSQDVCNFRDFENKKQQMFRYHEDWADLRYLLELETEHPMWDEQSDICLACGNCNTTCPTCRCFDVRDIPNIDGVTGVRVRRWDSCQLVRHGMVAGGHNFRPTKKSRFMNRYMCKNSYVEKLGLSYCVGCGRCTYFCPAEISFVRNLRTILGLEESSCPPRISEEIPKRGFAYGPSVGGGEQ"
+    },
+    {
+      "role": "HyhL",
+      "kind": "catalytic",
+      "protein_accession": "BAC00531.1",
+      "sequence_sha256": "638e6d448966a7cb78f473c87d5f53d3ee5917622e8491e36bafe6c942405c89",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "reference_id": "NiFe_Tkodakarensis_HyhBGSL__HyhL",
+      "sequence": "MKNVYLPITVDHIARVEGKGGVEIVVGDDGVKEVKLNIIEGPRFFEAITLGKKLDEALAIYPRICSFCSAAHKLTAVEAAEKAIGFTPREEIQALREVLYIGDMIESHALHLYLLVLPDYLGYSGPLHMIDEYKKEMSIALDLKNLGSWMMDELGSRAIHQENAVLGGFGKLPDKSVLENMKRRLKEALPKAEYTFELFTKLEQYEEVEGPITHIAVKPRNGVYGIYGDYLKASDGNEFPSEEYREHIKEFVVEHSFAKHSHYHGKPFMVGAISRLVNNADTLYGRAKELYESYKDLLRSTNPFANNLAQALELVYFTERAIDLIDEALAKWPIRPRDEVALKDGFGVSTTEAPRGVLVYALKVENGRVSYADIITPTAFNLAMMEQHVRMMAEKHYNDDPEKLKLLAEMVVRAYDPCISCSVHVARL"
+    },
+    {
+      "role": "HyhS",
+      "kind": "module",
+      "protein_accession": "BAC00530.1",
+      "sequence_sha256": "5a2f6ff09fb6caed94e2105d5ccaa08db7b73af36a8e6fe210366f4e352ca42e",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "reference_id": "NiFe_Tkodakarensis_HyhBGSL__HyhS",
+      "sequence": "MSEKKIRIGFYALTSCYGCQLQFAMMDEILQLIPNVEIACWFMLERDSYEDEPVDIAFIEGSVSTEEEAELVKKIRENAKIVVAVGSCAVQGGVQSWEKDKPLEELWKTVYGDAKVKFQPKMAEPISNYIKVDYNIYGCPPEKRDFLYTLGTLLIGSWPEDIDYPVCLECRLRGNTCVLLERGEPCLGPVTRAGCDARCPAYGIACIGCRGAIGYDVAWFDSLARVFREKGLTKEEILERMRMFNAHNPKLEEMVNKIFQEVKE"
+    },
+    {
+      "role": "HyhG",
+      "kind": "module",
+      "protein_accession": "BAC00529.1",
+      "sequence_sha256": "57634da5ac33706492f634f6cbfcfa0ab5d0b9ffe0e396e1c0d9118d39a68922",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "reference_id": "NiFe_Tkodakarensis_HyhBGSL__HyhG",
+      "sequence": "MSMVLPKEIMMPNDNPYALHRAKVLRVYPLTEKEKLFLFRFEDAELAEKWTFRPGQFVQLTIPGVGEVPISICSSAMRRGFFELCIRKAGRVTTVVHRLKPGDTVLVRGPYGNGFPVDEWEGMDLLLIAAGLGTAPLRSVFLYAMDNRWKYGNITFINTARYGKDLLFYKELEAMKDLAEAENVKIIQSVTRDPDWPGLHGRPQNFIPEANTNPKKTAVAICGPPRMYKAVFEALINYGYRPENIYVTLERKMKCGIGKCGHCNVGTSTSWKYVCKDGPVFGYFDIISTPGLLD"
+    },
+    {
+      "role": "HyhB",
+      "kind": "module",
+      "protein_accession": "BAC00528.1",
+      "sequence_sha256": "56ea3bc1937397722d9003f84fd16bf50ad5f04d1c7177e5a4f8924a587eaf55",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "reference_id": "NiFe_Tkodakarensis_HyhBGSL__HyhB",
+      "sequence": "MRYVKLPKENTYTFLERLKEWGKLYAPVKISEKFYDFREIDDVRKVEFNYNRTIMPPKKFFFLPREKLFEFDLSRPEYRETIEDVEPFVIFGLHACDIHGLKILDTVYLDELPDKYYKARREKGIIIGISCMPDEYCFCNLRETDFADDGFDLFLHELPDGWLVRVGSPTGHRIVDKNMELFEEVTTEDICNFREFENKRSQAFKYHEDWSNLRYLLELEMEHPMWEEQADLCLACGICNTTCPTCRCYEVQDIVNLDGNTGYRERRWDSCQFRSHGLVAGGHNFRPTKKDRFRNRYLCKNSYNEKLGLSYCVGCGRCTYFCPAGISFVRNLRTILGLEEKSCPSEITEEIPKRGFAYASHIRGDGL"
+    },
+    {
+      "role": "HydA",
+      "kind": "catalytic",
+      "protein_accession": "ABC76974.1",
+      "sequence_sha256": "05419c4ba2dd69880775585793df5a59cfcffa0a9cd5c16bd584409747485842",
+      "structure_id": "FeFe_Saciditrophicus_HydAB",
+      "reference_id": "FeFe_Saciditrophicus_HydAB__HydA",
+      "sequence": "MEEHMSSINLTVNNIDVEVEAGATLYQAAQKAGVNIPTLCAWFDKDHTPGACRVCVVEVEGMPSLAASCAYPAQNGMKVFTNSDKVRQARKMIVELILASHPQECNFCVRNGNCELQKVAEMVGVKNIRYDSEEFDRDRELDTSSPAIVRDSSKCINCRRCVTVCESIQTVAALSPMNRGYESTVSPAFNLPLNETNCVNCGQCVMACPVGALYEKDQVDEVWKALQDPTRHVVVQEAPAIRAALGEEFGMPPGSLVTGKMIAALRRLGFDKVFDTNFTADLTIIEEGNELLKRVKEGGTLPMITSCSPGWIKFCEHFYPDLLGHLSTCKSPQQMFGALAKTYYAQVSGIDPANIFSVSIMPCTAKKYEAQRPEMKSSGYQDVDVVLTTRELARMIKEAGIDFVNLPDEKYDDPMGEYTGAATIFGATGGVMEAALRTVYAVVTGEELSDLNIMPVRGLEGVKAAAVPVGALGDVKVAVAHGLGNARKLLDEIRAGKSEYAFIEVMCCPGGCVAGGGEPIPTTDEIRMLRAGALYRDDGEVQQYRQSHQSPPVKAVYEKFLKEPLGHKSHELLHTHYVQRGQSLPHLDASPAGEKETVEAMCEKD"
+    },
+    {
+      "role": "HydB",
+      "kind": "module",
+      "protein_accession": "ABC76975.1",
+      "sequence_sha256": "33fe0bfef3894d8230f24ece4e07b415ac52cadfa947910376835e90d77389bf",
+      "structure_id": "FeFe_Saciditrophicus_HydAB",
+      "reference_id": "FeFe_Saciditrophicus_HydAB__HydB",
+      "sequence": "MITVQDIENVIAARGNAREHLMAILRDLENLSGRNVLDVSVLNTLAMKMDLPQSAISGFTSFYTMFSTEPRAKFIIRVCKSGPCHVMGARTIFDVIENHLGIRAGETTADGLFHLEECECLGLCSAAPAMMVNYDMHGNLSESNIKEILDSYSAREPAFKAEYGPGIEGRAVIINNSQQTRRLLENVGKVDPASIESYLQNGGYEAARKAFAEYSPEQVIGIVKDSGLRGRGGAGFPVGVKWSFVPKGEMQKYVICNADEGEPGTFKDRVLMEENPQQLIEGMLLCGYAIGATLGYIYVRGEYRRSIERLQSAIDQARAKGFLGKKIFGSNFDFDIFVKEGGGAYVCGEETSLINSMEGKRGYPRVRPPFPAAAGFMGMPSNVNNVETLSSIPMIVARGADWFKSVGTATCAGTKLYCLSGKVNQTGLVELPMGATLRQMIDTFGGGMKSGSSFKFAQVGGAAGGILGADLMDLPLDIDSTIKAGVTLGSGVVLVCDQETCAVDFLLNVLNFFEHESCGQCIPCKLGTSQLHYVAQKFAMREAEEKDIQLMIDTAKMMKLASLCALGQSPILPIETMIRNFREEFVKHCDPDYECPQCDASLQAYYL"
+    },
+    {
+      "role": "HydA",
+      "kind": "catalytic",
+      "protein_accession": "AAF61854.1",
+      "sequence_sha256": "13bb19fe744f979a679529e3eab326cefa23286f705eef340dd33dbffc862a15",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "reference_id": "NiFe_Pfuriosus_HII_BGDA__HydA",
+      "sequence": "MIIELDEFTRVEGNGKAEIVIENGEVKDARVKIVEGPRFFEILTLGRDYWDVPDLEARICAICYIAHSVASVRAIEKALGIDVPESVEKLRELALWGEIIESHALHLYLLALPDVFGYPDAISMIPRHGELVKEGLTIKAFGNAIRELIGGREIHGINIKPGGFGRYPSEEELEKIAEHSKSLIKFARRIVGIFASQEAGGAVGEVLMATSDYLWGDELIINGERVQYYEVDEVPVGYSFAKHSYYKGNPVFVGALPRLLLKGESIEGEAARMLEEYRDKLESKYVIYNNLAQAIELLYALERVPQLVEEILSEGIERGNGEISQESGEGVGYVEAPRGVLVHHYRIENGKVVWSNTITPTAFNQRLMELSLLEEAKRLYGSESEENMKKRLEVIVRAFDPCISCSVHFVKL"
+    },
+    {
+      "role": "HydB",
+      "kind": "module",
+      "protein_accession": "AAF61851.1",
+      "sequence_sha256": "89b50236383fab1a60f235f8483d8e4647f36f48a56ed90ee30e1aff1332d203",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "reference_id": "NiFe_Pfuriosus_HII_BGDA__HydB",
+      "sequence": "MRYVKLHSEYFPEFFNRLKEVGRVYGPVRHNSTYRFEEVNSIDELSLDYTRTILPPKKFFIRPRDAMFKIQKNEVTEVDGDGKFVLFGVHSCDIHGIKILDKVYLSNPPDPYYERRRKNAFIVGISCMPDEYCFCKSLGTDFAMDGFDIFLHELPDGWLVRVGSVKGHEFVWENQDIFDDVTEEDLRNFKEFEEKRAKAFKKSLNKEGLADILDLAFTSKVWKKYAEKCLGCGNCTIVCPTCRCYEVCDTWVRAYEALRMRRYDSCFMPTHGLVAGGHNFRPTRLDRFRHRYYCKNYFDPEAGFNCVGCGRCDEFCPARIEHVKVLDEVREGLI"
+    },
+    {
+      "role": "HydG",
+      "kind": "module",
+      "protein_accession": "AAF61852.1",
+      "sequence_sha256": "3ae71f56b0d22c11f129eb7f88efe0ce7cf8de9d393ef85666b81b01b2cce56e",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "reference_id": "NiFe_Pfuriosus_HII_BGDA__HydG",
+      "sequence": "MNPYRSYDARIIEVKELTSREKLFSLKFLDNEIEENFTFKPGQFVIVDIRGFGEFPISLCSSPTRRPIQLCIRRVGRMTKFIHKMNEGDIIGIRGPYGNGFPMDLMEGSNLILIAGGLGMAPLRSVLWYAIDSGKYEKIYLFYGTKSYEDILFRDEIIHLLKHGEKLNCHVKLAYEVETPSCIYLERGFSEKVCKGVVTDLFRGEEFDVENSYALICGPPVMYKYVIRELLDRGLSPGRIYMTLERRMRCGVGKCGHCIVGTSVSIKYICKDGPVFTYWDALSTRGLI"
+    },
+    {
+      "role": "HydD",
+      "kind": "module",
+      "protein_accession": "AAF61853.1",
+      "sequence_sha256": "d4242941a67748789d7eeea0fa86b506e238eb2d9dc1306f6a75e8d940cccf39",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "reference_id": "NiFe_Pfuriosus_HII_BGDA__HydD",
+      "sequence": "MKLGVFELTDCGGCALNLLFLYDKLLDLLEFYEIAEFHMATSKKSREKIDVALVTGTVSTQRDLEVLRDARNRSEYLIALGTCATHGSVQGVIENSKEAYRRVYGNGKPPVKLLNPKPVTDYVPVDFAIPGCPYDKEEVFQVLIDIAKGIEPVAKDYPVCLECKLNEYECVLLKKRIPCLGPVTAGGCNAKCPSYGLGCIGCRGPSLDNNVPGMFEVLKEILPDEEIARKLRTFARW"
+    },
+    {
+      "role": "HoxF",
+      "kind": "module",
+      "protein_accession": "ADK12978.1",
+      "sequence_sha256": "3637fc634710fba33ec2b455f3de97b777cd26646eff7a8f4068597f3914968d",
+      "structure_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH",
+      "reference_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH__HoxF",
+      "sequence": "MNASATVTVEGFVAESLATHGRDPRHLLQHLIRVQQRFSYVPDAAVEALSVALDVTRTQVRAAIAFYAFLHDRPRGAFEIRFSDNITDRMLGSRRLIRLLIERLGLTGLPAWGRDLVRPDGRASVGLASCTGMCDQGPALLVNGQAVTNLDAQRVDRIADLVQEGIPLERWPGEFFRVENNIRRRGLLLGNPATDGAAVRRLLDAGAEAALAEVERSGLRGRGGAGFTTALKWRFCREAPGTDRYVVCNADEGEPGTFKDRVLLTDYTDLVIEGMTVCAGVIGARRGFLYLRGEYRYLLPHLESVLQRRRAEGLLGTRILGADGFDFDIEIHLGAGAYICGEESALIESLEGKRGVTRKRPPFPVTSGFDDQPTVVNNVETFLAAARVVQWGGYWLRGEGTDQSAGSKILSVSGDCARPGIYEYPFGTPVHQVLSDCGAENTQAVQISGAAGATLSPADFDRIIAFEDLPTAGSFMIFDHSRDLLDMVRNFAAFFAHESCGFCTPCRVGGALLRNLVEKVAAGQGSEYDLSEMRRIGTVMRRASYCGLGHTAPNHVVNTLDKFPLIYGRRLARASHTPSFDLDAALSQARALTGRDDIGAHIGDGSEVSA"
+    },
+    {
+      "role": "HoxU",
+      "kind": "module",
+      "protein_accession": "ADK12979.1",
+      "sequence_sha256": "e9293b16ab17de5e9e3da8085f15fc6acbaaf8eb9d452e3ee899a1e29853a10a",
+      "structure_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH",
+      "reference_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH__HoxU",
+      "sequence": "MSKTFKLDGREIPFETGQTIMDAALAAGVYIPHLCHNPEFAPHGSCRVCVVDIGGRQVSACTAAASEGLEVDNSSEAIQETRRAILQMLFVEGNHVCPACEKSGACQLQAVAYYTGMLAPHFTHFFPRRSVDASHPDVVIDFNRCILCELCVRASRDHDGKRVFAISGRGLESHLVIDSHSGLLGDSSFAATDKAAHVCPTGAILPKGRGYETPIGERLYDREPISIVGDVRAHEEEVV"
+    },
+    {
+      "role": "HoxY",
+      "kind": "module",
+      "protein_accession": "ADK12980.1",
+      "sequence_sha256": "2f2512e997b263cff08e3190c81e2c65ac03e053e4e89de19c6b15645d767849",
+      "structure_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH",
+      "reference_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH__HoxY",
+      "sequence": "MAEKPRVATASLCGCFGCHMSLLDIDERILQLVDLVTFDRTPLTDIKTLGDCDLGLIEGGVANAENVEVLREFRRRCKTLVAVGACAVNGGIPAMRNQFSLAECLRESYCDGVGVHNPGIPNDPEIPLLLNQVHPIHEVVAIDYFLPGCPPSADAIWTFLTEFLEGRPIAFPYTQIHFD"
+    },
+    {
+      "role": "HoxH",
+      "kind": "catalytic",
+      "protein_accession": "ADK12981.1",
+      "sequence_sha256": "042ac5b1195d3059b063c93d10262c543a1978d0143fc8364e4d64fac1c04813",
+      "structure_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH",
+      "reference_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH__HoxH",
+      "sequence": "MTKNLETARHPETLKRVCIEPLTRVEGHGKVTLLLDEDDHVKQARLHIVEFRGFEKFIQGRPYWELPVLVQRLCGICPVSHHLAAAKACDRLIGVDRLTPTAEKVRRLMHLGQVLQSHALHFFHLSSPDLLFGIDDAVAHRNIVGVIRDHPEIAMEGVLLRKFGQEVIRVTSGKRVHGTGALPGGVNKNVSLEERDFLLADIDRIVDWAEKGVQLIKRIILTRADFHYRFANVDANTLSLVSPDGGFELYDGGLRARGPQGETLFDHADDQGYAELLHEEIKSWSYMKFPFIVALGPEKGWYRVGPLARVNNCERFHTPLAEQERQDFAAAGEGRPLQAALTTHWARMIELLHCAEAIRELLADPDLQGTDLRREGELQTTGIGVLEAPRGTLFHHYEIDSDGLVTRANLIVSTTNNNQAMNESIRRVAADDLDGHALTEPLLNRIEVAIRAYDPCLSCATHAIGQMPLELELLDAEGRRIGRLVRHADGSIDA"
+    },
+    {
+      "role": "HydA",
+      "kind": "catalytic",
+      "protein_accession": "ADU23430.1",
+      "sequence_sha256": "b0a15af09a0dd2b391f520de6d3167820d9d9bf8cd4e31b341bcd5fa338b3829",
+      "structure_id": "FeFe_Ralbus7_HydABC",
+      "reference_id": "FeFe_Ralbus7_HydABC__HydA",
+      "sequence": "MEMIHLKINGIPVEVPAGSTVLEAAKAANVDIPTLCYLKDVNCIGACRICVVEITGARGLVAACTHPAAEGMEVFTNTPKVRKSRKTTLELLLSNHKKKCLSCVRANNCELQKLSVAYGADEDRFMPEEMNKPIDDSTPFLVRDNNKCIQCMRCVAACKNVQSVSVIGNIRRGFNVHVGSAFDMPLASTACVGCGQCIVSCPVGALTEKSSEKKVWDAIADPEKKVVFFTAPSIRATLGEEFGNPVGTNVEGKMVAAIRRLGDVNIFNMDVTADLTIMEEANELIERIQNKGTLPMFTSCCPGWVKFCEHFYPDFLPHLSSCKSPQQMFGALLKSYYCQKNGIDPKNLFVVSVIPCTAKKFEVTREEQRNGDYDDVDVALTTRELGRMIREAGIDFNALPDEKFDDPFEIASGAGAIFGATGGVMEAALRTAAVKLDGKCEPLEFHDVRGTKGLKEATYTVGGVTVKVAVASGLANAREIIDGILSGERDYQFVEIMACPGGCINGGGQPVQSDAVRNFVDLKAIRAKALYDADSSMKLRMSHESPVCDMLYKEFFEAPGAHNAHKYLHTTYVKRGKYQD"
+    },
+    {
+      "role": "HydB",
+      "kind": "module",
+      "protein_accession": "ADU23431.1",
+      "sequence_sha256": "0c80f05a866de36143d9c9afb6d37e90d58839601edf67dad4d58337d36f8ee0",
+      "structure_id": "FeFe_Ralbus7_HydABC",
+      "reference_id": "FeFe_Ralbus7_HydABC__HydB",
+      "sequence": "MTIEELNKIKAAKADIVKVRTIIAEEGEKLAKETGYRKQVLVCGGTGCQSSHSMDVLKALKEELAAKGIADEVLVVRTGCFGLCSLGPIVIVYPEGAFYAQATPEGIKRIVDEHLVNGEICKDLLYQETVHEDGSIISLYETNFYRKQKRIALRNCGVIDPEDIEEYIATDGYQALYKALTSMTPDEVVKEVLDSGIRGRGGAGFPTGRKWMFTKDAPGDVKYVACNADEGDPGAFMDRSILEGDPHAVIEAMTIASYAVGAHQGYVYVRAEYPVAVNRLQIALDQAREYGLLGKNILGTGHDFDIEIRLGAGAFVCGEETALLTSIEGNRGEPRPRPPFPAVKGLFGKPTLLNNVETYANIAQIIRKGAAWYSAMGTEKSKGTKVFALGGKITNVGLVEIPMGTTLREIIEEIGGGIPDGKAFKAAQTGGPSGGCIPAQHIDTPIDYESLAALGSMMGSGGLIVMDEDNCMVDVSKFYLNFTVDESCGKCTPCRVGTRKLLQLLEKITDGKGEMEDLEKIQDLATHMKSSSLCALGQSAPNPVLSTLQYFGDEYLAHIKEKKCPAGVCKNLLQYEIIADKCKGCTLCARNCPANAITGTVKNPHVIDTTKCIKCGVCMNNCKFGAIIKK"
+    },
+    {
+      "role": "HydC",
+      "kind": "module",
+      "protein_accession": "ADU23432.1",
+      "sequence_sha256": "60cbd4cefbe3f7747a5e919b7cacb0d25bb6b0a14197cd4c975d2c6303b718ac",
+      "structure_id": "FeFe_Ralbus7_HydABC",
+      "reference_id": "FeFe_Ralbus7_HydABC__HydC",
+      "sequence": "MTEKTVIPFQGTPEQEAQLKEVIAKHHDQPGGLMPTLQEAQGIYGYLPIEVQKMIADGLGVSLSEVFGVATFYSQFSLTPKGKHRISVCLGTACYVKGSDKILEAVEAKLGIKSGECTADGMFSIDSCRCVGACGLAPVMLVDEDVYGKLKPEQVAKILDSYK"
+    },
+    {
+      "role": "HydA",
+      "kind": "catalytic",
+      "protein_accession": "ADO35861.1",
+      "sequence_sha256": "faba09b77b1c899399712ab2755ca9788aa5283679dd3e57685f0fc33800f286",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reference_id": "FeFe_KIST612_FDH_HydABC__HydA",
+      "sequence": "MTMSDVTFKINNMEITVPEGITVLEAARRHNIDIPTLCNLKDVNEIGACRMCMVEVAGAKALQAACVYPVAPGIEVFTNTPRARKARRVNLELILSNHHRECTTCIRSENCELQSLAKDLGISDIPFEGEKSGHHIDDLSPSIVRDESKCVLCKRCLAICNKVQKIGVLGAVGRGFTSQVQPVFNKSIAEVGCINCGQCIVNCPVGALKEKSDINRVWDALGDPTKTVVVQSAPAVRAALGEEFNLPMGTNVTGKLAAALRRLNFDGVFDTDFGADVTIMEEGTELINRVKNGGVLPMITSCSPGWIKMIETYYPEMIPHLSSCKSPQNMTGALLKSHYAEMNGIDPKDLVVVSVMPCTAKKYEVQRDELSVDGNQDVDISITTRELARMIKEARLDFPALPDEEFDPYYGDYSGAAVIFGATGGVMEAAVRTVADVLNDKDIQKIDYEAVRGVDGLKTAEVEVTPDLTVKVAVASGGSNIRKVMEGIKNGEYKDYHFIELMACPGGCVNGGGQPIISAKRKMEVDIRAERAKALYSEDASKKYRKSHQNPSVIRIYEEFLGEPGGHKAHELLHTTYSQKAKV"
+    },
+    {
+      "role": "HydB",
+      "kind": "module",
+      "protein_accession": "ADO35860.1",
+      "sequence_sha256": "01cac94b583dacafab043fad9724946267ae3f1b54fb536c260eff93bed60c90",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reference_id": "FeFe_KIST612_FDH_HydABC__HydB",
+      "sequence": "MAFKRSQILLCGGTGCTSSGSQTLVKEFKKELIKHELMDEVELVITGCFGLCELGPVVIVYPEGTFYSRVEPSDIPELVEEHLVKGRPLERLIYSEKKEGEHPLSINELGFYKKQKRIALANCGVIDPEDIEEYIAFDGYMALEKVLFKMTPQEVIDEVKASGLRGRGGGGFPTGLKWQFAYNADSPDGVKFVACNADEGDPGAFMDRSVLEGDPHRLIEAMAIAAYAIGAQKGYVYVRAEYPIAVKRLQIAIDQAKDYGLLGDNVFDTDFSFDLEIRLGAGAFVCGEETALMNSVEGKRGEPRPRPPFPANKGLFERPTVLNNVETYANIPTIILEGAESFASVGTEKSKGTKVFALGGKINNTGLLEIPMGTTLREVIYEIGGGIPNGKAFKAAQTGGPSGGCIPSSELDIPIDYDNLISIGAMMGSGGLIVMDEDNCMVDVARFFLDFTQDESCGKCPPCRIGTKRMLEILERICDGQGEEGDIERLEELAEGIKASALCGLGQTAPNPVLSTIKYFRDEYEAHIYEKRCPAGVCRNLLNYVIDEEKCKGCGICAKKCPGDAITGEKKKPHVIDAAKCVKCGACIEACPFNAIAKA"
+    },
+    {
+      "role": "HydC",
+      "kind": "module",
+      "protein_accession": "ADO35857.1",
+      "sequence_sha256": "77ea4769aaf52bcebce00bbb1ebac1cce3b705653c7d48d915b0ec6fdc8d0466",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reference_id": "FeFe_KIST612_FDH_HydABC__HydC",
+      "sequence": "MAELVPIDNLDVVKEIVAEHRDVPGCLMQILQETQEKYGYLPIELQQTIADELDIPLTEVYGVATFYSQFTLKPKGKYKIGVCLGTACYVKGSQAILDKVTDTLGLAVGDTTEDGKFSVDATRCVGACGLAPVMSINEDVYGRLSVNEVKDILEKY"
+    },
+    {
+      "role": "FdhA",
+      "kind": "module",
+      "protein_accession": "ADO35985.1",
+      "sequence_sha256": "e4fbacef321d8e9645dc090d8aaaf8df376f28f98910b665c71175dfd2ab4699",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reference_id": "FeFe_KIST612_FDH_HydABC__FdhA",
+      "sequence": "MVNLTIDNQKVSVPEGTTILNAAKEVGIDIPTLCYFKGFDPEGSCRMCLVEVVGARRLETACSTPVGEGMVVYTNNAVVRKARRFVLKMLFSDHTFDCFTCYKFGTCRFVDLNGNCIEYDEVKSFGQSLEKGQPIDDSSPFYTYDPNKCILCNRCVKVCEHLQCNHVLAKCDRGYETNINPVFDMLRGDKNSNCVNCGNCIAECPTGALAPKKFMPLPYTDTVETICPYCGVGCTLKLKVRDNKITDVMSVPGNVNNNLLCVKGRFAHDFVASEDRLKTPLIRKNGVLEEATWEEAYDLITQKLKEAISEGPQAVAGFSSARCTNEENYLFQKFIRSVGKTNNVDHCARLCHASTVAGLAKSFGSGAMTNSIEEVDVMDVILVSGSNTTETHPVIGAKIKQRVQKGAALIVAEPRKIELAKYADVYLQIKPGTNVALFNGLMKAILDEHLEDRDFINERTENFDTLEEYLNTITVEECAEICGVDPEEMRKAARLYATKDKGGIFYSMGVTQHATGTDGVMSTANLAMMTGKIGREGCGVNPLRGQNNVQGACDMGALPGDFTGYQKTNNPDVLAKFEQAWGTELPTNAGHTITEIVDDVDKNIVKFLYIMGENPLVSDPNTNHVKEAFEKANFIVLQDIFLTETSEYADVVLPAMVYAEKDGTFTNTERRIQLLRKAVKAPGVAKEDWRIICELAQRMGAEGFNFSSSAEIMDEIASVTPSYAGVSHERLERGDRIQWPCPDKESEGTKFLHKGQFTRGKGMFNVAHYIAPEDQPDETYPMILMTGRILQHYHTRTMTKRTAGIQEIVGDPFFEINPKTAEENGFSEGQFIQVTSPRGSVTAKAVYNKGIQENTLFMPFHYGDKGANCLTGGKVDPIAKIPPFKVCKVFLEEAK"
+    },
+    {
+      "role": "HydA",
+      "kind": "catalytic",
+      "protein_accession": "AJA53809.1",
+      "sequence_sha256": "4b2a460403e2e6faf64fcad31c8e76d6b768ed5acc352fc63794849f9ffe5826",
+      "structure_id": "FeFe_Cpasteurianum_CpIII",
+      "reference_id": "FeFe_Cpasteurianum_CpIII__HydA",
+      "sequence": "MKSEYNDLFKSLIDAYYKDDFDEFIKKALSDSTVNKEELSNIISSFCGVELKYTDKDTYIKDLKNAIKNYNSDHKIVTKIRDCSVDCADENGKTSCQKSCPFDAILIDEANKTSYIDKDLCTDCGFCVEGCPNGSILDKVEFIPLANLLKEKQPVIAAVAPAITGQFGDDVTIDQLRTAFKKVGFADMIEVAFFADMLTLKEACEFNAHVKSKDDLMITSCCCPMWVGMLKRVYKDMVKYVSPSVSPMIAAGRVIKTLNSNCKVVFVGPCIAKKAESKNKDIEGDIDFVLTFEEVKNIFESLNINPSELPEDPSTDYASREGRLYARTGGVSISVSEAVAKLFPEKKDLFKSVQANGVIECKKILEKAQNGEVAANFIEGMGCVGGCVGGPKALIPKEKGREKVNEFAENSNVKISLESDQMKKILNMLNITSAKDFMDEEKIKIFEREF"
+    },
+    {
+      "role": "FrhA",
+      "kind": "catalytic",
+      "protein_accession": "WP_012572521.1",
+      "locus_tag": "TON_RS07965",
+      "sequence_sha256": "a71484ef34477e78eb25e16b29a27d1cbddfcc44aabe2b7118e3799ae667d20f",
+      "structure_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B",
+      "reference_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B__FrhA",
+      "sequence": "MSEITLNKVCRIAGEAKLVLYEENGTVQDALFIATAPIRGFEKLVVGKNPLFAVEAVMRICGLCHASHGIAMSEAIENAIGIIPPRNGILMREALGLVNRIQSHMLEFLMVAGDLLIEEKREEVLFQLMDFHAKISDYLLKMGGAATHPPNLTVGGMFSVPKWSVFNNLKARLPKLTGQWEEIAHLLTDEDIQTEVADELREKKAENNYLVSSLFYGDRFNINAERIETMPYYEYRKDNPHSKESTTLIAFYGGEKVEAGPRARMKVYREFTDSSLYGLHTARVQDTTLALIRLEEILDSIKMDEPFRTKNIVFGPGKGVGVYEAPRGTLIHLIELGDEGRVVSSKIIVPTMFNIPVMEEMAKGLSVKAAEAVMRLYDPCIPCTTHVVRLGG"
+    },
+    {
+      "role": "FrhG",
+      "kind": "module",
+      "protein_accession": "WP_238516391.1",
+      "locus_tag": "TON_RS07970",
+      "sequence_sha256": "7302d6742d848a49c39c7fa581e5ac788f70f3eb6c935cad5c33a3588c589516",
+      "structure_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B",
+      "reference_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B__FrhG",
+      "sequence": "MIMEKLKVLHVDVGGCEGCNVSIIRAYPKLMDLIELDISYLRKDECKLDEYDVAIITGGACMNEPRILEELKEIREKAHTVVAFGSCATFSGILRFCRGGQEPRPDHRNFQPINSVIKVDYSIPGCPPTPQMLQSFFKFYINGDERRLRLFKVSADIKKLSGFDLIDDIVLTGLCIGCGACELSCPTNAIKLIDKRPNLVQEKCIRCGTCYIRCPRASQILSMGGAR"
+    },
+    {
+      "role": "FrhB",
+      "kind": "module",
+      "protein_accession": "WP_012572523.1",
+      "locus_tag": "TON_RS07975",
+      "sequence_sha256": "45427e1843bf7067c60bf3b0d15985c122cea473df301a720a2500d4daaf012c",
+      "structure_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B",
+      "reference_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B__FrhB",
+      "sequence": "MMSVSENLLGNVFGIYLARATDEEILKRKVASGGAVTALLAYALEKGLIDGVVTAKRTEGLEGQAVVARTREELLETAGNKWSIVPFASRMKAKIEEEDLKNVAVVCLPCQAQFFGQMRDFPLLESDFGERIKYIVSLFCIGTFAFEAFLNYLRMKHGIMAQDIKDIVLKGDFLEIYHGDSVLSLPIKEVYSYLQAGCLVCTDYTGTWSDISAGFVESERGWTVLITRNLKAEELVKSAEKDGYIELRDGSHVMGEVLKAAREKLARAQKNMMYLL"
+    },
+    {
+      "role": "Fdh3B",
+      "kind": "module",
+      "protein_accession": "WP_012571501.1",
+      "locus_tag": "TON_RS02810",
+      "sequence_sha256": "564f9d690bdceb75e476a3fddcf32ab2a5302846f603c3d3cfdd083c9b89cd68",
+      "structure_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B",
+      "reference_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B__Fdh3B",
+      "sequence": "MSGMRFAFLCRERPEPTGKKIAVIGAGPAGLAATGYLVCQGHEVHVYDKLPEPGGLMLFGIPEFRIPIYRVREGYEELERVYNVKFFTRTKVYFGNLEGESGDEFVENRVDFKELVEKYDAVLIATGTWKCWIPNIEGAELEGVFPALEYLFRIKSAKLGHMDWGKVTPVEGKKVLVVGAGHTAVDAALESVLLGADKVYLSYRRTIREAPAGAYEINLLQQRGVKWLERTMPVRIIGENGKVRAVELVKTKLSEPDESGRRRPVPIEGSNFQIDVDYVIFAVGQSPTPPFAEEIDIAVDKKGRIVVDNRHMTSREGVFAAGDVVLGPSKVGKAVKDGLYAAEAMHMWLMGR"
+    },
+    {
+      "role": "HoxF",
+      "kind": "module",
+      "protein_accession": "QBM26334.1",
+      "sequence_sha256": "42a6408a120cf41f758623b9f8c87b25c9b98bf93ffea3909589ddcfe30f05c4",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "reference_id": "NiFe_Hpseudoflava_HoxFUYH__HoxF",
+      "sequence": "MTAFDQPSALHAADAVLARWQHDPHALVQVLRETQAQTHWLPRELLAHIAAALRLTTAHVEGVASFYRFFHLRPVGRVHVLFSDNITDRMAGSDALMARLCARLGVAPGQVDAQGRFCVDRCSCTGLCDQGPALLVNHHQVVTRLDAGRVDQLAERLLAGVPPEDWPADWFAVEDHVRRADVLLQGLPADAPSLPAVLSRTPAELLAEVERSGLRGRGGAGFPTARKWRACAEADAPDGQRCVVCNADEGEPGTFKDRVLLGRHADELFDGMTLAARAIGAQTGLVYLRGEYRFLLPQLEAVLQRRRANGLLGRNAGGVAGFDFDIAIHLGAGAYVCGEESALIESLEGQRGTPRIRPPFPVQRGYLGRPTVVNNVETLVAVAHIARRGGAWWAGLGTPESTGTKIHSVSGDCERPGLYEYPLGTPLAQILADCGARNAQAVQVGGPSGSCVPASGFHRAIAFEDLPSAGALMVFDQTRDLFEVARHFARFFAHESCGLCTPCRVGTELVVRRLDKLAHERGAGRGSAFDIARLQELDALLHSGTHCGLGVSACNPLRDTLAHFGQAYAQRSTAAQFQPGIDLDAELSSARRATGRQDRGAHLNTEHGA"
+    },
+    {
+      "role": "HoxU",
+      "kind": "module",
+      "protein_accession": "QBM26335.1",
+      "sequence_sha256": "93f55e1805cbb312dcf0d03856797b41bf063b64b76396f479803b7f4427d428",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "reference_id": "NiFe_Hpseudoflava_HoxFUYH__HoxU",
+      "sequence": "MTTFDFDGQPVPLQPGDTILQAAQRAGHEVPHLCWHEGVSASASCRLCTVVADGRPVPACATPAVAGQRVECHTEALKTRRLHLLQMLFVEGNHFCPGCEKSGNCQLQHQAERAGMTDLHYEPLHPERPVDASHPEVWFEPNRCILCQLCVRASDELDGKRVFAIGGHGIGAKLLIDSESGRLGDSQLSVEDRAAHICPVGALLPKRVGFAQPYGQRTFDDAETRG"
+    },
+    {
+      "role": "HoxY",
+      "kind": "module",
+      "protein_accession": "QBM26336.1",
+      "sequence_sha256": "7031bfc42eaf3322f80f2b97d2ac0588658e3faeb287920347d6bc26d04143f1",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "reference_id": "NiFe_Hpseudoflava_HoxFUYH__HoxY",
+      "sequence": "MNTDSTPRKWRVATVSLAGCFGCHMSFLDIDERLFGLIEHITFDRSPLTDIKTVGPCDIGLIEGGLCNAENVEVLRAFRDQCRVLVAVGACAITGGLPALRNHLDVGEMMKAVYGEVPNDPELPLPLNRVRPIHEVVQIDHALPGCPPPADAFWQLLQDLMAGREPKLHKGLIRYD"
+    },
+    {
+      "role": "HoxH",
+      "kind": "catalytic",
+      "protein_accession": "QBM26337.1",
+      "sequence_sha256": "62e3fe2b75fbe881b15c0eb08d163b9a81d54c025f604d2516af061c1aaebf03",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "reference_id": "NiFe_Hpseudoflava_HoxFUYH__HoxH",
+      "sequence": "MTDAARPLETAADPQGLRRIVIDPVSRVEGHGKVTLLLDEQQRLQQVRLHIVEFRGFEQFIVGRPYWEVPVMVQRLCGICPVSHHLAASKALDRVVGGWPVPEAADRIRRLMQYGQIVQSHALHFFHLSSPDLLFGFDADVAQRNIVGVAMAHPEAARQGVMLRKFGQEVIRITSGKRVHGTGSVPGGMNRAVAREDRDTLRAQLPEVLAWAEAAVELAQRLHTGLPPAYEHFGETPAAMMSLIGPGGAMELYDGALRLREADGRIAVDGFEDQRYRELIDEAVKPWTYMKFPYRRALGPEAGWYRVGPLARLQNCDHIPTPRAEARRQAFVAAHGGRPVHAVLATHWARMIELLHGVEVIARLLDDPVILGGPLQATGERQRSGVGIIEAPRGTLIHEYEVGDDDLVKSCNLIVSTTHNNQAMNEAVRSVALQYLDGQTITEPLLNHLEVAIRAYDPCLSCATHALGQMPLSVTLRGPDGEVLDHVLRSSTGETQRGATPHPMERAQ"
+    }
+  ],
+  "systems": [
+    {
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "reference_contract_ids": [
+        "Ref_NiFe_Tlitoralis_HydBGDA_oxidation",
+        "Ref_NiFe_Tlitoralis_HydBGDA_evolution"
+      ]
+    },
+    {
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "reference_contract_ids": [
+        "Ref_NiFe_Tkodakarensis_HyhBGSL_NADP_oxidation",
+        "Ref_NiFe_Tkodakarensis_HyhBGSL_NADPH_evolution",
+        "Ref_NiFe_Tkodakarensis_HyhBGSL_NAD_oxidation"
+      ]
+    },
+    {
+      "structure_id": "FeFe_Saciditrophicus_HydAB",
+      "reference_contract_ids": [
+        "Ref_FeFe_Saciditrophicus_HydAB_NAD_oxidation",
+        "Ref_FeFe_Saciditrophicus_HydAB_NADH_evolution"
+      ]
+    },
+    {
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "reference_contract_ids": [
+        "Ref_NiFe_Pfuriosus_HII_BGDA_NADP_oxidation",
+        "Ref_NiFe_Pfuriosus_HII_BGDA_NADPH_evolution",
+        "Ref_NiFe_Pfuriosus_HII_BGDA_NAD_oxidation",
+        "Ref_NiFe_Pfuriosus_HII_BGDA_NADH_evolution"
+      ]
+    },
+    {
+      "structure_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH",
+      "reference_contract_ids": [
+        "Ref_NiFe_Tbogorovii_BBS_Hox2_FUYH_NADH_evolution"
+      ]
+    },
+    {
+      "structure_id": "FeFe_Ralbus7_HydABC",
+      "reference_contract_ids": [
+        "Ref_FeFe_Ralbus7_HydABC_oxidation",
+        "Ref_FeFe_Ralbus7_HydABC_evolution"
+      ]
+    },
+    {
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reference_contract_ids": [
+        "Ref_FeFe_KIST612_FDH_HydABC_oxidation",
+        "Ref_FeFe_KIST612_FDH_HydABC_formate_NAD_Fd",
+        "Ref_FeFe_KIST612_FDH_HydABC_formate_H2",
+        "Ref_FeFe_KIST612_FDH_HydABC_H2_CO2_formate"
+      ],
+      "local_member_groups": [
+        [
+          "HydA",
+          "HydB",
+          "HydC"
+        ],
+        [
+          "FdhA"
+        ]
+      ]
+    },
+    {
+      "structure_id": "FeFe_Cpasteurianum_CpIII",
+      "reference_contract_ids": [
+        "Ref_FeFe_Cpasteurianum_CpIII_MV_H2_evolution"
+      ]
+    },
+    {
+      "structure_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B",
+      "reference_contract_ids": [
+        "Ref_NiFe_Tonnurineus_FrhAGB_Fdh3B_NADP_reduction"
+      ]
+    },
+    {
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "reference_contract_ids": [
+        "Ref_NiFe_Hpseudoflava_HoxFUYH_NAD_oxidation",
+        "Ref_NiFe_Hpseudoflava_HoxFUYH_NADP_oxidation",
+        "Ref_NiFe_Hpseudoflava_HoxFUYH_FMN_oxidation",
+        "Ref_NiFe_Hpseudoflava_HoxFUYH_FAD_oxidation",
+        "Ref_NiFe_Hpseudoflava_HoxFUYH_NADH_evolution_XDH_coupled"
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "contract_id": "Ref_NiFe_Tlitoralis_HydBGDA_oxidation",
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "legacy_function_id": "",
+      "reaction_key": "H2_Fd_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "required_in_reported_assay",
+      "electron_coupling": "reference_H2_Fd_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://doi.org/10.1046/j.1432-1327.1999.00969.x",
+      "molecular_reaction": "H2-dependent reduction of assay ferredoxin by the purified gene-associated four-subunit preparation",
+      "participant_scope": "assay_ferredoxin_not_a_query_member_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Reference gene-associated assay potential only. Paper cloning/peptides associate the four CDS with the purified preparation; beta/gamma N-terminal differences and mature construct boundaries are unresolved. Ferredoxin was an assay reagent; native Fd identity, query activity/occupancy, physiological role, exclusive specificity, NADP, bifurcation and in-vivo net direction are not established."
+    },
+    {
+      "contract_id": "Ref_NiFe_Tlitoralis_HydBGDA_evolution",
+      "structure_id": "NiFe_Tlitoralis_HydBGDA",
+      "legacy_function_id": "",
+      "reaction_key": "Fd_dependent_H2_evolution",
+      "electron_donors": [
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "required_in_reported_assay",
+      "electron_coupling": "reference_H2_Fd_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://doi.org/10.1046/j.1432-1327.1999.00969.x",
+      "molecular_reaction": "H2 evolution from PFOR-generated reduced assay ferredoxin by the purified gene-associated four-subunit preparation; no-Fd control inactive",
+      "participant_scope": "assay_ferredoxin_not_a_query_member_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Reference gene-associated assay potential only. Paper cloning/peptides associate the four CDS with the purified preparation; beta/gamma N-terminal differences and mature construct boundaries are unresolved. Ferredoxin was an assay reagent; native Fd identity, query activity/occupancy, physiological role, exclusive specificity, NADP, bifurcation and in-vivo net direction are not established."
+    },
+    {
+      "contract_id": "Ref_NiFe_Tkodakarensis_HyhBGSL_NADP_oxidation",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NADP_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NADP_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_NADP_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC148058/",
+      "molecular_reaction": "H2-dependent reduction of NADP+ by the purified gene-associated KOD1 Hyh alpha-beta-gamma-delta preparation; 48.7 U/mg at 80 C with 1 mM NADP+.",
+      "participant_scope": "purified_gene_associated_assay_preparation_not_a_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Direct purified-enzyme assay potential only; does not assign NAD versus NADP exclusivity, physiological direction, query activity, or an obligate Fd requirement."
+    },
+    {
+      "contract_id": "Ref_NiFe_Tkodakarensis_HyhBGSL_NADPH_evolution",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "legacy_function_id": "",
+      "reaction_key": "NADPH_H2_evolution",
+      "electron_donors": [
+        "NADPH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_NADPH_H2_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC148058/",
+      "molecular_reaction": "NADPH-supported H2 evolution by the purified gene-associated KOD1 Hyh alpha-beta-gamma-delta preparation; 2.72 U/mg at 80 C with 1 mM NADPH.",
+      "participant_scope": "purified_gene_associated_assay_preparation_not_a_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Direct purified-enzyme assay potential only; NADH was not observed under one tested condition but is not permanently excluded."
+    },
+    {
+      "contract_id": "Ref_NiFe_Tkodakarensis_HyhBGSL_NAD_oxidation",
+      "structure_id": "NiFe_Tkodakarensis_HyhBGSL",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NAD_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_NAD_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC148058/",
+      "molecular_reaction": "Low-activity H2-dependent reduction of NAD+ by the purified gene-associated KOD1 Hyh alpha-beta-gamma-delta preparation; 0.2 U/mg at 80 C with 1 mM NAD+.",
+      "participant_scope": "purified_gene_associated_assay_preparation_not_a_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Low quantitative activity is reported as assay potential only; no NAD versus NADP exclusivity or physiological net direction is assigned."
+    },
+    {
+      "contract_id": "Ref_FeFe_Saciditrophicus_HydAB_NAD_oxidation",
+      "structure_id": "FeFe_Saciditrophicus_HydAB",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NAD_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "reference_H2_NAD_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "gene_associated_recombinant_purified_preparation_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7311640/",
+      "molecular_reaction": "H2-dependent NAD+ reduction by the purified recombinant gene-associated HydAB fraction; 4.8 U/mg at 37 C, pH 7.5, 1 mM NAD+, without added ferredoxin.",
+      "participant_scope": "gene_associated_recombinant_preparation_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated recombinant reference potential only. Reference HydA carried an N-terminal His tag; the purified HydAB fraction contained contaminants. Does not assert native/query activity, literal construct identity, physiological exclusivity, in-vivo net direction or homolog activity. NADP+ reduction was below 0.01 U/mg under tested conditions; no H2-dependent ferredoxin reduction was observed. These are tested-condition boundaries, not universal exclusions."
+    },
+    {
+      "contract_id": "Ref_FeFe_Saciditrophicus_HydAB_NADH_evolution",
+      "structure_id": "FeFe_Saciditrophicus_HydAB",
+      "legacy_function_id": "",
+      "reaction_key": "NADH_H2_evolution",
+      "electron_donors": [
+        "NADH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "reference_NADH_H2_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "gene_associated_recombinant_purified_preparation_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7311640/",
+      "molecular_reaction": "NADH-supported H2 evolution by the purified recombinant gene-associated HydAB fraction; 0.027 U/mg at 37 C, pH 7.5, 1 mM NADH, without added ferredoxin. Tested ferredoxins did not enhance this activity.",
+      "participant_scope": "gene_associated_recombinant_preparation_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated recombinant reference potential only. Reference HydA carried an N-terminal His tag; the purified HydAB fraction contained contaminants. Does not assert native/query activity, literal construct identity, physiological exclusivity, in-vivo net direction or homolog activity. NADP+ reduction was below 0.01 U/mg under tested conditions; no H2-dependent ferredoxin reduction was observed. These are tested-condition boundaries, not universal exclusions."
+    },
+    {
+      "contract_id": "Ref_NiFe_Pfuriosus_HII_BGDA_NADP_oxidation",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NADP_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NADP_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "reference_H2_NADP_reduction_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC101868/",
+      "molecular_reaction": "Purified native DSM3638 H-II: H2_NADP_reduction; Table3 at80C, pH8, apparent Km=0.017mM, kcat=43/min. H2-dependent assays used120kPa H2.",
+      "participant_scope": "gene_associated_native_purified_preparation_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Source N-terminal peptides and AF176650 bind the four native H-II genes to purified enzyme. Both NAD and NADP directions are directly reported; no NADP-only/exclusive specificity, mature-construct identity, physiological net direction, query activity, occupancy or physical assembly is asserted. Fd and sulfur assays are separate; no obligate Fd requirement is inferred."
+    },
+    {
+      "contract_id": "Ref_NiFe_Pfuriosus_HII_BGDA_NADPH_evolution",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "legacy_function_id": "",
+      "reaction_key": "NADPH_H2_evolution",
+      "electron_donors": [
+        "NADPH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "reference_NADPH_H2_evolution_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC101868/",
+      "molecular_reaction": "Purified native DSM3638 H-II: NADPH_H2_evolution; Table3 at80C, pH8, apparent Km=0.063mM, kcat=24/min. H2-dependent assays used120kPa H2.",
+      "participant_scope": "gene_associated_native_purified_preparation_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Source N-terminal peptides and AF176650 bind the four native H-II genes to purified enzyme. Both NAD and NADP directions are directly reported; no NADP-only/exclusive specificity, mature-construct identity, physiological net direction, query activity, occupancy or physical assembly is asserted. Fd and sulfur assays are separate; no obligate Fd requirement is inferred."
+    },
+    {
+      "contract_id": "Ref_NiFe_Pfuriosus_HII_BGDA_NAD_oxidation",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NAD_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "reference_H2_NAD_reduction_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC101868/",
+      "molecular_reaction": "Purified native DSM3638 H-II: H2_NAD_reduction; Table3 at80C, pH8, apparent Km=0.125mM, kcat=96/min. H2-dependent assays used120kPa H2.",
+      "participant_scope": "gene_associated_native_purified_preparation_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Source N-terminal peptides and AF176650 bind the four native H-II genes to purified enzyme. Both NAD and NADP directions are directly reported; no NADP-only/exclusive specificity, mature-construct identity, physiological net direction, query activity, occupancy or physical assembly is asserted. Fd and sulfur assays are separate; no obligate Fd requirement is inferred."
+    },
+    {
+      "contract_id": "Ref_NiFe_Pfuriosus_HII_BGDA_NADH_evolution",
+      "structure_id": "NiFe_Pfuriosus_HII_BGDA",
+      "legacy_function_id": "",
+      "reaction_key": "NADH_H2_evolution",
+      "electron_donors": [
+        "NADH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "reference_NADH_H2_evolution_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC101868/",
+      "molecular_reaction": "Purified native DSM3638 H-II: NADH_H2_evolution; Table3 at80C, pH8, apparent Km=0.071mM, kcat=22/min. H2-dependent assays used120kPa H2.",
+      "participant_scope": "gene_associated_native_purified_preparation_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Source N-terminal peptides and AF176650 bind the four native H-II genes to purified enzyme. Both NAD and NADP directions are directly reported; no NADP-only/exclusive specificity, mature-construct identity, physiological net direction, query activity, occupancy or physical assembly is asserted. Fd and sulfur assays are separate; no obligate Fd requirement is inferred."
+    },
+    {
+      "contract_id": "Ref_NiFe_Tbogorovii_BBS_Hox2_FUYH_NADH_evolution",
+      "structure_id": "NiFe_Tbogorovii_BBS_Hox2_FUYH",
+      "legacy_function_id": "",
+      "reaction_key": "NADH_H2_evolution",
+      "electron_donors": [
+        "NADH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "source_Hox2_dependent_NADH_supported_preparation_H2_evolution",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "mutant_resolved_soluble_fraction_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2916503/",
+      "molecular_reaction": "PC2G-grown BBS Hox2-only triple-mutant soluble fraction: NADH-supported H2 evolution 0.053 +/- 0.011 ul H2/h/mg total protein (Table5), with exogenous FMN/DTT, pH7,37C,6h,triplicate headspace GC.",
+      "participant_scope": "Hox2_only_mutant_soluble_fraction_with_exogenous_FMN_and_DTT_not_purified_query_complex",
+      "direct_acceptor_status": "preparation_H2_GC_not_purified_complex_transfer",
+      "limitations": "Gene-associated preparation-level source potential only. The assayed material contains soluble total protein and added FMN/DTT; direct NADH transfer by a purified Hox2 complex, exclusive NADH/NADPH enzyme specificity and completeness of all mediating components are not established. NADPH gave no detected H2 in this preparation/direction/condition; this is not a query NADPH-negative claim. H2-linked NAD+/NADP+ reduction was not detected with limited assay sensitivity, so no reverse-direction or negative uptake contract is inferred. Complete native source members match the genome, but query activity, expression, mature boundaries, physical assembly and in-vivo direction are not measured."
+    },
+    {
+      "contract_id": "Ref_FeFe_Ralbus7_HydABC_oxidation",
+      "structure_id": "FeFe_Ralbus7_HydABC",
+      "reaction_key": "H2_NAD_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_reference_coupled_assay",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4248817/",
+      "molecular_reaction": "H2-dependent coupled reduction of NAD+ and C. pasteurianum two-electron ferredoxin by the purified gene-associated HydABC preparation, approximately 1:1 NAD+/Fd reduction.",
+      "participant_scope": "assay_ferredoxin_not_a_query_member_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated native purified-preparation reference potential only; a minor Aad contaminant was present. The assay used C. pasteurianum ferredoxin, not an identified exclusive query Fd partner. NADP+ was not reduced and NADPH could not substitute for NADH under the reported conditions; these are assay-scoped boundaries, not universal substrate exclusions. No query activity, expression, physical assembly, cofactor occupancy, kinetics, ion coupling or in-vivo net direction is established. HydA2 and putative HydS are separate proteins and are not members of this registered HydABC set.",
+      "legacy_function_id": ""
+    },
+    {
+      "contract_id": "Ref_FeFe_Ralbus7_HydABC_evolution",
+      "structure_id": "FeFe_Ralbus7_HydABC",
+      "reaction_key": "NADH_Fd_coupled_H2_evolution",
+      "electron_donors": [
+        "NADH",
+        "ferredoxin_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_confurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_reference_coupled_assay",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4248817/",
+      "molecular_reaction": "Coupled H2 formation from NADH and reduced C. pasteurianum ferredoxin by the purified gene-associated HydABC preparation; ferredoxin was continuously regenerated with pyruvate:ferredoxin oxidoreductase, pyruvate and CoA.",
+      "participant_scope": "assay_ferredoxin_not_a_query_member_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated native purified-preparation reference potential only; a minor Aad contaminant was present. The assay used C. pasteurianum ferredoxin, not an identified exclusive query Fd partner. NADP+ was not reduced and NADPH could not substitute for NADH under the reported conditions; these are assay-scoped boundaries, not universal substrate exclusions. No query activity, expression, physical assembly, cofactor occupancy, kinetics, ion coupling or in-vivo net direction is established. HydA2 and putative HydS are separate proteins and are not members of this registered HydABC set.",
+      "legacy_function_id": ""
+    },
+    {
+      "contract_id": "Ref_FeFe_KIST612_FDH_HydABC_oxidation",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reaction_key": "H2_NAD_Fd_coupled_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_electron_bifurcation",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_FDH_Hyd_preparation_assay",
+      "primary_source": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/1462-2920.15643",
+      "molecular_reaction": "H2-dependent simultaneous reduction of NAD+ and C. pasteurianum ferredoxin by the purified four-observed-member FDH-Hyd preparation.",
+      "participant_scope": "four_observed_preparation_members_assay_carriers_not_exclusive_native_partners",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated purified FDH-Hyd preparation reference potential only. Every contract requires all four observed members HydA/HydB/HydC/FdhA; the paper did not establish HydABC-alone sufficiency or FdhA dispensability for H2/NAD/Fd assays. HydD membership is unresolved. C. pasteurianum ferredoxin was an assay reagent, not an identified native/query Fd partner. Single-carrier NAD+ or Fd reduction was not observed in the reported assays; NADP specificity, reverse NADH/Fd-to-H2, cofactor occupancy, expression, physical assembly and in-vivo net direction are not established for this query.",
+      "legacy_function_id": ""
+    },
+    {
+      "contract_id": "Ref_FeFe_KIST612_FDH_HydABC_formate_NAD_Fd",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reaction_key": "formate_NAD_Fd_coupled_reduction",
+      "electron_donors": [
+        "formate"
+      ],
+      "electron_acceptors": [
+        "NAD+",
+        "ferredoxin_oxidized"
+      ],
+      "hydrogen_role": "not_a_net_H2_reaction",
+      "ferredoxin_requirement": "coupled_partner_required_in_reference",
+      "electron_coupling": "reference_formate_NAD_Fd_coupled_reduction",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_FDH_Hyd_preparation_assay",
+      "primary_source": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/1462-2920.15643",
+      "molecular_reaction": "Formate-dependent simultaneous reduction of NAD+ and C. pasteurianum ferredoxin by the same purified FDH-Hyd preparation.",
+      "participant_scope": "four_observed_preparation_members_assay_carriers_not_exclusive_native_partners",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated purified FDH-Hyd preparation reference potential only. Every contract requires all four observed members HydA/HydB/HydC/FdhA; the paper did not establish HydABC-alone sufficiency or FdhA dispensability for H2/NAD/Fd assays. HydD membership is unresolved. C. pasteurianum ferredoxin was an assay reagent, not an identified native/query Fd partner. Single-carrier NAD+ or Fd reduction was not observed in the reported assays; NADP specificity, reverse NADH/Fd-to-H2, cofactor occupancy, expression, physical assembly and in-vivo net direction are not established for this query.",
+      "legacy_function_id": ""
+    },
+    {
+      "contract_id": "Ref_FeFe_KIST612_FDH_HydABC_formate_H2",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reaction_key": "formate_H2_evolution",
+      "electron_donors": [
+        "formate"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "reference_ion_linked_energy_conservation_not_direct_ATP_stoichiometry",
+      "reference_evidence_scope": "purified_native_FDH_Hyd_preparation_assay",
+      "primary_source": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/1462-2920.15643",
+      "molecular_reaction": "Formate-dependent H2 evolution by the purified FDH-Hyd preparation; added NAD+ and ferredoxin enhanced the reported activity.",
+      "participant_scope": "four_observed_preparation_members_assay_carriers_not_exclusive_native_partners",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated purified FDH-Hyd preparation reference potential only. Every contract requires all four observed members HydA/HydB/HydC/FdhA; the paper did not establish HydABC-alone sufficiency or FdhA dispensability for H2/NAD/Fd assays. HydD membership is unresolved. C. pasteurianum ferredoxin was an assay reagent, not an identified native/query Fd partner. Single-carrier NAD+ or Fd reduction was not observed in the reported assays; NADP specificity, reverse NADH/Fd-to-H2, cofactor occupancy, expression, physical assembly and in-vivo net direction are not established for this query.",
+      "legacy_function_id": ""
+    },
+    {
+      "contract_id": "Ref_FeFe_KIST612_FDH_HydABC_H2_CO2_formate",
+      "structure_id": "FeFe_KIST612_FDH_HydABC",
+      "reaction_key": "H2_dependent_CO2_formate_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "CO2"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_required_in_reported_assay",
+      "electron_coupling": "single_reported_electron_pathway",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_native_FDH_Hyd_preparation_assay",
+      "primary_source": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/1462-2920.15643",
+      "molecular_reaction": "H2-dependent CO2 reduction to formate by the purified FDH-Hyd preparation; added NAD+ and ferredoxin enhanced the reported activity.",
+      "participant_scope": "four_observed_preparation_members_assay_carriers_not_exclusive_native_partners",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated purified FDH-Hyd preparation reference potential only. Every contract requires all four observed members HydA/HydB/HydC/FdhA; the paper did not establish HydABC-alone sufficiency or FdhA dispensability for H2/NAD/Fd assays. HydD membership is unresolved. C. pasteurianum ferredoxin was an assay reagent, not an identified native/query Fd partner. Single-carrier NAD+ or Fd reduction was not observed in the reported assays; NADP specificity, reverse NADH/Fd-to-H2, cofactor occupancy, expression, physical assembly and in-vivo net direction are not established for this query.",
+      "legacy_function_id": ""
+    },
+    {
+      "contract_id": "Ref_FeFe_Cpasteurianum_CpIII_MV_H2_evolution",
+      "structure_id": "FeFe_Cpasteurianum_CpIII",
+      "legacy_function_id": "",
+      "reaction_key": "reduced_methyl_viologen_H2_evolution",
+      "electron_donors": [
+        "methyl_viologen_reduced"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_artificial_mediator_H2_reaction",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_protein_artificial_mediator_reference_potential",
+      "primary_source": "https://doi.org/10.1021/acs.biochem.5c00066",
+      "molecular_reaction": "H2 evolution by purified reference WT CpIII from sodium-dithionite-reduced methyl viologen.",
+      "participant_scope": "artificial_assay_mediator_not_a_native_or_query_member",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated reference protein assay only. Exact full-CDS sequence equality does not establish mature construct identity, query expression/maturation/cofactor occupancy/activity or a transferable rate. Artificial MV/dithionite does not identify NAD(P), Fd, quinone, a physiological partner, exclusive specificity or in-vivo net direction. C222S is a separately measured variant and cannot inherit this WT contract."
+    },
+    {
+      "contract_id": "Ref_NiFe_Tonnurineus_FrhAGB_Fdh3B_NADP_reduction",
+      "structure_id": "NiFe_Tonnurineus_FrhAGB_Fdh3B",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NADP_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NADP_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_NADP_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10734459/",
+      "molecular_reaction": "H2-dependent NADP+ reduction by purified FrhAGB mixed with purified Fdh3B; 25.5 +/- 14.4 U/umol at 70 C with 2 mM NADP+ under 3 bar H2.",
+      "participant_scope": "purified_gene_associated_FrhAGB_plus_Fdh3B_mixed_components; not a query activity or native stable complex",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "No F420 claim, NADP exclusivity, CO2/formate capability, native stable-complex claim, query activity, supplied full mature-sequence claim, expression/occupancy claim or in-vivo net direction. Complete Fdh3 activity is not transferred."
+    },
+    {
+      "contract_id": "Ref_NiFe_Hpseudoflava_HoxFUYH_NAD_oxidation",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NAD_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NAD_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_NAD_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://doi.org/10.1021/acsomega.5c09877",
+      "molecular_reaction": "Direct H2-dependent NAD+ reduction by purified HpSH; lag phase was resolved in the reported long/optimized assay.",
+      "participant_scope": "purified_gene_associated_assay_preparation_with_HoxF_N_terminal_StrepII_tag_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Gene-associated preparation potential only; artificial RBS and HoxF tag, mature boundaries and HoxW cleavage are not fully resolved; no NAD/NADP exclusivity, in-vivo direction or query activity is asserted."
+    },
+    {
+      "contract_id": "Ref_NiFe_Hpseudoflava_HoxFUYH_NADP_oxidation",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "legacy_function_id": "",
+      "reaction_key": "H2_NADP_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "NADP_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_NADP_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://doi.org/10.1021/acsomega.5c09877",
+      "molecular_reaction": "Direct H2-dependent NADP+ reduction by purified HpSH, 0.78 +/- 0.07 U/mg in the reported assay.",
+      "participant_scope": "purified_gene_associated_assay_preparation_with_HoxF_N_terminal_StrepII_tag_not_query_activity_or_exclusive_physiological_partner",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Low activity does not establish NADP exclusivity, physiological direction or query activity; construct and maturation boundaries remain limited."
+    },
+    {
+      "contract_id": "Ref_NiFe_Hpseudoflava_HoxFUYH_FMN_oxidation",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "legacy_function_id": "",
+      "reaction_key": "H2_FMN_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "FMN_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_FMN_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://doi.org/10.1021/acsomega.5c09877",
+      "molecular_reaction": "Direct H2-dependent FMN reduction by purified HpSH, 8.5 +/- 2.65 U/mg with enzyme/no-enzyme controls.",
+      "participant_scope": "purified_gene_associated_assay_preparation_with_exogenous_FMN_not_query_activity_or_native_cofactor_exclusivity",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Reference assay potential only; native cofactor occupancy, physiological role, exclusive specificity and query activity are unknown."
+    },
+    {
+      "contract_id": "Ref_NiFe_Hpseudoflava_HoxFUYH_FAD_oxidation",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "legacy_function_id": "",
+      "reaction_key": "H2_FAD_reduction",
+      "electron_donors": [
+        "H2"
+      ],
+      "electron_acceptors": [
+        "FAD_oxidized"
+      ],
+      "hydrogen_role": "oxidation",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_H2_FAD_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "purified_preparation_gene_associated_reference_potential",
+      "primary_source": "https://doi.org/10.1021/acsomega.5c09877",
+      "molecular_reaction": "Direct H2-dependent FAD reduction by purified HpSH, 1.88 +/- 0.4 U/mg with enzyme/no-enzyme controls.",
+      "participant_scope": "purified_gene_associated_assay_preparation_with_exogenous_FAD_not_query_activity_or_native_cofactor_exclusivity",
+      "direct_acceptor_status": "reference_reported",
+      "limitations": "Low activity and long lag do not establish native FAD occupancy, physiological role, exclusive specificity or query activity."
+    },
+    {
+      "contract_id": "Ref_NiFe_Hpseudoflava_HoxFUYH_NADH_evolution_XDH_coupled",
+      "structure_id": "NiFe_Hpseudoflava_HoxFUYH",
+      "legacy_function_id": "",
+      "reaction_key": "NADH_H2_evolution",
+      "electron_donors": [
+        "NADH"
+      ],
+      "electron_acceptors": [
+        "protons"
+      ],
+      "hydrogen_role": "evolution",
+      "ferredoxin_requirement": "not_assessed",
+      "electron_coupling": "reference_NADH_H2_evolution_XDH_coupled_electron_transfer",
+      "energy_coupling_scope": "not_assigned",
+      "reference_evidence_scope": "coupled_gene_associated_preparation_reference_potential",
+      "primary_source": "https://doi.org/10.1021/acsomega.5c09877",
+      "molecular_reaction": "Coupled NADH-supported H2 evolution by HpSH with XDH/lactonase continuously supplying NADH and exogenous FMN; H2 was detected by sensor.",
+      "participant_scope": "coupled_preparation_with_XDH_lactonase_and_exogenous_FMN_not_direct_standalone_HpSH_transfer_or_query_activity",
+      "direct_acceptor_status": "reference_reported_coupled",
+      "limitations": "This is not a direct standalone NADH-to-H2 assay; added electron-supply partners and FMN are required. NADPH-to-H2 was not measured and no native in-vivo direction is asserted."
+    }
+  ]
+}

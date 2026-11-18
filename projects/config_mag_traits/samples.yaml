@@ -1,0 +1,54 @@
+# ==============================================================================
+# Samples & Input Configuration (config_mag_traits)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 0. 项目主根目录 (Project Root)
+# 若配置了 project_root，下游提供的所有相对路径 (包括 mag_dir、external_genomes 等)
+# 均将自动基于该路径拼接为绝对路径；若填绝对路径则直接使用；若留空则基于当前目录解析。
+# ------------------------------------------------------------------------------
+project_root: "/dssg/home/acct-schhui/gses0/rentianxin"
+# gses0 平台示例:
+# project_root: "/dssg/home/acct-schhui/gses0/rentianxin"
+
+# ------------------------------------------------------------------------------
+# 1. 多样本数据集声明 (Multi-Sample Datasets)
+# 每个样本将隔离在各自独立的子目录下运行并输出产物：
+#   - results/mag_traits/{sample}/drep/
+#   - results/mag_traits/{sample}/batches/
+#   - results/mag_traits/{sample}/proteins/
+#   - results/mag_traits/{sample}/genes/
+#   - results/mag_traits/{sample}/summary/
+#
+# 默认情况下会运行 samples 字典中声明的所有样本。
+# 若在命令行仅运行特定样本，可通过参数指定：--config sample=gses_all_rawMAGs_fa_bac
+# ------------------------------------------------------------------------------
+samples:
+  "gses_all_rawMAGs_fa_bac":
+    mag_dir: "data/gses_all_rawMAGs_fa_bac"
+    genome_info: "results/phylogeny/gtdbtk/gses_all_mags_V0/merged_mag_qc_tax_simplified.bac.tsv"
+    taxonomy: "results/phylogeny/gtdbtk/gses_all_mags_V0/merged_mag_qc_tax_simplified.bac.tsv"
+
+  # "gses_all_rawMAGs_fa_ar":
+  #   mag_dir: "data/gses_all_rawMAGs_fa_ar"
+  #   genome_info: "data/gses_all_rawMAGs_fa_V0.genomeInfo.csv"
+
+  "Antarctic_MAGs":
+    genome_dir: "/dssg/home/acct-schhui/gses0/rentianxin/data/Antarctic_MAGs"
+
+# ------------------------------------------------------------------------------
+# 2. 全局向下兼容配置 (单样本模式 fallback，当未配置 samples 字典时生效)
+# ------------------------------------------------------------------------------
+# mag_dir: "data/gses_all_rawMAGs_fa_bac"
+# genome_info: "data/gses_all_rawMAGs_fa_V0.genomeInfo.csv"
+
+# ------------------------------------------------------------------------------
+# 3. 外部显式指定 MAG (可选，用于特定测试分离株或 MAG)
+# ------------------------------------------------------------------------------
+external_genomes: {}
+  # MAG_001:
+  #   path: "data/MAGs/MAG_001.fa"
+  #   # 若已经有预测好的蛋白/核酸，可直接指定以跳过 Prodigal 基因预测:
+  #   # faa: "data/MAGs/MAG_001.faa"
+  #   # ffn: "data/MAGs/MAG_001.ffn"
+  #   # gtdb_lineage: "d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;..."
