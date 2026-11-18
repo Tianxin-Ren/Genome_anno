@@ -130,7 +130,16 @@ python scripts/validate_config.py \
 
 本次改动保留旧项目兼容，没有删除任何用户文件。下一阶段可安全分批处理：
 
-1. 删除或归档 `*冲突副本*`、根目录调试脚本和已确认不用的旧配置。
+1. 删除或归档 `*冲突副本*`、根目录调试脚本和已确认不用的旧配置（已完成第一批清理，移入 `archive/`）。
 2. 将所有规则从手写 `conda run -p` 逐步迁移到统一 helper，或标准 Snakemake `conda:` 声明。
 3. 为每个模块增加最小 dry-run fixture 与配置 schema。
 4. 将规则中的脚本路径改为基于 workflow root 的绝对路径，随后可让每个任务拥有独立 Snakemake working directory，支持完全并发运行。
+
+## 8. 冗余模块收敛约定（避免重复造轮子）
+
+仓库内部分功能模块因历史演进存在能力重叠，新增或修改功能时遵循以下收敛约定：
+
+- **功能注释主干**：新任务优先使用 `modules/unified_annotation/`；`modules/annotation/` 仅保留兼容旧项目及 `circular_evidence` 等特有子流程；`modules/mag_annotation/`（高通量 PyKofamSearch）与 `modules/cog_annotation/` 仅作为专项目标模块维护，不再向旧版 `annotation` 重复堆叠新工具。
+- **Hydrogenase 注释**：`tools/hydrogenase_annotation/` 作为底层分析内核与参考库保留，调度与路径解析统一由 `modules/hydrogenase_annotation/` 经 `common/scripts/runtime.py`（`MODULE_NAMES`）接管，不再扩展外部独立调度入口。
+- **环境与配置入口**：Conda 环境定义统一收口至 `envs/`（重建参考）与 `config/platforms/*.yaml`（运行时挂载），`modules/backup_envs/` 与重复的 `config_mag_annotation/` 已归档至 `archive/`。
+- **单模块脚本归属**：新增仅服务于单一模块的脚本应直接放入 `modules/<module>/scripts/`，避免继续向根目录 `scripts/` 堆积一次性脚本。

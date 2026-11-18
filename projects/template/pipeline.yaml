@@ -8,9 +8,6 @@ paths:
   logs: logs
   work: work
 
-data:
-  samples: "./samples.yaml"
-
 modules:
   preprocess:
     path: "./preprocess.yaml"
